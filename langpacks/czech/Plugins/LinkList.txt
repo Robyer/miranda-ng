@@ -1,0 +1,156 @@
+﻿#muuid {DA0B09F5-9C66-488C-AE37-8A5F191C9079}
+;============================================================
+;  File: LinkList.dll
+;  Plugin: History linklist plus
+;  Version: 0.0.0.2
+;  Authors: Thomas Wendel, gureedo
+;============================================================
+[Generates a list of extracted URIs from the history.]
+Generuje seznam odkazů vyextrahovaných z historie.
+;file \plugins\HistoryLinkListPlus\res\linklist.rc
+[Search]
+Hledat
+[Close]
+Zavřít
+[Search for:]
+Hledat:
+[Message direction]
+Směr posílaných zpráv
+[Message types]
+Druh zpráv
+[All directions]
+Přijaté i odeslané
+[Incoming only]
+Pouze příchozí
+[Outgoing only]
+Pouze odchozí
+[All types]
+Všechny druhy
+[Mail addresses only]
+Jen e-mailové adresy
+[Web addresses only]
+Jen odkazy na stránky
+[Deep search]
+Hledat i ve zprávách
+[Static]
+Statický
+[Color select]
+Výběr barev
+[Incoming messages]
+Příchozí zprávy
+[Plugin default]
+Výchozí
+[Preview]
+Náhled
+[Outgoing messages]
+Odchozí zprávy
+[Background color]
+Barva pozadí
+[Use Miranda settings]
+Použít nastavení Mirandy
+[Text color]
+Barva textu
+[General settings]
+Obecná nastavení
+[Open links always in a new window]
+Otevřít vždy v novém okně prohlížeče
+[Update list on new events]
+Aktualizovat seznam v reálném čase
+[Show whole message on 'mouse over' event]
+Zobrazit zprávu po najetí myší nad odkaz
+[Save window position individually for each contact]
+Uložit informace o umístění okna pro každý kontakt zvlášť
+[Show...]
+Zobrazit...
+[Date]
+Datum
+[Parting line]
+Dělicí linka
+[Timestamp]
+Časový údaj
+[Direction]
+Směr
+[Type]
+Typ
+[&File]
+&Soubor
+[&Save]
+&Uložit
+[&Close]
+&Zavřít
+[&Options]
+M&ožnosti
+[Message &direction]
+&Směr posílaných zpráv
+[&Outgoing messages only]
+Pouze &odchozí zprávy
+[&Incoming messages only]
+Pouze &příchozí zprávy
+[Message &type]
+&Druh zpráv
+[&Web addresses only]
+Pouze &odkazy na stránky
+[&Mail addresses only]
+Pouze e-&mailové adresy
+[&Clear search results]
+&Vymazat seznam nalezených
+[&Search]
+&Hledat
+[link]
+odkaz
+[Open]
+Otevřít
+[Open in new window]
+Otevřít v novém okně
+[Copy to clipboard]
+Zkopírovat do schránky
+[Show message]
+Zobrazit zprávu
+;file \plugins\HistoryLinkListPlus\src\language.h
+[History Linklist]
+Odkazy v historii
+[History is empty!]
+Historie vybraného kontaktu je prázdná!
+[There are no links in history!]
+Historie vybraného kontaktu neobsahuje odkazy!
+[Error]
+Chyba
+[incoming]
+příchozí
+[outgoing]
+odchozí
+[Filter]
+Filtr
+[no filter]
+bez filtru
+[Search filter]
+Vyhledávací filtr
+[no settings]
+bez nastavení
+;file \plugins\HistoryLinkListPlus\src\linklist.cpp
+[&Create Linklist]
+&Vytvořit seznam odkazů
+[History]
+Historie
+[Processing history...]
+Zpracování historie...
+[Could not create window!]
+Nelze sestavit a otevřít okno!
+[Could not allocate memory!]
+Nelze alokovat požadovanou paměť!
+;file \plugins\HistoryLinkListPlus\src\linklist_dlg.cpp
+[Linklist plugin]
+Doplněk 'Linklist'
+;file \plugins\HistoryLinkListPlus\src\linklist_fct.cpp
+[Matches for searchtext]
+Počet položek odpovídajících zadanému
+[Processing list...]
+Zpracování seznamu...
+[No messages found!\nPlease change current filter options.]
+Hledaný řetězec nebyl nalezen!\nPodle potřeby změňte kritéria hledání.
+[RTF file]
+RTF soubor
+[All files]
+Všechny soubory
+[Save RTF File]
+Uložit soubor ve formátu RTF

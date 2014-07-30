@@ -1,0 +1,329 @@
+﻿#muuid {748f8934-781a-528d-5208-001265404ab3}
+;============================================================
+;  File: Tlen.dll
+;  Plugin: Tlen protocol
+;  Version: 2.1.0.0
+;  Authors: Santithorn Bunchua, Adam Strzelecki, Piotr Piastucki
+;============================================================
+[Tlen protocol support for Miranda NG.]
+Tlen protokol pro Mirandu NG.
+;file \protocols\Tlen\res\tlen.rc
+[Username:]
+Uživatel:
+[Password:]
+Heslo:
+[Save password]
+Uložit heslo
+[Create new account]
+Zřídit nový účet
+[Tlen]
+Tlen
+[Options]
+Možnosti
+[Automatically reconnect after unintentional disconnection]
+Po přerušení automaticky navázat spojení
+[Leave status message after disconnection]
+Po odpojení zanechat zprávu stavu
+[Ignore advertisements]
+Ignorovat reklamy
+[Automatically delete contacts not in my roster]
+Automaticky mazat kontakty mimo vlastní seznam
+[Show offline users with status messages as invisible in contact list]
+Zobrazovat offline uživatele se stavovou zprávou jako neviditelné
+[Enable avatars]
+Aktivovat avatary
+[Send and receive client version information]
+Odeslat a přijmout informaci o verzi klienta
+[Alert policy]
+Pravidla pro upozornění
+[Use Nudge plugin]
+Použít doplněk Nudge
+[Log alerts as messages]
+Zaznamenat upozornění jako zprávy
+[Group chat policy]
+Pravidla pro diskuse
+[Image transfer policy]
+Pravidla pro obrázky
+[Voice Chats]
+Hovory
+[Voice chat policy]
+Pravidla pro hovory
+[Recording device:]
+Záznamové zařízení:
+[Playback device:]
+Přehrávací zařízení:
+[Expert Options]
+Možnosti pro experty
+[Login server:]
+Server:
+[Connection Host:]
+Hostitel připojení:
+[Port:]
+Port:
+[Keep connection alive]
+Udržovat spojení
+[Enable encryption]
+Zapnout šifrování
+[Enable Always Visible and Never Visible]
+Povolit vždy viditelní a vždy neviditelní
+[P2P Connections]
+Přímá spojení
+[Use proxy for incoming connections]
+Pro příchozí spojení použít proxy
+[Proxy type:]
+Druh proxy:
+[Proxy server:]
+Proxy server:
+[Proxy requires authorization]
+Proxy vyžaduje autorizaci
+[Mail Notification]
+Oznámení nové pošty
+[Enable incoming mail notification]
+Povolit oznámení o došlé poště
+[Colors]
+Barvy
+[Background]
+Pozadí
+[Text]
+Text
+[Delay]
+Prodleva
+[&From Popup plugin]
+G&lobální nastavení
+[&Custom]
+&Vlastní
+[P&ermanent]
+Trval&e
+[Preview]
+Náhled
+[Tlen Password]
+Tlen :: Heslo
+[Cancel]
+Zrušit
+[Nickname:]
+Přezdívka:
+[First name:]
+Jméno:
+[Last name:]
+Příjmení:
+[E-mail:]
+E-mail:
+[Gender:]
+Pohlaví:
+[Year of birth:]
+Rok narození:
+[City:]
+Město:
+[School:]
+Škola:
+[Occupation:]
+Povolání:
+[Looking for:]
+Hledá:
+[Voice chats]
+Hovory
+[Publicly visible status]
+
+[Save changes]
+Uložit změny
+[Avatar]
+Avatar
+[Avatar Options]
+Nastavení avataru
+[Public avatar]
+Veřejný avatar
+[Tlen login:]
+Tlen login:
+[Subscription:]
+Podepsáno:
+[Software:]
+Software:
+[Version:]
+Verze:
+[System:]
+Systém:
+[Personal Information]
+Osobní informace
+[Age:]
+Věk:
+[to]
+do
+[Extra Search Criteria]
+Extra kritéria pro hledání
+[Status:]
+Stav:
+[Plan:]
+Plan:
+[Tlen Voice Chat]
+
+[Quality]
+Kvalita
+[In]
+Vstup
+[Out]
+Výstup
+[Finish]
+Dokončit
+[Tlen Voice Chat Invitation]
+Pozvánka k hovoru
+[&Accept]
+&Přijmout
+[From:]
+Od:
+[The following invitation to join a voice chat is received.]
+Přišla vám pozvánka k hovoru.
+;file \protocols\Tlen\src\tlen.cpp
+[Protocol icon]
+Ikona protokolu
+[Tlen inbox]
+
+[Group chats]
+Skupinové rozhovory
+[Tlen chats]
+Diskuse
+[Voice chat]
+Telefonní hovor
+[Microphone]
+
+[Speaker]
+
+[Send image]
+Poslat
+[Incoming mail]
+Nová pošta
+[Alert]
+Upozornění
+[Multi-User Conference]
+Diskusní skupina
+[Tlen Mail]
+Pošta Tlen
+[Send picture]
+Odeslat obrázek
+[Voice Chat]
+Hovor
+[Request authorization]
+Požádat o autorizaci
+[Grant authorization]
+Udělit autorizaci
+;file \protocols\Tlen\src\tlen_avatar.cpp
+[Cannot create avatars cache directory. ERROR: %d: %s\n%s]
+Nelze vytvořit složku pro cache avatarů. CHYBA: %d: %s\n%s
+[Cannot save new avatar file "%s" Error:\n\t%s (Error: %d)]
+
+[Error while setting avatar on Tlen account (no response)]
+
+[Error while setting avatar on Tlen account (invalid response)]
+
+[Error while setting avatar on Tlen account]
+
+;file \protocols\Tlen\src\tlen_file.cpp
+[1 File]
+1 soubor
+[%d Files]
+%d soubory
+;file \protocols\Tlen\src\tlen_iqid.cpp
+[Authentication failed for %s@%s.]
+
+[Tlen Authentication]
+
+;file \protocols\Tlen\src\tlen_opt.cpp
+[General]
+Obecné
+[Advanced]
+Extra
+[Notifications]
+Upozornění
+[Network]
+Sítě
+[These changes will take effect the next time you connect to the Tlen network.]
+
+[Tlen Protocol Option]
+
+[Accept all alerts]
+Přijmout všechna upozornění
+[Ignore alerts from unauthorized contacts]
+Ignorovat upozornění od neautorizovaných kontaktů
+[Ignore all alerts]
+Ignorovat všechna upozornění
+[Always ask me]
+Vždy se zeptat
+[Accept invitations from authorized contacts]
+Přijmout pozvání od autorizovaných kontaktů
+[Accept all invitations]
+Přijmout všechny pozvání
+[Ignore invitations from unauthorized contacts]
+Ignorovat pozvání od neautorizovaných kontaktů
+[Ignore all invitation]
+Ignorovat všechna pozvání
+[Accept all images]
+Přijmout všechny obrázky
+[Ignore images from unauthorized contacts]
+Ignorovat obrázky od neautorizovaných kontaktů
+[Ignore all images]
+Ignorovat všechny obrázky
+[<Last message>]
+<poslední zpráva>
+[Forwarding]
+Přeposílání
+[%S mail]
+
+;file \protocols\Tlen\src\tlen_picture.cpp
+[Image sent file://%s]
+
+[Image received file://%s]
+
+;file \protocols\Tlen\src\tlen_svc.cpp
+[Tlen login]
+
+[You need to be connected to Tlen account to set avatar.]
+
+;file \protocols\Tlen\src\tlen_thread.cpp
+[Enter password for %s]
+Zadejte heslo pro %s
+[Tlen Connection Error]
+Tlen :: Chyba spojení
+[%s Web Messages]
+
+[Web message]
+
+[From]
+Od
+[E-mail]
+E-mail
+[An alert has been received.]
+
+[Private conference]
+
+[%s mail]
+
+[Subject]
+Předmět
+;file \protocols\Tlen\src\tlen_userinfo.cpp
+[Account]
+Účet
+[both]
+oboje
+[from]
+od
+[none]
+---
+[not on roster]
+není v seznamu
+;file \protocols\Tlen\src\tlen_voice.cpp
+[...Connecting...]
+
+[...Waiting for connection...]
+
+[...Finished...]
+
+[...Error...]
+
+[...Denied...]
+
+[Default]
+Výchozí
+;file \protocols\Tlen\src\tlen_ws.cpp
+[%s connection]
+%s - spojení se serverem
+[%s SOCKS connection]
+

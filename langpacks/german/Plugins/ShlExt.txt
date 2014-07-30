@@ -1,0 +1,50 @@
+﻿#muuid {7993ab24-1fda-428c-a89b-be377a10be3a}
+;============================================================
+;  File: ShlExt.dll
+;  Plugin: Shell extension
+;  Version: 2.2.0.3
+;  Authors: Sam Kothari, Miranda NG Team
+;============================================================
+[Windows Explorer extension for Miranda NG.]
+Windows Explorer Erweiterung für Miranda NG.
+;file \plugins\ShellExt\res\shldlgs.rc
+[Display contacts in their assigned groups (if any)]
+Zeige Kontakte in ihren zugewiesenen Gruppen
+[Only if/when the contact list is using them]
+Nur, wenn Kontaktliste Gruppen anzeigt
+[Display hidden, ignored or temporary contacts]
+Versteckte, ignorierte oder temporäre Kontakte anzeigen
+[Menus]
+Menüs
+[Shell Status]
+Status der Einbindung
+[Shell context menus]
+Shell-Kontextmenüs
+[Do not display the profile name in use]
+Namen des benutzten Profils nicht anzeigen
+[Show contacts that you have set privacy rules for]
+Kontakte anzeigen, für die andere Privatsphärenregeln gelten
+[Remove]
+Entfernen
+[Do not show status icons in menus]
+Kein Statusicon in den Menüs anzeigen
+[Do not show contacts that are offline, even if my contact list does]
+Keine Offlinekontakte anzeigen, unabhängig von Einstellungen der Kontaktliste
+;file \plugins\ShellExt\src\options.cpp
+[Problem, registration missing/deleted.]
+Fehler, Registrierung fehlgeschlagen/gelöscht.
+[Successfully created shell registration.]
+Erfolgreich im Explorer integriert.
+[Not Approved]
+Nicht bestätigt
+[Approved]
+Bestätigt
+[Are you sure? This will remove all the settings stored in your database and all registry entries created for shlext to work with Explorer]
+Sind Sie sich sicher? Alle Einstellungen im Profil sowie alle Registrierungseinträge, die Miranda in den Explorer einbinden, werden gelöscht
+[Disable/Remove shlext]
+ShlExt deaktivieren/entfernen
+;file \plugins\ShellExt\src\shlcom.cpp
+[Recently]
+Zuletzt
+[Clear entries]
+Einträge löschen

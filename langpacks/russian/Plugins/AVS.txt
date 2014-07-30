@@ -1,0 +1,137 @@
+﻿#muuid {e00f1643-263c-4599-b84b-053e5c511d29}
+;============================================================
+;  File: AVS.dll
+;  Plugin: Avatar service
+;  Version: 0.95.2.2
+;  Authors: Nightwish, Pescuma
+;============================================================
+[Loads and manages contact pictures for other plugins.]
+Загружает и управляет аватарами для других плагинов.
+[The pictures you can set here are used as default avatars\nfor contacts that don't have their own.\nUse the checkboxes to enable/disable showing avatars for the protocols.]
+Установленные здесь изображения являются аватарами для контактов, у которых нет своего аватара. Галочка включает/выключает отображение стандартного аватара для протоколов.
+[Set default picture]
+Установить стандартное
+[Delete default picture]
+Удалить стандартное
+[CAUTION: These pictures are NOT your own avatars.\nTo set your own Avatar go to Main menu | View/change my details | Avatars.]
+ПРЕДУПРЕЖДЕНИЕ: Эти изображения НЕ ВАШИ аватары. Установить свой аватар вы можете через "Главное меню -> Личные данные -> Аватары".
+[Try to draw avatar background transparent (for images without transparency)]
+Выводить фон аватара прозрачным (для аватаров без прозрачности)
+[Number of points to define background:]
+Количество точек фона:
+[Color difference allowed:]
+Разрешённая разница цветов:
+[Make transparency proportional to color diff]
+Прозрачность пропорциональна разнице цвета
+[Draw avatars grayscale]
+Рисовать аватары чёрно-белыми
+[Show warning messages]
+Показывать предупреждения
+[When setting avatars, always make them square]
+Делать аватары квадратными при установке
+[Try to draw own avatar background transparent (for images without transparency)]
+Выводить фон своего аватара прозрачным (для аватаров без прозрачности)
+[This uses the same additional options as in "Contact avatars" tab]
+Дополнительные настройки во вкладке "Аватары контактов"
+[Protect the picture and prevent automatic avatars from overwriting it]
+Защитить изображение и не позволять аватарам его заменять
+[Make the avatar square]
+Сделать аватар квадратным
+[Resize the avatar to fit max allowed protocol size]
+Изменить размер аватара до максимально возможного размера
+[Dialog]
+Диалог
+[Contact picture]
+Аватар контакта
+[Change]
+Изменить
+[Delete]
+Удалить
+[Reset]
+Сброс
+[Picture options]
+Настройки изображения
+[Protect the picture]
+Защитить изображение
+[Set as hidden]
+Скрыть
+[Try to make picture background transparent]
+Попробовать сделать фон прозрачным
+[Use defaults]
+Стандартные
+[Cancel]
+Отмена
+[Options]
+Настройки
+[Background]
+Фон
+[Transparent]
+Прозрачно
+[Points:]
+Точки:
+[Color diff:]
+Изм.цвета:
+[Set]
+Выбрать
+[Use per protocol avatars]
+Разные аватары протоколов
+[Protocols have different avatars]
+У всех протоколов разные аватары
+[Global avatar]
+Глобальный аватар
+[Global avatar for %s accounts]
+Аватар для всех уч. записей %s
+[Avatars]
+Аватары
+[My Avatars]
+Мои аватары
+[My Global Avatar Cache]
+Мой глобальный кэш аватаров
+[Fatal error, image services not found. Avatar services will be disabled.]
+Фатальная ошибка, служба изображений не найдена. Служба аватаров будет отключена.
+[Avatar Service]
+Служба аватар
+[Set avatar options for %s]
+Настройки аватара для %s
+[Delete picture file from disk (may be necessary to force a reload, but will delete local pictures)?]
+Удалить аватар с диска (возможно, необходимо для сброса, но удалит локальное изображение)?
+[Reset contact picture]
+Сброс аватара контакта
+[Contact has no avatar]
+У контакта нет аватара
+[Contacts]
+Контакты
+[Protocols]
+Протоколы
+[Contact avatars]
+Аватары контактов
+[Own avatars]
+Свои аватары
+[No avatar]
+Без аватара
+[Are you sure you want to remove your avatar?]
+Вы хотите удалить ваш аватар?
+[Global Avatar]
+Глобальный аватар
+[Avatar]
+Аватар
+[All Files]
+Все файлы
+[Windows Bitmaps]
+Изображения Windows Bitmap
+[JPEG Bitmaps]
+Изображения JPEG
+[GIF Bitmaps]
+Изображения GIF
+[PNG Bitmaps]
+Изображения PNG
+[Flash Animations]
+Flash анимация
+[XML Files]
+XML файлы
+[Grow avatar to fit max allowed protocol size]
+Увеличивать аватар до максимального размера
+[Set My Avatar]
+Установить мой аватар
+[Set My Avatar for %s]
+Сменить мой аватар для %s

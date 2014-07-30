@@ -1,0 +1,73 @@
+﻿#muuid {21948c89-b549-4c9d-8b4f-3f3726ec6b4b}
+;============================================================
+;  File: Cln_skinedit.dll
+;  Plugin: Skin editor for clist nicer
+;  Version: 0.0.0.4
+;  Authors: Nightwish, Pixel
+;============================================================
+[Allows inline skin item editing for clist nicer.]
+Umožňuje úpravu skinu pro clist nicer.
+;file \plugins\Clist_nicer\skineditor\res\skinedit.rc
+[Skin items]
+Položky skinu
+[General]
+Obecné
+[Gradient]
+Gradient
+[Left to right]
+Zleva doprava
+[Right to left]
+Zprava doleva
+[Top to bottom]
+Shora dolů
+[Bottom to top]
+Zdola nahoru
+[Round corners]
+Zaoblit rohy
+[Top-Left]
+Levý horní
+[Top-Right]
+Pravý horní
+[Bottom-Right]
+Pravý dolní
+[Bottom-Left]
+Levý dolní
+[Item colors]
+Definice barev
+[First color]
+Barva 1
+[Text color]
+Barva textu
+[Second color]
+Barva 2
+[Transparent]
+Průhlednost
+[Alpha (percent)]
+Průhlednost (v %)
+[Item margins]
+Odstup od okraje
+[Item borders]
+Okraj položky
+[Border style]
+Vzhled okraje
+[3D border (bright / dark)]
+Barvy plastického okraje
+[Item ignored]
+Ignorovat položku
+[Dialog]
+Dialog
+[Not yet supported]
+<zatím mimo provoz>
+;file \plugins\Clist_nicer\skineditor\src\main.cpp
+[Copy from]
+Zkopírovat z
+[<None>]
+Není
+[Raised]
+Vystouplý
+[Sunken]
+Zanořený
+[Bumped]
+Vystouplý (s rámováním)
+[Etched]
+Zanořený (s rámováním)

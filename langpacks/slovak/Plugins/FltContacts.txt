@@ -1,0 +1,106 @@
+﻿#muuid {53c715a8-eb01-4136-a73c-441868610074}
+;============================================================
+;  File: FltContacts.dll
+;  Plugin: Floating contacts
+;  Version: 0.7.0.1
+;  Authors: Iavor Vajarov, Kosh&chka, Victor Pavlychko
+;============================================================
+[Floating Contacts plugin for Miranda.]
+Doplnok pre možnosť "plávajúcich" kontaktov pre Mirandu NG.
+;file \plugins\FloatingContacts\res\fltcnt.rc
+[Hiding contacts]
+
+[Hide offline contacts]
+
+[Stick together]
+
+[Use fixed width]
+
+[pixels]
+pixelov
+[Hide all contacts]
+
+[Hide when a fullscreen app is active]
+
+[Show tooltips*]
+
+[ms]
+
+[Tooltips]
+
+[Miscellaneous]
+
+[0 = Default]
+
+[*requires Tipper plugin]
+
+[Bring to front]
+
+[Bring to front every]
+
+[seconds]
+sekúnd
+[Hide when contact list is shown]
+
+[Single click interface]
+Nepoužívať dvojklik myšou
+[Dim idle contacts]
+
+[Idle contacts]
+
+[Border]
+
+[Draw border]
+
+[Left-top edge's color:]
+
+[Right-bottom edge's color:]
+
+[Background]
+Pozadie
+[Background color:]
+Farba pozadia:
+[Use background bitmap]
+Použiť obrázok na pozadí
+[Stretch to width]
+Roztiahnúť na šírku
+[Stretch to height]
+Roztiahnúť na výšku
+[Tile horizontally]
+Vedľa seba
+[Tile vertically]
+Nad sebou
+[Stretch proportionally]
+Roztiahnúť veľkosť
+[Opacity:]
+
+;file \plugins\FloatingContacts\src\main.cpp
+[Standard contacts]
+Štandardné kontakty
+[Online contacts to whom you have a different visibility]
+Pripojený užívatelia ku ktorým máte nastavenú odlišnú viditelnosť
+[Offline contacts]
+Odpojený užívatelia
+[Offline contacts to whom you have a different visibility]
+Odpojený užívatelia ku ktorým máte nastavenú odlišnú viditelnosť
+[Contacts which are 'not on list']
+Užívatelia ktorí niesu v zozname
+[Floating contacts]
+
+[Show all thumbs]
+
+[Hide all thumbs]
+
+[Remove thumb]
+
+[Show/Hide all thumbs]
+
+;file \plugins\FloatingContacts\src\options.cpp
+[Floating Contacts]
+
+[Contact list]
+Zoznam kontaktov
+[Main Features]
+
+[Appearance]
+

@@ -1,0 +1,373 @@
+﻿#muuid {a8a417ef-07aa-4f37-869f-7bfd74886534}
+;============================================================
+;  File: DbEditorPP.dll
+;  Plugin: Database editor++
+;  Version: 3.2.0.1
+;  Authors: Bio, Jonathan Gordon
+;============================================================
+[Advanced Database Editor.]
+Расширенный редактор базы.
+[Database Editor++ search and replace]
+Найти и заменить
+[Search for]
+Искать
+[Text:]
+Текст:
+[In:]
+В:
+[Case sensitive]
+Учёт регистра
+[Module name]
+Модуль
+[Exact match]
+Точное соотв.
+[Setting name]
+Имя настройки
+[Setting value]
+Значение
+[&Search]
+&Искать
+[Replace with]
+Заменить на
+[Entirely]
+Полностью
+[Found field]
+Найдено поле
+[&Replace]
+&Заменить
+[&Cancel]
+О&тмена
+[Restore last opened position]
+Восстановить последнее положение
+[Automatically expand "Settings" when Database Editor++ starts]
+Автоматически раскрывать "Настройки" при запуске
+[Warn when deleting modules]
+Предупреждать при удалении модулей
+[Use popups when watched settings change values]
+Всплывающие окна при изменении наблюдаемых значений
+[Popup timeout (0 for infinite)]
+Длительность (0 = оставить)
+[Background color]
+Цвет фона
+[Add a module to contact]
+Добавить модуль в контакт
+[Add a module named]
+Добавить модуль с названием
+[Add to all contacts (including Settings)]
+Во все контакты (включая настройки)
+[Cancel]
+Отмена
+[Edit setting]
+Редактировать настройку
+[Value name:]
+Имя:
+[Value data:]
+Значение:
+[Base]
+Основание
+[Hexadecimal]
+Шестнадц.
+[Decimal]
+Десятичное
+[Save value as:]
+Сохранить как:
+[Byte]
+Байт
+[Word]
+Слово
+[Dword]
+Дв. слово
+[String]
+Строка
+[Watched database settings]
+Настройки под наблюдением
+[Copy module to contact]
+Копировать модуль в контакт
+[Contact to copy module and settings to]
+Копировать модуль и настройки в
+[Copy to all contacts (including Settings)]
+Во все контакты (и общие настройки)
+[Import module/settings]
+Импортировать модуль/настройки
+[Paste the settings to import here.]
+Вставьте настройки сюда.
+[Import]
+Импорт
+[Insert &CR/LF]
+Вставить &CR/LF
+[Database Editor++]
+Редактор базы
+[&Main]
+&Главное
+[&Refresh modules]
+&Обновить модули
+[Refresh &settings]
+Обновить &настройки
+[E&xit]
+Вы&ход
+[&Actions]
+&Действия
+[&Search and replace]
+&Найти и заменить
+[&Delete module]
+&Удалить модуль
+[&Watches]
+&Наблюдения
+[&View all]
+&Смотреть все
+[&Delete all]
+&Удалить все
+[&Export]
+&Экспорт
+[Entire &database]
+Всю &базу
+[All &settings]
+Все &настройки
+[All &contacts]
+Все &контакты
+[&Import]
+&Импорт
+[From a &file]
+Из &файла
+[From pasted &text]
+Из вставленного &текста
+[&Options]
+&Настройки
+[&Sort by protocol]
+Сортировать по &протоколу
+[Show &all]
+Показать &все
+[Show only &loaded]
+Показать только &загруженные
+[Show only &unloaded]
+Показать только в&ыгруженные
+[Edit &Bytes in Hex]
+&Байты в шестнадцатеричном виде
+[Edit &Words in Hex]
+&Слова в шестнадцатеричном виде
+[Edit &Dwords in Hex]
+&Двойные слова в шестнадцатеричном виде
+[&Restore position]
+В&осстанавливать положение
+[&Open options]
+&Открыть настройки
+[&Edit/rename]
+&Править/переименовать
+[New]
+Создать
+[&Byte]
+&Байт
+[&Word]
+&Слово
+[&Dword]
+&Двойное слово
+[&String]
+С&трока
+[&Unicode]
+&Юникод
+[&Convert to]
+&Перевести в
+[Encyption]
+&Шифрование
+[View decrypted string]
+Просмотреть расшифрованную строку
+[View encrypted string]
+Просмотреть зашифрованную строку
+[Decrypt string]
+Расшифровать строку
+[Encrypt string]
+Зашифровать строку
+[&Watch]
+&Наблюдать
+[&Delete]
+&Удалить
+[&Rename]
+&Переименовать
+[Copy to contact]
+Копировать в контакт
+[Export module]
+Экспортировать модуль
+[&Clone]
+&Клонировать
+[Export contact]
+Экспортировать контакт
+[Import settings]
+Импортировать настройки
+[From a file]
+Из файла
+[From pasted text]
+Из вставленного текста
+[&Add module]
+&Добавить модуль
+[Export settings]
+Экспортировать настройки
+[Export contacts]
+Экспортировать контакты
+[Import contacts]
+Импортировать контакты
+[Export module from all contacts]
+Экспортировать модуль из всех контактов
+[Watch window]
+Окно наблюдений
+[Reload watch list]
+Обновить список наблюдений
+[Cannot Convert!]
+Не могу конвертировать!
+[New BYTE value]
+Создать байт
+[Edit BYTE value]
+Редактировать байт
+[New WORD value]
+Создать слово
+[Edit WORD value]
+Редактировать слово
+[New DWORD value]
+Создать двойное слово
+[Edit DWORD value]
+Редактировать двойное слово
+[New STRING value]
+Создать строку
+[Edit STRING value]
+Редактировать строку
+[New UNICODE value]
+Создать значение Unicode
+[Edit UNICODE value]
+Редактировать значение Unicode
+[New BLOB value]
+Создать BLOB
+[Edit BLOB value]
+Редактировать BLOB
+[Couldn't allocate enough memory!]
+Невозможно выделить память!
+[Settings]
+Настройки
+[Are you sure you want to delete module "%s"?]
+Удалить модуль "%s"?
+[Confirm module deletion]
+Удалить модуль?
+[Delete module from database]
+Удалить модуль из базы
+[Delete module from database... Loading]
+Удаление модуля из базы... Загрузка
+[Delete module from all contacts (including Setting)]
+Удалить из всех контактов (с настройками)
+[INI Files]
+INI файлы
+[All Files]
+Все файлы
+[Export to file]
+Экспорт
+[Error loading module list]
+Ошибка при загрузке списка модулей
+[Couldn't open file for writing]
+Не удается открыть файл на запись
+[Import from files]
+Импорт из файлов
+[Enter a string to search the database for]
+Введите строку поиска
+[Stop]
+Стоп
+[Replaced with]
+Заменено на
+[Deleted]
+Удалено
+[Found]
+Найдено
+[%s Module "%s" in contact "%s"]
+%s модуль "%s" в контакте "%s"
+[%s Setting "%s" in module "%s" in contact "%s" - "%s"]
+%s настройка "%s" в модуле "%s" контакта "%s" - "%s"
+[%s Setting "%s" in module "%s" in contact "%s"]
+%s настройка "%s" в модуле "%s" контакта "%s"
+[%s "%s" in Setting "%s" in module "%s" in contact "%s"]
+%s "%s" в настройке "%s" в модуле "%s" контакта "%s"
+[Searching...]
+Поиск...
+[Error Loading Setting List]
+Ошибка загрузки списка настроек
+[Finished. %d items were found, %d items were deleted.]
+Поиск завершен, найдено %d и удалено %d элемент(ов).
+[Finished. %d items were found, %d items were replaced.]
+Поиск завершен, найдено %d и заменено %d элемент(ов).
+[Finished. %d items were found.]
+Поиск завершен, найдено %d элемент(ов).
+[Main icon]
+Основной значок
+[Closed known module]
+Известный модуль (закрыт)
+[Open known module]
+Известный модуль (открыт)
+[Contacts group]
+Группа контактов
+[Unknown contact]
+Неизвестный контакт
+[Known contact]
+Известный контакт
+[Handle]
+Название
+[Open Database Editor]
+Открыть редактор базы
+[Open user tree in DBE++]
+Открыть в редакторе базы
+[Are you sure you want to delete contact "%s"?]
+Вы уверены, что хотите удалить контакт "%s"?
+[Confirm contact delete]
+Подтверждение удаления контакта
+[Loading contacts...]
+Загрузка контактов...
+[Loading modules...]
+Загрузка модулей...
+[Module tree not found]
+Дерево модулей не найдено
+[Contacts]
+Контакты
+[HANDLE]
+Название
+[Add module to contact "%s"]
+Добавить модуль контакту "%s"
+[Database]
+Профиль
+[Name]
+Имя
+[Data]
+Данные
+[Type]
+Тип
+[Size]
+Размер
+[*** encrypted ***]
+*** зашифровано ***
+[UNICODE]
+юникод
+[BYTE]
+байт
+[WORD]
+слово
+[DWORD]
+дв. слово
+[STRING]
+строка
+[<unsupported>]
+<не поддерживается>
+[<unknown>]
+<неизвестно>
+[Decoded string..]
+Расшифрованная строка
+[Encoded string..]
+Зашифрованная строка
+[Contact]
+Контакт
+[Module]
+Модуль
+[Setting]
+Параметр
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: (BYTE) %d]
+Изменена настройка базы: \nмодуль: "%s" , настройка: "%s"\nновое значение: (байт) %d
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: (WORD) %d]
+Изменена настройка базы: \nмодуль: "%s" , настройка: "%s"\nновое значение: (слово) %d
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: (DWORD) 0x%X]
+Изменена настройка базы: \nмодуль: "%s" , настройка: "%s"\nновое значение: (двойное слово) 0x%X
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: "%s"]
+Изменена настройка базы: \nмодуль: "%s" , настройка: "%s"\nновое значение: "%s"
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value (UTF8): "%s"]
+Изменена настройка БД: \nМодуль: "%s" , Настройка: "%s"\nНовое значение: (UTF8) "%s"

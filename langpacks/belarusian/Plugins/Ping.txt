@@ -1,0 +1,167 @@
+﻿#muuid {760ea901-c0c2-446c-8029-94c3bc47c45e}
+;============================================================
+;  File: Ping.dll
+;  Plugin: Ping
+;  Version: 0.9.1.1
+;  Authors: Scott Ellis
+;============================================================
+[Ping labelled IP addresses or domain names.]
+Пінгуе IP адрас ці даменнае імя.
+;file \plugins\Ping\res\ping.rc
+[Delay between pings (secs):]
+Затрымка паміж пінгамі (сек):
+[Timeout]
+Затрымка
+[Ping timeout (secs):]
+Затрымка пінгаў (сек):
+[Logging]
+Гісторыя
+[Log to File]
+Лог файл
+[Log Filename:]
+Імя лог файла:
+[Network]
+Сеціва
+[Popups]
+Усплывальныя вокны
+[Reply]
+Адказ
+[Block Repetitions]
+Без паўтораў
+[View Log]
+Журнал
+[Browse...]
+Адкрыць...
+[Interface]
+Выгляд
+[Do not change icon when testing]
+Не змяняць абразок пры праглядзе
+[Use the Customize/Fonts options to change text size and color.]
+Налада шрыфтоў у "Тонкая налада->Шрыфты і колеры"
+[Indent:]
+Водступ:
+[Row height:]
+Вышыня радка:
+[Repeats for success/failure:]
+Паўтараць да выніку:
+[Attach to contact list]
+Дадаць у спіс
+[Use CSV format]
+Фармат CSV
+[Add]
+Дадаць
+[Remove]
+Выдаліць
+[Edit]
+Змяніць
+[Up]
+Угару
+[Down]
+Уніз
+[Edit Host]
+Кіраваць хост
+[Cancel]
+Скасаваць
+[Address:]
+Адрас:
+[Label:]
+Пазнака:
+[TCP Connect]
+TCP злучэнне
+[Port:]
+Порт:
+[Control Protocol:]
+Пратакол:
+[Set my status to:]
+Усталяваць мой статус у:
+[On success, if my status is:]
+Пры поспеху, калі мой статус:
+[Execute the following command on double-click:]
+Выканаць наступную каманду па падвойным кліку:
+[Contact]
+Кантакт
+[Protocols]
+Пратаколы
+[(Optional) Command Parameters:]
+Параметры каманды (дадаткова):
+[Menu]
+Меню
+[Graph]
+Граф
+[Enable]
+Уключана
+[Disable all pings]
+Выключыць усе пінгі
+[Enable all pings]
+Уключыць усе пінгі
+[Options...]
+Налады...
+[Hosts...]
+Хасты...
+;file \plugins\Ping\src\menu.cpp
+[Ping]
+Пінг
+;file \plugins\Ping\src\options.cpp
+[Text Files (*.txt)]
+Тэкставыя файлы (*.txt)
+[All Files]
+Усе файлы
+[Open log file]
+Глядзець гістроыю
+[<none>]
+<не>
+[<all>]
+<усё>
+[Settings]
+Налады
+[Hosts]
+Хасты
+;file \plugins\Ping\src\ping.cpp
+[Ping Plugin]
+Плагін пінг
+;file \plugins\Ping\src\pinggraph.cpp
+[Show grid lines]
+Паказваць лініі
+[Show stats]
+Статыстыка
+[%d ms]
+%d мс
+[AVG %.1lf ms]
+СРДН %.1lf мс
+[MAX %hd ms]
+МАКС %hd мс
+[MIN %hd ms]
+МІН %hd мс
+;file \plugins\Ping\src\pingthread.cpp
+[%s - setting status of protocol '%S' (%d)]
+%d - устаноўка статусу пратаколу '%S' (%d)
+[%s - reply, %d]
+%s - адказ, %d
+[%s - timeout]
+%s - затрымка
+[Disable]
+Выключыць
+[enabled]
+уключаны
+[double clicked]
+падвойны націск
+[Show/Hide &Ping Window]
+Паказаць/схаваць вакно
+[List]
+Спіс
+;file \plugins\Ping\src\rawping.cpp
+[Host %s requests that you reduce the amount of traffic you are sending.]
+Хост %s патрабуе паменшыць колькасць пасыланага вамі трафіку.
+;file \plugins\Ping\src\utils.cpp
+[Unknown Address]
+Невядомы адрас
+[Unknown]
+Невядома
+[Responding]
+Адказвае
+[Not Responding]
+Не адказвае
+[Testing]
+Тэставанне
+[Disabled]
+Выключаны

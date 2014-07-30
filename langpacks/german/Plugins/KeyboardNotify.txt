@@ -1,0 +1,216 @@
+﻿#muuid {119d7288-2050-448d-9900-d86ac70426bf}
+;============================================================
+;  File: KeyboardNotify.dll
+;  Plugin: Keyboard notify ext.
+;  Version: 1.5.7.7
+;  Authors: TioDuke
+;============================================================
+[Flashes your keyboard LEDs when a message has arrived.]
+Lässt Ihre Tastatur-LEDs blinken, wenn eine neue Nachricht empfangen wird.
+;file \plugins\KeyboardNotify\res\resources.rc
+[Accounts to check]
+Folgende Konten prüfen
+[Events to react on]
+Auf folgende Ereignisse reagieren
+[Incoming messages]
+Eingehende Nachrichten
+[Incoming files]
+Eingehende Dateien
+[Incoming URLs]
+Eingehende URLs
+[Everything else]
+Der ganze Rest
+[Message-Event only]
+Nur Textnachrichten
+[Blink if message window is open]
+Blinken, wenn Fenster geöffnet
+[and not in foreground]
+und nicht im Vordergrund ist
+[Only if last is]
+Nur wenn letzte
+[sec. old]
+s alt ist
+[Flash until]
+Blinken bis
+[seconds]
+Sekunden
+[is re-attended]
+reaktiviert wird
+[Events are opened]
+Ereignisse geöffnet werden
+[End of 'notify when' conditions]
+Blink-Bedingungen enden
+[Notify when]
+Blinken wenn
+[Full Screen mode]
+Vollbildmodus
+[Screen Saver is running]
+Bildschirmschoner läuft
+[Workstation is locked]
+Arbeitsstation gesperrt ist
+[Defined programs are running]
+Bestimmte Programme laufen
+[All other situations]
+Auch sonst immer
+[Only notify if status is]
+Nur benachrichtigen, wenn Status
+[Online]
+Online
+[Away]
+Abwesend
+[Occupied]
+Beschäftigt
+[NA]
+Außer Haus
+[DND]
+Bitte nicht stören
+[Free for chat]
+Für Chat bereit
+[Invisible]
+Unsichtbar
+[On the phone]
+Am Telefon
+[Out to lunch]
+Zum Essen
+[Pending Events]
+Abhängige Ereignisse
+[Remind me every]
+Erinnern alle
+[minutes]
+Minuten
+[Offline]
+Offline
+[xStatuses]
+XStatus
+[Keys to flash]
+Folgende LEDs
+[Num Lock]
+Num Lock
+[Caps Lock]
+Caps Lock
+[Scroll Lock]
+Scroll Lock
+[Flashing effects]
+Blinkeffekte
+[All at the same time]
+Alle gleichzeitig
+[In turn]
+Abwechselnd
+[In sequence]
+In Reihe
+[Custom theme]
+Eigenes Schema
+[Accordingly to events' count]
+Nach Art der Ereignisse
+[Wait before starting flashing]
+Vor Blinken warten
+[Flash speed]
+Blinkgeschwindigkeit
+[Fast]
+Schnell
+[Slow]
+Langsam
+[&Preview]
+Vorschau
+[Emulate key presses (Use this option if you are using a USB keyboard)]
+Tastendruck simulieren (diese Option bei Verwendung einer USB-Tastatur aktivieren)
+[Create/Edit Themes]
+Schemas erstellen/bearbeiten
+[Theme]
+Schema
+[Test]
+Testen
+[Add]
+Hinzufügen
+[Update]
+Aktualisieren
+[Delete]
+Löschen
+[Import/Export]
+Importieren/Exportieren
+[Export...]
+Exportieren...
+[Import...]
+Importieren...
+[Override existing]
+Existierende überschreiben
+[Set program list]
+Programmliste festlegen
+[Program]
+Programm
+[Cancel]
+Abbrechen
+[Set LEDs for events]
+LEDs für Ereignisse auswählen
+[Num]
+Num
+[Caps]
+Caps
+[Scroll]
+Scroll
+[Message events]
+Nachrichten-Ereignisse
+[File events]
+Datei-Ereignisse
+[URL events]
+URL-Ereignisse
+[Other events]
+Sonstige Ereignisse
+[Consider event opened after]
+Betrachte Ereignis geöffnet nach
+[Use custom theme]
+Eigenes Theme verwenden
+[The following events are being ignored:]
+Die folgenden Ereignisse werden ignoriert:
+[Ignore messages]
+Nachrichten ignorieren
+[Ignore URLs]
+URLs ignorieren
+[Ignore files]
+Dateien ignorieren
+[Ignore others]
+Anderes ignorieren
+[Ignore all]
+Alle ignorieren
+[Ignore none]
+Nichts ignorieren
+[Ignore]
+Ignorieren
+[Set xStatus list]
+Stelle XStatus Liste ein
+;file \plugins\KeyboardNotify\src\ignore.cpp
+[** All contacts **]
+** Alle Kontakte **
+[** Unknown contacts **]
+** Unbekannte Kontakte **
+;file \plugins\KeyboardNotify\src\options.cpp
+[left->right]
+links->rechts
+[right->left]
+rechts->links
+[left<->right]
+links<->rechts
+[Keyboard Flash]
+Tastaturblinken
+[Events]
+Ereignisse
+[Accounts]
+Konten
+[Rules]
+Regeln
+[Flashing]
+Blinken
+[Themes]
+Schemas
+[Protocol]
+Protokoll
+[Keyboard Notify Theme]
+Tastaturblinker-Schemas
+[All Files]
+Alle Dateien
+[\n; Automatically generated Keyboard Notify Theme file\n\n\n]
+\n; Automatisch erzeugte Keyboard-Notify-Designdatei\n\n\n
+[\n; End of automatically generated Keyboard Notify Theme file\n]
+\n; Ende der automatisch erzeugten Keyboard-Notify-Designdatei\n
+[None]
+Keine

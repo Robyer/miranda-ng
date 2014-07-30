@@ -1,0 +1,88 @@
+﻿#muuid {c5ef53a8-80d4-4ce9-b341-ec90d3ec9156}
+;============================================================
+;  File: ChangeKeyboardLayout.dll
+;  Plugin: Change keyboard layout
+;  Version: 0.0.1.6
+;  Authors: Yasnovidyashii
+;============================================================
+[Plugin for changing keyboard layout of text (multilayout).]
+Doplněk pro změnu rozvržení klávesnice.
+;file \plugins\ChangeKeyboardLayout\res\ChangeKeyboardLayout.rc
+[Hotkeys]
+Klávesové zkratky
+[Changing layout:]
+Změna rozvržení:
+["Current word" mode]
+Režim "Aktuální slovo"
+[Changing layout (alternative):]
+Změna rozvržení (alternativní):
+[Inverting lettercase:]
+Inverze velikosti písmen:
+[Options]
+Možnosti
+[Two-way changing layout (experimental)]
+Dvojcestná změna rozvržení (experimentální)
+[Log operations]
+Zaznamenávat operace
+[Copy result to clipboard]
+Zkopírovat výsledek do schránky
+[Show result in Popup]
+Zobrazit výsledek v oznámení
+[Strings for keyboard layouts]
+Řetězce pro rozvržení klávesnice
+[Default]
+Výchozí
+[Invert current state]
+Invertovat aktuální stav
+[Switch off]
+Zrušit
+[Leave as it is]
+Ponechat tak jak je
+[Set Caps Lock state when inverting lettercase:]
+Přepnout Caps Lock při inverzi velikosti písmen:
+[Change active keyboard layout in system]
+Změnit aktivní rozvržení klávesnice v systému
+[Colors]
+Barvy
+[Popup colors]
+Barvy oznámení
+[Windows colors]
+Barvy Windows
+[Custom colors]
+Vlastní barvy
+[Back]
+Pozadí
+[Text]
+Text
+[Timeout]
+Doba zobrazení
+[From Popup plugin]
+Globální nastavení
+[Permanent]
+Trvale
+[Custom]
+Vlastní
+[On left click]
+Levé tlačítko
+[Copy to clipboard]
+Zkopírovat do schránky
+[Dismiss]
+Vyřízeno
+[On right click]
+Pravé tlačítko
+[Preview]
+Náhled
+;file \plugins\ChangeKeyboardLayout\src\commonheaders.h
+[ChangeKeyboardLayout]
+Změna rozvržení klávesnice
+;file \plugins\ChangeKeyboardLayout\src\hook_events.cpp
+[Popup]
+Oznámení
+[Changing Layout]
+Změna rozvržení
+[Changing Case]
+Změna velikosti písmen
+[Message Sessions]
+Komunikace
+[Popups]
+Oznámení

@@ -1,0 +1,1201 @@
+﻿#muuid {9c23a24b-e6aa-43c6-b0b8-d6c36d2f7b57}
+;============================================================
+;  File: UInfoEx.dll
+;  Plugin: User info ext
+;  Version: 0.8.5.0
+;  Authors: DeathAxe, Yasnovidyashii, Merlin, K. Romanov, Kreol
+;============================================================
+[Extended UserInfo module for Miranda NG. Provides interface to edit all contact information.]
+Плагин расширенной информации о пользователе. Позволяет редактировать всю информацию о контакте.
+[Edit contact information]
+Редактировать данные контакта
+[Edit Contact Information\nThis list gives you some overview about all your contact's anniversaries.]
+Редактировать данные контакта\nСписок содержит все праздники ваших контактов.
+[Origin]
+Происхождение
+[&Update]
+&Обновление
+[Updating]
+Обновление
+[Cancel]
+Отмена
+[Apply]
+Применить
+[Nick:]
+Ник:
+[Display name:]
+Показывать имя:
+[Title:]
+Заголовок:
+[First name:]
+Имя:
+[Second name:]
+Отчество:
+[Last name:]
+Фамилия:
+[Prefix:]
+Префикс:
+[Female]
+Женский
+[Male]
+Мужской
+[Marital status:]
+Семейное положение:
+[Partner:]
+Партнер:
+[Language skills]
+Владение языками
+[Street:]
+Улица:
+[Postal code:]
+Индекс:
+[City:]
+Город:
+[County/State:]
+Округ/Штат:
+[Country:]
+Страна:
+[Contact added to contact list:]
+Добавлен(а) в список контактов:
+[Just from the beginning.]
+С самого начала.
+[Your contact's local time is:]
+Локальное время контакта:
+[Timezone:]
+Часовой пояс:
+[Company:]
+Компания:
+[Department:]
+Отдел:
+[Office:]
+Офис:
+[Position:]
+Должность:
+[Occupation:]
+Занятие:
+[Superior:]
+Начальник:
+[Assistant:]
+Ассистент:
+[Add phone number]
+Добавить телефон
+[Enter your phone number\nand don't worry about formatting.]
+Введите номер телефона\nв любом формате.
+[Enter a category for this number:]
+Введите категорию для номера:
+[Enter country, area code and phone number:]
+Введите страну, код города и номер телефона:
+[Or enter a full international number:]
+Или введите международный номер:
+[Phone can receive SMS text messages]
+Телефон может получать SMS
+[Add e-mail]
+Добавить e-mail
+[Enter your full e-mail address.\n(e.g., john.doe@provider.com)]
+Введите адрес E-mail\n(например, john.doe@provider.com)
+[Enter the e-mail address here:]
+Введите электронный адрес:
+[Show menu items]
+Показать пункты меню
+[Remind me]
+Напомнить
+[days before]
+дней
+[Check every]
+Пров. каждые
+[hours]
+часа(ов)
+[Icon flashing on event]
+Мигание значка при событии
+[Enabled]
+Включён
+[Perform check on each startup]
+Проверять при запуске
+[Time of last check:]
+Посл. проверка:
+[Birthday compatibility mode:]
+Режим совместимости:
+[Automatically backup and keep protocol based birthdays up to date]
+Автоматически сохранять и резервировать дни рождения из протокола
+[Play sound]
+Играть звук
+[Use ignore list]
+Использовать список игнорирования
+[Birthday popup colors]
+Настройка дней рождения
+[Background color]
+Цвет фона
+[Text color]
+Цвет текста
+[Use Windows colors]
+Цвета Windows
+[Use default colors]
+Цвета по умолчанию
+[Delay]
+Задержка
+[From Popup plugin]
+По умолчанию
+[Custom]
+Настроить
+[Permanent]
+Постоянно
+[Show reminder messages as popups (if reminder is enabled)]
+Напоминания во всплывающих окнах (если разрешены)
+[Anniversary popup colors]
+Настройка праздников
+[Replace progress dialogs with popups]
+Заменить диалоги прогресса всплывающими окнами
+[Replace message boxes with popups]
+Заменить диалоги всплывающими окнами
+[Preview]
+Тест
+[Homepage:]
+Сайт:
+[Add affiliation]
+Принадлежность
+[Add past]
+Прошлое
+[Add interest]
+Интересы
+[Delete]
+Удалить
+[Anniversary editor]
+Редактор праздника
+[Anniversary Editor\nAdd/Edit your anniversary here.]
+Редактор праздника\nДобавьте/Редактируйте праздник здесь.
+[Enter a name for the anniversary here please:]
+Введите наименование праздника:
+[Anniversary list]
+Список праздников
+[Upcoming anniversaries\nThis list gives you some overview about all your contact's anniversaries.]
+Предстоящие праздники\nСписок содержит все праздники ваших контактов.
+[Statistics:]
+Статистика:
+[with birthday:]
+с днем рождения:
+[female:]
+женщин:
+[male:]
+мужчин:
+[number of contacts:]
+число контактов:
+[average age:]
+средний возраст:
+[View]
+Вид
+[Show &during the next]
+Даты за &ближайшие
+[day(s)]
+дней
+[Reminder]
+Напоминание
+[Popup this dialog on a contact's anniversary]
+Показывать этот диалог, когда праздник
+[Icons]
+Значки
+[Check file version of default IconPack to prevent wrong icon display]
+Проверять версию файла значков для правильного отображения
+[Display icons on each dialog button]
+Показывать значки на каждой кнопке
+[Metacontacts]
+Метаконтакты
+[Scan subcontacts for missing information]
+Поиск отсутствующей информации в субконтактах
+[Enable extended 'send/receive e-mail' service (*)]
+Включить расширенный сервис электронной почты (*)
+[Use Windows timezone]
+Часовой пояс Windows
+[(*) Requires Miranda to be restarted.]
+(*) Требуется перезапуск Miranda NG.
+[Reset factory defaults]
+Настройки по умолчанию
+[Protocol's information]
+Данные протокола
+[Custom information]
+Локальные данные
+[Overwritten information]
+Перезаписанная информация
+[Changed information]
+Изменённые данные
+[Enable colors to give information about information's status.]
+Включить цвета для показа статуса информации
+[Make protocol based contact information read only]
+Запретить изменение информации, базирующейся на протоколе
+[Enable groups in details dialog's treeview]
+Вложенные пункты меню
+[Sort all tree items alphabetically]
+Отсортировать все пункты в алфавитном порядке
+[Info of a metacontact's subcontact]
+Информация о субконтакте метаконтакта
+[Colors]
+Цвета
+[Common]
+Общие
+[Change my ICQ details with UserInfoEx (disabled if ICQ doesn't support it)]
+Изменять мои личные данные через UserInfoEx (недоступно, если ICQ не поддерживает)
+[Treeview]
+Дерево
+[Adapt propertysheet pages to Aero mode]
+Адаптировать Настройки к стилю Aero
+[Import]
+Импорт
+[Importing...\nPlease wait!]
+Импортируется...\nПожалуйста, подождите!
+[Setting/Event (20/100)]
+Настройка/Событие (20/100)
+[John Doe (1/10)]
+Вася Пупкин (1/10)
+[Dialog]
+Диалог
+[All]
+Все
+[None]
+Нет
+[Show menu item]
+Вид отображения меню
+[Main menu]
+Главное меню
+[Cascade:]
+Каскадный:
+[Off]
+Откл.
+[Export/import items]
+Экспорт/Импорт
+[Contact menu]
+Меню контакта
+[Group menu]
+Меню групп
+[Subgroup menu]
+Меню подгрупп
+[Account menu]
+Меню уч. записей
+[Extra icons]
+Экстра значки
+[Replace the following default icons:]
+Заменить следующие значки:
+[Homepage]
+Сайт
+[Phone]
+Телефон
+[E-mail]
+Почта
+[Gender]
+Пол
+[Misc]
+Прочее
+[Show 'Restart' menu item]
+Пункт меню "Перезапуск"
+[Use zodiac as default avatar]
+Использовать знак зодиака как аватар
+[Country flags]
+Флаги стран
+[Use &unknown flag if country cannot be determined]
+Показать &неизвестный флаг, если страна не определена
+[Show country flag as &status icon on message window]
+Показывать флаг, как значок &статуса в окне беседы
+[Birthday]
+День рождения
+[Age:]
+Возраст:
+[Zodiac:]
+Зодиак:
+[not found]
+не найдено
+[Use global reminder settings]
+Глобальные настройки напоминаний
+[Don't remind me of this anniversary]
+Не напоминать мне об этом празднике
+[Refresh contact details]
+Обновить данные контактов
+[Preparing...]
+Подготовка...
+[Hide]
+Скрыть
+[What do you want to export?]
+Что вы хотите экспортировать?
+[Contact information]
+Информация о контакте
+[Contact history]
+История контакта
+[Select modules]
+Выберите модули
+[Check the modules on the list which you want to export for the contact. To add the file as a new list entry later you need to export at least the protocol module.]
+Отметьте в списке те модули, которые вы хотите экспортировать для контактов. Для добавления контакта из файла в виде новой записи, необходимо экспортировать хотя бы модуль протокола.
+[Check all]
+Выбрать все
+[Uncheck all]
+Очистить все
+[&Export]
+&Экспорт
+[Aries]
+Овен
+[Taurus]
+Телец
+[Gemini]
+Близнецы
+[Cancer]
+Рак
+[Leo]
+Лев
+[Virgo]
+Дева
+[Libra]
+Весы
+[Scorpio]
+Скорпион
+[Sagittarius]
+Стрелец
+[Capricorn]
+Козерог
+[Aquarius]
+Водолей
+[Pisces]
+Рыбы
+[%s provides a new birthday via protocol.\nIt is %s. The old one was %s.\n\nDo you want to use this as the new birthday for this contact?]
+%s указывает новый день рождения по протоколу.\nНовая дата %s. Старая %s.\n\nВы хотите использовать новую дату рождения для этого контакта?
+[Update custom birthday]
+Обновление настроенных дней рождений
+[Keeps your custom birthday up to date.]
+Резервирует настроенные дни рождения.
+[Due to a parameter error, one of the treeitems can't be added!]
+Из-за ошибки в параметре, один из элементов дерева не может быть добавлен!
+[A fatal error occurred on adding a property sheet page!\nDialog creation aborted!]
+Неустранимая ошибка при добавлении страницы свойств!\nСоздание диалога отменено!
+[Rename Item]
+Переименовать
+[Hide Item]
+Скрыть
+[Show Items:]
+Показать:
+[Reset to defaults]
+Стандартные
+[Creating unique name for a page failed with %d and error code %d]
+Ошибка при создании имени для страницы с %d, код ошибки %d
+[Creating the label for a page failed with %d and error code %d]
+Ошибка при создании названия для страницы с %d, код ошибки %d
+[The dialog template type is no longer supported]
+Шаблон диалога больше не поддерживается
+[Add a new anniversary]
+Добавить новый праздник
+[Delete an existing anniversary]
+Удалить существующий праздник
+[Unspecified]
+Не указано
+[Edit e-mail]
+Редактировать e-mail
+[Edit phone number]
+Редактировать телефон
+[The phone number should start with a + and consist of\nnumbers, spaces, brackets and hyphens only.]
+Номер телефона должен начинаться с + и состоять из\nцифр, пробелов, скобок и тире.
+[Choose the item to display]
+Выбрать запись
+[Edit the currently displayed item]
+Изменить существующую запись
+[Add a new custom item]
+Добавить новую запись
+[Delete the selected item]
+Удалить данную запись
+[CRITICAL: Unable to edit current entry!\nThis should not happen!]
+ФАТАЛЬНО: Невозможно редактировать эту запись!\nЭтого не должно было произойти!
+[Do you really want to delete the current selected item?\n\t%s\n\t%s]
+Удалить выбранную запись?\n\t%s\n\t%s
+[Other]
+Другое
+[<Unspecified>]
+<не указано>
+[ETA]
+Осталось дней
+[Contact]
+Контакт
+[Proto]
+Протокол
+[Age/Nr.]
+Возраст
+[Anniversary]
+Праздник
+[Date]
+Дата
+[All contacts]
+Все контакты
+[Birthdays only]
+Только дни рождения
+[Anniversaries only]
+Только праздники
+[Disabled reminder]
+Откл. напоминания
+[Popup anniversary list]
+Показать список праздников
+[Retry]
+Ещё раз
+[Yes]
+Да
+[No]
+Нет
+[Abort]
+Отмена
+[Ignore]
+Игнорировать
+[Error]
+Ошибка
+[Upload details]
+Закачать детали
+[Protocol '%s' is offline]
+Протокол '%s' не в сети
+[You are not currently connected to the ICQ network.\nYou must be online in order to update your information on the server.\n\nYour changes will be saved to database only.]
+Вы сейчас не подключены к сети ICQ.\nВы должны быть в сети, чтобы обновить информацию на сервере.\n\nИзменения будут сохранены только в локальную базу данных.
+[Uploading]
+Закачка
+[Creating the image list failed!]
+Ошибка при создании imagelist!
+[Could not find contact's protocol. Maybe it is not active!]
+Невозможно найти протокол контакта. Может быть он отключён!
+[No pages have been added. Canceling dialog creation!]
+Страницы не были добавлены. Отмена создания диалога!
+[Details dialog failed to be created. Returning error is %d.]
+Ошибка создания диалога деталей. Ошибка %d.
+[The page to add has invalid size %d bytes!]
+Неправильный размер страницы для добавления: %d байт
+[General]
+Общее
+[Contact (private)]
+Контакт (личный)
+[Anniversaries]
+Праздники
+[Work]
+Работа
+[Contact (work)]
+Контакт (рабочий)
+[About]
+Информация
+[Profile]
+Профиль
+[Notes]
+Заметки
+[Export to file]
+Экспорт
+[Import from file]
+Импорт из файла
+[Owner]
+Владелец
+[edit contact information]
+Редактировать данные контакта
+[Upload ICQ details]
+Загрузить детали ICQ
+[Upload failed]
+Загрузка не удалась
+[Your details were not uploaded successfully.\nThey were written to database only.]
+Ваши детали не загружены.\nОни сохранены локально.
+[updating]
+обновление
+[Fatal error, image services not found. Flags module will be disabled.]
+Фатальная ошибка: служба изображений не найдена. Плагин Flags будет отключён.
+[IM naming]
+Имя в IM
+[Password]
+Пароль
+[Timezone]
+Часовой пояс
+[Marital status]
+Семейное положение
+[Address]
+Адрес
+[Export: modules]
+Экспорт: модули
+[Export: folder]
+Экспорт: папка
+[Default]
+По умолчанию
+[Details info bar]
+Детали
+[Phone info bar]
+Телефон
+[E-mail info bar]
+Почта
+[Export VCard]
+Экспорт VCard
+[Import VCard]
+Импорт VCard
+[Anniversary info bar]
+Юбилей
+[Update]
+Обновить
+[Export]
+Экспорт
+[Goto]
+Зайти на сайт
+[Fax]
+Факс
+[Cellular]
+Мобильный
+[Custom phone]
+Выбранный телефон
+[Down arrow]
+Стрелка вниз
+[Add]
+Добавить
+[Edit]
+Изменить
+[Search]
+Поиск
+[Export/import]
+Экспорт/Импорт
+[Backup birthday]
+Резервировать Д.Р.
+[Birthday today]
+День рождения сегодня
+[Birthday tomorrow]
+День рождения завтра
+[Birthday in 2 days]
+День рождения через 2 дня
+[Birthday in 3 days]
+День рождения через 3 дня
+[Birthday in 4 days]
+День рождения через 4 дня
+[Birthday in 5 days]
+День рождения через 5 дней
+[Birthday in 6 days]
+День рождения через 6 дней
+[Birthday in 7 days]
+День рождения через 7 дней
+[Birthday in 8 days]
+День рождения через 8 дней
+[Birthday in 9 days]
+День рождения через 9 дней
+[Birthday later]
+День рождения позже
+[Anniversary today]
+Праздник сегодня
+[Anniversary tomorrow]
+Праздник завтра
+[Anniversary in 2 days]
+Праздник через 2 дня
+[Anniversary in 3 days]
+Праздник через 3 дня
+[Anniversary in 4 days]
+Праздник через 4 дня
+[Anniversary in 5 days]
+Праздник через 5 дней
+[Anniversary in 6 days]
+Праздник через 6 дней
+[Anniversary in 7 days]
+Праздник через 7 дней
+[Anniversary in 8 days]
+Праздник через 8 дней
+[Anniversary in 9 days]
+Праздник через 9 дней
+[Anniversary later]
+Праздник позже
+[Warning: Your current IconPack's version differs from the one UserInfoEx is designed for.\nSome icons may not be displayed correctly]
+Внимание: Версия вашего текущего набора значков отличается от версии UserInfoEx.\nНекоторые значки могут быть отображены неправильно
+[Warning: No IconPack found in one of the following directories: 'customize\\icons', 'icons' or 'plugins'!]
+Внимание: Набор значков не найден ни в одной из папок: 'customize\\icons', 'icons' или 'plugins'!
+[Main]
+Главный
+[Extended user info]
+Личные данные
+[Export/import contact]
+Экспорт/Импорт контакта
+[User &details]
+&Информация
+[&Export user details]
+&Экспорт данных пользователя
+[&Import]
+&Импорт
+[&Import user details]
+&Импорт данных пользователя
+[View/change my &details...]
+Личные &данные...
+[Export all contacts]
+Экспортировать все контакты
+[Import all contacts]
+Импортировать все контакты
+[Backup birthdays]
+Резервировать дни рождения
+[Check anniversaries]
+Проверить праздники
+[Export/import group]
+Экспорт/Импорт группы
+[&Export group]
+&Экспортировать группу
+[&Import group]
+&Импортировать группу
+[&Export xml]
+&экспорт xml
+[&Import xml]
+&импорт xml
+[My notes:]
+Мои заметки:
+[About:]
+Информация:
+[Please enter a valid description first!]
+Пожалуйста, введите правильное описание сначала!
+[No valid date selected for editing!]
+Нет выбранной даты для редактирования!
+[Do you really want to delete the %s?]
+Вы действительно хотите удалить %s?
+[home]
+дом
+[Open in browser]
+Открыть в браузере
+[Primary e-mail]
+Основной e-mail
+[Secondary e-mail]
+Вторичный e-mail
+[Tertiary e-mail]
+Третий e-mail
+[Address and contact]
+Контакты
+[company]
+Компания
+[Question]
+Вопрос
+[This will delete all settings, you've made!\nAll TreeView settings, window positions and any other settings!\n\nAre you sure to proceed?]
+Эта функция удалит все настройки, которые вы сделали \nВсе настройки дерева, позиций окна, и др.!\n\nВы действительно хотите продолжить?
+[Ready]
+Готово
+[Everything is done!]
+Всё готово!
+[All settings are reset to default values now!]
+Все установки сейчас будут сброшены!
+[Reminder disabled]
+Напоминания отключены
+[Everything]
+Все напоминания
+[mBirthday]
+Дни рождения
+[UserInfo (default)]
+Личные данные (по умолчанию)
+[This is the reminder message]
+Сообщение напоминания
+[Contacts]
+Контакты
+[Advanced]
+Дополнительно
+[Details dialog]
+Диалоги
+[Popups]
+Всплывающие окна
+[Past]
+Прошлое
+[Affiliation]
+Принадлежность
+[Interest]
+Интересы
+[Sorry, but there is a problem with adding a new item of type "%s"]
+Извините, ошибка добавления нового элемента с типом "%s"
+[<empty>]
+<нет>
+[Edit category]
+Изменить категорию
+[Edit value]
+Изменить значение
+[Delete an entry]
+Удалить запись
+[Do you really want to delete this entry?]
+Вы действительно хотите удалить это?
+[Afrikaans]
+Африкаанс
+[Albanian]
+Албанский
+[Arabic]
+Арабский
+[Armenian]
+Армянский
+[Azerbaijani]
+Азербайджанский
+[Belorussian]
+Белорусский
+[Bhojpuri]
+Хойпурийский
+[Bosnian]
+Боснийский
+[Bulgarian]
+Болгарский
+[Burmese]
+Бирманский
+[Cantonese]
+Катонезийский
+[Catalan]
+Каталанский
+[Chamorro]
+Чаморрский
+[Chinese]
+Китайский
+[Croatian]
+Хорватский
+[Czech]
+Чешский
+[Danish]
+Датский
+[Dutch]
+Голландский
+[English]
+Английский
+[Esperanto]
+Эсперанто
+[Estonian]
+Эстонский
+[Farsi]
+Фарси
+[Finnish]
+Финский
+[French]
+Французский
+[Gaelic]
+Гайский
+[German]
+Немецкий
+[Greek]
+Греческий
+[Gujarati]
+Гуджаратский
+[Hebrew]
+Иврит
+[Hindi]
+Хинди
+[Hungarian]
+Венгерский
+[Icelandic]
+Исландский
+[Indonesian]
+Индонезийский
+[Italian]
+Итальянский
+[Japanese]
+Японский
+[Khmer]
+Хмерский
+[Korean]
+Корейский
+[Kurdish]
+Курдский
+[Lao]
+Лаосский
+[Latvian]
+Латышский
+[Lithuanian]
+Литовский
+[Macedonian]
+Македонский
+[Malay]
+Малайский
+[Mandarin]
+Мандарин
+[Mongolian]
+Монгольский
+[Norwegian]
+Норвежский
+[Persian]
+Персидский
+[Polish]
+Польский
+[Portuguese]
+Португальский
+[Punjabi]
+Панджабский
+[Romanian]
+Румынский
+[Russian]
+Русский
+[Serbo-Croatian]
+Сербохорватский
+[Sindhi]
+Синди
+[Slovak]
+Словацкий
+[Slovenian]
+Словенский
+[Somali]
+Сомалийский
+[Spanish]
+Испанский
+[Swahili]
+Суахили
+[Swedish]
+Шведский
+[Tagalog]
+Тагалог
+[Taiwanese]
+Тайваньский
+[Tamil]
+Тамильский
+[Tatar]
+Татарский
+[Thai]
+Тайский
+[Turkish]
+Турецкий
+[Ukrainian]
+Украинский
+[Urdu]
+Урду
+[Vietnamese]
+Вьетнамский
+[Welsh]
+Уэльский
+[Yiddish]
+Идиш
+[Yoruba]
+Ёрубский
+[Academic]
+Академия
+[Administrative]
+Администрация
+[Art/Entertainment]
+Развлечения
+[College Student]
+Студент колледжа
+[Computers]
+Компьютеры
+[Community & Social]
+Общество и социум
+[Education]
+Образование
+[Engineering]
+Инженер
+[Financial Services]
+Финансы
+[Government]
+Правительство
+[High School Student]
+Ученик средней школы
+[Home]
+Дом
+[ICQ - Providing Help]
+ICQ - поддержка
+[Law]
+Закон
+[Managerial]
+Управление
+[Manufacturing]
+Производство
+[Medical/Health]
+Медицина/Здоровье
+[Military]
+Военный
+[Non-Government Organization]
+Неправительственная организация
+[Professional]
+Профессионал
+[Retail]
+Розничный торговец
+[Retired]
+В отставке
+[Science & Research]
+Наука и исследования
+[Sports]
+Спорт
+[Technical]
+Технический
+[University Student]
+Студент университета
+[Web Building]
+Web-службы
+[Other Services]
+Другое
+[Art]
+Искусство
+[Cars]
+Машины
+[Celebrity Fans]
+Фанат знаменитостей
+[Collections]
+Коллекционирование
+[Culture & Literature]
+Культура и литература
+[Fitness]
+Фитнес
+[Games]
+Игры
+[Hobbies]
+Хобби
+[Internet]
+Интернет
+[Lifestyle]
+Стиль жизни
+[Movies/TV]
+Кино/ТВ
+[Music]
+Музыка
+[Outdoor Activities]
+Активный отдых
+[Parenting]
+Воспитание
+[Pets/Animals]
+Животные
+[Religion]
+Религия
+[Science/Technology]
+Наука/Технология
+[Skills]
+Навыки
+[Web Design]
+Web Дизайн
+[Nature and Environment]
+Природа и окружающая среда
+[News & Media]
+Новости и медиа
+[Business & Economy]
+Бизнес и экономика
+[Mystics]
+Мистика
+[Travel]
+Путешествия
+[Astronomy]
+Астрономия
+[Space]
+Космос
+[Clothing]
+Одежда
+[Parties]
+Вечеринки
+[Women]
+Женщины
+[Social science]
+Социология
+[60's]
+60-е
+[70's]
+70-е
+[80's]
+80-е
+[50's]
+50-е
+[Finance and corporate]
+Финансы
+[Entertainment]
+Развлечения
+[Consumer electronics]
+Бытовые электроприборы
+[Retail stores]
+Розничная торговля
+[Health and beauty]
+Красота и здоровье
+[Media]
+Медиа
+[Household products]
+Домашние продукты
+[Mail order catalog]
+Заказ товаров по почте
+[Business services]
+Бизнес
+[Audio and visual]
+Звук и визуализация
+[Sporting and athletic]
+Спорт
+[Publishing]
+Публикации
+[Home automation]
+Бытовая автоматизация
+[Alumni Org.]
+Выпускники
+[Charity Org.]
+Благотворительная организация
+[Club/Social Org.]
+Клуб
+[Community Org.]
+Общественное объединение
+[Cultural Org.]
+Культурное объединение
+[Fan Clubs]
+Фан-клуб
+[Fraternity/Sorority]
+Клуб по интересам/Женский клуб
+[Hobbyists Org.]
+Организация по увлечениям
+[International Org.]
+Международная организация
+[Nature and Environment Org.]
+Природоохранная организация
+[Professional Org.]
+Профсоюз
+[Scientific/Technical Org.]
+Научно-техническая организация
+[Self Improvement Group]
+Самосовершенствующаяся группа
+[Spiritual/Religious Org.]
+Религиозная организация
+[Sports Org.]
+Спортивная организация
+[Support Org.]
+Организация поддержки
+[Trade and Business Org.]
+Торговая организация
+[Union]
+Объединение
+[Volunteer Org.]
+Волонтёрская организация
+[Elementary School]
+Начальная школа
+[High School]
+Средняя школа
+[College]
+ВУЗ
+[University]
+Университет
+[Single]
+В одиночестве
+[Close relationships]
+В близких отношениях
+[Engaged]
+В помолвке
+[Married]
+В браке
+[Divorced]
+В разводе
+[Separated]
+Разведён(а)
+[Widowed]
+Вдовец/Вдова
+[jun.]
+мл.
+[sen.]
+ст.
+['(Unknown Contact)']
+'(Неизвестный контакт)'
+[Send e-mail]
+Отправить e-mail
+[Memory allocation error!]
+Ошибка выделения памяти!
+[E-mail (uinfoex)]
+Почта (uinfoex)
+[Gender (uinfoex)]
+Пол (uinfoex)
+[User has no valid homepage]
+У пользователя нет правильной домашней страницы
+[View Homepage]
+Сайт
+[&Homepage]
+&Сайт
+[Homepage (uinfoex)]
+Сайт (uinfoex)
+[Phone (uinfoex)]
+Телефон (uinfoex)
+[[b]%s (%S)...[/b]\n%d Contacts remaining]
+\[b]%s (%S)...[/b]\n%d контактов осталось
+[Abort Refreshing Contact Details]
+Отменить обновление данных контактов
+[Do you want to cancel the current refresh procedure?]
+Вы точно хотите отменить обновление данных?
+[Miranda must be online for refreshing contact information!]
+Протоколы должны быть в сети для обновления данных!
+[The function caused an exception!]
+Функция вызвала исключение!
+[%s has %s today.]
+%s отмечает %s сегодня.
+[an anniversary]
+праздник
+[He]
+Ему
+[She]
+Ей
+[He/She]
+Ему/ей
+[%s has the following anniversaries:\0]
+У %s следующие праздники:\0
+[%d. %s today\0]
+%d. %s сегодня\0
+[%d. %s tomorrow\0]
+%d. %s завтра\0
+[%d. %s in %d days\0]
+%d. %s через %d дней\0
+[%s has birthday today.]
+%s отмечает День рождения сегодня.
+[%s has birthday tomorrow.]
+%s отмечает День рождения завтра.
+[%s has birthday in %d days.]
+%s отмечает день рождения через %d дней.
+[\n%s becomes %d years old.]
+\n%s исполнится %d.
+[No anniversaries to remind of]
+Нет праздников, о которых надо уведомлять
+[Backing up and syncing all birthdays complete!]
+Резервирование и синхронизация всех Дней рождений завершены!
+[Reminder (uinfoex)]
+Напоминание (uinfoex)
+[Birthday reminder]
+Напоминание о дне рождения
+[Birthday reminder: it's coming]
+Напоминание о приближающемся дне рождения
+[Anniversary Reminder]
+Напоминание о празднике
+[contact identification]
+идентификация контакта
+[The contact %s(%s) has no unique ID in the vCard,\nbut there is a contact in your contact list with the same nick and protocol.\nDo you wish to use this contact?]
+Контакт %s(%s) не имеет уникального номера в vCard,\nно в списке контактов есть контакт с таким же псевдонимом и протоколом.\nВы хотите использовать его номер для этого контакта?
+[Importing a new contact was aborted!]
+Импортирование нового контакта прервано!
+[You aborted import of a new contact.\nSome information may be missing for this contact.\n\nDo you want to delete the incomplete contact?]
+Вы отменили импорт нового контакта.\nНекоторая информация может быть неверной для этого контакта.\n\nВы хотите удалить незаконченный контакт?
+[Importing a new meta subcontact failed!]
+Ошибка при импортировании нового субконтакта!
+[The newly created meta subcontact '%s'\ncould not be added to metacontact '%s'!\n\nDo you want to delete this contact?]
+Созданный субконтакт '%s'\nне может быть добавлен к метаконтакту '%s'!\n\nВы хотите удалить этот контакт?
+[Settings: %S]
+Настройки: %S
+[Events: %S]
+События: %S
+[All Contacts]
+Все контакты
+[Required modules]
+Обязательные модули
+[Optional modules]
+Дополнительные модули
+[Shows Miranda's installation directory.]
+Показывать папку установки Miranda NG.
+[Shows the directory with all your Miranda's profiles.]
+Показывать папку со всеми профилями Miranda NG.
+[The OpenFileDialog returned an error: %d!]
+OpenFileDialog вернул ошибку: %d!
+[The SaveFileDialog returned an error: %d!]
+SaveFileDialog вернул ошибку: %d!
+[The ini-file "%s"\nfor saving contact information could not be opened.]
+INI файл "%s"\nдля сохранения контакта не может быть открыт.
+[None of the %d contacts, stored in the ini-file, match the selected contact!\nNothing will be imported]
+Ни один из %d контактов, в ini файле не соответствует выбранному контакту!\nНичего не будет импортировано
+[Import complete]
+Импорт завершен
+[Some basic statistics]
+Статистика
+[Added %d of %d contacts stored in the ini-file.]
+Добавлено %d из %d контактов из ini-файла.
+[The ini-file "%s"\nfor reading contact information could not be opened.]
+INI файл "%s"\nдля чтения контакта не может быть открыт.
+[all Contacts]
+Все контакты
+[Select a destination file...]
+Выберите имя файла для экспорта...
+[Import User Details from VCard]
+Импорт деталей пользователя из vCard
+[Can't create xml file!\n%S]
+Невозможно создать XML файл!\n%S
+[Export took %f ms]
+Экспорт занял %f мс
+[Contact: %s (%S)]
+Контакт: %s (%S)
+[Importing %s caused error %d]
+Импорт %s вызвал ошибку %d
+[Loading contact %s from xml failed with error %d]
+Ошибка %d при загрузке контакта %s из xml
+[Importing Owner caused error %d]
+Импорт Владельца вызвал ошибку %d
+[Parser is unable to load XMLCard "%s"\nError: %d\nDescription: %s]
+Невозможно загрузить XML карточку "%s"\nОшибка: %d\nОписание: %s
+[The selected file is no valid XMLCard]
+Выбранный файл не является XML карточкой
+[The version of the XMLCard is not supported by UserInfoEx]
+Эта версия XML карточки не поддерживается модулем UserInfoEx
+[Complete]
+Готово
+[Owner contact successfully imported.]
+Информация Владельца импортирована удачно.
+[Selected XMLCard does not contain an owner contact!]
+Выбранная XML карточка не содержит информации владельца!
+[Import took %f ms]
+Импорт занял %f мс
+[added contacts: %u / %u\nadded settings: %u / %u\nadded events %u / %u\nduplicated events: %u]
+Добавлено контактов: %u / %u\nДобавлено настроек: %u / %u\nДобавлено событий: %u / %u\nДублирующих событий: %u
+[FATAL: An exception was thrown while importing contacts from xmlCard!]
+ФАТАЛЬНО: Ошибка при импортировании контактов из xml карточки!
+[Flags (uinfoex)]
+Флаги (uinfoex)

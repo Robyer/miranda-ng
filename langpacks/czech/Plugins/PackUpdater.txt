@@ -1,0 +1,148 @@
+﻿#muuid {29517be5-779a-48e5-8950-cb4de1d43172}
+;============================================================
+;  File: PackUpdater.dll
+;  Plugin: Pack updater
+;  Version: 0.1.0.1
+;  Authors: Mataes, ZERO_BiT
+;============================================================
+[Simple updater for Miranda NG premodified packs.]
+
+;file \plugins\PackUpdater\Res\Resource.rc
+[Updates found!]
+Nalezeny aktualizace!
+[Update]
+Aktualizovat
+[View info]
+
+[Cancel]
+Zrušit
+[PackUpdater has detected updated versions\nof the following Miranda components:]
+
+[Description]
+Popis
+[Downloading...]
+Stahování...
+[Pack update options]
+
+[On startup]
+Po spuštění
+[Remind about not installed pack update]
+
+[Hotkey]
+Klávesy
+[Go to Customize -> Hotkeys to change the hotkey]
+Zkratky změníte v sekci Vlastní úpravy -> Klávesové zkratky
+[Notifications]
+Upozornění
+[Message boxes]
+
+[Errors]
+Chyby
+[Info messages]
+Informační zprávy
+[Progress dialogs]
+Dialogy s postupem
+[Every]
+každých
+[(but only once a day)]
+(ale pouze jednou denně)
+[Message boxes (*)]
+Dialogové okna (*)
+[Back]
+Pozadí
+[Text]
+Text
+[Colors]
+Barvy
+[Use cus&tom colors]
+Použít vlastní barvy
+[Use &Windows colors]
+Použít barvy &Windows
+[Use Pop&up colors]
+Po&užít výchozí barvy
+[Preview]
+Náhled
+[Click action]
+Při kliknutí myší
+[On left click]
+Levé tlačítko
+[On right click]
+Pravé tlačítko
+[Timeout]
+Doba zobrazení
+[0 = Default]
+0 = výchozí
+[-1 = Infinite]
+-1 = neustále
+[Sec]
+sek.
+[* Needs popup actions to be enabled]
+* Vyžaduje povolené akce v doplňku pro oznámení
+[Not sets for "Message boxes"]
+Není aplikováno pro dialogové okna
+[Boxes]
+Dialogy
+[Popups]
+Oznámení
+;file \plugins\PackUpdater\Src\Events.cpp
+[Check for pack updates]
+
+[Pack Updater]
+
+;file \plugins\PackUpdater\Src\Notifications.cpp
+[An error occurred while downloading the update.]
+Nastala chyba při stahování informací.
+[Component Name]
+Název doplňku
+[Current Version]
+Současná verze
+[New Version]
+Nová verze
+[Downloading pack updates...]
+
+[Downloading update...]
+
+[Downloads complete. Start updating? All your data will be saved and Miranda NG will be closed.]
+
+[Download complete. Start updating? All your data will be saved and Miranda NG will be closed.]
+Stahování dokončeno. Spustit aktualizaci? Všechny vaše data budou uložena a Miranda NG bude restartována.
+[You have chosen not to install the pack update immediately.\nYou can install it manually from this location:\n\n%s]
+
+;file \plugins\PackUpdater\Src\Notifications.h
+[Close popup]
+Zavřít oznámení
+[Do nothing]
+Nedělat nic
+;file \plugins\PackUpdater\Src\Options.cpp
+[hours]
+hodin
+[days]
+dnů
+[Test]
+Ověřit
+[Services]
+Služby
+;file \plugins\PackUpdater\Src\PackUpdater.cpp
+[Clear pack updates folder]
+
+;file \plugins\PackUpdater\Src\Utils.cpp
+['Yes' Button]
+Tlačítko 'Ano'
+['No' Button]
+Tlačítko 'Ne'
+[Pack Updater HTTP connection]
+
+[URL for checking updates not found.]
+
+[Downloading version info...]
+Načítání informací...
+[Name of Update's file is not supported.]
+
+[Update is not possible!\nYou have no Administrator's rights.\nPlease run Miranda NG with Administrator's rights.]
+
+[No updates found.]
+Žádné aktualizace nenalezeny.
+[No files for update.]
+
+[Update checking already started!]
+Kontrola aktualizací již probíhá!

@@ -1,0 +1,138 @@
+﻿#muuid {ddf8aec9-7d37-49af-9d22-bbbc920e6f05}
+;============================================================
+;  File: BuddyExpectator.dll
+;  Plugin: Buddy expectator
+;  Version: 0.1.2.3
+;  Authors: Anar Ibragimoff, sje, Thief
+;============================================================
+[Reacts to the return of contacts, or to the extended absence of contacts, with notifications and other actions.]
+Reaguje na powrót kontaktów lub na ich dłuższą nieobecność przy użyciu powiadomień i innych akcji.
+;file \plugins\BuddyExpectator\res\BuddyExpectator.rc
+[When a contact returns after]
+Kiedy kontakt będzie aktywny po:
+[or comes online for the first time]
+lub stanie się aktywny po raz pierwszy.
+[Show a popup]
+Pokaż popup
+[Add an event (flashing icon) to the contact]
+Dodaj zdarzenie (migająca ikona) dla kontaktu
+[On event action (double click) or popup click:]
+Akcja zdarzenia (dwuklik) lub popup:
+[Open User Details]
+Otwórz dane kontaktu
+[Open message window]
+Otwórz okno rozmowy
+[Return notification]
+Powiadom mnie o aktywności
+[Long time no see]
+Długi czas braku aktywności
+[When a contact is absent for]
+Kiedy kontakt jest nieaktywny od:
+[Hide when no messages for]
+Ukryj kiedy brak wiadomości od:
+[Enable "Miss you" feature]
+Włącz funkcję "Daj mi znać"
+[Colors]
+Kolory
+[Background]
+Tło
+[Text]
+Tekst
+[Use Popups colors]
+Użyj kolorów Popup
+[Use Windows colors]
+Użyj kolorów Windows
+[Delay]
+Wyświetlaj
+[Default]
+Domyślny
+[Custom]
+Niestandardowe
+[Permanent]
+Stałe
+[sec]
+s
+[Preview]
+Podgląd
+[Last seen online:]
+Ostatnio widziany:
+[Last input message:]
+Ostatnia wiadomość:
+[Custom absence period:]
+Okres nieobecności:
+[days]
+dni
+[Never hide this contact]
+Nigdy nie ukrywaj tego kontaktu
+[Enable Miss You]
+Włącz "Daj mi znać"
+[Notify always]
+Zawsze powiadamiaj
+;file \plugins\BuddyExpectator\src\BuddyExpectator.cpp
+[Tray/popup icon]
+Ikona w zasobniku/popupie
+[Enabled]
+Włączony
+[Disabled]
+Wyłączone
+[Hide]
+Ukryj
+[Never hide]
+Nie ukrywaj
+[Hiding %s (%S)]
+Ukrywanie %s (%S)
+[%d days since last message]
+%d dni od ostatniej wiadomości
+[Disable Miss You]
+Wyłącz "Daj mi znać"
+[You awaited this contact!]
+Czekałeś na ten kontakt!
+[has gone online for the first time.]
+połączony po raz pierwszy.
+[has returned after a long absence.]
+powrócił po dłuższym braku aktywności.
+[has returned after being absent since %#x]
+powrócił po braku aktywności od %#x
+[has not returned after a long absence.]
+nie powrócił(-a) po długiej nieobecności.
+[has not returned after being absent since %#x]
+nieaktywny od %#x
+[BuddyExpectator]
+Aktywności
+[Contact returned]
+Powrót kontaktu
+[Contact still absent]
+Kontakt nadal nieaktywny
+[Miss you event]
+Powiadomienie o zdarzeniach
+[Hide contact event]
+Ukryj zdarzenia kontaktu
+[Buddy Expectator]
+Aktywności
+[Hide contact]
+Ukryj kontakt
+;file \plugins\BuddyExpectator\src\options.cpp
+[weeks]
+tygodni
+[months]
+miesięcy
+[years]
+lat
+[Do nothing]
+Nic nie rób
+[Delete the contact]
+Usuń kontakt
+[Contact name]
+Nazwa kontaktu
+[has returned after being absent since %d days]
+powrócił po braku aktywności od %d dni
+[Contacts]
+Kontakty
+[Popups]
+Popupy
+[not detected]
+nie wykryto
+[not found]
+nie znaleziono
+[This contact has been absent for an extended period of time.]
+Ten kontakt jest nieaktywny przez dłuższy okres czasu.

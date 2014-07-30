@@ -1,0 +1,17 @@
+﻿#muuid {ebf19652-e434-4d79-9897-91a0ff226f51}
+;============================================================
+;  File: NewXstatusNotify.dll
+;  Plugin: xStatus notify
+;  Version: 1.4.0.9
+;  Authors: Luca Santarelli, Vasilich, yaho
+;============================================================
+[Individual sounds are disabled.\n\nTo enable them, go to Options -> Status -> Status Notify, enable\n"Use individual sounds" checkbox, and then reopen this dialog.]
+Individual sounds are disabled.\n\nTo enable them, go to Options -> Status -> Status Notify, enable\n"Use individual sounds" checkbox and then reopen this dialog.
+[Colors]
+Colours
+[Use custom colors]
+Use custom colours
+[Use Windows colors]
+Use Windows colours
+[Use Popup colors]
+Use Popup colours

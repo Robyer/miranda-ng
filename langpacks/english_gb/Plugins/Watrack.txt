@@ -1,0 +1,23 @@
+﻿#muuid {fc6c81f4-837e-4430-9601-a0aa43177ae3}
+;============================================================
+;  File: Watrack.dll
+;  Plugin: Winamp Track
+;  Version: 0.0.6.12
+;  Authors: Awkward
+;============================================================
+[Center horizontally]
+Centre horizontally
+[Center vertically]
+Centre vertically
+[Color codes]
+Colour codes
+[Align text to center]
+Align text to centre
+[Default colors]
+Default colours
+[Windows colors]
+Windows colours
+[Custom colors]
+Custom colours
+[Color]
+Colour

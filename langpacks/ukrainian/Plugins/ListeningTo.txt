@@ -1,0 +1,147 @@
+﻿#muuid {f981f3f5-035a-444f-9892-ca722c195ada}
+;============================================================
+;  File: ListeningTo.dll
+;  Plugin: ListeningTo
+;  Version: 0.3.0.0
+;  Authors: Ricardo Pescuma Domenecci
+;============================================================
+[Handles listening information to/for contacts.]
+Повідомляє вашим контактам яку музику ви слухаєте.
+[Listening to information]
+Слухаю
+[Enable sending listening information to contacts:]
+Ввімкнути відправку інформації контактам
+[Music]
+Музика
+[Radio]
+Радіо
+[Video]
+Відео
+[Others]
+Інше
+[You also have to enable it per protocol in the main menu]
+Налаштування для кожного протоколу знаходиться в головному меню
+[XStatus]
+хСтатус
+[For protocols that don't support listening to but support XStatus:]
+Для протоколів без підтримки ListeningTo але з хСтатусами:
+[Set XStatus to Music and show listening info]
+Встановити хСтатус "Музика" і показувати інформацію про музику
+[If other XStatus is not set, set XStatus to Music and show listening info]
+Якщо є хСтатус, але він не "Музика", то виконати попередній пункт
+[If XStatus is Music, show listening info]
+Якщо хСтатус "Музика", то показувати інформацію про музику
+[Do nothing]
+Нічого не робити
+[Contacts]
+Контакти
+[Apply template for info from contacts (overrides contacts template)]
+Застосувати шаблон для інформації від контактів
+[Get info from WATrack plugin]
+Отримати інформацію з плагіну WATrack
+[Get info from these players:]
+Отримувати інформацію з плеєрів:
+[Windows Media Player]
+Програвач Windows Media
+[foobar2000 (need to install the plugin manually)]
+foobar2000 (встановіть плагін вручну)
+[Other players]
+Інші плеєри
+[Ask for new info every]
+Оновлення раз на
+[seconds]
+секунд
+[Allow auto-loading plugins into players (affect players with *)]
+Автозавантаження плагінів у плеєри (тільки для позначених *)
+[Listening to]
+Слухаю
+[Template:]
+Шаблон:
+[Variables:]
+Змінні:
+[%artist% - Artist name]
+%artist% - ім'я артиста
+[%album% - Album name]
+%album% - назва альбому
+[%title% - Song title]
+%title% назва пісні
+[%track% - Track number]
+%track% - № треку
+[%year% - Song year]
+%year% - рік випуску
+[%genre% - Song genre]
+%genre% - жанр пісні
+[%length% - Song length]
+%length% - довжина пісні
+[%player% - Player name]
+%player% - назва плеєра
+[%type% - Media type (Music, Radio, Video, etc.)]
+%type% - тип (музика, відео, радіо тощо)
+[When variable not found, use:]
+Якщо змінна невідома, надсилати:
+[Title:]
+Заголовок:
+[Message:]
+Діалог:
+[Other Variables:]
+Інші змінні:
+[%listening% - Listening to info (as set above)]
+%listening% - вказана вище інформація
+[When nothing is playing, replace %listening% with:]
+Коли нічого не грає, писати:
+[Send to %s]
+Відправляти в %s
+[Listening to (enabled)]
+Музика (ввімкнено)
+[Listening to (disabled)]
+Музика (вимкнено)
+[ListeningTo]
+Музика в статусі
+[Listening to music]
+Слухаю музику
+[Send to all protocols]
+Відправляти всім протоколам
+[Listening info]
+Музика в статусі
+[Listening info as set in the options]
+Інформація про музику, вказана в налаштуваннях
+[Media type: Music, Video, etc.]
+Тип: музика, відео тощо
+[Artist name]
+Артист
+[Album name]
+Альбом
+[Song name]
+Пісня
+[Track number]
+Номер
+[Song year]
+Рік
+[Song genre]
+Жанр
+[Song length]
+Тривалість
+[Player name]
+Назва плеєру
+[Don't send to any protocols]
+Не відправляти всім протоколам
+[Toggle send to all protocols]
+Ввімк./Вимк. відправляти всім протоколам
+[Enable/Disable sending Listening To info (to all protocols)]
+Ввімк./Вимк. відправку інформації про музику (всі протоколи)
+[Disable ListeningTo (to all protocols)]
+Вимкнути "Слухаю" (для всіх протоколів)
+[Enable ListeningTo (to all protocols)]
+Ввімкнути "Слухаю" (для всіх протоколів)
+[<Unknown>]
+<Невідомо>
+[<Nothing is playing now>]
+<Нічого не грає>
+[Status]
+Статус
+[General]
+Загальне
+[Format]
+Формат
+[Players]
+Плеєри

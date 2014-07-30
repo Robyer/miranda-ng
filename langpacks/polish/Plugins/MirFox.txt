@@ -1,0 +1,82 @@
+﻿#muuid {e99a09b2-e05b-4633-aa3a-5c83ef1cbab6}
+;============================================================
+;  File: MirFox.dll
+;  Plugin: MirFox
+;  Version: 0.5.0.0
+;  Authors: Szymon Tokarz
+;============================================================
+[MirFox (Miranda NG) - part of Miranda-Firefox integration - http://wsx22.3.xpdev-hosted.com]
+MirFox (Miranda NG) - plugin integrujący Miranda-Firefox - http://wsx22.3.xpdev-hosted.com
+;file \plugins\MirFox\res\resource.rc
+[Send to contact action]
+Wyślij do kontaktu
+[on left mouse button click]
+po kliknięciu LPM
+[on right mouse button click]
+po kliknięciu PPM
+[on middle mouse button click\n(note: use middle mouse button to send multiple messages from Firefox)]
+po kliknięciu środkowym przyciskiem myszy\n(używając środkowego przycisku można wysłać wiadomość wielokrotnie)
+[Firefox profiles]
+Profile Firefox
+[Show Miranda menu only in these Firefox profiles (comma delimited)]
+Aktywuj MirFox tylko dla następujących profili Firefox (rozdzielone przecinkiem)
+[Show these contacts in 'Send ... to' option in Firefox]
+Pokazuj następujące kontakty w menu "Wyślij ... do" w Firefox
+[Show these accounts in 'Set status message' option in Firefox]
+Pokazuj następujące konta w menu "Ustaw opis" w Firefox
+;file \plugins\MirFox\src\MirandaInterface.cpp
+[MirFox/Notification]
+MirFox/Informacja
+[MirFox/Error]
+MirFox/Błąd
+;file \plugins\MirFox\src\MirandaOptions.cpp
+[just send message]
+tylko wyślij wiadomość
+[send message and open message window]
+wyślij wiadomość i otwórz okno wiadomości
+[show message window with pasted message]
+otwórz okno wiadomości i wklej wiadomość
+[** All contacts **]
+** Wszystkie kontakty **
+[Protocol]
+Protokół
+[Services]
+Usługi
+[Options]
+Opcje
+[Contacts]
+Kontakty
+[Accounts]
+Konta
+;file \plugins\MirFox\src\MirandaUtils.cpp
+[MirFox log]
+MirFox log
+[Message sent to %s (%s)]
+Wiadomość wysłana do %s (%s)
+[Message sent]
+Wiadomość wysłana
+[Cannot send message to %s (%s) - %S]
+Błąd przy wysyłaniu wiadomości do %s (%s) - %S
+[Cannot send message - %S]
+Błąd przy wysyłaniu wiadomości - %S
+[Cannot send message to %s (%s)]
+Błąd przy wysyłaniu wiadomości do %s (%s)
+[Cannot send message]
+Błąd przy wysyłaniu wiadomości
+[MirFox error]
+MirFox - błąd
+[Status message set on %s]
+Ustawiono opis dla %s
+[Status message set]
+Ustawiono opis
+[Cannot set status message on %s]
+Błąd przy próbie ustawienia opisu dla %s
+[Cannot set status message]
+Błąd przy próbie ustawienia opisu
+;file \plugins\MirFox\src\MirfoxMiranda.cpp
+[This MirFox (Miranda) plugin is too old. Please update it.]
+Ten plugin MirFox (Miranda) jest nieaktualny. Zaktualizuj go.
+[MirFox (Miranda) - Error]
+MirFox (Miranda) - Błąd
+[This MirFox (Miranda) plugin cannot start because some other MirFox component is too old. Please, check and update your MirFox components.]
+Nie można uruchomić wtyczki MirFox (Miranda), inny komponent MirFox jest nieaktualny. Sprawdź i zaktualizuj komponenty MirFox.

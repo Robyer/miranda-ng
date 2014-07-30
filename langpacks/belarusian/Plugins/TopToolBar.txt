@@ -1,0 +1,59 @@
+﻿#muuid {f593c752-51d8-4d46-ba27-37577953f55c}
+;============================================================
+;  File: TopToolBar.dll
+;  Plugin: TopToolBar
+;  Version: 0.8.0.3
+;  Authors: Bethoven
+;============================================================
+[ToptoolBar adds buttons in top frame for fast access.]
+Плагін дадае панэль кнопак для хуткага доступу да функцый Miranda і Вашых праграм.
+;file \plugins\TopToolBar\res\main.rc
+[Buttons order and visibility]
+Паслядоўнасць і бачнасць кнопак
+[Button height]
+Вышыня кнопкі
+[Button width]
+Шырыня кнопкі
+[Interval between buttons]
+Прамежак
+[Use flat mode]
+Кнопкі без мяжы
+[Auto resize]
+Аўтапамер
+[Single line]
+У адзін радок
+[Buttons order:]
+Паказваць кнопкі:
+[Add separator]
+Дадаць падзельнік
+[Add launch]
+Дадаць запуск
+[Delete separator/launch button]
+Выдаліць падзельнік/кнопку
+[Name:]
+Імя:
+[Path:]
+Шлях:
+[Set]
+Абраць
+;file \plugins\TopToolBar\src\InternalButtons.cpp
+[Find/add contacts]
+Знайсці/дадаць кантакты
+[Disable groups]
+Адключыць гурты
+[Exit]
+Выйсце
+;file \plugins\TopToolBar\src\toolbar.cpp
+[Default]
+Змаўчанні
+[TopToolBar background]
+Фон панэлі кнопак
+[Frames service has not been found, so plugin will be disabled.\nTo run it you need to install and / or enable contact list plugin that supports it:\n- Modern contact list\n- Nicer+\nYou can get them at http://wiki.miranda-ng.org/Download]
+Ваш спіс кантактаў не подтрымлівае сервіс фрэймаў, таму плагін панэлі кнопак быў выключаны.\nДля працы панэлі кнопак патрабуецца адзін з дадаткаў:\n- Modern contact list\n- Nicer+\nВы можаце іх знайсці на http://wiki.miranda-ng.org/Download
+[TopToolBar]
+Панэль кнопак
+;file \plugins\TopToolBar\src\ttbopt.cpp
+[Contact list]
+Спіс кантактаў
+[Toolbar]
+Панэль кнопак

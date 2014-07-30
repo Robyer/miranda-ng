@@ -1,0 +1,2481 @@
+﻿#muuid {144e80a2-d198-428b-acbe-9d55dacc7fde}
+;============================================================
+;  File: Jabber.dll
+;  Plugin: Jabber protocol
+;  Version: 0.11.0.4
+;  Authors: George Hazan, Maxim Mluhov, Victor Pavlychko, Artem Shpynov, Michael Stepura
+;============================================================
+[Jabber (XMPP) protocol support for Miranda NG.]
+Підтримка протоколу Jabber (XMPP) в Miranda NG.
+[Edit Note]
+Редагувати нотатку
+[Tags:]
+Теги:
+[Cancel]
+Скасувати
+[Type:]
+Тип:
+[User:]
+Логін:
+[Domain/Server:]
+Домен/Сервер:
+[Password:]
+Пароль:
+[Save password]
+Зберегти пароль
+[Resource:]
+Ресурс:
+[Register new user]
+Реєстрація
+[Use custom connection host and port:]
+Налаштування підключення (вузол і порт):
+[Use Domain Login]
+Active Directory логін
+[Go]
+>>
+[Search service]
+Служба пошуку
+[Roster Editor]
+Редактор ростеру
+[Roster editor\nView and modify your server-side contact list.]
+Редактор ростеру\nПерегляд і правка списку контактів на сервері.
+[Download]
+Завантажити
+[Upload]
+Закачати
+[Import from file]
+Імпорт з файлу
+[Export to file]
+Експорт
+[Username:]
+Користувач:
+[Change password]
+Змінити пароль
+[Priority:]
+Пріоритет:
+[Use hostname as resource]
+Ім'я хосту в якості ресурсу
+[List of public servers]
+Публічні сервери
+[Port:]
+Порт:
+[Use SSL]
+SSL
+[Use TLS]
+TLS
+[Unregister]
+Видалити
+[Expert]
+Експерт
+[Manually specify connection host]
+Вказати хост для підключення
+[Host:]
+Хост:
+[Keep connection alive]
+Підтримувати з'єднання
+[Automatically delete contacts not in my roster]
+Автоматично видаляти контакти поза списком
+[User directory:]
+Директорія користувачів:
+[Language for human-readable resources:]
+Мова для видимих людині ресурсів:
+[File Transfer]
+Передача файлів
+[Allow file sending through direct peer-to-peer connection]
+Передача файлів через пряме з'єднання
+[Specify external address:]
+Зовнішня адреса:
+[Allow file sending through bytestream proxy server:]
+Передача через потоковий проксі-сервер:
+[Miscellaneous]
+Інше
+[Hint:]
+!!!
+[Try to uncheck all checkmarks above if you're experiencing troubles with sending files. But it can cause problems with transfer of large files.]
+Вимкніть всі опції, якщо у вас проблеми з відправкою файлів. Можуть виникнути проблеми з передачею великих файлів.
+[Jabber Account Registration]
+Реєстрація облікового запису Jabber
+[Jabber Form]
+Форма Jabber
+[Instruction:]
+Інструкція:
+[Submit]
+Передати
+[Next]
+Далі
+[Back]
+Назад
+[Complete]
+Готово
+[Jabber Password]
+Пароль Jabber
+[Remember password for this session]
+Запам'ятати пароль для цієї сесії
+[Save password permanently]
+Зберегти пароль
+[Address1:]
+Адреса 1:
+[Address2:]
+Адреса 2:
+[City:]
+Місто:
+[State:]
+Область:
+[ZIP:]
+Індекс:
+[Country:]
+Країна:
+[Full name:]
+Повне ім'я:
+[Nickname:]
+Нік:
+[First name:]
+Ім'я
+[Middle:]
+По батькові:
+[Last name:]
+Прізвище:
+[Date of birth:]
+Дата народження:
+[YYYY-MM-DD]
+РРРР-ММ-ДД
+[Gender:]
+Стать:
+[Occupation:]
+Заняття:
+[Homepage:]
+Сайт:
+[Company:]
+Компанія:
+[Department:]
+Відділ:
+[Title:]
+Посада:
+[E-mail:]
+Пошта:
+[Phone:]
+Телефон:
+[Jabber vCard: Add Email Address]
+Jabber vCard: додавання E-mail
+[Email address:]
+Адреса E-mail:
+[Home]
+Дім
+[Work]
+Робота
+[Internet]
+Інтернет
+[Jabber vCard: Add Phone Number]
+Jabber vCard: додавання телефону
+[Phone number:]
+Телефон:
+[Voice]
+Голос
+[Fax]
+Факс
+[Pager]
+Пейджер
+[Text/Messaging]
+Текстове спілкування
+[Cellular]
+Мобільний
+[Video]
+Відео
+[Modem]
+Модем
+[Load]
+Завантажити
+[Save]
+Зберегти
+[Delete]
+Видалити
+[Description:]
+Опис:
+[Change Password]
+Змінити пароль
+[Current Password:]
+Поточний пароль:
+[New Password:]
+Новий пароль:
+[Confirm New Password:]
+Підтвердження:
+[Create or Join group chat]
+Створення або вхід до комнати чату
+[Jabber Multi-User Conference\nCreate or join existing conference room.]
+Чати Jabber\nСтворення або вхід до комнати чату.
+[Conference server:]
+Сервер:
+[Room:]
+Чат-кімната:
+[Recently visited chatrooms:]
+Відвідані недавно чати:
+[Bookmarks]
+Закладки
+[JID List]
+Список
+[Apply Filter]
+Застосувати фільтр
+[Reset Filter]
+Скинути фільтр
+[Invite Users]
+Запрошення користувачів
+[<room jid>\nSend group chat invitation.]
+<room jid>\nЗапросити до чат-кімнати.
+[Other JID:]
+Інший JID:
+[Add]
+Додати
+[Invitation reason:]
+Причина запрошення:
+[&Invite]
+&Запросити
+[Group chat invitation]
+Запрошення на конференцію
+[<room jid>\nIncoming group chat invitation.]
+<room jid>\nЗапрошення до чат-кімнати.
+[You are invited to conference room by]
+Вас запросив:
+[with following reason:]
+причина:
+[&Accept]
+&Прийняти
+[Jabber Bookmarks]
+Закладки
+[Server side bookmarks\nStore conference rooms and web links on server.]
+Закладки на сервері\nЗберігання чатів та посилань на сервері.
+[Remove]
+Видалити
+[Edit]
+Редагувати
+[Close]
+Закрити
+[Bookmark Details]
+Деталі закладки
+[Bookmark Type]
+Тип закладки
+[Conference]
+Конференція
+[Transport]
+Транспорт
+[URL]
+Посилання
+[Auto-join (Automatically join Bookmarks must be enabled in Miranda options)]
+Автовхід (Необхідно ввімкнути автоматичний вхід у налаштуваннях)
+[Room JID/ URL:]
+JID / URL:
+[Bookmark Name:]
+Ім'я закладки:
+[Privacy Lists]
+Списки приватності
+[Privacy Lists\nFlexible way to configure visibility and more.]
+Списки приватності\nЗручний спосіб налаштувати видимість і не тільки.
+[Lists:]
+Списки:
+[Rules:]
+Правила:
+[Simple Mode]
+Простий режим
+[Advanced Mode]
+Розширений режим
+[Add list... (Ins)]
+Додати список... (Ins)
+[Activate (Space)]
+Активувати (пробіл)
+[Set as default (Ctrl+Space)]
+За замовчанням (Ctrl+пробіл)
+[Remove list (Del)]
+Видалити список (Del)
+[Add rule (Ins)]
+Додати правило (Ins)
+[Edit rule... (F2)]
+Змінити правило (F2)
+[Move rule up (Alt+Up)]
+Перемістити вгору (Alt+вгору)
+[Move rule down (Alt+Down)]
+Перемістити вниз (Alt+вниз)
+[Remove rule (Del)]
+Видалити правило (Del)
+[Privacy rule]
+Правило приватності
+[If:]
+Якщо:
+[Then:]
+То:
+[following stanza types:]
+Наступні типи подій:
+[Messages]
+Повідомлення
+[Queries]
+Запити
+[Incoming presence]
+Вхід. присутність
+[Outgoing presence]
+Вихід. присутність
+[New privacy list name:]
+Ім'я нового списку приватності:
+[Enter the name of the new list:]
+Введіть ім'я нового списку:
+[Service Discovery]
+Перегляд служб
+[View as tree]
+Як дерево
+[View as list]
+Як список
+[Favorites]
+Обрані
+[Refresh]
+Оновити
+[Node:]
+Вузол:
+[Account type:]
+Тип обл. запису:
+[Login server:]
+Сервер:
+[Register account now]
+Зареєструвати обл. запис
+[Jabber Account Information:]
+Інформація обл. запису Jabber:
+[Member Information]
+Права доступу
+[Member Information\n<user ID>]
+Інформація про користувача\n<user ID>
+[Role:]
+Роль:
+[Set role]
+Встановити роль
+[Affiliation:]
+Належність:
+[Set affiliation]
+Встановити належність
+[Status message:]
+Статусне повідомлення:
+[Chat options]
+Налаштування чату
+[Alternate nick:]
+Альтернативний нік:
+[Custom messages]
+Свої повідомлення
+[Quit:]
+Вихід:
+[Slap:]
+Ляпас:
+[Authorization request]
+Запит авторизації
+[HTTP Authorization\nAccept or reject incoming request]
+HTTP-авторизація\nПрийняти або відхилити вхідний запит
+[Someone (maybe you) has requested the following file:]
+Хтось (можливо, ви) запитав наступний файл:
+[Request was sent from JID:]
+Запит надіслано з JID:
+[The transaction identifier is:]
+Ідентифікатор транзакції:
+[Request method is:]
+Метод запиту:
+[If you wish to confirm this request, please click authorize. Otherwise, press deny to reject it.]
+Натисніть "Авторизувати", щоб прийняти запит, або "Заборонити", щоб відхилити.
+[Authorize]
+Авторизувати
+[Deny]
+Заборонити
+[Dialog]
+Діалог
+[Jabber Notebook]
+Записник Jabber
+[Jabber notebook\nStore notes on server and access them from anywhere.]
+Записник Jabber\nЗберігання нотаток на сервері і доступ до них звідусіль.
+[Bots Challenge Test]
+Захист від роботів
+[XML Console]
+XML-консоль
+[Reset log]
+Очистити журнал
+[Send]
+Надіслати
+[Jabber Link Protocol]
+Протокол Jabber
+[Frame title]
+Заголовок фрейму
+[Frame text]
+Текст фрейму
+[Jabber Activity]
+Заняття Jabber
+[Jabber Mood]
+Настрій Jabber
+[Fatal error, image services not found. Jabber Protocol will be disabled.]
+Фатальна помилка: сервіс зображень відсутній. Протокол Jabber буде відключено.
+[I'm happy Miranda NG user. Get it at http://miranda-ng.org/.]
+Я використовую Miranda NG (http://miranda-ng.org/)
+[/me slaps %s around a bit with a large trout]
+/me торохнув %s веслом по голові
+[Error %s %s]
+Помилка %s %s
+[Select Command]
+Виберіть команду
+[Not supported]
+Не підтримується
+[Done]
+Готово
+[In progress. Please Wait...]
+Обробка. Зачекайте...
+[Execute]
+Виконати
+[Requesting command list. Please wait...]
+Запит списку команд. Зачекайте...
+[Jabber Ad-Hoc commands at %s]
+Команди Ad-Hoc на %s
+[Sending Ad-Hoc command to %s]
+Надіслати команду Ad-Hoc %s
+[No message]
+Немає повідомлень
+[Jabber Agent Registration]
+Реєстрація агента Jabber
+[Register]
+Реєстрація
+[Please wait...]
+Будь ласка, зачекайте...
+[Bookmark Name]
+Ім'я закладки
+[Address (JID or URL)]
+Адреса (JID або URL)
+[Nickname]
+Нік
+[Conferences]
+Чат-кімнати
+[Links]
+Посилання
+[Supports Service Discovery info]
+Інформація про служби
+[Supports Service Discovery items list]
+Перегляд списку служб
+[Can inform about its Jabber capabilities]
+Повідомлення підтримуваних функцій Jabber (CAPs)
+[Supports stream initiation (e.g., for filetransfers)]
+Ініціювання потоку (передача файлів назовні)
+[Supports stream initiation for file transfers]
+Ініціювання потоку для передачі файлів
+[Supports file transfers via SOCKS5 Bytestreams]
+Передача файлів через SOCKS5 проксі
+[Supports file transfers via In-Band Bytestreams]
+Внутрішньопотокова передача файлів
+[Supports file transfers via Out-of-Band Bytestreams]
+Позапотокова передача файлів
+[Supports execution of Ad-Hoc commands]
+Виконання команд Ad-Hoc
+[Supports in-band registration]
+Внутрішньопотокова реєстрація
+[Supports multi-user chat]
+Підтримка чату
+[Can report chat state in a chat session]
+Повідомлення про стан чату в чат-сесії
+[Can report information about the last activity of the user]
+Повідомлення про останню активність користувача
+[Can report own version information]
+Повідомлення версій
+[Can report local time of the user]
+Повідомлення локального часу
+[Can send and receive ping requests]
+Прийом і відправка пінгів (ping)
+[Supports data forms]
+Форми даних
+[Can request and respond to events relating to the delivery, display, and composition of messages]
+Запит і відповідь на події - доставка, відображення, складання повідомлень
+[Supports vCard]
+vCard (візитні картки)
+[Supports iq-based avatars]
+Аватари (iq протокол)
+[Supports XHTML formatting of chat messages]
+xHTML-формат повідомлень чату
+[Supports Jabber Browsing]
+Перегляд Jabber
+[Can negotiate options for specific features]
+Обробка спеціальних можливостей
+[Can request advanced processing of message stanzas]
+Запити розширеної обробки типів подій
+[Can report information about user moods]
+Відправка настроїв
+[Receives information about user moods]
+Прийом настроїв
+[Supports generic publish-subscribe functionality]
+Основна функціональність підписок
+[Supports SecureIM plugin for Miranda NG]
+Підтримка плагіна SecureIM для Miranda NG
+[Supports OTR (Off-the-Record Messaging)]
+Підтримка шифрування повідомлень OTR (Off-the-Record)
+[Supports New_GPG plugin for Miranda NG]
+Підтримка плагіна New_GPG для Miranda NG
+[Blocks packets from another users/groupchats using Privacy lists]
+Блокування користувачів за допомогою списків приватності
+[Supports Message Receipts]
+Прийом повідомлень
+[Can report information about the music to which a user is listening]
+Відправка мелодій (слухаю музику)
+[Receives information about the music to which a user is listening]
+Прийом мелодій (слухає музику)
+[Supports private XML Storage (for bookmarks and other)]
+Зберігання XML (для закладок тощо)
+[Supports attention requests ('nudge')]
+Підтримка повідомлень уваги ("Тряска")
+[Supports chat history retrieving]
+Підтримує отримання історії чату
+[Supports chat history management]
+Підтримує керування історією чату
+[Can report information about user activity]
+Повідомлення про активність користувача
+[Receives information about user activity]
+Прийом інформації про заняття користувача
+[Supports Miranda NG notes extension]
+Підтримка нотаток Miranda NG
+[Supports Jingle]
+Підтримка Jingle
+[Supports Roster Exchange]
+Підтримка Roster Exchange
+[Supports direct chat invitations (XEP-0249)]
+Підтримка прямих запрошень до чату (XEP-0249)
+[Enter the text you see]
+Введіть текст, який ви бачите
+[None]
+Немає
+[Member]
+Користувач
+[Admin]
+Адмін
+[Owner]
+Власник
+[Visitor]
+Відвідувач
+[Participant]
+Учасник
+[Moderator]
+Модератор
+[Visitors]
+Відвідувачі
+[Participants]
+Учасники
+[Moderators]
+Модератори
+[Owners]
+Власники
+[User %s is now banned.]
+Користувач %s забанений.
+[User %s changed status to %s with message: %s]
+%s змінив статус на %s: %s
+[User %s changed status to %s]
+%s змінив статус на %s.
+[Room configuration was changed.]
+Налаштування кімнати змінилися.
+[Outcast]
+Вигнані
+[Affiliation of %s was changed to '%s'.]
+Належність %s змінилася на %s.
+[Role of %s was changed to '%s'.]
+Роль %s змінилася на '%s'.
+[because room is now members-only]
+тому що кімната тільки для постійних учасників
+[user banned]
+забанений
+[Change &nickname]
+Змінити &нік
+[&Invite a user]
+&Запросити користувача
+[&Roles]
+&Ролі
+[&Participant list]
+&Список учасників
+[&Moderator list]
+&Список модераторів
+[&Affiliations]
+&Належності
+[&Member list]
+&Список користувачів
+[&Admin list]
+Список &адмінів
+[&Owner list]
+Список &власників
+[Outcast list (&ban)]
+&Список забанених
+[&Room options]
+&Налаштування чат-кімнати
+[View/change &topic]
+Перегляд/зміна &теми
+[Add to &bookmarks]
+Додати у &закладки
+[&Configure...]
+&Налаштувати...
+[&Destroy room]
+&Видалити чат-кімнату
+[Lin&ks]
+Поси&лання
+[Copy room &JID]
+Копіювати &JID чат-кімнати
+[Copy room topic]
+Копіювати тему
+[&Send presence]
+&Відправити присутність
+[Online]
+В мережі
+[Away]
+Відсутній
+[NA]
+Недоступний
+[DND]
+Не турбувати
+[Free for chat]
+Готовий до чату
+[&Leave chat session]
+&Вийти з чату
+[&Slap]
+&Ляпас
+[&User details]
+Про &користувача
+[Member &info]
+Права &доступу
+[User &details]
+&Інформація
+[&Add to roster]
+&Додати в ростер
+[&Copy to clipboard]
+&Копіювати в буфер обміну
+[Invite to room]
+Запросити в чат-кімнату
+[Set &role]
+Встановити &роль
+[&Visitor]
+&Відвідувач
+[&Participant]
+&Учасник
+[&Moderator]
+&Модератор
+[Set &affiliation]
+Встановити належність
+[&None]
+&Немає
+[&Member]
+&Користувач
+[&Admin]
+&Адмін
+[&Owner]
+&Власник
+[Outcast (&ban)]
+&Забанити
+[&Kick]
+&Вигнати
+[Copy &nickname]
+Копіювати &нік
+[Copy real &JID]
+Копіювати &JID
+[Copy in-room JID]
+Копіювати JID з чат-кімнати
+[Real &JID: %s]
+Реальний &JID: %s
+[%s\nSend group chat invitation.]
+%s\nЗапросити на конференцію.
+[%s (not on roster)]
+%s (не в ростері)
+[Member Info: %s]
+Інфо користувача: %s
+[Member Information\n%s from %s]
+Інформація про користувача\n%s з %s
+[Real JID not available]
+Реальний JID недоступний
+[Reason to kick %s]
+Причина стусана %s
+[Reason to ban %s]
+Причина бана %s
+[Invite %s to %s]
+Запросити %s до %s
+[Set topic for %s]
+Встановити тему для %s
+[Change nickname in %s]
+Змінити нік у %s
+[Reason to destroy %s]
+Причина знищення %s
+[Can't send data while you are offline.]
+Неможливо надіслати - не в мережі.
+[Jabber Error]
+Помилка Jabber
+[Outgoing XML parsing error]
+Помилка синтаксичного аналізу вихідного XML
+[request timeout.]
+таймаут запиту.
+[Node hierarchy]
+Ієрархія вузла
+[Node]
+Вузол
+[Navigate]
+Перехід
+[Browse all favorites]
+Перегляд обраного
+[Remove all favorites]
+Видалити все обране
+[Registered transports]
+Транспорти
+[Browse local transports]
+Огляд локальних транспортів
+[Browse chatrooms]
+Огляд чат-кімнат
+[Contact Menu...]
+Меню контакту...
+[View vCard]
+Перегляд vCard
+[Join chatroom]
+Увійти в чат-кімнату
+[Refresh Info]
+Оновити інфо
+[Refresh Children]
+Оновити служби
+[Add to favorites]
+Додати в обране
+[Add to roster]
+Додати в ростер
+[Bookmark chatroom]
+Додати у закладки
+[Add search directory]
+Додати пошук
+[Use this proxy]
+Використовувати цей проксі
+[Commands...]
+Команди...
+[Logon]
+Увійти
+[Logoff]
+Вийти
+[Copy JID]
+Копіювати JID
+[Copy node name]
+Копіювати ім'я
+[Copy node information]
+Копіювати інформацію
+[Identities]
+Ідентифікатори
+[category]
+категорія
+[type]
+тип
+[Category]
+Категорія
+[Type]
+Тип
+[Supported features]
+Підтримувані функції
+[Info request error]
+Помилка запиту інформації
+[Items request error]
+Помилка запиту значень
+[One or more addresses for communication related to abusive traffic]
+Одна або кілька адрес для зв'язку з питань скарг
+[One or more addresses for customer feedback]
+Одна або кілька адрес для відгуків клієнтів
+[One or more addresses for communication related to sales and marketing]
+Одна або кілька адрес для зв'язку з питать продажів і маркетингу
+[One or more addresses for communication related to security concerns]
+Одна або кілька адрес для зв'язку з питать проблем безпеки
+[One or more addresses for customer support]
+Одна або кілька адрес для підтримки користувачів
+[The Jabber ID of a single entity to which an operation applies]
+JID особи, до якої застосовується операція
+[The Jabber ID of one or more entities to which an operation applies]
+JID однієї або декількох осіб, до яких застосовується операція
+[The Jabber IDs associated with active sessions]
+JID, пов'язані з активною сесією
+[The number of online entities that are active]
+Кількість осіб онлайн, які є активними
+[A list of entities with administrative privileges]
+Список осіб з привілеями адміністраторів
+[The text of an announcement to be sent to active users or all users]
+Текст повідомлення, яке буде відправлено активним користувачам або всім користувачам
+[A list of entities with whom communication is blocked]
+Список осіб, спілкування з якими блокується
+[The number of seconds to delay before applying a change]
+Кількість секунд затримки перед тим, як застосувати зміни
+[The Jabber IDs that have been disabled]
+JID, які були відключені
+[The number of disabled entities]
+Кількість відключених осіб
+[The email address for a user]
+Адреса E-mail користувача
+[The given (first) name of a user]
+Ім'я користувача
+[The number of online entities that are idle]
+Кількість осіб онлайн, які перебувають у режимі очікування
+[The IP addresses of an account's online sessions]
+IP-адреси онлайн-сесій облікового запису
+[The last login time (per XEP-0082) of a user]
+Час останного входу користувача в систему за XEP-0082
+[The number of logins per minute for an account]
+Кількість входів на хвилину для облікового запису
+[The maximum number of items associated with a search or list]
+Максимальна кількість елементів, пов'язаних з пошуком або списком
+[The text of a message of the day]
+Текст повідомлення
+[The names of an account's online sessions]
+Імена онлайн-сесій облікового запису
+[The Jabber IDs associated with online users]
+JID користувачів онлайн
+[The number of online entities]
+Кількість осіб онлайн
+[The password for an account]
+Пароль
+[Password verification]
+Перевірка пароля
+[A list of registered entities]
+Список зареєстрованих осіб
+[The number of registered entities]
+Кількість зареєстрованих суб'єктів
+[Number of roster items for an account]
+Кількість елементів ростеру для облікового запису
+[The number of stanzas being sent per second by an account]
+Кількість подій, що відправляються з облікового запису за секунду
+[The family (last) name of a user]
+Прізвище
+[The text of a welcome message]
+Текст вітального повідомлення
+[A list of entities with whom communication is allowed]
+Список осіб, з якими дозволено спілкування
+[First Name]
+Ім'я
+[Last Name]
+Прізвище
+[Desired Nickname]
+Нік
+[Your URL]
+Ваша сторінка
+[Email Address]
+Пошта
+[FAQ Entry]
+Запитання та відповіді
+[Whether to allow occupants to invite others]
+Дозволити учасникам запрошувати інших
+[Whether to allow occupants to change subject]
+Дозволити учасникам змінювати тему
+[Whether to enable logging of room conversations]
+Включити запис журналу чат-кімнати
+[Natural language for room discussions]
+Мова спілкування у чат-кімнаті
+[Maximum number of room occupants]
+Максимальна кількість учасників чат-кімнати
+[Whether to make room members-only]
+Тільки для учасників
+[Whether to make room moderated]
+Модерувати чат-кімнату
+[Whether a password is required to enter]
+Вхід з паролем
+[Whether to make room persistent]
+Зробити кімнату постійною
+[Roles for which presence is broadcast]
+Ролі, для яких транслюється присутність
+[Whether to allow public searching for room]
+Дозволити публічний пошук чат-кімнати
+[Full list of room admins]
+Список адміністраторів чат-кімнати
+[Short description of room]
+Короткий опис чат-кімнати
+[Natural-language room name]
+Назва чат-кімнати мовою, встановленою для спілкування
+[Full list of room owners]
+Список власників чат-кімнати
+[The room password]
+Пароль чат-кімнати
+[Affiliations that may discover real JIDs of occupants]
+Ролі, які можуть бачити реальні JID учасників
+[Precondition: node configuration with the specified access model]
+Умова: конфігурація вузла із зазначеною моделлю доступу
+[Whether to allow the subscription]
+Дозволити підписку
+[The SubID of the subscription]
+SubID підписки
+[The NodeID of the relevant node]
+NodeID відповідного вузла
+[The address (JID) of the subscriber]
+JID абонента
+[Whether an entity wants to receive or disable notifications]
+Особа бажає отримувати або відключити сповіщення
+[Whether an entity wants to receive digests (aggregations) of notifications or all notifications individually]
+Особа бажає отримувати дайджест сповіщення або всі сповіщення індивідуально
+[The minimum number of milliseconds between sending any two notification digests]
+Мінімальний час (мс) між відправленнями сповіщень або дайджестів
+[The date and time at which a leased subscription will end or has ended]
+Дата й час, коли обрана підписка закінчиться або закінчилась
+[Whether an entity wants to receive an XMPP message body in addition to the payload format]
+Особа бажає отримувати XMPP-повідомлення на додачу до формату корисного навантаження
+[The presence states for which an entity wants to receive notifications]
+Стани присутності, для яких особа бажає отримувати сповіщення
+[Who may subscribe and retrieve items]
+Хто може підписуватися і отримувати елементи
+[The URL of an XSL transformation which can be applied to payloads in order to generate an appropriate message body element.]
+Адреса перетвореного XSL, яка може бути застосована до корисного навантаження, щоб генерувати відповідний елемент у повідомленні.
+[The collection with which a node is affiliated]
+Колекція, для якої вузол є афілійованим
+[The URL of an XSL transformation which can be applied to the payload format in order to generate a valid Data Forms result that the client could display using a generic Data Forms rendering engine]
+Адреси перетворених XSL, які можуть бути застосовані як корисне навантаження для того, щоб створити дійсні форми даних, які клієнт може відображати за допомогою універсальної системи рендерингу даних
+[Whether to deliver payloads with event notifications]
+Доставка корисного навантаження з сповіщенням про події
+[Whether owners or publisher should receive replies to items]
+Власники або видавці повинні отримувати відповіді до статей
+[Who may associate leaf nodes with a collection]
+Хто може пов'язати кінцеві вузли у колекцію
+[The list of JIDs that may associated leaf nodes with a collection]
+Список JID, що можуть пов'язати кінцеві вузли у колекцію
+[The child nodes (leaf or collection) associated with a collection]
+Дочірні вузли (листя або колекції), пов'язані з колекцією
+[The maximum number of child nodes that can be associated with a collection]
+Максимальна кількість дочірніх вузлів, які можуть бути пов'язані з колекцією
+[The maximum number of items to persist]
+Максимальна кількість елементів для збереження
+[The maximum payload size in bytes]
+Максимальний розмір даних (у байтах)
+[Whether the node is a leaf (default) or a collection]
+Вузол є листом (за замовчанням) чи колекцією
+[Whether to notify subscribers when the node configuration changes]
+Інформувати абонентів про зміну конфігурації вузла
+[Whether to notify subscribers when the node is deleted]
+Інформувати абонентів про видалення вузла
+[Whether to notify subscribers when items are removed from the node]
+Інформувати абонентів про видалення елементів з вузла
+[Whether to persist items to storage]
+Зберігати елементи на накопичувач
+[Whether to deliver notifications to available users only]
+Доставляти сповіщення наявним користувачам
+[The publisher model]
+Модель видання
+[The specific multi-user chat rooms to specify for replyroom]
+MUC, що вказує на replyroom
+[The specific JID(s) to specify for replyto]
+JID, що вказує на replyto
+[The roster group(s) allowed to subscribe and retrieve items]
+Групи ростеру, яким дозволяється підписатися і отримувати елементи
+[Whether to send items to new subscribers]
+Надсилати елементи новим абонентам
+[Whether to allow subscriptions]
+Дозволити підписку
+[A friendly name for the node]
+Ім'я
+[The type of node data, usually specified by the namespace of the payload (if any); MAY be list-single rather than text-single]
+Тип даних вузла, зазвичай визначається простір імен корисного навантаження (при наявності); МОЖЕ бути тільки список або тільки текст
+[The JIDs of those to contact with questions]
+JID для запитань
+[The date and time when the node was created]
+Дата і час створення вузла
+[The JID of the node creator]
+JID автора
+[A description of the node]
+Опис
+[The default language of the node]
+Мова за замовчанням
+[The number of subscribers to the node]
+Кількість абонентів
+[The JIDs of those with an affiliation of owner]
+JID власників
+[The JIDs of those with an affiliation of publisher]
+JID видавців
+[The name of the node]
+Ім'я
+[Payload type]
+Тип даних
+[Whether to automatically authorize subscription requests]
+Автоматично приймати запити підписки
+[Whether to automatically accept file transfers]
+Автоматично приймати передачі файлів
+[Whether to automatically open new messages]
+Автоматично відкривати нові повідомлення
+[Whether to automatically go offline when idle]
+Автоматично перейти в "не в мережі" в режимі очікування
+[Whether to play sounds]
+Грати звуки
+[A list of pending file transfers]
+Список файлів, які очікують прийому
+[A list of joined group chat rooms]
+Список тих, хто приєднався до чату
+[A presence or availability status]
+Присутність і статус присутності
+[The status message text]
+Текст статусного повідомлення
+[The new priority for the client]
+Новий пріоритет
+[Account name associated with the user]
+Ім'я облікового запису, пов'язаного з цим користувачем
+[Familiar name of the user]
+Близький друг
+[Password or secret for the user]
+Пароль або ключ користувача
+[Full name of the user]
+Повне ім'я
+[First name or given name of the user]
+Ім'я
+[Last name, surname, or family name of the user]
+Прізвище
+[Email address of the user]
+Пошта
+[Street portion of a physical or mailing address]
+Вулиця
+[Locality portion of a physical or mailing address]
+Населений пункт
+[Region portion of a physical or mailing address]
+Регіон
+[Postal code portion of a physical or mailing address]
+Поштовий індекс
+[Family Name]
+Прізвище
+[Whether to accept the invitation]
+Приймати запрошення
+[Another resource with which to continue the session]
+Інший ресурс, з якого продовжено сеанс
+[Disclosure of content, decryption keys or identities]
+Розкриття вмісту, дешифрування ключів або тотожностей
+[Whether may send Chat State Notifications per XEP-0085]
+Надсилати сповіщення стану чат-кімнати за XEP-0085
+[Whether allowed to use XHTML-IM formatting per XEP-0071]
+Дозволити використання форматування XHTML-IM за XEP-0071
+[Primary written language of the chat (each value appears in order of preference and conforms to RFC 4646 and the IANA registry)]
+Основна мова чату (кожне значення з'являється в порядку переваги і відповідає RFC 4646 та реєстру IANA)
+[Whether allowed to log messages (i.e., whether Off-The-Record mode is required)]
+Дозволити лог повідомлень (тобто, Off-The-Record режиму не потрібно)
+[Whether to renegotiate the session]
+Переглянути сесії
+[Minimum security level]
+Мінімальний рівень безпеки
+[Whether to terminate the session]
+Слід припинити сеанс
+[Whether to enable Message Receipts per XEP-0184]
+Ввімкнути сповіщення про доставку повідомлень за XEP-0184
+[Failed to retrieve room list from server.]
+Помилка запиту списку кімнат на сервері.
+[No rooms available on server.]
+На сервері немає доступних кімнат.
+[Room list request timed out.]
+Таймаут запиту списку кімнат.
+[<no nick>]
+<без ніку>
+[Loading...]
+Завантаження...
+[Please wait for room list to download.]
+Будь ласка, зачекайте поки список кімнат завантажиться.
+[Please specify group chat directory first.]
+Будь ласка, вкажіть групу для чат-кімнат.
+[Bookmarks...]
+Закладки...
+[Change nickname in <%s>]
+Змінити нік на <%s>
+[has set the subject to:]
+встановив(ла) тему:
+[%s\nIncoming group chat invitation.]
+%s\nЗапрошення в конференцію.
+[transport]
+транспорт
+[Notes]
+Нотатки
+[Multi-User Conference]
+Чат-кімната
+[Agents list]
+Список агентів
+[Transports]
+Транспорти
+[Personal vCard]
+Особиста візитна картка
+[Convert to room]
+Конв. у чат-кімнату
+[Login/logout]
+Увійти/Вийти
+[Resolve nicks]
+Визначити ніки
+[Send note]
+Надіслати нотатку
+[AdHoc Command]
+Команда AdHoc
+[OpenID Request]
+Запит OpenID
+[Discovery succeeded]
+Визначення завершено
+[Discovery failed]
+Визначення не вдалося
+[Discovery in progress]
+Визначення...
+[Apply filter]
+Застосувати фільтр
+[Reset filter]
+Скинути фільтр
+[Navigate home]
+Перейти на початок
+[Refresh node]
+Оновити вузол
+[Browse node]
+Огляд вузла
+[RSS service]
+Служба RSS
+[Server]
+Сервер
+[Storage service]
+Служба зберігання
+[Weather service]
+Служба погоди
+[Generic privacy list]
+Простий список
+[Active privacy list]
+Активний список
+[Default privacy list]
+Список за замовчанням
+[Move up]
+Вище
+[Move down]
+Нижче
+[Allow Messages]
+Дозволити повідомлення
+[Allow Presences (in)]
+Дозволити присутність (вх.)
+[Allow Presences (out)]
+Дозволити присутність (вих.)
+[Allow Queries]
+Дозволити запити
+[Deny Messages]
+Заборонити повідомлення
+[Deny Presences (in)]
+Заборонити присутність (вх.)
+[Deny Presences (out)]
+Заборонити присутність (вих.)
+[Deny Queries]
+Заборонити запити
+[Protocols]
+Протоколи
+[Dialogs]
+Діалоги
+[Discovery]
+Перегляд
+[Privacy]
+Приватність
+[Authentication failed for %s.]
+Аутентифікація не пройшла для %s.
+[Jabber Authentication]
+Аутентифікация Jabber
+[Registration successful]
+Реєстрація успішно пройдена
+[Password is successfully changed. Don't forget to update your password in the Jabber protocol option.]
+Пароль успішно змінено. Не забудьте оновити пароль в налаштуваннях облікового запису Jabber.
+[Password cannot be changed.]
+Пароль не може бути змінений
+[Jabber Bookmarks Error]
+Помилка закладок Jabber
+[%s, %d items (%s)]
+%s, %d пунктів (%s)
+[Voice List]
+Список учасників
+[Member List]
+Список користувачів
+[Moderator List]
+Список модераторів
+[Ban List]
+Список заблокованих
+[Admin List]
+Список адмінів
+[Owner List]
+Список власників
+[Reason to ban]
+Причина бану
+[Removing %s?]
+Видалити %s?
+[Http authentication request received]
+Отримано запит HTTP-авторизації
+[Jabber account chooser]
+Вибір облікового запису Jabber
+[Request authorization]
+Запитати авторизацію
+[Grant authorization]
+Авторизувати
+[Revoke authorization]
+Відкликати авторизацію
+[Convert]
+Конвертувати
+[Add to Bookmarks]
+Додати у закладки
+[Commands]
+Команди
+[Send Note]
+Відправити нотатку
+[Send Presence]
+Відправити присутність
+[Jabber Resource]
+Ресурс
+[Last Active]
+Останній активний
+[Server's Choice]
+Вибір сервера
+[&Convert to Contact]
+Конвертувати в контакт
+[&Convert to Chat Room]
+&Конвертувати у чат
+[Options...]
+Налаштування...
+[Services...]
+Служби...
+[Registered Transports]
+Транспорти
+[Local Server Transports]
+Транспорти сервера
+[Create/Join group chat]
+Створити/увійти в чат
+[Roster editor]
+Редактор ростеру
+[Resource priority]
+Пріоритет ресурсу
+[Increase priority by %d]
+Збільшити на %d
+[Decrease priority by %d]
+Зменшити на %d
+[Resource priority [%d]]
+Пріоритет ресурсу [%d]
+[Join conference]
+Підключитися до чату
+[Open bookmarks]
+Відкрити закладки
+[Privacy lists]
+Списки приватності
+[Service discovery]
+Перегляд служб
+[Last active (%s)]
+Останній активний (%s)
+[No activity yet, use server's choice]
+Активного ще немає, використовуйте вибір сервера
+[Highest priority (server's choice)]
+Найвищий пріоритет (за вибором сервера)
+[Status Message]
+Статусне повідомлення
+[CHAT plugin is required for conferences. Install it before chatting]
+Для конференцій потрібен плагін StdChat або TabSRMM.
+[To]
+До
+[From]
+Від
+[Both]
+Обидві
+[Errors]
+Помилки
+[Incoming note from %s]
+Вхідна нотатка від %s
+[Send note to %s]
+Надіслати нотатку %s
+[From: %s]
+Від: %s
+[All tags]
+Усі теги
+[Notes are not saved, close this window without uploading data to server?]
+Нотатки не збережені, закрити вікно без завантаження нотаток на сервер?
+[Are you sure?]
+Ви впевнені?
+[Incoming note]
+Вхідна нотатка
+[Afar]
+Афар
+[Abkhazian]
+Абхазька
+[Afrikaans]
+Африкаанс
+[Akan]
+Акан
+[Albanian]
+Албанська
+[Amharic]
+Амхарська
+[Arabic]
+Арабська
+[Aragonese]
+Арагонська
+[Armenian]
+Вірменська
+[Assamese]
+Асамська
+[Avaric]
+Аварська
+[Avestan]
+Авестійська
+[Aymara]
+Аймара
+[Azerbaijani]
+Азербайджанська
+[Bashkir]
+Башкирська
+[Bambara]
+Бамана
+[Basque]
+Баскська
+[Belarusian]
+Білоруська
+[Bengali]
+Бенгальська
+[Bihari]
+Біхарі
+[Bislama]
+Біслама
+[Bosnian]
+Боснійська
+[Breton]
+Бретонська
+[Bulgarian]
+Болгарська
+[Burmese]
+Бірманська
+[Catalan; Valencian]
+Каталонська
+[Chamorro]
+Чаморро
+[Chechen]
+Чеченська
+[Chinese]
+Китайська
+[Church Slavic; Old Slavonic]
+Старослов'янська
+[Chuvash]
+Чуваська
+[Cornish]
+Корнська
+[Corsican]
+Корсиканська
+[Cree]
+Крі
+[Czech]
+Чеська
+[Danish]
+Данська
+[Divehi; Dhivehi; Maldivian]
+Мальдівська
+[Dutch; Flemish]
+Голландська
+[Dzongkha]
+Дзонг-ке
+[English]
+Англійська
+[Esperanto]
+Есперанто
+[Estonian]
+Естонська
+[Ewe]
+Еве
+[Faroese]
+Фарерська
+[Fijian]
+Фіджійська
+[Finnish]
+Фінська
+[French]
+Французька
+[Western Frisian]
+Фризька
+[Fulah]
+Фула
+[Georgian]
+Грузинська
+[German]
+Німецька
+[Gaelic; Scottish Gaelic]
+Гельська
+[Irish]
+Ірландська
+[Galician]
+Галісійська
+[Manx]
+Менська
+[Greek, Modern (1453-)]
+Грецька
+[Guarani]
+Гуарані
+[Gujarati]
+Гуджаратська
+[Haitian; Haitian Creole]
+Гаїтянська
+[Hausa]
+Хауса
+[Hebrew]
+Іврит
+[Herero]
+Гереро
+[Hindi]
+Гінді
+[Hiri Motu]
+Хірі-моту
+[Hungarian]
+Угорська
+[Igbo]
+Ігбо
+[Icelandic]
+Ісландська
+[Ido]
+Ідо
+[Sichuan Yi]
+Сичуаньська і
+[Inuktitut]
+Інуктитут
+[Interlingue]
+Інтерлінгва
+[Interlingua (International Auxiliary Language Association)]
+Інтерлінгва (IALA)
+[Indonesian]
+Індонезійська
+[Inupiaq]
+Інупіак
+[Italian]
+Італійська
+[Javanese]
+Яванська
+[Japanese]
+Японська
+[Kalaallisut; Greenlandic]
+Гренландська
+[Kannada]
+Каннада
+[Kashmiri]
+Кашмірська
+[Kanuri]
+Канурі
+[Kazakh]
+Казахська
+[Central Khmer]
+Кхмерська
+[Kikuyu; Gikuyu]
+Кікуйю
+[Kinyarwanda]
+Кін'яруанда
+[Kirghiz; Kyrgyz]
+Киргизька
+[Komi]
+Комі
+[Kongo]
+Конго
+[Korean]
+Корейська
+[Kuanyama; Kwanyama]
+Кваньяма
+[Kurdish]
+Курдська
+[Lao]
+Лаоська
+[Latin]
+Латинська
+[Latvian]
+Латвійська
+[Limburgan; Limburger; Limburgish]
+Лімбурзька
+[Lingala]
+Лінгала
+[Lithuanian]
+Литовська
+[Luxembourgish; Letzeburgesch]
+Люксембурзька
+[Luba-Katanga]
+Луба-катанга
+[Ganda]
+Ганда
+[Macedonian]
+Македонська
+[Marshallese]
+Маршальська
+[Malayalam]
+Малаялам
+[Maori]
+Маорі
+[Marathi]
+Маратхі
+[Malay]
+Малайська
+[Malagasy]
+Малагасійська
+[Maltese]
+Мальтійська
+[Moldavian]
+Молдавська
+[Mongolian]
+Монгольська
+[Nauru]
+Науру
+[Navajo; Navaho]
+Навахо
+[Ndebele, South; South Ndebele]
+Ндебеле південна
+[Ndebele, North; North Ndebele]
+Ндебеле північна
+[Ndonga]
+Ндонга
+[Nepali]
+Непальська
+[Norwegian Nynorsk; Nynorsk, Norwegian]
+Норвезька (Нюношк)
+[Bokmaal, Norwegian; Norwegian Bokmaal]
+Норвезька (Букмол)
+[Norwegian]
+Норвезька
+[Chichewa; Chewa; Nyanja]
+Ньянджа
+[Occitan (post 1500); Provencal]
+Окситанська
+[Ojibwa]
+Оджибва
+[Oriya]
+Орія
+[Oromo]
+Оромо
+[Ossetian; Ossetic]
+Осетинська
+[Panjabi; Punjabi]
+Панджабі
+[Persian]
+Перська
+[Pali]
+Палі
+[Polish]
+Польська
+[Portuguese]
+Португальська
+[Pushto]
+Пушту
+[Quechua]
+Кечуа
+[Romansh]
+Ретороманська
+[Romanian]
+Румунська
+[Rundi]
+Рунді
+[Russian]
+Російська
+[Sango]
+Санго
+[Sanskrit]
+Санскрит
+[Serbian]
+Сербська
+[Croatian]
+Хорватська
+[Sinhala; Sinhalese]
+Сингальська
+[Slovak]
+Словацька
+[Slovenian]
+Словенська
+[Northern Sami]
+Північносаамська
+[Samoan]
+Самоанська
+[Shona]
+Шона
+[Sindhi]
+Сінді
+[Somali]
+Сомалійська
+[Sotho, Southern]
+Сото
+[Spanish; Castilian]
+Іспанська
+[Sardinian]
+Сардинська
+[Swati]
+Сваті
+[Sundanese]
+Сунданська
+[Swahili]
+Суахілі
+[Swedish]
+Шведська
+[Tahitian]
+Таїтянська
+[Tamil]
+Тамільська
+[Tatar]
+Татарська
+[Telugu]
+Телугу
+[Tajik]
+Таджицька
+[Tagalog]
+Тагальська
+[Thai]
+Тайська
+[Tibetan]
+Тибетська
+[Tigrinya]
+Тигринья
+[Tonga (Tonga Islands)]
+Тонганська
+[Tswana]
+Тсвана
+[Tsonga]
+Тсонга
+[Turkmen]
+Туркменська
+[Turkish]
+Турецька
+[Twi]
+Тві
+[Uighur; Uyghur]
+Уйгурська
+[Ukrainian]
+Українська
+[Urdu]
+Урду
+[Uzbek]
+Узбецька
+[Venda]
+Венда
+[Vietnamese]
+В'єтнамська
+[Volapuk]
+Волапюк
+[Welsh]
+Уельська
+[Walloon]
+Валлонська
+[Wolof]
+Волоф
+[Xhosa]
+Коса
+[Yiddish]
+Ідиш
+[Yoruba]
+Йоруба
+[Zhuang; Chuang]
+Чжуанська
+[Zulu]
+Зулуська
+[These changes will take effect the next time you connect to the Jabber network.]
+Зміни наберуть чинності при наступному вході в мережу Jabber.
+[Jabber Protocol Option]
+Налаштування протоколу Jabber
+[Confirm password]
+Введіть пароль
+[Passwords do not match.]
+Паролі не збігаються.
+[This operation will kill your account, roster and all other information stored at the server. Are you ready to do that?]
+Ця операція видалить ваш обліковий запис, ростер і всю інформацію, що зберігається на сервері. Ви дійсно хочете видалити обліковий запис?
+[Account removal warning]
+Видалення облікового запису
+[You can change your password only when you are online]
+Щоб змінити пароль, вам потрібно підключитися до мережі
+[You must be online]
+Вам потрібно підключитися до мережі
+[Messaging]
+Повідомлення
+[Send messages slower, but with full acknowledgement]
+Надсилати повідомлення повільніше, але з підтведженням
+[Enable avatars]
+Ввімкнути аватари
+[Log chat state changes]
+Записувати зміни стану чату
+[Log presence subscription state changes]
+Записувати зміни присутності
+[Log presence errors]
+Записувати помилки присутності
+[Enable user moods receiving]
+Ввімкнути прийом настроїв
+[Enable user tunes receiving]
+Ввімкнути прийом мелодій
+[Enable user activity receiving]
+Ввімкнути прийом занять
+[Receive notes]
+Приймати нотатки
+[Automatically save received notes]
+Автоматично зберігати прийняті нотатки
+[Enable server-side history]
+Ввімкнути історію на сервері (XEP-0136) (тільки при підтримці на стороні сервера)
+[Server options]
+Налаштування сервера
+[Disable SASL authentication (for old servers)]
+Відключити аутентифікацію SASL (старі сервери)
+[Enable stream compression (if possible)]
+Стискати потік (якщо можливо)
+[Other]
+Інше
+[Enable remote controlling (from another resource of same JID only)]
+Віддалене керування (тільки з іншого ресурсу одного JID)
+[Show transport agents on contact list]
+Показати транспортні агенти у списку контактів
+[Automatically add contact when accept authorization]
+Додавати контакт після підтвердження авторизації
+[Automatically accept authorization requests]
+Автоматично приймати запити авторизації
+[Fix incorrect timestamps in incoming messages]
+Виправляти час у вхідних повідомленнях
+[Disable frame]
+Вимкнути фрейм
+[Enable XMPP link processing (requires Association Manager)]
+Обробляти XMPP-посилання (потрібен плагін Association Manager)
+[Keep contacts assigned to local groups (ignore roster group)]
+Використовувати локальні групи (ігнорувати групи ростеру)
+[Security]
+Безпека
+[Allow servers to request version (XEP-0092)]
+Відповідати серверу на запити про версії (XEP-0092)
+[Show information about operating system in version replies]
+Надавати інформацію про операційну систему в запитах версії
+[Accept only in band incoming filetransfers (don't disclose own IP)]
+Дозволяти передачу файлів тільки всередині потоку (не розкривати свій IP)
+[Accept HTTP Authentication requests (XEP-0070)]
+Приймати запити аутентифікації HTTP (XEP-0070)
+[General]
+Загальне
+[Autoaccept multiuser chat invitations]
+Автоматично приймати запрошення в чат-кімнати
+[Automatically join bookmarks on login]
+Автоматично заходити в закладки
+[Automatically join conferences on login]
+Автоматично заходити в чат-кімнати при вході
+[Hide conference windows at startup]
+Не відкривати вікна чат-кімнат при вході
+[Do not show multiuser chat invitations]
+Не показувати запрошення до чатів
+[Log events]
+Запис подій в журнал
+[Ban notifications]
+Сповіщення про бани
+[Room configuration changes]
+Зміна налаштувань чат-кімнати
+[Affiliation changes]
+Зміни належності
+[Role changes]
+Зміни ролі
+[Status changes]
+Зміни статусу
+[Don't notify history messages]
+Не показувати сповіщень з історії
+[Group]
+Група
+[Subscription]
+Підписка
+[Uploading...]
+Завантаження...
+[Downloading...]
+Отримання...
+[XML for MS Excel (UTF-8 encoded)]
+XML для MS Excel (кодування UTF-8)
+[Connecting...]
+З'єднання...
+[Network]
+Мережа
+[Account]
+Обліковий запис
+[Advanced]
+Додатково
+[Public XMPP Network]
+Публічна мережа XMPP
+[Secure XMPP Network]
+Захищена мережа XMPP
+[Secure XMPP Network (old style)]
+Захищена мережа XMPP (старий стиль)
+[Google Talk!]
+Google Hangouts
+[LiveJournal Talk]
+ЖЖ
+[Facebook Chat]
+Чат Facebook
+[Odnoklassniki]
+Однокласники
+[Some changes will take effect the next time you connect to the Jabber network.]
+Деякі зміни наберуть чинності при наступному вході до мережі.
+[Set New Password for %s@%S]
+Установка нового паролю для %s@%S
+[New password does not match.]
+Новий пароль не збігається
+[Current password is incorrect.]
+Поточний пароль неправильний
+[Sending request, please wait...]
+Відправка запиту, будь ласка, зачекайте...
+[Warning: privacy lists were changed on server.]
+Увага: списки приватності збережені на сервері.
+[Error occurred while applying changes]
+Помилка при застосуванні змін
+[Privacy lists successfully saved]
+Списки приватності успішно збережені
+[Privacy list %s set as active]
+Список приватності %s - активний
+[Active privacy list successfully declined]
+Активний список приватності успішно відхилений
+[Error occurred while setting active list]
+Помилка при встановленні списку активним
+[Privacy list %s set as default]
+Список приватності %s - основний
+[Default privacy list successfully declined]
+Стандартний список приватності успішно відхилено
+[Error occurred while setting default list]
+Помилка при встановленні списку за замовчанням
+[Allow]
+Дозволити
+[Simple mode]
+Простий режим
+[Advanced mode]
+Розширений режим
+[Add JID]
+Додати
+[Activate]
+Активувати
+[Set default]
+За замовчанням
+[Edit rule]
+Змінити правило
+[Add rule]
+Додати правило
+[Delete rule]
+Видалити правило
+[Move rule up]
+Перемістити вгору
+[Move rule down]
+Перемістити вниз
+[Add list...]
+Додати...
+[Remove list]
+Видалити
+[** Default **]
+** За замовчанням **
+[** Subscription: both **]
+** Підписка: обидві **
+[** Subscription: to **]
+** Підписка: до **
+[** Subscription: from **]
+** Підписка: від **
+[** Subscription: none **]
+** Підписка: немає **
+[<none>]
+<немає>
+[Message]
+Повідомлення
+[Presence (in)]
+Присутність (вх.)
+[Presence (out)]
+Присутність (вих.)
+[Query]
+Запит
+[List has no rules, empty lists will be deleted then changes applied]
+У списку немає правил, порожні списки будуть видалені, коли зміни наберуть чинності
+[allow ]
+дозволити\s
+[deny ]
+заборонити\s
+[all.]
+всі.
+[messages]
+повідомлення
+[ and ]
+ і\s
+[incoming presences]
+вхідна присутність
+[outgoing presences]
+вихідна присутність
+[queries]
+запити
+[Else ]
+Інакше\s
+[If Jabber ID is ']
+Якщо JID '
+[ (nickname: ]
+ (нік:\s
+[If group is ']
+Якщо група '
+[If subscription is ']
+Якщо підписка '
+[then ]
+то\s
+[ (act., def.)]
+ (активн., основн.)
+[ (active)]
+ (активний)
+[ (default)]
+ (основний)
+[Ready.]
+Готовий.
+[Privacy lists are not saved, discard any changes and exit?]
+Списки приватності не збережені, скасувати зміни і вийти?
+[Please save list before activating]
+Збережіть список перед активацією
+[First, save the list]
+Збережіть список
+[Please save list before you make it the default list]
+Збережіть список, перед тим як встановити його за замовчанням.
+[No list selected]
+Список не вибрано
+[Can't remove active or default list]
+Неможливо видалити активний або стандартний список
+[Sorry]
+Вибачте
+[Unable to save list because you are currently offline.]
+Неможливо зберегти список, тому що ви не в мережі.
+[List Editor...]
+Редактор списків...
+[No compatible file transfer mechanism exists]
+Не знайдено жодного сумісного механізму передачі файлів
+[Protocol is offline or no JID]
+Протокол не в мережі або JID немає
+[Command completed successfully]
+Команда виконана успішно
+[Error occurred during processing command]
+В процесі виконання команди виникла помилка
+[Set status]
+Встановити статус
+[Set options]
+Встановити налаштування
+[Forward unread messages]
+Пересилати непрочитані повідомлення
+[Leave group chats]
+Вийти з чатів
+[Lock workstation]
+Заблокувати комп'ютер
+[Quit Miranda NG]
+Закрити Miranda NG
+[Change Status]
+Змінити статус
+[Choose the status and status message]
+Встановити статус і статусне повідомлення
+[Status]
+Статус
+[Extended Away (N/A)]
+Недоступний (Н/Д)
+[Do Not Disturb]
+Не турбувати
+[Invisible]
+Невидимий
+[Offline]
+Не в мережі
+[Priority]
+Пріоритет
+[Status message]
+Статусне повідомлення
+[Change global status]
+Змінити глобальний статус
+[Set Options]
+Встановити налаштування
+[Set the desired options]
+Виберіть бажані параметри
+[Automatically Accept File Transfers]
+Автоматично схвалювати передачі файлів
+[Play sounds]
+Програвати звуки
+[Disable remote controlling (check twice what you are doing)]
+Вимкнути віддалене керування (перевіряйте двічі, що ви робите)
+[There is no messages to forward]
+Немає повідомлень для відправки
+[Forward options]
+Опції пересилки
+[%d message(s) to be forwarded]
+%d повідомлень для відправки
+[Mark messages as read]
+Позначити повідомлення як прочитані
+[%d message(s) forwarded]
+повідомлень відправлено: %d
+[Workstation successfully locked]
+Комп'ютер успішно заблокований
+[Error %d occurred during workstation lock]
+Помилка %d під час процесу блокування
+[Confirmation needed]
+Необхідне підтвердження
+[Please confirm Miranda NG shutdown]
+Підтвердіть вимкнення програми
+[There is no group chats to leave]
+Немає чатів для відключення
+[Choose the group chats you want to leave]
+Виберіть чати, з яких потрібно вийти
+[Error %s %s\r\nPlease select other server]
+Помилка %s %s\r\nБудь ласка, виберіть інший сервер
+[Error: unknown reply received\r\nPlease select other server]
+Помилка: отримано невідому відповідь\r\nБудь ласка, виберіть інший сервер
+[Error %s %s\r\nTry to specify more detailed]
+Помилка %s %s\r\nСпробуйте вказати більше деталей
+[Search error]
+Помилка пошуку
+[Select/type search service URL above and press <Go>]
+Виберіть/введіть URL служби пошуку і натисніть >>
+[Please wait...\r\nConnecting search server...]
+Зачекайте...\r\nЗ'єднання з пошуковим сервером...
+[You have to be connected to server]
+Потрібно підключення до сервера
+[closed chat session]
+закрив вікно чату
+[sent subscription request]
+відправив запит на підписку
+[approved subscription request]
+прийняв запит на підписку
+[declined subscription]
+відхилив підписку
+[sent error presence]
+відправив присутність з помилкою
+[sent unknown presence type]
+відправив невідомий тип присутності
+[Nick:]
+Нік:
+[Status:]
+Статус:
+[Status text:]
+Текст статусу:
+[Real JID:]
+Реальний JID:
+[Enter password for %s]
+Введіть пароль для %s
+[Error: Not enough memory]
+Помилка: Не вистачає пам'яті
+[Error: Cannot connect to the server]
+Помилка: Неможливо підключитися до серверу
+[Error: Connection lost]
+Помилка: З'єднання втрачено
+[Requesting registration instruction...]
+Запит реєстраційної інструкції...
+[Authentication failed for %s@%S.]
+Аутентифікація не пройшла для %s@%S.
+[Message redirected from: %s\r\n%s]
+Повідомлення переадресовано від %s\r\n%s
+[Sending registration information...]
+Надсилання реєстраційної інформації...
+[Resource]
+Ресурс
+[<not specified>]
+<не вказано>
+[Software]
+Клієнт
+[Version]
+Версія
+[System]
+Система
+[unknown]
+невідомо
+[Idle since]
+Простоює з
+[Client capabilities]
+Можливості клієнта
+[Software information]
+Інформація про ПЗ
+[Operating system]
+Операційна система
+[Operating system version]
+Версія ОС
+[Software version]
+Версія ПЗ
+[Miranda core version]
+Версія Miranda
+[Mood]
+Настрій
+[Activity]
+Заняття
+[Tune]
+Мелодія
+[both]
+обидві
+[to]
+до
+[from]
+від
+[none]
+немає
+[Last logoff time]
+Час виходу
+[Uptime]
+Час роботи
+[Logoff message]
+Повідомлення виходу
+[<no information available>]
+<немає інформації>
+[Last active resource]
+Останній активний ресурс
+[Please switch online to see more details.]
+Підключіться, щоб отримати докладну інформацію
+[Copy]
+Копіювати
+[Copy only this value]
+Копіювати значення
+[format]
+Формат
+[Unknown format]
+Невідомий формат
+[<Photo not available while offline>]
+<Фото недоступне без підключення до мережі>
+[<No photo>]
+<Немає фото>
+[Photo]
+Фото
+[Redirect]
+Перенаправлення
+[Bad request]
+Неправильний запит
+[Unauthorized]
+Не авторизований
+[Payment required]
+Необхідна оплата
+[Forbidden]
+Заборонено
+[Not found]
+Не знайдено
+[Not allowed]
+Заборонено
+[Not acceptable]
+Недопустимо
+[Registration required]
+Необхідна реєстрація
+[Request timeout]
+Таймаут запиту
+[Conflict]
+Конфлікт
+[Internal server error]
+Внутрішня помилка сервера
+[Not implemented]
+Не реалізовано
+[Remote server error]
+Помилка віддаленого сервера
+[Service unavailable]
+Служба недоступна
+[Remote server timeout]
+Таймаут віддаленого сервера
+[Unknown error]
+Невідома помилка
+[Error]
+Помилка
+[Unknown error message]
+Невідома помилка
+[Advanced Status]
+Додатковий статус
+[Set mood...]
+Настрій...
+[Set activity...]
+Заняття...
+[Male]
+Чоловіча
+[Female]
+Жіноча
+[Only JPG, GIF, and BMP image files smaller than 40 KB are supported.]
+Підтримуються тільки зображення JPG, GIF і BMP, менші 40 КБ.
+[Jabber vCard: Edit Email Address]
+Jabber vCard: редагування E-mail
+[Jabber vCard: Edit Phone Number]
+Jabber vCard: редагування телефону
+[Contacts]
+Контакти
+[Note]
+Нотатка
+[%s connection]
+%s з'єднання
+[Afraid]
+Переляканий
+[Amazed]
+Здивований
+[Amorous]
+Влюбливий
+[Angry]
+Сердитий
+[Annoyed]
+Роздратований
+[Anxious]
+Стурбований
+[Aroused]
+Збуджений
+[Ashamed]
+Присоромлений
+[Bored]
+Нудьгуючий
+[Brave]
+Мужній
+[Calm]
+Спокійний
+[Cautious]
+Обачний
+[Cold]
+Холодний
+[Confident]
+Впевнений
+[Confused]
+Зніяковілий
+[Contemplative]
+Задумливий
+[Contented]
+Задоволений
+[Cranky]
+Розхитаний
+[Crazy]
+Божевільний
+[Creative]
+Творчий
+[Curious]
+Допитливий
+[Dejected]
+Пригнічений
+[Depressed]
+Пригнічений
+[Disappointed]
+Розчарований
+[Disgusted]
+Огидно
+[Dismayed]
+Приголомшений
+[Distracted]
+Розгублений
+[Embarrassed]
+Збентежений
+[Envious]
+Заздрісний
+[Excited]
+Схвильований
+[Flirtatious]
+Кокетливий
+[Frustrated]
+Засмучений
+[Grateful]
+Вдячний
+[Grieving]
+Скорботний
+[Grumpy]
+Дратівливий
+[Guilty]
+Винний
+[Happy]
+Щасливий
+[Hopeful]
+Сподіваюся
+[Hot]
+Гарячий
+[Humbled]
+Покірний
+[Humiliated]
+Принижений
+[Hungry]
+Голодний
+[Hurt]
+Поранений
+[Impressed]
+Вражений
+[In awe]
+Наляканий
+[In love]
+Закоханий
+[Indignant]
+Обурений
+[Interested]
+Зацікавлений
+[Intoxicated]
+Сп'янілий
+[Invincible]
+Непереможний
+[Jealous]
+Ревнивий
+[Lonely]
+Самотній
+[Lost]
+Загублений
+[Lucky]
+Удачливий
+[Mean]
+Неприємний
+[Moody]
+Похмурий
+[Nervous]
+Нервовий
+[Neutral]
+Байдужий
+[Offended]
+Ображений
+[Outraged]
+Обурений
+[Playful]
+Грайливий
+[Proud]
+Гордий
+[Relaxed]
+Розслаблений
+[Relieved]
+Заспокоєний
+[Remorseful]
+Каюсь
+[Restless]
+Неспокійний
+[Sad]
+Сумний
+[Sarcastic]
+Саркастичний
+[Satisfied]
+Задоволений
+[Serious]
+Серйозний
+[Shocked]
+Шокований
+[Shy]
+Сором'язливий
+[Sick]
+Хворий
+[Sleepy]
+Сонний
+[Spontaneous]
+Спонтанний
+[Stressed]
+Напружений
+[Strong]
+Рішучий
+[Surprised]
+Здивований
+[Thankful]
+Вдячний
+[Thirsty]
+Спраглий
+[Tired]
+Втомлений
+[Undefined]
+Невизначений
+[Weak]
+Нерішучий
+[Worried]
+Стурбований
+[Mood: %s]
+Настрій: %s
+[Set Mood]
+Настрій
+[Doing chores]
+Пораюся
+[buying groceries]
+купую продукти
+[cleaning]
+прибираю
+[cooking]
+куховарю
+[doing maintenance]
+повсякденні справи
+[doing the dishes]
+мию посуд
+[doing the laundry]
+перу
+[gardening]
+садовничаю
+[running an errand]
+виконую доручення
+[walking the dog]
+вигулюю собаку
+[Drinking]
+П'ю
+[having a beer]
+п'ю пиво
+[having coffee]
+п'ю каву
+[having tea]
+п'ю чай
+[Eating]
+Їм
+[having a snack]
+перекушую
+[having breakfast]
+снідаю
+[having dinner]
+обідаю
+[having lunch]
+вечеряю
+[Exercising]
+Вправляюся
+[cycling]
+на велосипеді
+[dancing]
+танцюю
+[hiking]
+ходжу пішки
+[jogging]
+пробігаю
+[playing sports]
+займаюся спортом
+[running]
+бігаю
+[skiing]
+катаюся на лижах
+[swimming]
+плаваю
+[working out]
+тренуюся
+[Grooming]
+Гігієна
+[at the spa]
+у спа
+[brushing teeth]
+чищу зуби
+[getting a haircut]
+підстригаюсь
+[shaving]
+голюся
+[taking a bath]
+приймаю ванну
+[taking a shower]
+приймаю душ
+[Having appointment]
+На побаченні
+[Inactive]
+Неактивний
+[day off]
+вихідний
+[hanging out]
+тиняюся
+[hiding]
+ховаюся
+[on vacation]
+у відпустці
+[praying]
+молюся
+[scheduled holiday]
+канікули
+[sleeping]
+сплю
+[thinking]
+думаю
+[Relaxing]
+Відпочиваю
+[fishing]
+ловлю рибу
+[gaming]
+граю
+[going out]
+виходжу в світ
+[partying]
+тусовка
+[reading]
+читаю
+[rehearsing]
+виступаю
+[shopping]
+роблю покупки
+[smoking]
+курю
+[socializing]
+спілкуюся
+[sunbathing]
+засмагаю
+[watching TV]
+дивлюся телевізор
+[watching a movie]
+дивлюся фільм
+[Talking]
+Розмовляю
+[in real life]
+у реальному житті
+[on the phone]
+по телефону
+[on video phone]
+по відеотелефону
+[Traveling]
+В дорозі
+[commuting]
+громадський транспорт
+[driving]
+за кермом
+[in a car]
+в автомобілі
+[on a bus]
+в автобусі
+[on a plane]
+у літаку
+[on a train]
+у поїзді
+[on a trip]
+подорожую
+[walking]
+гуляю
+[Working]
+Працюю
+[coding]
+програмую
+[in a meeting]
+на нараді
+[studying]
+навчаюсь
+[writing]
+пишу
+[Activity: %s]
+Заняття: %s
+[Set Activity]
+Заняття
+[Listening To]
+Слухаю
+[Moods]
+Настрої
+[Activities]
+Заняття
+[Set filter...]
+Фільтр...

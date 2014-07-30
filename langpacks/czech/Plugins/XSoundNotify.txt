@@ -1,0 +1,45 @@
+﻿#muuid {08b86253-ec6e-4d09-b7a9-64acdf0627b8}
+;============================================================
+;  File: XSoundNotify.dll
+;  Plugin: XSoundNotify
+;  Version: 1.0.1.2
+;  Authors: Roman Torsten
+;============================================================
+[Provides extended options for sound notifications.]
+Umožňuje rozšířené možnosti zvukových upozornění.
+;file \plugins\XSoundNotify\res\XSoundNotify.rc
+[Account:]
+Účet:
+[Nick:]
+Přezdívka:
+[Sound:]
+Zvuk:
+[Not set]
+Není zvoleno
+[Choose]
+Vybrat
+[Test play]
+Přehrát
+[Reset]
+Reset
+[Ignore sound for this contact]
+Ignorovat zvuky pro tento kontakt
+[Cancel]
+Zrušit
+;file \plugins\XSoundNotify\src\dialog.cpp
+[Custom sound for %s (%s)]
+Vlastní zvuk pro %s (%s)
+[Sound files]
+Zvukové soubory
+[WAV files]
+Soubory WAV
+;file \plugins\XSoundNotify\src\options.cpp
+[Sounds]
+Zvuky
+[XSound Notify]
+XSound Notify
+;file \plugins\XSoundNotify\src\xsn_main.cpp
+[Self status]
+Vlastní stav
+[Custom contact sound]
+Vlastní zvuk kontaktu

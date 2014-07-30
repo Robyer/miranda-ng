@@ -1,0 +1,125 @@
+﻿#muuid {60558872-2aab-45aa-888d-097691c9b683}
+;============================================================
+;  File: Sessions.dll
+;  Plugin: Sessions
+;  Version: 0.1.3.0
+;  Authors: MaD_CLuSTeR
+;============================================================
+[Sessions Manager for Miranda NG.]
+Мэнэджар сесій Miranda NG.
+;file \plugins\Sessions\res\Sessions.rc
+[Action on Startup]
+Дзеянне пры старце
+[Open Sessions Manager dialog]
+Адкрыць мэнэджар сесій
+[Restore Last Session]
+Аднавіць апошнюю сесію
+[Do nothing]
+Нічога не рабіць
+[Only if last session present]
+Толькі калі даступная апошняя сесія
+[Startup delay]
+Затрымка адкрыцця
+[ms]
+мс
+[User Sessions Management]
+Кіраванне сесіямі
+[Edit]
+Змяніць
+[Delete]
+Выдаліць
+[Save]
+Захаваць
+[Action on Exit]
+Дзеянне пры выйсці
+[Ask]
+Спытаць
+[Save Current Session]
+Захоўваць бягучую сесію
+[Save only last]
+Захаваць толькі апошнюю
+[Sessions]
+Сесіі
+[Misc]
+Іншае
+[Exclude hidden contacts from session on exit]
+Выключыць утоеныя кантакты з сесіі пры выйсці
+[Warn, when some of LastSession contacts are hidden]
+Паказаць, калі апошняя сесія мае ўтоеныя кантакты
+[Show other warnings ("session already opened", etc.)]
+Паказваць дадатковыя заўвагі
+[Crash Recovery mode]
+Аднаўляць пасля збояў
+[Restore Session]
+Аднавіць сесію
+[&Restore Session]
+&Аднавіць
+[&Cancel]
+С&касаваць
+[Choose session to restore from the list:]
+Абярыце сесію для аднаўлення:
+[Del]
+Выд.
+[Save Session]
+Захаваць сесію
+[&Save Session]
+Захаваць
+[Enter session name:]
+Увядзіце назву сесіі:
+[Save and Close]
+Захаваць і зачыніць
+[adv.]
+дад.
+[Sessions Manager]
+Мэнэджар сесій
+[Cancel]
+Скасаваць
+[Save your current session?]
+Захаваць бягучую сесію?
+;file \plugins\Sessions\Src\Main.cpp
+[Favorite Session]
+Абраная сесія
+[Not favorite Session]
+Не абраная сесія
+[Load Session]
+Загрузіць сесію
+[Load last Session]
+Загрузіць апошнюю сесію
+[Current session is empty!]
+Бягучая сесія пустая!
+[Session name is empty, enter the name and try again]
+Імя сесіі пуста, увядзіце імя і паспрабуйце яшчэ раз
+[No sessions to open]
+Няма сесій для адкрыцця
+[Last Sessions is empty]
+Апошняя сесія пустая
+[No contacts to open]
+Няма кантактаў для адкрыцця
+[This Session already opened]
+Сесія ўжо адкрыта
+[This Session already opened (but probably hidden).\nDo you want to show hidden contacts?]
+Сесія ўжо адкрыта(але магчыма ўтоена)\n Вы жадаеце паказваць утоеныя кантакты?
+[Open Sessions Manager]
+Адкрыць мэнэджар сесій
+[Show Favorite Sessions Menu]
+Адкрыць меню абраных сесій
+[Restore last Session]
+Аднавіць апошнюю сесію
+[Close Session]
+Зачыніць сесію
+[Save session...]
+Захаваць сесію...
+[Load session...]
+Загрузіць сесію...
+[Close session]
+Зачыніць сесію
+[Load last session]
+Загрузіць апошнюю сесію
+;file \plugins\Sessions\Src\Options.cpp
+[View]
+Выгляд
+[Message Sessions]
+Гутаркі
+;file \plugins\Sessions\Src\Utils.cpp
+[Session Before Last Crash]
+Сесія да апошняга збою

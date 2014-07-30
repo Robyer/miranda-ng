@@ -1,0 +1,142 @@
+﻿#muuid {a9e9c114-84b9-434b-a3d5-89921d39ddff}
+;============================================================
+;  File: BuddyPounce.dll
+;  Plugin: Buddy pounce
+;  Version: 0.3.2.1
+;  Authors: Jonathan Gordon
+;============================================================
+[Allows you to send a message to contacts if they change status.]
+Pozwala na automatyczne wysłanie wiadomości do kontaktu, który zmieni status.
+;file \plugins\BuddyPounce\res\resource.rc
+[Confirm Pounce send]
+Potwierdź wysłanie Pounce
+[Send]
+Wyślij
+[Cancel]
+Anuluj
+[Pounce being sent to]
+Pounce jest wysyłane do
+[Buddy Pounce]
+Buddy Pounce
+[The Message:]
+Wiadomość:
+[Delete Pounce]
+Usuń Pounce
+[Load default Settings]
+Załaduj ustawienia domyślne
+[Setting Value]
+Wartość ustawienia
+[Setting text...........]
+Ustawianie tekstu.........
+[Settings]
+Ustawienia
+[Contact To Send Pounce To]
+Kontakt, do którego wysłać Pounce
+[<< Simple]
+<< Proste
+[Advanced >>]
+Zaawansowane >>
+[The Message]
+Wiadomość
+[Dialog]
+Okno
+[Status]
+Status
+[Use Advanced Dialog]
+Użyj zaawansowanego okna
+[The Message (characters: )]
+Wiadomość (znaków)
+[Default Settings]
+Ustawienia domyślne
+[Show Delivery Messages]
+Pokaż raporty doręczenia
+[These settings are also used when sending a "Simple" pounce]
+Te ustawienia są używane także przy wysyłaniu "Prostego" Pounce
+;file \plugins\BuddyPounce\src\dialog.cpp
+[Send If My Status Is...]
+Wysyłaj, gdy mój status to...
+[Send If They Change Status to...]
+Wysyłaj, gdy zmienią status na...
+[Reuse Pounce]
+Użyj Pounce ponownie
+[Give Up delay]
+Opóźnienie poddania się
+[Confirmation Window]
+Okno potwierdzenia
+[Send If My Status Is]
+Wysyłaj, gdy mój status to
+[Any]
+Jakikolwiek
+[Online]
+Dostępny
+[Away]
+Zaraz wracam
+[NA]
+Wrócę później
+[Occupied]
+Zajęty
+[DND]
+Nie przeszkadzać
+[Free For Chat]
+Porozmawiajmy
+[Invisible]
+Niewidoczny
+[On The Phone]
+Przy telefonie
+[Out To Lunch]
+Na obiedzie
+[Send If Their Status changes]
+Wysyłaj, gdy ich status zmieni się
+[From Offline]
+Z Rozłączonego
+[To Online]
+Na Dostępny
+[To Away]
+Na Zaraz wracam
+[To NA]
+Na Wrócę później
+[To Occupied]
+Na Zajęty
+[To DND]
+Na Nie przeszkadzać
+[To Free For Chat]
+Na Porozmawiajmy
+[To Invisible]
+Na Niewidoczny
+[To On The Phone]
+Na Przy telefonie
+[To Out To Lunch]
+Na Na obiedzie
+[The Message    (%d Characters)]
+Wiadomość (%d znaków)
+[Couldn't allocate enough memory]
+Nie udało się przydzielić wystarczającej ilości pamięci
+[error......]
+błąd......
+[The Message    (0 Characters)]
+Wiadomość (0 znaków)
+[Reuse this message? (0 to use it once)]
+Użyj wiadomości ponownie (0 - tylko raz)
+[Times]
+razy
+[Give up after... (0 to not give up)]
+Zrezygnuj po... (0 - nie rezygnuj)
+[Days]
+dniach
+[Show confirmation window? (0 to not Show)]
+Pokaż okno potwierdzające (0 - nie pokazuj)
+[Seconds to wait before sending]
+sekund przed wysłaniem
+[Pounce being sent to %s in %d seconds]
+Pounce zostanie wysłane do %s za %d sekund
+[Retry]
+Gotowy
+[Message successfully sent to %s]
+Wiadomość wysłano pomyślnie do %s
+[Message failed to send to %s]
+Nie udało się wysłać wiadomości do %s
+;file \plugins\BuddyPounce\src\main.cpp
+[&Buddy Pounce]
+&Buddy Pounce
+[Message Sessions]
+Okno rozmowy

@@ -1,0 +1,28 @@
+﻿#muuid {47d489d3-310d-4ef6-bd05-699fffd5a4aa}
+;============================================================
+;  File: ZeroNotify.dll
+;  Plugin: Zero notifications
+;  Version: 0.0.0.5
+;  Authors: bidyut, Maat
+;============================================================
+[Adds options to automatically disable notifications when a protocol is in a certain status.]
+Dodaje opcje automatycznego wyłączania powiadomień, gdy protokół ma określony status.
+;file \plugins\ZeroNotification\res\ZeroNotify.rc
+[No sounds when:]
+Brak dźwięku gdy:
+[No CList blink when:]
+Brak pow. na liście:
+[No SysTray blink when:]
+Brak pow. w zasobniku:
+[Hide the "toggle sound" menu item (requires restart of Miranda)]
+Ukryj opcję przełączania dźwięku w menu (wymaga restartu Mirandy)
+;file \plugins\ZeroNotification\src\common.h
+[Disable &Sounds]
+Wyłącz &dźwięki
+[Enable &Sounds]
+Włącz &dźwięki
+;file \plugins\ZeroNotification\src\main.cpp
+[Zero Notifications]
+Zero powiadomień
+[Plugins]
+Wtyczki

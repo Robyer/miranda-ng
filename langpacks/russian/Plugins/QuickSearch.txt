@@ -1,0 +1,254 @@
+﻿#muuid {e4058506-6494-4d60-9cf4-40bf545f78bd}
+;============================================================
+;  File: QuickSearch.dll
+;  Module: Quick Search
+;  Version: 1.4.2.0
+;  Authors: Awkward
+;============================================================
+[This plugin allows you to quick search for nickname, firstname, lastname, email, uin in your contact list. And now you may add any setting to display - for example user's version of Miranda, group or city.]
+Плагин позволит вам быстро найти ник, имя, фамилию, e-mail, uin в вашем списке контактов. Пользователь может добавить любую настройку для отображения (например, версии Miranda, группы или города).
+[Quick Search]
+Поиск по списку
+[Title]
+Заголовок
+[Module/InfoType]
+Модуль/Тип пер.
+[Setting]
+Параметр
+[Reload]
+Перегрузить
+[New]
+Добавить
+[Up]
+Выше
+[Down]
+Ниже
+[Delete]
+Удалить
+[Default]
+По умолчанию
+[Additional Options]
+Дополнительные параметры
+[Tool Window Style]
+Окно в стиле панели
+[Draw Grid]
+Рисовать сетку
+[Save search pattern]
+Сохранить маску поиска
+[Auto Close mode]
+Закрывать автоматически
+[Sort by Status]
+Сортировать по статусу
+[Show Client Icons]
+Значки клиентов
+[Settings]
+Настройки
+[Title:]
+Заголовок:
+[Account]
+Учётная запись
+[Gender]
+Пол
+[UserID]
+ID пользователя
+[Nickname]
+Ник:
+[First name]
+Имя
+[Last name]
+Фамилия
+[Group]
+Группа
+[Container]
+Контейнер
+[E-mail]
+Почта
+[Client ID]
+ID клиента
+[Ext IP]
+Внешний IP
+[LastSeen]
+Последнее появление
+[Last Event]
+Последнее событие
+[Online since]
+В сети с
+[Metacontact]
+Метаконтакт
+[Event count]
+Количество событий
+[Type:]
+Тип:
+[DB setting]
+Настройка базы
+[Script]
+Скрипт
+[Service]
+Вызов службы
+[Contact info]
+Данные контакта
+[Other]
+Другое
+[Data type:]
+Тип данных:
+[Byte]
+Байт
+[Word]
+Слово
+[DWord]
+Дв.слово
+[Signed]
+Со знаком
+[As hex]
+Шестнадцатерич.
+[String]
+Строка
+[TimeStamp]
+Время
+[Module:]
+Модуль:
+[Setting:]
+Параметр:
+[Service:]
+Служба:
+[Param]
+Параметр
+[number value]
+число
+[ANSI string]
+строка ANSI
+[Unicode string]
+строка Unicode
+[current contact]
+текущий контакт
+[last result]
+последний результат
+[parameter]
+параметр
+[Result]
+Результат
+[Result type]
+Тип результата
+[Free memory]
+очищать память
+[Save]
+Сохранить
+[All]
+Все
+[Close]
+Закрыть
+[Refresh]
+Обновить
+[QuickSearch]
+Поиск по списку
+[Show Offline contacts]
+Показывать отключённых
+[New column]
+Новый
+[Save Item]
+Сохранить значение
+[InfoType:]
+Тип переменной:
+[New Column]
+Добавить колонку
+[Column Up]
+Выше
+[Column Down]
+Ниже
+[Delete Column]
+Удалить колонку
+[Male]
+Мужской
+[Female]
+Женский
+[Contacts]
+Контакты
+[ContactInfo]
+Данные контакта
+[LastEvent]
+Последнее событие
+[EventCount]
+Счетчик событий
+[Script Editor]
+Редактор скриптов
+[Normal background]
+Обычный фон
+[Normal foreground]
+Обычный текст
+[Odd background]
+Фон нечётных строк
+[Odd foreground]
+Текст нечётных строк
+[Disabled account background]
+Фон отключённых учётных записей
+[Disabled account foreground]
+Текст отключённых учётных записей
+[Deleted account background]
+Фон удалённых учётных записей
+[Deleted account foreground]
+Текст удалённых учётных записей
+[Hidden contact background]
+Фон скрытых контактов
+[Hidden contact foreground]
+Текст скрытых контактов
+[Metacontact background]
+Фон метаконтактов
+[Metacontact foreground]
+Текст метаконтактов
+[Subcontact background]
+Фон субконтактов
+[Subcontact foreground]
+Текст субконтактов
+[&Delete]
+&Удалить
+[&Copy]
+&Копировать
+[C&onvert to Meta]
+Прео&бразовать в метаконтакт
+[Attach to &Tab container]
+Присоединить к &контейнеру
+[&Move to Group]
+&Переместить в группу
+[Some of selected contacts in different metacontacts already]
+Некоторые из выделенных контактов уже находятся в других метаконтактах
+[Do you really want to delete selected contacts?]
+Вы хотите удалить выделенные контакты?
+[Warning]
+Предупреждение
+[One or more contacts in same Meta already. Try to convert anyway?]
+Один или несколько контактов в похожем метаконтакте. Все равно преобразовать?
+[Editing of column ]
+Изменение колонки\s
+[%i users found (%i) Online: %i]
+%i пользователей найдено (из %i) В сети: %i
+[ users found (]
+ пользователей найдено (
+[) Online: ]
+) В сети:\s
+[Online]
+В сети
+[deleted]
+удалено
+[off]
+выкл.
+[active]
+активн.
+[Colorize]
+Добавить цвет
+[QuickSearch window hotkey]
+Открыть окно быстрого поиска
+[Change setting through QS]
+Изменить с помощью QuickSearch
+[default]
+по умолчанию
+[contacts]
+Контакты
+[Unknown]
+Неизвестный
+[Stay on Top]
+Поверх всех окон
+; these lines are not present in the sources, but they are present in compiled plugin
+[Text Editor]
+Текстовый редактор
+[Wrap Text]
+Перенос строк

@@ -1,0 +1,151 @@
+﻿#muuid {f7a6b27c-9d9c-4a42-be86-a448ae109161}
+;============================================================
+;  File: Dbx_mmap.dll
+;  Plugin: Miranda NG mmap database driver
+;  Version: 0.95.1.3
+;  Authors: Miranda-NG project
+;============================================================
+[Provides Miranda database support: global settings, contacts, history, settings per contact.]
+Підтримка бази Miranda NG: глобальні налаштування, контакти, історія, установки контактів тощо.
+[Login to Miranda NG]
+Вхід в Miranda NG
+[Cancel]
+Скасувати
+[New password]
+Новий пароль
+[Please enter your new password]
+Будь ласка, введіть новий пароль
+[Enter password]
+Введіть пароль
+[Change password]
+Змінити пароль
+[Change]
+Змінити
+[Remove]
+Видалити
+[Old password]
+Старий пароль
+[Database encryption mode]
+Режим шифрування бази
+[Standard]
+Стандартний
+[Total]
+Повний
+[Only critical data are encrypted (passwords, security tokens, etc). All another settings and history remains unencrypted. Fast and effective, suitable for the most cases]
+Шифрування тільки критичних даних (паролі, токени авторизації тощо). Інші налаштування, а також історія залишаються незашифрованими. Швидкий та ефективний, підходить для більшості випадків.
+[All string settings and all events in histories are encrypted. It also makes Miranda much slower and creates a risk of losing everything you've stored in a profile in case of losing password. Recommended only for paranoid users]
+Шифрування всіх налаштувань та подій історії. Уповільнює роботу програми, а також створює ризик втрати всього збереженого в профілі в разі втрати пароля. Рекомендується тільки параноїдальним користувачам.
+[Set password]
+Встановити пароль
+[Disk is full. Miranda will now shut down.]
+Диск переповнений. Miranda NG буде закрита.
+[Database failure. Miranda will now shut down.]
+Помилка бази. Miranda NG буде закрита.
+[Database Error]
+Помилка бази
+[Miranda has detected corruption in your database. This corruption may be fixed by DbChecker plugin. Please download it from http://miranda-ng.org/p/DbChecker/. Miranda will now shut down.]
+Виявлено пошкодження вашої бази даних. Це пошкодження можна виправити за допомогою плагіна DbChecker. Будь ласка, завантажте його з http://miranda-ng.org/p/DbChecker/. Miranda NG буде закрита.
+[Database Panic]
+Проблема з базою
+[This profile is too old to be updated with PluginUpdater, your database must be converted first.\n\nWould you like to read how to fix this?]
+Ваш профіль застарілого формату. Для оновлення за допомогою PluginUpdater, необхідно спочатку конвертувати профіль у сучасний формат.\n\nНатисніть "Так", щоб дізнатися, як це зробити.
+[Obsolete database format]
+Застарілий формат профілю
+[Change/remove password]
+Змінити/видалити пароль
+[Logo]
+Профіль
+[Password]
+Пароль
+[Too many errors!]
+Дуже багато помилок!
+[Password is not correct!]
+Невірний пароль!
+[Please type in your password]
+Будь ласка, введіть ваш пароль
+[Wrong old password entered!]
+Введено помилковий старий пароль!
+[Password is too short!]
+Пароль занадто короткий!
+[Passwords do not match!]
+Паролі не збігаються!
+[Database]
+Профіль
+[Performing aggressive pass]
+Виконання агресивного проходу
+[Aggressive: random junk at %08X: skipping]
+Агресивний: випадкові дані на %08X: пропуск
+[Aggressive: unlinked data at %08X: can't automatically place]
+Агресивний: незв'язані дані на %08X: неможливо автоматично визначити їх місце
+[Processing contact chain]
+Обробка ланцюжка контактів
+[Contact count marked wrongly: correcting]
+Кількість контактів вказано помилково: виправлення
+[Contact chain corrupted, further entries ignored]
+Ланцюжок контактів пошкоджений, подальші дані ігноруються
+[Invalid offset found (database truncated?)]
+Знайдено неправильне зміщення (база даних пошкоджена?)
+[Invalid offset found]
+Знайдено неправильне зміщення
+[Error reading, database truncated? (%u)]
+Помилка при читанні, бази даних пошкоджена? (%u)
+[Can't write to working file, aggressive mode may be too aggressive now]
+Неможливо записати у робочий файл, агресивний режим може бути занадто агресивним
+[Can't write to output file - disk full? (%u)]
+Неможливо записати у файл - диск переповнений? (%u)
+[Event count marked wrongly: correcting]
+Кількість подій вказано помилково: виправлення
+[Event chain corrupted, trying to recover...]
+Ланцюжок подій пошкоджений, спроба відновити...
+[Event chain corrupted, further entries ignored]
+Ланцюжок подій пошкоджений, подальші дані ігноруються
+[First event not marked as such: correcting]
+Перша подія не позначена як така: виправлення
+[Extra flags found in event: removing]
+У події знайдені додаткові прапори: видалення
+[First unread event marked wrong: fixing]
+Першу непрочитану подію позначено неправильно: виправлення
+[Infeasibly large event blob: skipping]
+Подія займає забагато місця: пропуск
+[Event not backlinked correctly: fixing]
+Подія з неправильним зворотним посиланням: виправлення
+[Duplicate event was found: skipping]
+Знайдено дубль події: пропуск
+[Event position in chain is not correct]
+Позиція події в ланцюжку не є коректною
+[Event position in chain is not correct: fixing]
+Позиція події в ланцюжку не є коректною: виправлення
+[Event position in chain is not correct: unable to fix]
+Позиція події в ланцюжку не є коректною: неможливо виправити
+[Processing final tasks]
+Виконання завершальних робіт
+[Database signature is corrupted, automatic repair is impossible]
+Заголовок бази даних пошкоджений, автоматичне виправлення неможливе
+[Database version doesn't match this driver's one. Convert a database first]
+Версія бази даних несумісна з версією драйвера бази. Будь ласка, конвертуйте базу в новий формат.
+[Database is newly created and has no data to process]
+База даних нова, і не має даних для обробки
+[Processing completed successfully]
+Обробка завершена успішно
+[Can't create map view of file (%u)]
+Неможливо створити карту файлу (%u)
+[Processing module name chain]
+Обробка ланцюжка імен модулів
+[Module chain corrupted, further entries ignored]
+Ланцюжок модулів пошкоджений, подальші дані ігноруються
+[Module name '%s' is not unique: %d duplicates found]
+Ім'я модуля "%s" не є унікальним: знайдено %d дублікатів
+[Invalid module name offset, skipping data]
+Неправильне зміщення імені модуля, пропуск даних
+[Settings chain corrupted, further entries ignored]
+Ланцюжок налаштувань пошкоджений, подальші дані ігноруються
+[Infeasibly large settings blob: skipping]
+Налаштування займає забагато місця: пропуск
+[Empty settings group at %08X: skipping]
+Група порожніх параметрів на %08X: пропуск
+[Processing user data]
+Обробка даних користувача
+[User corrupted, this could cause major problems]
+Користувач пошкоджений, це може викликати серйозні проблеми
+[More than one user contact: keeping only first]
+Більше ніж один контакт користувача: збережено тільки перший

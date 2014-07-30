@@ -1,0 +1,21 @@
+﻿#muuid {3613F2D9-C040-4361-A44F-DF7B5AAACF6E}
+;============================================================
+;  File: CryptoPP.dll
+;  Plugin: Crypto++
+;  Version: 1.0.4.8
+;  Authors: Baloo
+;============================================================
+[Crypto++ library for SecureIM plugin.]
+Служба шифрування для плагіна SecureIM.
+[GnuPG Plugin - Passphrase]
+Плагін GnuPG - Пароль
+[Enter passphrase for the secret key of user:]
+Введіть фразу для секретного ключа користувача:
+[User ID]
+ID користувача
+[Cancel]
+Скасувати
+[GnuPG Plugin - Select public key]
+Плагін GnuPG - Виберіть публічний ключ
+[Refresh]
+Оновити

@@ -1,0 +1,158 @@
+﻿#muuid {a82baeb3-a33c-4036-b837-7803a5b6c2ab}
+;============================================================
+;  File: MyDetails.dll
+;  Plugin: My details
+;  Version: 0.0.1.12
+;  Authors: Ricardo Pescuma Domenecci, Drugwash
+;============================================================
+[Shows and allows you to edit your details for all protocols.]
+Zobrazuje a umožňuje upravit vaše detaily pro všechny účty.
+;file \plugins\MyDetails\res\resource.rc
+[Set my nickname]
+Nastavit přezdívku
+[Nickname:]
+Přezdívka:
+[Cancel]
+Zrušit
+[General]
+Obecné
+[RTL]
+Psát zprava doleva
+[Align text to right]
+Zarovnat text doprava
+[Auto-resize frame]
+Měnit velikost okna
+[Use contact list smileys]
+Použít smajlíky pro kontakty
+[Replace smileys]
+Vykreslovat smajlíky
+[Resize smileys]
+Měnit velikost smajlíků
+[Global on...]
+Globální pro...
+[...avatar]
+...avatar
+[...nickname]
+...přezdívku
+[...status]
+...stav
+[...status message]
+...zpráva stavu
+[Account]
+Účet
+[Show account name]
+Zobrazit název účtu
+[Show account cycle button]
+Zobrazit tlačítka pro přepínání účtů
+[Cycle through accounts every:]
+Přepínat mezi účty každých:
+[seconds]
+sekund
+[Avatar]
+Avatar
+[Custom size:]
+Vlastní velikost:
+[pixels]
+pix.
+[Allow it to grow]
+Povolit zvětšování
+[Draw border]
+Vykreslit rámeček
+[Round corners]
+Zaoblit rohy
+[Custom corner size:]
+Velikost zakulacení:
+[Use free space (under avatar) to other texts]
+Využít místo pod avatarem pro další texty
+[Frame options]
+Možnosti rámečku
+[Top:]
+Nahoře:
+[Bottom:]
+Dole:
+[Left:]
+Vlevo:
+[Right:]
+Vpravo:
+[Set my status message for all status]
+Nastavit zprávu pro všechny stavy
+[Status message:]
+Zpráva stavu:
+[&Offline]
+&Offline
+[On&line]
+On&line
+[&Away]
+N&a chvíli pryč
+[&NA]
+&Nejsem tady
+[Occ&upied]
+N&emám čas
+[&DND]
+Ne&rušit!
+[&Free for chat]
+&Mám volno
+[&Invisible]
+Nev&iditelný
+[On the &phone]
+Na &telefonu
+[Out to &lunch]
+Na &obědě
+[Set my avatar...]
+Nastavit avatar...
+[Set my nickname...]
+Nastavit přezdívku...
+[Set my status message...]
+Změnit stavovou zprávu...
+[Enable listening to]
+Povolit doplněk Listening To
+[Show next account]
+Zobrazit další účet
+[Show previous account]
+Zobrazit předchozí účet
+[Cycle through accounts]
+Přepínat mezi účty
+[Don't cycle through accounts]
+Nepřepínat mezi účty
+;file \plugins\MyDetails\src\data.cpp
+[<no status name>]
+<stav není zadaný>
+;file \plugins\MyDetails\src\frame.cpp
+[Nickname]
+Přezdívka
+[Status]
+Stavy
+[Status message]
+Zpráva stavu
+[Listening to]
+Poslech hudby
+[My details]
+Informace o sobě
+[Background]
+Pozadí
+[Avatar border]
+Orámovat avatary
+[Show my details]
+Zobrazit informace o sobě
+[Enable listening to for %s]
+Povolit doplněk Listening To pro %s
+[Set my avatar for %s...]
+Nastavit avatar pro %s...
+[Set my nickname for %s...]
+Nastavit přezdívku pro %s...
+[Set my status message for %s...]
+Zadat stavovou zprávu pro %s...
+[Hide my details]
+Skrýt informace o sobě
+;file \plugins\MyDetails\src\mydetails.cpp
+[Previous account]
+Předchozí účet
+[Next account]
+Další účet
+[Set my nickname for %s]
+Nastavit přezdívku pro %s
+[Set my status message for %s]
+Zadat stavovou zprávu pro %s
+[Contact list]
+Seznam kontaktů
+;file \plugins\MyDetails\src\options.cpp

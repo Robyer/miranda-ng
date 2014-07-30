@@ -1,0 +1,151 @@
+﻿#muuid {82181510-5dfa-49d7-b469-33871e2ae8b5}
+;============================================================
+;  File: TrafficCounter.dll
+;  Plugin: Traffic counter
+;  Version: 0.1.1.8
+;  Authors: Ghost, Mironych
+;============================================================
+[Adding traffic and time counters.]
+Лічыльнік трафіка.
+;file \plugins\TrafficCounter\res\resource.rc
+[Selected totals]
+Вылучана ўсяго
+[Accounts]
+Конты
+[Units]
+Адзінкі
+[Clear statistics]
+Сцерці
+[Notification]
+Абвесткі
+[Notify me on every]
+Абвяшчаць кожныя
+[kilobytes]
+кілабайт
+[minutes]
+хвілін(ы)
+[Background color:]
+Колер фону:
+[Text color:]
+Колер тэксту:
+[Reset to default]
+Па змаўчанні
+[Popup timeout]
+Працягласць вакна
+[From Popup plugin]
+Па змаўчанні
+[Custom]
+Наладзіць
+[Test]
+Прагляд
+[Show now]
+Паказаць
+[Space between lines:]
+Адлегласць паміж радкамі:
+[Counters format string:]
+Фармат радка лічыльнікаў:
+[Tooltip format string:]
+Фармат падказкі:
+[Display traffic for current]
+Трафік за бягучы
+;file \plugins\TrafficCounter\src\options.cpp
+[Display]
+Паказваць
+[Icon]
+Абразок
+[Account name]
+Імя конта
+[Current traffic]
+Цяперашні трафік:
+[Total traffic]
+Агульны трафік:
+[Current online]
+Цяперашняе далучэнне
+[Total online]
+Агульнае далучэнне
+[General]
+Агульнае
+[Draw frame as skin element]
+Адмалёўваць фрэйм як элемент скіна
+[Show tooltip in traffic window]
+Паказваць падказку ў вакне трафіку
+["Toggle traffic counter" in main menu]
+"Перамыкач лічыльніка трафіку" ў галоўным меню
+[Visible accounts]
+Адлюстроўваемыя конты
+[Summary traffic for visible accounts]
+Сумарны трафік для бачных контаў
+[Overall traffic]
+Агульны трафік
+[Hide now]
+Схаваць
+[Day]
+Дзень
+[Week]
+Тыдзень
+[Month]
+Месяц
+[Year]
+Год
+[Services]
+Службы
+[Options]
+Налады
+[Traffic counter]
+Лічыльнік трафіку
+[Statistics]
+Статыстыка
+[Popups]
+Усплывальныя вокны
+;file \plugins\TrafficCounter\src\statistics.cpp
+[Bytes]
+Байт
+[KB]
+Кб
+[MB]
+МБ
+[Adaptive]
+Плывучы
+[Hourly]
+Штогадзіны
+[Daily]
+Дзён
+[Weekly]
+Тыдняў
+[Monthly]
+Месяцаў
+[Yearly]
+Штогод
+[Period]
+Перыяд
+[Incoming]
+Уваходныя
+[Outgoing]
+Выходныя
+[Sum]
+Сума
+[Online]
+Далучаны
+[Now traffic statistics for selected accounts will be cleared.\nContinue?]
+Статыстыка абраных контаў будзе знішчана\nПрацягнуць?
+[Couldn't read statistics file]
+Не магу прачытаць файл статыстыкі
+[Traffic Counter]
+Лічыльнік трафіку
+;file \plugins\TrafficCounter\src\TrafficCounter.cpp
+[Font]
+Шрыфт
+[Show/Hide frame]
+Паказаць/Схаваць фрэйм
+[Hide traffic window]
+Схаваць вакно трафіку
+[Clear the current (Now:) value]
+Скінуць бягучае (Now:) значэнне
+[Toggle traffic counter]
+Пераключыйь лічыльнік трафіка
+[Traffic counter notification]
+Абвестка лічыльніка трафіку
+[%d kilobytes sent]
+%d Кб адпраўлена
+[%d kilobytes received]
+%d Кб атрымана

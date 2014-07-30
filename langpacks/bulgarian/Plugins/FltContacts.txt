@@ -1,0 +1,106 @@
+﻿#muuid {53c715a8-eb01-4136-a73c-441868610074}
+;============================================================
+;  File: FltContacts.dll
+;  Plugin: Floating contacts
+;  Version: 0.7.0.1
+;  Authors: Iavor Vajarov, Kosh&chka, Victor Pavlychko
+;============================================================
+[Floating Contacts plugin for Miranda.]
+
+;file \plugins\FloatingContacts\res\fltcnt.rc
+[Hiding contacts]
+
+[Hide offline contacts]
+Скриване на контактите "Извън линия"
+[Stick together]
+
+[Use fixed width]
+
+[pixels]
+пиксела
+[Hide all contacts]
+
+[Hide when a fullscreen app is active]
+
+[Show tooltips*]
+
+[ms]
+ms
+[Tooltips]
+Подсказки
+[Miscellaneous]
+Разни
+[0 = Default]
+0 = стандарт
+[*requires Tipper plugin]
+
+[Bring to front]
+
+[Bring to front every]
+
+[seconds]
+секунди
+[Hide when contact list is shown]
+
+[Single click interface]
+Интерфейс с едно натискане
+[Dim idle contacts]
+Потъмняване на бездействащите контакти
+[Idle contacts]
+
+[Border]
+Рамка
+[Draw border]
+
+[Left-top edge's color:]
+
+[Right-bottom edge's color:]
+
+[Background]
+Фон
+[Background color:]
+Цвят на фона:
+[Use background bitmap]
+Ползване на фоново изображение
+[Stretch to width]
+Разтягане на ширина
+[Stretch to height]
+Разтягане на височина
+[Tile horizontally]
+Мозаично по хоризонтала
+[Tile vertically]
+Мозаично по вертикала
+[Stretch proportionally]
+Пропорционално разтягане
+[Opacity:]
+Плътност:
+;file \plugins\FloatingContacts\src\main.cpp
+[Standard contacts]
+Стандартни контакти
+[Online contacts to whom you have a different visibility]
+Контакти, към които имате различна видимост
+[Offline contacts]
+Контакти "Извън линия"
+[Offline contacts to whom you have a different visibility]
+Контакти "Извън линия", към които имате различна видимост
+[Contacts which are 'not on list']
+Контакти, които не са в списъка
+[Floating contacts]
+Плаващи контакти
+[Show all thumbs]
+
+[Hide all thumbs]
+
+[Remove thumb]
+
+[Show/Hide all thumbs]
+
+;file \plugins\FloatingContacts\src\options.cpp
+[Floating Contacts]
+Плаващи контакти
+[Contact list]
+Списък с контакти
+[Main Features]
+
+[Appearance]
+Външен вид

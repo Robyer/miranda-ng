@@ -1,0 +1,67 @@
+﻿#muuid {2fd0df15-7098-41ce-aa92-ff621806e38b}
+;============================================================
+;  File: Exchange.dll
+;  Plugin: Exchange
+;  Version: 0.1.3.4
+;  Authors: Cristian Libotean, Attila Vajda, MaKaR (NG)
+;============================================================
+[Notifies you if you have unread email on an exchange server.]
+Powiadamia o nieprzeczytanych wiadomościach na serwerze Exchange.
+;file \plugins\Exchange\res\exchange.rc
+[Unread emails]
+Nieprzeczytane e-maile
+[Close]
+Zamknij
+[Mark as read]
+Oznacz jako przeczytane
+[Dialog]
+Okno
+[Connection]
+Połączenie
+[Username:]
+Użytkownik:
+[Password:]
+Hasło:
+[Server:]
+Serwer:
+[Preferences]
+Opcje
+[Check every]
+Sprawdzaj co
+[seconds]
+s
+[Force reconnect every]
+Wymuszaj ponowne połączenie co
+[minutes]
+minut
+[Check server before trying to connect]
+Sprawdź serwer przed próbą połączenia
+[Try to connect]
+Próbuj się połączyć
+[times before giving up]
+razy przed rezygnacją
+[Show email notifications using popup module]
+Pokazuj powiadomienia o nowej poczcie używając modułu Popup
+;file \plugins\Exchange\src\dlg_handlers.cpp
+[Entry ID]
+ID wpisu
+[Subject]
+Temat
+[Sender]
+Nadawca
+;file \plugins\Exchange\src\emails.cpp
+[You have %d unread emails...]
+Masz %d nieprzeczytane wiadomości...
+[You have one unread email...]
+Masz jedną nieprzeczytaną wiadomość...
+[Exchange email]
+E-mail Exchange
+[Do you want to see the email headers?]
+Czy chcesz widzieć nagłówki wiadomości?
+;file \plugins\Exchange\src\hooked_events.cpp
+[Check exchange mailbox]
+Sprawdź skrzynkę Exchange
+[Exchange notify]
+Powiadomienia Exchange
+[Plugins]
+Wtyczki

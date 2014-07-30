@@ -1,0 +1,99 @@
+﻿#muuid {81c220a6-0226-4ad6-bfca-217b17a16053}
+;============================================================
+;  File: Db_autobackups.dll
+;  Plugin: Db autobackuper
+;  Version: 0.0.0.10
+;  Authors: chaos.persei, sje, Kildor, Billy_Bons
+;============================================================
+[Database autobackuper plugin.]
+
+;file \plugins\Db_autobackups\res\db_autobackups.rc
+[Backup progress]
+Създаване на резервно копие
+[Cancel]
+Отказ
+[Automatic backups]
+Автоматично създаване на резервни копия
+[Backup NOW]
+Резервно копие сега
+[Disabled]
+Изключено
+[When Miranda starts]
+При стартиране на Miranda
+[When Miranda exits]
+При изключване на Miranda
+[Every:]
+Всеки:
+[Number of backups to keep:]
+Брой резервни копия за съхраняване:
+[Backup to folder:]
+Папка за резервните копия:
+[Browse...]
+
+[Go to the "Customize -> Folders" to change settings]
+Можете да промените настройките от Персонализиране>Папки
+[Compress backup to zip-archive]
+
+[Disable progress bar]
+Изключване на лентата за напредък
+[Disable popups]
+Изключване на Popups
+;file \plugins\Db_autobackups\src\backup.cpp
+[Miranda NG database]
+
+[Created by:]
+
+[Miranda NG databases]
+
+[Compressed Miranda NG databases]
+
+[All files]
+Всички файлове
+[Backup in progress]
+Създава се резервно копие
+[Copying database file...]
+Копира се файла на базата от данни...
+[Database backed up]
+Създадено е резервно копие на базата от данни
+;file \plugins\Db_autobackups\src\main.cpp
+[Backup profile]
+Създаване резервно копие на профила
+[Save profile as...]
+Запис на профила като...
+[Database backups]
+
+[Backup folder]
+
+[Database]
+База от данни
+;file \plugins\Db_autobackups\src\options.cpp
+[path to Miranda root folder]
+път до главната папка на Miranda
+[path to current Miranda profile]
+път до текущия профил на Miranda
+[name of current Miranda profile (filename, without extension)]
+име на текущия профил на Miranda (име без окончание)
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%]
+
+[same as environment variable %APPDATA% for currently logged-on Windows user]
+
+[username for currently logged-on Windows user]
+потребителско име на текущия потребител вписан в Windows
+["My Documents" folder for currently logged-on Windows user]
+Папка "My Documents" на потребителя, вписан в Windows
+["Desktop" folder for currently logged-on Windows user]
+Папка "Desktop" на потребителя, вписан в Windows
+[any environment variable defined in current Windows session (like %systemroot%, %allusersprofile%, etc.)]
+
+[Variables]
+Променливи
+[days]
+дни
+[hours]
+часове
+[minutes]
+минути
+[Select backup folder]
+Избор на папка за резервните копия
+[Error creating backup folder]
+Грешка при създаването на папка за резервните копия

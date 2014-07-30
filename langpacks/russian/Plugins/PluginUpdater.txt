@@ -1,0 +1,179 @@
+﻿#muuid {968def4a-bc60-4266-ac08-754ce721db5f}
+;============================================================
+;  File: PluginUpdater.dll
+;  Plugin: Plugin updater
+;  Version: 0.1.2.2
+;  Authors: Mataes, George Hazan
+;============================================================
+[Plugin updater for Miranda NG.]
+Обновление плагинов Miranda NG.
+[Updates found!]
+Найдены обновления!
+[PluginUpdater has detected updated versions of some Miranda components. Click on Details button to view more information.]
+Были найдены обновлённые версии плагинов Miranda NG. Нажмите на кнопку "Детали" для подробной информации.
+[Update]
+Обновить
+[Details >>]
+Детали >>
+[Cancel]
+Отмена
+[Select &all]
+Выбрать &всё
+[Select &none]
+&Снять выбор
+[Hotkey]
+Горячая клавиша
+[Go to Customize -> Hotkeys to change the hotkey]
+Настройка в Тонкая настройка -> Горячие клавиши
+[Plugin updates options]
+Настройки обновления плагинов
+[On startup]
+При запуске
+[(but only once a day)]
+(но только 1 раз в день)
+[Every]
+Каждые
+[Silent mode]
+Тихое обновление
+[Files source]
+Источник обновления
+[Stable version]
+Стабильная версия
+[Development version (less stable)]
+Версия в разработке (менее стабильна)
+[Development version with debug symbols]
+Версия в разработке c отладочными символами
+[Custom version]
+Заданная пользователем версия
+[Some component(s) was updated.\nYou need to restart your Miranda to apply installed updates.]
+Некоторые компоненты были обновлены.\nПрименение обновлений произойдёт после перезапуска программы.
+[Notifications]
+Уведомления
+[Restart]
+Перезапуск
+[Errors]
+Ошибки
+[Info messages]
+Инфо сообщения
+[Back]
+Фон
+[Text]
+Текст
+[Colors]
+Цвета
+[Use cus&tom colors]
+Настр&оить цвета
+[Use &Windows colors]
+Цвета &Windows
+[Use Pop&up colors]
+Цвета Pop&up
+[Preview]
+Тест
+[Click action]
+Действия по щелчку
+[On left click]
+Левый щелчок
+[On right click]
+Правый щелчок
+[Timeout]
+Таймаут
+[0 = Default]
+0=Умолчание
+[-1 = Infinite]
+-1=Бесконечно
+[Sec]
+сек.
+[For "Restart" popup setting is always infinity]
+Всплывающее окно "Перезапуск" всегда  установлено на бесконечность
+[Boxes]
+Окна
+[Popups]
+Всплывающие окна
+[Component list]
+Список компонентов
+[Here is the complete list of missing Miranda NG components. Check components that you want to download.\n\nClick on info icon to view component info page.]
+Ниже перечислены все отсутствующие компоненты Miranda NG. Выберите компоненты, которые вы хотите установить.\n\nНажмите на значок информации, чтобы перейти на страницу компонента на сайте.
+[Download]
+Загрузка
+[Downloading...]
+Загрузка...
+[Succeeded.]
+Завершено.
+[Failed!]
+Ошибка!
+[Skipped.]
+Пропущено.
+[Plugin Updater]
+Обновление плагинов
+[Download complete]
+Загрузка завершена
+[Download complete. Do you want to go to plugins option page?]
+Загрузка завершена. Перейти на страницу настроек плагинов?
+[Component Name]
+Имя компонента
+[State]
+Состояние
+[Plugins]
+Плагины
+[Icons]
+Значки
+[Languages]
+Языки
+[Other]
+Другое
+[List is empty.]
+Список пуст.
+[List loading already started!]
+Список загружается!
+[Will be deleted!]
+Удалено!
+[Update complete. Press Yes to restart Miranda now or No to postpone a restart until the exit.]
+Обновление завершено. Нажмите "Да" для немедленной перезагрузки программы или "Нет", чтобы отложить обновление до выхода.
+[Core components]
+Компоненты ядра
+[Core]
+Ядро
+[<< Details]
+<< Детали
+[Update failed! One of the components wasn't downloaded correctly. Try it again later.]
+Ошибка обновления! Архив одного из закачанных компонентов поврежден. Попробуйте повторить попытку позже.
+[%d component(s) was updated]
+%d компонент(ов) было обновлено
+[You need to restart your Miranda to apply installed updates.]
+Применение обновлений произойдёт после перезапуска программы.
+[Would you like to restart it now?]
+Перезагрузить программу сейчас?
+[No updates found.]
+Обновлений нет.
+[Update checking already started!]
+Обновление уже запущено!
+[Close popup]
+Закрыть всплывающее окно
+[Do nothing]
+Ничего не делать
+[hours]
+часа(ов)
+[days]
+дней
+[Test]
+Тест
+[Services]
+Службы
+[Check for updates]
+Проверить обновления
+[Available components list]
+Компоненты для установки
+[Update completed]
+Обновление завершено
+[Update failed]
+Сбой обновления
+[Plugin info]
+Информация о плагинах
+[Plugin list]
+Список плагинов
+[Plugin Updater HTTP connection]
+HTTP подключение Plugin Updater
+[Checking new updates...]
+Проверка обновлений...
+[An error occurred while checking new updates.]
+Во время проверки обновления произошла ошибка.

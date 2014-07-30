@@ -1,0 +1,163 @@
+﻿#muuid {1aac15e8-dcec-4050-b66f-2aa0e6120c22}
+;============================================================
+;  File: PasteIt.dll
+;  Plugin: Paste it
+;  Version: 1.0.0.3
+;  Authors: Krzysztof Kral
+;============================================================
+[Uploads the text to web page and sends the URL to your friends.]
+Загружае тэкст на вэб-старонку і адпраўляе URL сябрам.
+;file \plugins\PasteIt\res\PasteIt.rc
+[Settings]
+Налады
+[Default web page]
+Стандартная web-старонка
+[Default file encoding]
+Стандартная кадоўка файла
+[Auto-detect UTF-8]
+Аўтавызначэнне UTF-8
+[Show confirmation dialog box]
+Паказваць дыялогавае вакно пацверджання
+[Autosend download link to contact]
+Адправіць спасылку аўтаматычна
+[Web page settings]
+Налады web-старонкі
+[Web page to configure]
+Web-старонка для налады
+[Configure]
+Наладзіць
+[Default formatting]
+Фарматаванне па змаўчанні
+[Auto-detect format from file extension]
+Аўтаматычнае вызначэнне фармату па пашырэнні файла
+[Public paste]
+Уставіць публічна
+[Login as guest]
+Увайсці як госць
+[User key]
+Ключ кантакта
+[Get user key]
+Атрымаць ключ кантакта
+[Configure formatting]
+Наладзіць фарматаванне
+[Cancel]
+Скасаваць
+[Up]
+Угару
+[Down]
+Уніз
+[Delete]
+Выдаліць
+[Restore defaults]
+Скінуць
+[Download more]
+Загрузіць больш
+[Login to pastebin.com]
+Увайсці на pastebin.com
+[User name]
+Імя карыстача
+[Password]
+Пароль
+[Paste It]
+Paste It
+[Format]
+Фармат
+[Encoding]
+Кадаванне
+[Recode]
+Запіс
+;file \plugins\PasteIt\src\Options.cpp
+[Use default codepage]
+Кадоўка па змаўчанні
+[Thai]
+Тайскі
+[Japanese]
+Японскі
+[Simplified Chinese]
+Кітайскі (спрошчаны)
+[Korean]
+Карэйскі
+[Traditional Chinese]
+Кітайскі (традыцыйны)
+[Central European]
+Цэнтральнаеўрапейскі
+[Cyrillic]
+Кірыліца
+[Cyrillic KOI8-R]
+Кірыліца KOI8-R
+[Latin I]
+Заходнееўрапейскі
+[Greek]
+Грэцкі
+[Turkish]
+Турэцкі
+[Hebrew]
+Іўрыт
+[Arabic]
+Арабскі
+[Baltic]
+Балтыйскі
+[Vietnamese]
+В'етнамскі
+[Korean (Johab)]
+Карэйскі (Johab)
+[You've entered invalid codepage. Select codepage from combo box or enter correct number.]
+Вы ўвялі няслушную кодавую старонку. Абярыце кодавую старонку з выпадальнага спісу ці ўвядзіце правільнае імя.
+[Invalid codepage]
+Няслушная кодавая старонка
+[Services]
+Службы
+[Main]
+Галоўны
+[Web page]
+Web старонка
+;file \plugins\PasteIt\src\PasteIt.cpp
+[All Files (*.*)]
+Усе файлы (*.*)
+[Paste It - Select file]
+Paste It - Абраць файл
+[Error]
+Памылка
+[Paste from clipboard]
+Уставіць з буфера
+[Paste from file]
+Уставіць з файла
+[Paste It HTTP connections]
+HTTP далучэнне Paste It
+;file \plugins\PasteIt\src\PasteToWeb.cpp
+[You can only paste 1 file]
+Вы можаце змесцаваць толькі 1 файл
+[Cannot get data from clipboard]
+Не магчыма атрымаць дадзеныя з буфера абмену
+[File size is %d KB, do you really want to paste such a large file?]
+Памер файла %d KB, вы сапраўды жадаеце змесцаваць такі вялікі файл?
+[Are You sure?]
+Вы ўпэўнены?
+[Cannot read file '%s']
+Немагчыма прачытаць файл '%s'
+[File size is larger then 10 MB, cannot be sent]
+Файл памерам больш 10 MB, не можа быць адпраўлены
+[Cannot open file '%s']
+Немагчыма адкрыць файл '%s'
+[File '%s' is empty]
+Файл '%s' пусты
+;file \plugins\PasteIt\src\PasteToWeb1.cpp
+[Error during sending text to web page: %s]
+Памылка пры адпраўцы тэксту на web-старонку: %s
+[Error during sending text to web page]
+Памылка пры адпраўцы тэксту на web-старонку
+[Error during getting user key from web page: %s]
+Памылка пры атрыманні ключа кантакта ад web-старонкі: %s
+[Paste expire date]
+Уставіць на тэрмін
+[Never]
+Не выкарыстоўваць
+[10 minutes]
+10 хвілін
+[1 hour]
+1 гадзіна
+[1 day]
+1 дзень
+[1 month]
+1 месяц
+;file \plugins\PasteIt\src\PasteToWeb2.cpp

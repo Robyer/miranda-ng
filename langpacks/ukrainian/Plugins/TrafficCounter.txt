@@ -1,0 +1,147 @@
+﻿#muuid {82181510-5dfa-49d7-b469-33871e2ae8b5}
+;============================================================
+;  File: TrafficCounter.dll
+;  Plugin: Traffic counter
+;  Version: 0.1.1.8
+;  Authors: Ghost, Mironych
+;============================================================
+[Adding traffic and time counters.]
+Лічильник трафіку.
+[Selected totals]
+Виділено всього
+[Accounts]
+Облікові записи
+[Units]
+Одиниці
+[Clear statistics]
+Очистити
+[Notification]
+Сповіщення
+[Notify me on every]
+Сповіщати кожні
+[kilobytes]
+кілобайт
+[minutes]
+хвилин
+[Background color:]
+Колір фону:
+[Text color:]
+Колір тексту:
+[Reset to default]
+Скинути
+[Popup timeout]
+Тривалість вікна
+[From Popup plugin]
+За замовчанням
+[Custom]
+Налаштувати
+[Test]
+Тест
+[Show now]
+Показати
+[Space between lines:]
+Між рядками:
+[Counters format string:]
+Формат рядка лічильників:
+[Tooltip format string:]
+Формат підказки:
+[Display traffic for current]
+Трафік за поточний
+[Display]
+Показувати
+[Icon]
+Значок
+[Account name]
+Обліковий запис
+[Current traffic]
+Поточний трафік
+[Total traffic]
+Загальний трафік
+[Current online]
+Поточний онлайн
+[Total online]
+Загальний онлайн
+[General]
+Загальне
+[Draw frame as skin element]
+Малювати фрейм як елемент скіна
+[Show tooltip in traffic window]
+Показувати підказку у вікні трафіку
+["Toggle traffic counter" in main menu]
+Перемикач лічильника трафіку в головному меню
+[Visible accounts]
+Видимі облікові записи
+[Summary traffic for visible accounts]
+Сумарний трафік для видимих облікових записів
+[Overall traffic]
+Загальний трафік
+[Hide now]
+Сховати
+[Day]
+День
+[Week]
+Тиждень
+[Month]
+Місяць
+[Year]
+Рік
+[Services]
+Служби
+[Options]
+Налаштування
+[Traffic counter]
+Лічильник трафіку
+[Statistics]
+Статистика
+[Popups]
+Спливаючі вікна
+[Bytes]
+Байт
+[KB]
+КБ
+[MB]
+МБ
+[Adaptive]
+Плаваючий
+[Hourly]
+Щогодини
+[Daily]
+Щодня
+[Weekly]
+Щотижня
+[Monthly]
+Щомісяця
+[Yearly]
+Щорічно
+[Period]
+Період
+[Incoming]
+Вхідні
+[Outgoing]
+Вихідні
+[Sum]
+Сума
+[Online]
+В мережі
+[Now traffic statistics for selected accounts will be cleared.\nContinue?]
+Усю статистику за вибраними обліковими записами буде очищено\nПродовжити?
+[Couldn't read statistics file]
+Неможливо прочитать файл статистики
+[Traffic Counter]
+Лічильник трафіку
+[Font]
+Шрифт
+[Show/Hide frame]
+Показати/Сховати фрейм
+[Hide traffic window]
+Сховати вікно трафіку
+[Clear the current (Now:) value]
+Скинути поточне (Now:) значення
+[Toggle traffic counter]
+Перемкнути лічильник трафіку
+[Traffic counter notification]
+Сповіщення лічильника трафіку
+[%d kilobytes sent]
+%d Кб відправлено
+[%d kilobytes received]
+%d Кб отримано

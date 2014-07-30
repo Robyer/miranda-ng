@@ -1,0 +1,1 @@
+del /F /S /Q /A RHS *.sdf *.suo *.user *.map include\m_version.h

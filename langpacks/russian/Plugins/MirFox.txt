@@ -1,0 +1,77 @@
+﻿#muuid {e99a09b2-e05b-4633-aa3a-5c83ef1cbab6}
+;============================================================
+;  File: MirFox.dll
+;  Plugin: MirFox
+;  Version: 0.5.0.0
+;  Authors: Szymon Tokarz
+;============================================================
+[MirFox (Miranda NG) - part of Miranda-Firefox integration - http://wsx22.3.xpdev-hosted.com]
+MirFox (Miranda NG) - часть интеграции Miranda-Firefox - http://wsx22.3.xpdev-hosted.com
+[Send to contact action]
+Действие при отправке контакту
+[on left mouse button click]
+при нажатии левой кнопки мыши
+[on right mouse button click]
+при нажатии правой кнопки мыши
+[on middle mouse button click\n(note: use middle mouse button to send multiple messages from Firefox)]
+при нажатии средней кнопки мыши\n(примечание: используйте среднюю кнопку мыши, чтобы отправить несколько сообщений из Firefox)
+[Firefox profiles]
+Профили Firefox
+[Show Miranda menu only in these Firefox profiles (comma delimited)]
+Отображать меню Miranda только для указанных профилей (разделение запятой)
+[Show these contacts in 'Send ... to' option in Firefox]
+Эти контакты будут отображаться в меню Firefox "Отправить..."
+[Show these accounts in 'Set status message' option in Firefox]
+Отображать эти учётные записи в опции Firefox 'Установить сообщение статуса'
+[MirFox/Notification]
+MirFox/Уведомление
+[MirFox/Error]
+MirFox/Ошибка
+[just send message]
+просто отправить сообщение
+[send message and open message window]
+отправить и открыть окно сообщений
+[show message window with pasted message]
+показать окно сообщения с вставленным сообщением
+[** All contacts **]
+** Все контакты **
+[Protocol]
+Протокол
+[Services]
+Службы
+[Options]
+Настройки
+[Contacts]
+Контакты
+[Accounts]
+Учётные записи
+[MirFox log]
+Лог MirFox
+[Message sent to %s (%s)]
+Сообщение для %s (%s) отправлено
+[Message sent]
+Сообщение отправлено
+[Cannot send message to %s (%s) - %S]
+Не удалось отправить сообщение для %s (%s) - %S
+[Cannot send message - %S]
+Не удалось отправить сообщение - %S
+[Cannot send message to %s (%s)]
+Не удалось отправить сообщение для %s (%s)
+[Cannot send message]
+Не удалось отправить сообщение
+[MirFox error]
+Ошибка MirFox
+[Status message set on %s]
+Сообщение статуса установлено для %s
+[Status message set]
+Сообщение статуса установлено
+[Cannot set status message on %s]
+Не удалось установить сообщение статуса для %s
+[Cannot set status message]
+Не удалось установить сообщение статуса
+[This MirFox (Miranda) plugin is too old. Please update it.]
+Плагин MirFox (Miranda) устарел. Пожалуйста, обновите его.
+[MirFox (Miranda) - Error]
+MirFox (Miranda) - Ошибка
+[This MirFox (Miranda) plugin cannot start because some other MirFox component is too old. Please, check and update your MirFox components.]
+Плагин MirFox (Miranda) не работает - устарели другие компоненты MirFox. Пожалуйста, проверьте и обновите ваше дополнение MirFox.

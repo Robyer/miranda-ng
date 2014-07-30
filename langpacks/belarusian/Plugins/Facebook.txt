@@ -1,0 +1,279 @@
+﻿#muuid {8432b009-ff32-4727-aae6-a9035038fd58}
+;============================================================
+;  File: Facebook.dll
+;  Plugin: Facebook RM
+;  Version: 0.2.7.0
+;  Authors: Michal Zelinka, Robert Pösel
+;============================================================
+[Facebook protocol support for Miranda NG.]
+Падтрымка пратаколу  Facebook.
+;file \protocols\FacebookRM\res\facebook.rc
+[E-mail:]
+Пошта:
+[Password:]
+Пароль:
+[Create a new Facebook account]
+Стварыць новы конт Facebook
+[What's on your mind?]
+Пра што вы думаеце?
+[Wall:]
+Сцяна:
+[Visibility:]
+Бачнасць:
+[Text:]
+Тэкст:
+[URL:]
+URL:
+[Place:]
+Месца:
+[Contacts >>]
+Кантакты >>
+[Attach contacts:]
+Далучыць кантакты:
+[Share]
+Падзяліцца
+[Cancel]
+Скасаваць
+[User details]
+Пра кантакт
+[Contacts Settings]
+Налады кантактаў
+[Default group:]
+Гурт:
+[Automatically set 'Ignore status change' flag]
+Аўтаматычна ўключаць ігнараванне змены статусаў
+[Use bigger avatars]
+Вялікія аватары
+[Event notifications]
+Абвесткі
+[Notifications]
+Абвесткі
+[News feeds]
+Навіны
+[News feed types to notify:]
+Абвяшчаць пра тыпы навін:
+[Other events]
+Іншыя падзеі
+[Client notifications]
+Абвесткі кліента
+[Preview]
+Прагляд
+[Use balloon notifications in system tray instead of popups]
+Абвяшчаць падказкай у трэі замест усплывальных вокнаў
+[Advanced Settings]
+Пашыраныя параметры
+[Force secure (HTTPS) connection]
+Бяспечнае злучэнне (HTTPS)
+[Post Miranda statuses to Wall]
+Публікаваць статусы Miranda на сцяну
+[Use secure connection also for channel requests]
+Бяспечнае злучэнне таксама для запытаў канала
+[Also disconnect chat when going to offline]
+Адключаць чат на сайце пры адключэнні
+[Map non-standard statuses to Invisible (instead of Online)]
+Нестандартныя статусы, як Нябачны (замест 'Далучаны')
+[Allow posting statuses to my pages (may slow down login)]
+Дазволіць публікаваць статусы на сваіх старонках (замаруджвае уваход)
+[Use this server for opening links:]
+Выкарыстоўваць гэты сервер для адкрыцця спасылкі:
+[Enable support for Custom smileys (EXPERIMENTAL + BUGGY!)]
+Падтрымка карыстацкіх смайлаў (Эксперыментальна!)
+[Use local time for received messages]
+Выкарыстоўваць мясцовы час для прынятых паведамленняў
+[Message sessions]
+Гутаркі
+[Keep messages as unread on server (don't send "seen" info)]
+Не пазначаць паведамленні прачытанымі
+[Receive messages from "inbox" folder only]
+Прымаць паведамленні толькі з тэчкі "уваходныя"
+;file \protocols\FacebookRM\src\chat.cpp
+[&Invite user...]
+&Запрасіць кантакт...
+[&Leave chat session]
+&Пакінуць чат
+[User &details]
+Дадзеныя кантакта
+[User &history]
+Гісторыя кантакта
+;file \protocols\FacebookRM\src\communication.cpp
+[Login error: %s]
+Памылка далучэння: %s
+[Unknown error]
+Невядомая памылка
+[Login error: Invalid request.]
+Памылка далучэння: Памылковы запрос.
+[Login error: Some Facebook things are required.]
+Памылка далучэння: Неабходны некаторыя рэчы Facebook.
+[Login error: Captcha code is required. Bad login credentials?]
+Памылка: Патрабуецца ўвесці код абароны. Няслушныя дадзеныя конта?
+[Login error, probably bad login credentials.]
+Памылка далучэння, верагодна, няслушныя дадзеныя для ўваходу.
+[Your account requires HTTPS connection. Activating.]
+Ваш конт патрабуе HTTPS злучэнне. Актывацыя.
+[Something happened to Facebook. Maybe there was some major update so you should wait for an update.]
+Нешта здарылася з Facebook. Верагодна, было сур'ёзнае абнаўленне, таму чакайце абнаўлення плагіна.
+[Need confirmation for sending messages to other clients.\nOpen Facebook website and try to send message to this contact again!]
+Маюць патрэбу ў пацверджанні для адпраўкі паведамленняў з іншых кліентаў.\nАдкрыйце сайт Facebook і паспрабуйце там адправіць паведамленне гэтаму кантакту!
+[Timeout when sending message.]
+Затрымка пры адпраўцы паведамлення.
+[Status update was successful.]
+Паспяховае абнаўленне статуса.
+;file \protocols\FacebookRM\src\connection.cpp
+[Please enter a username.]
+Калі ласка, увядзіце імя карыстача.
+[Please enter a password.]
+Калі ласка, увядзіце пароль.
+;file \protocols\FacebookRM\src\constants.h
+[Top News]
+Папулярныя навіны
+[Most Recent]
+Апошнія абнаўленні
+[Classic website]
+Класічны сайт
+[Mobile website]
+Мабільны сайт
+[Smartphone website]
+Для смартфонаў
+[Public]
+Усім
+[Friends of friends]
+Сябрам сяброў
+[Friends]
+Сябрам
+[Friends except acquaintances]
+Сябрам, акр. знаёмых
+[Only me]
+Толькі мне
+;file \protocols\FacebookRM\src\contacts.cpp
+[Contact was removed from your server list.]
+Кантакт быў выдалены з вашага спісу на серверы.
+[Error occurred when removing contact from server.]
+Памылка пры выдаленні кантакта з сервера.
+[Request for friendship was sent.]
+Запыт на сяброўства адпраўлены.
+[Error occurred when requesting friendship.]
+Адбылася памылка пры запыце сяброўства.
+[Request for friendship was canceled.]
+Запыт на сяброўства быў адменены.
+[Error occurred when canceling friendship request.]
+Адбылася памылка пры скасаванні запыта сяброўства.
+;file \protocols\FacebookRM\src\dialogs.cpp
+[Default]
+Змаўчанні
+[<< Contacts]
+<< Кантакты
+[What's on your mind, %s?]
+Пра што думаеш, %s?
+[Note: Make sure you have disabled 'Validate SSL certificates' option in Network options to work properly.]
+Заўвага: Пераканайцеся, што вы адключылі опцыю "Праверыць SSL сертыфікаты" ў функцыі сеціва, каб працаваць належным чынам.
+[Sample event]
+Прыклад падзеі
+[Sample request]
+Прыклад запыту
+[Sample newsfeed]
+Прыклад навіны
+[Sample notification]
+Прыклад абвесткі
+;file \protocols\FacebookRM\src\json.cpp
+[a sticker]
+сцікер
+[files]
+файлы
+[a file]
+файл
+[photos]
+фатаграфіі
+[a photo]
+фатаграфію
+[User sent %s:]
+Кантакт паслаў вам %s:
+[User sent an unsupported attachment. Open your browser to see it.]
+Кантакт паслаў непадтрымліваемае ўкладанне. Каб прагледзець, перайдзіце на сайт.
+[Message read: %s by %s]
+Паведамленне прачытана ў: %s карытальнікам %s
+[This message is no longer available, because it was marked as abusive or spam.]
+Паведамленне недасяжна,таму што было адзначана як спам.
+[%s is typing a message...]
+%s набірае тэкст...
+;file \protocols\FacebookRM\src\messages.cpp
+[You cannot send messages when you are offline.]
+Вы не можаце адпраўляць паведамленні без далучэння.
+;file \protocols\FacebookRM\src\process.cpp
+[Contact is back on server-list.]
+Кантакт даданы ў спіс на серверы.
+[Contact is no longer on server-list.]
+Кантакт выдалены з спісу сервера.
+;file \protocols\FacebookRM\src\proto.cpp
+[%s server connection]
+Далучэнне да сервера %s
+[Unable to get Netlib connection for Facebook]
+Не атрымалася Netlib злучэнне да Facebook
+[Facebook ID must be numeric value.]
+Facebook ID павінна быць лічбавым значэннем.
+[Network]
+Сеціва
+[Account]
+Конт
+[Events]
+Падзеі
+[Advanced]
+Дадаткова
+[Share status...]
+Статус...
+[Own wall]
+Свая сцяна
+[Loading newsfeeds...]
+Загрузка навін...
+[Checking friend requests...]
+Праверка запытаў сяброўства...
+[Refreshing buddy list...]
+Абнаўленне спісу сяброў...
+[Do you want to cancel your friendship with '%s'?]
+Хочаце адмяніць сяброўства з '%s'?
+[Visit profile]
+Профіль
+[Show 'Share status' window]
+Паведамленне статуса Facebook
+[Notification]
+Абвестка
+[News Feed]
+Навіны
+[Other Event]
+Іншая падзея
+[Message read: %s]
+Паведамленне прачытана ў: %s
+;file \protocols\FacebookRM\src\theme.cpp
+[Facebook icon]
+Абразок Facebook
+[Mind]
+Меркаванне
+[Poke]
+Тыкнуць
+[Newsfeed]
+Навіны
+[Friendship details]
+Дэталі сяброўства
+[Conversation]
+Гутарка
+[Visit friendship details]
+Дэталі сяброўства
+[Visit conversation]
+Гутарка на сайце
+[Cancel friendship]
+Выдаліць з сяброў
+[Cancel friendship request]
+Скасаваць запыт сяброўства
+[Request friendship]
+Дадаць ў сябры
+[Approve friendship]
+Дадаць ў сябры
+[Services...]
+Службы...
+[Refresh Buddy List]
+Абнавіць спіс сяброў
+[Services]
+Службы
+[Check Friends Requests]
+Праверыць запыты сяброўства
+[Check Newsfeeds]
+Праверыць навіны

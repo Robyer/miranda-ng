@@ -1,0 +1,157 @@
+﻿#muuid {56cc3f29-ccbf-4546-a8ba-9856248a412a}
+;============================================================
+;  File: NewsAggregator.dll
+;  Plugin: News aggregator
+;  Version: 0.0.0.1
+;  Authors: Mataes, FREAK_THEMIGHTY
+;============================================================
+[RSS/Atom news aggregator.]
+Канали новин RSS/Atom.
+[Add]
+Додати
+[Change]
+Змінити
+[Remove]
+Видалити
+[Import]
+Імпорт
+[Export]
+Експорт
+[Retrieve news at startup]
+Отримувати новини при запуску
+[Cancel]
+Скасувати
+[General Settings]
+Загальне
+[Title]
+Заголовок
+[URL]
+Посилання
+[Check every]
+Перев. кожні
+[minutes]
+хвилин
+[Check Feed]
+Перевірити
+[Authentication]
+Аутентифікація
+[Use &authentication]
+&Використовувати аутентифікацію
+[Login]
+Ім'я користувача
+[Password]
+Пароль
+[Visualization]
+Відображення
+[Display news using the following format:]
+Відображати новини, використовуючи формат:
+[All item's tags are valid. Put them between #. Example: #<author>#]
+Усі теги новини є дійсними. Візьміть їх у #, наприклад: #<author>#
+[Reset]
+Скинути
+[0 - check manually]
+0 - вручну
+[Feed name]
+Канал
+[This feed seems to need authentication. Please fill username and password fields:]
+Каналу потрібна аутентифікація. Будь ласка, введіть ім'я користувача та пароль:
+[Username]
+Ім'я
+[Available feeds:]
+Наявні канали:
+[Feeds to be exported:]
+Канали для експорту:
+[&Export]
+&Експорт
+[&Close]
+&Закрити
+[Import from:]
+Імпорт з:
+[Feeds to be imported:]
+Канали для імпорту:
+[&Import]
+&Імпорт
+[Enter your username]
+Введіть ім'я користувача
+[Error]
+Помилка
+[Enter your password]
+Введіть пароль
+[%s\nis a valid feed's address.]
+%s\nдійсно існує.
+[News Aggregator]
+Канали новин
+[%s\nis not a valid feed's address.]
+%s\nнеправильна адреса каналу
+[empty]
+Порожній
+[Imported %d feed(s)\r\nNot imported %d duplicate(s).]
+Імпортовано каналів: %d \r\nНе імпортовано дублікатів: %d
+[Imported %d feed(s).]
+Імпортовано каналів: %d.
+[OPML files]
+Файли OPML
+[Not valid import file.]
+Неправильний файл для імпорту
+[Protocol icon]
+Значок протоколу
+[Check All Feeds]
+Перевірити всі канали
+[Add Feed]
+Додати канал
+[Import Feeds]
+Імпорт каналів
+[Export Feeds]
+Експорт каналів
+[Auto Update Enabled]
+Автооновлення увімкнено
+[Auto Update Disabled]
+Автооновлення вимкнено
+[Check feed]
+Перевірити канал
+[Change feed]
+Змінити канал
+[Enter Feed name]
+Введіть ім'я каналу
+[Enter Feed URL]
+Введіть URL каналу
+[Enter checking interval]
+Введіть інтервал перевірки
+[Enter message format]
+Введіть формат повідомлення
+[The title of the item.]
+Заголовок новини.
+[The item synopsis.]
+Текст новости.
+[The URL of the item.]
+URL новини.
+[Email address of the author of the item.]
+E-mail автора новини.
+[URL of a page for comments relating to the item.]
+URL сторінки з коментарями до новини.
+[A string that uniquely identifies the item.]
+Ідентифікатор новини.
+[Specify one or more categories that the item belongs to.]
+Категорії новини.
+[Feed Tag Help]
+Допомога по тегам каналу
+[Are you sure?]
+Ви впевнені?
+[Tags Mask Reset]
+Скидання тегів
+[Wait...]
+Зачекайте...
+[Change Feed]
+Змінити канал
+[Contact deleting]
+Видалення контакту
+[Network]
+Мережа
+[Avatars]
+Аватари
+[Enable/disable auto update]
+Увімк./Вимк. автооновлення
+[NewsAggregator HTTP connection]
+HTTP-з'єднання каналів новин
+[Feed]
+Канал

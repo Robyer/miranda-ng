@@ -1,0 +1,99 @@
+﻿#muuid {34b5a402-1b79-4246-b041-43d0b590ae2c}
+;============================================================
+;  File: FileAsMessage.dll
+;  Plugin: File as message
+;  Version: 0.0.2.4
+;  Authors: Denis Stanishevskiy
+;============================================================
+[File transfer by using the messaging services - as plain text.]
+Передача файлів на основі сервісу повідомлень - через звичайний текст.
+[fileAsMessage]
+Файл через повідомлення
+[Filename:]
+Ім'я файлу:
+[Size:]
+Розмір:
+[Chunk size]
+Розмір порції
+[ms]
+мс
+[Delays between sends]
+Пауза між передачами
+[bytes]
+байт
+[Transfer settings]
+Параметри передачі
+[Appearance]
+Зовнішній вигляд
+[Unsent]
+Не передано
+[Sent]
+Передано
+[To send]
+До передачі
+[Received]
+Прийнято
+[Use only alphanumeric encoding on transfer]
+Тільки буквено-цифрове кодування для передач
+[Extra options: Events > File Transfers, "Receiving files" group]
+Дод. налаштування: Події -> Передача файлів, "Прийом файлів"
+[File already exists. Overwrite?]
+Файл вже існує. Перезаписати?
+[Couldn't open a file]
+Не вдалося відкрити файл
+[Size: %d bytes]
+Розмір: %d байт
+[Request sent. Awaiting of acceptance..]
+Запит відправлено. Чекаємо відповіді...
+[Sending...]
+Передача...
+[Received successfully]
+Прийнято успішно
+[Requesting of missing chunks]
+Запит відсутніх частин
+[Receiving...]
+Отримання...
+[Sent successfully]
+Надіслано успішно
+[Unknown command for "File As Message" was received]
+Невідома команда для "File As Message"
+[Incoming file request. Do you want to proceed?]
+Вхідний файл. Продовжити?
+[Canceled by remote user]
+Скасовано віддаленим користувачем
+[New incoming file request. Do you want to proceed?]
+Новий вхідний файл. Продовжити?
+[File transfer is paused because of dropped connection]
+Припинено через роз'єднання
+[Failed on file initialization]
+Помилка при ініціалізації файлу
+[Paused...]
+Пауза...
+[Synchronizing...]
+Синхронізація...
+[Select a file]
+Вибір файлу
+[Save as]
+Зберегти як
+[Can't get a file size]
+Не можу отримати розмір файлу
+[Canceled by user]
+Скасовано користувачем
+[Transfer is in progress. Do you really want to close?]
+Триває передача файлу. Перервати?
+[Play]
+Пуск
+[Pause]
+Пауза
+[Revive]
+Пожвавити
+[Stop]
+Зупинити
+[Main]
+Головний
+[Events]
+Події
+[File As Message...]
+Файл через повідомлення...
+[File As Message]
+Файл через повідомлення

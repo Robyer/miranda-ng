@@ -1,0 +1,17 @@
+﻿#muuid {6b612a34-dcf2-4e32-85cf-b6fd006b745e}
+;============================================================
+;  File: Weather.dll
+;  Plugin: Weather
+;  Version: 0.4.0.1
+;  Authors: Miranda NG Team
+;============================================================
+[Colors]
+Colours
+[Background color]
+Background colour
+[Text color]
+Text colour
+[Use Windows colors]
+Use Windows colours
+[HTTP Error: Unauthorized (401)]
+HTTP Error: Unauthorised (401)

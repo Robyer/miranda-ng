@@ -1,0 +1,13 @@
+﻿#muuid {DA0B09F5-9C66-488C-AE37-8A5F191C9079}
+;============================================================
+;  File: LinkList.dll
+;  Plugin: History linklist plus
+;  Version: 0.0.0.2
+;  Authors: Thomas Wendel, gureedo
+;============================================================
+[Color select]
+Colour select
+[Background color]
+Background colour
+[Text color]
+Text colour

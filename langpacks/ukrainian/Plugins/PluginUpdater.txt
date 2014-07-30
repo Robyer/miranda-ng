@@ -1,0 +1,179 @@
+﻿#muuid {968def4a-bc60-4266-ac08-754ce721db5f}
+;============================================================
+;  File: PluginUpdater.dll
+;  Plugin: Plugin updater
+;  Version: 0.1.2.2
+;  Authors: Mataes, George Hazan
+;============================================================
+[Plugin updater for Miranda NG.]
+Оновлення плагінів та інших компонентів Miranda NG.
+[Updates found!]
+Знайдені оновлення!
+[PluginUpdater has detected updated versions of some Miranda components. Click on Details button to view more information.]
+Знайдено нові версії компонентів Miranda NG. Натисніть на кнопку "Деталі" для докладної інформації.
+[Update]
+Оновити
+[Details >>]
+Деталі >>
+[Cancel]
+Скасувати
+[Select &all]
+Вибрати все
+[Select &none]
+Зняти вибір
+[Hotkey]
+Гаряча клавіша
+[Go to Customize -> Hotkeys to change the hotkey]
+Налаштувати: Тонке налаштування -> Гарячі клавіші
+[Plugin updates options]
+Налаштування оновлень
+[On startup]
+При запуску
+[(but only once a day)]
+(але тільки 1 раз на день)
+[Every]
+Кожні
+[Silent mode]
+Тихе оновлення
+[Files source]
+Джерело оновлень
+[Stable version]
+Стабільна версія
+[Development version (less stable)]
+Версія в розробці (менш стабільна)
+[Development version with debug symbols]
+Версія в розробці з символами налагодження
+[Custom version]
+Задана користувачем версія
+[Some component(s) was updated.\nYou need to restart your Miranda to apply installed updates.]
+Оновлено деякі компоненти.\nОновлення будуть застосовані після перезапуску програми.
+[Notifications]
+Сповіщення
+[Restart]
+Перезапуск
+[Errors]
+Помилки
+[Info messages]
+Інформація
+[Back]
+Фон
+[Text]
+Текст
+[Colors]
+Кольори
+[Use cus&tom colors]
+Налаштувати кольори
+[Use &Windows colors]
+Кольори Windows
+[Use Pop&up colors]
+Кольори сплив. вікон
+[Preview]
+Тест
+[Click action]
+Дії по клацанню
+[On left click]
+Лівий клік
+[On right click]
+Правий клік
+[Timeout]
+Таймаут
+[0 = Default]
+0=Замовчання
+[-1 = Infinite]
+-1=Нескінченно
+[Sec]
+с
+[For "Restart" popup setting is always infinity]
+Не встановлює для "Перезапуск"
+[Boxes]
+Вікна
+[Popups]
+Спливаючі вікна
+[Component list]
+Список компонентів
+[Here is the complete list of missing Miranda NG components. Check components that you want to download.\n\nClick on info icon to view component info page.]
+Нижче перелічено всі відсутні компоненти Miranda NG. Виберіть компоненти, які ви хочете завантажити.\n\nНатисніть на значок інформації, щоб перейти на сторінку компонента на сайті.
+[Download]
+Завантажити
+[Downloading...]
+Завантаження...
+[Succeeded.]
+Завершено.
+[Failed!]
+Помилка!
+[Skipped.]
+Пропущено.
+[Plugin Updater]
+Оновлення плагінів
+[Download complete]
+Завантаження завершено
+[Download complete. Do you want to go to plugins option page?]
+Завантаження завершено. Перейти до налаштувань плагінів?
+[Component Name]
+Ім'я компонента
+[State]
+Стан
+[Plugins]
+Плагіни
+[Icons]
+Значки
+[Languages]
+Локалізації
+[Other]
+Інше
+[List is empty.]
+Список порожній.
+[List loading already started!]
+Завантаження вже почалося!
+[Will be deleted!]
+Видалено!
+[Update complete. Press Yes to restart Miranda now or No to postpone a restart until the exit.]
+Оновлення завершено. Натисніть "Так" для негайного перезапуску програми\nабо "Ні", щоб відкласти застосування оновлень до виходу.
+[Core components]
+Компоненти ядра
+[Core]
+Ядро
+[<< Details]
+<< Деталі
+[Update failed! One of the components wasn't downloaded correctly. Try it again later.]
+Помилка оновлення! Архів одного з компонентів пошкоджений. Спробуйте ще раз пізніше.
+[%d component(s) was updated]
+%d компонентів оновлено.
+[You need to restart your Miranda to apply installed updates.]
+Оновлення будуть застосовані після перезапуску програми.
+[Would you like to restart it now?]
+Перезапустити зараз?
+[No updates found.]
+Оновлень немає.
+[Update checking already started!]
+Оновлення вже запущено!
+[Close popup]
+Закрити вікно
+[Do nothing]
+Нічого не робити
+[hours]
+годин
+[days]
+днів
+[Test]
+Тест
+[Services]
+Служби
+[Check for updates]
+Перевірити оновлення
+[Available components list]
+Список компонентів
+[Update completed]
+Оновлення завершено
+[Update failed]
+Помилка оновлення
+[Plugin info]
+Інформація
+[Plugin list]
+Список плагінів
+[Plugin Updater HTTP connection]
+HTTP-з'єднання PluginUpdater
+[Checking new updates...]
+Перевірка оновлень...
+[An error occurred while checking new updates.]
+Під час перевірки оновлень сталася помилка.

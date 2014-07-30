@@ -1,0 +1,146 @@
+﻿;============================================================
+;  File: Intellicast.ini
+;  Module: weather
+;============================================================
+[Ceiling]
+Pułap chmur
+[Mon]
+pon.
+[Tue]
+wt.
+[Wed]
+śr.
+[Thu]
+czw.
+[Fri]
+piąt.
+[Sat]
+sob.
+[Sun]
+niedz.
+[Full]
+Pełnia
+[Sunny]
+Słonecznie
+[Waning Crescent]
+Po ostatniej kwadrze
+[Waning Gibbous]
+Przed ostatnią kwadrą
+[Waxing Crescent]
+Przed pierwszą kwadrą
+[Waxing Gibbous]
+Przed pełnią
+[Last Quarter]
+Ostatnia kwadra
+[First Quarter]
+Pierwsza kwadra
+[Partly Sunny]
+Małe zachmurzenie
+[Mostly Sunny]
+W większości słonecznie
+[Partly Cloudy]
+Częściowe zachmurzenie
+[Mostly Cloudy]
+W większości pochmurnie
+[Mostly Clear]
+W większości przejrzyście
+[Scattered Thunderstorms]
+Gdzieniegdzie burze
+[Feel]
+Odczuwalna
+[Forecast Day 1]
+Prognoza dzień 1
+[Forecast Day 2]
+Prognoza dzień 2
+[Forecast Day 3]
+Prognoza dzień 3
+[Forecast Day 4]
+Prognoza dzień 4
+[Forecast Day 5]
+Prognoza dzień 5
+[Forecast Day 6]
+Prognoza dzień 6
+[Forecast Day 7]
+Prognoza dzień 7
+[Forecast Day 8]
+Prognoza dzień 8
+[Forecast Day 9]
+Prognoza dzień 9
+[Forecast Day 10]
+Prognoza dzień 10
+[Forecast today]
+Prognoza na dziś
+[Heat Index]
+Wskaźnik upałów
+[Moon]
+Księżyc
+[MoonRise]
+Wschód księżyca
+[MoonSet]
+Zachód księżyca
+[Update1]
+Aktualizacja1
+[Update2]
+Aktualizacja2
+[Wind Chill]
+Temperatura odczuwalna
+[Wind Direction]
+Kierunek wiatru
+[Wind Speed]
+Prędkość wiatru
+[N]
+północ
+[W]
+zachód
+[S]
+południe
+[E]
+wschód
+[NW]
+północny zachód
+[NE]
+północny wschód
+[SW]
+południowy zachód
+[SE]
+południowy wschód
+[NNW]
+północno-północny zachód
+[NNE]
+północno-północny wschód
+[SSW]
+południowo-południowy zachód
+[SSE]
+południowo-południowy wschód
+[ENE]
+wschodnio-północny wschód
+[WSW]
+zachodnio-południowy zachód
+[WNW]
+zachodnio-północny zachód
+[ESE]
+wschodnio-południowy wschód
+[WindDir1]
+Kierwiatru1
+[WindDir2]
+Kierwiatru2
+[Broken Clouds]
+Pochmurnie
+[Scattered Clouds]
+Mało chmur
+[North]
+Północ
+[East]
+Wschód
+[South]
+Południe
+[West]
+Zachód
+[Northwest]
+Północny zachód
+[Northeast]
+Północny wschód
+[Southwest]
+Południowy zachód
+[Southeast]
+Południowy wschód

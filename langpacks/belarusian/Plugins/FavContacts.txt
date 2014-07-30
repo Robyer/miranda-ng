@@ -1,0 +1,75 @@
+﻿#muuid {ce2c0401-f9e0-40d7-8e95-1a4197d7ab04}
+;============================================================
+;  File: FavContacts.dll
+;  Plugin: Favorite contacts
+;  Version: 0.1.0.3
+;  Authors: Victor Pavlychko
+;============================================================
+[Favorite contacts menu.]
+Меню абраных кантактаў.
+;file \plugins\FavContacts\res\resource.rc
+[Customize]
+Тонкая налада
+[Show second line]
+Паказваць другі радок
+[Show avatars]
+Аватары
+[Draw avatar border]
+Мяжа на аватарах
+[Round corners by]
+Акругліць куты на
+[px.]
+пікс.
+[Hide for transparent avatars]
+Схаваць для празрыстых аватар
+[Use system colors and fonts]
+Сістэмныя колеры і шрыфты
+[Hotkey shows menu centered on screen]
+Меню па гарачай кн. у цэнтры экрана
+[Menu item preview:]
+Прадпрагляд меню:
+[Favorite Contacts]
+Абраныя кантакты
+[Enable groups]
+Уключыць гурты
+[Multicolumn menu]
+Некалькі слупкоў
+[Configure fonts and colors...]
+Наладзіць шрыфты і колеры...
+[Align to the right]
+Выраўноўванне па правым краі
+[Dim idle contact icons]
+Зацямніць idle кантакты
+[Show]
+Паказаць
+[recent contacts]
+нядаўніх кантактаў
+;file \plugins\FavContacts\src\favlist.h
+[<no group>]
+<няма гурта>
+;file \plugins\FavContacts\src\main.cpp
+[Favorite Contact]
+Абраны кантакт
+[Regular Contact]
+Звычайны кантакт
+[Favorites]
+Абраныя
+;file \plugins\FavContacts\src\menu.cpp
+;file \plugins\FavContacts\src\options.cpp
+[Contacts]
+Кантакты
+;file \plugins\FavContacts\src\services.cpp
+[Contact name]
+Імя кантакту
+[Second line]
+Другі радок
+[Selected contact name (color)]
+Імя кантакту пад курсорам
+[Selected second line (color)]
+Адлюстраванне другога радка пад курсорам
+[Background]
+Фон
+[Selected background]
+Фон вылучэння
+[Show favorite contacts]
+Паказаць абраныя кантакты

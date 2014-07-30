@@ -1,0 +1,139 @@
+﻿#muuid {36753ae3-840b-4797-94a5-fd9f5852b942}
+;============================================================
+;  File: SpellChecker.dll
+;  Plugin: Spell checker
+;  Version: 0.2.6.1
+;  Authors: Ricardo Pescuma Domenecci, FREAK_THEMIGHTY
+;============================================================
+[Spell checker for the message windows. Uses Hunspell to do the checking.]
+Sprawdzanie pisowni w oknie rozmowy. Używa Hunspell'a do sprawdzania.
+;file \plugins\SpellChecker\res\resource.rc
+[Replacements]
+Korekta pisowni
+[Enable auto-replacements]
+Włącz automatyczną zamianę
+[Language:]
+Język:
+[Add...]
+Dodaj...
+[Edit...]
+Edytuj...
+[Remove]
+Usuń
+[Add auto-replace word]
+Dodaj wyraz autokorekty
+[Wrong word:]
+Złe słowo:
+[No separators and all lowercase chars]
+Bez separatorów i wszystkich małych znaków
+[Correction:]
+Korekta:
+[Use variables in correction]
+Użyj zmiennej w korekcie
+[Cancel]
+Anuluj
+[Spell Checker]
+Sprawdzanie pisowni
+[Default language:]
+Domyślny język:
+[Auto-replace words with dictionary suggestions]
+Automatycznie zastępuj sugestiami ze słownika
+[Ignore words with numbers]
+Ignoruj słowa z cyframi
+[Ignore words in UPPER CASE]
+Ignoruj słowa pisane WIELKIMI LITERAMI
+[Ask before sending a message with spelling errors]
+Pytaj przed wysłaniem wiadomości z błędami ortograficznymi
+[Download more dictionaries]
+Pobierz więcej słowników
+[Advanced]
+Zaawansowane
+[Underline type:]
+Styl podkreślenia:
+[Show corrections in submenu]
+Pokaż korekty w podmenu
+[Show all corrections in context menu (takes more time to show)]
+Pokaż wszystkie poprawki w menu kontekstowym (zabiera więcej czasu)
+[Show wrong word]
+Pokaż błędny wyraz
+[Use flags]
+Użyj flagi
+[Use input language to select dictionary]
+Wybierz język, aby wybrać słownik
+[Use dictionaries from other programs]
+Użyj słownika z innego programu
+[Avoid removing underscores (slows down checking of long texts)]
+Unikaj usuwania podkreślenia (spawalnia sprawdzanie długich tekstów)
+;file \plugins\SpellChecker\src\ardialog.cpp
+[The wrong word can't be empty!]
+Błędne słowo nie może być puste!
+[Wrong Correction]
+Zła korekta
+[The correction can't be empty!]
+Poprawka nie może być pusta!
+[The correction can't be equal to the wrong word!]
+Poprawka nie może być identyczna do słowa błędnego!
+;file \plugins\SpellChecker\src\dictionary.cpp
+[Tagalog (Philippines)]
+Tagalog (Filipiny)
+[German (Germany)]
+Niemcy
+;file \plugins\SpellChecker\src\options.cpp
+[Message Sessions]
+Okno rozmowy
+[Auto-replacements]
+Korekta pisowni
+[Line]
+Linia
+[Dotted]
+Kropkowany
+[Dash]
+Kreska
+[Dash dot]
+Kreska kropka
+[Dash dot dot]
+Kreska kropka kropka
+[Wave]
+Fala
+[Thick]
+Gruby
+[Wrong word]
+Błędny wyraz
+[Correction]
+Korekta
+;file \plugins\SpellChecker\src\spellchecker.cpp
+[Dictionaries]
+Słowniki
+[Custom Dictionaries]
+Niestandardowy słownik
+[Flags DLL]
+Flags.dll
+[Enable/disable spell checker]
+Włącz/Wyłącz sprawdzanie pisowni
+[Enabled]
+Włączony
+[Disabled]
+Wyłączone
+[Unknown]
+Nieznane
+;file \plugins\SpellChecker\src\utils.cpp
+[There are %d spelling errors. Are you sure you want to send this message?]
+Znaleziono %d błędów. Czy na pewno chcesz wysłać tę wiadomość?
+[Other...]
+Inne...
+[Always replace with]
+Zawsze zastępuj
+[Ignore all]
+Ignoruj wszystkie
+[Add to dictionary]
+Dodaj do słownika
+[Corrections]
+Korekty
+[Wrong word: %s]
+Błędny wyraz: %s
+[Language]
+Język
+[Enable spell checking]
+Włącz sprawdzanie pisowni
+[Wrong words]
+Błędne wyrazy

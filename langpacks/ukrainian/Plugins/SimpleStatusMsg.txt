@@ -1,0 +1,227 @@
+﻿#muuid {768ce156-34ac-45a3-b53b-0083c47615c4}
+;============================================================
+;  File: SimpleStatusMsg.dll
+;  Plugin: Simple status message
+;  Version: 1.9.0.4
+;  Authors: Bartosz 'Dezeath' Bialek, Harven
+;============================================================
+[Provides a simple way to set status and away messages.]
+Швидка зміна статусів і встановлених повідомлень статусу.
+[%s message for %s]
+%s (%s)
+[&Cancel]
+&Скасувати
+[Retrieving %s message...]
+Завантаження повідомлення "%s"...
+[Co&py to clipboard]
+&Копіювати до буфера
+[%s message (%s)]
+Повідомлення "%s" (%s)
+[Retrieving status message for %s...]
+Отримання повідомлення статусу для %s...
+[Behavior on status change]
+Поведінка при зміні статусу
+[Apply to all]
+Для всіх
+[Max length:]
+Макс. довжина:
+[Pop up dialog box]
+Показати діалогове вікно
+[Do not change status message]
+Не змінювати повідомлення статусу
+[Always set the same message]
+Завжди встановлювати це повідомлення
+[Do not set status message]
+Не встановлювати повідомлення статусу
+[Status messages]
+Повідомлення статусу
+[Pop up dialog asking for new message]
+Діалог для нових повідомлень
+[Set an empty message]
+Пусте повідомлення
+[Use default message]
+Стандартне повідомлення
+[Use last message]
+Останнє повідомлення
+[Use last message set for this status]
+Останнє повідомлення для цього статусу
+[Set the following message:]
+Наступне повідомлення:
+[Put default message in message list]
+Стандартне повідомлення у списку
+[Variables]
+Змінні
+[Update variables in status messages every]
+Оновлювати змінні кожні:
+[seconds]
+секунд
+[Do not update variables during idle]
+Не оновлювати змінні в режимі очікування
+[Do not update variables on ICQ status message requests]
+Не оновлювати змінні при зміні повідомлень статусу ICQ
+[Leave last played track's title after exiting the player]
+Залишати останній трек після вимкнення плеєра
+[Enable status messages parsing by Variables plugin]
+Дозволити обробку статусного повідомлення плагіном Variables
+[Exclude %date% token from parsing (restart required)]
+Виключити маркер %date% для обробки (потрібен перезапуск)
+[Layout]
+Розміщення
+[Show status list]
+Меню списку статусів
+[Show status profiles in status list]
+Показувати профілі у списку статусів
+[Show icons in status list]
+Значки списку статусів
+[Buttons:]
+Кнопки:
+[Show icons in message list]
+Значки списку повідомлень
+[Other]
+Інше
+[Store up to]
+Зберігати
+[recent messages (0 = disable)]
+останніх повідомлень (0=вимкнути)
+[Automatically close dialog window after]
+Автоматично закривати вікно після
+[Remember last dialog window position]
+Пам'ятати останню позицію вікна
+[Remove Carriage Return (CR = '\\r' = #0D) chars from status messages]
+Видаляти символи повернення каретки (CR = '\\r' = #0D) з повідомлень статусу
+[Show 'Status message...' item in status menu]
+Показувати "Повідомлення статусу" в контекстному меню
+[Clear History]
+Очистити
+[Clear Predefined]
+Очистити
+[* This feature is available only when using StartupStatus plugin.]
+* Ця можливість доступна тільки при використанні плагіна StartupStatus
+[Status on startup]
+Початковий статус
+[Set status after]
+Встановити через
+[milliseconds]
+мс
+[Protocol:]
+Протокол:
+[Status:]
+Статус:
+[Independent setting for each protocol]
+Незалежне налаштування для кожного протоколу
+[Pop up dialog asking for status message]
+Показувати діалог запиту зміни статусу
+[More variables...]
+Більше змінних...
+[Cut]
+Вирізати
+[Copy]
+Копіювати
+[Paste]
+Вставити
+[Delete]
+Видалити
+[Select all]
+Виділити всі
+[Failed to retrieve %s message.]
+Неможливо встановити повідомлення %s.
+[&Close]
+&Закрити
+[Re&ad %s message]
+&Прочитати повідомлення %s"
+[Copy %s message]
+Копіювати повідомлення %s
+[&Go to URL in %s message]
+&Відкрити посилання з %s
+[Re&ad Away message]
+Пр&очитити повідомлення "Відсутній"
+[Copy Away message]
+Копіювати повідомлення статусу
+[&Go to URL in Away message]
+&Відкрити посилання
+[Change status message]
+Змінити повідомлення статусу
+[Open status message dialog]
+Відкрити діалог повідомлення статусу
+[Status message]
+Статусне повідомлення
+[Status message...]
+Повідомлення статусу...
+[%s (locked)]
+%s (заблокований)
+[External Applications]
+Зовнішні програми
+[Miranda Related]
+Пов'язане з Miranda NG
+[<startup>]
+<стартовий>
+[<current>]
+<поточний>
+[Clear history]
+Очистити історію
+[Add to predefined]
+У передустановлені
+[Delete selected]
+Видалити вибране
+[global]
+Глобальні
+[Closing in %d]
+Закрити (%d)
+[Are you sure you want to clear status message history?]
+Ви впевнені, що хочете видалити історію повідомлень статусу?
+[Confirm clearing history]
+Підтвердження видалення історії
+[Global status change]
+Глобальний статус
+[Open string formatting help]
+Допомога по формату рядків
+[Hide]
+Сховати
+[Show next to cancel button]
+Показати за кнопкою "Скасувати"
+[Flat, next to cancel button]
+Гладко, за кнопкою "Скасувати"
+[Show in message list]
+Показати у списку повідомлень
+[Are you sure you want to clear predefined status messages?]
+Ви впевнені, що хочете видалити стандартні повідомлення статусу?
+[Confirm clearing predefined]
+Підтвердження видалення налаштованих повідомлень
+[<last status>]
+<останній>
+[Status]
+Статус
+[General]
+Загальне
+[Advanced]
+Додатково
+[Recent message]
+Останнє повідомлення
+[Predefined message]
+Передустановлене повідомлення
+[Go to URL in Away message]
+Перейти на посилання в повідомленні відсутності
+[Simple Status Message]
+Повідомлення статусу
+[I've been away since %time%.]
+Відійшов о %time%. Скоро повернуся.
+[Give it up, I'm not in!]
+Мене немає.
+[Not right now.]
+Не зараз.
+[Give a guy some peace, would ya?]
+Дайте спокій, я зайнятий.
+[I'm a chatbot!]
+Вільний.
+[Yep, I'm here.]
+Так, я тут.
+[Nope, not here.]
+Мене немає.
+[I'm hiding from the mafia.]
+Я переховуюсь від мафії.
+[That'll be the phone.]
+Та дайте ж людині поговорити по телефону...
+[Mmm... food.]
+Ммм... поїсти б...
+[idleeeeeeee]
+очікування...

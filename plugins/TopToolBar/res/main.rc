@@ -1,0 +1,147 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\src\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPT_BUTORDER DIALOGEX 0, 0, 300, 231
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Buttons order and visibility",IDC_STATIC,10,0,150,229
+    CONTROL         "Tree1",IDC_BUTTONORDERTREE,"SysTreeView32",TVS_NOTOOLTIPS | TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,18,25,134,197
+    LTEXT           "Button height",IDC_STATIC,169,134,100,8
+    EDITTEXT        IDC_BUTTHEIGHT,272,132,27,12,ES_NUMBER
+    CONTROL         "",IDC_SPIN_HEIGHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,289,132,8,12
+    LTEXT           "Button width",IDC_STATIC,169,150,100,8
+    EDITTEXT        IDC_BUTTWIDTH,272,148,27,12,ES_NUMBER
+    CONTROL         "",IDC_SPIN_WIDTH,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,289,148,8,12
+    LTEXT           "Interval between buttons",IDC_STATIC,169,166,100,8
+    EDITTEXT        IDC_BUTTGAP,272,164,27,12,ES_NUMBER
+    CONTROL         "",IDC_SPIN_GAP,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,289,164,8,12
+    CONTROL         "Use flat mode",IDC_USEFLAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,167,185,130,10
+    CONTROL         "Auto resize",IDC_AUTORESIZE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,167,197,130,10
+    CONTROL         "Single line",IDC_SINGLELINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,167,209,130,10
+    LTEXT           "Buttons order:",IDC_STATIC,18,15,132,8
+    PUSHBUTTON      "Add separator",IDC_ADDSEP,165,5,130,14
+    PUSHBUTTON      "Add launch",IDC_ADDLBUTTON,165,25,130,14
+    PUSHBUTTON      "Delete separator/launch button",IDC_REMOVEBUTTON,165,109,130,14
+    EDITTEXT        IDC_ENAME,200,45,95,14,ES_AUTOHSCROLL
+    LTEXT           "Name:",IDC_LBUTTONNAME,165,45,30,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EPATH,165,72,112,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,280,73,15,11
+    LTEXT           "Path:",IDC_LBUTTONPATH,165,62,30,8
+    PUSHBUTTON      "Set",IDC_LBUTTONSET,205,90,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPT_BUTORDER, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        VERTGUIDE, 140
+        VERTGUIDE, 158
+        VERTGUIDE, 290
+        VERTGUIDE, 297
+        BOTTOMMARGIN, 229
+        HORZGUIDE, 17
+        HORZGUIDE, 38
+        HORZGUIDE, 123
+        HORZGUIDE, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SEP                 BITMAP                  "sep.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "..\\src\\resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SHOWOFFLINE         ICON                    "Show only Online Users_UP.ico"
+IDI_RUN                 ICON                    "run.ico"
+IDI_HIDEOFFLINE         ICON                    "Show only Online Users_DN.ico"
+IDI_GROUPSOFF           ICON                    "Groups On_Off_UP.ico"
+IDI_GROUPSON            ICON                    "Groups On_Off_DN.ico"
+IDI_SOUNDSOFF           ICON                    "Sounds Enable_Disable_DN.ico"
+IDI_SOUNDSON            ICON                    "Sounds Enable_Disable_UP.ico"
+IDI_METAON              ICON                    "..\\..\\..\\src\\res\\meta_menu.ico"
+IDI_METAOFF             ICON                    "..\\..\\..\\src\\res\\meta_menuof.ico"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,79 @@
+﻿#muuid {243955e0-75d9-4cc3-9b28-6f9c5af4532d}
+;============================================================
+;  File: GmailNotifier.dll
+;  Plugin: Gmail Multiple Notifier
+;  Version: 0.3.1.0
+;  Authors: Mixwind
+;============================================================
+[Check your Gmail inboxes locally.]
+Перевірка вхідної пошти Gmail.
+[Gmail account]
+Обліковий запис Gmail
+[Name:]
+Ім'я:
+[Password:]
+Пароль:
+[Add]
+Додати
+[Save]
+Зберегти
+[Delete]
+Видалити
+[Configuration]
+Конфігурація
+[Check Gmail inbox every]
+Переверяти кожні
+[minutes]
+хвилин
+[Notify using:]
+Інформувати:
+[Duration:]
+Тривалість:
+[seconds]
+секунд
+[Text|Background:]
+Текст|Фон:
+[On double click:]
+Подв. клік:
+[System tray]
+Трей
+[Popup plugin]
+Спливаючі вікна
+[Login using default browser]
+Запустити браузер за замовчанням
+[Login using Internet Explorer]
+Запустити Internet Explorer
+[Run custom program]
+Запустити вказану програму
+[Use online contacts when no new mail]
+Показувати контакти, коли немає нової пошти
+[Enable icon selection and icon in status bar (restart)]
+Значки протоколу в панелі статусів (перезавантажити)
+[This is a shared computer so disable auto login]
+Вимкнути автоперевірку пошти
+[Log unread threads into database (enable history)]
+Записувати непрочитане в базу (вмикає збереження історії)
+[Checking...]
+Перевірка...
+[Can't open Internet!]
+Не можу ввійти в Інтернет!
+[Can't reach server!]
+Не можу зв'язатися з сервером!
+[Can't send account data!]
+Не можу відправити дані облікового запису!
+[Can't get RSS feed!]
+Не можу прочитати стрічку RSS!
+[Wrong name or password!]
+Неправильне ім'я користувача або пароль!
+[Other]
+Інше
+[Gmail: New thread(s)]
+Gmail: нова пошта
+[&Check all Gmail inboxes]
+Перевірити всі скриньки Gmail
+[&Check Gmail inbox]
+Перевірити скриньку Gmail
+[GmailNotifier]
+Сповіщення про пошту Gmail
+[Network]
+Мережа

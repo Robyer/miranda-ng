@@ -1,0 +1,139 @@
+﻿#muuid {36753ae3-840b-4797-94a5-fd9f5852b942}
+;============================================================
+;  File: SpellChecker.dll
+;  Plugin: Spell checker
+;  Version: 0.2.6.1
+;  Authors: Ricardo Pescuma Domenecci, FREAK_THEMIGHTY
+;============================================================
+[Spell checker for the message windows. Uses Hunspell to do the checking.]
+Kontrola pravopisu pro komunikační okna. Využívá Hunspell.
+;file \plugins\SpellChecker\res\resource.rc
+[Replacements]
+Nahrazení
+[Enable auto-replacements]
+Zapnout automatické nahrazení
+[Language:]
+Jazyk:
+[Add...]
+Přidat
+[Edit...]
+Upravit...
+[Remove]
+Odebrat
+[Add auto-replace word]
+Přidat slovo automatické náhrady
+[Wrong word:]
+Chybné slovo:
+[No separators and all lowercase chars]
+
+[Correction:]
+Oprava:
+[Use variables in correction]
+
+[Cancel]
+Zrušit
+[Spell Checker]
+Kontrola pravopisu
+[Default language:]
+Výchozí jazyk:
+[Auto-replace words with dictionary suggestions]
+Automaticky nahrazovat slova navrženými výskyty ze slovníku
+[Ignore words with numbers]
+
+[Ignore words in UPPER CASE]
+Ignorovat slova KAPITÁLKAMI
+[Ask before sending a message with spelling errors]
+
+[Download more dictionaries]
+Stáhnout další slovníky
+[Advanced]
+Extra
+[Underline type:]
+Styl podtržení:
+[Show corrections in submenu]
+Zobrazovat nabízená slova v podmenu
+[Show all corrections in context menu (takes more time to show)]
+Zobrazit všechny odhadnuté opravy v nabídce (zabere více času)
+[Show wrong word]
+Zobrazit nenalezené slovo
+[Use flags]
+Používat vlajky
+[Use input language to select dictionary]
+Určit jazyk slovníku dle zvolené klávesnice
+[Use dictionaries from other programs]
+Použít slovníky jiných programů
+[Avoid removing underscores (slows down checking of long texts)]
+
+;file \plugins\SpellChecker\src\ardialog.cpp
+[The wrong word can't be empty!]
+
+[Wrong Correction]
+Špatná oprava
+[The correction can't be empty!]
+
+[The correction can't be equal to the wrong word!]
+
+;file \plugins\SpellChecker\src\dictionary.cpp
+[Tagalog (Philippines)]
+Tagalog (Filipíny)
+[German (Germany)]
+Němčina (Německo)
+;file \plugins\SpellChecker\src\options.cpp
+[Message Sessions]
+Komunikace
+[Auto-replacements]
+Automatické nahrazení
+[Line]
+Řádek
+[Dotted]
+Tečkovaně
+[Dash]
+Čerchovaně
+[Dash dot]
+Čárka tečka
+[Dash dot dot]
+Čárka tečka tečka
+[Wave]
+Vlnka
+[Thick]
+Tučně
+[Wrong word]
+Chybné slovo
+[Correction]
+Oprava
+;file \plugins\SpellChecker\src\spellchecker.cpp
+[Dictionaries]
+Slovníky
+[Custom Dictionaries]
+Vlastní slovníky
+[Flags DLL]
+Knihovna vlajek
+[Enable/disable spell checker]
+Zapnout/vypnout kontrolu pravopisu
+[Enabled]
+Zapnuto
+[Disabled]
+Vypnuto
+[Unknown]
+Neznámý
+;file \plugins\SpellChecker\src\utils.cpp
+[There are %d spelling errors. Are you sure you want to send this message?]
+Je zde %d pravopisných chyb. Opravdu si přejete odeslat tuto zprávu?
+[Other...]
+Jiné...
+[Always replace with]
+Vždy nahrazovat slovem
+[Ignore all]
+Ignorovat vše
+[Add to dictionary]
+Přidat do slovníku
+[Corrections]
+Nabízená slova
+[Wrong word: %s]
+Nenalezené slovo: %s
+[Language]
+Jazyk
+[Enable spell checking]
+Povolit kontrolu pravopisu
+[Wrong words]
+Nesprávná slova

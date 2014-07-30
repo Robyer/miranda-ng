@@ -1,0 +1,239 @@
+﻿#muuid {9502e511-7e5d-49a1-8ba5-b1aee70fa5bf}
+;============================================================
+;  File: FTPFile.dll
+;  Plugin: FTP File YM
+;  Version: 0.5.0.0
+;  Authors: yaho
+;============================================================
+[FTP a file to a server and send the URL to your friend. Supported automatic zipping before upload and encryption via SFTP and FTPS.]
+Плагін дозволяє завантажити файл на FTP-сервер за допомогою Miranda NG і надіслати посилання своїм контактам.
+[FTP accounts]
+Облікові записи FTP
+[Host name]
+Ім'я хоста
+[User]
+Користувач
+[Password]
+Пароль
+[URL]
+Посилання
+[Directory on server]
+Папка на сервері
+[Port]
+Порт
+[Command after upload]
+Команда після завантаження
+[Use passive mode]
+Пасивний режим
+[Account name]
+Ім'я облікового запису
+[Protocol]
+Протокол
+[Default FTP server]
+Використовувати за замовчанням
+[File download link]
+Посилання на завантажений файл
+[Close dialog after upload is completed]
+Закрити діалог після успішного завантаження
+[Copy download link to message log]
+Копіювати посилання в лог повідомлень
+[Autosend download link to contact]
+Автоматично надсилати посилання
+[Menu items]
+Пункти у меню
+[Use submenu (restart required)]
+Використовувати підменю (потрібне перезавантаження)
+[Hide inactive accounts]
+Ховати неактивні облікові записи FTP
+[Other]
+Інше
+[Automatically delete file from FTP server after (experimental):]
+Автоматично видаляти файли з FTP-сервера після (експерим.):
+[ZIP support]
+Підтримка ZIP-архівації
+[Enter archive name manually]
+Введіть своє ім'я архіву
+[Compression level:]
+Рівень стиснення:
+[Upload File Manager]
+Менеджер завантажень
+[File:]
+Файл:
+[Completed:]
+Завершено:
+[Speed:]
+Швидкість:
+[Remaining:]
+Залишилося:
+[Summary]
+Резюме
+[To:]
+Для:
+[Nick]
+Нік
+[Close]
+Закрити
+[Clipboard]
+Буфер обміну
+[Options]
+Налаштування
+[Pause]
+Пауза
+[File Manager]
+Файловий менеджер
+[Server:]
+Сервер:
+[User info]
+Про користувача
+[UPLOADING...]
+Завантаження...
+[Open in Browser]
+Відкрити в браузері
+[FTP File Manager]
+Менеджер FTP File
+[Select All]
+Вибрати все
+[Deselect All]
+Зняти вибір
+[Delete from list]
+Видалити зі списку
+[Delete from FTP]
+Видалити з FTP
+[Enter file name]
+Введіть ім'я файлу
+[Cancel]
+Скасувати
+[File exists]
+Файл вже існує
+[Rename]
+Перейменувати
+[Overwrite]
+Замінити
+[File with the same name already exists on the server.]
+На севері вже є файл з таким ім'ям.
+[Copy URL]
+Копіювати посилання
+[Close dialog after upload finishes]
+Закрити вікно після закінчення завантаження
+[Automatically delete file after...]
+Автоматично видалити файл через...
+[Disabled]
+Вимкнено
+[Delete from List]
+Видалити зі списку
+[Copy Link]
+Копіювати посилання
+[User Info]
+Про користувача
+[Copy Link to Clipboard]
+Копіювати посилання в буфер обміну
+[%d minutes]
+%d хв.
+[%d hours]
+%d год.
+[%d days]
+%d днів
+[Do you really want to cancel all running jobs?]
+Скасувати всі запущені завдання?
+[FTP Server 1]
+FTP-сервер 1
+[FTP Server 2]
+FTP-сервер 2
+[FTP Server 3]
+FTP-сервер 3
+[FTP Server 4]
+FTP-сервер 4
+[FTP Server 5]
+FTP-сервер 5
+[Send file]
+Передати файл
+[Resume]
+Продовжити
+[FTP File]
+Файл на FTP
+[FTP Server %d]
+Сервер FTP %d
+[Upload file(s)]
+Відправити файл(и)
+[Zip and upload file(s)]
+Запакувати та відправити файл(и)
+[Zip and upload folder]
+Запакувати та відправити папку
+[FTP File manager]
+Менеджер FTP File
+[Show FTPFile manager]
+Показати менеджер FTP File
+[Upload file]
+Відправити файл
+[Zip and upload file]
+Запакувати та відправити файл
+[You have to fill FTP server setting before upload a file.]
+Для відправки файлу необхідно вказати FTP-сервер в налаштуваннях.
+[Error has occurred while trying to create a dialog!]
+Помилка при спробі створення діалогу!
+[File upload complete]
+Завантаження файлу завершено
+[Upload canceled]
+Завантаження скасовано
+[All Files (*.*)]
+Усі файли (*.*)
+[FTP File - Select files]
+Файл на FTP - Вибір файлу
+[FTP File - Select a folder]
+Файл на FTP - Вибір папки
+[Folder not found!]
+Папку не знайдено!
+[The selected folder does not contain any files.\nFTP File sends files only from the selected folder, not from subfolders.]
+Вказана папка не містить файлів.\nПлагін може відправляти файли тільки з вказаної папки, але не її підпапок.
+[CANCELED]
+Скасовано
+[COMPLETED]
+Завершено
+[CONNECTING...]
+Підключення...
+[CREATED]
+Створено
+[PACKING...]
+Архівація...
+[PAUSED]
+Пауза
+[WAITING...]
+Очікування...
+[UNKNOWN]
+Невідомо
+[Error occurred when zipping the file(s).]
+Помилка під час архівації файлів.
+[Do you really want to cancel this upload?]
+Ви дійсно хочете скасувати це завантаження?
+[Status: %s\r\nFile: %s\r\nServer: %s]
+Статус: %s\r\nФайл: %s\r\nСервер: %s
+[File exists - %s]
+Файл вже існує - %s
+[Error occurred when opening local file.\nAborting file upload...]
+Неможливо відкрити локальний файл.\nЗавантаження припиняється...
+[Error occurred when initializing libcurl.\nAborting file upload...]
+Помилка ініціалізації libcurl.\nЗавантаження припиняється...
+[FTP error occurred.\n%s]
+Помилка FTP.\n%s
+[Download link:]
+Посилання:
+[Do you really want to cancel running upload?]
+Ви дійсно хочете скасувати завантаження?
+[%s\r\nSpeed: %s\r\nCompleted: %s\r\nRemaining: %s]
+%s\r\nШвидкість: %s\r\nЗавершено: %s\r\nЗалишилося: %s
+[You have to fill and enable at least one FTP server in setting.]
+Необхідно додати хоча б один FTP-сервер в налаштуваннях.
+[Clear All]
+Очистити все
+[minutes]
+хвилин
+[hours]
+годин
+[days]
+днів
+[Services]
+Служби
+[Accounts]
+Облікові записи
+[Advanced]
+Додатково

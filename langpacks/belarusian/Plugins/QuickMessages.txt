@@ -1,0 +1,71 @@
+﻿#muuid {37ed754b-6cf9-40ed-9eb6-0fef8e822475}
+;============================================================
+;  File: QuickMessages.dll
+;  Plugin: Quick messages
+;  Version: 0.0.4.2
+;  Authors: MaD_CLuSTeR
+;============================================================
+[Plugin for quick insert pre-defined messages in message input area.]
+Дазваляе ўстаўляць загатаваныя фразы ў вакно паведамленняў
+;file \plugins\QuickMessages\res\quickmessages.rc
+[Button Right-Click value]
+Функцыя правай кнопкі мышы
+[Button Left-Click menu]
+Меню левай кнопкі мышы
+[Buttons]
+Кнопкі
+[Menu entry value:]
+Найменне меню:
+[Misc.]
+Рознае
+[Auto-send on Left-Click]
+Аўта адпраўка па левай клавішы
+[Auto-send on Right-Click]
+Аўта адпраўка па правай клавішы
+[Add to QuickMenu]
+Дадаць у кантэкстнае меню
+[Enable QuickMenu]
+Дазволіць кантэкстнае меню
+[Consider as ServiceName]
+Унутраная каманда
+[You have changed the plugin settings via database.\nThis requires restart!]
+Вы змянілі налады модуля праз базу дадзеных. Патрабуецца перазапуск Miranda!
+[Quick Messages Help]
+Дапамога па хуткіх паведамленнях
+[- Selected text]
+- Вылучаны тэкст
+[List of variables:]
+Спіс зменных:
+[- Text from Clipboard]
+- Тэкст з буфера абмену
+[- Contacts Protocol name (upper case)]
+- Імя кантакту (Загалоўныя літары)
+[- Contact display name]
+- Імя кантакту па змаўчанні
+[Tips:]
+Падказкі:
+[*Rename menu item into "---" to insert separator]
+Каб ўставіць падзельнік, пераназавіце пункт меню ў "---"
+[*Use drag'n'drop for arranging menu items]
+Перацягвайце мышкай пункты меню для сартавання
+[- Contact first name]
+- Імя кантакту
+[- Contact last name]
+- Прозвішча кантакту
+;file \plugins\QuickMessages\src\main.cpp
+[Quick Messages]
+Шпаркія паведамленні
+;file \plugins\QuickMessages\src\options.cpp
+[Enter Value]
+Увядзіце значэнне
+[You win!]
+Вы выйгралі!
+[New Button]
+Новая кнопка
+[New Menu Entry]
+Новы пункт меню
+[Message Sessions]
+Гутаркі
+;file \plugins\QuickMessages\src\Utils.cpp
+[Quick Messages Button %u]
+Кнопка хуткага паведамлення %u

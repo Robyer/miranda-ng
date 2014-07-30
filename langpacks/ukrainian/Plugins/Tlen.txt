@@ -1,0 +1,315 @@
+﻿#muuid {748f8934-781a-528d-5208-001265404ab3}
+;============================================================
+;  File: Tlen.dll
+;  Plugin: Tlen protocol
+;  Version: 2.1.0.0
+;  Authors: Santithorn Bunchua, Adam Strzelecki, Piotr Piastucki
+;============================================================
+[Tlen protocol support for Miranda NG.]
+Підтримка протоколу Tlen в Miranda NG.
+[Username:]
+Користувач:
+[Password:]
+Пароль:
+[Save password]
+Зберегти пароль
+[Create new account]
+Новий обліковий запис
+[Options]
+Налаштування
+[Automatically reconnect after unintentional disconnection]
+Перепідключитися після несподіваного розриву
+[Leave status message after disconnection]
+Залишити повідомлення статусу після відключення
+[Ignore advertisements]
+Ігнорувати рекламу
+[Automatically delete contacts not in my roster]
+Автоматично видаляти контакти поза списком
+[Show offline users with status messages as invisible in contact list]
+Показувати відключених користувачів з повідомленнями статусу як невидимих
+[Enable avatars]
+Ввімкнути аватари
+[Send and receive client version information]
+Відправляти і отримувати версії клієнтів
+[Alert policy]
+Політика сповіщення
+[Use Nudge plugin]
+Вик. тряску
+[Log alerts as messages]
+Збер. сповіщ. як повід.
+[Group chat policy]
+Політика чатів
+[Image transfer policy]
+Політика обміну зображеннями
+[Voice Chats]
+Голосові чати
+[Voice chat policy]
+Політика групових чатів
+[Recording device:]
+Пристрій запису:
+[Playback device:]
+Пристрій відтворення:
+[Expert Options]
+Налаштування експерта
+[Login server:]
+Сервер:
+[Connection Host:]
+Вузол підключення:
+[Port:]
+Порт:
+[Keep connection alive]
+Підтримувати з'єднання
+[Enable encryption]
+Ввімкнути шифрування
+[Enable Always Visible and Never Visible]
+Ввімк. Завжди видимий і Завжди невидимий
+[P2P Connections]
+З'єднання P2P
+[Use proxy for incoming connections]
+Вик. проксі для вхідних підключень
+[Proxy type:]
+Тип проксі:
+[Proxy server:]
+Проксі-сервер:
+[Proxy requires authorization]
+Проксі вимагає авторизації
+[Mail Notification]
+Сповіщення про пошту
+[Enable incoming mail notification]
+Ввімк. сповіщення про вхідну пошту
+[Colors]
+Кольори
+[Background]
+Фон
+[Text]
+Текст
+[Delay]
+Затримка
+[&From Popup plugin]
+&За замовчанням
+[&Custom]
+&Вказати
+[P&ermanent]
+Пос&тійно
+[Preview]
+Тест
+[Tlen Password]
+Пароль Tlen
+[Cancel]
+Скасувати
+[Nickname:]
+Псевдонім:
+[First name:]
+Ім'я:
+[Last name:]
+Прізвище:
+[E-mail:]
+Пошта:
+[Gender:]
+Стать:
+[Year of birth:]
+Рік народження:
+[City:]
+Місто:
+[School:]
+Школа:
+[Occupation:]
+Заняття:
+[Looking for:]
+Шукаю:
+[Voice chats]
+Голосові чати
+[Publicly visible status]
+Публічний статус
+[Save changes]
+Зберегти зміни
+[Avatar]
+Аватар
+[Avatar Options]
+Налаштування аватару
+[Public avatar]
+Публічний аватар
+[Tlen login:]
+Вхід Tlen:
+[Subscription:]
+Підписка:
+[Software:]
+Клієнт:
+[Version:]
+Версія:
+[System:]
+Система:
+[Personal Information]
+Персональні дані
+[Age:]
+Вік:
+[to]
+до
+[Extra Search Criteria]
+Дод. критерії пошуку
+[Status:]
+Статус:
+[Plan:]
+План:
+[Tlen Voice Chat]
+Голосовий чат Tlen
+[Quality]
+Якість
+[In]
+Вхідне
+[Out]
+Вихідне
+[Finish]
+Завершити
+[Tlen Voice Chat Invitation]
+Запрошення до голосового чату Tlen
+[&Accept]
+&Прийняти
+[From:]
+Від:
+[The following invitation to join a voice chat is received.]
+Отримано запрошення в голосовий чат.
+[Protocol icon]
+Значок протоколу
+[Tlen inbox]
+Вхідні Tlen
+[Group chats]
+Чати
+[Tlen chats]
+Чати Tlen
+[Voice chat]
+Голосовий чат
+[Microphone]
+Мікрофон
+[Speaker]
+Динамік
+[Send image]
+Надіслати зображення
+[Incoming mail]
+Вхідна пошта
+[Alert]
+Попередження
+[Multi-User Conference]
+Кімната чату
+[Tlen Mail]
+Пошта Tlen
+[Send picture]
+Надіслати зображення
+[Voice Chat]
+Голосовий чат
+[Request authorization]
+Запитати авторизацію
+[Grant authorization]
+Авторизувати
+[Cannot create avatars cache directory. ERROR: %d: %s\n%s]
+Не вдалося створити папку для кешу аватарів. Помилка: %d: %s\n%s
+[Cannot save new avatar file "%s" Error:\n\t%s (Error: %d)]
+Не вдалося зберегти файл аватару "%s". Помилка:\n\t%s (Помилка: %d)
+[Error while setting avatar on Tlen account (no response)]
+Помилка встановлення аватару Tlen (немає відповіді)
+[Error while setting avatar on Tlen account (invalid response)]
+Помилка встановлення аватару Tlen (неправильна відповідь)
+[Error while setting avatar on Tlen account]
+Помилка встановлення аватару Tlen
+[1 File]
+1 файл
+[%d Files]
+%d файлів
+[Authentication failed for %s@%s.]
+Аутентифікація не пройдена для %s@%s
+[Tlen Authentication]
+Аутентифікація Tlen
+[General]
+Загальне
+[Advanced]
+Додатково
+[Notifications]
+Сповіщення
+[Network]
+Мережа
+[These changes will take effect the next time you connect to the Tlen network.]
+Зміни вступлять в силу при наступному вході в мережу Tlen.
+[Tlen Protocol Option]
+Налаштування протоколу Tlen
+[Accept all alerts]
+Приймати всі сповіщення
+[Ignore alerts from unauthorized contacts]
+Ігнорувати сповіщення від неавторизованих контактів
+[Ignore all alerts]
+Ігнорувати всі сповіщення
+[Always ask me]
+Завжди питати
+[Accept invitations from authorized contacts]
+Приймати запрошення від авторизованих контактів
+[Accept all invitations]
+Приймати всі запрошення
+[Ignore invitations from unauthorized contacts]
+Ігнорувати запрошення від неавторизованих контактів
+[Ignore all invitation]
+Ігнорувати всі запрошення
+[Accept all images]
+Приймати всі зображення
+[Ignore images from unauthorized contacts]
+Ігнорувати зображення від неавторизованих контактів
+[Ignore all images]
+Ігнорувати всі зображення
+[<Last message>]
+(Останнє повідомлення)
+[Forwarding]
+Перенаправлення
+[%S mail]
+%S пошта
+[Image sent file://%s]
+Зображення надіслано file://%s
+[Image received file://%s]
+Отримано зображення file://%s
+[Tlen login]
+Вхід Tlen
+[You need to be connected to Tlen account to set avatar.]
+Ви повинні бути в мережі, щоб встановити аватар.
+[Enter password for %s]
+Введіть пароль для %s
+[Tlen Connection Error]
+Помилка підключення Tlen
+[%s Web Messages]
+%s Web-повідомлень
+[Web message]
+Web-повідомлення
+[From]
+Від
+[E-mail]
+Пошта
+[An alert has been received.]
+Сповіщення прийнято.
+[Private conference]
+Особиста конференція
+[%s mail]
+%s пошта
+[Subject]
+Тема
+[Account]
+Обліковий запис
+[both]
+обидві
+[from]
+від
+[none]
+немає
+[not on roster]
+не в ростері
+[...Connecting...]
+...Підключення...
+[...Waiting for connection...]
+...Очікування з'єднання...
+[...Finished...]
+...Завершено...
+[...Error...]
+...Помилка...
+[...Denied...]
+...Заборонено...
+[Default]
+За замовчанням
+[%s connection]
+%s з'єднання
+[%s SOCKS connection]
+%s SOCKS з'єднання

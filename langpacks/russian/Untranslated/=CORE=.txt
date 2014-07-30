@@ -1,0 +1,7 @@
+﻿[AaBbYyZz]
+[&E-mail]
+[ID]
+[Ctrl + ]
+[Alt + ]
+[Shift + ]
+[Win + ]

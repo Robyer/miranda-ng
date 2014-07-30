@@ -1,0 +1,67 @@
+﻿#muuid {01202e6a-c1b3-42e5-838a-3e497b31f38e}
+;============================================================
+;  File: YARelay.dll
+;  Plugin: YARelay
+;  Version: 0.1.0.1
+;  Authors: Anar Ibragimoff
+;============================================================
+[Forwards messages to some contact when you are not available.]
+
+;file \plugins\YARelay\res\yaRelay.rc
+[Forward messages from...]
+Envoyer le message à...
+[Everyone]
+Tous le monde
+[Contact]
+Contact
+[Forward when your status is...]
+Envoyer si vous êtes...
+[Offline]
+Hors ligne
+[Online]
+En ligne
+[Away]
+Absent
+[NA]
+Indisponible
+[Occupied]
+Occupé
+[DND]
+Ne pas déranger
+[Free for chat]
+OK pour un chat
+[Invisible]
+Invisible
+[Forward messages to...]
+Transférer les messages à...
+[Template]
+
+[%u - user nick;   %i - uin;    %t - time;   \r%d - date;   %m - message]
+%u - pseudo du contact;   %i - UIN;    %t - heure;   \r%d - date;   %m - message
+[Forwarding options]
+Options d'envoi
+[Split message (%m)]
+Coupe le message (%m)
+[Send only first]
+Envoyer les 1ier
+[Max size of split part (chars)]
+Taille maximale en caractères
+[Mark received messages as 'read']
+Marquer les messages reçus comme "lus"
+[Save sent messages in recipient's history]
+Sauver les messages envoyés dans l'historique
+[split parts (0 = all)]
+morceaux (0 = tous)
+[Note: Max size - it's a size of %m parameter]
+NOTE : Taille maxi - c'est la taille du\n              paramètre %m
+[Note: messages from this contact will not be forwarded]
+NOTE : Les messages de ce contact ne pourront être envoyés
+;file \plugins\YARelay\src\options.cpp
+[!EVERYONE!]
+UN SEUL CONTACT
+[!DON'T FORWARD!]
+NE PAS EXPEDIER Á
+[Message Sessions]
+Sessions de message
+[Messages forwarding]
+

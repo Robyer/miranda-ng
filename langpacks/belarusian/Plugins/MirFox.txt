@@ -1,0 +1,82 @@
+﻿#muuid {e99a09b2-e05b-4633-aa3a-5c83ef1cbab6}
+;============================================================
+;  File: MirFox.dll
+;  Plugin: MirFox
+;  Version: 0.5.0.0
+;  Authors: Szymon Tokarz
+;============================================================
+[MirFox (Miranda NG) - part of Miranda-Firefox integration - http://wsx22.3.xpdev-hosted.com]
+MirFox (Міранда NG) - частка Міранда-Firefox інтэграцыі - http://wsx22.3.xpdev-hosted.com
+;file \plugins\MirFox\res\resource.rc
+[Send to contact action]
+Для таго каб адправіць
+[on left mouse button click]
+пры націску левай кнопкі мышы
+[on right mouse button click]
+пры націску правай кнопкі мышы
+[on middle mouse button click\n(note: use middle mouse button to send multiple messages from Firefox)]
+пры націску сярэдняй кнопкі мышы\n(нататка: выкарыстоўвайце, каб адправіць некалькі паведамленняў з Firefox)
+[Firefox profiles]
+Конт Firefox
+[Show Miranda menu only in these Firefox profiles (comma delimited)]
+Паказаць Міранда меню толькі для гэтых профіляў (падзельнік коска)
+[Show these contacts in 'Send ... to' option in Firefox]
+Паказаць гэтыя кантакты ў меню Firefox "Адправіць ... "
+[Show these accounts in 'Set status message' option in Firefox]
+Паказаць конт у опцыі Firefox 'Статус паведамленне'
+;file \plugins\MirFox\src\MirandaInterface.cpp
+[MirFox/Notification]
+MirFox/Notification
+[MirFox/Error]
+MirFox/Error
+;file \plugins\MirFox\src\MirandaOptions.cpp
+[just send message]
+проста адправіць паведамленне
+[send message and open message window]
+адправіць і адчыніць вакно гутаркі
+[show message window with pasted message]
+паказаць вакно гутаркі з устаўленым паведамленнем
+[** All contacts **]
+** Усе кантакты **
+[Protocol]
+Пратакол
+[Services]
+Сэрвісы
+[Options]
+Опцыі
+[Contacts]
+Кантакты
+[Accounts]
+Конты
+;file \plugins\MirFox\src\MirandaUtils.cpp
+[MirFox log]
+MirFox log
+[Message sent to %s (%s)]
+паведамленне адпраўлена для %s (%s)
+[Message sent]
+паведамленне адпраўлена
+[Cannot send message to %s (%s) - %S]
+не магу адправіць паведамленне для %s (%s) - %S
+[Cannot send message - %S]
+не магу адправіць паведамленне - %S
+[Cannot send message to %s (%s)]
+не магу адправіць паведамленне для %s (%s)
+[Cannot send message]
+не магу адправіць паведамленне
+[MirFox error]
+MirFox Памылка
+[Status message set on %s]
+Устаноўка статусу на %s
+[Status message set]
+Усталёўка статусу
+[Cannot set status message on %s]
+не магу ўсталяваць статус на %s
+[Cannot set status message]
+не магу ўсталяваць статус
+;file \plugins\MirFox\src\MirfoxMiranda.cpp
+[This MirFox (Miranda) plugin is too old. Please update it.]
+Гэта старая версія MirFox. Калі ласка, абнавіце яго.
+[MirFox (Miranda) - Error]
+MirFox (Міранда) - Памылка
+[This MirFox (Miranda) plugin cannot start because some other MirFox component is too old. Please, check and update your MirFox components.]
+Гэты MirFox (Міранда) плагін не можа працаваць - іншыя кампаненты MirFox  састарэлі. Калі ласка, праверце і абнавіце ваша MirFox дапаўненне.

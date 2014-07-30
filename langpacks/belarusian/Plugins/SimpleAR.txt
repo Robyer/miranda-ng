@@ -1,0 +1,50 @@
+﻿#muuid {46bf191f-8dfb-4656-88b2-4c20be4cfa44}
+;============================================================
+;  File: SimpleAR.dll
+;  Plugin: Simple auto replier
+;  Version: 2.0.2.6
+;  Authors: Stark Wong, Mataes, Mikel-Ard-Ri
+;============================================================
+[Simple Auto Replier.]
+Просты аўтаадказнік.
+;file \plugins\SimpleAR\res\Resource.rc
+[Enable Auto Replier]
+Аўтаадказ уключаны
+[Reply Message Heading:]
+Загаловак аўтаадказу:
+[Reply Message when]
+Аўтаадказ калі
+[No-repeat Interval:]
+Не паўтараць:
+[mins]
+хв.
+[&Default]
+Па змаўчанні
+;file \plugins\SimpleAR\src\Main.cpp
+[I am currently away. I will reply to you when I am back.]
+Зараз мяне няма на месцы, адкажу як толькі вярнуся.
+[I am currently very busy and can't spare any time to talk with you. Sorry...]
+Прашу не турбаваць.
+[I am not available right now.]
+Мяне няма.
+[I am now doing something, I will talk to you later.]
+Зараз я чымсьці заняты, пагаворым пазней.
+[I am on the phone right now. I will get back to you very soon.]
+Выбачыце, зараз я кажу па тэлефоне.
+[I am having meal right now. I will get back to you very soon.]
+Я абедаю, пагаворым пазней.
+[Disable Auto&reply]
+Адключыць аўтаадказ
+[Enable Auto&reply]
+Уключыць аўтаадказ
+[Turn off Autoanswer]
+Адключыць аўтаадказ
+[Turn on Autoanswer]
+Уключыць аўтаадказ
+[Dear %user%, the owner left the following message:]
+Вітаю %user%, %username% пакінуў Вам паведамленне:
+;file \plugins\SimpleAR\src\Options.cpp
+[Simple Auto Replier]
+Аўтаадказнік
+[Message Sessions]
+Гутаркі

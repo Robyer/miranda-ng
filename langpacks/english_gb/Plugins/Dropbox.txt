@@ -1,0 +1,23 @@
+﻿#muuid {b908773a-86f7-4a91-8674-6a20ba0e67d1}
+;============================================================
+;  File: Dropbox.dll
+;  Plugin: Dropbox
+;  Version: 0.11.0.3
+;  Authors: unsane
+;============================================================
+[Authorization]
+Authorisation
+[Enter authorization code]
+Enter authorisation code
+[Initiate authorization]
+Initiate authorisation
+[Authorize]
+Authorise
+[Check status of authorization]
+Check status of authorisation
+[you have been authorized]
+you have been authorised
+[you are already authorized]
+you are already authorised
+[you are not authorized yet]
+you are not authorised yet

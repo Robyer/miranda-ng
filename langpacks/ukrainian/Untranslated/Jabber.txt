@@ -1,0 +1,8 @@
+﻿[X400]
+[BBS]
+[ISDN]
+[PCS]
+[JID:]
+[Bytestream Proxy not available]
+[JID]
+[Jabber vCard]

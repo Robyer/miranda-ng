@@ -1,0 +1,78 @@
+﻿#muuid {4fac353d-0a36-44a4-9064-6759c53ae782}
+;============================================================
+;  File: BossKey.dll
+;  Plugin: BossKey+
+;  Version: 0.5.0.3
+;  Authors: Goblineye Entertainment, Billy_Bons
+;============================================================
+[Anti-Boss plugin. Makes your Miranda NG hidden or password-protected.]
+Дазваляе па націску "гарачай клавішы" хаваць Міранду ад старонніх вачэй.
+;file \plugins\BossKeyPlus\res\BossKey.rc
+[BossKey]
+АнтыБос
+[Go to Customize -> Hotkeys to change the hotkey]
+Налада ў Тонкая налада -> Гарачыя клавішы
+[When I press the hotkey:]
+Калі я націсну гарачую кнопку...
+[Change status to]
+Змяніць статус на
+[Change only if current status is Online]
+Змяняць толькі пры статусе 'Далучаны'
+[Use default status message]
+Статуснае паведамленне па змаўчанні
+[Disable Sounds]
+Адключыць гукі
+[Show the Tray Icon]
+Паказваць абразок у трэі
+[When I return:]
+Пры вяртанні...
+[Request password:]
+Спытаць пароль:
+[Change status back]
+Вярнуць папярэдні статус
+[Hotkey]
+Гарачая клавіша
+[Password:]
+Пароль:
+[Cancel]
+Скасаваць
+[Workstation is locked]
+Кампутар заблакаваны
+[Screen Saver is running]
+Запушчана застаўка
+[Windows is inactive]
+Windows не актыўны
+[Hide Miranda when:]
+Схаваць праграму калі:
+[Miranda is inactive]
+Праграма неактыўная
+[min]
+хв.
+[Miranda is started]
+Праграма запускаецца
+[Others]
+Іншае
+[Create a main menu item]
+Пункт у галоўным меню
+[Restore hiding on startup after failure]
+Аднаўляць утойванне пры запуску пасля "падзення"
+;file \plugins\BossKeyPlus\src\BossKey.cpp
+[Miranda NG is locked.\nEnter password to unlock it.]
+Miranda заблакавана.\n Увядзіце ваш пароль для разблакоўкі.
+[Password is not correct!\nPlease, enter correct password.]
+Няслушны пароль!\n Увядзіце правільны пароль.
+[Hide Miranda NG]
+Схаваць Miranda NG
+[Hide]
+Схаваць
+[Hide/Show Miranda]
+Схаваць/Паказаць Miranda
+[get the BossKey name]
+атрымаць імя BossKey
+;file \plugins\BossKeyPlus\src\Options.cpp
+[Events]
+Падзеі
+[Main]
+Галоўны
+[Advanced]
+Дадаткова

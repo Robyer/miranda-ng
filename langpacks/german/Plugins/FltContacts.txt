@@ -1,0 +1,106 @@
+﻿#muuid {53c715a8-eb01-4136-a73c-441868610074}
+;============================================================
+;  File: FltContacts.dll
+;  Plugin: Floating contacts
+;  Version: 0.7.0.1
+;  Authors: Iavor Vajarov, Kosh&chka, Victor Pavlychko
+;============================================================
+[Floating Contacts plugin for Miranda.]
+Schwebende-Kontakte-Plugin für Miranda.
+;file \plugins\FloatingContacts\res\fltcnt.rc
+[Hiding contacts]
+Kontakte ausblenden
+[Hide offline contacts]
+Offlinekontakte ausblenden
+[Stick together]
+Zusammenheften
+[Use fixed width]
+Feste Breite
+[pixels]
+Pixel
+[Hide all contacts]
+Alle Kontakte ausblenden
+[Hide when a fullscreen app is active]
+Bei Vollbild-Anwendung ausblenden
+[Show tooltips*]
+Tooltips zeigen*
+[ms]
+ms
+[Tooltips]
+Tooltips
+[Miscellaneous]
+Verschiedenes
+[0 = Default]
+0 = Standard
+[*requires Tipper plugin]
+*benötigt Tipper-Plugin
+[Bring to front]
+In den Vordergrund
+[Bring to front every]
+In den Vordergrund alle
+[seconds]
+Sekunden
+[Hide when contact list is shown]
+Ausblenden, wenn Kontaktliste gezeigt wird
+[Single click interface]
+Kontaktliste mit Einfachklick öffnen
+[Dim idle contacts]
+Untätige Kontakte abblenden
+[Idle contacts]
+Untätige Kontakte
+[Border]
+Rand
+[Draw border]
+Umrandung
+[Left-top edge's color:]
+Farbe der Ecke links oben:
+[Right-bottom edge's color:]
+Farbe der Ecke rechts unten:
+[Background]
+Hintergrund
+[Background color:]
+Hintergrundfarbe:
+[Use background bitmap]
+Hintergrundbild verwenden
+[Stretch to width]
+In Breite strecken
+[Stretch to height]
+In Höhe strecken
+[Tile horizontally]
+Horizontal kacheln
+[Tile vertically]
+Vertikal kacheln
+[Stretch proportionally]
+Proportional strecken
+[Opacity:]
+Deckkraft:
+;file \plugins\FloatingContacts\src\main.cpp
+[Standard contacts]
+Standardkontakte
+[Online contacts to whom you have a different visibility]
+Online-Kontakte mit anderer Sichtbarkeit
+[Offline contacts]
+Offline-Kontakte
+[Offline contacts to whom you have a different visibility]
+Offline-Kontakte mit anderer Sichtbarkeit
+[Contacts which are 'not on list']
+Temporäre Kontakte
+[Floating contacts]
+'Schwebende' Kontakte
+[Show all thumbs]
+Zeige alle Floater
+[Hide all thumbs]
+Verstecke alle Floater
+[Remove thumb]
+Entferne Floater
+[Show/Hide all thumbs]
+Zeige/Verstecke alle Floater
+;file \plugins\FloatingContacts\src\options.cpp
+[Floating Contacts]
+Schwebende Kontakte
+[Contact list]
+Kontaktliste
+[Main Features]
+Funktionen
+[Appearance]
+Erscheinungsbild

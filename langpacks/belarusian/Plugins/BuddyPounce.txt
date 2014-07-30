@@ -1,0 +1,142 @@
+﻿#muuid {a9e9c114-84b9-434b-a3d5-89921d39ddff}
+;============================================================
+;  File: BuddyPounce.dll
+;  Plugin: Buddy pounce
+;  Version: 0.3.2.1
+;  Authors: Jonathan Gordon
+;============================================================
+[Allows you to send a message to contacts if they change status.]
+Дазваляе адпраўляць паведамленне, калі кантакт змяняе статус.
+;file \plugins\BuddyPounce\res\resource.rc
+[Confirm Pounce send]
+Падтвердзіце адпраўленне
+[Send]
+Адправіць
+[Cancel]
+Скасаваць
+[Pounce being sent to]
+Адпраўленне адбудзецца
+[Buddy Pounce]
+Адправіць потым
+[The Message:]
+Паведамленне:
+[Delete Pounce]
+Выдаліць адпраўку
+[Load default Settings]
+Загрузіць змаўчанні
+[Setting Value]
+Значэнне
+[Setting text...........]
+Налады тэксту.....
+[Settings]
+Налады
+[Contact To Send Pounce To]
+Кантакт для адпраўкі з затрымкай
+[<< Simple]
+<< Менш
+[Advanced >>]
+Дадаткова >
+[The Message]
+Паведамленне
+[Dialog]
+Гутарка
+[Status]
+Статус
+[Use Advanced Dialog]
+Пашыраны дыялог
+[The Message (characters: )]
+Паведамленне (сімв.):
+[Default Settings]
+Змаўчанні
+[Show Delivery Messages]
+Паказаць адпраўл. паведамленні
+[These settings are also used when sending a "Simple" pounce]
+Гэтыя налады таксама вык. для "простых" пведамленняў з затрымкай
+;file \plugins\BuddyPounce\src\dialog.cpp
+[Send If My Status Is...]
+Адсылаць, калі мой статус...
+[Send If They Change Status to...]
+Адсылаць, калі яны змяняюць статус на...
+[Reuse Pounce]
+Ужыць затрыманае
+[Give Up delay]
+Затрымка скасавання
+[Confirmation Window]
+Вакно пацверджання
+[Send If My Status Is]
+Адправіць, калі мой статус
+[Any]
+Заўсёды
+[Online]
+Далучаны
+[Away]
+Адсутнічаю
+[NA]
+Недасяжны
+[Occupied]
+Заняты
+[DND]
+Не турбаваць
+[Free For Chat]
+Вольны
+[Invisible]
+Нябачны
+[On The Phone]
+На тэлефоне
+[Out To Lunch]
+За абедам
+[Send If Their Status changes]
+Адправіць калі яны змяняюць статус
+[From Offline]
+Пры далучэнні
+[To Online]
+На "Далучаны"
+[To Away]
+На Адсутнічаю
+[To NA]
+На Недасяжны
+[To Occupied]
+На Заняты
+[To DND]
+На Не турбаваць
+[To Free For Chat]
+На Вольны
+[To Invisible]
+На Нябачны
+[To On The Phone]
+На Тэлефон
+[To Out To Lunch]
+На За ежай
+[The Message    (%d Characters)]
+Паведамленне (%d сімвалаў)
+[Couldn't allocate enough memory]
+Не атрымалася вылучыць дастаткова памяці
+[error......]
+памылка...
+[The Message    (0 Characters)]
+Паведамленне (0 сімвалаў)
+[Reuse this message? (0 to use it once)]
+Паўтарыць паведамленне? (0, каб выкарыстоўваць адзін раз)
+[Times]
+Час
+[Give up after... (0 to not give up)]
+Здавацца пасля... (пры 0 не здавацца)
+[Days]
+Дзён
+[Show confirmation window? (0 to not Show)]
+Паказаць вакно пацверджання? (0, каб не паказваць)
+[Seconds to wait before sending]
+Чаканне ў секундах перад адпраўкай
+[Pounce being sent to %s in %d seconds]
+Pounce адпраўлены %s за %d секунд
+[Retry]
+Яшчэ раз
+[Message successfully sent to %s]
+Паведамленне %s паспяхова адпраўлена
+[Message failed to send to %s]
+Памылка адпраўкі паведамлення %s
+;file \plugins\BuddyPounce\src\main.cpp
+[&Buddy Pounce]
+Адправіць потым
+[Message Sessions]
+Гутаркі

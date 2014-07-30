@@ -1,0 +1,138 @@
+﻿#muuid {ddf8aec9-7d37-49af-9d22-bbbc920e6f05}
+;============================================================
+;  File: BuddyExpectator.dll
+;  Plugin: Buddy expectator
+;  Version: 0.1.2.3
+;  Authors: Anar Ibragimoff, sje, Thief
+;============================================================
+[Reacts to the return of contacts, or to the extended absence of contacts, with notifications and other actions.]
+Плагiн абвяшчае пра вяртанне кантакту ці яго працяглай адсутнасці.
+;file \plugins\BuddyExpectator\res\BuddyExpectator.rc
+[When a contact returns after]
+Пры з'яўленні кантакту пасля
+[or comes online for the first time]
+ці выходзіць у сетку ў першы раз
+[Show a popup]
+Паказваць усплывальнае вакно
+[Add an event (flashing icon) to the contact]
+Дадаць падзею (мігаючы абразок) да кантакту
+[On event action (double click) or popup click:]
+На дзеянні падзеі (дв. клік) ці клік па ўсп. вакну
+[Open User Details]
+Дэталі кантакта
+[Open message window]
+Адкрыць вакно гутаркі
+[Return notification]
+Абвестка пра вяртанне
+[Long time no see]
+Даўно не бачыў
+[When a contact is absent for]
+Калі кантакт адсутнічае
+[Hide when no messages for]
+Схаваць, калі няма паведамленняў
+[Enable "Miss you" feature]
+Уключыць функцыю "Чакаю цябе"
+[Colors]
+Колеры
+[Background]
+Фон
+[Text]
+Тэкст
+[Use Popups colors]
+Колеры Popup
+[Use Windows colors]
+Колеры Windows
+[Delay]
+Затрымка
+[Default]
+Змаўчанні
+[Custom]
+Наладзіць
+[Permanent]
+Пастаянна
+[sec]
+сек
+[Preview]
+Прагляд
+[Last seen online:]
+Апошняе з'яўленне:
+[Last input message:]
+Апошняе паведамленне:
+[Custom absence period:]
+Перыяд адсутнасці:
+[days]
+дзён
+[Never hide this contact]
+Ніколі не хаваць гэты кантакт
+[Enable Miss You]
+Уключыць "Чакаю цябе"
+[Notify always]
+Паведамляць заўсёды
+;file \plugins\BuddyExpectator\src\BuddyExpectator.cpp
+[Tray/popup icon]
+Абразок у трэі/успл. вакне
+[Enabled]
+Уключаны
+[Disabled]
+Выключаны
+[Hide]
+Схаваць
+[Never hide]
+Ніколі не хаваць
+[Hiding %s (%S)]
+Утойванне %s (%S)
+[%d days since last message]
+апошняе паведамленне %d
+[Disable Miss You]
+Выключыць "Чакаю цябе"
+[You awaited this contact!]
+Вы чакалі гэты кантакт!
+[has gone online for the first time.]
+выйшаў у сетку ў першы раз.
+[has returned after a long absence.]
+вярнуўся пасля доўгай адсутнасці.
+[has returned after being absent since %#x]
+вярнуўся пасля адсутнасці з %#x
+[has not returned after a long absence.]
+не вярнуўся пасля доўгай адсутнасці.
+[has not returned after being absent since %#x]
+не вярнуўся пасля адсутнасці з %#x
+[BuddyExpectator]
+Чаканне кантактаў
+[Contact returned]
+Кантакт вярнуўся
+[Contact still absent]
+Кантакт усё яшчэ адсутнічае
+[Miss you event]
+Падзея "Чакаю цябе"
+[Hide contact event]
+Схаваць падзею кантакту
+[Buddy Expectator]
+Чакаю цябе
+[Hide contact]
+Схаваць кантакт
+;file \plugins\BuddyExpectator\src\options.cpp
+[weeks]
+тыдняў
+[months]
+месяцаў
+[years]
+гадоў
+[Do nothing]
+Нічога не рабіць
+[Delete the contact]
+Выдаліць кантакт
+[Contact name]
+Імя кантакту
+[has returned after being absent since %d days]
+вярнуўся пасля адсутнасці %d дзён
+[Contacts]
+Кантакты
+[Popups]
+Усплывальныя вокны
+[not detected]
+не вызначаны
+[not found]
+не знойдзена
+[This contact has been absent for an extended period of time.]
+Кантакт адсутнічаў доўгі прамежак часу.

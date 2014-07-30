@@ -1,0 +1,103 @@
+﻿#muuid {e47cc215-0d28-462d-a0f6-3ae4443d2926}
+;============================================================
+;  File: Nudge.dll
+;  Plugin: Nudge
+;  Version: 0.1.0.1
+;  Authors: Tweety/GouZ, FREAK_THEMIGHTY
+;============================================================
+[Plugin to shake the contact list and chat window.]
+Плагін трясіння списку контактів і вікна повідомлень.
+[Protocol options]
+Налаштування протоколу
+[Specify options for each protocol]
+Індивідуальні налаштування протоколів
+[Open contact list]
+Відкрити список контактів
+[Enable contact list shaking]
+Трясти список контактів
+[Open message window]
+Відкрити вікно бесіди
+[Enable message window shaking]
+Трясти вікно повідомлень
+[Show as status change]
+Показувати як зміну статусу
+[Auto resend nudge after]
+Повторювати тряску кожні
+[s]
+с
+[Enable popup notification]
+Ввімкнути спливаючі вікна
+[Respect ignore settings (status changes)]
+Врахувати налаштування ігнору (зміни статусів)
+[Sending text]
+Текст відправлення
+[Receiving text]
+Текст прийому
+[Privacy]
+Приватність
+[Allow sending* one nudge to the same contact every:]
+Трясти один і той же контакт кожні:
+[Allow receiving one nudge from the same contact every:]
+Прийом трясіння від одного контакту кожні:
+[* Nudge sending delay is hardcoded and cannot be changed.]
+* Це число не можна змінювати, воно забито в коді плагіна.
+[Preview]
+Тест
+[Text]
+Текст
+[Allow nudges when you're:]
+Дозволяти тряску коли ви:
+[Offline]
+Не в мережі
+[Online]
+В мережі
+[Away]
+Відсутній
+[NA]
+Недоступний
+[Occupied]
+Зайнятий
+[DND]
+Не турбувати
+[Free for chat]
+Готовий до чату
+[Invisible]
+Невидимий
+[On the phone]
+Телефоную
+[Out to lunch]
+Обідаю
+[Shaking contact list options]
+Тряска списку контактів
+[Number of moves]
+Кількість рухів
+[Width of move]
+Ширина рухів
+[Static]
+Статичний
+[Shaking Message Window Options]
+Тряска вікна повідомлень
+[You are not allowed to send too much nudge (only 1 each %d sec, %d sec left)]
+Не можна надсилати багато струсів (тільки 1 кожні %d с, %d с залишилося)
+[Nudge]
+Тряска
+[Default Nudge]
+Струс за замовчанням
+[Nudge as Default]
+Струсити (за замовчанням)
+[Send Nudge]
+Струсити
+[Show Nudge]
+Тряска
+[Nudge for %s]
+Струс для %s
+[Send &Nudge]
+Струсити
+[You received a nudge]
+Вас струснули
+[You sent a nudge]
+Ви струснули
+[Events]
+Події
+[Window Shaking]
+Тряска вікна

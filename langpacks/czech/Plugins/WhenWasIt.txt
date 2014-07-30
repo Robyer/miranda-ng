@@ -1,0 +1,246 @@
+﻿#muuid {2ff96c84-b0b5-470e-bbf9-907b9f3f5d2f}
+;============================================================
+;  File: WhenWasIt.dll
+;  Plugin: Birthday reminder
+;  Version: 0.3.3.5
+;  Authors: Cristian Libotean
+;============================================================
+[Notifies you of upcoming birthdays.]
+Přidává možnost upozornění na narozeniny.
+;file \plugins\WhenWasIt\res\WhenWasIt.rc
+[Notify of birthdays:]
+Oznamovat narozeniny:
+[Popups]
+Oznámení
+[Popup timeout:]
+Doba zobrazení:
+[Preview]
+Náhled
+[Don't show popups for subcontacts]
+Nezobrazovat oznámení pro podkontakty
+[Show popup when no birthdays are near]
+Zobrazit oznámení i tehdy, nejsou-li v dohledu narozeniny
+[Popup mouse click]
+Po kliknutí myší
+[Left]
+Vlevo
+[Right]
+Vpravo
+[Sounds]
+Zvuky
+[Play sounds when there are]
+Přehrát zvuk, když zbývá
+[days or less to birthday.]
+dnů do oslavy narozenin
+[Start notifying]
+Poprvé upozornit
+[days in advance and]
+
+[Check every]
+Projít každých
+[hours]
+hod
+[Only notify once per day.]
+Upozornit jen jednou za den
+[By default use]
+Použít modul
+[to save birthday data.]
+k uložení data narození
+[Show]
+Zobrazit
+[in birthday list window]
+v okně se seznamem narozenin
+[Dialog]
+Dialog
+[Timeout:]
+Prodleva:
+[seconds]
+sek.
+[Notify for]
+
+[afterwards]
+
+[In background]
+Na pozadí
+[Birthday list]
+Seznam narozenin
+[Close]
+Zavřít
+[Show all contacts]
+Zobrazit všechny kontakty
+[Set birthday:]
+Nastavit narozeniny:
+[Manage anniversaries]
+Spravovat výročí
+[Title:]
+Název:
+[Description:]
+Popis:
+[Date:]
+Datum:
+[Save]
+Uložit
+[Delete]
+Smazat
+[Upcoming birthdays]
+
+;file \plugins\WhenWasIt\src\dlg_handlers.cpp
+[Upcoming age]
+budoucí věk
+[Current age]
+současný věk
+[UserInfo module]
+UserInfo
+[Protocol module]
+protokolu
+[mBirthday module]
+mBirthday
+[Nothing]
+Nic
+[Dismiss]
+Vyřízeno
+[Message window]
+Komunikační okno
+[All contacts]
+Všechny kontakty
+[All contacts except hidden ones]
+Všechny kontakty krom skrytých
+[All contacts except ignored ones]
+Všechny kontakty krom ignorovaných
+[All contacts except hidden and ignored ones]
+Všechny kontakty krom skrytých a ignorovaných
+[Set popup delay when notifying of upcoming birthdays.\nFormat: default delay [ | delay for birthdays occurring today]]
+Nastavit prodlevu oznámení při oznamování nadcházejících narozenin.\nFormát: výchozí prodleva [ | prodleva pro dnešní narozeniny]
+[Please select the module where you want the date of birth to be saved.\r\n"UserInfo" is the default location.\r\nUse "Protocol module" to make the data visible in User Details.\n"mBirthday module" uses the same module as mBirthday plugin.]
+
+[Set birthday for %s:]
+Narozeniny: %s
+[%S protocol]
+%S protokol
+[N/A]
+<neuvedeno>
+[Unknown]
+neznámý
+[Birthday list (%d)]
+Seznam narozenin (%d)
+[Protocol]
+Protokol
+[Contact]
+Kontakt
+[DTB]
+DDN
+[Birthday]
+Narozeniny
+[Age]
+Věk
+[Module]
+Modul
+[Closing in %d seconds]
+
+[Closing in %d second]
+
+;file \plugins\WhenWasIt\src\hooked_events.cpp
+[Check for birthdays]
+Zjistit narozeniny
+[Birthdays]
+Narozeniny
+[Contacts]
+Kontakty
+[WhenWasIt]
+
+[Birthday near]
+Narozeniny (brzy)
+[Birthday today]
+Narozeniny (dnes)
+[Birthdays (When Was It)]
+Narozeniny (Kdy to bylo?)
+[Refresh user details]
+Aktualizovat informace o kontaktu
+[Import birthdays]
+Importovat narozeniny...
+[Export birthdays]
+Exportovat narozeniny...
+[Add/change user &birthday]
+Změnit narozenin&y...
+;file \plugins\WhenWasIt\src\icons.cpp
+[Check birthdays menu item]
+
+[List birthdays menu item]
+
+[Add/change birthday]
+
+[1 day to birthday]
+
+[%d days to birthday]
+
+[More than %d days to birthday]
+
+[WhenWasIt birthday reminder]
+
+;file \plugins\WhenWasIt\src\notifiers.cpp
+[No upcoming birthdays.]
+V dohledné době nemá narozeniny žádný známý.
+[%s has birthday in %d days.]
+Přezdívka: %s, zbývá dnů: %d
+[%s has birthday tomorrow.]
+%s bude mít zítra narozeniny.
+[%s has birthday today.]
+%s má dnes narozeniny!
+[%s had birthday %d days ago.]
+
+[%s had birthday yesterday.]
+
+[%s has birthday today (Should not happen, please report).]
+
+[Birthday - %s]
+Narozeniny: %s
+[He]
+On
+[She]
+Ona
+[He/She]
+On/ona
+[%s\n%s will be %d years old.]
+%s\nVěk (%s): %d let
+[%s\n%s just turned %d.]
+%s\nVěk (%s): %d let
+;file \plugins\WhenWasIt\src\services.cpp
+[Starting to refresh user details]
+Probíhá aktualizace informací o kontaktech
+[Done refreshing user details]
+Konec aktualizace informací o kontaktech
+[Could not create worker thread. Error#%d - threadID %d]
+
+[Error]
+Chyba
+[Birthdays files]
+
+[Please select a file to import birthdays from...]
+Vyberte prosím soubor obsahující seznam narozenin
+[Importing birthdays from file: %s]
+Import seznamu narozenin ze souboru %s.
+[Done importing birthdays]
+Import seznamu narozenin úspěšně dokončen.
+[All Files]
+Všechny soubory
+[Please select a file to export birthdays to...]
+Vyberte prosím soubor k uložení seznamu narozenin
+[Exporting birthdays to file: %s]
+Export seznamu narozenin do souboru %s.
+[Done exporting birthdays]
+Export seznamu narozenin úspěšně dokončen.
+[Could not open file to import birthdays]
+
+[Warning]
+Upozornění
+[Could not open file to export birthdays]
+
+[Please do not edit this file by hand. Use the export function of WhenWasIt plugin.\n]
+
+[Warning! Please do not mix Unicode and Ansi exported birthday files. You should use the same version (Ansi/Unicode) of WhenWasIt that was used to export the info.\n]
+
+[This file was exported with a Unicode version of WhenWasIt. Please only use a Unicode version of the plugin to import the birthdays.\n]
+
+;file \plugins\WhenWasIt\src\services.h
+[Could not find UID '%s [%S]' in current database, skipping]
+

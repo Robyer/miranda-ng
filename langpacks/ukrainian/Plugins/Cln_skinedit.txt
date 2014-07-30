@@ -1,0 +1,71 @@
+﻿#muuid {21948c89-b549-4c9d-8b4f-3f3726ec6b4b}
+;============================================================
+;  File: Cln_skinedit.dll
+;  Plugin: Skin editor for clist nicer
+;  Version: 0.0.0.4
+;  Authors: Nightwish, Pixel
+;============================================================
+[Allows inline skin item editing for clist nicer.]
+Дозволяє inline-редагування скінів для Clist nicer.
+[Skin items]
+Елементи скіна
+[General]
+Загальне
+[Gradient]
+Градієнт
+[Left to right]
+Зліва направо
+[Right to left]
+Справа наліво
+[Top to bottom]
+Зверху вниз
+[Bottom to top]
+Знизу вгору
+[Round corners]
+Заокруглені кути
+[Top-Left]
+Вгорі ліворуч
+[Top-Right]
+Вгорі праворуч
+[Bottom-Right]
+Внизу праворуч
+[Bottom-Left]
+Внизу ліворуч
+[Item colors]
+Кольори
+[First color]
+Перший колір
+[Text color]
+Колір тексту
+[Second color]
+Другий колір
+[Transparent]
+Прозорий
+[Alpha (percent)]
+Альфа (%)
+[Item margins]
+Поля елементу
+[Item borders]
+Межі елементу
+[Border style]
+Стиль елементу
+[3D border (bright / dark)]
+3D-стиль (світлий/темний)
+[Item ignored]
+Елемент ігнорується
+[Dialog]
+Діалог
+[Not yet supported]
+Не підтримується
+[Copy from]
+Копіювати з
+[<None>]
+<немає>
+[Raised]
+Підведений
+[Sunken]
+Втоплений
+[Bumped]
+Опуклий
+[Etched]
+Гравірований

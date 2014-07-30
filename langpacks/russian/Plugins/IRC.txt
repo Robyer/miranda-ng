@@ -1,0 +1,765 @@
+﻿#muuid {92382b4d-5572-48a0-b0b9-1336a601d689}
+;============================================================
+;  File: IRC.dll
+;  Plugin: IRC protocol
+;  Version: 0.11.0.2
+;  Authors: Miranda team
+;============================================================
+[Internet Relay Chat (IRC) protocol support for Miranda NG.]
+Поддержка протокола Internet Relay Chat (IRC) в Miranda NG.
+[Default network]
+Сеть по умолчанию
+[Enable]
+Включено
+[Server name]
+Имя сервера
+[Internet address]
+Сетевой адрес
+[Port range]
+Диапазон портов
+[Password]
+Пароль
+[&Add]
+&Добавить
+[&Edit]
+&Править
+[&Del]
+&Удалить
+[User info - Required]
+Инфо пользователя - Необходимо
+[Nick]
+Ник
+[Alternative nick]
+Запасной ник
+[Full name (e-mail)]
+Полное имя
+[User ID (Ident)]
+ID пользователя
+[Ident]
+Идентификация
+[System]
+Система
+[Port]
+Порт
+[only while connecting]
+Только на время соединения
+[Other]
+Другое
+[Force visible (-i)]
+Включить видимость (-i)
+[Rejoin channel if kicked]
+Перезайти на канал после кика
+[Rejoin channels on reconnect]
+Перезайти при переподключении
+[Disable tray balloon on error]
+Отключить сообщения в трее
+[Show addresses]
+Показывать адреса
+[Use server window]
+Использовать окно сервера
+[Show server window on startup]
+Окно сервера при запуске
+[Keep connection alive]
+Поддерживать соединение
+[Automatically join on invite]
+Заходить по приглашению
+['Old style' mode changes]
+"Старый" стиль режимов
+[Update online statuses for users]
+Обновлять статусы для пользователей
+[Check every (s):]
+Проверять каждые (с):
+[Update statuses in channel nick list]
+Обнов. статусы в списке комнаты чата
+[Don't check if more than (users):]
+Не проверять, если польз. более:
+[User information]
+Информация
+[Ping]
+Пинг
+[Version]
+Версия
+[Time]
+Время
+[Userinfo]
+Инфо
+[&Refresh]
+&Обновить
+[&Query]
+&Запрос
+[&Close]
+&Закрыть
+[Name]
+Имя
+[Address]
+Адрес
+[Channels]
+Комнаты чата
+[Auth]
+Авторизация
+[Server]
+Сервер
+[User]
+Пользователь
+[Away Info]
+Информация об отсутствии
+[The server returned the following information. Please note that this information might be misleading and/or falsified]
+Сервер возвратил следующую информацию. Внимание, информация может быть неточной!
+[CTCP information]
+Информация СТСР
+[Question]
+Вопрос
+[&Cancel]
+О&тмена
+[Perform]
+Выполнить
+[&Set]
+&Установить
+[Alias]
+Алиас
+[Perform on event:]
+Выполнить при событии:
+[Scripting support]
+Поддержка скриптов
+[Quit message:]
+Сообщение выхода:
+[Server code page:]
+Кодовая страница сервера:
+[Enable UTF8 autodetection]
+Включить автоопределение UTF8
+[Add server]
+Добавить сервер
+[On]
+Вкл.
+[Auto]
+Авто
+[Off]
+Откл.
+[Host address]
+Адрес сервера
+[Server description]
+Описание
+[Network]
+Сеть
+[Channels on server]
+Комнаты чата сервера
+[&Join]
+&Зайти
+[Filter by]
+Фильтр по
+[C&onnect]
+Со&единение
+[&Save]
+&Сохранить
+[Hostmask]
+Маска
+[&Clear all]
+&Очистить все
+[Online detection mode]
+Режим определения в сети
+[Basic]
+Основные
+[Wildcard enabled network search]
+Wildcard поиск по сети
+[Channel manager]
+Управление каналом
+[Bans]
+Баны
+[Invites]
+Приглашения
+[Excepts]
+Исключения
+[Only Ops set topic]
+Смена темы только ОПами
+[No external messages]
+Сообщения извне выключены
+[Invite only]
+По приглашениям
+[Moderated]
+Модерируемый
+[Key:]
+Ключ:
+[User limit:]
+Лимит:
+[Private]
+Конфиденциальный
+[Secret]
+Секретный
+[Topic]
+Тема
+[User modes]
+Режимы пользователя
+[Channel modes]
+Режимы комнаты чата
+[Hidden]
+Скрытый
+[Use the options to set modes for this channel. You are usually required to be op. or higher to modify.]
+Опции настройки комнаты чата. Для настройки комнаты чата нужны права администратора.
+[Strip colors]
+Цвета полос
+[Normal]
+Нормальный
+[Send-ahead]
+Упреждающий
+[Attempt reverse DCC (good if firewalled)]
+Реверсный DCC (для брандмауэров)
+[none]
+нет
+[everyone on the contact list]
+всех в списке
+[everyone]
+всех
+[Disconnect DCC chats when disconnecting from server]
+Отключать DCC-чаты при выходе с сервера
+[Manually set external IP:]
+Ручная настройка внешнего IP:
+[Client-to-Client File Transfers]
+Передача файлов по СТСР
+[Client-to-Client Protocol]
+Протокол СТСР
+[Client-to-Client Chats]
+Чаты СТСР
+[Send mode:]
+Режим отправки:
+[Packet size (bytes):]
+Размер пакета (байт):
+[Get IP address from server]
+Получить IP у сервера
+[Auto-accept from:]
+Автоприем от:
+[Send notice]
+Отправить уведомление
+[CTCP Chat Request]
+Запрос на СТСР-чат
+[&Accept]
+&Принять
+[&Deny]
+&Запретить
+[Enable (*)]
+Включено (*)
+[Ignore channel messages by default]
+Игнорировать сообщения комнаты чата по умолч.
+[Ignore file transfer requests]
+Игнорировать передачи файлов
+[Ignore DCC Chat requests]
+Игнорировать запросы DCC чатов
+[Ignore DCC Chat requests from unknown contacts]
+Игнорировать запросы DCC чатов от неизвестных контактов
+[Ignore users]
+Игнорировать пользователей
+[(*) Queries from users on your contact list are never ignored]
+(*) Запросы от пользователей из списка контактов не игнорируются
+[Queries]
+Запросы
+[Messages]
+Сообщения
+[Notices]
+Уведомления
+[Ignore mask (nick!user@host)]
+Маска игнорирования (nick!user@host)
+[Network (*)]
+Сеть (*)
+[Ignore events]
+События
+[(*) blank to set this mask for all networks]
+(*) Оставьте пустым чтобы применить маску для всех сетей
+[Server:]
+Сервер:
+[Password:]
+Пароль:
+[CTCP chat request from %s]
+Запрос СТСР-чата от %s
+[%s sets mode %s]
+%s ставит режим %s
+[%s sets mode %s%s]
+%s установил режим %s%s
+[CTCP ERROR: Malformed CTCP command received from %s!%s@%s. Possible attempt to take control of your IRC client registered]
+ОШИБКА CTCP: Получена недопустимая команда CTCP от %s!%s@%s. Возможная попытка получения контроля над вашим клиентом IRC.
+[CTCP FINGER requested by %s]
+Запрос CTCP FINGER от %s
+[CTCP VERSION requested by %s]
+Запрос CTCP VERSION от %s
+[CTCP SOURCE requested by %s]
+Запрос CTCP SOURCE от %s
+[CTCP USERINFO requested by %s]
+Запрос CTCP USERINFO от %s
+[CTCP PING requested by %s]
+Запрос CTCP PING от %s
+[CTCP TIME requested by %s]
+Запрос CTCP TIME от %s
+[DCC: Chat request from %s denied]
+DCC: Запрос чата от %s отклонен
+[DCC: File transfer request from %s denied]
+DCC: Запрос передачи файла от %s отклонен
+[DCC: Reverse file transfer request from %s denied [No local IP]]
+DCC: Запрос на реверсную передачу файла от %s отклонен. (Не найден локальный IP)
+[DCC ERROR: Malformed CTCP request from %s [%s]]
+Ошибка DCC: Неверный СТСР-запрос от %s [%s]
+[DCC: File transfer resume request from %s denied]
+DCC: Запрос на продолжение закачки файла от %s отклонен
+[CTCP %s requested by %s]
+СТСР %s запрос от %s
+[CTCP PING reply from %s: %u sec(s)]
+СТСP PING ответ от %s: %u сек (с)
+[CTCP %s reply from %s: %s]
+СТСР %s ответ от %s: %s
+[Downloading list (%u%%) - %u channels]
+Загружается список (%u%%) - %u% комнат чата
+[Downloading list - %u channels]
+Загружается список - %u комнат чата
+[Done: %u channels]
+Готово: %u комнат чата
+[(probably truncated by server)]
+(возможно, ограничено сервером)
+[Change nickname]
+Сменить ник
+[IRC error]
+Ошибка IRC
+[Unknown]
+Неизвестно
+[Please enter the hostmask (nick!user@host)\nNOTE! Contacts on your contact list are never ignored]
+Введите маску узла (псевдоним!пользователь@узел)\nВНИМАНИЕ! Контакты в вашем списке никогда не игнорируются
+[Ignore]
+Игнорировать
+[Please enter the reason]
+Укажите причину
+[Ban'n Kick]
+Выгнать и забанить
+[*Disconnected*]
+*Отключён*
+[The usage of /AWAY in your perform buffer is restricted\n as IRC sends this command automatically.]
+Использование /AWAY в буфере выполнения ограничено\n так как IRC автоматически посылает эту команду.
+[IRC Error]
+Ошибка IRC
+[The buddy check function is enabled]
+Функция проверки приятелей включена
+[The buddy check function is disabled]
+Функция проверки приятелей выключена
+[Incorrect parameters. Usage: /sleep [ms], ms should be greater than 0 and less than 4000.]
+Неверные параметры. Использование: /sleep [мс], количество миллисекунд должно быть числом между 0 и 4000
+[Ignore system is enabled]
+Система игнорирования вкл.
+[Ignore system is disabled]
+Система игнорирования выкл.
+[%s on %s is now ignored (+%s)]
+%s на %s игнорируется (+%s)
+[%s is not ignored now]
+%s больше не игнорируется
+[%s was not ignored]
+%s не игнорируется
+[Outgoing commands are shown]
+Исходящие команды показаны
+[Outgoing commands are not shown]
+Исходящие команды не показаны
+[The time interval for the buddy check function is now at default setting]
+Интервал проверки приятелей установлен по умолчанию
+[The time interval for the buddy check function is now %u seconds]
+Интервал проверки приятелей равен %u секунд(ам)
+[This command is not recommended on a network of this size!\r\nIt will probably cause high CPU usage and/or high bandwidth\r\nusage for around %u to %u minute(s).\r\n\r\nDo you want to continue?]
+Эта команда не рекомендована для сети такого размера!\r\nЭто может занять ресурсы системы примерно от %u до %u минут.\r\nХотите продолжить?
+[IRC warning]
+Предупреждение IRC
+[Aborted]
+Отменено
+[CTCP %s request sent to %s]
+СТСР %s запрос послан для %s
+[DCC ERROR: Unable to automatically resolve external IP]
+Ошибка DCC: Невозможно автоматически определить внешний IP
+[DCC CHAT request sent to %s]
+Запрос на DCC-чат отправлен для %s
+[DCC ERROR: Unable to bind port]
+Ошибка DCC: Невозможно определить порт
+[Input command]
+Ввод команды
+[Please enter the reply]
+Введите ответ
+[Failed to connect to]
+Не удалось подключиться к
+[DCC ERROR: Unable to bind local port for passive file transfer]
+Ошибка DCC: Невозможно открыть локальный порт для пассивной передачи файлов
+[%s server connection]
+%s подключение к серверу
+[%s client-to-client connections]
+%s подключения между клиентами
+[Nickname]
+Ник
+[DCC ERROR: No valid files specified]
+Ошибка DCC: Нет доступных файлов
+[DCC reversed file transfer request sent to %s [%s]]
+DCC-запрос на реверсную передачу послан %s [%s]
+[DCC file transfer request sent to %s [%s]]
+DCC-запрос на передачу файла послан %s [%s]
+[DCC ERROR: Unable to bind local port]
+Ошибка DCC: Невозможно получить порт
+[The protocol is not online]
+Протокол не в сети
+[The dcc chat connection is not active]
+Соединение DCC-чата неактивно
+[Please choose an IRC-network to go online. This network will be the default.]
+Выберите IRC сеть. Эта сеть будет выбрана по умолчанию.
+[Connection cannot be established! You have not completed all necessary fields (Nickname, User ID and m_name).]
+Невозможно установить подключение. Вы не ввели все необходимые данные (ник, User ID и имя).
+[Main]
+Главный
+[Add]
+Добавить
+[Apply]
+Применить
+[Rename]
+Переименовать
+[Edit]
+Изменить
+[Cancel]
+Отмена
+[Channel list]
+Список каналов
+[Quick connect]
+Быстрое соединение
+[Server window]
+Окно сервера
+[Show channel]
+Показать комнату чата
+[WhoIs]
+Информация
+[Incoming DCC Chat]
+Входящий DCC-чат
+[Logo (48x48)]
+Лого (48x48)
+[Thai]
+Тайский
+[Japanese]
+Японский
+[Simplified Chinese]
+Китайский (упрощённый)
+[Korean]
+Корейский
+[Traditional Chinese]
+Китайский (традиционный)
+[Central European]
+Центральноевропейский
+[Cyrillic (Windows)]
+Кириллица Windows
+[Cyrillic (KOI8R)]
+Кириллица KOI8-R
+[Latin I]
+Западноевропейский
+[Greek]
+Греческий
+[Turkish]
+Турецкий
+[Hebrew]
+Иврит
+[Arabic]
+Арабский
+[Baltic]
+Балтийский
+[Vietnamese]
+Вьетнамский
+[Korean (Johab)]
+Корейский (Johab)
+[Please complete all fields]
+Заполните все поля
+[Add a new network]
+Добавить сеть
+[Edit this network]
+Изменить настройки сети
+[Delete this network]
+Удалить эту сеть
+[Do you want to delete\r\n%s]
+Удалить?\r\n%s
+[Delete server]
+Удалить сервер
+[Edit server]
+Изменить настройки
+[<Resolved IP: ]
+<Определённые IP:\s
+[<Automatic>]
+<Автоматически>
+[<Local IP: ]
+<Локальный IP:\s
+[Event: Available]
+Событие: Доступен
+[Event: Away]
+Событие: Отсутствую
+[Event: N/A]
+Событие: Недоступен
+[Event: Occupied]
+Событие: Занят
+[Event: DND]
+Событие: Не беспокоить
+[Event: Free for chat]
+Событие: Готов болтать
+[Event: On the phone]
+Событие: На телефоне
+[Event: Out for lunch]
+Событие: Обедаю
+[Event: Disconnect]
+Событие: Отключён
+[ALL NETWORKS]
+Все сети
+[Click to set commands that will be performed for this event]
+Кликните для установки команд обработки этого события
+[Click to delete the commands for this event]
+Кликните для удаления команд этого события
+[Default ANSI codepage]
+Страница ANSI по умолчанию
+[Add new ignore]
+Добавить новое правило
+[Edit this ignore]
+Изменить правило
+[Delete this ignore]
+Удалить правило
+[Ignore mask]
+Маска
+[Flags]
+Флаги
+[Add ignore]
+Добавление правила
+[Edit ignore]
+Изменить игнор
+[Account]
+Учётная запись
+[DCC and CTCP]
+DCC и CTCP
+[Advanced]
+Дополнительно
+[WallOps from %s: ]
+WallOps от %s:\s
+[%s invites you to %s]
+%s приглашает вас на %s
+[%s is away]
+%s отсутствует
+[These are online: ]
+В сети:\s
+[CTCP %s reply sent to %s]
+СТСР %s ответ послан для %s
+[CTCP %s reply sent to %s: %s]
+СТСР %s ответ послан для %s: %s
+[Notice to %s: ]
+Уведомление для %s:\s
+[&Quick connect]
+&Быстрое соединение
+[&Join channel]
+&Войти в комнату чата
+[&Change your nickname]
+&Сменить ник
+[Show the &list of available channels]
+&Список комнат чата
+[&Show the server window]
+&Окно сервера
+[Channel &settings]
+&Настройки комнаты чата
+[&WhoIs info]
+&Информация whois
+[Di&sconnect]
+Отк&лючиться
+[&Add to ignore list]
+&Добавить в черный список
+[%s (%s) is requesting a client-to-client chat connection.]
+%s [%s] запрашивает соединение на СТСР-чат
+[Please enter the hostmask (nick!user@host) \nNOTE! Contacts on your contact list are never ignored]
+Введите маску (nick!user@host) \nВнимание! Пользователи из списка контакта не будут игнорироваться!
+[Join channel]
+Зайти в комнату чата
+[Please enter a channel to join]
+Введите название комнаты чата
+[Please select IRC network and enter the password if needed]
+Выберите IRC сеть и введите пароль, если необходимо
+[Please enter a unique nickname]
+Введите уникальный ник
+[Please enter your authentication code]
+Введите код аутентификации
+[Authenticate nick]
+Аутентифицировать
+[Are you sure you want to unregister your current nick?]
+Вы уверены, что хотите удалить ваш ник?
+[Delete nick]
+Удалить ник
+[Identify nick]
+Идентифицировать
+[Please enter your password]
+Введите пароль
+[Please enter your new password]
+Пожалуйста, введите новый пароль
+[Set new password]
+Установить новый пароль
+[Please enter desired language ID (numeric value, depends on server)]
+Введите выбранный language ID (цифровое значение, зависит от сервера)
+[Change language of NickServ messages]
+Сменить язык сообщений Nickserv
+[Please enter URL that will be linked to your nick]
+Введите ссылку на ваш ник
+[Set URL, linked to nick]
+Ссылка на ник
+[Please enter your e-mail, that will be linked to your nick]
+Введите e-mail вашего ника
+[Set e-mail, linked to nick]
+Установить e-mail, ссылающийся на ник
+[Please enter some information about your nick]
+Введите информацию о вашем нике
+[Set information for nick]
+Установить инфо о нике
+[Please enter nick you want to link to your current nick]
+Введите ник, который нужно закрепить за текущим ником
+[Link another nick to current nick]
+Закрепить другой ник к этому нику
+[Please enter nick you want to unlink from your current nick]
+Введите ник, который нужно отцепить от текущего
+[Unlink another nick from current nick]
+Отцепить другой ник от текущего
+[Please enter nick you want to set as your main nick]
+Введите ник, который будет основным ником
+[Set main nick]
+Установить главный ник
+[Kick]
+Выкинуть
+[Please enter the notice text]
+Пожалуйста, введите текст уведомления
+[Please enter the channel name to invite to]
+Введите имя комнаты чата для приглашения
+[Invite to channel]
+Пригласить в комнату чата
+[Register nick]
+Зарегистрировать ник
+[Auth nick]
+Авторизовать
+[Remind password]
+Напомнить пароль
+[Set language]
+Установить язык
+[Set homepage]
+Установить ссылку
+[Set e-mail]
+Установить e-mail
+[Set info]
+Установить инфо
+[Hide e-mail from info]
+Скрыть e-mail из информации
+[Show e-mail in info]
+Показать e-mail
+[Set security for nick]
+Установить защиту на ник
+[Remove security for nick]
+Удалить защиту ника
+[Link nick to current]
+Закрепить ник к текущему
+[Unlink nick from current]
+Отцепить ник от текущего
+[List all your nicks]
+Список ваших ников
+[List your channels]
+Список ваших комнат чата
+[Kill unauthorized: off]
+Убить запрещённых: выкл.
+[Kill unauthorized: on]
+Убить запрещённых: вкл.
+[Kill unauthorized: quick]
+Убить запрещённых: быстро
+[Hide nick from list]
+Скрыть ник в списке
+[Show nick to list]
+Показать в списке
+[Show the server &window]
+Показать &окно сервера
+[&Leave the channel]
+&Покинуть комнату чата
+[&Invite to channel]
+&Пригласить
+[Send &notice]
+Отправить &уведомление
+[&Slap]
+&Шлепок
+[Nickserv info]
+Nickserv инфо
+[Nickserv kill ghost]
+Nickserv убить фантома
+[&Control]
+&Управление ->
+[Give Owner]
+Режим +q
+[Take Owner]
+Режим -q
+[Give Admin]
+Режим +a
+[Take Admin]
+Режим -a
+[Give &Op]
+&Режим +o
+[Take O&p]
+Р&ежим -o
+[Give &Halfop]
+Реж&им +h
+[Take H&alfop]
+Режи&м -h
+[Give &Voice]
+Режим& +v
+[Take V&oice]
+Режим -&v
+[&Kick]
+&Выкинуть
+[Ki&ck (reason)]
+Вы&гнать (с причиной)
+[&Ban]
+&Бан
+[Ban'&n kick]
+Выгна&ть и забанить
+[Ban'n kick (&reason)]
+Выгнать и забанить (с &причиной)
+[&Direct Connection]
+&Прямое соединение ->
+[Request &Chat]
+Запрос &чата
+[Send &File]
+Передача &файла
+[Add to &ignore list]
+Добавить в &игнор
+[&Add User]
+&Добавить в контакты
+[Connecting to]
+Соединение с
+[Offline]
+Не в сети
+[Settings could not be saved!\n\nThe "Nick" field must contain at least four characters including wildcards,\n and it must also match the default nickname for this contact.]
+Настройки не сохранены.\n\nПоле "Псевдоним" должно содержать как минимум четыре знака (включая маски), и совпадать с псевдонимом по умолчанию для этого контакта.
+[Please wait...]
+Подождите, пожалуйста...
+[Channel]
+Комната чата
+[Mode]
+Режим
+[---- Not listed server ----]
+----Сервер вне списка---
+[Type new server address here]
+Новый адрес сервера
+[Add ban/invite/exception]
+Добавить бан/приглашение/исключение
+[Edit selected ban/invite/exception]
+Править выбранный бан/приглашение/исключение
+[Delete selected ban/invite/exception]
+Удалить выбранный бан/приглашение/исключение
+[Set these modes for the channel]
+Установить режимы для комнаты чата
+[Set this topic for the channel]
+Установить тему для комнаты чата
+[You have not applied all changes!\n\nApply before exiting?]
+Вы не применили изменения!\n\nПрименить перед выходом?
+[Add ban]
+Добавить бан
+[Add invite]
+Добавить приглашение
+[Add exception]
+Добавить исключение
+[Please enter the hostmask (nick!user@host)]
+Введите маску (nick!user@host)
+[Edit ban]
+Править бан?
+[Edit invite?]
+Править приглашение?
+[Edit exception?]
+Править исключение?
+[Remove ban?]
+Снять бан?
+[Remove invite?]
+Снять приглашение?
+[Remove exception?]
+Снять исключение?

@@ -1,0 +1,195 @@
+﻿#muuid {ed39af7c-becd-404e-9499-4d04f711b9cb}
+;============================================================
+;  File: SendSS.dll
+;  Plugin: Send ScreenShot+
+;  Version: 0.8.7.0
+;  Authors: Merlin
+;============================================================
+[Take a screenshot and send it to a contact.]
+Создание и отсылка снимков экрана контакту.
+[Dialog]
+Диалог
+[All]
+Все
+[None]
+Нет
+[Cancel]
+Отмена
+[Send screenshot]
+Отправить скриншот
+[Ti&med capture]
+За&держка захвата
+[Time (secs):]
+Секунд:
+[&Format:]
+&Формат:
+[Send B&y:]
+Че&рез:
+[E&xplore]
+Об&зор
+[&Fill description textbox.]
+&Заполнить строки описания.
+[Delete &after send]
+Удалить &после отправки
+[Open editor before sending]
+Редактировать перед отправкой
+[Open again]
+Откр. снова
+[&Capture]
+&Захват
+[About]
+Информация
+[Credits >]
+Авторы >
+[&Close]
+&Закрыть
+[Edit]
+Изменить
+[Caption:]
+Заголовок:
+[Size (HxW):]
+Размер (ВxШ):
+[C&lient Area]
+Сод&ержимое
+[indirect capture]
+косвенный захват
+[File:]
+Файл:
+[Description:]
+Описание:
+[Result]
+Результат
+[Thumbnail]
+Миниатюра
+[&Copy]
+&Копировать
+[Close]
+Закрыть
+[Copy]
+Копировать
+[Error]
+Ошибка
+[An unknown error has occurred.]
+Неизвестная ошибка.
+[Unknown response from %s (%i)]
+Неизвестный ответ от %s (%i)
+[Got no response from %s (%i)]
+Нет ответа от %s (%i)
+[The specified attachment was not found]
+Вложение не найдено
+[The specified attachment could not be opened]
+Невозможно открыть вложение
+[One or more unspecified errors occurred]
+Одна или несколько неизвестных ошибок
+[There was insufficient memory to proceed]
+Недостаточно памяти для продолжения
+[The text in the message was too large]
+Сообщение слишком длинное
+[There were too many file attachments]
+Слишком много вложенных файлов
+[There were too many recipients]
+Слишком много получателей
+[Unknown Error]
+Неизвестная ошибка
+[File transfer]
+Передача файла
+[Could not start the HTTP Server plugin.]
+Не могу запустить плагин HTTP Сервер.
+[Retry]
+Ещё раз
+[Yes]
+Да
+[No]
+Нет
+[Abort]
+Отмена
+[Ignore]
+Игнорировать
+[Open SendSS+]
+Открыть SendSS+
+[SendSS]
+Отправить скриншот
+[Screenshots]
+Снимки экрана
+[SendSS HTTP connections]
+HTTP подключение SendSS
+[Could not create main dialog.]
+Невозможно создать главный диалог.
+[Send Screenshot]
+Отправить скриншот
+[Send desktop screenshot]
+Отправить скриншот экрана
+[Take a screenshot]
+Сделать скриншот
+[Screenshot Icon1]
+Значок снимка 1
+[Screenshot Icon2]
+Значок снимка 2
+[Target Cursor]
+Курсор цель
+[Target Desktop]
+Курсор рабочий стол
+[Help]
+Справка
+[Open Folder]
+Открыть папку
+[Description off]
+Описание выкл
+[Description on]
+Описание вкл
+[Delete off]
+Удаление выкл
+[Delete on]
+Удаление вкл
+[Prev]
+Назад
+[Next]
+Вперёд
+[Update]
+Обновить
+[Down arrow]
+Вниз
+[Buttons]
+Кнопки
+[Overlays]
+Оверлеи
+[Credits]
+Кредиты
+[< Copyright]
+< Права
+[Copyright]
+Права
+[Drag&Drop the target on the desired window.]
+Перетащите прицел на нужное окно.
+[Window]
+Окно
+[Desktop]
+Рабочий стол
+[Monitor]
+Монитор
+[ (primary)]
+ (основной)
+[File]
+Файл
+[File Transfer]
+Передача файла
+[E-mail]
+Почта
+[FTP File]
+Файл на FTP
+[Upload Pie (30m)]
+Upload Pie (30 мин)
+[Upload Pie (1d)]
+Upload Pie (1 дн)
+[Upload Pie (1w)]
+Upload Pie (1 нед)
+[Information]
+Информация
+[Delete after send]
+Удалить после отправки
+[Can't create a Screenshot]
+Невозможно создать скриншот
+[Select a file]
+Выберите файл
+[Select a target window.]
+Выберите окно для отправки.

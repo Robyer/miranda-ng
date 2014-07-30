@@ -1,0 +1,9 @@
+﻿#muuid {a8a417ef-07aa-4f37-869f-7bfd74886534}
+;============================================================
+;  File: DbEditorPP.dll
+;  Plugin: Database editor++
+;  Version: 3.2.0.1
+;  Authors: Bio, Jonathan Gordon
+;============================================================
+[Background color]
+Background colour

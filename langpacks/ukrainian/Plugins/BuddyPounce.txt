@@ -1,0 +1,139 @@
+﻿#muuid {a9e9c114-84b9-434b-a3d5-89921d39ddff}
+;============================================================
+;  File: BuddyPounce.dll
+;  Plugin: Buddy pounce
+;  Version: 0.3.2.1
+;  Authors: Jonathan Gordon
+;============================================================
+[Allows you to send a message to contacts if they change status.]
+Автоматично надсилає повідомлення контактам, коли вони змінюють статус.
+[Confirm Pounce send]
+Підтвердження відправки відкладених
+[Send]
+Надіслати
+[Cancel]
+Скасувати
+[Pounce being sent to]
+Повідомлення буде надіслано
+[Buddy Pounce]
+Відкладене повідомлення
+[The Message:]
+Повідомлення:
+[Delete Pounce]
+Видалити відкладене
+[Load default Settings]
+Скинути на стандартні
+[Setting Value]
+Налаштування значення
+[Setting text...........]
+Налаштування тексту.........
+[Settings]
+Налаштування
+[Contact To Send Pounce To]
+Контакт для відправки відкладених
+[<< Simple]
+<< Простий
+[Advanced >>]
+Розширений >>
+[The Message]
+Повідомлення
+[Dialog]
+Діалог
+[Status]
+Статус
+[Use Advanced Dialog]
+Розширений діалог
+[The Message (characters: )]
+Повідомлення (символів: )
+[Default Settings]
+Стандартні налаштування
+[Show Delivery Messages]
+Повідомл. про доставку
+[These settings are also used when sending a "Simple" pounce]
+Ці параметри також використовуються для "простих" відкл. повідомлень
+[Send If My Status Is...]
+Надсилати, якщо мій статус...
+[Send If They Change Status to...]
+Надсилати, якщо статус контакту...
+[Reuse Pounce]
+Повторити відкладене
+[Give Up delay]
+Затримка скасування
+[Confirmation Window]
+Вікно підтвердження
+[Send If My Status Is]
+Надсилати, якщо мій статус
+[Any]
+будь-який
+[Online]
+В мережі
+[Away]
+Відсутній
+[NA]
+Недоступний
+[Occupied]
+Зайнятий
+[DND]
+Не турбувати
+[Free For Chat]
+Готовий до чату
+[Invisible]
+Невидимий
+[On The Phone]
+Телефоную
+[Out To Lunch]
+Обідаю
+[Send If Their Status changes]
+Надсилати, якщо контакт змінює статус
+[From Offline]
+-> З офлайну
+[To Online]
+-> В мережі
+[To Away]
+-> Відсутній
+[To NA]
+-> Недоступний
+[To Occupied]
+-> Зайнятий
+[To DND]
+-> Не турбувати
+[To Free For Chat]
+-> Готовий до чату
+[To Invisible]
+-> Невидимий
+[To On The Phone]
+-> Телефоную
+[To Out To Lunch]
+-> Обідаю
+[The Message    (%d Characters)]
+Повідомлення (%d символів)
+[Couldn't allocate enough memory]
+Не вдалося виділити достатньо пам'яті
+[error......]
+помилка...
+[The Message    (0 Characters)]
+Повідомлення (0 символів)
+[Reuse this message? (0 to use it once)]
+Повторити повідомлення? (0 - не повторювати)
+[Times]
+разів
+[Give up after... (0 to not give up)]
+Скасувати після... (0 - не скасовувати)
+[Days]
+днів
+[Show confirmation window? (0 to not Show)]
+Показати вікно підтвердження? (0 - не показувати)
+[Seconds to wait before sending]
+секунд очікування перед відправкою
+[Pounce being sent to %s in %d seconds]
+Повідомлення буде надіслано %s через %d секунд
+[Retry]
+Повторити
+[Message successfully sent to %s]
+Повідомлення успішно надіслано %s
+[Message failed to send to %s]
+Помилка надсилання повідомлення для %s
+[&Buddy Pounce]
+&Відкладене повідомлення
+[Message Sessions]
+Сесія повідомлень

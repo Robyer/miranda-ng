@@ -1,0 +1,85 @@
+﻿#muuid {c5ef53a8-80d4-4ce9-b341-ec90d3ec9156}
+;============================================================
+;  File: ChangeKeyboardLayout.dll
+;  Plugin: Change keyboard layout
+;  Version: 0.0.1.6
+;  Authors: Yasnovidyashii
+;============================================================
+[Plugin for changing keyboard layout of text (multilayout).]
+Плагин управления сменой раскладки по горячим клавишам.
+[Hotkeys]
+Горячие клавиши
+[Changing layout:]
+Смена раскладки:
+["Current word" mode]
+Режим "текущего слова"
+[Changing layout (alternative):]
+Смена раскладки (альтернативно):
+[Inverting lettercase:]
+Инвертировать регистр:
+[Options]
+Настройки
+[Two-way changing layout (experimental)]
+Двустороннее изменение раскладки
+[Log operations]
+Действия над журналом
+[Copy result to clipboard]
+Копировать результат в буфер обмена
+[Show result in Popup]
+Показать результат в окне
+[Strings for keyboard layouts]
+Строки для раскладок клавиатуры
+[Default]
+По умолчанию
+[Invert current state]
+Инвертировать текущее состояние
+[Switch off]
+Выключить
+[Leave as it is]
+Оставить как есть
+[Set Caps Lock state when inverting lettercase:]
+Установить состояние Caps Lock при инвертировании регистра:
+[Change active keyboard layout in system]
+Менять активную раскладку клавиатуры
+[Colors]
+Цвета
+[Popup colors]
+Цвета вспл.окон
+[Windows colors]
+Цвета Windows
+[Custom colors]
+Настроить цвета
+[Back]
+Фон
+[Text]
+Текст
+[Timeout]
+Таймаут
+[From Popup plugin]
+По умолчанию
+[Permanent]
+Постоянно
+[Custom]
+Настроить
+[On left click]
+Левый щелчок
+[Copy to clipboard]
+Копировать в буфер обмена
+[Dismiss]
+Убрать
+[On right click]
+Правый щелчок
+[Preview]
+Тест
+[ChangeKeyboardLayout]
+Смена раскладки
+[Popup]
+Всплывающее окно
+[Changing Layout]
+Смена раскладки
+[Changing Case]
+Инвертировать регистр
+[Message Sessions]
+Беседы
+[Popups]
+Всплывающие окна

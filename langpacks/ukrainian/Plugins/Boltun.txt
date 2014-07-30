@@ -1,0 +1,71 @@
+﻿#muuid {488c5c84-56da-434f-96f1-b18900def760}
+;============================================================
+;  File: Boltun.dll
+;  Plugin: Boltun
+;  Version: 0.0.3.0
+;  Authors: Alexander S. Kiselev, Valentin Pavlyuchenko
+;============================================================
+[Boltun, the chat bot in the russian language.]
+Базіка, чат-бот для російської мови.
+[Boltun]
+Базіка
+[Boltun Autochat everybody]
+Базіка говорить з усіма
+[Boltun Autochat everybody not in contact list]
+Базіка говорить з усіма, хто не в списку контактів
+[Boltun Autochat everybody while away]
+Базіка говорить з усіма, коли мене немає
+[Warn contacts Boltun is chatting]
+Попереджати про розмову з Базікою
+[Mark replied messages as read]
+Позначати повідомлення як прочитані
+[sec]
+с
+[Warning text]
+Текст попередження
+[Time before the answer]
+Час перед відповіддю
+[Typing time depends on message length (in chars)]
+Час друку залежить від довжини повідомлення (у символах)
+[Typing and thinking time can be much longer]
+Час друку і обмірковування може збільшуватися
+[Typing time (for a message of 4 words):]
+Час набору (для 4-х слів):
+[Thinking time:]
+Час обмірковування відповіді:
+[Engine]
+Знаряддя
+[Base of remarks]
+База реплік
+[Reload]
+Перезавантажити
+[Stay silent, if have no good aswers]
+Мовчати, якщо немає хороших відповідей
+[Start answers with a lowercase letter]
+Починати відповіді з маленької літери.
+[Don't use "I don't understand"-like answers]
+Не використовувати відповіді типу "Не зрозумів?"
+[Message sessions]
+Бесіди
+[Mind Files]
+Mind файли
+[All Files]
+Усі файли
+[Boltun/Auto Chat]
+Базіка/Авторозмова
+[Boltun/Not to Chat]
+Базіка/Не розмовляти
+[Boltun/Start Chatting]
+Базіка/Почати розмову
+[Hello. I'm Boltun! I'll talk to you, while my owner is away. Please write without mistakes!]
+Привіт, я - Базіка! Я з тобою поговорю, поки хазяїна немає. Будь ласка, пиши без помилок!
+[Boltun Error]
+Помилка Базіки
+[Failed to load base of remarks. Error at line %d of %s. (Or few lines before).]
+Не вдалося завантажити базу реплік. Помилка в рядку %d файлу %s (або кількома рядками вище).
+[Failed to save base of remarks to %s]
+Не вдалося зберегти базу реплік у файл %s
+[General Settings]
+Основні налаштування
+[Engine Settings]
+Налаштування знаряддя

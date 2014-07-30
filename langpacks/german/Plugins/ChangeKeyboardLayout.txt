@@ -1,0 +1,88 @@
+﻿#muuid {c5ef53a8-80d4-4ce9-b341-ec90d3ec9156}
+;============================================================
+;  File: ChangeKeyboardLayout.dll
+;  Plugin: Change keyboard layout
+;  Version: 0.0.1.6
+;  Authors: Yasnovidyashii
+;============================================================
+[Plugin for changing keyboard layout of text (multilayout).]
+Plugin zum Ändern des Tastaturlayouts des Textes (mehrsprachig).
+;file \plugins\ChangeKeyboardLayout\res\ChangeKeyboardLayout.rc
+[Hotkeys]
+Hotkeys
+[Changing layout:]
+Layout ändern:
+["Current word" mode]
+nur aktuelles Wort
+[Changing layout (alternative):]
+Layout ändern (alternativ):
+[Inverting lettercase:]
+Groß-/Kleinschreibung umkehren:
+[Options]
+Einstellungen
+[Two-way changing layout (experimental)]
+2-Wege-Layoutänderung (experimentell)
+[Log operations]
+Ergebnisbehandlung
+[Copy result to clipboard]
+Ergebnis in Zwischenablage kopieren
+[Show result in Popup]
+Ergebnis als Popup zeigen
+[Strings for keyboard layouts]
+Zeichenketten für Tastaturlayout
+[Default]
+Standard
+[Invert current state]
+Aktuellen Status umkehren
+[Switch off]
+Ausschalten
+[Leave as it is]
+Beibehalten
+[Set Caps Lock state when inverting lettercase:]
+Caps Lock Status bei Umkehrung der Groß-/Kleinschreibung ändern:
+[Change active keyboard layout in system]
+Aktives Tastaturlayout im System ändern
+[Colors]
+Farben
+[Popup colors]
+Popupfarben
+[Windows colors]
+Windowsfarben
+[Custom colors]
+Eigene Farben
+[Back]
+Hgrd.
+[Text]
+Text
+[Timeout]
+Timeout
+[From Popup plugin]
+Vom Popup-Plugin
+[Permanent]
+Dauerhaft
+[Custom]
+Benutzerdef.
+[On left click]
+Bei Linksklick
+[Copy to clipboard]
+In Zwischenablage kopieren
+[Dismiss]
+Verwerfen
+[On right click]
+Bei Rechtsklick
+[Preview]
+Vorschau
+;file \plugins\ChangeKeyboardLayout\src\commonheaders.h
+[ChangeKeyboardLayout]
+ChangeKeyboardLayout
+;file \plugins\ChangeKeyboardLayout\src\hook_events.cpp
+[Popup]
+Popup
+[Changing Layout]
+Layout ändern
+[Changing Case]
+Groß-/Kleinschreibung ändern
+[Message Sessions]
+Nachrichtensitzungen
+[Popups]
+Popups

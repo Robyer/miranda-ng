@@ -1,0 +1,103 @@
+﻿#muuid {34b5a402-1b79-4246-b041-43d0b590ae2c}
+;============================================================
+;  File: FileAsMessage.dll
+;  Plugin: File as message
+;  Version: 0.0.2.4
+;  Authors: Denis Stanishevskiy
+;============================================================
+[File transfer by using the messaging services - as plain text.]
+Przesyła pliki jako zwykły tekst za pomocą usługi wiadomości.
+;file \plugins\FileAsMessage\res\resources.rc
+[fileAsMessage]
+fileAsMessage
+[Filename:]
+Nazwa pliku:
+[Size:]
+Rozmiar:
+[Chunk size]
+Rozmiar kawałka
+[ms]
+ms
+[Delays between sends]
+Opóźnienia między wysyłkami
+[bytes]
+bajty
+[Transfer settings]
+Ustawienia transferu
+[Appearance]
+Personalizacja
+[Unsent]
+Niewysłane
+[Sent]
+Wysłane
+[To send]
+Do wysłania
+[Received]
+Otrzymany
+[Use only alphanumeric encoding on transfer]
+Używaj tylko alfa-numerycznego kodowania podczas transferu
+[Extra options: Events > File Transfers, "Receiving files" group]
+Więcej: Zdarzenia > Transfery plików, grupa "Odbieranie plików"
+;file \plugins\FileAsMessage\src\dialog.cpp
+[File already exists. Overwrite?]
+Plik już istnieje. Nadpisać?
+[Couldn't open a file]
+Nie udało się otworzyć pliku
+[Size: %d bytes]
+Wielkość: %d bajtów
+[Request sent. Awaiting of acceptance..]
+Prośba wysłana. Oczekiwanie na akceptację..
+[Sending...]
+Wysyłanie...
+[Received successfully]
+Otrzymano pomyślnie
+[Requesting of missing chunks]
+Wysyłanie prośby o brakujące kawałki
+[Receiving...]
+Otrzymywanie...
+[Sent successfully]
+Wysłano pomyślnie
+[Unknown command for "File As Message" was received]
+Otrzymano nieznaną komendę dla usługi "File As Message"
+[Incoming file request. Do you want to proceed?]
+Przychodzący transfer pliku. Czy chcesz kontynuować?
+[Canceled by remote user]
+Anulowane przez drugą stronę
+[New incoming file request. Do you want to proceed?]
+Nowy przychodzący plik. Czy odebrać?
+[File transfer is paused because of dropped connection]
+Transfer plików wstrzymany z powodu utraconego połączenia
+[Failed on file initialization]
+Błąd inicjalizacji pliku
+[Paused...]
+Zatrzymano...
+[Synchronizing...]
+Synchronizacja...
+[Select a file]
+Wybierz plik
+[Save as]
+Zapisz jako
+[Can't get a file size]
+Nie można pobrać rozmiaru pliku
+[Canceled by user]
+Anulowane przez użytkownika
+[Transfer is in progress. Do you really want to close?]
+Transfer w toku. Czy na pewno chcesz zamknąć?
+;file \plugins\FileAsMessage\src\main.cpp
+[Play]
+Graj
+[Pause]
+Pauza
+[Revive]
+Wznów
+[Stop]
+Stop
+[Main]
+Ogólne
+[Events]
+Zdarzenia
+[File As Message...]
+Plik jako wiadomość
+;file \plugins\FileAsMessage\src\main.h
+[File As Message]
+File As Message

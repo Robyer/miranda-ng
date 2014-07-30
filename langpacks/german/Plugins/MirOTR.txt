@@ -1,0 +1,255 @@
+﻿#muuid {12d8faad-78ab-4e3c-9854-320e9ea5cc9f}
+;============================================================
+;  File: MirOTR.dll
+;  Plugin: Miranda OTR
+;  Version: 0.11.0.4
+;  Authors: ProgAndy & CHEF-KOCH
+;============================================================
+[OTR (Off-the-Record) plugin for Miranda NG (using some code and ideas from SecureIM, Pidgin-OTR and old Miranda OTR (by SJE)).]
+OTR (Off-the-Record) Plugin für Miranda NG (verwendet einigen Code und Ideen aus SecureIM, Pidgin-OTR und dem alten Miranda OTR (von SJE)).
+;file \plugins\MirOTR\MirOTR\res\resource.rc
+[OTR Generating Private Key]
+OTR generiert privaten Schlüssel
+[Generating new private key - please wait.]
+Generiere neuen privaten Schlüssel - bitte warten.
+[Default Policy]
+Standardmethode
+[Always]
+Immer
+[Opportunistic]
+Opportunistisch
+[Manual]
+Manuell
+[Never]
+Niemals
+[End sessions on window close]
+Sitzung beend., wenn Fenster geschlossen wird
+[End sessions when contacts go offline]
+Sitzung beenden, wenn Kontakt offline
+[Prefix encrypted IMs:]
+Präfix verschlüsselter IM:
+[Don't add encrypted messages to the history]
+Füge keine verschlüsselten Nachrichten in den Verlauf ein
+[Also remove OTR system messages]
+Entferne auch OTR-System-Meldungen
+[Show OTR system messages inline]
+Zeige OTR-System-Nachricht im Fenster
+[Show OTR system messages as popup]
+Zeige OTR-System-Nachricht als Popup
+[Timeout FINISHED sessions back to PLAINTEXT (TAKE CARE!)]
+Bei beendeten Sitzungen zu Klartext springen (VORSICHT!)
+[Show verification dialog when receiving unverified fingerprint]
+Zeige Bestätigungs-Dialog beim Empfang ungeprüfter Fingerabdrücke
+[Set OTR policy per protocol]
+Setze OTR-Regel pro Protokoll
+[Current policy:]
+Aktuelles Verhalten:
+[Generate new private key]
+Neuen Schlüssel generieren
+[Forget private key]
+Vergesse Schlüssel
+[Set OTR policy per contact]
+Setze OTR-Regel pro Kontakt
+[View & Modify status of known fingerprints]
+Zeige & modifiziere Status unbekannter Fingerabdrücke
+[Set verified]
+Setze geprüft
+[Set unknown]
+Setze ungeprüft
+[Forget]
+Verwerfen
+[Socialist Millionaires Protocol]
+Socialist Millionaire Protocol
+[Socialist Millionaires Protocol\r\nVerification progress]
+Socialist Millionaire Protocol\r\nVerifizierung läuft
+[&Cancel]
+Abbre&chen
+[Socialist Millionaires Protocol\r\nVerification]
+Socialist Millionaire Protocol\r\nVerifizierung
+[&No]
+&Nein
+[&Yes]
+&Ja
+[OTR status]
+OTR-Status
+[&Start OTR session]
+OTR-Sitzung &starten
+[&Refresh OTR session]
+OTR-Sitzung e&rneuern
+[Sto&p OTR session]
+OTR-Sitzung stop&pen
+[&Verify Fingerprint]
+Fingerabdruck &verifizieren
+;file \plugins\MirOTR\MirOTR\src\language.h
+[Start OTR]
+OTR starten
+[Stop OTR]
+OTR stoppen
+[Yes]
+Ja
+[No]
+Nein
+[OTR status (Click for more options)]
+OTR-Status (Hier klicken für mehr Optionen)
+[OTR Encryption: Disabled]
+OTR-Verschlüsselung: Deaktiviert
+[OTR Encryption: UNVERIFIED]
+OTR-Verschlüsselung: Ungeprüft
+[OTR Encryption: Private]
+OTR-Verschlüsselung: Privat
+[OTR Encryption: Finished]
+OTR-Verschlüsselung: Beendet
+[&Convert HTML (for Pidgin)]
+HTML &konvertieren (für Pidgin)
+[OTR encrypted session with '%s' has been terminated]
+OTR-verschlüsselte Sitzung mit '%s' wurde beendet.
+[Requesting OTR encrypted session with '%s']
+Anfordern einer OTR-verschlüsselten Sitzung mit '%s'
+[Beginning OTR encrypted session with '%s']
+OTR-verschlüsselte Sitzung mit '%s' gestartet
+[Beginning OTR encrypted session with '%s' (NOT VERIFIED)]
+OTR-verschlüsselte Sitzung mit '%s' (NICHT VERIFIZIERT) gestartet
+[Trying to refresh OTR encrypted session with '%s']
+Versuche, die OTR-verschlüsselte Sitzung mit '%s' zu erneuern ...
+[OTR encrypted session was refreshed by '%s']
+OTR-verschlüsselte Sitzung wurde von '%s' aktualisiert.
+[OTR encrypted session was refreshed by '%s' (NOT VERIFIED)]
+OTR-verschlüsselte Sitzung wurde von '%s' aktualisiert (ungeprüft)
+[OTR encrypted session with '%s' successfully refreshed]
+OTR-verschlüsselte Sitzung mit '%s' wurde erfolgreich aktualisiert.
+[OTR encrypted session with '%s' successfully refreshed (NOT VERIFIED)]
+OTR-verschlüsselte Sitzung mit '%s' wurde erfolgreich aktualisiert (ungeprüft)
+[OTR encrypted session has been terminated by '%s'. You should do that, too!]
+OTR-verschlüsselte Sitzung wurde beendet von '%s'. Sie sollten das jetzt auch machen!
+[OTR encrypted session with '%s' could not be started]
+OTR-verschlüsselte Sitzung mit '%s' konnte nicht gestartet werden.
+[OTR could not encrypt when sending message]
+OTR konnte nicht verschlüsseln, als eine Nachricht gesendet wurde
+[OTR Information]
+OTR-Informationen
+[[OTR INFO] ]
+\[OTR-INFO]\s
+[Authentication from %s]
+Authentifizierung von %s
+[Authenticate %s]
+Authentifiziere %s
+[Unknown]
+Unbekannt
+[OTR: %s (%s)]
+OTR: %s (%s)
+[OTR %s (%s)]
+OTR %s (%s)
+[OTR encrypted session with '%s' is now using a VERIFIED fingerprint]
+OTR-verschlüsselte Sitzung mit '%s' ist nun mit einem Fingerabdruck verifiziert worden.
+[OTR encrypted session with '%s' is now using a NOT VERIFIED fingerprint]
+OTR-verschlüsselte Sitzung mit '%s' ist mit keinem Fingerabdruck verifiziert worden.
+[OTR unverified]
+OTR ungeprüft
+[OTR finished]
+OTR beendet
+[OTR private]
+OTR privat
+[OTR not secure]
+OTR nicht sicher
+[OTR]
+OTR
+[Generating new private key for protocol '%s'.\nPlease Wait...]
+Generiere neuen Schlüssel für das Protokoll '%s'.\nBitte warten Sie...
+[General]
+Allgemein
+[Protocols]
+Protokolle
+[Contacts]
+Kontakte
+[Fingerprints]
+Fingerprints
+[Contact]
+Kontakt
+[Protocol]
+Protokoll
+[Policy]
+Methode
+[Verified]
+Verifiziert!
+[Active]
+Aktiv
+[Fingerprint]
+Fingerprint
+[Conv. HTML]
+Konv. HTML
+[Default]
+Standard
+[Generating new key for '%s'. Continue?]
+Generiere neuen Schlüssel für '% s'. Weiter?
+[Removing key for '%s'. Continue?]
+Entferne Schlüssel für '%s'. Weiter?
+[OTR Fingerprint Verification]
+OTR-Fingerabdruck-Überprüfung
+[OTR encrypted session with '%s'.\nThe OTR fingerprint used by your contact is NOT VERIFIED.\nDo you trust it?]
+OTR-verschlüsselte Sitzung mit '%s'.\nDer OTR-Fingerabdruck Ihres Kontakts wird nicht überprüft.\nMöchten Sie ihm vertrauen?
+[OTR encrypted session with '%s'.\nThe OTR fingerprint used by your contact is already verified.\nDo you still trust it?]
+OTR-verschlüsselte Sitzung mit '%s'.\nDer OTR-Fingerabdruck, der von Ihrem Kontakt verwendet wird, ist bereits überprüft worden.\nMöchten Sie ihm immer noch vertrauen?
+[Your Fingerprint to tell your contact (use a trusted channel!)]
+Um Ihren Fingerabdruck Ihren Kontakten weiterzugeben, verwenden Sie bitte einen vertrauenswürdigen Kanal!
+[VERIFY: Fingerprint from contact]
+Verifiziere: Fingerabdruck vom Kontakt
+[OTR Authenticate: %s (%s)]
+OTR authentifizierte: %s (%s)
+[Challenge Question]
+Aufforderungsfrage
+[Known Password]
+Bekanntes Passwort
+[Manual fingerprint comparison]
+Manueller Fingerabdruckvergleich
+[Secret Answer]
+Geheimantwort:
+[Question]
+Frage
+[Password]
+Passwort
+[Authentication successful.]
+Authentifizierung erfolgreich.
+[Your contact authenticated you successfully. You can send your own request to authenticate him.]
+Ihr Kontakt authentifizierte Sie erfolgreich. Sie können nun Ihre eigene Nachfrage zum Authentifizieren an ihn schicken.
+[Error during authentication.]
+Fehler während der Authentifizierung!
+[Authentication failed]
+Die Authentifizierung schlug fehl (vertippt?)
+[Authentication for '%s' is already in progress.]
+Die Authentifizierung für '%s' ist bereits im Gange.
+[OTR Authenticating: %s (%s)]
+OTR-Authentifizierung mit: %s (%s)
+[Authenticating contact:\n%s (%s)]
+Authentifiziere Kontakt:\n%s (%s)
+[OTR encrypted session with '%s' (UNVERIFIED).\nUse a question only your partner can answer.]
+OTR verschlusselte Nachricht mit '%s' (Ungepruft).\nBenutzen Sie eine Frage, die nur Ihr Partner beantworten kann.
+[OTR encrypted session with '%s' (VERIFIED).\nVerify the session again using a question only your partner can answer.]
+OTR verschlüsselte Nachricht mit '%s' (verifiziert).\nVerifizieren Sie die Sitzung erneut mit einer Frage, die nur Ihr Partner beantworten kann.
+[OTR encrypted session with '%s' (UNVERIFIED).\nUse a known password.]
+OTR verschlüsselte Nachricht mit '%s' (Ungeprüft).\nBenutzen Sie ein bekanntes Passwort.
+[OTR encrypted session with '%s' (VERIFIED).\nVerify the session again using a known password.]
+OTR verschlüsselte Nachricht mit '%s' (verifiziert).\nVerifizieren Sie die Sitzung erneut und benutzen Sie ein bekanntes Passwort.
+[Your contact '%s' wants to verify your identity with a question only you can answer.]
+Ihr Kontakt '%s' möchte Ihre Identität mit einer Frage, die nur Sie beantworten können, überprüfen.
+[Your contact '%s' wants to verify your identity with a secret password you should know.]
+Ihr Kontakt '%s' möchte Ihre Identität mit einem Passwort, das nur Sie kennen können, überprüfen.
+[Fingerprint '%s' still in use in conversation with '%s' (%s). You cannot delete it!]
+Der Fingerabdruck '%s' ist aktuell in der Benutzung mit '%s' (%s). Sie können ihn nicht löschen!
+[Fingerprint '%s' in use in conversation with '%s' (%s). It could not be deleted!]
+Der Fingerabdruck '%s' ist aktuell in der Benutzung mit '%s' (%s). Er kann nicht gelöscht werden!
+[Cannot start OTR for '%s'. SecureIM is already running]
+Kann OTR für '%s' nicht starten. SecureIM wird aktuell benutzt.
+[OTR: SecureIM installed]
+OTR: SecureIM ist installiert
+[You are using SecureIM. MirOTR will only work for contacts with SecureIM disabled]
+Sie benutzen SecureIM. MirOTR funktioniert nur mit deaktiviertem SecureIM.
+;file \plugins\MirOTR\MirOTR\src\mirotrmenu.cpp
+[MirOTR menu]
+MirOTR-Menü
+[OTR Status]
+OTR-Status
+;file \plugins\MirOTR\MirOTR\src\options.cpp
+[Private Data]
+Private Daten
+[Services]
+Dienste

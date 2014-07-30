@@ -1,0 +1,91 @@
+﻿#muuid {80dca515-973a-4a7e-8b85-5d8ec88fc5a7}
+;============================================================
+;  File: WhoUsesMyFiles.dll
+;  Plugin: Who Use My Files
+;  Version: 0.1.0.2
+;  Authors: Nikolay Redko
+;============================================================
+[Scans for network users of your shared files and notify you with popups.]
+Сканирует сеть в поисках пользователей, использующих ваши файлы, открытые для доступа по сети и уведомляет всплывающими окнами.
+[WUMF: Current connections]
+WUMF: Текущие соединения
+[Popup delay settings]
+Настройки показа Popup
+[Popup Delay (seconds)]
+Окно видимо (секунд)
+[Background color]
+Цвет фона
+[Text color]
+Цвет текста
+[Previe&w]
+&Тест
+[Show infinitely]
+Постоянно
+[Default Popup delay]
+Как в Popup
+[Choose delay time]
+Настроить самому
+[Popup color settings]
+Настройки цвета Popup
+[Use windows colors]
+Цвета Windows
+[Use default Popup colors]
+Цвета Popup
+[Choose colors]
+Выбрать цвет
+[File access filter && logging settings]
+Настройки фильтров журнала
+[Log into text file]
+Писать в файл
+[Log folders access]
+Доступ к папкам
+[Alerts on folders access]
+Оповещения доступа к папкам
+[Log files and folders in UNC format]
+Папки и файлы в UNC формате
+[Alert files && folders in UNC format]
+Показывать папки и файлы в UNC формате
+[Log computer name with username]
+Имена компьютеров вместе с именами пользователей
+[Alert computer name with username]
+Показывать имена компьютеров вместе с именами пользователей
+[Disabled options will be available in the next version]
+Будут доступны в следующей версии
+[Show current connections]
+Показать соединения
+[User]
+Пользователь
+[File]
+Файл
+[Access]
+Доступ
+[Plugin WhoUsesMyFiles requires admin privileges in order to work.]
+Для работы плагина WhoUsesMyFiles требуются права администратора.
+[Error opening file]
+Ошибка открытия файла
+[Error memory allocation]
+Ошибка выделения памяти
+[Error creating menu]
+Ошибка создания меню
+[Popup plugin not found!]
+Не установлен плагин Popup!
+[Error]
+Ошибка
+[Enable WUMF popups]
+Включить WUMF окна
+[Disable WUMF popups]
+Выключить WUMF окна
+[Common Dialog Error 0x%lx]
+Ошибка диалога 0x%lx
+[Not implemented yet...]
+Еще не реализовано...
+[Show connections list]
+Показать список подключений
+[Who uses my files]
+Используемые файлы
+[Services]
+Службы
+[Popups]
+Всплывающие окна
+[WUMF: Show connections]
+WUMF: Показать подключения

@@ -1,0 +1,219 @@
+﻿#muuid {9502e511-7e5d-49a1-8ba5-b1aee70fa5bf}
+;============================================================
+;  File: FTPFile.dll
+;  Plugin: FTP File YM
+;  Version: 0.5.0.0
+;  Authors: yaho
+;============================================================
+[FTP a file to a server and send the URL to your friend. Supported automatic zipping before upload and encryption via SFTP and FTPS.]
+Плагин позволяет загрузить файл на FTP сервер с помощью Miranda NG и отправить ссылку своим контактам.
+[FTP accounts]
+Учётные записи FTP
+[Host name]
+Имя хоста
+[User]
+Пользователь
+[Password]
+Пароль
+[URL]
+Ссылка
+[Directory on server]
+Папка на сервере
+[Port]
+Порт
+[Command after upload]
+Команда после загрузки
+[Use passive mode]
+Пассивный режим
+[Account name]
+Имя учётной записи
+[Protocol]
+Протокол
+[Default FTP server]
+Использовать по умолчанию
+[File download link]
+Ссылка на загруженный файл
+[Close dialog after upload is completed]
+Закрыть диалог после успешной загрузки
+[Copy download link to message log]
+Копировать ссылку в лог сообщений
+[Autosend download link to contact]
+Автоматически отправить ссылку
+[Menu items]
+Пункты в меню
+[Use submenu (restart required)]
+Использовать подменю (требуется перезагрузка)
+[Hide inactive accounts]
+Прятать неактивные учётные записи FTP
+[Other]
+Другое
+[Automatically delete file from FTP server after (experimental):]
+Автоматически удалять файлы с FTP сервера после (эксперим.):
+[ZIP support]
+Поддержка ZIP-архивации
+[Enter archive name manually]
+Введите свое имя архива
+[Compression level:]
+Уровень сжатия:
+[Upload File Manager]
+Менеджер загрузок
+[File:]
+Файл:
+[Completed:]
+Завершено:
+[Speed:]
+Скорость:
+[Remaining:]
+Осталось:
+[Summary]
+Резюме
+[To:]
+Для:
+[Nick]
+Ник
+[Close]
+Закрыть
+[Clipboard]
+Буфер обмена
+[Options]
+Настройки
+[Pause]
+Пауза
+[Server:]
+Сервер:
+[User info]
+О пользователе
+[UPLOADING...]
+Загрузка...
+[Open in Browser]
+Открыть в браузере
+[FTP File Manager]
+Управление файлами FTP
+[Select All]
+Выделить всё
+[Deselect All]
+Снять выбор
+[Delete from list]
+Удалить из списка
+[Delete from FTP]
+Удалить с FTP
+[Enter file name]
+Введите имя файла
+[Cancel]
+Отмена
+[File exists]
+Файл существует
+[Rename]
+Переименовать
+[Overwrite]
+Перезаписать
+[File with the same name already exists on the server.]
+На сервере уже существует файл с таким именем.
+[Copy URL]
+Копировать ссылку
+[Close dialog after upload finishes]
+Закрыть окно после окончания загрузки
+[Automatically delete file after...]
+Автоматически удалить файл через...
+[Disabled]
+Выключен
+[Delete from List]
+Удалить из списка
+[Copy Link]
+Копировать ссылку
+[User Info]
+О пользователе
+[Copy Link to Clipboard]
+Копировать ссылку в буфер обмена
+[%d minutes]
+%d мин.
+[%d hours]
+%d ч.
+[%d days]
+%d дней
+[Do you really want to cancel all running jobs?]
+Отменить все запущенные задачи?
+[FTP Server 1]
+FTP сервер 1
+[FTP Server 2]
+FTP сервер 2
+[FTP Server 3]
+FTP сервер 3
+[FTP Server 4]
+FTP сервер 4
+[FTP Server 5]
+FTP сервер 5
+[Send file]
+Передать файл
+[Resume]
+Продолжить
+[FTP File]
+Файл на FTP
+[FTP Server %d]
+Сервер FTP %d
+[Upload file(s)]
+Отправить файл(ы)
+[Zip and upload file(s)]
+Запаковать и отправить файл(ы)
+[Zip and upload folder]
+Запаковать и отправить папку
+[FTP File manager]
+FTP файл менеджер
+[Show FTPFile manager]
+Показать FTP файл менеджер
+[Upload file]
+Отправить файл
+[Zip and upload file]
+Запаковать и отправить файл
+[File upload complete]
+Закачка файла завершена
+[Upload canceled]
+Закачка отменена
+[All Files (*.*)]
+Все файлы (*.*)
+[FTP File - Select files]
+Файл на FTP - Выбор файла
+[FTP File - Select a folder]
+Файл на FTP - Выбор папки
+[Folder not found!]
+Папка не найдена!
+[The selected folder does not contain any files.\nFTP File sends files only from the selected folder, not from subfolders.]
+Выбранная папка не содержит файлов.\nРабота возможна лишь с файлами, находящимися в выбранной папке, а не во вложенных.
+[CANCELED]
+Отмена
+[COMPLETED]
+Закончено
+[CONNECTING...]
+Подключение...
+[CREATED]
+Создано
+[PACKING...]
+Архивация...
+[PAUSED]
+Пауза
+[WAITING...]
+Ожидание...
+[UNKNOWN]
+Неизвестно
+[File exists - %s]
+Файл существует - %s
+[Download link:]
+Ссылка:
+[Do you really want to cancel running upload?]
+Вы действительно хотите отменить загрузку?
+[You have to fill and enable at least one FTP server in setting.]
+Вы должны добавить хотя бы один FTP сервер в настройках.
+[Clear All]
+Снять все
+[minutes]
+минут(ы)
+[hours]
+часа(ов)
+[days]
+дней
+[Services]
+Службы
+[Accounts]
+Учётные записи
+[Advanced]
+Дополнительно

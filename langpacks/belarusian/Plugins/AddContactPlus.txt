@@ -1,0 +1,54 @@
+﻿#muuid {6471d451-2fe0-4ee2-850e-9f84f3c0d187}
+;============================================================
+;  File: AddContactPlus.dll
+;  Plugin: Add contact+
+;  Version: 0.9.9.2
+;  Authors: Bartosz 'Dezeath' Bialek
+;============================================================
+[Provides the ability to quickly add new contacts.]
+Дае магчымасць хутка дадаваць новыя кантакты.
+;file \plugins\AddContactPlus\res\resource.rc
+[Add contact]
+Дадаць кантакт
+[Add contact\nAdd a contact to your contact list]
+Дадаць кантакт\nДадаць кантакт у спіс кантактаў
+[Account:]
+Конт:
+[Contact ID:]
+ID Кантакта:
+[Custom name:]
+Зададзенае імя:
+[Group:]
+Гурт:
+[Options]
+Налады
+[Add temporarily]
+Дадаць часова
+[Send "You were added"]
+Адправіць "Вас дадалі"
+[Send authorization request]
+Адправіць запыт на аўтарызацыю
+[Authorization request]
+Запыт аўтарызацыі
+[&Add]
+&Дадаць
+[&Cancel]
+С&касаваць
+;file \plugins\AddContactPlus\src\addcontact.cpp
+[Please authorize my request and add me to your contact list.]
+Калі ласка, дазволіце дадаць Вас у мой спіс кантактаў.
+[None]
+Няма
+[The contact cannot be added to your contact list. Please make sure the contact ID is entered correctly.]
+Кантакт не можа быць дададзены ў спіс кантактаў. Калі ласка, пераканайцеся, што  ID кантакта ўведзена правільна.
+[The contact cannot be added to your contact list. If you are not logged into the selected account, please try to do so. Also, make sure the contact ID is entered correctly.]
+Кантакт не можа быць дададзены ў спіс кантактаў. Калі Вы не зарэгістраваныя ў абраным конце, калі ласка, паспрабуйце зрабіць так. Акрамя таго, пераканайцеся, што ID кантакта ўведзена правільна.
+;file \plugins\AddContactPlus\src\main.cpp
+[&Add contact...]
+&Дадаць кантакт...
+[Open add contact dialog]
+Адкрыць гутарку 'Дадаць кантакта'
+[Main]
+Галоўны
+[AddContact+]
+Дадаць кантакт+

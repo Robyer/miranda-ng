@@ -1,0 +1,405 @@
+﻿#muuid {a8a417ef-07aa-4f37-869f-7bfd74886534}
+;============================================================
+;  File: DbEditorPP.dll
+;  Plugin: Database editor++
+;  Version: 3.2.0.1
+;  Authors: Bio, Jonathan Gordon
+;============================================================
+[Advanced Database Editor.]
+Zaawansowany edytor profilu.
+;file \plugins\DbEditorPP\res\resource.rc
+[Database Editor++ search and replace]
+Znajdź i zamień - Database Editor++
+[Search for]
+Szukaj
+[Text:]
+Tekst:
+[In:]
+W:
+[Case sensitive]
+Wielkość liter ma znaczenie
+[Module name]
+Nazwa modułu
+[Exact match]
+Dokładne dopasowanie
+[Setting name]
+Nazwa ustawienia
+[Setting value]
+Wartość ustawienia
+[&Search]
+&Szukaj
+[Replace with]
+Zamień na
+[Entirely]
+Całkiem
+[Found field]
+Znalezienie nieudane
+[&Replace]
+&Zamień
+[&Cancel]
+&Anuluj
+[Restore last opened position]
+Przywróć ostatnią otwartą pozycję
+[Automatically expand "Settings" when Database Editor++ starts]
+Automatycznie rozwijaj ustawienia podczas startu Database Editor++
+[Warn when deleting modules]
+Ostrzeż przed usuwaniem modułów
+[Use popups when watched settings change values]
+Użyj popupów kiedy oglądane ustawienia zmieniają wartość.
+[Popup timeout (0 for infinite)]
+Wyświetlania (0 - nie chowaj)
+[Background color]
+Kolor tła
+[Add a module to contact]
+Dodaj moduł do kontaktu
+[Add a module named]
+Dodaj nazwę modułu
+[Add to all contacts (including Settings)]
+Dodaj do wszystkich kontaktów (wraz z ustawieniami)
+[Cancel]
+Anuluj
+[Edit setting]
+Edytuj ustawienie
+[Value name:]
+Nazwa wartości:
+[Value data:]
+Dane wartości:
+[Base]
+Baza
+[Hexadecimal]
+Szesnastkowy
+[Decimal]
+Dziesiętny
+[Save value as:]
+Zapisz wartość jako:
+[Byte]
+Byte
+[Word]
+Word
+[Dword]
+Dword
+[String]
+String
+[Watched database settings]
+Obserwowane ustawienia bazy danych
+[Copy module to contact]
+Kopiuj moduł do kontaktu
+[Contact to copy module and settings to]
+Kontakt, do którego skopiuję moduł i ustawienia
+[Copy to all contacts (including Settings)]
+Kopiuj do wszystkich kontaktów(wraz z ustawieniami)
+[Import module/settings]
+Importuj moduł/ustawienia
+[Paste the settings to import here.]
+Wklej tutaj ustawienia, które chcesz zaimportować.
+[Import]
+Importuj
+[Insert &CR/LF]
+Umieść &CR/LF
+[Database Editor++]
+Edytor profilu
+[&Main]
+&Główne
+[&Refresh modules]
+&Odśwież moduły
+[Refresh &settings]
+Odśwież &ustawienia
+[E&xit]
+W&yjdź
+[&Actions]
+&Akcje
+[&Search and replace]
+&Znajdź i zamień
+[&Delete module]
+&Usuń moduł
+[&Watches]
+&Obserwowane
+[&View all]
+&Pokaż wszystko
+[&Delete all]
+&Usuń wszystko
+[&Export]
+&Eksportuj
+[Entire &database]
+Cała &baza danych
+[All &settings]
+Wszystkie &ustawienia
+[All &contacts]
+Wszystkie &kontakty
+[&Import]
+&Importuj
+[From a &file]
+Z &pliku
+[From pasted &text]
+Z wklejonego &tekstu
+[&Options]
+&Opcje...
+[&Sort by protocol]
+&Sortuj wg protokołów
+[Show &all]
+Pokaż &wszystko
+[Show only &loaded]
+Pokaż tylko &załadowane
+[Show only &unloaded]
+Pokaż tylko &niezaładowane
+[Edit &Bytes in Hex]
+Edytuj wartości &Byte w Hex
+[Edit &Words in Hex]
+Edytuj wartości &Word w Hex
+[Edit &Dwords in Hex]
+Edytuj wartości &Dword w Hex
+[&Restore position]
+&Przywróć pozycję
+[&Open options]
+&Otwórz opcje
+[&Edit/rename]
+&Edytuj/zmień nazwę
+[New]
+&Nowy
+[&Byte]
+&Bajt
+[&Word]
+&Word
+[&Dword]
+&Dword
+[&String]
+&Ciąg
+[&Unicode]
+&Unicode
+[BL&OB]
+BL&OB
+[&Convert to]
+&Konwertuj do
+[Encyption]
+Szyfrowanie
+[View decrypted string]
+Zobacz odszyfrowany ciąg
+[View encrypted string]
+Zobacz zaszyfrowany ciąg
+[Decrypt string]
+Odszyfruj ciąg
+[Encrypt string]
+Zaszyfruj ciąg
+[&Watch]
+&Obserwuj
+[&Delete]
+&Usuń
+[&Rename]
+&Zmień nazwę
+[Copy to contact]
+Kopiuj do kontaktu
+[Export module]
+Eksportuj moduł
+[&Clone]
+&Klon
+[Export contact]
+Eksportuj kontakt
+[Import settings]
+Importuj ustawienia
+[From a file]
+Z pliku
+[From pasted text]
+Z wklejonego tekstu
+[&Add module]
+&Dodaj moduł
+[Export settings]
+Eksportuj ustawienia
+[Export contacts]
+Eksportuj kontakty
+[Import contacts]
+Importuj kontakty
+[Export module from all contacts]
+Eksportuj moduł ze wszystkich kontaktów
+[Watch window]
+Obserwuj okno
+[Reload watch list]
+Przeładuj listę obserwowanych
+;file \plugins\DbEditorPP\src\addeditsettingsdlg.cpp
+[Cannot Convert!]
+Nie można skonwertować!
+[New BYTE value]
+Nowa wartość BYTE
+[Edit BYTE value]
+Edytuj wartość BYTE
+[New WORD value]
+Nowa wartość WORD
+[Edit WORD value]
+Edytuj wartość WORD
+[New DWORD value]
+Nowa wartość DWORD
+[Edit DWORD value]
+Edytuj wartość DWORD
+[New STRING value]
+Nowa wartość STRING
+[Edit STRING value]
+Edytuj wartość STRING
+[New UNICODE value]
+Nowa wartość UNICODE
+[Edit UNICODE value]
+Edytuj wartość UNICODE
+[New BLOB value]
+Nowa wartość BLOB
+[Edit BLOB value]
+Edytuj wartość BLOB
+[Couldn't allocate enough memory!]
+Nie udało się przydzielić wystarczającej ilości pamięci!
+;file \plugins\DbEditorPP\src\copymodule.cpp
+[Settings]
+Ustawienia
+;file \plugins\DbEditorPP\src\deletemodule.cpp
+[Are you sure you want to delete module "%s"?]
+Na pewno chcesz usunąć moduł "%s"?
+[Confirm module deletion]
+Potwierdź usunięcie modułu
+[Delete module from database]
+Usuń moduł z bazy danych
+[Delete module from database... Loading]
+Usuń moduł z bazy danych... ładowanie
+[Delete module from all contacts (including Setting)]
+Usuń moduł ze wszystkich kontaktów (wraz z ustawieniem)
+;file \plugins\DbEditorPP\src\exportimport.cpp
+[INI Files]
+Pliki INI
+[All Files]
+Wszystkie pliki
+[Export to file]
+Eksportuj do pliku
+[Error loading module list]
+Błąd ładowania listy modułów
+[Couldn't open file for writing]
+Nie udało się otworzyć pliku do zapisu
+[Import from files]
+Importuj z plików
+;file \plugins\DbEditorPP\src\findwindow.cpp
+[Enter a string to search the database for]
+Wprowadź tekst do znalezienia w bazie
+[Stop]
+Stop
+[Replaced with]
+Zamieniony przez
+[Deleted]
+Usunięte
+[Found]
+Znaleziono
+[%s Module "%s" in contact "%s"]
+%s Moduł "%s" w kontakcie "%s"
+[%s Setting "%s" in module "%s" in contact "%s" - "%s"]
+%s Ustawienie "%s" w module "%s" kontaktu "%s" - "%s"
+[%s Setting "%s" in module "%s" in contact "%s"]
+%s Ustawienie "%s" w module "%s" kontaktu "%s"
+[%s "%s" in Setting "%s" in module "%s" in contact "%s"]
+%s "%s" w ustawieniu "%s" modułu "%s" kontaktu "%s"
+[Searching...]
+Wyszukiwanie...
+[Error Loading Setting List]
+Błąd Ładowania Listy Ustawień
+[Finished. %d items were found, %d items were deleted.]
+Zakończono. Znaleziono %d rzeczy, %d usunięto.
+[Finished. %d items were found, %d items were replaced.]
+Zakończono. Znaleziono %d rzeczy, %d zastąpiono.
+[Finished. %d items were found.]
+Zakończono. Znaleziono %d rzeczy.
+;file \plugins\DbEditorPP\src\icons.cpp
+[Main icon]
+Główna ikona
+[Closed known module]
+Zamknięty znany moduł
+[Open known module]
+Otwarty znany moduł
+[Contacts group]
+Grupa kontaktów
+[Unknown contact]
+Nieznany kontakt
+[Known contact]
+Znany kontakt
+[Open user tree]
+Otwórz drzewo użytkownika
+[BLOB setting]
+Ustawienie BLOB
+[Byte setting]
+Ustawienie bajtowe
+[Word setting]
+Ustawienie słowa
+[Dword setting]
+Ustawienie Dword
+[String setting]
+Ustawienie ciągu
+[Unicode setting]
+Ustawienie unicode
+[Handle]
+Uchwyt
+;file \plugins\DbEditorPP\src\main.cpp
+[Open Database Editor]
+Otwórz edytor profilu
+[Open user tree in DBE++]
+Otwórz w edytorze profilu
+;file \plugins\DbEditorPP\src\main_window.cpp
+[Are you sure you want to delete contact "%s"?]
+Na pewno chcesz usunąć kontakt "%s"?
+[Confirm contact delete]
+Potwierdź usunięcie kontaktu
+;file \plugins\DbEditorPP\src\modules.cpp
+;file \plugins\DbEditorPP\src\moduletree.cpp
+[Loading contacts...]
+Wczytywanie kontaktów...
+[Loading modules...]
+Wczytywanie modułów...
+[Module tree not found]
+Nie znaleziono drzewka modułów
+[Contacts]
+Kontakty
+[HANDLE]
+HANDLE
+[Add module to contact "%s"]
+Dodaj moduł do kontaktu "%s"
+;file \plugins\DbEditorPP\src\options.cpp
+[Database]
+Profil
+;file \plugins\DbEditorPP\src\settinglist.cpp
+[Name]
+Nazwa
+[Data]
+Dane
+[Type]
+Typ
+[Size]
+Rozmiar
+[*** encrypted ***]
+*** zaszyfrowane ***
+[UNICODE]
+UNICODE
+[BLOB]
+BLOB
+[BYTE]
+BYTE
+[WORD]
+WORD
+[DWORD]
+DWORD
+[STRING]
+STRING
+[<unsupported>]
+<niewspierany>
+[<unknown>]
+<nieznany>
+[Decoded string..]
+Dekodowany ciąg..
+[Encoded string..]
+Zakodowany ciąg..
+;file \plugins\DbEditorPP\src\watchedvars.cpp
+[Contact]
+Kontakt
+[Module]
+Moduł
+[Setting]
+Ustawienia
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: (BYTE) %d]
+Zmieniły się ustawienia profilu: \nModuł: "%s" , Ustawienie: "%s"\nNowa wartość: (BYTE) %d
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: (WORD) %d]
+Zmieniły się ustawienia profilu: \nModuł: "%s" , Ustawienie: "%s"\nNowa wartość: (BYTE) %d
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: (DWORD) 0x%X]
+Zmieniły się ustawienia profilu: \nModuł: "%s" , Ustawienie: "%s"\nNowa wartość: (DWORD) 0x%X
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value: "%s"]
+Zmieniły się ustawienia profilu: \nModuł: "%s" , Ustawienie: "%s"\nNowa wartość: "%s"
+[Database Setting Changed: \nModule: "%s" , Setting: "%s"\nNew Value (UTF8): "%s"]
+Zmieniły się ustawienia profilu: \nModuł: "%s" , Ustawienie: "%s"\nNowa wartość (UTF8): "%s"

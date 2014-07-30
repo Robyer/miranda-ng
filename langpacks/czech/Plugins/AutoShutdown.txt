@@ -1,0 +1,192 @@
+﻿#muuid {9de24579-5c5c-49aa-80e8-4d38e4344e63}
+;============================================================
+;  File: AutoShutdown.dll
+;  Plugin: Auto shutdown
+;  Version: 1.4.0.2
+;  Authors: H. Herkenrath
+;============================================================
+[Adds the possibility to shutdown the computer when a specified event occurs.]
+Na základě určité události umožňuje vypnout, restartovat počítač nebo podobně.
+;file \plugins\AutoShutdown\res\resource.rc
+[Shutdown]
+Ukončení
+[&Show confirmation dialog before shutdown]
+&Před ukončením potvrdit vybranou akci
+[&Countdown starts at:]
+&Začátek odpočítávání:
+[seconds]
+sek.
+[Shutdown Events]
+Události pro ukončení
+[&Activate automatic shutdown with the same settings again if Miranda NG was closed with automatic shutdown enabled]
+&Aktivovat znovu stejné nastavení v případě, že program Miranda NG byl už předtím automaticky ukončen
+[&Ignore hidden or temporary contacts when watching for all contacts being offline]
+&Ignorovat skryté nebo dočasné kontakty při sledování přechodu do stavu offline
+[Critical Shutdown Events]
+Závažné události pro ukončení
+[Automatically shutdown the computer and turn the power off when one of the following occurs:]
+Automaticky ukončit operační systém a vypnout počítač, nastane-li jedna z následujících variant:
+[&Thunderstorm warning is issued (Weather)]
+Varování před bouřkou (Wea&ther)
+[Automatic Shutdown]
+Automatické ukončení
+[Select the automatic shutdown event]
+Vyberte požadovanou událost pro ukončení
+[Shutdown at &specific time]
+Ukonči&t po určité době
+[Shutdown a&t:]
+Ukončit &v:
+[Shutdown i&n:]
+Ukonč&it za:
+[Shutdown when a &message is received containing the following text:]
+Ukončit po přijetí zprávy obsahující &následující text:
+[Shutdown when Miranda NG becomes &idle]
+Ukončit po přechodu do neč&innosti
+[Configure]
+Nastavit...
+[Shutdown when &processor usage drops below:]
+Ukončit pokud vytížení &procesoru klesne pod:
+[(current: 0%)]
+(aktuálně: 0 %)
+[Shutdown when all contacts are &offline]
+Ukončit po přechodu všech kontaktů &offline
+[Shutdown when all &file transfers are finished]
+Ukončit po dokončení přenosu sou&borů
+[&Action:]
+&Akce:
+[Cancel]
+Zrušit
+[Unsaved data in open applications except Miranda NG might get lost.]
+Všechna neuložená data mimo program Miranda NG budou ztracena.
+[Please click "Cancel" if you would like to abort the process.]
+Chcete-li přerušit spuštěnou akci, klikněte na tlačítko "Zrušit".
+[&Now!]
+H&ned!
+;file \plugins\AutoShutdown\src\frame.cpp
+[Shutdown at:]
+Ukončit v:
+[Time left:]
+Zbývající čas:
+[Paused]
+Pauza
+[&Unpause Countdown]
+&Pokračovat v odpočítávání
+[&Pause Countdown]
+&Pozastavit odpočítávání
+[&Cancel Countdown]
+&Zrušit odpočítávání
+[AutoShutdown]
+Automatické ukončení
+[Countdown on Frame]
+Rámeček: Odpočítávání
+[Background]
+Pozadí
+[Progress Bar]
+Ukazatel průběhu
+;file \plugins\AutoShutdown\src\main.cpp
+[Header]
+Hlavička
+[Active]
+Aktivní
+[Inactive]
+Neaktivní
+;file \plugins\AutoShutdown\src\options.cpp
+[Events]
+Události
+;file \plugins\AutoShutdown\src\settingsdlg.cpp
+[Second(s)]
+sek.
+[Minute(s)]
+min.
+[Hour(s)]
+hod.
+[Day(s)]
+dnů
+[Week(s)]
+týdnů
+[Month(s)]
+měs.
+[(current: %u%%)]
+(aktuálně: %u %%)
+[Start/Stop automatic shutdown]
+Spustí nebo zastaví automatické vypnutí
+[Start automatic shutdown]
+Aktivuje automatické ukončení
+[Stop automatic shutdown]
+Deaktivuje automatické ukončení
+[Stop automatic &shutdown]
+Zrušit automatické &ukončení
+[Automatic &shutdown...]
+Automatické &ukončení...
+;file \plugins\AutoShutdown\src\shutdownsvc.cpp
+[Miranda NG is going to be automatically closed in %u second(s).]
+Program Miranda NG bude za %u sek. automaticky ukončen.
+[All Miranda NG protocols are going to be set to offline in %u second(s).]
+Všechny protokoly programu Miranda NG budou za %u sek. přepnuty do stavu offline.
+[You will be logged off automatically in %u second(s).]
+Za %u sek. budete automaticky odhlášeni.
+[The computer will automatically be restarted in %u second(s).]
+Tento počítač bude za %u sek. automaticky restartován.
+[The computer will automatically be set to standby mode in %u second(s).]
+Tento počítač bude za %u sek. automaticky přepnut do úsporného režimu.
+[The computer will automatically be set to hibernate mode in %u second(s).]
+Tento počítač bude za %u sek. automaticky přepnut do režimu spánku.
+[The workstation will automatically get locked in %u second(s).]
+Tento počítač bude za %u sek. automaticky zamknut.
+[All dialup connections will be closed in %u second(s).]
+Všechna modemová připojení budou za %u sek. automaticky ukončena.
+[The computer will automatically be shut down in %u second(s).]
+Tento počítač bude za %u sek. automaticky vypnut.
+[Automatic Shutdown Error]
+Chyba při automatickém ukončení
+[The shutdown process failed!\nReason: %s]
+Chyba při pokusu o automatické ukončení!\nDůvod: %s
+[Unknown]
+neznámý
+[Inititiating the shutdown process failed!\nReason: %s]
+Inicializace ukončovací procedury selhala!\nDůvod: %s
+[Close Miranda NG]
+Ukončit program Miranda NG
+[Set Miranda NG offline]
+Přejít do stavu offline
+[Log off user]
+Odhlásit uživatele
+[Restart computer]
+Restartovat počítač
+[Shutdown computer]
+Vypnout počítač
+[Standby mode]
+Úsporný režim
+[Hibernate mode]
+Režim spánku
+[Lock workstation]
+Zamknout počítač
+[Hang up dialup connections]
+Odpojit modem od sítě
+[Sets all Miranda NG protocols to offline and closes Miranda NG.]
+Přepne všechny protokoly do stavu offline a ukončí program Miranda NG.
+[Sets all Miranda NG protocols to offline.]
+Přepne všechny protokoly do stavu offline.
+[Logs the current Windows user off so that another user can log in.]
+Odhlásí uživatele a tím umožní přihlášení jinému.
+[Shuts down Windows and then restarts Windows.]
+Ukončí systém Windows a restartuje počítač.
+[Closes all running programs and shuts down Windows to a point at which it is safe to turn off the power.]
+Ukončí všechny spuštěné programy a následně systém Windows.
+[Saves the current Windows session in memory and sets the system to suspend mode.]
+Uloží rozdělanou práci do paměti a přepne počítač do úsporného režimu.
+[Saves the current Windows session on hard drive, so that the power can be turned off.]
+Uloží rozdělanou práci na pevný disk, což umožní vypnout počítač.
+[Locks the computer. To unlock the computer, you must log in.]
+Zamkne počítač. Odemknete ho pouze tak, že se znovu přihlásíte.
+[Sets all protocols to offline and closes all RAS connections.]
+Přepne všechny protokoly do stavu offline a ukončí vzdálená připojení.
+[Alerts]
+Upozornění
+[Automatic Shutdown Countdown]
+Automatické ukončení (odpočítávání)
+;file \plugins\AutoShutdown\src\utils.cpp
+[Toggle Automatic Shutdown]
+Aktivovat automatické ukončení
+[Main]
+Hlavní

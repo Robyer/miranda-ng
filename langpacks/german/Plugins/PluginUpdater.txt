@@ -1,0 +1,188 @@
+﻿#muuid {968def4a-bc60-4266-ac08-754ce721db5f}
+;============================================================
+;  File: PluginUpdater.dll
+;  Plugin: Plugin updater
+;  Version: 0.1.2.2
+;  Authors: Mataes, George Hazan
+;============================================================
+[Plugin updater for Miranda NG.]
+Plugin-Updater für Miranda NG.
+;file \plugins\PluginUpdater\res\Resource.rc
+[Updates found!]
+Aktualisierungen gefunden!
+[PluginUpdater has detected updated versions of some Miranda components. Click on Details button to view more information.]
+PluginUpdater hat aktualisierte Versionen einiger Miranda-\nKomponenten gefunden. Klicken Sie auf Details für weitere Informationen.
+[Update]
+Aktualisieren
+[Details >>]
+Details >>
+[Cancel]
+Abbrechen
+[Select &all]
+&Alle auswählen
+[Select &none]
+Kei&ne auswählen
+[Hotkey]
+Hotkey
+[Go to Customize -> Hotkeys to change the hotkey]
+Unter 'Customize -> Hotkeys' können Sie den Hotkey ändern
+[Plugin updates options]
+Plugin-Aktualisierungs-Einstellungen
+[On startup]
+Beim Start
+[(but only once a day)]
+(aber nur einmal täglich)
+[Every]
+Alle
+[Silent mode]
+Stiller Modus
+[Files source]
+Quelle der Dateien
+[Stable version]
+Stabile Version
+[Development version (less stable)]
+Entwicklungsversion (weniger stabil)
+[Development version with debug symbols]
+Entwicklungsversion mit Debugsymbolen
+[Custom version]
+Eigene Version
+[Some component(s) was updated.\nYou need to restart your Miranda to apply installed updates.]
+Einige Komponenten wurden aktualisiert.\nSie müssen Miranda neu starten um die Aktualisierungen zu übernehmen.
+[Notifications]
+Benachrichtigungen
+[Restart]
+Neustart
+[Errors]
+Fehler
+[Info messages]
+Infonachrichten
+[Back]
+Hgrd.
+[Text]
+Text
+[Colors]
+Farben
+[Use cus&tom colors]
+Eigene Farben verwenden
+[Use &Windows colors]
+&Windows-Farben verwenden
+[Use Pop&up colors]
+Pop&up-Farben verwenden
+[Preview]
+Vorschau
+[Click action]
+Aktion bei Klick
+[On left click]
+Bei Linksklick
+[On right click]
+Bei Rechtsklick
+[Timeout]
+Timeout
+[0 = Default]
+0 = Standard
+[-1 = Infinite]
+-1 = Unendlich
+[Sec]
+Sek.
+[For "Restart" popup setting is always infinity]
+
+[Boxes]
+Fenster
+[Popups]
+Popups
+[Component list]
+Komponentenliste
+[Here is the complete list of missing Miranda NG components. Check components that you want to download.\n\nClick on info icon to view component info page.]
+Hier ist eine komplette Liste fehlender Miranda-NG-Komponenten. Wählen Sie die Komponenten aus, die Sie herunterladen wollen.\n\nKlicken Sie auf das Info-Icon um die Info-Seite zu den Plugins aufzurufen.
+[Download]
+Herunterladen
+;file \plugins\PluginUpdater\src\DlgListNew.cpp
+[Downloading...]
+Herunterladen...
+[Succeeded.]
+Erfolgreich.
+[Failed!]
+Fehler!
+[Skipped.]
+Übersprungen.
+[Plugin Updater]
+Plugin-Updater
+[Download complete]
+Download vollständig
+[Download complete. Do you want to go to plugins option page?]
+Download vollständig. Möchten Sie zu den Plugin-Einstellungen gehen?
+[Component Name]
+Komponentenname
+[State]
+Status
+[Plugins]
+Plugins
+[Icons]
+Icons
+[Languages]
+Sprachen
+[Other]
+Andere
+[List is empty.]
+Liste ist leer.
+[List loading already started!]
+Laden der Liste hat bereits begonnen!
+;file \plugins\PluginUpdater\src\DlgUpdate.cpp
+[Will be deleted!]
+Wird gelöscht!
+[Update complete. Press Yes to restart Miranda now or No to postpone a restart until the exit.]
+Aktualisierung abgeschlossen. Klicken Sie Ja um Miranda neu zu starten oder Nein um einen Neustart nach dem Beenden zu machen.
+[Core components]
+
+[Core]
+
+[<< Details]
+<< Details
+[Update failed! One of the components wasn't downloaded correctly. Try it again later.]
+Aktualisierung fehlgeschlagen! Eine der Komponenten wurde nicht richtig heruntergeladen. Versuchen Sie es später noch einmal.
+[%d component(s) was updated]
+%d Komponente(n) wurde(n) aktualisiert.
+[You need to restart your Miranda to apply installed updates.]
+Sie müssen Miranda NG neu starten um die installierten Aktualisierungen anzuwenden.
+[Would you like to restart it now?]
+Möchten Sie es jetzt neu starten?
+[No updates found.]
+Keine Aktualisierungen gefunden.
+[Update checking already started!]
+Die Prüfung auf Aktualisierungen wurde bereits gestartet!
+;file \plugins\PluginUpdater\src\Events.cpp
+;file \plugins\PluginUpdater\src\Notifications.cpp
+;file \plugins\PluginUpdater\src\Notifications.h
+[Close popup]
+Popup schließen
+[Do nothing]
+Nichts tun
+;file \plugins\PluginUpdater\src\Options.cpp
+[hours]
+Stunden
+[days]
+Tage
+[Test]
+Testen
+[Services]
+Dienste
+;file \plugins\PluginUpdater\src\PluginUpdater.cpp
+[Check for updates]
+Auf Aktualisierungen prüfen
+[Available components list]
+Liste verfügbarer Komponenten
+[Update completed]
+Aktualisierung erfolgreich
+[Update failed]
+Aktualisierung fehlgeschlagen
+;file \plugins\PluginUpdater\src\Utils.cpp
+[Plugin info]
+Plugininfo
+[Plugin list]
+Pluginliste
+[Plugin Updater HTTP connection]
+Plugin-Updater-HTTP-Verbindung
+[Checking new updates...]
+Prüfe auf neue Aktualisierungen...
+[An error occurred while checking new updates.]
+Ein Fehler trat bei der Prüfung nach Aktualisierungen auf.

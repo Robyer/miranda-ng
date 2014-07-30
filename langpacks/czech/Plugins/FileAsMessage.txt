@@ -1,0 +1,103 @@
+﻿#muuid {34b5a402-1b79-4246-b041-43d0b590ae2c}
+;============================================================
+;  File: FileAsMessage.dll
+;  Plugin: File as message
+;  Version: 0.0.2.4
+;  Authors: Denis Stanishevskiy
+;============================================================
+[File transfer by using the messaging services - as plain text.]
+Přenos souborů použitím komunikačních služeb - jako čistý text.
+;file \plugins\FileAsMessage\res\resources.rc
+[fileAsMessage]
+Soubor jako zpráva
+[Filename:]
+Název souboru:
+[Size:]
+Velikost:
+[Chunk size]
+Velikost bloku
+[ms]
+ms
+[Delays between sends]
+Prodleva mezi zprávami
+[bytes]
+bajtů
+[Transfer settings]
+Možnosti přenosu
+[Appearance]
+Vzhled
+[Unsent]
+Neodesláno
+[Sent]
+Odesláno
+[To send]
+K odeslání
+[Received]
+Přijato
+[Use only alphanumeric encoding on transfer]
+Při přenosu použít jen alfanum. kódování
+[Extra options: Events > File Transfers, "Receiving files" group]
+Další možnosti: Události > Přenos souborů, skupina "Příjem souborů"
+;file \plugins\FileAsMessage\src\dialog.cpp
+[File already exists. Overwrite?]
+Soubor již existuje. Přepsat?
+[Couldn't open a file]
+Nelze otevřít soubor
+[Size: %d bytes]
+Velikost: %d bajtů
+[Request sent. Awaiting of acceptance..]
+Požadavek odeslán. Čekání na odpověď...
+[Sending...]
+Posílání dat...
+[Received successfully]
+Přenos dat úspěšně dokončen
+[Requesting of missing chunks]
+Žádost o chybějící bloky
+[Receiving...]
+Příjem dat...
+[Sent successfully]
+Přenos dat úspěšně dokončen
+[Unknown command for "File As Message" was received]
+Byl přijat neznámý příkaz pro "Soubor jako zpráva"
+[Incoming file request. Do you want to proceed?]
+Žádost o přenos souboru. Chcete pokračovat?
+[Canceled by remote user]
+Přerušeno protistranou
+[New incoming file request. Do you want to proceed?]
+Nová žádost o přenos souboru. Chcete pokračovat?
+[File transfer is paused because of dropped connection]
+Spojení přerušeno, přenos byl pozastaven. 
+[Failed on file initialization]
+Chyba při inicializaci přenosu
+[Paused...]
+Pozastaveno...
+[Synchronizing...]
+Synchronizace...
+[Select a file]
+Vyberte soubor
+[Save as]
+Uložit jako
+[Can't get a file size]
+Nelze zjistit velikost souboru
+[Canceled by user]
+Přerušeno uživatelem
+[Transfer is in progress. Do you really want to close?]
+Přenos dat ještě nebyl dokončen. Opravdu ho chcete přerušit?
+;file \plugins\FileAsMessage\src\main.cpp
+[Play]
+Přehrát
+[Pause]
+Pozastavit
+[Revive]
+Obnovit
+[Stop]
+Zastavit
+[Main]
+Hlavní
+[Events]
+Události
+[File As Message...]
+Soubor jako zpráva...
+;file \plugins\FileAsMessage\src\main.h
+[File As Message]
+Soubor jako zpráva

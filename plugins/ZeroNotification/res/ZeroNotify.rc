@@ -1,0 +1,103 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\src\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "..\\src\\resource.\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPT_NOSOUND DIALOGEX 0, 0, 244, 145
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "No sounds when:",IDC_STATIC,4,4,77,16
+    CONTROL         "Tree1",IDC_NOSOUND,"SysTreeView32",TVS_DISABLEDRAGDROP | TVS_NOTOOLTIPS | TVS_NONEVENHEIGHT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,4,22,77,105
+    LTEXT           "No CList blink when:",IDC_STATIC,165,4,77,16
+    CONTROL         "Tree1",IDC_NOBLINK,"SysTreeView32",TVS_DISABLEDRAGDROP | TVS_NOTOOLTIPS | TVS_NONEVENHEIGHT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,87,22,73,105
+    LTEXT           "No SysTray blink when:",IDC_STATIC,87,4,77,16
+    CONTROL         "Tree1",IDC_NOCLCBLINK,"SysTreeView32",TVS_DISABLEDRAGDROP | TVS_NOTOOLTIPS | TVS_NONEVENHEIGHT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,165,22,73,105
+    CONTROL         "Hide the ""toggle sound"" menu item (requires restart of Miranda)",IDC_HIDEMENU,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,4,133,234,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPT_NOSOUND, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 238
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 126
+        HORZGUIDE, 109
+        HORZGUIDE, 143
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

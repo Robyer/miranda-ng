@@ -1,0 +1,103 @@
+﻿#muuid {53c715a8-eb01-4136-a73c-441868610074}
+;============================================================
+;  File: FltContacts.dll
+;  Plugin: Floating contacts
+;  Version: 0.7.0.1
+;  Authors: Iavor Vajarov, Kosh&chka, Victor Pavlychko
+;============================================================
+[Floating Contacts plugin for Miranda.]
+Плагін плаваючих контактів для Miranda NG.
+[Hiding contacts]
+Приховування контактів
+[Hide offline contacts]
+Сховати відключених
+[Stick together]
+Склеювати контакти
+[Use fixed width]
+Ширина
+[pixels]
+пікс.
+[Hide all contacts]
+Сховати всі контакти
+[Hide when a fullscreen app is active]
+Сховати коли розгорнуто програму
+[Show tooltips*]
+Показувати підказки*
+[ms]
+мс
+[Tooltips]
+Підказки
+[Miscellaneous]
+Інше
+[0 = Default]
+0=Замовчання
+[*requires Tipper plugin]
+*потрібен плагін Tipper
+[Bring to front]
+На передній план
+[Bring to front every]
+Переміщати вгору кожні
+[seconds]
+секунд
+[Hide when contact list is shown]
+Ховати коли список контактів видно
+[Single click interface]
+Одне клацання
+[Dim idle contacts]
+Затемняти неактивних користувачів
+[Idle contacts]
+Неактивні контакти
+[Border]
+Рамка
+[Draw border]
+Показувати рамку
+[Left-top edge's color:]
+Колір лівого верхнього краю:
+[Right-bottom edge's color:]
+Колір правого нижнього краю:
+[Background]
+Фон
+[Background color:]
+Колір фону:
+[Use background bitmap]
+Фонове зображення
+[Stretch to width]
+Розтягнути по ширині
+[Stretch to height]
+Розтягнути по висоті
+[Tile horizontally]
+Горизонтальна мозаїка
+[Tile vertically]
+Вертикальна мозаїка
+[Stretch proportionally]
+Розтягнути
+[Opacity:]
+Прозорість:
+[Standard contacts]
+Звичайні контакти
+[Online contacts to whom you have a different visibility]
+Контакти зі зміненою видимістю (в мережі)
+[Offline contacts]
+Відключені контакти
+[Offline contacts to whom you have a different visibility]
+Контакти зі зміненою видимістю (відключені)
+[Contacts which are 'not on list']
+Контакти поза списком
+[Floating contacts]
+Плаваючі контакти
+[Show all thumbs]
+Показати плаваючі контакти
+[Hide all thumbs]
+Приховати плаваючі контакти
+[Remove thumb]
+Прибрати плаваючий контакт
+[Show/Hide all thumbs]
+Показати/Приховати всі контакти
+[Floating Contacts]
+Плаваючі контакти
+[Contact list]
+Список контактів
+[Main Features]
+Головне
+[Appearance]
+Зовнішній вигляд

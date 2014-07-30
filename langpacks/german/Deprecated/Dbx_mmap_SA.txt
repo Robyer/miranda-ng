@@ -1,0 +1,143 @@
+﻿#muuid {28ff9b91-3e4d-4f1c-b47c-c641b037ff40}
+;============================================================
+;  File: Dbx_mmap_SA.dll
+;  Plugin: Miranda NG mmap secure database driver
+;  Version: 0.7.5.4
+;  Authors: Miranda-IM project, modification by FYR and chaos.persei, nullbie, Billy_Bons
+;============================================================
+[Provides Miranda database support: global settings, contacts, history, settings per contact. Enhanced modification with Encryption support.]
+Stellt Unterstützung für die Miranda-Datenbank bereit: Globale Einstellungen, Kontakte, Verlauf, Einstellungen pro Kontakt. Erweiterte Modifikation mit Verschlüsselung.
+;file \plugins\Dbx_mmap_SA\res\db3x_mmap.rc
+[Login to Miranda NG]
+Einloggen bei Miranda NG
+[EN]
+EN
+[OK]
+OK
+[Cancel]
+Abbrechen
+[New password]
+Neues Passwort
+[Change password]
+Passwort ändern
+[Change]
+Ändern
+[Remove]
+Entfernen
+[Old password]
+Altes Passwort
+[Install Database Settings]
+Datenbankeinstellungen installieren
+[Yes]
+Ja
+[No]
+Nein
+[A file containing new database settings has been placed in the Miranda NG directory.]
+Eine Datei mit neuen Profileinstellungen wurde im Miranda NG Verzeichnis gefunden.
+[Do you want to import the settings now?]
+Möchten Sie die Einstellungen jetzt importieren?
+[No to all]
+Nein für alle
+[&View contents]
+Inhalt zeigen
+[Security systems to prevent malicious changes are in place and you will be warned before changes that are not known to be safe.]
+Sicherheitssystem, um arglistige Änderungen zu erkennen, ist angeschaltet, und Sie werden gewarnt, bevor Änderungen, die nicht als sicher bekannt sind, durchgeführt werden.
+[Database Setting Change]
+Änderung Profileinstellungen
+[Database settings are being imported from]
+Datenbankeinstellungen werden importiert von
+[This file wishes to change the setting]
+Diese Datei möchte die Einstellungen ändern
+[to the value]
+auf den Wert
+[Do you want to allow this change?]
+Diese Änderungen zulassen?
+[&Allow all further changes to this section]
+&Alle weiteren Änderungen in diesem Bereich erlauben
+[&Yes]
+Ja
+[&No]
+&Nein
+[Cancel Import]
+Importierung abbrechen
+[Database Import Complete]
+Datenbank-Import abgeschlossen
+[The import has completed from]
+Der Import wurde abgeschlossen von
+[What do you want to do with the file now?]
+Was wollen Sie mit der Datei jetzt tun?
+[&Recycle]
+Wiede&rherstellen
+[&Delete]
+Löschen
+[&Move/Rename]
+Verschieben/U&mbenennen
+[&Leave]
+Ver&lassen
+[Database encryption]
+Verschlüsselung des Profils
+[Info:]
+Info:
+[Author:]
+Autor:
+[Site:]
+Webseite:
+[Email:]
+E-Mail:
+[Unique ID:]
+Unique ID:
+;file \plugins\Dbx_mmap_SA\src\dbintf_sa.cpp
+[Your profile was decrypted to convert it into dbx_mmap format. When Miranda starts, you'll need to reenter a password]
+Ihr Profil wurde entschlüsselt um es in das dbx_mmap-Format umzuwandeln. Wenn Miranda startet müssen Sie Ihr Passwort erneut eintragen.
+[Password warning]
+Passwortwarnung
+[Database is Secured MMAP database]
+Datenbank ist gesicherte MMAP-Datenbank
+[You are not authorized for access to Database]
+Sie sind nicht für den Zugriff auf die Datenbank autorisiert
+[Secured MMAP: authorization successful]
+Gesichertes MMAP: Autorisierung erfolgreich
+[Database is marked as belonging to an unknown version of Miranda]
+Datenbank gehört zu einer unbekannten Mirandaversion
+;file \plugins\Dbx_mmap_SA\src\dialogs.cpp
+[Database Features]
+Datenbank-Funktionen
+[Database]
+Datenbank
+[Change Password]
+Passwort ändern
+[Set password]
+Passwort setzen
+[Dll]
+DLL
+[Name]
+Name
+[Version]
+Version
+[Please type in your password for]
+Bitte geben Sie ihr Passwort ein für
+[Too many errors!]
+Zu viele Fehler!
+[Password is not correct!]
+Das Passwort ist inkorrekt!
+[Please enter your new password]
+Bitte geben Sie ein neues Passwort ein
+[Password is too short!]
+Passwort ist zu kurz!
+[Passwords do not match!]
+Passwörter stimmen nicht überein!
+[Wrong password!]
+Passwort ist inkorrekt!
+;file \plugins\Dbx_mmap_SA\src\security.cpp
+[Sorry, but your database encrypted with unknown module]
+Entschuldigung, aber Ihre Datenbank ist mit einem unbekannten Modul verschlüsselt.
+[Error]
+Fehler
+[Crypto modules not found]
+Verschlüsselungsplugins wurden nicht gefunden!
+[DB is already secured!]
+Datenbank ist bereits sicher!
+[current database]
+Aktuelle Datenbank
+[Set Password]
+Passwort setzen

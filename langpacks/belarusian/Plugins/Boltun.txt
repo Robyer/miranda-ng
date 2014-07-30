@@ -1,0 +1,71 @@
+﻿#muuid {488c5c84-56da-434f-96f1-b18900def760}
+;============================================================
+;  File: Boltun.dll
+;  Plugin: Boltun
+;  Version: 0.0.3.0
+;  Authors: Alexander S. Kiselev, Valentin Pavlyuchenko
+;============================================================
+[Boltun, the chat bot in the russian language.]
+Балбатун, чат-бот для рускай мовы.
+;file \plugins\Boltun\res\Boltun.rc
+[Boltun]
+Балбатун
+[Boltun Autochat everybody]
+Балбатун кажа з усімі
+[Boltun Autochat everybody not in contact list]
+Балбатун кажа з усімі, хто не ў спісе кантактаў
+[Boltun Autochat everybody while away]
+Балбатун кажа з усімі, калі мяне няма
+[Warn contacts Boltun is chatting]
+Папярэдзіць пра гутарку з Балбатуном
+[Mark replied messages as read]
+Адзначаць паведамленні як прачытаныя
+[sec]
+сек
+[Warning text]
+Тэкст заўвагі
+[Time before the answer]
+Час перад адказам
+[Typing time depends on message length (in chars)]
+Час друку залежыць ад даўжыні паведамлення (у літарах)
+[Typing and thinking time can be much longer]
+Час друку і абдумвання можа павялічвацца
+[Typing time (for a message of 4 words):]
+Час набору (для 4-х слоў):
+[Thinking time:]
+Час абдумвання адказу:
+[Engine]
+Рухавік
+[Base of remarks]
+База рэплік
+[Reload]
+Перагрузіць
+[Stay silent, if have no good aswers]
+Маўчаць, калі няма добрых адказаў
+[Start answers with a lowercase letter]
+Пачынаць адказы з маленькай літары.
+[Don't use "I don't understand"-like answers]
+Не выкарыстоўваць адказы тыпу "Не зразумеў?"
+;file \plugins\Boltun\src\boltun.h
+[Message sessions]
+Гутаркі
+[Mind Files]
+Mind файлы
+[All Files]
+Усе файлы
+[Boltun/Auto Chat]
+Балбатун/Аўта гутарка
+[Boltun/Not to Chat]
+Балбатун/Не размаўляць
+[Boltun/Start Chatting]
+Балбатун/пачаць размову
+[Boltun Error]
+Памылка Балбатуна
+[Failed to load base of remarks. Error at line %d of %s. (Or few lines before).]
+Памылка загрузкі базы рэплік. Памылка ў радку %d з %s. (Ці некалькі радкоў да таго).
+[Failed to save base of remarks to %s]
+Не атрымалася захаваць базу рэплік %s
+[General Settings]
+Асноўныя налады
+[Engine Settings]
+Налады рухавіка

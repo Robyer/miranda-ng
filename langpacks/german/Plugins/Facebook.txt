@@ -1,0 +1,301 @@
+﻿#muuid {8432b009-ff32-4727-aae6-a9035038fd58}
+;============================================================
+;  File: Facebook.dll
+;  Plugin: Facebook RM
+;  Version: 0.2.7.0
+;  Authors: Michal Zelinka, Robert Pösel
+;============================================================
+[Facebook protocol support for Miranda NG.]
+Facebook-Protokollunterstützung für Miranda NG.
+;file \protocols\FacebookRM\res\facebook.rc
+[E-mail:]
+E-Mail:
+[Password:]
+Passwort:
+[Create a new Facebook account]
+Ein neues Facebook-Konto erstellen
+[What's on your mind?]
+Was machst du gerade?
+[Wall:]
+Pinnwand:
+[Visibility:]
+Sichtbarkeit:
+[Text:]
+Text:
+[URL:]
+URL:
+[Place:]
+Ort:
+[Contacts >>]
+Kontakte >>
+[Attach contacts:]
+Kontakte anhängen:
+[Share]
+Teilen
+[Cancel]
+Abbrechen
+[User details]
+Kontaktprofil
+[Contacts Settings]
+Kontakteinstellungen
+[Default group:]
+Standardgruppe:
+[Automatically set 'Ignore status change' flag]
+Automatisch 'Ignoriere Statusänderung-Flag' setzen
+[Use bigger avatars]
+Größere Avatare nutzen
+[Event notifications]
+Ereignisbenachrichtigungen
+[Notifications]
+Benachrichtigung
+[News feeds]
+News-Feeds
+[News feed types to notify:]
+Newsfeed-Ereignisse melden:
+[Don't show advertising posts]
+Werbebeiträge nicht anzeigen
+[Other events]
+Sonstige Ereignisse
+[Client notifications]
+Client-Benachrichtigungen
+[Preview]
+Vorschau
+[Use balloon notifications in system tray instead of popups]
+Ballonereignisse im Systemtray anstatt Popups verwenden
+[Advanced Settings]
+Erweiterte Einstellungen
+[Force secure (HTTPS) connection]
+Sichere Verbindung (HTTPS) erzwingen
+[Post Miranda statuses to Wall]
+Miranda-Status auf die Pinnwand setzen
+[Use secure connection also for channel requests]
+Sichere Verbindung auch für Channel-Zugriffe verwenden
+[Also disconnect chat when going to offline]
+Chatverbindung im 'Offline' Status trennen
+[Map non-standard statuses to Invisible (instead of Online)]
+Nicht-Standard-Status auf 'Unsichtbar' setzen (anstatt 'Online')
+[Allow posting statuses to my pages (may slow down login)]
+Posten von Status auf meinen Seiten erlauben (kann Anmeldung verlangsamen)
+[Use this server for opening links:]
+Öffne Links auf diesem Server:
+[Enable support for Custom smileys (EXPERIMENTAL + BUGGY!)]
+Unterstützung für Custom Smileys aktivieren (EXPERIMENTELL + VERBUGGT!)
+[Use local time for received messages]
+Lokale Zeit für empfangene Nachrichten verwenden
+[Message sessions]
+Nachrichtensitzungen
+[Keep messages as unread on server (don't send "seen" info)]
+Nachrichten auf dem Server als ungelesen belassen ("Gesehen"-Info nicht senden)
+[Receive messages from "inbox" folder only]
+Nur Nachrichten aus "Postfach"-Verzeichnis abrufen
+[Load last messages on opening message window (EXPERIMENTAL)]
+Letzte Nachrichten beim Öffnen des Nachrichtenfensters laden (EXPERIMENTELL)
+[Number of messages to load:]
+Lade Anzahl Nachrichten:
+[Do not open chat windows on creation]
+Chatfenster bei der Erzeugung nicht öffnen
+;file \protocols\FacebookRM\src\chat.cpp
+[Myself]
+Ich
+[User]
+Benutzer
+[Friend]
+Freund
+[&Invite user...]
+Kontakt e&inladen...
+[&Leave chat session]
+Chatsitzung ver&lassen
+[User &details]
+Benutzer&details
+[User &history]
+Kontakt&verlauf
+;file \protocols\FacebookRM\src\communication.cpp
+[Login error: %s]
+Loginfehler: %s
+[Unknown error]
+Unbekannter Fehler
+[Login error: Invalid request.]
+Loginfehler: Ungültige Anfrage
+[Login error: Some Facebook things are required.]
+Login-Fehler: Einige Facebook-Dinge werden benötigt.
+[Login error: Captcha code is required. Bad login credentials?]
+Login-Fehler: Ein Captcha-Code wird benötigt. Falsche Zugangsdaten?
+[Login error, probably bad login credentials.]
+Loginfehler, wahrscheinlich falsche Anmeldeinformationen.
+[Your account requires HTTPS connection. Activating.]
+Ihr Account benötigt eine HTTPS-Verbindung. Aktivierung.
+[Something happened to Facebook. Maybe there was some major update so you should wait for an update.]
+Irgendwas geschah mit Facebook. Vielleicht gab es ein großes Update, warten Sie auf ein Plugin-Update.
+[Need confirmation for sending messages to other clients.\nOpen Facebook website and try to send message to this contact again!]
+Eine Bestätigung zum Nachrichtenversand zu anderen Clients wird benötigt.\nÖffnen Sie die Facebook-Seite und senden Sie dem Kontakt die Nachricht erneut!
+[Timeout when sending message.]
+Zeitüberschreitung beim Senden der Nachricht.
+[Status update was successful.]
+Status-Aktualisierung erfolgreich.
+;file \protocols\FacebookRM\src\connection.cpp
+[Please enter a username.]
+Bitte geben Sie einen Benutzernamen ein.
+[Please enter a password.]
+Bitte geben Sie das Kennwort ein.
+;file \protocols\FacebookRM\src\constants.h
+[Top News]
+Aktuelle Nachrichten
+[Most Recent]
+Jüngste Nachrichten
+[Pages]
+Seiten
+[Classic website]
+Klassische Webseite
+[Mobile website]
+Mobile Webseite
+[Smartphone website]
+Smartphone-Webseite
+[Public]
+Öffentlich
+[Friends of friends]
+Freunde von Freunden
+[Friends]
+Freunde
+[Friends except acquaintances]
+Freunde ohne Bekannte
+[Only me]
+Nur ich
+;file \protocols\FacebookRM\src\contacts.cpp
+[%s and more (%d)]
+%s und mehr (%d)
+[Contact was removed from your server list.]
+Kontakt wurde aus Ihrer Server-Liste entfernt.
+[Error occurred when removing contact from server.]
+Ein Fehler ist beim Entfernen des Kontaktes vom Server aufgetreten
+[Request for friendship was sent.]
+Freundschaftsanfrage wurde gesendet.
+[Error occurred when requesting friendship.]
+Fehler bei der Freundschaftsanfrage aufgetreten
+[Request for friendship was canceled.]
+Freundschaftsanfrage wurde zurückgezogen.
+[Error occurred when canceling friendship request.]
+Fehler beim Zurückziehen der Freundschaftsanfrage
+;file \protocols\FacebookRM\src\dialogs.cpp
+[Default]
+Standard
+[<< Contacts]
+<< Kontakte
+[What's on your mind, %s?]
+Was machen Sie gerade, %s?
+[Note: Make sure you have disabled 'Validate SSL certificates' option in Network options to work properly.]
+Hinweis: Stellen Sie sicher, dass "SSL-Zertifikate überprüfen" in den Netzwerk-Einstellungen deaktiviert ist.
+[Sample event]
+Beispielereignis
+[Sample request]
+Beispielanfrage
+[Sample newsfeed]
+Beispielnewsfeed
+[Sample notification]
+Beispielbenachrichtigung
+;file \protocols\FacebookRM\src\json.cpp
+[a sticker]
+ein Sticker
+[files]
+Dateien
+[a file]
+eine Datei
+[photos]
+Fotos
+[a photo]
+ein Foto
+[User sent %s:]
+Benutzer hat Ihnen %s gesendet:
+[User sent an unsupported attachment. Open your browser to see it.]
+Benutzer hat Ihnen einen nicht unterstützten Anhang gesendet. Öffnen Sie Ihren Browser, um ihn anzusehen.
+[Message read: %s by %s]
+Nachricht gelesen: %s von %s
+[This message is no longer available, because it was marked as abusive or spam.]
+Diese Nachricht ist nicht mehr verfügbar, da sie als Missbrauch oder Spam markiert wurde.
+[%s is typing a message...]
+%s tippt eine Nachricht...
+;file \protocols\FacebookRM\src\messages.cpp
+[You cannot send messages when you are offline.]
+Nachrichten senden ist nicht möglich, wenn Sie offline sind.
+;file \protocols\FacebookRM\src\process.cpp
+[Contact is back on server-list.]
+Kontakt ist wieder in Ihrer Server-Liste.
+[Contact is no longer on server-list.]
+Kontakt ist nicht mehr in Ihrer Server-Liste.
+;file \protocols\FacebookRM\src\proto.cpp
+[%s server connection]
+%s Serververbindung
+[Unable to get Netlib connection for Facebook]
+Es konnte keine Netlib-Verbindung zu Facebook hergestellt werden
+[Facebook ID must be numeric value.]
+Facebook-ID muss ein numerischer Wert sein.
+[Network]
+Netzwerk
+[Account]
+Konto
+[Events]
+Ereignisse
+[Advanced]
+Erweitert
+[Share status...]
+Status teilen...
+[Own wall]
+Eigene Pinnwand
+[Loading newsfeeds...]
+Newsfeeds laden...
+[Checking friend requests...]
+Freundschaftsanfragen überprüfen...
+[Refreshing buddy list...]
+Freundesliste aktualisieren...
+[Do you want to cancel your friendship with '%s'?]
+Möchten Sie Ihre Freundschaft mit "%s" beenden?
+[Visit profile]
+Profil besuchen
+[Visit notifications]
+Benachrichtigungen besuchen
+[Show 'Share status' window]
+'Status teilen'-Fenster anzeigen
+[Notification]
+Benachrichtigung
+[News Feed]
+Newsfeed
+[Other Event]
+Andere Ereignisse
+[Message read: %s]
+Nachricht gelesen: %s
+;file \protocols\FacebookRM\src\theme.cpp
+[Facebook icon]
+Facebook-Icon
+[Mind]
+Pinnwand
+[Poke]
+Anstupsen
+[Newsfeed]
+Newsfeed
+[Friendship details]
+Freundschaft-Details
+[Conversation]
+Unterhaltung
+[Message read]
+Nachricht gelesen
+[Visit friendship details]
+Freundschaft-Details besuchen
+[Visit conversation]
+Unterhaltung besuchen
+[Cancel friendship]
+Freundschaft beenden
+[Cancel friendship request]
+Freundschaftsanfrage abbrechen
+[Request friendship]
+Freundschaftsanfrage
+[Approve friendship]
+Freundschaft genehmigen
+[Services...]
+Dienste...
+[Refresh Buddy List]
+Freundesliste aktualisieren
+[Services]
+Dienste
+[Check Friends Requests]
+Freundschaftsanfragen überprüfen
+[Check Newsfeeds]
+Newsfeeds überprüfen

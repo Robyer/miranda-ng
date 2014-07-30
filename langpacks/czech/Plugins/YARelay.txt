@@ -1,0 +1,67 @@
+﻿#muuid {01202e6a-c1b3-42e5-838a-3e497b31f38e}
+;============================================================
+;  File: YARelay.dll
+;  Plugin: YARelay
+;  Version: 0.1.0.1
+;  Authors: Anar Ibragimoff
+;============================================================
+[Forwards messages to some contact when you are not available.]
+Při vaší nedostupnosti přeposílá zprávy určenému kontaktu.
+;file \plugins\YARelay\res\yaRelay.rc
+[Forward messages from...]
+Přeposílat zprávy od...
+[Everyone]
+Kdokoliv
+[Contact]
+Kontakt
+[Forward when your status is...]
+Přeposílat pokud je stav...
+[Offline]
+Offline
+[Online]
+Online
+[Away]
+Na chvíli pryč
+[NA]
+Nejsem tady
+[Occupied]
+Nemám čas
+[DND]
+Nerušit!
+[Free for chat]
+Mám volno
+[Invisible]
+Neviditelný
+[Forward messages to...]
+Přeposílat zprávy na...
+[Template]
+Šablona
+[%u - user nick;   %i - uin;    %t - time;   \r%d - date;   %m - message]
+%u - přezdívka;   %i - ID;     %t - čas;    \r%d - datum;  %m - zpráva
+[Forwarding options]
+Možnosti přeposílání
+[Split message (%m)]
+Rozdělit zprávu (%m)
+[Send only first]
+Odeslat pouze první
+[Max size of split part (chars)]
+Maximální velikost rozdělené části (znaků)
+[Mark received messages as 'read']
+Označit přijaté zprávy jako přečtené
+[Save sent messages in recipient's history]
+Uložit odeslané zprávy do historie příjemce
+[split parts (0 = all)]
+počet částí (0 = vše)
+[Note: Max size - it's a size of %m parameter]
+Pozn.: Maximální velikost je velikost parametru %m
+[Note: messages from this contact will not be forwarded]
+Pozn.: Zprávy od tohoto kontaktu nebudou přeposílány
+;file \plugins\YARelay\src\options.cpp
+[!EVERYONE!]
+!VŠICHNI!
+[!DON'T FORWARD!]
+!NEPŘEPOSÍLAT!
+[Message Sessions]
+Komunikace
+[Messages forwarding]
+Přeposílání zpráv

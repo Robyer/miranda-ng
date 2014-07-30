@@ -1,0 +1,57 @@
+﻿#muuid {f93ba59c-4f48-4f2e-8a91-77a2801527a3}
+;============================================================
+;  File: QuickContacts.dll
+;  Plugin: Quick contacts
+;  Version: 1.0.0.0
+;  Authors: Ricardo Pescuma Domenecci, Heiko Schillinger
+;============================================================
+[Open contact-specific windows by hotkey.]
+Відкриває вікно з контактом з гарячої клавіші.
+[Last Sent]
+Остання відправлена подія
+[Enable last-sent-to]
+Ввімкнути останню подію
+[recognize all messages sent]
+Визначати всі надіслані повідомлення
+[recognize messages sent with hotkey only]
+Визначати тільки повідомлення, відправлені гар. клавішею
+[Contacts]
+Контакти
+[Show offline contacts on these protocols:]
+Показувати відкл. контакти для цих протоколів:
+[But hide them if protocol is offline]
+Але ховати їх, якщо протокол відключений
+[Append group name to contact name]
+Додавати групу для імені контакту
+[But show it as a column...]
+Але показувати її як колонку...
+[...on left side of name]
+...ліворуч від імені
+[Hide subcontacts]
+Ховати субконтакти
+[But keep subcontacts of protocols in above list if meta is hidden]
+Але показувати, якщо метаконтакт захований
+[Enter username:]
+Ввести ім'я:
+[Show all contacts (Ctrl+A)]
+Показати всі контакти (Ctrl+A)
+[Quick Contacts]
+Швидкі контакти
+[Open dialog]
+Відкрити діалог
+[Send file]
+Передати файл
+[Send URL]
+Надіслати URL
+[Open user info]
+Інформація користувача
+[Open history]
+Історія
+[Open contact menu]
+Відкрити меню контакту
+[Show all contacts]
+Показати всі контакти
+[Quick Contacts...]
+Швидкі контакти...
+[Send message]
+Надіслати

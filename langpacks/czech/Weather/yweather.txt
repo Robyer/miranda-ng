@@ -1,0 +1,102 @@
+﻿;============================================================
+;  File: yweather.ini
+;  Module: weather
+;============================================================
+[Feel]
+Subj.
+[Forecast Day 1]
+Předpověď na 1. den
+[Forecast Day 1 Condition]
+Předpověď na 1. den - počasí
+[Forecast Day 1 Date]
+Předpověď na 1. den - datum
+[Forecast Day 1 Day]
+Předpověď na 1. den - denní
+[Forecast Day 1 High]
+Předpověď na 1. den - nejvyšší
+[Forecast Day 1 Low]
+Předpověď na 1. den - nejnižší
+[Heat Index]
+Teplotní index
+[Wind Direction]
+Směr větru
+[Wind Speed]
+Rychlost větru
+[Wind Direction Degrees]
+Směr větru (stupně)
+[Mon]
+Po
+[Tue]
+Út
+[Wed]
+St
+[Thu]
+Čt
+[Fri]
+Pá
+[Sat]
+So
+[Sun]
+Ne
+[Sunny]
+slunečno
+[Partly Sunny]
+částečně slunečno
+[Mostly Sunny]
+převážně slunečno
+[Partly Cloudy]
+částečně oblačno
+[Mostly Cloudy]
+převážně oblačno
+[Mostly Clear]
+převážně jasno
+[N]
+S
+[W]
+Z
+[S]
+J
+[E]
+V
+[NW]
+SZ
+[NE]
+SV
+[SW]
+JZ
+[SE]
+JV
+[NNW]
+SSZ
+[NNE]
+SSV
+[SSW]
+JJZ
+[SSE]
+JJV
+[ENE]
+VSV
+[WSW]
+ZJZ
+[WNW]
+ZSZ
+[ESE]
+VJV
+[Scattered Clouds]
+střídavě oblačno
+[North]
+Severní
+[East]
+Východní
+[South]
+Jižní
+[West]
+Západní
+[Northwest]
+Severozápadní
+[Northeast]
+Severovýchodní
+[Southwest]
+Jihozápadní
+[Southeast]
+Jihovýchodní

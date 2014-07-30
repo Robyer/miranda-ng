@@ -1,0 +1,69 @@
+﻿#muuid {ce2c0401-f9e0-40d7-8e95-1a4197d7ab04}
+;============================================================
+;  File: FavContacts.dll
+;  Plugin: Favorite contacts
+;  Version: 0.1.0.3
+;  Authors: Victor Pavlychko
+;============================================================
+[Favorite contacts menu.]
+Меню обраних контактів.
+[Customize]
+Тонке налаштування
+[Show second line]
+Показувати другий рядок
+[Show avatars]
+Аватари
+[Draw avatar border]
+Границя на аватарах
+[Round corners by]
+Заокруглити кути
+[px.]
+пікс.
+[Hide for transparent avatars]
+Приховати для прозорих аватарів
+[Use system colors and fonts]
+Системні кольори і шрифти
+[Hotkey shows menu centered on screen]
+Меню по гарячій кл. в центрі екрану
+[Menu item preview:]
+Перегляд меню:
+[Favorite Contacts]
+Обрані контакти
+[Enable groups]
+Увімкнути групи
+[Multicolumn menu]
+Декілька стовпців
+[Configure fonts and colors...]
+Налаштувати шрифти і кольори...
+[Align to the right]
+Вирівнювання по правому краю
+[Dim idle contact icons]
+Затемнити контакти в очікуванні
+[Show]
+Показати
+[recent contacts]
+недавніх контактів
+[<no group>]
+<без групи>
+[Favorite Contact]
+Обрані контакти
+[Regular Contact]
+Звичайні контакти
+[Favorites]
+Обрані
+[Contacts]
+Контакти
+[Contact name]
+Ім'я контакту
+[Second line]
+Другий рядок
+[Selected contact name (color)]
+Ім'я контакту під курсором
+[Selected second line (color)]
+Другий рядок під курсором
+[Background]
+Фон
+[Selected background]
+Фон виділеного
+[Show favorite contacts]
+Показати обрані контакти

@@ -1,0 +1,127 @@
+﻿#muuid {0495171b-7137-4ded-97f8-ce6fed67d691}
+;============================================================
+;  File: IEView.dll
+;  Plugin: IEView
+;  Version: 1.4.0.0
+;  Authors: Piotr Piastucki, Francois Mean
+;============================================================
+[IE Based Chat Log.]
+Журнал на движке IE.
+[Copy]
+Копировать
+[Copy Link]
+Копировать ссылку
+[Select All]
+Выделить всё
+[Save Image As...]
+Сохранить изображение...
+[Print]
+Печать
+[Clear Log]
+Очистить журнал
+[Show source]
+Исходник шаблона
+[Options]
+Настройки
+[Enable BBCodes]
+Поддержка BBCode
+[Currently the following BBCodes are supported: [b][i][u][s][img][size][color][url]]
+Поддерживаются [b][i][u][s][img][size][color][url] BBкоды
+[Enable support for Flash files in smileys and BBCodes]
+Поддержка flash (*.swf) файлов в смайлах и BBкодах
+[Enable workaround for PNG transparency]
+Включить прозрачность для PNG
+[Replace smileys in user names]
+Смайлы в именах
+[Hide window border]
+Скрыть границы окна
+[Embed YouTube videos]
+Встраивать видео с YouTube
+[Size:]
+Размер:
+[Mode]
+Режим
+[Compatibility Mode]
+Режим совместимости
+[Use External CSS]
+Внешний CSS файл
+[Use Templates]
+Шаблон
+[Background image]
+Фоновое изображение
+[Scroll with text]
+Прокручивать с текстом
+[Template Options]
+Настройки шаблона
+[Use message grouping]
+Группировка сообщений
+[Show nicknames]
+Показывать ники
+[Show time]
+Показывать время
+[Show seconds]
+Секунды
+[Show date]
+Дата
+[Use long date format]
+Буквенный формат даты
+[Use relative timestamp]
+Относительное время
+[Outgoing File Transfer]
+Исходящий файл
+[Incoming File Transfer]
+Входящий файл
+[URL sent]
+Отправлен URL
+[URL received]
+Получен URL
+[(Unknown Contact)]
+(Неизвестный контакт)
+[ requested authorization]
+ запросил(а) авторизацию
+[ was added.]
+ был добавлен.
+[RESULT]
+результат
+[ERROR]
+ОШИБКА
+[%s has joined.]
+%s вошел.
+[%s has left.]
+%s вышел.
+[The topic is %s.]
+Тема %s
+[Error]
+Ошибка
+[General]
+Общее
+[Message Log]
+Журнал
+[Group chats]
+Чаты
+[History]
+История
+[Default]
+По умолчанию
+[Message Sessions]
+Беседы
+[IEView]
+Журнал IEView
+[Skins]
+Скины
+[Template]
+Шаблон
+[All Files]
+Все файлы
+[All Images]
+Все изображения
+[Style Sheet]
+Таблица стилей
+[Today]
+Сегодня
+[Yesterday]
+Вчера
+[File sent]
+Отправка файла
+[File received]
+Файл получен

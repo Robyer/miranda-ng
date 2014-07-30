@@ -1,0 +1,139 @@
+﻿#muuid {a9e9c114-84b9-434b-a3d5-89921d39ddff}
+;============================================================
+;  File: BuddyPounce.dll
+;  Plugin: Buddy pounce
+;  Version: 0.3.2.1
+;  Authors: Jonathan Gordon
+;============================================================
+[Allows you to send a message to contacts if they change status.]
+Позволяет вам отправлять сообщения контактам, если они меняют статус.
+[Confirm Pounce send]
+Подтверждение отправки отложенных
+[Send]
+Отправить
+[Cancel]
+Отмена
+[Pounce being sent to]
+Сообщение будет отправлено
+[Buddy Pounce]
+Отложенное сообщение
+[The Message:]
+Сообщение:
+[Delete Pounce]
+Удалить отложенное
+[Load default Settings]
+Загрузить по умолчанию
+[Setting Value]
+Значение
+[Setting text...........]
+Настройка текста.........
+[Settings]
+Настройки
+[Contact To Send Pounce To]
+Контакт для отправки отложенных
+[<< Simple]
+<< Простой
+[Advanced >>]
+Расширенный >>
+[The Message]
+Сообщение
+[Dialog]
+Диалог
+[Status]
+Статус
+[Use Advanced Dialog]
+Исп. расш. диалог
+[The Message (characters: )]
+Сообщение (символов: )
+[Default Settings]
+Стандартные настройки
+[Show Delivery Messages]
+Показ. доставл. сообщения
+[These settings are also used when sending a "Simple" pounce]
+Эти настройки также используются для "простых" отлож. сообщений
+[Send If My Status Is...]
+Отправлять, если мой статус...
+[Send If They Change Status to...]
+Отправлять, если они изменяют статус на...
+[Reuse Pounce]
+Повторить отложенное
+[Give Up delay]
+Задержка отмены
+[Confirmation Window]
+Окно подтверждения
+[Send If My Status Is]
+Отправлять, если мой статус
+[Any]
+Любой
+[Online]
+В сети
+[Away]
+Отсутствую
+[NA]
+Недоступен
+[Occupied]
+Занят
+[DND]
+Не беспокоить
+[Free For Chat]
+Готов болтать
+[Invisible]
+Невидимый
+[On The Phone]
+На телефоне
+[Out To Lunch]
+Обедаю
+[Send If Their Status changes]
+Отправлять, если они изменяют статус
+[From Offline]
+Из оффлайна
+[To Online]
+-> В сети
+[To Away]
+-> Отошел
+[To NA]
+-> Недоступен
+[To Occupied]
+-> Занят
+[To DND]
+-> Не беспокоить
+[To Free For Chat]
+-> Готов болтать
+[To Invisible]
+-> Невидимый
+[To On The Phone]
+-> На телефоне
+[To Out To Lunch]
+-> Обедаю
+[The Message    (%d Characters)]
+Сообщение      (%d символов)
+[Couldn't allocate enough memory]
+Не удалось выделить достаточное количество памяти
+[error......]
+ошибка......
+[The Message    (0 Characters)]
+Сообщение    (0 символов)
+[Reuse this message? (0 to use it once)]
+Повторить сообщение? (0, чтобы не повторять)
+[Times]
+раз
+[Give up after... (0 to not give up)]
+Отказаться после... (0, чтобы не отказываться)
+[Days]
+дней
+[Show confirmation window? (0 to not Show)]
+Показать окно подтверждения? (0, чтобы не показывать)
+[Seconds to wait before sending]
+секунд подождать перед отправкой
+[Pounce being sent to %s in %d seconds]
+Сообщение будет отправлено %s через %d секунд
+[Retry]
+Ещё раз
+[Message successfully sent to %s]
+Сообщение успешно послано %s
+[Message failed to send to %s]
+Ошибка отправки сообщения для %s
+[&Buddy Pounce]
+&Отложенное сообщение
+[Message Sessions]
+Беседы

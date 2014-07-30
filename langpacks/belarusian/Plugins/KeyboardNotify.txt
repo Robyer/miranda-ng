@@ -1,0 +1,216 @@
+﻿#muuid {119d7288-2050-448d-9900-d86ac70426bf}
+;============================================================
+;  File: KeyboardNotify.dll
+;  Plugin: Keyboard notify ext.
+;  Version: 1.5.7.7
+;  Authors: TioDuke
+;============================================================
+[Flashes your keyboard LEDs when a message has arrived.]
+Дадае мігценне святлодыёдаў клавіятуры пры прыбылых паведамленнях.
+;file \plugins\KeyboardNotify\res\resources.rc
+[Accounts to check]
+Правяраць наступныя:
+[Events to react on]
+Падзеі
+[Incoming messages]
+Уваходныя паведамленні
+[Incoming files]
+Уваходныя файлы
+[Incoming URLs]
+Уваходныя URL
+[Everything else]
+Усе іншыя
+[Message-Event only]
+Толькі для паведамленняў
+[Blink if message window is open]
+Мігаць, калі вакно гутаркі ачынена
+[and not in foreground]
+і не змешчана на пярэдні план
+[Only if last is]
+Калі апошн.
+[sec. old]
+сек. назад
+[Flash until]
+Міргаць так:
+[seconds]
+секунд(ы)
+[is re-attended]
+звароты
+[Events are opened]
+Падзеі будуць адкрытыя
+[End of 'notify when' conditions]
+Канчатак "абвясціць калі"
+[Notify when]
+Абвяшчаць, калі
+[Full Screen mode]
+Поўнаэкранны рэжым
+[Screen Saver is running]
+Запушчана застаўка
+[Workstation is locked]
+Камп'ютар заблакаваны
+[Defined programs are running]
+Запушчана ўказ. праграма
+[All other situations]
+Усе іншыя сітуацыі
+[Only notify if status is]
+Паказваць, калі статус
+[Online]
+Далучаны
+[Away]
+Адсутнічаю
+[Occupied]
+Заняты
+[NA]
+Недасяжны
+[DND]
+Не турбаваць
+[Free for chat]
+Вольны
+[Invisible]
+Нябачны
+[On the phone]
+На тэлефоне
+[Out to lunch]
+Абедаю
+[Pending Events]
+Чаканыя падзеі
+[Remind me every]
+Напам. кожныя
+[minutes]
+хвілін(ы)
+[Offline]
+Адключаны
+[xStatuses]
+хстатусы
+[Keys to flash]
+Чым лыпаць
+[Num Lock]
+Num Lock
+[Caps Lock]
+Caps Lock
+[Scroll Lock]
+Scroll Lock
+[Flashing effects]
+Міргаць
+[All at the same time]
+Усё адначасова
+[In turn]
+Па чарзе
+[In sequence]
+Па парадку
+[Custom theme]
+Свая тэма
+[Accordingly to events' count]
+Па колькасці падзей
+[Wait before starting flashing]
+Паўза перад пачаткам мігцення
+[Flash speed]
+Хуткасць мігцення
+[Fast]
+Хутка
+[Slow]
+Павольна
+[&Preview]
+&Тэст
+[Emulate key presses (Use this option if you are using a USB keyboard)]
+Эмуляваць націскі клавіш (Толькі для USB клавіятур)
+[Create/Edit Themes]
+Стварыць/Рэдагаваць тэму
+[Theme]
+Тэма
+[Test]
+Прагляд
+[Add]
+Дадаць
+[Update]
+Абнавіць
+[Delete]
+Выдаліць
+[Import/Export]
+Імпарт/Экспарт
+[Export...]
+Экспарт
+[Import...]
+Імпарт...
+[Override existing]
+Замяніць наяўнае
+[Set program list]
+Спіс праграм
+[Program]
+Праграма
+[Cancel]
+Скасаваць
+[Set LEDs for events]
+Усталяваць па падзеі
+[Num]
+Num
+[Caps]
+Caps
+[Scroll]
+Scroll
+[Message events]
+Паведамленні
+[File events]
+Файлы
+[URL events]
+Спасылкі (URL)
+[Other events]
+Іншыя падзеі
+[Consider event opened after]
+Дзейнічаць праз
+[Use custom theme]
+Ужыв. сваю тэму
+[The following events are being ignored:]
+Наступныя падзеі будуць праігнараваны:
+[Ignore messages]
+Паведамленні
+[Ignore URLs]
+Адрасы (URL)
+[Ignore files]
+Перадачы файлаў
+[Ignore others]
+Астатнія падзеі
+[Ignore all]
+Ігнараваць усё
+[Ignore none]
+Ніякія падзеі
+[Ignore]
+Ігнараваць
+[Set xStatus list]
+Спіс хстатусаў
+;file \plugins\KeyboardNotify\src\ignore.cpp
+[** All contacts **]
+** Усе кантакты **
+[** Unknown contacts **]
+** Невядомыя кантакты **
+;file \plugins\KeyboardNotify\src\options.cpp
+[left->right]
+лева->права
+[right->left]
+права->лева
+[left<->right]
+лева<->права
+[Keyboard Flash]
+Мігценне клавіятуры
+[Events]
+Падзеі
+[Accounts]
+Конты
+[Rules]
+Кіравала
+[Flashing]
+Мігценне
+[Themes]
+Тэмы
+[Protocol]
+Пратакол
+[Keyboard Notify Theme]
+Тэма звесткі
+[All Files]
+Усе файлы
+[\n; Automatically generated Keyboard Notify Theme file\n\n\n]
+\n ; Аўтаматычна згенераваны файл тэмы Keyboard Notify\n\n
+[\n; End of automatically generated Keyboard Notify Theme file\n]
+\n; Канец аўтаматычна згенераванага файла тэмы Keyboard Notify\n\n
+[None]
+Няма

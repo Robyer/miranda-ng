@@ -1,0 +1,47 @@
+﻿#muuid {cf25d645-4dab-4b0a-b9f1-de1e86231f9b}
+;============================================================
+;  File: MsgPopup.dll
+;  Plugin: Message popup
+;  Version: 0.1.1.3
+;  Authors: StDenis
+;============================================================
+[Plugin replaces message boxes (those having only OK button) with popups.]
+Заменяет диалоговые окна (которые имеют лишь кнопку ОК) на всплывающие окна.
+[ASTERISK style]
+Звездочка
+[Background color]
+Цвет фона
+[Text color]
+Цвет текста
+[ERROR style]
+Ошибка
+[EXCLAMATION style]
+Восклицание
+[QUESTION style]
+Вопрос
+[Preview]
+Тест
+[Timeout]
+Таймаут
+[Special values of the "Timeout":\n -1 - infinity, 0 - use default timeout value]
+Специальные значения "таймаута":\n -1 - постоянно, 0 - значение по умолчанию
+[Emit a sound]
+Играть звук
+[VirtualProtect failed. Code %d\nTry to call the author]
+Ошибка виртуальной защиты. Код %d\nСвяжитесь с автором
+[Error]
+Ошибка
+[Hmm. Something goes wrong. I can't write into the memory.\nAnd as you can see, there are no any exception raised...\nTry to call the author]
+Гм. Что-то пошло не так. Не удается произвести запись в память.\И, как вы уже видите, не сгенерировано никакого исключения...\nПопробуйте отправить сообщение об ошибке
+[MessagePopup]
+Диалоговые окна
+[Popups]
+Всплывающие окна
+[Message with question]
+Сообщение с вопросом
+[Message with exclamation]
+Восклицание
+[Message with error]
+Предупреждение об ошибке
+[Message with asterisk]
+Сообщение *со звёздочкой*

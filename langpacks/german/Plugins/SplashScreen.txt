@@ -1,0 +1,54 @@
+﻿#muuid {c64cc8e0-cf03-474a-8b11-8bd4565ccf04}
+;============================================================
+;  File: SplashScreen.dll
+;  Plugin: Splash screen
+;  Version: 0.1.2.3
+;  Authors: nullbie, Thief
+;============================================================
+[Shows a splash at Miranda startup.]
+Zeigt einen "Splash" während des Startvorgangs.
+;file \plugins\SplashScreen\res\splash.rc
+[Splash Options]
+Splash-Einstellungen
+[Show splash]
+Splash anzeigen
+[Show random splash]
+Zufälligen Splash anzeigen
+[Play sound]
+Sound abspielen
+[Show Miranda Version]
+Mirandaversion anzeigen
+[Enable]
+Aktivieren
+[Prefix:]
+Präfix:
+[Appearance]
+Erscheinungsbild
+[Display time:]
+Anzeigedauer:
+[ms]
+ms
+[Fade in:]
+Einblenden:
+[steps]
+Schritte
+[Fade out:]
+Ausblenden:
+[AdvaImg plugin not found. Please get it from http://miranda-ng.org/p/AdvaImg/ to be able to use images.]
+Advaimg.dll nicht gefunden. Bitte entnehmen Sie die Datei aus der aktuellen Stable-/Testing-Version.
+[Preview...]
+Vorschau...
+;file \plugins\SplashScreen\src\main.cpp
+[Your advaimg.dll is either obsolete or damaged. Get latest from Miranda alpha builds.]
+Ihre advaimg.dll ist entweder veraltet oder beschädigt. Laden Sie sich die neuste aus den Miranda-Entwicklungsversionen.
+[Error]
+Fehler
+;file \plugins\SplashScreen\src\options.cpp
+[Graphic files]
+Grafikdateien
+[Sound Files]
+Klangdateien
+[Skins]
+Skins
+[Splash Screen]
+Splash Screen

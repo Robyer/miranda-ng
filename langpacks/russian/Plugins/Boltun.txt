@@ -1,0 +1,71 @@
+﻿#muuid {488c5c84-56da-434f-96f1-b18900def760}
+;============================================================
+;  File: Boltun.dll
+;  Plugin: Boltun
+;  Version: 0.0.3.0
+;  Authors: Alexander S. Kiselev, Valentin Pavlyuchenko
+;============================================================
+[Boltun, the chat bot in the russian language.]
+Болтун, чат-бот для русского языка.
+[Boltun]
+Болтун
+[Boltun Autochat everybody]
+Болтун говорит со всеми
+[Boltun Autochat everybody not in contact list]
+Болтун говорит со всеми, кто не в списке контактов
+[Boltun Autochat everybody while away]
+Болтун говорит со всеми, когда меня нет
+[Warn contacts Boltun is chatting]
+Предупреждать о разговоре с Болтуном
+[Mark replied messages as read]
+Отмечать сообщения как прочитанные
+[sec]
+с
+[Warning text]
+Текст предупреждения
+[Time before the answer]
+Время перед ответом
+[Typing time depends on message length (in chars)]
+Время печати зависит от длины сообщения (в буквах)
+[Typing and thinking time can be much longer]
+Время печати и обдумывания может увеличиваться
+[Typing time (for a message of 4 words):]
+Время набора (для 4-х слов):
+[Thinking time:]
+Время обдумывания ответа:
+[Engine]
+Движок
+[Base of remarks]
+База реплик
+[Reload]
+Перегрузить
+[Stay silent, if have no good aswers]
+Молчать, если нет хороших ответов
+[Start answers with a lowercase letter]
+Начинать ответы с маленькой буквы.
+[Don't use "I don't understand"-like answers]
+Не использовать ответы типа "Не понял?"
+[Message sessions]
+Беседы
+[Mind Files]
+Mind файлы
+[All Files]
+Все файлы
+[Boltun/Auto Chat]
+Болтун/Авторазговор
+[Boltun/Not to Chat]
+Болтун/Не разговаривать
+[Boltun/Start Chatting]
+Болтун/Начать разговор
+[Hello. I'm Boltun! I'll talk to you, while my owner is away. Please write without mistakes!]
+Привет, я - Болтун! Я с тобой поговорю, пока хозяина нет. Пожалуйста, пиши без ошибок!
+[Boltun Error]
+Ошибка Болтуна
+[Failed to load base of remarks. Error at line %d of %s. (Or few lines before).]
+Не удалось загрузить базу реплик. Ошибка в строке %d файла %s. (Или несколькими строками ранее).
+[Failed to save base of remarks to %s]
+Не удалось сохранить базу реплик в файл %s
+[General Settings]
+Основные настройки
+[Engine Settings]
+Настройки движка

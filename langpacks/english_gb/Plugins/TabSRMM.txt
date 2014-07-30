@@ -1,0 +1,107 @@
+﻿#muuid {6ca5f042-7a7f-47cc-a715-fc8c46fbf434}
+;============================================================
+;  File: TabSRMM.dll
+;  Plugin: TabSRMM
+;  Version: 3.3.1.7
+;  Authors: The Miranda developers team and contributors
+;============================================================
+[Customize the panel]
+Customise the panel
+[Default colors]
+Default colours
+[Use the message log color theme for group chat popups]
+Use the message log colour theme for group chat popups
+[Contact is a favorite contact]
+Contact is a favourite contact
+[Vertical maximize]
+Vertical maximise
+[Enable popups if minimized]
+Enable popups if minimised
+[Play sounds when minimized]
+Play sounds when minimised
+[ESC key behavior]
+ESC key behaviour
+[Use contact list groups for organizing tabs (one window per group)]
+Use contact list groups for organising tabs (one window per group)
+[U&se Popup colors]
+U&se Popup colours
+[&Use Windows colors]
+&Use Windows colours
+[Define up to 5 colors which you can use with some variables]
+Define up to 5 colours which you can use with some variables
+[Load fonts and colors provided by skin]
+Load fonts and colours provided by skin
+[You can export and import all your color and font settings here. This allows you to create a Theme file which can be shared between different profiles or with your buddies.]
+You can export and import all your colour and font settings here. This allows you to create a Theme file which can be shared between different profiles or with your buddies.
+[Esc closes sessions (minimizes window, if disabled)]
+Esc closes sessions (minimises window, if disabled)
+[Create new windows in minimized state]
+Create new windows in minimised state
+[Minimize the message window on send]
+Minimise the message window on send
+[Pop up minimized window when a new tab is created]
+Pop up minimised window when a new tab is created
+[Automatically switch tabs in minimized windows]
+Automatically switch tabs in minimised windows
+[Favorites]
+Favourites
+[Default Color]
+Default Colour
+[Add Contact to Favorites]
+Add Contact to Favourites
+[Remove Contact from Favorites]
+Remove Contact from Favourites
+[Show Popups if Window is minimized]
+Show Popups if Window is minimised
+[Select font color]
+Select font colour
+[Change background color]
+Change background colour
+[Session list.\nClick left for a list of open sessions.\nClick right to access favorites and quickly configure message window behavior]
+Session list.\nClick left for a list of open sessions.\nClick right to access favourites and quickly configure message window behaviour
+[One of your popup actions is set to DISMISS EVENT.\nNote that this options may have unwanted side effects as it REMOVES the event from the unread queue.\nThis may lead to events not showing up as "new". If you don't want this behavior, please review the Event Notifications settings page.]
+One of your popup actions is set to DISMISS EVENT.\nNote that this options may have unwanted side effects as it REMOVES the event from the unread queue.\nThis may lead to events not showing up as "new". If you don't want this behaviour, please review the Event Notifications settings page.
+[UID: %s (SHIFT click -> copy to clipboard)\nClick for User's Details\nRight click for metacontact control\nClick dropdown to add or remove user from your favorites.]
+UID: %s (SHIFT click -> copy to clipboard)\nClick for User's Details\nRight click for metacontact control\nClick dropdown to add or remove user from your favourites.
+[UID: %s (SHIFT click -> copy to clipboard)\nClick for User's Details\nClick dropdown to change this contact's favorite status.]
+UID: %s (SHIFT click -> copy to clipboard)\nClick for User's Details\nClick dropdown to change this contact's favourite status.
+[Do not synchronize the panel height with IM windows]
+Do not synchronise the panel height with IM windows
+[Do not synchronize the panel height with group chat windows]
+Do not synchronise the panel height with group chat windows
+[Minimize the window to the task bar]
+Minimise the window to the task bar
+[Font color]
+Font colour
+[Background color]
+Background colour
+[Semi transparent, custom colors]
+Semi transparent, custom colours
+[Custom (use own gradient colors)]
+Custom (use own gradient colours)
+[Message window behavior]
+Message window behaviour
+[New windows are minimized (the option above MUST be active)]
+New windows are minimised (the option above MUST be active)
+[Activate a minimized window when a new tab is created inside it]
+Activate a minimised window when a new tab is created inside it
+[Automatically switch existing tabs in minimized windows on incoming messages (ignored when using Aero Peek task bar features)]
+Automatically switch existing tabs in minimised windows on incoming messages (ignored when using Aero Peek task bar features)
+[Loading a theme|Loading a color and font theme can overwrite the settings defined by your skin.\n\nDo you want to continue?]
+Loading a theme|Loading a colour and font theme can overwrite the settings defined by your skin.\n\nDo you want to continue?
+[Text color]
+Text colour
+[Common colors]
+Common colours
+[Window fill color]
+Window fill colour
+[Generic text color (only when fill color is set)]
+Generic text colour (only when fill colour is set)
+[Colorize nicknames in member list]
+Colourise nicknames in member list
+[Timestamp has same color as the event]
+Timestamp has same colour as the event
+[Strip colors from messages in the log]
+Strip colours from messages in the log
+[Colorize user names in message log]
+Colourise user names in message log

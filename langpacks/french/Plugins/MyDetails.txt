@@ -1,0 +1,158 @@
+﻿#muuid {a82baeb3-a33c-4036-b837-7803a5b6c2ab}
+;============================================================
+;  File: MyDetails.dll
+;  Plugin: My details
+;  Version: 0.0.1.12
+;  Authors: Ricardo Pescuma Domenecci, Drugwash
+;============================================================
+[Shows and allows you to edit your details for all protocols.]
+
+;file \plugins\MyDetails\res\resource.rc
+[Set my nickname]
+Changer mon pseudo
+[Nickname:]
+Pseudo :
+[Cancel]
+Annuler
+[General]
+Général
+[RTL]
+Lecture inversée
+[Align text to right]
+Aligner à droite
+[Auto-resize frame]
+Cadre dynamique
+[Use contact list smileys]
+Smileys dans la CList
+[Replace smileys]
+Remplacer les smileys
+[Resize smileys]
+Retailler les smileys
+[Global on...]
+
+[...avatar]
+
+[...nickname]
+
+[...status]
+
+[...status message]
+
+[Account]
+Compte
+[Show account name]
+
+[Show account cycle button]
+
+[Cycle through accounts every:]
+
+[seconds]
+secondes
+[Avatar]
+Avatar
+[Custom size:]
+Taille :
+[pixels]
+pixels
+[Allow it to grow]
+Permettre l'agrandissement
+[Draw border]
+Afficher les bordures
+[Round corners]
+Coins arrondis
+[Custom corner size:]
+Personnaliser la taille des angles :
+[Use free space (under avatar) to other texts]
+Utiliser l'espace libre sous l'avatar pour d'autres textes
+[Frame options]
+
+[Top:]
+Haut :
+[Bottom:]
+Bas :
+[Left:]
+Gauche :
+[Right:]
+Droite :
+[Set my status message for all status]
+Changer le message pour tous les états
+[Status message:]
+Message d'état :
+[&Offline]
+&Hors ligne
+[On&line]
+&En ligne
+[&Away]
+&Absent
+[&NA]
+&Indisponible
+[Occ&upied]
+&Occupé
+[&DND]
+&Ne pas déranger
+[&Free for chat]
+&OK pour un chat
+[&Invisible]
+
+[On the &phone]
+&Au téléphone
+[Out to &lunch]
+&Parti manger
+[Set my avatar...]
+Changer mon avatar...
+[Set my nickname...]
+Changer mon pseudo...
+[Set my status message...]
+Changer mon message d'état...
+[Enable listening to]
+Afficher ce que l'autre écoute
+[Show next account]
+
+[Show previous account]
+
+[Cycle through accounts]
+
+[Don't cycle through accounts]
+
+;file \plugins\MyDetails\src\data.cpp
+[<no status name>]
+<aucun état>
+;file \plugins\MyDetails\src\frame.cpp
+[Nickname]
+Pseudo
+[Status]
+État
+[Status message]
+
+[Listening to]
+Écoute
+[My details]
+Mes détails
+[Background]
+Arrière-plan
+[Avatar border]
+
+[Show my details]
+Afficher mes détails
+[Enable listening to for %s]
+Afficher ce que %s écoute
+[Set my avatar for %s...]
+Changer mon avatar pour %s...
+[Set my nickname for %s...]
+Changer mon pseudo pour %s...
+[Set my status message for %s...]
+Changer mon message d'état pour %s...
+[Hide my details]
+Cacher mes détails
+;file \plugins\MyDetails\src\mydetails.cpp
+[Previous account]
+
+[Next account]
+
+[Set my nickname for %s]
+Changer mon pseudo pour %s
+[Set my status message for %s]
+Changer mon message d'état pour %s
+[Contact list]
+Liste de contacts
+;file \plugins\MyDetails\src\options.cpp

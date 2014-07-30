@@ -1,0 +1,54 @@
+﻿#muuid {c64cc8e0-cf03-474a-8b11-8bd4565ccf04}
+;============================================================
+;  File: SplashScreen.dll
+;  Plugin: Splash screen
+;  Version: 0.1.2.3
+;  Authors: nullbie, Thief
+;============================================================
+[Shows a splash at Miranda startup.]
+Zobrazí logo při spuštění Mirandy.
+;file \plugins\SplashScreen\res\splash.rc
+[Splash Options]
+Logo při spuštění
+[Show splash]
+Zobrazit logo
+[Show random splash]
+Zobrazit náhodné logo
+[Play sound]
+Přehrát zvuk
+[Show Miranda Version]
+Zobrazit verzi Mirandy
+[Enable]
+Aktivovat
+[Prefix:]
+Prefix:
+[Appearance]
+Vzhled
+[Display time:]
+Doba zobrazení:
+[ms]
+ms
+[Fade in:]
+Náběh:
+[steps]
+kroků
+[Fade out:]
+Doběh:
+[AdvaImg plugin not found. Please get it from http://miranda-ng.org/p/AdvaImg/ to be able to use images.]
+Doplněk AdvaImg nebyl nalezen. Abyste mohli pracovat s obrázky, stáhněte si jej z http://miranda-ng.org/p/AdvaImg/
+[Preview...]
+Náhled...
+;file \plugins\SplashScreen\src\main.cpp
+[Your advaimg.dll is either obsolete or damaged. Get latest from Miranda alpha builds.]
+Knihovna advaimg.dll je buď zastaralá nebo porušená. Stáhněte si aktuální z distribuce Mirandy.
+[Error]
+Chyba
+;file \plugins\SplashScreen\src\options.cpp
+[Graphic files]
+Grafické soubory
+[Sound Files]
+Zvukové soubory
+[Skins]
+Skiny
+[Splash Screen]
+Logo při spuštění

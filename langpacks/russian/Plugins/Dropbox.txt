@@ -1,0 +1,75 @@
+﻿#muuid {b908773a-86f7-4a91-8674-6a20ba0e67d1}
+;============================================================
+;  File: Dropbox.dll
+;  Plugin: Dropbox
+;  Version: 0.11.0.3
+;  Authors: unsane
+;============================================================
+[Allows to transfer files via Dropbox.]
+Загрузка и пересылка файлов с помощью Dropbox.
+[Authorization]
+Авторизация
+[To allow Miranda NG access in your Dropbox account:]
+Дать доступ Miranda NG к вашей учётной записи Dropbox:
+[Go to this link]
+Перейти по ссылке
+[Allow access to app folder]
+Разрешить доступ к папке приложения
+[Enter authorization code]
+Ввести код авторизации
+[Initiate authorization]
+Инициировать авторизацию
+[Authorize]
+Авторизовать
+[Download link]
+Ссылка
+[Use shortened download links]
+Использовать сокращённые ссылки
+[Check status of authorization]
+Проверить статус авторизации
+[Autosend download link to contact]
+Автоматически отправлять ссылку контакту
+[Paste download link into message input area]
+Вставить сылку в поле ввода
+[Copy download link to clipboard]
+Копировать ссылку в буфер обмена
+[in process...]
+в процессе...
+[you have been authorized]
+авторизация прошла успешно
+[server does not respond]
+сервер не отвечает
+[Dropbox supports the following commands:]
+Доступны следующие команды:
+[shows all files in folder "dir" ("dir" can be omitted for root folder)]
+отображает содержимое папки "dir" ("dir" можно опустить, если речь о корневой папке)
+[returns download link for file or folder with specified path ("path" is relative from root folder)]
+возвращает ссылку на файл или папку, расположенную по указанному пути (относительно корневой папки)
+[deletes file or folder with specified path ("path" is relative from root folder)]
+удаляет файл или папку по указанному пути (относительно корневой папки)
+[is file]
+это файл
+[is empty]
+пустая
+["%s" command has invalid parameter.\nUse "/help" for more info.]
+неверный параметр команды "%s".\nИспользуйте "/help" для получения справки.
+[is not deleted]
+не удалён
+[is deleted]
+удалён
+[you are already authorized]
+вы уже авторизованы
+[you are not authorized yet]
+вы еще не авторизованы
+[Send files to Dropbox]
+Файл через Dropbox
+[Network]
+Сеть
+[Protocols]
+Протоколы
+[Protocol icon]
+Значок протокола
+[Unknown command "%s".\nUse "/help" for more info.]
+Неизвестная команда "%s".\nИспользуйте "/help" для получения справки.
+["%s" is not valid.\nUse "/help" for more info.]
+"%s" не действительна.\nИспользуйте "/help" для получения справки.

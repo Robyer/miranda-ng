@@ -1,0 +1,171 @@
+﻿#muuid {dbe8c990-7aa0-458d-bab7-33eb07238e71}
+;============================================================
+;  File: AvatarHistory.dll
+;  Plugin: Avatar history
+;  Version: 0.1.0.1
+;  Authors: Matthew Wild (MattJ), Ricardo Pescuma Domenecci
+;============================================================
+[This plugin keeps backups of all your contacts' avatar changes and/or shows popups.]
+Плагін зберігає історію зміни аватарів контактів і показує спливаючі вікна.
+[Avatar List Popup]
+Сплив. вікно списку аватарів
+[Save As...]
+Зберегти як...
+[Delete this entry]
+Видалити цей запис
+[Delete this entry and the bitmap file]
+Видалити цей запис і файл зображення
+[Avatar History]
+Історія аватарів
+[Static]
+Статичний
+[Open Folder]
+Відкрити папку
+[Store this user's old avatars in disk]
+Зберігати старі аватари на диску
+[Log this user's avatars changes to history]
+Зберігати зміну аватарів в історії
+[Show popups for this user]
+Сплив. вікна для цього користувача
+[Protocols]
+Протоколи
+[Enable tracking for these protocols:]
+Відстежувати протоколи:
+[Metacontacts have special handling: the info is always copied from subcontacts (notifications from a meta are ignored)]
+Метаконтакти обробляються особливо: інформація завжди копіюється з субконтактів (сповіщення від метаконтактів ігноруються)
+[Show popup when a contact change his avatar]
+Спливаюче вікно при зміні аватару
+[Colors]
+Кольори
+[Background color]
+Колір фону
+[Text color]
+Колір тексту
+[Use Windows colors]
+Кольори Windows
+[Use default colors]
+Кольори за замовчанням
+[Delay]
+Затримка
+[From Popup plugin]
+З плагіну сплив. викон
+[Custom]
+Обрані
+[Permanent]
+Постійно
+[Actions]
+Дії
+[On right click:]
+Правий клік:
+[On left click:]
+Лівий клік:
+[Track]
+Стежити
+[Avatar change:]
+Зміна аватара:
+[Avatar removal:]
+Видалення аватара:
+[Preview]
+Тест
+[Avatar History: Select how to store history avatars]
+Історія аватарів: виберіть, як зберігати історію аватарів
+[Please select how the avatar history should be stored. This setting CANNOT be changed in future, because it would cause all previous history to be lost.]
+Виберіть, яким чином зберігати історію аватарів контактів. Це налаштування НЕ можна буде змінити в майбутньому, тому що всі попередні події історії будуть втрачені.
+[Store history in Miranda history and all history avatars in same folder]
+Зберігати історію в історії Miranda і всі аватари в одній папці
+[Store history in Miranda history and history avatars in per protocol folders]
+Зберігати історію в папці Miranda і історію аватарів в папці протоколів
+[Store history in Miranda history and history avatars in per contact folders using shortcuts]
+Зберігати історію в історії Miranda і історію аватарів в папці контакту, використовуючи ярлики
+[Store history avatars in per contact folders using shortcuts]
+Зберігати історію для кожного контакту, використовуючи ярлики
+[Store history avatars in per contact folders]
+Зберігати історію в папці кожного контакту
+[History is stored inside Miranda database. It can be seen by History++ or Avatar History internal viewer.]
+Історія зберігається в БД Miranda. Вона може бути відображена вбудованим переглядачем або плагіном History++
+[All avatars are stored as <Profile>\\Avatars History\\<Avatar Hash>]
+Всі аватари зберігаються як <Профіль>\\Avatars History\\<Хеш Аватара>
+[All avatars are stored as <Profile>\\Avatars History\\<Protocol>\\<Avatar Hash>]
+Всі аватари зберігаються як <Профіль>\\Avatars History\\<Протокол>\\<Хеш Аватара>
+[All avatars are stored as <Profile>\\Avatars History\\<Protocol>\\<Avatar Hash> and have a shortcut per history entry in <Profile>\\Avatars History\\<Protocol>\\<Contact ID>\\<Timestamp>]
+Всі аватари зберігаються як <Профіль>\\Avatars History\\<Протокол>\\<Хеш аватара> і мають ярлик в історії <Профіль>\\Avatars History\\<Протокол>\\<ID контакту>\\<Час>
+[History is stored only in disk. It can be seen by Avatar History internal viewer.]
+Історія зберігається тільки на диск. Її можна переглянути вбудованим переглядачем.
+[All avatars are stored as <Profile>\\Avatars History\\<Protocol>\\<Contact ID>\\<Timestamp> (the same image can be stored lot of times)]
+Всі аватари зберігаються як <Профіль>\\Avatars History\\<Протокол>\\<ID контакту>\\<час> (однакові аватари можуть бути збережені кілька разів)
+[Avatar History for %s]
+Історія аватарів для %s
+[Are you sure you wish to delete this history entry?\nOnly the entry in history will be deleted, bitmap file will be kept!]
+Ви впевнені, що хочете видалити цей запис з історії?\nБуде видалено тільки сам запис, файл зображення залишиться!
+[Delete avatar log?]
+Видалити записи змін аватарів?
+[Are you sure you wish to delete this avatar shortcut?\nOnly shortcut will be deleted, bitmap file will be kept!]
+Ви впевнені, що хочете видалити цей ярлик аватара?\nБуде видалено тільки ярлик, файл зображення залишиться!
+[Are you sure you wish to delete this archived avatar?\nThis will delete the history entry and the bitmap file.\nWARNING:This can affect more than one entry in history!]
+Ви впевнені, що хочете видалити цей збережений аватар?\nБуде видалено запис з історії та файл зображення.\nУВАГА: Це може стосуватися кількох записів у історії!
+[Delete avatar?]
+Видалити аватар?
+[Are you sure you wish to delete this archived avatar?\nThis will delete the shortcut and the bitmap file.\nWARNING:This can affect more than one shortcut!]
+Ви впевнені, що хочете видалити цей збережений аватар?\nБуде видалено ярлик та файл зображення.\nУВАГА: Це може стосуватися кількох ярликів!
+[Avatar History is empty!]
+Історія аватарів порожня!
+[avatar path is null.]
+Не вказано шлях до аватарів.
+[View Avatar History]
+Показати історію аватарів
+[Save Avatar for %s]
+Зберегти аватар %s
+[Save Avatar]
+Зберегти аватар
+[AVH Debug]
+Налагодження AVH
+[Removed avatar, no avatar before... skipping]
+Аватар видалено, немає старіших аватарів... пропустити
+[Hashes are the same... skipping]
+Хеші ті ж самі... пропустити
+[Avatar History: Unable to save avatar]
+Історія аватарів: неможливо зберегти аватар
+[AVH Debug: File copied successfully]
+Налагодження AVH: файл успішно скопіюваний
+[Avatars]
+Аватари
+[Contact changed avatar]
+Контакт змінив аватар
+[Contact removed avatar]
+Контакт видалив аватар
+[removed his/her avatar]
+видалив(ла) свій аватар
+[changed his/her avatar]
+змінив(ла) свій аватар
+[History]
+Історія
+[Avatar Overlay]
+Накладення аватару
+[Do nothing]
+Нічого не робити
+[Close popup]
+Закрити сплив. вікно
+[Show avatar history]
+Показати історію аватарів
+[Show contact history]
+Показати історію контакту
+[Test Contact]
+Тестовий контакт
+[Test description]
+Тестовий опис
+[Avatar]
+Аватар
+[Popups]
+Сплив. вікна
+[Avatar Change]
+Зміна аватарів
+[Unknown UIN]
+Невідомий номер
+[Unknown Protocol]
+Невідомий протокол
+[AVH Debug: GetOldStyleAvatarName]
+Налагодження AVH: GetOldStyleAvatarName
+[Avatar History: Unable to create shortcut]
+Історія аватарів: неможливо створити ярлик
+[AVH Debug: Shortcut created successfully]
+Налагодження AVH: ярлик успішно створений

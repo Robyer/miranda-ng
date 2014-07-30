@@ -1,0 +1,107 @@
+﻿#muuid {e47cc215-0d28-462d-a0f6-3ae4443d2926}
+;============================================================
+;  File: Nudge.dll
+;  Plugin: Nudge
+;  Version: 0.1.0.1
+;  Authors: Tweety/GouZ, FREAK_THEMIGHTY
+;============================================================
+[Plugin to shake the contact list and chat window.]
+Doplněk pro zatřesení seznamem kontaktů a komunikačním oknem.
+;file \plugins\Nudge\res\resource.rc
+[Protocol options]
+Možnosti protokolu
+[Specify options for each protocol]
+Definovat pro každý protokol zvlášť
+[Open contact list]
+Zobrazit seznam kontaktů
+[Enable contact list shaking]
+Povolit zatřesení seznamem
+[Open message window]
+Otevřít komunikační okno
+[Enable message window shaking]
+Povolit zatřesení oknem
+[Show as status change]
+Zobrazit jako změnu stavu
+[Auto resend nudge after]
+Automaticky znovu drcnout po
+[s]
+s
+[Enable popup notification]
+Povolit oznámení
+[Respect ignore settings (status changes)]
+Zohlednit filtrování kontaktů (změny stavu)
+[Sending text]
+Text při odeslání 
+[Receiving text]
+Text při přijetí 
+[Privacy]
+Soukromí
+[Allow sending* one nudge to the same contact every:]
+Drcnout* do jednoho a téhož kontaktu max. jednou za:
+[Allow receiving one nudge from the same contact every:]
+Umožnit drcnutí jednomu a témuž kontaktu max. jednou za:
+[* Nudge sending delay is hardcoded and cannot be changed.]
+* Prodleva pro drcnutí je pevně určena a nemůže být změněna.
+[Preview]
+Náhled
+[Text]
+Text
+[Allow nudges when you're:]
+Povolit drcnutí ve stavu:
+[Offline]
+Offline
+[Online]
+Online
+[Away]
+Na chvíli pryč
+[NA]
+Nejsem tady
+[Occupied]
+Nemám čas
+[DND]
+Nerušit!
+[Free for chat]
+Mám volno
+[Invisible]
+Neviditelný
+[On the phone]
+Mám telefon
+[Out to lunch]
+Jsem na obědě
+[Shaking contact list options]
+Možnosti zatřesení seznamem kontaktů
+[Number of moves]
+Počet posunutí
+[Width of move]
+O kolik posunout
+[Static]
+Statický
+[Shaking Message Window Options]
+Možnosti komunikačního okna
+;file \plugins\Nudge\src\main.cpp
+[You are not allowed to send too much nudge (only 1 each %d sec, %d sec left)]
+Upozornění: Drcnutí lze opakovat jen jednou za %d sek. (%d sek. zbývá)
+[Nudge]
+Drcnutí
+[Default Nudge]
+Výchozí drcnutí
+[Nudge as Default]
+Drcnutí jako výchozí
+[Send Nudge]
+Drc-drc
+[Show Nudge]
+Drcnutí
+[Nudge for %s]
+Drcnutí v síti %s
+[Send &Nudge]
+&Drc-drc
+;file \plugins\Nudge\src\nudge.cpp
+[You received a nudge]
+No tak, probuď se!
+[You sent a nudge]
+Snad se probudí...
+;file \plugins\Nudge\src\options.cpp
+[Events]
+Události
+[Window Shaking]
+Zatřesení oknem

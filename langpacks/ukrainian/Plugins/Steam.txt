@@ -1,0 +1,53 @@
+﻿#muuid {68f5a030-ba32-48ec-9507-5c2fbdea5217}
+;============================================================
+;  File: Steam.dll
+;  Plugin: Steam protocol
+;  Version: 0.11.0.1
+;  Authors: unsane
+;============================================================
+[Steam protocol support for Miranda NG.]
+Підтримка протоколу Steam у Miranda NG.
+[Username:]
+Користувач:
+[Password:]
+Пароль:
+[Default group:]
+Група:
+[Account]
+Обліковий запис
+[Captcha]
+Перевірочний код
+[Cancel]
+Скасувати
+[As an added account security measure, you'll need to grant access by entering the special code we've just sent to your email address.]
+Для цього облікового запису ввімкнено Steam Guard, тому необхідно ввести спеціальний код, який було вислано на адресу вашої електронної пошти.
+[Go to email domain]
+Перейти до поштової скринки
+[Block]
+Заблокувати
+[%s has added you to his or her Friend List]
+%s додав(ла) вас до списку друзів
+[Fatal error, image services not found. Avatar services will be disabled.]
+Невиправна помилка: не знайдено службу зображень. Аватари будуть вимкнені.
+[Avatar Service]
+Служба аватарів
+[Name]
+Ім'я
+[%s connection]
+%s подключення
+[Network]
+Мережа
+[Blocked contacts]
+Заблоковані контакти
+[Steam menu chooser]
+Вибір меню Steam
+[Request authorization]
+Запитати авторизацію
+[Join to game]
+Приєднатися до гри
+[%s has been removed from your contact list]
+%s видалений з вашого списку контактів
+[Protocols]
+Протоколи
+[Protocol icon]
+Значок протоколу

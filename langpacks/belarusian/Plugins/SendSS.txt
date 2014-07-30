@@ -1,0 +1,201 @@
+﻿#muuid {ed39af7c-becd-404e-9499-4d04f711b9cb}
+;============================================================
+;  File: SendSS.dll
+;  Plugin: Send ScreenShot+
+;  Version: 0.8.7.0
+;  Authors: Merlin
+;============================================================
+[Take a screenshot and send it to a contact.]
+Стварэння здымкаў і адсылка кантакту.
+;file \plugins\SendScreenshotPlus\res\resource.rc
+[Dialog]
+Гутарка
+[All]
+Усё
+[None]
+Няма
+[Cancel]
+Скасаваць
+[Send screenshot]
+Адаслаць скрыншот
+[Send screenshot to\n<unknown>]
+Адправіць здыма экрату\n<невядома>
+[Ti&med capture]
+Затрымка захопу
+[Time (secs):]
+Секунд:
+[&Format:]
+Фармат:
+[Send B&y:]
+Праз:
+[E&xplore]
+Агляд
+[&Fill description textbox.]
+Запоўніць радкі апісання.
+[Delete &after send]
+Выдаліць пасля адпраўкі
+[Open again]
+Адкрыць ізноў
+[&Capture]
+Захоп
+[About]
+Інфармацыя
+[Credits >]
+Аўтары >
+[&Close]
+&Зачыніць
+[Edit]
+Змяніць
+[Caption:]
+Загаловак:
+[Size (HxW):]
+Памер (HxW):
+[C&lient Area]
+Змесціва
+[Target Tool]
+Прыцэл
+[Description:]
+Апісанне:
+[&Copy]
+&Капіяваць
+[Close]
+Зачыніць
+;file \plugins\SendScreenshotPlus\src\CSend.cpp
+[Copy]
+Капіяваць
+[Error]
+Памылка
+[GCHAT error]
+Памылка GCHAT
+[An unknown error has occurred.]
+Невядомая памылка.
+;file \plugins\SendScreenshotPlus\src\CSend.h
+[Unable to initiate %s.]
+Не ўдалося ініцыяваць %s.
+[MAPI error (%i):\n%s.]
+Памылка MAPI (%i):\n%s.
+;file \plugins\SendScreenshotPlus\src\CSendDropbox.cpp
+;file \plugins\SendScreenshotPlus\src\CSendEmail.cpp
+[The specified attachment was not found]
+Укладанне не знойдзена
+[The specified attachment could not be opened]
+Укладанне немагчыма адчыніць
+[Unknown Error]
+Невядомая памылка
+;file \plugins\SendScreenshotPlus\src\CSendFile.cpp
+[File transfer]
+Перадача файла
+;file \plugins\SendScreenshotPlus\src\CSendFTPFile.cpp
+;file \plugins\SendScreenshotPlus\src\CSendHost_ImageShack.cpp
+;file \plugins\SendScreenshotPlus\src\CSendHost_imgur.cpp
+;file \plugins\SendScreenshotPlus\src\CSendHost_uploadpie.cpp
+;file \plugins\SendScreenshotPlus\src\CSendHTTPServer.cpp
+[Could not start the HTTP Server plugin.]
+Не магу запусціць плагін HTTP Server.
+;file \plugins\SendScreenshotPlus\src\dlg_msgbox.cpp
+[Retry]
+Яшчэ раз
+[Yes]
+Так
+[No]
+Не
+[Abort]
+Скасаваць
+[Ignore]
+Ігнараваць
+;file \plugins\SendScreenshotPlus\src\global.h
+[SendScreenshot - Error]
+SendScreenshot - Памылка
+;file \plugins\SendScreenshotPlus\src\Main.cpp
+[Open SendSS+]
+Адчыніць SendSS+
+[SendSS]
+Адправіць скрыншот
+[Screenshots]
+Здымкі экрана
+[SendSS HTTP connections]
+HTTP далучэнне SendSS
+[Could not create main dialog.]
+Немагчыма стварыць галоўны дыялог.
+[Send Screenshot]
+Адправіць скрыншот
+[Send desktop screenshot]
+Адправіць скрыншот экрана
+[Take a screenshot]
+Зрабіць скрыншот
+;file \plugins\SendScreenshotPlus\src\mir_icolib.cpp
+[Screenshot Icon1]
+Абразок здымка 1
+[Screenshot Icon2]
+Абразок здымка 2
+[Help]
+Даведка
+[Open Folder]
+Адкрыць тэчку
+[Description off]
+Апісанне вык.
+[Description on]
+Апісанне ўкл.
+[Delete off]
+Выдаленне вык.
+[Delete on]
+Выдаленне ўкл.
+[Prev]
+Назад
+[Next]
+Наперад
+[Update]
+Абнавіць
+[Down arrow]
+Стрэлка ўніз
+;file \plugins\SendScreenshotPlus\src\mir_icolib.h
+[Buttons]
+Кнопкі
+[Overlays]
+Адбіткі
+;file \plugins\SendScreenshotPlus\src\UAboutForm.cpp
+[Credits]
+Аўтары
+[< Copyright]
+< Правы
+[Copyright]
+Правы
+;file \plugins\SendScreenshotPlus\src\UMainForm.cpp
+[Drag&Drop the target on the desired window.]
+Перацягнеце прыцэл на патрэбнае вакно.
+[Send screenshot to\n]
+Адправіць здымак экрану
+[Window]
+Акно
+[Desktop]
+Працоўны стол
+[<Entire Desktop>]
+<Увесь Працоўны стол>
+[Monitor]
+Манітор
+[ (primary)]
+ (галоўны)
+[File]
+Файл
+[<Only save>]
+<Толькі захаваць>
+[File Transfer]
+Перадача файла
+[E-mail]
+Пошта
+[FTP File]
+Файл на FTP
+[Information]
+Інфармацыя
+[Delete after send]
+Выдаліць пасля адпраўкі
+[Capture]
+Запіс
+[Select a target window.]
+Абярыце вакно для адпраўкі.
+[Screenshot ]
+Здымак экрану\s
+[of "]
+з "
+[" Window]
+" вакно

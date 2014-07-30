@@ -1,0 +1,45 @@
+﻿#muuid {d4bdd1eb-56f1-4a87-a187-67246ee919a2}
+;============================================================
+;  File: LangMan.dll
+;  Plugin: Language pack manager
+;  Version: 0.11.0.1
+;  Authors: H. Herkenrath
+;============================================================
+[Helps you manage language packs of different languages.]
+Помогает в управлении файлами локализации.
+[Author(s):]
+Автор(ы):
+[Last modified using:]
+Проверено на версии:
+[Date:]
+Дата:
+[Version:]
+Версия:
+[Locale:]
+Язык:
+[Download more Language Packs]
+Загрузить дополнительные переводы
+[Please restart Miranda NG for your changes to take full effect.]
+Изменения вступят в силу после перезапуска программы.
+[Langpack root folder]
+Папка языковых пакетов
+[Reload langpack]
+Перезагрузить языковой пакет
+[(incompatible)]
+(несовместим)
+[Unknown]
+Неизвестно
+[Current]
+Текущий
+[Installed Languages]
+Установленные локализации
+[File]
+Файл
+[built-in]
+встроенный
+[&Remove...]
+&Удалить...
+[Languages]
+Языки
+[Customize]
+Тонкая настройка

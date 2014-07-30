@@ -1,0 +1,163 @@
+﻿#muuid {1aac15e8-dcec-4050-b66f-2aa0e6120c22}
+;============================================================
+;  File: PasteIt.dll
+;  Plugin: Paste it
+;  Version: 1.0.0.3
+;  Authors: Krzysztof Kral
+;============================================================
+[Uploads the text to web page and sends the URL to your friends.]
+
+;file \plugins\PasteIt\res\PasteIt.rc
+[Settings]
+Nastavení
+[Default web page]
+
+[Default file encoding]
+
+[Auto-detect UTF-8]
+
+[Show confirmation dialog box]
+
+[Autosend download link to contact]
+Automaticky odeslat odkaz kontaktu
+[Web page settings]
+
+[Web page to configure]
+
+[Configure]
+Nastavit...
+[Default formatting]
+
+[Auto-detect format from file extension]
+
+[Public paste]
+
+[Login as guest]
+
+[User key]
+
+[Get user key]
+
+[Configure formatting]
+
+[Cancel]
+Zrušit
+[Up]
+Nahoru
+[Down]
+Dolů
+[Delete]
+Smazat
+[Restore defaults]
+Obnovit původní
+[Download more]
+
+[Login to pastebin.com]
+
+[User name]
+Uživatelské jméno
+[Password]
+Heslo
+[Paste It]
+
+[Format]
+Formát
+[Encoding]
+
+[Recode]
+
+;file \plugins\PasteIt\src\Options.cpp
+[Use default codepage]
+Výchozí kódování
+[Thai]
+thajština
+[Japanese]
+japonština
+[Simplified Chinese]
+čínština (zjednodušená)
+[Korean]
+korejština
+[Traditional Chinese]
+čínština (tradiční)
+[Central European]
+středoevropský
+[Cyrillic]
+cyrilika
+[Cyrillic KOI8-R]
+cyrilika KOI8-R
+[Latin I]
+západní
+[Greek]
+řečtina
+[Turkish]
+turečtina
+[Hebrew]
+hebrejština
+[Arabic]
+arabština
+[Baltic]
+pobaltský
+[Vietnamese]
+vietnamština
+[Korean (Johab)]
+korejština (Johab)
+[You've entered invalid codepage. Select codepage from combo box or enter correct number.]
+Zadali jste neplatné kódování. Zvolte kódování z rozbalovacího seznamu nebo zadejte správné číslo.
+[Invalid codepage]
+Neplatné kódování
+[Services]
+Služby
+[Main]
+Hlavní
+[Web page]
+Domácí stránka
+;file \plugins\PasteIt\src\PasteIt.cpp
+[All Files (*.*)]
+Všechny soubory (*.*)
+[Paste It - Select file]
+
+[Error]
+Chyba
+[Paste from clipboard]
+
+[Paste from file]
+
+[Paste It HTTP connections]
+
+;file \plugins\PasteIt\src\PasteToWeb.cpp
+[You can only paste 1 file]
+
+[Cannot get data from clipboard]
+
+[File size is %d KB, do you really want to paste such a large file?]
+
+[Are You sure?]
+Opravdu chcete pokračovat?
+[Cannot read file '%s']
+
+[File size is larger then 10 MB, cannot be sent]
+
+[Cannot open file '%s']
+
+[File '%s' is empty]
+
+;file \plugins\PasteIt\src\PasteToWeb1.cpp
+[Error during sending text to web page: %s]
+
+[Error during sending text to web page]
+
+[Error during getting user key from web page: %s]
+
+[Paste expire date]
+
+[Never]
+Nikdy
+[10 minutes]
+
+[1 hour]
+1 hodina
+[1 day]
+1 den
+[1 month]
+
+;file \plugins\PasteIt\src\PasteToWeb2.cpp

@@ -1,0 +1,201 @@
+﻿#muuid {119d7288-2050-448d-9900-d86ac70426bf}
+;============================================================
+;  File: KeyboardNotify.dll
+;  Plugin: Keyboard notify ext.
+;  Version: 1.5.7.7
+;  Authors: TioDuke
+;============================================================
+[Flashes your keyboard LEDs when a message has arrived.]
+Додає блимання світлодіодів клавіатури при отриманні повідомлень.
+[Accounts to check]
+Перевіряти облікові записи
+[Events to react on]
+Події
+[Incoming messages]
+Вхідні повідомлення
+[Incoming files]
+Вхідні файли
+[Incoming URLs]
+Вхідні URL
+[Everything else]
+Інші події
+[Message-Event only]
+Тільки для повідомлень
+[Blink if message window is open]
+Блимати, якщо вікно відкрите
+[and not in foreground]
+і не поміщене на передній план
+[Only if last is]
+Якщо остан.
+[sec. old]
+с. тому
+[Flash until]
+Блимати:
+[seconds]
+секунд
+[is re-attended]
+звернення
+[Events are opened]
+Події будуть відкриті
+[End of 'notify when' conditions]
+Закінчення "сповіщати коли"
+[Notify when]
+Сповіщати, коли
+[Full Screen mode]
+Повноекранний режим
+[Screen Saver is running]
+Запущена заставка
+[Workstation is locked]
+Комп'ютер заблоковано
+[Defined programs are running]
+Запущена вказ. програма
+[All other situations]
+В іншому випадку
+[Only notify if status is]
+Сповіщати, якщо статус
+[Online]
+В мережі
+[Away]
+Відсутній
+[Occupied]
+Зайнятий
+[NA]
+Недоступний
+[DND]
+Не турбувати
+[Free for chat]
+Готовий до чату
+[Invisible]
+Невидимий
+[On the phone]
+Телефоную
+[Out to lunch]
+Обідаю
+[Pending Events]
+Очікувані події
+[Remind me every]
+Нагадув. кожні
+[minutes]
+хвилин
+[Offline]
+Не в мережі
+[xStatuses]
+хСтатуси
+[Keys to flash]
+Чим блимати
+[Flashing effects]
+Блимати
+[All at the same time]
+Одночасно
+[In turn]
+Через один
+[In sequence]
+Послідовно
+[Custom theme]
+Своя тема
+[Accordingly to events' count]
+За кількістю подій
+[Wait before starting flashing]
+Пауза перед початком блимання
+[Flash speed]
+Швидкість спалахів
+[Fast]
+Швидко
+[Slow]
+Повільно
+[&Preview]
+&Тест
+[Emulate key presses (Use this option if you are using a USB keyboard)]
+Емулювати натискання клавіш (Тільки для USB-клавіатур)
+[Create/Edit Themes]
+Створити/Редагувати тему
+[Theme]
+Тема
+[Test]
+Тест
+[Add]
+Додати
+[Update]
+Оновити
+[Delete]
+Видалити
+[Import/Export]
+Імпорт/Експорт
+[Export...]
+Експорт...
+[Import...]
+Імпорт...
+[Override existing]
+Замінити існ.
+[Set program list]
+Список програм
+[Program]
+Програма
+[Cancel]
+Скасувати
+[Set LEDs for events]
+Встановити для подій
+[Message events]
+Повідомлення
+[File events]
+Файли
+[URL events]
+Посилання (URL)
+[Other events]
+Інші події
+[Consider event opened after]
+Діяти через
+[Use custom theme]
+Своя тема
+[The following events are being ignored:]
+Ці події ігноруватимуться:
+[Ignore messages]
+Повідомлення
+[Ignore URLs]
+Посилання (URL)
+[Ignore files]
+Файли
+[Ignore others]
+Інші події
+[Ignore all]
+Усі події
+[Ignore none]
+Жодна з подій
+[Ignore]
+Ігнорувати
+[Set xStatus list]
+Список хСтатусів
+[** All contacts **]
+** Усі контакти **
+[** Unknown contacts **]
+** Невідомі контакти **
+[left->right]
+ліво->право
+[right->left]
+право->ліво
+[left<->right]
+ліво<->право
+[Keyboard Flash]
+Блимання клавіатури
+[Events]
+Події
+[Accounts]
+Облікові записи
+[Rules]
+Правила
+[Flashing]
+Блимання
+[Themes]
+Теми
+[Protocol]
+Протокол
+[Keyboard Notify Theme]
+Тема сповіщення
+[All Files]
+Всі файли
+[\n; Automatically generated Keyboard Notify Theme file\n\n\n]
+\n; Файл теми для Keyboard Notify\n\n\n
+[\n; End of automatically generated Keyboard Notify Theme file\n]
+\n; Кінець файлу теми для Keyboard Notify\n
+[None]
+Немає

@@ -1,0 +1,276 @@
+﻿#muuid {e4058506-6494-4d60-9cf4-40bf545f78bd}
+;============================================================
+;  File: QuickSearch.dll
+;  Module: Quick Search
+;  Version: 1.4.2.0
+;  Authors: Awkward
+;============================================================
+[This plugin allows you to quick search for nickname, firstname, lastname, email, uin in your contact list. And now you may add any setting to display - for example user's version of Miranda, group or city.]
+Dieses Plugin ermöglicht es Ihnen, in Ihrer Kontaktliste nach Nicknamen, Namen, Vornamen, UIN usw. zu suchen.
+[Quick Search]
+Schnellsuche
+[Title]
+Titel
+[Module/InfoType]
+Modul/Infotyp
+[Setting]
+Einstellung
+[Reload]
+Neu laden
+[New]
+Neu
+[Up]
+Auf
+[Down]
+Ab
+[Delete]
+Löschen
+[Default]
+Standard
+[Additional Options]
+Zusätzliche Einstellungen
+[Tool Window Style]
+Werkzeugfensterstil nutzen
+[Draw Grid]
+Gitter zeichnen
+[Save search pattern]
+Letzten Suchbegriff speichern
+[Auto Close mode]
+Automatisch schließen
+[Sort by Status]
+Nach Status sortieren
+[Show Client Icons]
+Clienticons anzeigen
+[Settings]
+Einstellungen
+[Title:]
+Titel:
+[Account]
+Konto
+[Gender]
+Geschlecht
+[UserID]
+Benutzer-ID
+[Nickname]
+Nickname
+[First name]
+Vorname
+[Last name]
+Nachname
+[Group]
+Gruppe
+[Container]
+Container
+[E-mail]
+E-Mail
+[Client ID]
+Client-ID
+[Ext IP]
+Externe IP
+[LastSeen]
+Zuletzt gesehen
+[Last Event]
+Letztes Ereignis
+[Online since]
+Online seit
+[Metacontact]
+Metakontakt
+[Event count]
+Ereigniszähler
+[Contact add time]
+Kontakt hinzugefügt am
+[Type:]
+Typ:
+[DB setting]
+Datenbank-Einstellung
+[Script]
+Skript
+[Service]
+Dienst
+[Contact info]
+Kontaktinfo
+[Other]
+Sonstige
+[Data type:]
+Datentyp:
+[Byte]
+Byte
+[Word]
+Word
+[DWord]
+DWord
+[Signed]
+Mit Vorzeichen
+[As hex]
+Als Hex
+[String]
+String
+[IP]
+IP
+[TimeStamp]
+Zeitstempel
+[Module:]
+Modul:
+[Setting:]
+Einstellung:
+[Service:]
+Dienst:
+[Param]
+Param
+[number value]
+Nummernwert
+[ANSI string]
+ANSI-String
+[Unicode string]
+Unicodestring
+[current contact]
+Aktueller Kontakt
+[last result]
+Letzes Ergebnis
+[parameter]
+Parameter
+[Result]
+Ergebnis
+[Result type]
+Ergebnistyp
+[Free memory]
+Speicher freigeben
+[Save]
+Speichern
+[All]
+Alle
+[Close]
+Schließen
+[Refresh]
+Aktualisieren
+[QuickSearch]
+Schnellsuche
+[Show Offline contacts]
+Offlinekontakte anzeigen
+[New column]
+Neue Spalte
+[Save Item]
+Eintrag speichern
+[InfoType:]
+Infotyp:
+[New Column]
+Neue Spalte
+[Column Up]
+Spalte auf bewegen
+[Column Down]
+Spalte ab bewegen
+[Delete Column]
+Spalte löschen
+[Male]
+männlich
+[Female]
+weiblich
+[Contacts]
+Kontakte
+[ContactInfo]
+Kontaktinfo
+[LastEvent]
+Letztes Ereignis
+[EventCount]
+Ereigniszähler
+[Script Editor]
+Skripteditor
+[Normal background]
+Normaler Hintergrund
+[Normal foreground]
+Normaler Vordergrund
+[Odd background]
+Alternativer Hintergrund
+[Odd foreground]
+Alternativer Vordergrund
+[Disabled account background]
+Hintergrund deaktivierter Konten
+[Disabled account foreground]
+Vordergrund deaktivierter Konten
+[Deleted account background]
+Hintergrund gelöschter Konten
+[Deleted account foreground]
+Vordergrund gelöschter Konten
+[Hidden contact background]
+Hintergrund versteckter Kontakte
+[Hidden contact foreground]
+Vordergrund versteckter Kontakte
+[Metacontact background]
+Metakontakt-Hintergrund
+[Metacontact foreground]
+Metakontakt-Vordergrund
+[Subcontact background]
+Subkontakt-Hintergrund
+[Subcontact foreground]
+Subkontakt-Vordergrund
+[&Delete]
+&Löschen
+[&Copy]
+&Kopieren
+[C&onvert to Meta]
+In Metak&ontakt umwandeln
+[Attach to &Tab container]
+Zu &Tab-Container anheften
+[&Move to Group]
+In Gruppe verschieben
+[Some of selected contacts in different metacontacts already]
+Einige der ausgewählten Kontakte gehören bereits zu anderen Metakontakten
+[Do you really want to delete selected contacts?]
+Möchten Sie die ausgewählten Kontakte wirklich löschen?
+[Warning]
+Warnung
+[One or more contacts in same Meta already. Try to convert anyway?]
+Ein oder mehrere Kontakte gehören bereits zum selben Metakontakt. Trotzdem versuchen umzuwandeln?
+[Editing of column ]
+Bearbeite Spalte\s
+[%i users found (%i) Online: %i]
+%i Benutzer gefunden (%i) Online: %i
+[ users found (]
+ Benutzer gefunden (
+[) Online: ]
+) online:\s
+[Online]
+Online
+[deleted]
+Gelöscht
+[off]
+aus
+[active]
+aktiv
+[Colorize]
+Einfärben
+[QuickSearch window hotkey]
+Schnellsuchfensterhotkey
+[Column content is simple database setting.]
+Diese Spalte ist eine einfache Datenbankeinstellung.
+[Column content is script result.\r\nMore help from "Help" button in script dialog.]
+Inhalt der Spalte ist das Ergebnis des Skriptes.\r\nWeitere Hilfe über den "Hilfe"-Button im Skriptdialog.
+[Column content is contact property (see list). Can be empty.]
+Inhalt der Spalte ist die Eigenschaft des Kontaktes (siehe Liste). Kann leer sein.
+[Content is last online time.]
+Inhalt ist die letzte Onlinezeit.
+[Content is time of last contact event.]
+Inhalt ist die Zeit des letzten Ereignisses dieses Kontaktes.
+[Content is metacontact info.]
+Inhalt ist die Info des Metakontaktes.
+[Content is count of ALL contact events (not messages only)]
+Inhalt ist die Anzahl ALLER Eregnisse (nicht nur Nachrichten) dieses Kontaktes.
+[Other info]
+Andere Info
+[Change setting through QS]
+Einstellung durch QS ändern
+[default]
+Standard
+[Selected]
+Aktiv
+[contacts]
+Kontakte
+[Unknown]
+Unbekannt
+[Stay on Top]
+Immer im Vordergrund
+; these lines are not present in the sources, but they are present in compiled plugin
+[Text Editor]
+Texteditor
+[Wrap Text]
+Text umbrechen

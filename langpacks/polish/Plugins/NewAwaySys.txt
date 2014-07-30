@@ -1,0 +1,391 @@
+﻿#muuid {b2dd9270-ce5e-11df-bd3d-0800200c9a66}
+;============================================================
+;  File: NewAwaySys.dll
+;  Plugin: New Away System Mod
+;  Version: 0.4.0.3
+;  Authors: NightFox, Deathdemon, XF007, Goblineye Entertainment
+;============================================================
+[New Away System Mod plugin for Miranda NG.]
+Mod wtyczki New Away System dla Mirandy NG.
+;file \plugins\NewAwaySysMod\res\NewAwaySys.rc
+[Popup notification]
+Powiadomienie popup
+[Popup text format]
+Format tekstu popupu
+[Preview]
+Podgląd
+[V]
+V
+[%extratext% is your status message]
+%extratext% to twój opis
+[Click action]
+Akcje przycisku
+[On left click]
+LPM
+[On right click]
+PPM
+[Delay]
+Wyświetlaj
+[Sec]
+s
+[0 = Default]
+0 - domyślnie
+[-1 = Infinite]
+-1 - nie chowaj
+[Colors]
+Kolory
+[Background]
+Tło
+[Use default]
+Domyślne
+[Text]
+Tekst
+[Only notify when:]
+Powiadamiaj tylko, gdy:
+[On&line]
+&Dostępny
+[&Away]
+&Zaraz wracam
+[&NA]
+&Wrócę później
+[Occ&upied]
+Za&jęty
+[&DND]
+&Nie przeszkadzać
+[&Free for chat]
+&Chętny do rozmowy
+[&Other]
+&Inne
+[Log to a file only when popup notification for a contact is enabled]
+Zapisuj do pliku tylko, jeśli dla kontaktu włączone jest powiadomienie popup
+[Enable autoreply]
+Włącz autoodpowiedzi
+[On event...]
+Dla...
+[Don't reply to ICQ contacts]
+Nie odpowiadaj kontaktom ICQ
+[Don't reply when I'm invisible to the contact]
+Nie odpowiadaj kiedy jestem niewidoczny dla kontaktu
+[Save autoreply to the history]
+Zapisuj autoodpowiedź do historii
+[Reply only when Idle]
+Odpowiadaj tylko gdy bezczynny
+[Reply only when contact's message window is closed]
+Odpowiadaj tylko, gdy okno rozmowy kontaktu jest zamknięte
+[Send maximum]
+Wyślij maksimum
+[times (-1=infinite)]
+razy (-1 - nieskończenie)
+[Reset this counter also when I just change my status text\n(when status icon remains the same)]
+Resetuj ten licznik także wtedy, gdy tylko zmieniam opis\n(ikona statusu pozostaje taka sama)
+[Disable autoreply when...]
+Wyłącz autodpowiedź, gdy...
+[&Invisible]
+N&iewidoczny
+[On the &phone]
+Pod &telefonem
+[Out to &lunch]
+Na &obiedzie
+[Autoreply format:]
+Format autoodpowiedzi:
+[&Variables]
+&Zmienne
+[Se&ttings]
+Us&tawienia
+[Ignore requests]
+Ignoruj prośby
+[Send an autoreply]
+Wyślij autoodpowiedź
+[&Delete]
+&Usuń
+[New &category]
+Nowa &kategoria
+[Save as &new]
+Zapisz jako &nowy
+[&Save]
+&Zapisz
+[Title:]
+Nazwa:
+[Use this message as default for]
+Używaj tego opisu jako domyślnego dla
+[New message]
+Nowy opis
+[New category]
+Nowa kategoria
+[Delete]
+Usuń
+[Status messages:]
+Opisy:
+[Configure autoaway]
+Skonfiguruj automatyczny status zaraz wracam
+[Wait]
+Odczekaj
+[seconds before closing the status message dialog (-1=don't close)]
+sekund przed zamknięciem okna opisu (-1 - nie zamykaj)
+[Store]
+Zachowaj
+[most recent messages (0=disable)]
+ostatnich opisów (0 - wyłączone)
+[Store for each status separately]
+Zachowuj osobno dla każdego statusu
+[Use default...]
+Użyj domyślnego...
+[Use the most recent message]
+Użyj ostatniego opisu
+[Use the default message]
+Użyj domyślnego opisu
+[Reset per-protocol messages when changing global status]
+Resetuj opisy protokołów podczas globalnej zmiany statusu
+[Store protocol messages for each status separately]
+Zachowuj opisy protokołów osobno dla każdego statusu
+[Store protocol autoreply settings for each status separately]
+Zachowuj ustawienia autoodpowiedzi protokołów osobno dla każdego statusu
+[Remember last message used for a contact...]
+Pamiętaj ostatnią wiadomość użytą dla kontaktu
+[Store contact autoreply/ignore settings for each status separately]
+Zachowuj ustawienia ignorowania kontaktów przy wysyłce autoodpowiedzi osobno dla każdego statusu.
+[Enable contact menu items]
+Włącz elementy menu kontaktu
+[Use protocol specific nick for %nas_mynick%]
+Używaj nicka specyficznego dla protokołu w zmiennej %nas_mynick%
+[Update status messages for non-ICQ protocols every]
+Aktualizuj opisy w protokołach innych niż ICQ co
+[seconds]
+s
+[Don't show the message dialog for]
+Nie pokazuj okna opisu dla
+[%s message for %s]
+Opis statusu "%s" - %s
+[Retrieving %s message...]
+Odbieranie %s wiadomości...
+[&Cancel]
+&Anuluj
+[Notify of requests]
+Powiadamiaj o prośbach
+[Don't notify of requests]
+Nie powiadamiaj o prośbach
+[Autoreply on]
+Autoodpowiedź wł.
+[Autoreply off]
+Autoodpowiedź wył.
+[Don't send status message]
+Nie wysyłaj opisu
+[Note: these settings are applied to all status modes at once.]
+Uwaga: te ustawienia są stosowane do wszystkich statusów naraz.
+[Means the setting is different for different status modes / contacts]
+Oznacza to, że ustawienia te są inne dla różnych statusów/kontaktów
+[Set away message window options]
+Ustaw opcje okna opisu
+[Show predefined &messages]
+Pokaż szablony &opisów
+[Show &contacts]
+Pokaż &kontakty
+[Save default window settings &automatically]
+&Automatycznie zapisz domyślne ustawienia okna
+[&Save current window settings as default]
+&Zapisz obecne ustawienia okna jako domyślne
+[Disable parsing of status messages by Variables plugin]
+Wyłącz przetwarzanie opisów przez wtyczkę Variables
+[Create new &message]
+Utwórz nowy &opis
+[Create new &category]
+Utwórz nową &kategorię
+[&Rename]
+&Zmień nazwę
+[Set as &default for]
+Ustaw jako &domyślne dla
+;file \plugins\NewAwaySysMod\src\AwayOpt.cpp
+[Create new message]
+Utwórz nowy opis
+[Create new category]
+Utwórz nową kategorię
+[Open Variables help dialog]
+Otwórz okno pomocy zmiennych
+[Your most recent status messages are placed in this category. It's not recommended to put your messages manually here, as they'll be replaced by your recent messages.]
+W tej kategorii zapisywane są twoje ostatnio-używane opisy. Nie zaleca się umieszczania tu opisów ręcznie, ponieważ zostaną one zastąpione przez twoje ostatnie opisy.
+[You can put your frequently used and favorite messages in this category.]
+W tej kategorii możesz umieścić swoje często używane i ulubione opisy.
+[When this checkbox is ticked, NewAwaySys counts "send times" starting from the last status message change, even if status mode didn't change.\nWhen the checkbox isn't ticked, "send times" are counted from last status mode change (i.e., disabled state is more restrictive).]
+Gdy to pole jest zaznaczone, NewAwaySys liczy wysłania od ostatniej zmiany opisu, nawet jeśli status się nie zmieni\nGdy to pole nie jest zaznaczone, wysłania liczone są od ostatniej zmiany statusu (tak więc stan wyłączony jest bardziej restrykcyjny)
+[Message]
+Wiadomości
+[URL]
+Linków
+[File]
+Plików
+[** All contacts **]
+** Wszystkie kontakty **
+[** Not-on-list contacts **]
+** Nieznane kontakty **
+[Status messages]
+Opisy
+[Main options]
+Główne opcje
+[Autoreply]
+Autoodpowiedź
+[Contacts]
+Kontakty
+[Predefined messages]
+Predefiniowane opisy
+[Recent messages]
+Ostatnie opisy
+[Gone fragging]
+Poszedłem fragować
+[Been fragging since %nas_awaysince_time%, I'll message you later when the adrenaline wears off.]
+Fraguję od %nas_awaysince_time%, odezwę się później, gdy adrenalina spadnie.
+[Creepy]
+Straszne
+[Your master, %nas_mynick%, has been %nas_statdesc% since the day that is only known as ?nas_awaysince_date(dddd)... When he gets back, i'll tell him you dropped by...]
+Twój pan, %nas_mynick%, ma status %nas_statdesc% od dnia, który zwany jest jako ?nas_awaysince_date(dddd)... Gdy powróci, powiem mu, że pisałeś...
+[Default messages]
+Domyślne opisy
+[Online]
+Dostępny
+[Yep, I'm here.]
+Tak, jestem tu.
+[Away]
+Zaraz wracam
+[Been gone since %nas_awaysince_time%, will be back later.]
+Nie ma mnie od %nas_awaysince_time%, będę potem.
+[NA]
+Wrócę później
+[Give it up, I'm not in!]
+Daj spokój, nie ma mnie!
+[Occupied]
+Zajęty
+[Not right now.]
+Nie teraz.
+[DND]
+Nie przeszkadzać
+[Give a guy some peace, would ya?]
+Proszę, daj mi spokój!
+[Free for chat]
+Porozmawiajmy
+[I'm a chatbot!]
+Jestem botem!
+[Invisible]
+Niewidoczny
+[I'm hiding from the mafia.]
+Jak zrobię tak, to mnie nie widać.
+[On the phone]
+Pod telefonem
+[I've been on the phone since %nas_awaysince_time%, give me a sec!]
+Wiszę na telefonie od %nas_awaysince_time%, daj mi sekundkę!
+[Out to lunch]
+Na obiedzie
+[Been having ?ifgreater(?ctime(H),2,?ifgreater(?ctime(H),10,?ifgreater(?ctime(H),16,supper,dinner),breakfast),supper) since %nas_awaysince_time%.]
+Jem ?ifgreater(?ctime(H),2,?ifgreater(?ctime(H),10,?ifgreater(?ctime(H),16,kolację,obiad),śniadanie),kolację) od %nas_awaysince_time%.
+;file \plugins\NewAwaySysMod\src\AwaySys.cpp
+[Toggle On]
+Włącz przełączanie
+[Toggle Off]
+Wyłącz przełączanie
+[Set %s message for the contact]
+Ustaw opis %s dla kontaktu
+[Re&ad %s message]
+Po&każ opis "%s"
+[Toggle autoreply on/off]
+Włącz/Wyłącz autoodpowiedź
+[Toggle autoreply off]
+Wyłącz autoodpowiedź
+[Toggle autoreply on]
+Włącz autoodpowiedź
+[New Away System]
+New Away System
+[Away since time in default format; ?nas_awaysince_time(x) in format x]
+czas bezczynności w formacie domyślnym; ?nas_awaysince_time(x) w formacie x
+[Away since date in default format; ?nas_awaysince_date(x) in format x]
+data bezczynności w formacie domyślnym; ?nas_awaysince_date(x) w formacie x
+[Status description]
+opis statusu
+[Your nick for current protocol]
+twój nick w obecnym protokole
+[Number of status message requests from the contact]
+liczba próśb o opis od kontaktu
+[Number of messages from the contact]
+liczba wiadomości od kontaktu
+[Time passed until request]
+pozostały czas do prośby
+[Returns one of your predefined messages by its title: ?nas_predefinedmessage(creepy)]
+zwraca jeden z twoich szablonów opisów po jego tytule ?nas_predefinedmessage(straszne)
+[Current protocol name]
+nazwa aktualnego protokołu
+[Stranger]
+Obcy
+[%d hours]
+%d godzin
+[%d minutes]
+%d minut
+[%d seconds]
+%d sekund
+[Read status message]
+Czytaj opis kontaktu
+[Set status message]
+Ustaw opis
+[On]
+Wł.
+[Off]
+Wył.
+[Use the default setting]
+Użyj ustawień domyślnych
+[NewAwaySys: Incoming status message request]
+NewAwaySys: przychodząca prośba o opis
+;file \plugins\NewAwaySysMod\src\Common.h
+[Miranda NG autoreply >\r\n%extratext%]
+Autoodpowiedź >\r\n%extratext%
+[extended status]
+xStatus
+[Away System]
+Away system
+[Status]
+Status
+[Popups]
+Popupy
+[Variables plugin is not installed]
+Wtyczka Variables nie jest zainstalowana
+;file \plugins\NewAwaySysMod\src\MsgTree.cpp
+[You've made changes to multiple message trees at a time.\r\nDo you want to leave changes in "]
+Dokonałeś zmian w wielu drzewach opisów naraz.\r\nCzy na pewno chcesz pozostawić te zmiany w
+[" dialog?\r\nPress Yes to leave changes in this dialog, or No to discard its changes and save changes of the other message tree instead.]
+" oknie?\r\nNaciśnij "Tak", jeśli chcesz pozostawić zmiany w tym oknie lub "Nie" jeśli chcesz je anulować, a zamiast tego zapisać zmiany w drugim drzewie.
+[Do you really want to delete this category with its messages?]
+Czy na pewno chcesz usunąć tę kategorię z jej opisami?
+[Do you really want to delete this message?]
+Czy na pewno chcesz usunąć ten opis?
+;file \plugins\NewAwaySysMod\src\Notification.cpp
+[Error #%d]
+Błąd #%d
+[Can't open log file ]
+Nie można otworzyć pliku dziennika\s
+;file \plugins\NewAwaySysMod\src\ReadAwayMsg.cpp
+[&Close]
+&Zamknij
+;file \plugins\NewAwaySysMod\src\SetAwayMsg.cpp
+[Save, replacing the selected message]
+Zapisz, zastępując wybrany opis
+[Save as a new message]
+Zapisz jako nowy opis
+[Show settings menu]
+Pokaż menu ustawień
+[Don't send the status message to selected contact(s)]
+Nie wysyłaj wiadomości do wybranych kontaktów
+[Send an autoreply to selected contact(s)]
+Wyślij autoodpowiedź do wybranych kontaktów
+[Apply]
+Zastosuj
+[Do you want to apply the message?]
+Czy chcesz zastosować wiadomość?
+[Set message for]
+Opis dla
+[Statuses]
+Statusy
+[message for]
+Opis dla
+[for]
+przez
+[available autoreply only]
+Dostępne tylko w trybie autoodpowiedzi
+[all accounts]
+Wszystkie konta
+[Closing in %d]
+Zamykanie w %d

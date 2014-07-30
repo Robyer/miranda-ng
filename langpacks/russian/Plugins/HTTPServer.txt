@@ -1,0 +1,117 @@
+﻿#muuid {67848b07-83d2-49e9-8844-7e3de268e304}
+;============================================================
+;  File: HTTPServer.dll
+;  Plugin: HTTPServer
+;  Version: 0.1.2.2
+;  Authors: Kennet Nielsen, modified by Vampik, Houdini
+;============================================================
+[HTTP Web Server plugin for Miranda.]
+HTTP веб-сервер для Miranda.
+[IPAddress1]
+IP адрес 1
+[IPAddress2]
+IP адрес 2
+[Max downloads]
+Макс. закачки
+[Address]
+Адрес
+[Mask]
+Маска
+[Share name]
+Имя шары
+[Allowed IP]
+Разрешенные IP
+[HTTP Server statistics view]
+Статистика просмотров HTTP сервера
+[Show HTTP server statistics]
+Статистика НТТР сервера
+[Set to default]
+По умолчанию
+[External server name]
+Внешнее имя сервера
+[This is the link pasted to the message window]
+Это ссылка, вставленная в окно сообщений
+[Write log file]
+Записывать логфайл
+[Enable / Disable HTTP server]
+Вкл/Выкл HTTP Сервер
+[Main menu items]
+Элементы главного меню
+[Open log]
+Открыть лог
+[Show popups]
+Показывать всплывающие окна
+[Page keyword]
+Ключевые слова
+[URL address]
+Адрес URL
+[%ExternalIP% variable]
+%ExternalIP% переменная
+[Test]
+Тест
+[Transfer limit (Kb/s)]
+Лимит скорости (Кб/с)
+[No control when Away/NA]
+Откл., если недоступен/занят
+[Connection control]
+Контроль соединений
+[Index creation]
+Создание индекса
+[Disable]
+Выключить
+[Create HTML (compatibility)]
+Создать HTML (совместимо)
+[Create XML]
+Создать XML
+[Notifications]
+Уведомления
+[Total connection limit]
+Максимально соединений
+[Connections per user limit]
+Лимит на пользователя
+[Default download limit]
+Лимит загрузок по умолч.
+[&Edit share]
+&Изм. общее
+[&Remove share]
+&Удалить общее
+[&Open in Browser]
+&Открыть в браузере
+[&Copy link]
+&Копировать ссылку
+[All files]
+Все файлы
+[Specify a file to share]
+Файл для доступа
+[Max Downloads]
+Макс. закачки
+[Allowed Mask]
+Разрешенная маска
+[Real path]
+Реальный путь
+[User]
+Пользователь
+[Agent]
+Агент
+[Completed]
+Завершено
+[Speed]
+Скорость
+[No share selected]
+Папка не выбрана
+[Your external IP was detected as %d.%d.%d.%d\r\nby: %s]
+Ваш внешний IP определен как %d.%d.%d.%d\r\nс: %s
+[You need to restart Miranda to change the main menu]
+Изменения в меню вступят в силу после перезапуска программы.
+[HTTP Server]
+HTTP Сервер
+[Network]
+Сеть
+[HTTP Share new file]
+HTTP Новый общий файл
+[Share removed]
+Общее удалено
+[Disable HTTP server]
+Отключить HTTP сервер
+[Enable HTTP server]
+Вкл. HTTP Сервер

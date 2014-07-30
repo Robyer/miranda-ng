@@ -1,0 +1,184 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\src\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTNET DIALOGEX 0, 0, 323, 203
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Connection",IDC_STATIC,7,7,153,91
+    RTEXT           "ID:",IDC_STATIC,10,17,54,8
+    EDITTEXT        IDC_ED_NAME,70,13,85,14,ES_AUTOHSCROLL
+    RTEXT           "Password:",IDC_STATIC,10,39,54,8
+    EDITTEXT        IDC_ED_PWORD,70,35,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    RTEXT           "Server name:",IDC_STATIC,10,61,54,8
+    EDITTEXT        IDC_ED_SNAME,70,57,85,14,ES_AUTOHSCROLL
+    RTEXT           "Port:",IDC_STATIC,10,81,54,8
+    EDITTEXT        IDC_ED_PORT,70,77,36,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Client ID",IDC_STATIC,7,98,153,44
+    COMBOBOX        IDC_CMB_CLIENT,10,109,110,107,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ED_CLIENTID,126,109,29,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Use old client version",IDC_CHK_OLDDEFAULTVER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,127,145,11
+    GROUPBOX        "Error display",IDC_STATIC,7,143,153,53
+    CONTROL         "Use message boxes",IDC_RAD_ERRMB,"Button",BS_AUTORADIOBUTTON | WS_GROUP,10,156,145,10
+    CONTROL         "Use popups",IDC_RAD_ERRPOP,"Button",BS_AUTORADIOBUTTON,10,169,145,10
+    CONTROL         "Use system tray balloons",IDC_RAD_ERRBAL,"Button",BS_AUTORADIOBUTTON,10,182,145,10
+    GROUPBOX        "Contacts",IDC_STATIC,166,7,150,91
+    CONTROL         "Get contacts from server",IDC_CHK_GETSERVERCONTACTS,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,171,15,139,15
+    PUSHBUTTON      "Upload contacts",IDC_BTN_UPLOADCONTACTS,171,29,139,15
+    PUSHBUTTON      "Import from file...",IDC_BTN_IMPORTCONTACTS,171,48,139,15
+    CONTROL         "Auto-add new contacts",IDC_CHK_ADDCONTACTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,171,67,139,11
+    CONTROL         "Treat 'idle' as 'away'",IDC_CHK_IDLEAWAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,171,81,139,11
+    GROUPBOX        "Encryption",IDC_STATIC,166,98,150,44
+    CONTROL         "40 or 128 bit",IDC_RAD_ENC,"Button",BS_AUTORADIOBUTTON | WS_GROUP,171,113,139,10
+    CONTROL         "None",IDC_RAD_NOENC,"Button",BS_AUTORADIOBUTTON,171,126,139,10
+    GROUPBOX        "",IDC_STATIC,166,143,150,53
+    CTEXT           "Meanwhile lib ver: 1.0.2",IDC_ST_LIBVER,171,150,139,12
+    CTEXT           "Disconnected",IDC_ST_CLIENTVER,171,165,139,12,SS_SUNKEN
+    CTEXT           "Disconnected",IDC_ST_SERVERVER,171,180,139,12,SS_SUNKEN
+END
+
+IDD_SESSIONANNOUNCE DIALOGEX 0, 0, 286, 263
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Send announcement"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,95,242,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,242,50,14
+    EDITTEXT        IDC_ED_ANMSG,10,20,264,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN
+    LTEXT           "Message text:",IDC_STATIC,9,9,142,8
+    CONTROL         "List1",IDC_LST_ANTO,"SysListView32",LVS_REPORT | WS_BORDER | WS_TABSTOP,10,92,197,132
+    PUSHBUTTON      "Select all",IDC_BUT_SELALL,214,122,58,36
+    PUSHBUTTON      "Invert\nselection",IDC_BUT_SELINV,214,167,58,36,BS_MULTILINE
+END
+
+IDD_USERSEARCH DIALOG 0, 0, 155, 86
+STYLE DS_SETFONT | WS_POPUP
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_EDIT1,34,32,103,14,ES_AUTOHSCROLL
+    LTEXT           "ID:",IDC_STATIC,18,35,10,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPTNET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 316
+        VERTGUIDE, 10
+        VERTGUIDE, 64
+        VERTGUIDE, 70
+        VERTGUIDE, 155
+        VERTGUIDE, 160
+        VERTGUIDE, 166
+        VERTGUIDE, 171
+        VERTGUIDE, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_SESSIONANNOUNCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+
+    IDD_USERSEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 148
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_PROTO          ICON                    "online.ico"
+IDI_ICON_LEAVE          ICON                    "part.ico"
+IDI_ICON_INVITE         ICON                    "invite.ico"
+IDI_ICON_ANNOUNCE       ICON                    "announce.ico"
+IDI_ICON_NOTIFY         ICON                    "notify.ico"
+IDI_ICON_ERROR          ICON                    "error.ico"
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

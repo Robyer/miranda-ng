@@ -1,0 +1,477 @@
+﻿#muuid {e25367a2-51ae-4044-be28-131bc18b71a4}
+;============================================================
+;  File: BasicHistory.dll
+;  Plugin: Basic history
+;  Version: 1.0.1.10
+;  Authors: Krzysztof Kral
+;============================================================
+[History viewer for Miranda NG.]
+Verlaufsbetrachter für Miranda NG.
+;file \plugins\BasicHistory\res\BasicHistory.rc
+[Message History]
+Nachrichtenverlauf
+[Settings]
+Einstellungen
+[Always show contact list]
+Immer Kontaktliste anzeigen
+[Show groups in contact list]
+Gruppen in Kontaktliste anzeigen
+[Do not show Find control border]
+Rahmen um Finde-Feld nicht anzeigen
+[Default Event Filter]
+Standard Ereignisfilter
+[Custom filters]
+Eigene Filter
+[Add filter]
+Filter hinzufügen
+[Delete filter]
+Filter löschen
+[Add event]
+Ereignis hinzufg.
+[Delete event]
+Ereignis löschen
+[WinSCP path]
+WinSCP-Pfad
+[WinSCP log path]
+WinSCP-Log-Pfad
+[New messages on top]
+Neue Nachrichten nach oben
+[Show event icons]
+Ereignisicons anzeigen
+[Show timestamps]
+Zeitstempel anzeigen
+[Show names]
+Namen anzeigen
+[Show messages]
+Nachrichten anzeigen
+[Truncate message length to:]
+Länge der Nachricht kürzen auf:
+[Delta time to group messages:]
+Zeitdifferenz für gruppierte Nachrichten:
+[hours]
+Stunden
+[Limit messages to:]
+Limitiere Nachrichten auf:
+[Show date in timestamps]
+Datum im Zeitstempel anzeigen
+[Show seconds in timestamps]
+Sekunden im Zeitstempel anzeigen
+[Enable Smileys]
+Smileys aktivieren
+[Search forward in list group]
+Vorwärtssuche in gelisteten Gruppen
+[Search forward in message window]
+Vorwärtssuche im Nachrichtenfenster
+[Match Case]
+Groß-/Kleinschreibung
+[Match Whole Word]
+Ganzes Wort berücksichtigen
+[Only Incoming Messages]
+Nur eingehende Nachrichten
+[Only Outgoing Messages]
+Nur ausgehende Nachrichten
+[Only Selected Group]
+Nur ausgewählte Gruppen
+[All Contacts]
+Alle Kontakte
+[Export To Txt]
+Als Text exportieren
+[File encoding*]
+Datei-Encoding*
+[Export To Plain Html]
+Als Plain-HTML exportieren
+[Export To Rich Html]
+Als Rich-HTML exportieren
+[External CSS file]
+Externe CSS-Datei
+[* Choose encoding from combo box or enter code page number and name separated by semicolon, name is used in Content-Type header.]
+* Wählen Sie das Encoding aus der Combobox oder geben Sie Codepagenummer und -name, durch Semikolon getrennt, ein. Der Name wird als Content-Type verwendet.
+[Add task]
+Task hinzufügen
+[Edit task]
+Task bearbeiten
+[Delete task]
+Task löschen
+[Display errors using popups]
+Fehler durch Popups anzeigen
+[Save errors to system history]
+Fehler im Systemverlauf speichern
+[Task]
+Task
+[Name]
+Name
+[Active]
+Aktiv
+[Action type]
+Aktions-Typ
+[Filter]
+Filter
+[Events older than*]
+Ereignisse älter als*
+[Triger type]
+Auslösen bei
+[Time]
+Zeit
+[Delta time]
+Zeitdifferenz
+[Day of week]
+Wochentag
+[Day]
+Tag
+[Export to]
+Exportiere als
+[Compress output files]
+Ausgabe-Dateien komprimieren
+[Password]
+Passwort
+[Upload to FTP (WinSCP requred)]
+Mit FTP hochladen (benötigt WinSCP)
+[Session name]
+Sitzungsname
+[Path to file**]
+Pfad zur Datei**
+[Export imported messages]
+Importierte Nachrichten exportieren
+[* Use negative values to filter younger events]
+* negative Werte verwenden um neuere Ereignisse zu filtern
+[Execute task for specified contacts]
+Task für ausgewählte Kontakte ausführen
+[Cancel]
+Abbrechen
+;file \plugins\BasicHistory\src\BasicHistory.cpp
+[Open History]
+Verlauf öffnen
+[View &History]
+Verlauf anzeigen
+[Delete All User History]
+Kompletten Benutzerverlauf löschen
+[Execute history task]
+Verlaufs-Aktion ausführen
+[Incoming message]
+Eingehende Nachricht
+[Outgoing message]
+Ausgehende Nachricht
+[Status change]
+Statuswechsel
+[Show Contacts]
+Kontakte anzeigen
+[Hide Contacts]
+Kontakte verstecken
+[Find Next]
+Finde nächste
+[Find Previous]
+Finde vorherige
+[Plus in export]
+Plus in Export
+[Minus in export]
+Minus in Export
+[History]
+Verlauf
+;file \plugins\BasicHistory\src\EventList.cpp
+[All events]
+Alle Ereignisse
+[Default history events]
+Standard Verlaufsereignisse
+[History for %s]
+Verlauf von %s
+[System]
+System
+[Me]
+Ich
+[Invalid Message]
+Ungültige Nachricht
+;file \plugins\BasicHistory\src\ExportManager.cpp
+[%s Files (*.%s)]
+%s-Dateien (*.%s)
+[Import]
+Importieren
+[Export]
+Exportieren
+[File does not contain selected contact]
+Datei beinhaltet den ausgewählten Kontakt nicht
+[File is corrupted]
+Datei ist beschädigt.
+;file \plugins\BasicHistory\src\HistoryWindow.cpp
+[This operation will PERMANENTLY REMOVE all history for this contact.\nAre you sure you want to do this?]
+Diese Operation wird alle Verlaufseinträge für diesen Kontakt DAUERHAFT LÖSCHEN.\nSind Sie sich sicher, dass Sie dies machen wollen?
+[Are You sure?]
+Sind Sie sicher?
+[Do you want to delete all imported messages for this contact?\nNote that next scheduler task import this messages again.]
+Wollen Sie alle importierten Nachrichten für diesen Kontakt löschen?\nBeachten Sie, dass der nächste Sheduler-Task diese Nachrichten wieder importiert.
+[Open in &new window]
+In &neuem Fenster öffnen
+[&Open in existing window]
+In bestehendem Fenster öffnen
+[&Copy link]
+Link kopieren
+[Copy]
+Kopieren
+[Delete]
+Löschen
+[Send Message]
+Nachricht senden
+[Reply &Quoted]
+Mit Zitat antworten
+[Delete Group]
+Gruppe löschen
+[Options]
+Einstellungen
+[Filters]
+Filter
+[Fonts and colors]
+Schriften && Farben
+[Icons]
+Icons
+[Hotkeys]
+Hotkeys
+[Rich Html]
+Erweitertes HTML
+[Plain Html]
+Reines HTML
+[Txt]
+Text
+[Binary]
+Binär
+[Dat (mContacts)]
+Dat (mContacts)
+[Save window position as default]
+Fensterposition als Standard speichern
+[Save window position for all contacts]
+Fensterposition für alle Kontakte speichern
+[Do you want to save imported messages to local profile?]
+Wollen Sie die importierten Nachrichten im lokalen Profil speichern?
+[File contains history for different contact. Do you want to change contact and import?]
+Datei beinhaltet Verlauf für einen anderen Kontakt. Wollen Sie den Kontakt ändern und importieren?
+[Error]
+Fehler
+[Number of history items to delete: %d.\nAre you sure you want to do this?]
+Anzahl der zu löschenden Verlaufseinträge: %d.\nSind Sie sich sicher, dass Sie dies machen wollen?
+;file \plugins\BasicHistory\src\Options.cpp
+[Message]
+Nachricht
+[File transfer]
+Dateiübertragung
+[Link]
+Link
+[Authorization request]
+Eingehende Autorisierungsanfrage
+[You were added]
+Sie wurden hinzugefügt.
+[Contacts received]
+Kontakte empfangen
+[SMS message]
+SMS-Nachricht
+[Group list]
+Gruppenliste
+[Messages]
+Nachrichten
+[Searching]
+Suchen
+[Scheduler]
+Zeitplaner
+[Advanced]
+Erweitert
+[>> Outgoing timestamp]
+>> Ausgehende Zeit
+[Outgoing background]
+Ausgehender Hintergrund
+[<< Incoming timestamp]
+<< Eingehende Zeit
+[Incoming background]
+Eingehender Hintergrund
+[>> Outgoing name]
+>> Ausgehender Name
+[<< Incoming name]
+<< Eingehender Name
+[>> Outgoing messages]
+>> Ausgehende Nachrichten
+[<< Incoming messages]
+<< Eingehende Nachrichten
+[Group list background]
+Hintergrund Gruppenliste
+[Find window]
+Finde-Fenster
+[Find window background]
+Hintergrund Suchfenster
+[Window background]
+Fenster-Hintergrund
+[Contact list background]
+Kontaktlisten-Hintergrund
+[Open global history]
+Globalen Verlauf öffnen
+[Find]
+Suchen
+[Switch Match Case]
+Wechsel zu Groß-/Kleinschreibung
+[Switch Match Whole Word]
+Wechsel zu ganzes Wort
+[Show/Hide Contacts]
+Zeige/Verstecke Kontakte
+[Switch Only Incoming Messages]
+Wechsel zu eingehende Nachrichten
+[Switch Only Outgoing Messages]
+Wechsel zu ausgehende Nachrichten
+[Switch Only Selected Group]
+Wechsel zu 'Nur ausgewählte Gruppen'
+[Switch All Contacts]
+Alle Kontakte wechseln
+[Export To Binary]
+Als Binär exportieren
+[Import From Binary]
+Aus Binär exportieren
+[Export To Dat (mContacts)]
+Als Dat exportieren (mContacts)
+[Import From Dat (mContacts)]
+Aus Dat importieren (mContacts)
+[Invalid event number]
+Falsche Eventnummer
+[Incoming events]
+Eingehende Ereignisse
+[Outgoing events]
+Ausgehende Ereignisse
+[File does not exist. Enter correct file path.]
+Datei existiert nicht. Geben Sie den richtigen Pfad ein.
+[Invalid file]
+Ungültige Datei
+[All Files (*.*)]
+Alle Dateien (*.*)
+[Enter filter name]
+Filtername eingeben
+[Filter name exists]
+Filtername existiert
+[Event already exists]
+Ereignis existiert bereits
+[Browse WinSCP file]
+Win-SCP-Verlaufsdatei auswählen
+[Save WinSCP log file]
+WinSCP-Verlaufsdatei speichern
+[You've entered invalid codepage. Select codepage from combo box or enter correct number.]
+Sie haben eine falsche Kodierung gewählt. Bitte wählen Sie aus dem Listenfeld die korrekte oder geben sie eine richtige Nummer ein.
+[Invalid codepage]
+Falsche Kodierung
+[Browse CSS file]
+CSS-Datei auswählen
+[Export and Delete]
+Exportieren und Löschen
+[Import and Marge]
+Importieren und Zusammenführen
+[Minute]
+Minute
+[Hour]
+Stunde
+[At Start]
+Beim Start
+[At Finish]
+Beim Beenden
+[Daily]
+Täglich
+[Weekly]
+Wöchentlich
+[Monthly]
+Monatlich
+[Delta time (minutes)]
+Zeitdifferenz (Minuten)
+[Delta time (hours)]
+Zeitdifferenz (Stunden)
+[Monday]
+Montag
+[Tuesday]
+Dienstag
+[Wednesday]
+Mittwoch
+[Thursday]
+Donnerstag
+[Friday]
+Freitag
+[Saturday]
+Samstag
+[Sunday]
+Sonntag
+[Invalid '%s' value.]
+Ungültiger '%s'-Wert.
+[Events older than]
+Ereignisse älter als
+[Some value is invalid]
+Ein Wert ist ungültig.
+[Invalid '%s' value.\n%s]
+Ungültiger '%s'-Wert.\n%s
+[** Use <ext> to insert extension, <contact> to insert contact name]
+** Verwende Sie <ext> für Erweiterung, <contact> für Kontaktname
+[Input files are compressed]
+Eingabe-Dateien sind komprimiert
+[Download from FTP (WinSCP requred)]
+Mit FTP herunterladen (benötigt WinSCP)
+[Import from]
+Importiere aus
+[** Use <date> to insert date, <ext> to insert extension, <contact> to insert contact name]
+** Verwende Sie <date> für Datum, <ext> für Erweiterung, <contact> für Kontaktname
+;file \plugins\BasicHistory\src\Options.h
+;file \plugins\BasicHistory\src\PlainHtmlExport.cpp
+[History Log]
+Logverlauf
+[Filter:]
+Filter:
+[Conversation started at %s]
+Unterhaltung begonnen am %s
+;file \plugins\BasicHistory\src\RichHtmlExport.cpp
+[_files]
+_files
+[Menu]
+Menü
+[Open all]
+Alle öffnen
+[Close all]
+Alle schließen
+;file \plugins\BasicHistory\src\Scheduler.cpp
+[History task]
+Verlaufs-Task
+[Contacts]
+Kontakte
+[At least one contact should be selected.]
+Es muss mindestens ein Kontakt ausgewählt werden.
+[Upload to FTP]
+Mit FTP hochladen
+[Path to output file]
+Pfad zur Ausgabedatei
+[To create session open WinSCP, click New Session, enter data and save with specific name. Remember if FTP server using password you should save it in WinSCP.]
+Um eine Sitzung zu erstellen, öffnen Sie WinSCP, erstellen Sie eine neue Sitzung, geben Sie die Daten ein und speichern Sie diese unter dem angegebenen Namen. Beachten Sie, dass Sie das Passwort in WinSCP speichern müssen, wenn der Server eines benötigt.
+[Path to file]
+Pfad zur Datei
+[FTP path must contain '/' instead '\\' and start with '/'.]
+FTP-Pfad muss '/' anstelle von '\\' beinhalten und mit '/' anfangen.
+[FTP path cannot contain <date> in import task.]
+FTP-Pfad darf nicht <date> im Inport-Task enthalten.
+[Unknown error]
+Unbekannter Fehler
+[Cannot get FTP file(s).]
+Kann FTP-Datei(en) nicht bekommen.
+[Cannot unzip file(s).]
+Kann Datei(en) nicht entpacken.
+[Incorrect file format: %s.]
+Inkorrektes Dateiformat: %s.
+[Unknown contact in file: %s.]
+Unbekanter kontakt in Datei: %s.
+[Cannot export history for contact: %s.]
+Kann Verlauf für Kontakt nicht exportieren: %s.
+[Cannot compress file(s).]
+Kann Datei(en) nicht komprimieren.
+[Cannot send FTP file(s).]
+Kann FTP-Datei(en) nicht senden.
+[Task finished]
+Task beendet
+[Task '%s' execution failed]
+Ausführung von Task '%s' fehlgeschlgen.
+[Task '%s' finished successfully]
+Ausführung von Task '%s' erfolgreich.
+[Task '%s' execution failed:]
+Ausführung von Task '%s' fehlgeschlgen:
+;file \plugins\BasicHistory\src\Searcher.cpp
+["%s" not found]
+"%s" nicht gefunden
+[Search]
+Suchen
+[You have reached the end of the group.]
+Das Ende der Gruppe wurde erreicht.
+[You have reached the end of the history.]
+Das Ende des Verlaufs wurde erreicht.
+;file \plugins\BasicHistory\src\TxtExport.cpp

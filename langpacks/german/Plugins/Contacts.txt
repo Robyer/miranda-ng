@@ -1,0 +1,79 @@
+﻿#muuid {0324785E-74CE-4600-B781-851773B3EFC5}
+;============================================================
+;  File: Contacts.dll
+;  Plugin: Send/receive contacts
+;  Version: 1.6.0.0
+;  Authors: Joe Kucera, Todor Totev
+;============================================================
+[Allows you to send and receive contacts.]
+Über das Kontextmenü der Kontakte können Kontakte versendet und empfangen werden.
+;file \plugins\ContactsPlus\res\contacts.rc
+[Send contacts]
+Kontakte senden
+[&Add]
+Hinzufügen
+[&User menu]
+Kontakt&menü
+[User &details]
+Kontakt&profil
+[&History]
+&Verlauf
+[Choose contacts to be send:]
+Kontakte zum Senden auswählen:
+[&Send]
+&Senden
+[Cancel]
+Abbrechen
+[&Select All]
+Alles au&swählen
+[Received contacts]
+Empfangene Kontakte
+[Add to &group:]
+Zur &Gruppe hinzufü&gen
+[&Details]
+&Details
+[Close]
+Schließen
+[Contacts send error]
+Fehler beim Senden von Kontakten
+[An error has occurred. The protocol reported the following error:]
+Es ist ein Fehler aufgetreten. Das Protokoll meldete folgenden Fehler:
+[Try again]
+Erneut versuchen
+[Popup]
+Popup
+[Add to List]
+Zur Liste hinzufügen
+[User details]
+Kontaktprofil
+[Send Message]
+Nachricht senden
+;file \plugins\ContactsPlus\src\main.cpp
+[Contacts received from]
+Kontakte empfangen von
+[Contacts]
+Kontakte
+[Incoming Contacts]
+Eingehende Kontakte
+[Outgoing Contacts]
+Ausgehende Kontakte
+;file \plugins\ContactsPlus\src\receive.cpp
+[Nick]
+Nick
+[First Name]
+Vorname
+[Last Name]
+Nachname
+[Add Contact Permanently to List]
+Kontakt dauerhaft zur Liste hinzufügen
+[View User's Details]
+Kontaktprofil anzeigen
+[View User's History]
+Verlauf anzeigen
+[User Menu]
+Kontaktmenü
+[Contacts from]
+Kontakte von
+;file \plugins\ContactsPlus\src\send.cpp
+[Send Contacts to]
+Sende Kontakte an

@@ -1,0 +1,106 @@
+﻿#muuid {b1902a52-9114-4d7e-ac2e-b3a52e01d574}
+;============================================================
+;  File: MenuEx.dll
+;  Plugin: Menu item ext
+;  Version: 1.3.0.10
+;  Authors: Heiko Schillinger, Baloo, Billy_Bons, Robert Pösel
+;============================================================
+[Adds some useful options to a contacts menu.]
+Fügt einige nützliche Einstellungen zum Kontaktmenü hinzu.
+;file \plugins\MenuItemEx\res\resource.rc
+[Enter an authorization request]
+Autorisierungsanfrage eingeben
+[&Send]
+&Senden
+[&Cancel]
+Abbre&chen
+[Shown menu items]
+Menüeinträge anzeigen
+[Visibility]
+Sichtbarkeit
+[Show alpha icons]
+Alpha-Icons anzeigen
+[Hide from list]
+In Liste verstecken
+[Ignore]
+Ignorieren
+[Copy to Account (Ctrl+click for move to Account)]
+In Konto kopieren (Strg+Klick zum Verschieben)
+[Send 'You were added']
+'Sie wurden hinzugefügt' senden
+[Request Authorization]
+Autorisierung anfragen
+[Browse Received Files]
+Empfangene Dateien anzeigen
+[Copy IP]
+IP kopieren
+[Copy MirVer]
+MirVer kopieren
+[Copy Status Message]
+Statusnachricht kopieren
+[Add item name]
+Nachrichtentyp hinzufügen
+[Copy ID]
+ID kopieren
+[Add protocol name]
+Protokollname hinzufügen
+[Show ID in menu item]
+ID im Menüeintrag anzeigen
+[Trim too long ID]
+Zu lange ID kürzen
+[* Use Ctrl+click to see popup with the copied text]
+* Strg+Klick = Popup mit dem kopierten Text anzeigen
+[Hide contact on 'Ignore all']
+'Alles ign.' versteckt Kontakt
+;file \plugins\MenuItemEx\src\main.cpp
+[Status message]
+Statusnachricht
+[XStatus title]
+xStatus-Titel
+[XStatus message]
+xStatus-Nachricht
+[Listening to]
+Höre gerade
+[Activity title]
+Aktivitätstitel
+[Activity text]
+Aktivitätstext
+[Show in list]
+In Liste anzeigen
+[Always visible]
+Immer sichtbar
+[Never visible]
+Niemals sichtbar
+[Copy to Account]
+In Konto kopieren
+[Copy xStatus Message]
+xStatus-Nachricht kopieren
+[All]
+Alle
+[Messages]
+Nachrichten
+[URL]
+URL
+[Files]
+Dateien
+[User Online]
+Benutzer online
+[Authorization]
+Autorisierung
+[You Were Added]
+Sie wurden hinzugefügt
+[Typing Notify]
+Tippbenachrichtigungen
+[Please authorize me to add you to my contact list.]
+Bitte autorisieren Sie mich, Sie zu meiner Kontaktliste hinzufügen zu können.
+[Do you want to send authorization request\nto new contact?]
+Wollen Sie eine Autorisierungsanfrage an\nden neuen Kontakt senden?
+[MenuItemEx]
+MenuItemEx
+[Open ignore settings]
+Ignorier-Einstellungen öffnen
+[Request authorization]
+Autorisierung anfragen
+;file \plugins\MenuItemEx\src\options.cpp
+[Customize]
+Customize

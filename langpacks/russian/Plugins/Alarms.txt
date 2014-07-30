@@ -1,0 +1,185 @@
+﻿#muuid {4dd7762b-d612-4f84-aa86-068f17859b6d}
+;============================================================
+;  File: Alarms.dll
+;  Plugin: Alarms
+;  Version: 0.4.0.5
+;  Authors: Scott Ellis
+;============================================================
+[Sets once-off, daily, weekly and weekday alarms.]
+Установка ежедневных, еженедельных и разовых уведомлений.
+[New]
+Создать
+[Delete]
+Удалить
+[Edit]
+Изменить
+[Alarms]
+Напоминания
+[Use popup plugin]
+Всплывающие окна
+[Default snooze:]
+Пауза по умолчанию:
+[minutes]
+минут(ы)
+[Row height:]
+Высота строки
+[Indent:]
+Отступ:
+[Reminder frame]
+Список напоминаний
+[Auto hide/show]
+Автопоказ/скрытие
+[Loop sound]
+Повторять звук
+[Period (hours):]
+Период (часов):
+[Hide/show with clist]
+Пок./скрыть со списком
+[Auto size vertically]
+Подгонять высоту
+[Transparency (%):]
+Прозрачность (%):
+[Alert window]
+Окно напоминания
+[Round corners]
+Закруглённые углы
+[Don't steal focus unless idle]
+Если не активен, не перехватывать фокус
+[Preview]
+Тест
+[Alarm]
+Напоминание
+[Cancel]
+Отмена
+[Title:]
+Заголовок:
+[Description:]
+Описание:
+[Actions]
+Действия
+[Popup window]
+Всплывающее окно
+[Sound:]
+Звук:
+[Run command:]
+Выполнить команду:
+[Parameters:]
+Параметры:
+[Alert 1]
+Звук 1
+[Alert 2]
+Звук 2
+[Alert 3]
+Звук 3
+[Speak]
+Речь
+[Occurrence]
+Событие
+[Once]
+Один раз
+[Weekly]
+Еженедельно
+[Daily]
+Ежедневно
+[Weekdays]
+По будням
+[Monthly]
+Ежемесячно
+[Yearly]
+Ежегодно
+[i'm hiding]
+прячусь
+[Date and time]
+Дата и время
+[Disable next occurrence]
+Откл. следующее напоминание
+[Don't trigger on startup]
+Не срабатывать при загрузке
+[No reminder]
+Не показывать в списке
+[Dismiss]
+Убрать
+[Snooze]
+Отложить
+[Static]
+Статический
+[&Suspend]
+&Отложить
+[&Edit...]
+&Изменить...
+[&Delete]
+&Удалить
+[&Options...]
+&Настройки...
+[&New alarm...]
+Новое напоминание...
+[Unknown command issued: "%s"]
+Неизвестная команда: "%s"
+[Set alarm]
+Дать напоминание
+[Example alarm]
+Пример напоминания
+[Some example text. Example, example, example.]
+Пример текста. Пример, пример, пример.
+[5 mins]
+5 минут
+[15 mins]
+15 минут
+[30 mins]
+30 минут
+[1 hour]
+1 час
+[1 day]
+1 день
+[1 week]
+1 неделя
+[Title]
+Заголовок
+[Background]
+Фон
+[Window]
+Окно
+[%dh %dm]
+%dчас(ов) %dмин
+[%dm]
+%dмин
+[Hide reminders]
+Скрыть напоминания
+[Show reminders]
+Показать напоминания
+[Frames]
+Фреймы
+[Alarm reminders]
+Напоминания
+[Menu: Set alarm]
+Меню: Дать напоминание
+[Reminder: Soon]
+Напоминание: скоро
+[Reminder: Very soon]
+Напоминание: очень скоро
+[Alarm: System tray]
+Трей
+[Menu: Show/Hide reminders]
+Меню: Показать/Скрыть напоминания
+[Sunday]
+Воскресенье
+[Monday]
+Понедельник
+[Tuesday]
+Вторник
+[Wednesday]
+Среда
+[Thursday]
+Четверг
+[Friday]
+Пятница
+[Saturday]
+Суббота
+[Please enter a title for this alarm.]
+Введите имя напоминания.
+[Error]
+Ошибка
+[The alarm time you have selected is in the past.]
+Выбранное вами время - в прошлом.
+[Events]
+События

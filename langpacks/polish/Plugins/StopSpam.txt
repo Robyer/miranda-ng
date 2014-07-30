@@ -1,0 +1,67 @@
+﻿#muuid {553811ee-deb6-48b8-8902-a8a00c1fd679}
+;============================================================
+;  File: StopSpam.dll
+;  Plugin: StopSpam+
+;  Version: 0.0.1.4
+;  Authors: Roman Miklashevsky, A. Petkevich, Kosh&chka, persei
+;============================================================
+[Anti-spam plugin for Miranda NG.]
+Wtyczka antyspamowa dla Mirandy NG.
+;file \plugins\StopSpamPlus\res\stopspam.rc
+[Question (Ctrl+Enter for carriage return):]
+Pytanie (Ctrl+Enter dla nowej linii):
+[Restore defaults]
+Przywróć domyślne
+[Answer (Use divider to separate answers):]
+Odpowiedź (Użyj separatora do oddzielenia odpowiedzi):
+[Congratulation:]
+Gratulacje:
+[Auth. request reply:]
+Odpowiedź na pytanie o autoryzację:
+[Divider:]
+Separator:
+[Vars]
+Zmienne
+[Disable protection for following accounts:]
+Wyłącz ochronę dla następujących kont:
+[Do not send more than]
+Nie wysyłaj więcej niż
+[questions to one contact (0 - for no limit)]
+pytań do jednego kontaktu (0 - brak limitu)
+[Enable StopSpam-StopSpam infinite talk protection]
+Włącz ochronę nieskończonej rozmowy StopSpam-StopSpam
+[Add contact permanently]
+Dodaj kontakt na stałe
+[Enable auth. requests blocking]
+Włącz blokowanie próśb o autoryzację
+[Answer is not case sensitive]
+Nie sprawdzaj wielkości liter
+[Remove all temporary contacts after restart]
+Usuń wszystkie tymczasowe kontakty po restarcie
+[Log Spammers to system history]
+Dziennik spamu w historii systemowej
+;file \plugins\StopSpamPlus\src\events.cpp
+[Message Sessions]
+Okno rozmowy
+[General]
+Ogólne
+[Messages]
+Wiadomości
+[Accounts]
+Konta
+;file \plugins\StopSpamPlus\src\headers.h
+[StopSpam]
+StopSpam
+;file \plugins\StopSpamPlus\src\options.cpp
+[No more spam! Robots can't go! Only human beings invited!\r\n\r\nThis plugin works pretty simple:\r\nWhile messages from users on your contact list go as there is no any anti-spam software, messages from unknown users are not delivered to you. But also they are not ignored, this plugin replies with a simple question, and if user gives the right answer plugin adds him to your contact list so that he can contact you.]
+Nigdy więcej spamu! Roboty się nie przedrą! Tylko ludzie przejdą zabezpieczenie!\r\n\r\nWtyczka działa bardzo prosto:\r\nWiadomości od użytkowników z listy kontaktów zostaną dostarczone, ponieważ nie ma żadnego oprogramowania anty-spamowego, wiadomości od nieznanych użytkowników nie będą dostarczane. Ale też nie są one ignorowane, wtyczka zadaje proste pytanie, a jeśli użytkownik poda poprawną odpowiedź, plugin doda go do twojej listy kontaktów aby mógł się z tobą skontaktować.
+[StopSpam automatic message:\r\n]
+Automatyczna odpowiedź StopSpam:\r\n
+;file \plugins\StopSpamPlus\src\services.cpp
+[Not In List]
+Z Poza Listy
+[Complete]
+Zakończony
+;file \plugins\StopSpamPlus\src\stopspam.cpp
+[Remove Temporary Contacts]
+Usuń tymczasowe kontakty

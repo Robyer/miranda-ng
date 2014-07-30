@@ -1,0 +1,124 @@
+﻿#muuid {cf97fd5d-b911-47a8-af03-d21968b5b894}
+;============================================================
+;  File: SMS.dll
+;  Plugin: SMS
+;  Version: 0.2.5.3
+;  Authors: Richard Hughes, Improved by Ariel Shulman, rewritten by Rozhuk Ivan
+;============================================================
+[Send SMS text messages to mobile phones through the IM networks.]
+Дасылка SMS паведамленняў на мабільныя тэлефоны пасродкам IM сетак.
+;file \plugins\SMS\res\resource.rc
+[Received SMS]
+Атрыманае SMS
+[&Reply]
+Адказ
+[&Close]
+&Зачыніць
+[Read Next]
+Наступнае
+[From:]
+Ад:
+[Message received:]
+Паведамленне прынята:
+[Number:]
+Нумар:
+[Send SMS]
+Адправіць SMS
+[To:]
+Для:
+[Add number to list]
+Дадаць нумар да спісу
+[Save number]
+Захаваць нумар
+[Multiple >>]
+Некалькім>>
+[Enter message:]
+Паведамленне
+[Chars:]
+Знакі:
+[&Send]
+&Адправіць
+[SMS Message Didn't Send]
+СМС паведамленне не паслана
+[&Try again]
+Паспрабаваць яшчэ
+[&Cancel]
+С&касаваць
+[The SMS message send timed out]
+Ліміт часу адпраўкі SMS
+[SMS Plugin]
+Плагін SMS
+[Beginning]
+пачатак
+[End]
+канец
+[Put signature at the:]
+Паставіць подпіс у:
+[Use Signature]
+Выкарыстоўваць подпіс
+[Show server notifications]
+Паказаць адказ сервера
+[Auto popup on new message]
+Вакно на новае паведамленне
+[Save window position per contact]
+Захоўваць пазіцыю вакна пакантактна
+[SMS Message Sent]
+СМС паведамленне паслана
+[Message ID:]
+ID паведамлення:
+[Source:]
+Крыніца:
+[Network:]
+Аператар:
+;file \plugins\SMS\src\options.cpp
+[From %s:\r\n\r\n]
+Ад %s:\r\n\r\n
+[Events]
+Падзеі
+;file \plugins\SMS\src\receive.cpp
+[SMS Message from %s]
+SMS ад %s
+[SMS Confirmation from %s]
+SMS пацверджанне ад %s
+;file \plugins\SMS\src\recvdlg.cpp
+[Received SMS Confirmation]
+Атрыманае SMS пацверджанні
+;file \plugins\SMS\src\senddlg.cpp
+[View User's History]
+Гісторыя паведамленняў
+[Add Number To The Multiple List]
+Дадаць нумар да спісу тэлефонаў для адпраўкі
+[Save Number To The User's Details Phonebook]
+Захаваць нумар у спісе тэлефонаў профіля
+[Show/Hide Multiple List]
+паказвае/прыбірае спіс тэлефонаў для адпраўкі
+[Shows How Much Chars You've Typed]
+Паказвае, колькі знакаў набрана
+[The SMS message send to %s timed out.]
+Мінуў час пасылкі SMS да %s,
+[The phone number should start with a + and consist of numbers, spaces, brackets and hyphens only.]
+Тэлефон павінен пачынацца з + і складацца толькі з лічбаў, прабелаў, дужак і працяжнікаў.
+[Invalid Phone Number]
+Няслушны нумар тэлефона
+[Message is too long, press OK to continue.]
+Паведамленне занадта доўгае, націсніце OK для працягу
+[Error - Message too long]
+Памылка - паведамленне занадта доўгае
+[There must be numbers in the list first.]
+У спісе павінны быць нумары.
+[No Numbers]
+Няма нумароў
+[Invalid phone number]
+Няслушны нумар тэлефона
+[<< Single]
+<<Аднаму
+;file \plugins\SMS\src\SMSConstans.h
+[Send &SMS...]
+Адправіць СМС
+[&SMS Message]
+СМС паведамленне
+;file \plugins\SMS\src\SMS_svc.cpp
+[Incoming SMS Message]
+Уваходнае SMS паведамленне
+[Incoming SMS Confirmation]
+Пацверджанне SMS дастаўкі

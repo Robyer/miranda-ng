@@ -1,0 +1,99 @@
+﻿#muuid {f62c1d7a-ffa4-4065-a251-4c9dd9101cc8}
+;============================================================
+;  File: CrashDumper.dll
+;  Plugin: Crash dumper
+;  Version: 0.0.4.22
+;  Authors: borkra
+;============================================================
+[Crash Dumper for Miranda NG.]
+Плагін створення звітів про помилки в разі аварійного завершення роботи програми. Підтримка www.miranda-vi.org.
+[View Version Information]
+Інформація про версії
+[Close]
+Закрити
+[Copy To Clipboard]
+Копіювати в буфер
+[To File]
+В файл
+[Support for miranda-vi.org]
+Підтримка miranda-vi.org
+[Username]
+Ім'я користувача
+[Password]
+Пароль
+[Upload automatically when changed]
+Завантажувати автоматично при змінах
+[General]
+Загальне
+[Use classic dates]
+Класичний формат часу і дати
+[Create reports in subfolders naming as current date]
+Зберігати звіти в папки, названі по даті
+[View]
+Вигляд
+[&Copy]
+&Копіювати
+[Co&py All]
+Ко&піювати все
+[Select &All]
+Вибрати &все
+[VersionInfo stored into file %s]
+Версії збережені у файлі %s
+[VersionInfo file %s is inaccessible]
+Файл %s недоступний
+[Services]
+Служби
+[Version Information To Clipboard]
+Версії в буфер обміну
+[Version Information To File]
+Версії в файл
+[Show Version Information]
+Показати версії
+[Upload Version Information]
+Завантажити
+[Crash Reports]
+Звіти про помилки
+[Version Information]
+Версії
+[Copy to clipboard]
+Копіювати в буфер обміну
+[Store to file]
+Зберегти в файл
+[Show]
+Показати
+[Show with DLLs]
+З бібліотеками
+[Upload]
+Завантажити
+[Open crash report directory]
+Папка збереження звітів
+[Open miranda-vi.org]
+Відкрити miranda-vi.org
+[Copy Version Info to clipboard]
+Копіювати версії в буфер обміну
+[Show Version Info]
+Показати версії
+[Crash Dumper]
+Звіт про помилки
+[Crash Report write location is not available]
+Шлях для запису звіту про помилку недоступний
+[Miranda crashed. Crash report stored in the folder:\n %s\n\n Would you like store it in the clipboard as well?]
+Miranda NG була завершена аварійно. Звіт збережено у\n %s\n\nЗберегти його в буфер обміну?
+[View Version Information (with DLLs)]
+Інформація про версії (з бібліотеками)
+[VersionInfo upload successful,\n %d old plugins]
+Версії успішно завантажені,\n%d старих плагінів
+[Cannot upload VersionInfo. Incorrect username or password]
+Неможливо завантажити інформацію про версії. Неправильне ім'я користувача чи пароль.
+[Cannot upload VersionInfo. User is banned]
+Неможливо завантажити інформацію про версії. Користувач забанений.
+[Cannot upload VersionInfo. Daily upload limit exceeded]
+Неможливо завантажити інформацію про версії. Денний ліміт завантажень вичерпано.
+[Cannot upload VersionInfo. Unknown error]
+Неможливо завантажити інформацію про версії. Невідома помилка.
+[Cannot upload VersionInfo. Host unreachable.]
+Неможливо завантажити інформацію про версії. Хост недоступний.
+[Crash Dumper HTTP connections]
+HTTP-з'єднання CrashDumper
+[More then one crash reporting plugin installed. This will result in inability of creating crash reports]
+Встановлено більше одного плагіна звітів про помилки. Це веде до неможливості створення звітів.

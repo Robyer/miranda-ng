@@ -1,0 +1,68 @@
+﻿#muuid {1d9bf74a-44a8-4b3f-a6e5-73069d3a8979}
+;============================================================
+;  File: HistorySweeperLight.dll
+;  Plugin: History sweeper light
+;  Version: 0.1.0.1
+;  Authors: Sergey V. Gershovich a.k.a. Jazzy$, Boris Krasnovskiy, tico-tico
+;============================================================
+[This plugin can sweep system history, history from all contacts or only from chosen; also it may sweep history older than certain time; and may do it at Miranda NG startup/shutdown.]
+Diese Plugin kann den Systemverlauf, den Verlauf aller Kontakte oder eines Kontaktes löschen. Der Verlauf älter als ein Datum kann gelöscht werden. Der Verlauf kann beim Start/Beenden von Miranda NG gelöscht werden.
+;file \plugins\HistorySweeperLight\res\historysweeperlight.rc
+[History Sweeper Light]
+History Sweeper Light
+[Sweep history for these contacts:]
+Verlauf der ausgewählten Kontakte löschen:
+[Action 1]
+Aktion 1
+[Action 2]
+Aktion 2
+[Sweep on closing message window]
+Nach dem Schließen des Nachrichtenfenster löschen
+[Clicking on the icon in the status bar will change settings]
+Klick auf das Icon in der Statusleiste ändert die Einstellungen
+[Use UNSAFE mode (sweep as fast as possible, but dangerous for database)]
+Schnellen Löschmodus aktivieren (hierbei können Schäden am Profil entstehen!)
+;file \plugins\HistorySweeperLight\src\main.cpp
+[Keep all events]
+Alle Ereignisse behalten
+[Delete all events]
+Alle Ereignisse löschen
+;file \plugins\HistorySweeperLight\src\options.cpp
+[Delete older than 1 day]
+Älter als einen Tag löschen
+[Delete older than 3 days]
+Älter als 3 Tage löschen
+[Delete older than 7 days]
+Älter als eine Woche (7 Tage) löschen
+[Delete older than 2 weeks (14 days)]
+Älter als zwei Wochen (14 Tage) löschen
+[Delete older than 1 month (30 days)]
+Älter als einen Monat (30 Tage) löschen
+[Delete older than 3 months (90 days)]
+Älter als drei Monate (90 Tage) löschen
+[Delete older than 6 months (180 days)]
+Älter als sechs Monate (180 Tage) löschen
+[Delete older than 1 year (365 days)]
+Älter als ein Jahr (365 Tage) löschen
+[Keep 1 last event]
+1 letztes Ereignis behalten
+[Keep 2 last events]
+2 letzte Ereignisse behalten
+[Keep 5 last events]
+5 letzte Ereignisse behalten
+[Keep 10 last events]
+10 letzte Ereignisse behalten
+[Keep 20 last events]
+20 letzte Ereignisse behalten
+[Keep 50 last events]
+50 letzte Ereignisse behalten
+[Default Action]
+Standard-Aktion
+[Delete All]
+Alles löschen
+[*** Default Action ***]
+*** Standard-Aktion ***
+[*** System History ***]
+*** Systemverlauf ***
+[History]
+Verlauf

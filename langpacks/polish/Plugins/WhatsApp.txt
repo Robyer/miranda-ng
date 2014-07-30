@@ -1,0 +1,81 @@
+﻿#muuid {4f1ff7fa-4d75-44b9-93b0-2ced2e4f9e3e}
+;============================================================
+;  File: WhatsApp.dll
+;  Plugin: WhatsApp protocol
+;  Version: 0.0.2.1
+;  Authors: Uli Hecht
+;============================================================
+[WhatsApp protocol support for Miranda NG.]
+Wsparcie protokołu WhatsApp dla Mirandy NG.
+;file \protocols\WhatsApp\res\whatsapp.rc
+[Phone-Number]
+Numer telefonu
+[Including country code, without '+' or '00']
+z kierunkowym kraju bez "+", ani "00"
+[Nickname]
+Nick
+[Password]
+Hasło
+[Request Code]
+Poproś o kod
+[Register Code]
+Zarejestruj Kod
+[SMS-Code:]
+Kod z SMSa:
+[Will only be used for registration]
+Będzie użyty tylko do rejestracji
+[Paste password from WART utility]
+Wklej hasło z narzędzia WART
+[Use WART utility from Plugins folder for registering your number and generating password]
+Użyj narzędzia WART umieszczonego w folderze Plugins, aby zarejestrować numer i wygenerować hasło
+[Use SSL connection (443 port)]
+Używaj połączenia SSL (port 443)
+[Cancel]
+Anuluj
+;file \protocols\WhatsApp\src\connection.cpp
+[Please enter a country-code.]
+Proszę podać numer kierunkowy kraju.
+[Please enter a phone-number without country code.]
+Proszę podać numer telefonu bez kierunkowego kraju.
+[Please enter a nickname.]
+Proszę podać nick.
+[Please enter a password.]
+Wprowadź hasło.
+;file \protocols\WhatsApp\src\dialogs.cpp
+[An SMS with registration-code will be sent to your mobile phone.\nNotice that you are not able to use the real WhatsApp and this plugin simultaneously!\nContinue?]
+SMS z kodem weryfikacyjnym zostanie wysłany na twój telefon.\nUwaga: nie możesz używać prawdziwego WhatsApp i tej wtyczki równocześnie.\nKontynuować?
+[Please correctly specify your registration code received by SMS]
+Proszę podać poprawny kod weryfikacyjny otrzymany SMSem.
+[Your password has been set automatically.\nIf you change your password manually you may lose it and need to request a new code!]
+Twoje hasło zostało ustawione automatycznie.\nJeśli zmienisz je ręcznie, możesz je stracić i będziesz musiał zażądać nowego kodu weryfikacyjnego.
+;file \protocols\WhatsApp\src\main.cpp
+[Did not unpack WART (registration utility).]
+Nie wypakowano narzędzia rejestracji WART.
+;file \protocols\WhatsApp\src\proto.cpp
+[%s server connection]
+Połączenie %s
+[Unable to get Netlib connection for WhatsApp]
+Nie udało się uzyskać połączenia Netlib dla WhatsApp
+[Network-connection error.]
+Błąd połączenia sieciowego
+[Network]
+Protokoły
+[Account]
+Konto
+;file \protocols\WhatsApp\src\theme.cpp
+[WhatsApp Icon]
+Ikona WhatsApp
+[Add To Group]
+Dodaj do grupy
+[Create Chat Group]
+Utwórz czat grupowy
+[Remove From Chat Group]
+Usuń z czatu grupowego
+[Leave And Delete Group]
+Opuść i usuń grupę
+[Leave Group]
+Opuść grupę
+[Change Group Subject]
+Zmień temat grupy
+[Create Group]
+Utwórz grupę

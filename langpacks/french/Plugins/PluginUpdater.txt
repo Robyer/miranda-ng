@@ -1,0 +1,188 @@
+﻿#muuid {968def4a-bc60-4266-ac08-754ce721db5f}
+;============================================================
+;  File: PluginUpdater.dll
+;  Plugin: Plugin updater
+;  Version: 0.1.2.2
+;  Authors: Mataes, George Hazan
+;============================================================
+[Plugin updater for Miranda NG.]
+Plugin de mises à jour de Miranda NG.
+;file \plugins\PluginUpdater\res\Resource.rc
+[Updates found!]
+Mises à jour trouvées!
+[PluginUpdater has detected updated versions of some Miranda components. Click on Details button to view more information.]
+L'outil de mise à jour a détecté de nouvelles versions des composants de Miranda. Cliquer sur Détails pour avoir plus d'informations.
+[Update]
+Mise à jour
+[Details >>]
+Détails
+[Cancel]
+Annuler
+[Select &all]
+&Tout sélectionner
+[Select &none]
+&Rien sélectionner
+[Hotkey]
+Raccourci clavier
+[Go to Customize -> Hotkeys to change the hotkey]
+Aller à Apparence -> Raccourcis clavier pour changer les raccourcis.
+[Plugin updates options]
+Options du plugin de mise à jour
+[On startup]
+Au démarrage
+[(but only once a day)]
+(mais seulement une fois par jour)
+[Every]
+Tous les
+[Silent mode]
+
+[Files source]
+Source du fichier
+[Stable version]
+Version stable
+[Development version (less stable)]
+Version de développement (moins stable)
+[Development version with debug symbols]
+Version de développement avec les symboles de debug
+[Custom version]
+Version personnalisée
+[Some component(s) was updated.\nYou need to restart your Miranda to apply installed updates.]
+
+[Notifications]
+Notifications
+[Restart]
+
+[Errors]
+Erreurs
+[Info messages]
+
+[Back]
+Fond
+[Text]
+Texte
+[Colors]
+Couleurs
+[Use cus&tom colors]
+Utiliser des couleurs &personnalisées
+[Use &Windows colors]
+Utiliser les couleurs &Windows
+[Use Pop&up colors]
+Utiliser les couleurs des Pop&up
+[Preview]
+Aperçu
+[Click action]
+Action du clic
+[On left click]
+Clic gauche
+[On right click]
+Clic droit
+[Timeout]
+Délai du popup
+[0 = Default]
+0 = Défaut
+[-1 = Infinite]
+-1 = Infini
+[Sec]
+Sec
+[For "Restart" popup setting is always infinity]
+
+[Boxes]
+
+[Popups]
+Popups
+[Component list]
+Liste des composants
+[Here is the complete list of missing Miranda NG components. Check components that you want to download.\n\nClick on info icon to view component info page.]
+Ici se trouve la liste complète des composants manquants de Miranda NG. Cocher les composants que vous souhaitez télécharger.\n\nCliquer sur l'icône info pour voir la page d'information du composant.
+[Download]
+Téléchargement
+;file \plugins\PluginUpdater\src\DlgListNew.cpp
+[Downloading...]
+Télécharge...
+[Succeeded.]
+Accompli.
+[Failed!]
+
+[Skipped.]
+
+[Plugin Updater]
+
+[Download complete]
+Téléchargement terminé
+[Download complete. Do you want to go to plugins option page?]
+Téléchargement terminé. Voulez-vous ouvrir la page d'option des plugins?
+[Component Name]
+Nom du composant
+[State]
+État
+[Plugins]
+Plugins
+[Icons]
+Icônes
+[Languages]
+Langages
+[Other]
+Autre
+[List is empty.]
+Liste vide.
+[List loading already started!]
+
+;file \plugins\PluginUpdater\src\DlgUpdate.cpp
+[Will be deleted!]
+Sera effacé!
+[Update complete. Press Yes to restart Miranda now or No to postpone a restart until the exit.]
+Mise à jour accomplie. Appuyer sur Oui pour redémarrer Miranda maintenant.
+[Core components]
+
+[Core]
+
+[<< Details]
+<<Détails
+[Update failed! One of the components wasn't downloaded correctly. Try it again later.]
+
+[%d component(s) was updated]
+
+[You need to restart your Miranda to apply installed updates.]
+
+[Would you like to restart it now?]
+
+[No updates found.]
+Aucune mises à jour trouvée.
+[Update checking already started!]
+Vérification des mises à jour en cours!
+;file \plugins\PluginUpdater\src\Events.cpp
+;file \plugins\PluginUpdater\src\Notifications.cpp
+;file \plugins\PluginUpdater\src\Notifications.h
+[Close popup]
+
+[Do nothing]
+
+;file \plugins\PluginUpdater\src\Options.cpp
+[hours]
+heures
+[days]
+jours
+[Test]
+Test
+[Services]
+Services
+;file \plugins\PluginUpdater\src\PluginUpdater.cpp
+[Check for updates]
+Vérifier la présence de mises à jour
+[Available components list]
+Montrer la liste complète des plugins
+[Update completed]
+
+[Update failed]
+
+;file \plugins\PluginUpdater\src\Utils.cpp
+[Plugin info]
+Informations sur le plugin
+[Plugin list]
+Liste des plugins
+[Plugin Updater HTTP connection]
+Connection HTTP du plugin de mise à jour
+[Checking new updates...]
+Vérification de mises à jour...
+[An error occurred while checking new updates.]
+Une erreur est survenue lors de la vérification des mises à jour.

@@ -1,0 +1,13 @@
+﻿#muuid {6471d451-2fe0-4ee2-850e-9f84f3c0d187}
+;============================================================
+;  File: AddContactPlus.dll
+;  Plugin: Add contact+
+;  Version: 0.9.9.2
+;  Authors: Bartosz 'Dezeath' Bialek
+;============================================================
+[Send authorization request]
+Send authorisation request
+[Authorization request]
+Authorisation request
+[Please authorize my request and add me to your contact list.]
+Please authorise my request and add me to your contact list.

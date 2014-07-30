@@ -1,0 +1,159 @@
+﻿#muuid {2d77a746-00a6-4343-bfc5-f808cdd772ea}
+;============================================================
+;  File: Import.dll
+;  Plugin: Import contacts and messages
+;  Version: 0.11.0.1
+;  Authors: Miranda team
+;============================================================
+[Imports contacts and messages from another Miranda profile or from an external program.]
+Імпарт кантактаў і паведамленняў з іншых профіляў Miranda і іншых праграм.
+;file \plugins\Import\res\resource.rc
+[Choose how you would like to import:]
+Абярыце, адкуль неабходна вырабіць імпарт дадзеных:
+[From a Miranda NG database.]
+З базы Miranda NG/IM.
+[This wizard will help you import contacts and message history from another Miranda profile or from an external program.]
+Гэты візард дапаможа вам імпартаваць кантакты і гісторыю з Mirabilis ICQ, а таксама з іншых профіляў Miranda.
+[Click "Next" to choose the information you wish to import, or click "Cancel" to exit the wizard and continue using Miranda.]
+Націсніце "Далей", каб абраць інфармацыю для імпартавання, ці "Скасаваць", каб выйсці з гэтага майстра.
+[It is recommended that you create a backup of your current Miranda profile before importing.]
+Рэкамендуецца стварыць рэзервовую копію бягучага профіля перад імпартаваннем.
+[If you wish to import more information, click "Next" to return to the start of the wizard, otherwise click "Finish" to start using Miranda.]
+Націсніце "Далей", каб імпартаваць яшчэ адну базу, ці "Завяршыць", каб запусціць Miranda.
+[You will probably never need to use this wizard again, so you can save memory by not loading it every time you start Miranda. This will mean that the import menu item will no longer be available.]
+Хутчэй за ўсё, вам больш не спатрэбіцца гэты візард. Вы можаце вызваліць памяць, не загружаючы яго пры запуску Miranda.
+[Do not load the import plugin at startup again]
+Не загружаць візард пры наступным запуску
+[Import completed]
+Імпарт завершаны
+[If at a future date you wish to use the wizard again, you can make it load again by going to the Plugins section of the Options dialog box.]
+Калі вам у будучыні спатрэбіцца гэты візард, уключыце плагін import.dll у наладах (частка "Плагіны").
+[Miranda has found Miranda profiles with the following names. Please select the one you wish to import, or click "Other Profile" if your profile is not listed, or if the list is empty.]
+Miranda знайшла наступныя профілі. Абярыце профіль са спісу, ці націсніце "Іншы профіль", калі Вашага профіля няма ў спісе ці спіс пусты.
+[&Other Profile...]
+&Іншы профіль..
+[&Filename:]
+&Імя файла:
+[Now importing...]
+Імпартуецца...
+[Import Information Wizard]
+Майстар імпартавання
+[&Next >]
+&Далей >
+[Cancel]
+Скасаваць
+[< &Back]
+< &Назад
+[Import all contacts and all messages]
+Імпартаваць усе кантакты і паведамленні
+[Only import contacts]
+Імпартаваць толькі кантакты
+[Custom import]
+Імпарт уручную
+[Select this if you want to import as much data as possible. This is the recommended option.]
+Абярыце гэту опцыю, каб імпартаваць як мага больш дадзеных (рэкамендуецца).
+[Select this if you want to import contacts but don't want to import any message history.]
+Абярыце гэту опцыю, каб імпартаваць толькі кантакты (без гісторыі паведамленняў).
+[Select this if you want to customize what to import.]
+Абярыце гэту опцыю, каб паказаць, што менавіта імпартаваць
+[New contacts && groups]
+Новыя кантакты і гурты
+[System history]
+Сістэмная гісторыя
+[Select items to import:]
+Абярыце, што імпартаваць:
+[Incoming]
+Уваходныя
+[Outgoing]
+Выходныя
+[Only since:]
+Толькі з:
+[Messages]
+Паведамленні
+[URLs]
+Спасылкі
+[File Transfers]
+Перадача файлаў
+[Other]
+Іншае
+;file \plugins\Import\src\import.cpp
+[Ignored event from/to self]
+Прапускаю падзею ад самога сябе
+[Added contact %u (found in history)]
+Дададзены кантакт %u (знойдзена ў гісторыі)
+[Failed to add %S contact %s]
+Не атрымалася дадаць %S кантакт %s
+[Added %S contact %s, '%s']
+Дададзены %S кантакт %s, '%s'
+[Added %S contact %s]
+Дададзены %S кантакт %s
+[Skipping contact with no protocol]
+Пропуск кантактаў без пратаколу
+[Skipping contact, %S not installed.]
+Пропуск кантакта, %s не усталяваны.
+[Skipping non-IM contact (%S)]
+Пропуск не-IM кантакта (%s)
+[Skipping %S contact, ID not found]
+Пропуск кантакта %s, не знойдзены ID
+[Skipping duplicate %S contact %s]
+Пропуск паўтора %S кантакт %s
+[Unknown error while adding %S contact %s]
+Адбылася невядомая памылка пры даданні %S кантакту %s
+[Failed to add message]
+Не атрымалася дадаць паведамленне
+[Error retrieving current profile, exiting.]
+Памылка чытанняі профілю, завяршэнне.
+[There's no database driver to open the input file, exiting.]
+Няма драйвера базы, каб адчыніць дадзены профіль, выхад.
+[Error loading source file, exiting.]
+Памылка загрузкі зыходнага файла, выхад.
+[Number of contacts in database: %d]
+Колькасць кантактаў у базе: %d
+[Importing groups.]
+Імпарт гуртоў.
+[Group import failed.]
+Памылка імпарту гурта
+[Importing contacts.]
+Імпарт кантактаў.
+[Skipping new contacts import.]
+Пропуск імпарту новых кантактаў.
+[Importing system history.]
+Імпарт сістэмнай гісторыі.
+[Skipping system history import.]
+Пропуск імпарту сістэмнай гісторыі.
+[Importing history.]
+Імпарт гісторыі.
+[Skipping history import.]
+Пропуск імпарту гісторыі.
+[Import completed in %d seconds.]
+Імпарт завершаны за %d секунд.
+[Added %d contacts and %d groups.]
+Дададзена %d кантактаў і  %d гуртоў.
+[Added %d contacts, %d groups and %d events.]
+Дададзена  %d кантактаў, %d гуртоў і %d падзей.
+[Skipped %d contacts.]
+Прапушчана %d кантактаў.
+[Skipped %d duplicates and %d filtered events.]
+Прапушчана %d дублікатаў і %d адфільтраваных падзей.
+[Skipped %d duplicates.]
+Прапушчана %d дублікатаў.
+;file \plugins\Import\src\main.cpp
+[Import...]
+Імпарт...
+[&Import...]
+&Імпарт
+;file \plugins\Import\src\miranda.cpp
+[The given file does not exist. Please check that you have entered the name correctly.]
+Дадзены файл не існуе. Праверце імя файла.
+[Miranda Import]
+Імпарт Miranda
+[Miranda NG database]
+База Miranda NG/IM
+[All Files]
+Усе файлы
+;file \plugins\Import\src\utils.cpp
+[Skipping duplicate group %s.]
+Пропуск дубліката гурта %s
+;file \plugins\Import\src\wizard.cpp
+[Finish]
+Завяршыць

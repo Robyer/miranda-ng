@@ -1,0 +1,162 @@
+﻿#muuid {f981f3f5-035a-444f-9892-ca722c195ada}
+;============================================================
+;  File: ListeningTo.dll
+;  Plugin: ListeningTo
+;  Version: 0.3.0.0
+;  Authors: Ricardo Pescuma Domenecci
+;============================================================
+[Handles listening information to/for contacts.]
+Wyświetlanie informacji "Teraz odtwarzane" od/do kontaktów.
+;file \plugins\ListeningTo\res\resource.rc
+[Listening to information]
+Teraz odtwarzane
+[Enable sending listening information to contacts:]
+Włącz wysyłanie do kontaktów o:
+[Music]
+Muzyka
+[Radio]
+Radio
+[Video]
+Wideo
+[Others]
+Inne
+[You also have to enable it per protocol in the main menu]
+Musisz to także włączyć dla każdego protokołu w głównym menu
+[XStatus]
+xStatus
+[For protocols that don't support listening to but support XStatus:]
+Dla protokołów bez obsługi "Teraz odtwarzane", ale z obsługą xStatus:
+[Set XStatus to Music and show listening info]
+Ustaw xStatus na Muzyka i pokaż informacje
+[If other XStatus is not set, set XStatus to Music and show listening info]
+Jeśli nie ma innego xSatusu, ustaw go na Muzykę i pokaż informacje
+[If XStatus is Music, show listening info]
+Jeśli xStatus to Muzyka pokaż informacje
+[Do nothing]
+Nic nie rób
+[Contacts]
+Kontakty
+[Apply template for info from contacts (overrides contacts template)]
+Zastosuj szablon dla informacji od kontaktów (nadpisuje szablon kontaktów)
+[Get info from WATrack plugin]
+Pobierz informacje z wtyczki WATrack
+[Get info from these players:]
+Pobierz informacje z tych odtwarzaczy:
+[Winamp (*)]
+Winamp (*)
+[Windows Media Player]
+Windows Media Player
+[iTunes]
+iTunes
+[foobar2000 (need to install the plugin manually)]
+foobar2000 (musisz ręcznie zainstalować wtyczkę)
+[Other players]
+Inne odtwarzacze
+[Ask for new info every]
+Sprawdzaj co
+[seconds]
+s
+[Allow auto-loading plugins into players (affect players with *)]
+Zezwól na automatyczne wczytywanie wtyczek do odtwarzacza (dotyczy tych z *)
+[mRadio]
+mRadio
+[Listening to]
+Teraz odtwarzane
+[Template:]
+Szablon:
+[Variables:]
+Zmienne:
+[%artist% - Artist name]
+%artist% - Wykonawca
+[%album% - Album name]
+%album% - Nazwa albumu
+[%title% - Song title]
+%title% - Tytuł
+[%track% - Track number]
+%track% - Numer ścieżki
+[%year% - Song year]
+%year% - Rok wydania
+[%genre% - Song genre]
+%genre% - Gatunek
+[%length% - Song length]
+%length% - Długość ścieżki
+[%player% - Player name]
+%player% - Nazwa odtwarzacza
+[%type% - Media type (Music, Radio, Video, etc.)]
+%type% - Typ (muzyka, radio, wideo, itp.)
+[When variable not found, use:]
+Jeśli nie znajdziesz zmiennej użyj:
+[Title:]
+Nazwa:
+[Message:]
+Wiadomość:
+[Other Variables:]
+Inne zmienne:
+[%listening% - Listening to info (as set above)]
+%listening% - Informacje o odtwarzanych mediach (jak wyżej)
+[When nothing is playing, replace %listening% with:]
+Jeśli niczego nie odtwarzam zamień %listening% na:
+;file \plugins\ListeningTo\src\listeningto.cpp
+[Send to %s]
+Wyślij do %s
+[Listening to (enabled)]
+Teraz odtwarzane (włączony)
+[Listening to (disabled)]
+Teraz odtwarzane (wyłączony)
+[ListeningTo]
+Teraz odtwarzane
+[Listening to music]
+Tune
+[Send to all protocols]
+Wyślij do wszystkich protokołów
+[Listening info]
+Teraz odtwarzane
+[Listening info as set in the options]
+Informacje określone w opcjach
+[Media type: Music, Video, etc.]
+Tryb odtwarzania: Muzyka, Wideo, itp.
+[Artist name]
+Artysta
+[Album name]
+Album
+[Song name]
+Nazwa utworu
+[Track number]
+Numer utworu
+[Song year]
+Rok utworzenia
+[Song genre]
+Gatunek
+[Song length]
+Długość
+[Player name]
+Odtwarzacz
+[Don't send to any protocols]
+Nie wysyłaj do żadnego protokołu
+[Toggle send to all protocols]
+Przełącz wysyłanie do wszystkich protokołów
+[Enable/Disable sending Listening To info (to all protocols)]
+Włącz/Wyłącz wysyłanie "Teraz odtwarzane" (wszystkie protokoły)
+[Disable ListeningTo (to all protocols)]
+Wyłącz Teraz odtwarzane (wszystkie protokoły)
+[Enable ListeningTo (to all protocols)]
+Włącz Teraz odtwarzane (wszystkie protokoły)
+;file \plugins\ListeningTo\src\options.cpp
+[<Unknown>]
+<Nieznany>
+[<Nothing is playing now>]
+<Nic nie jest odtwarzane>
+[Status]
+Status
+[General]
+Ogólne
+[Format]
+Format
+[Players]
+Odtwarzacze
+;file \plugins\ListeningTo\src\players\generic.cpp
+[Miranda ListeningTo receiver]
+odbiornik zdarzeń ListeningTo Mirandy
+;file \plugins\ListeningTo\src\players\wmp.cpp
+[Miranda ListeningTo WMP receiver]
+Odbiornik zdarzeń ListeningTo z WMP Mirandy

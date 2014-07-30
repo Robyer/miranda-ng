@@ -1,0 +1,178 @@
+﻿#muuid {dbe8c990-7aa0-458d-bab7-33eb07238e71}
+;============================================================
+;  File: AvatarHistory.dll
+;  Plugin: Avatar history
+;  Version: 0.1.0.1
+;  Authors: Matthew Wild (MattJ), Ricardo Pescuma Domenecci
+;============================================================
+[This plugin keeps backups of all your contacts' avatar changes and/or shows popups.]
+
+;file \plugins\AvatarHistory\res\AvatarHistory.rc
+[Avatar List Popup]
+
+[Save As...]
+Enregistrer sous...
+[Delete this entry]
+Effacer cette entrée
+[Delete this entry and the bitmap file]
+Effacer cette entrée et l'image
+[Avatar History]
+Historique des avatars
+[Static]
+Statique
+[Open Folder]
+Ouvrir dossier
+[Store this user's old avatars in disk]
+Sauver sur le disque (pour ce contact)
+[Log this user's avatars changes to history]
+Ajouter à l'historique (pour ce contact)
+[Show popups for this user]
+Popup pour ce contact
+[Protocols]
+Protocoles
+[Enable tracking for these protocols:]
+Surveiller les protocoles suivants :
+[Metacontacts have special handling: the info is always copied from subcontacts (notifications from a meta are ignored)]
+Les metacontacts ont un traitement spécial : l'info est copiée aux sous-contacts (les notifications des metacontacts seront ignorées)
+[Show popup when a contact change his avatar]
+Afficher un popup au changement d'avatar
+[Colors]
+Couleurs
+[Background color]
+Couleur de fond
+[Text color]
+Couleur du texte
+[Use Windows colors]
+Utiliser les couleurs Windows
+[Use default colors]
+Couleurs par défaut
+[Delay]
+
+[From Popup plugin]
+Comme le plugin Popup
+[Custom]
+Défini
+[Permanent]
+
+[Actions]
+Actions
+[On right click:]
+Clic droit :
+[On left click:]
+Clic gauche :
+[Track]
+
+[Avatar change:]
+Avatar changé :
+[Avatar removal:]
+Avatar effacé :
+[Preview]
+Aperçu
+[Avatar History: Select how to store history avatars]
+Avatar History : Méthode d'enregistrement des avatars.
+[Please select how the avatar history should be stored. This setting CANNOT be changed in future, because it would cause all previous history to be lost.]
+Veuillez choisir comment l'historique des avatars sera stocker. Ce choix NE POURRAS PAS être modifier, sauf si vous voulez perdre tous les historiques.
+[Store history in Miranda history and all history avatars in same folder]
+Stocker dans l'historique de Miranda NG et tous les avatars dans un répertoire unique.
+[Store history in Miranda history and history avatars in per protocol folders]
+Stocker dans l'historique de Miranda NG en rangeant les avatars avec un répertoire par protocole.
+[Store history in Miranda history and history avatars in per contact folders using shortcuts]
+Stocker dans l'historique, les avatars dans un répertoire par contact et avec ajout d'un raccourci.
+[Store history avatars in per contact folders using shortcuts]
+Stocker les avatars avec un répertoire par contact, avec ajout de raccourci.
+[Store history avatars in per contact folders]
+Stocker les avatars avec un répertoire par contact.
+[History is stored inside Miranda database. It can be seen by History++ or Avatar History internal viewer.]
+L'historique sera stocké dans le profil de Miranda-IM. Il sera accessible avec History++.
+[All avatars are stored as <Profile>\\Avatars History\\<Avatar Hash>]
+Tous les avatars seront stockés dans <Profile>\\Avatars History\\<Avatar Hash>
+[All avatars are stored as <Profile>\\Avatars History\\<Protocol>\\<Avatar Hash>]
+Tous les avatars seront stockés dans <Profile>\\Avatars History\\<Protocol>\\<Avatar Hash>
+[All avatars are stored as <Profile>\\Avatars History\\<Protocol>\\<Avatar Hash> and have a shortcut per history entry in <Profile>\\Avatars History\\<Protocol>\\<Contact ID>\\<Timestamp>]
+Tous les avatars seront stockés dans <Profile>\\Avatars History\\<Protocol>\\<Avatar Hash> et un raccourci par avatar dans <Profile>\\Avatars History\\<Protocol>\\<Contact ID>\\<Timestamp>
+[History is stored only in disk. It can be seen by Avatar History internal viewer.]
+Les avatars ne seront que sur le disque, mais avec un raccourci dans l'historique de Miranda NG.
+[All avatars are stored as <Profile>\\Avatars History\\<Protocol>\\<Contact ID>\\<Timestamp> (the same image can be stored lot of times)]
+Tous les avatars seront stockés dans <Profile>\\Avatars History\\<Protocol>\\<Contact ID>\\<Timestamp> (le même avatar peut être stocker plusieurs fois).
+;file \plugins\AvatarHistory\src\AvatarDlg.cpp
+[Avatar History for %s]
+Historique des avatars pour %s
+[Are you sure you wish to delete this history entry?\nOnly the entry in history will be deleted, bitmap file will be kept!]
+Êtes-vous sùr de vouloir effacer cette ligne de l'historique ?\nSeule cette ligne sera effacée, l'avatar sera conservé !
+[Delete avatar log?]
+Effacer le journal des avatars ?
+[Are you sure you wish to delete this avatar shortcut?\nOnly shortcut will be deleted, bitmap file will be kept!]
+Êtes-vous sùr de vouloir effacer le raccourci à l'avatar ?\nSeule le raccourci sera effacé, l'avatar sera conservé !
+[Are you sure you wish to delete this archived avatar?\nThis will delete the history entry and the bitmap file.\nWARNING:This can affect more than one entry in history!]
+Êtes-vous sùr de vouloir effacer l'avatar archivé ?\nCeci effacera la ligne de l'historique et l'avatar qui lui est associé.\nATTENTION : Ceci peut affecter plus d'une ligne de l'historique !
+[Delete avatar?]
+Effacer l'avatar ?
+[Are you sure you wish to delete this archived avatar?\nThis will delete the shortcut and the bitmap file.\nWARNING:This can affect more than one shortcut!]
+Êtes-vous sùr de vouloir effacer l'avatar archivé ?\nCeci effacera le raccourci et l'avatar qui lui est associé.\nATTENTION : Ceci peut affecter plus d'un raccourci !
+[Avatar History is empty!]
+L'historique des avatars est vide !
+[avatar path is null.]
+
+[View Avatar History]
+Historique des avatars...
+[Save Avatar for %s]
+Enregistrer l'avatar pour %s
+[Save Avatar]
+Enregistrer l'avatar
+;file \plugins\AvatarHistory\src\AvatarHistory.cpp
+[AVH Debug]
+
+[Removed avatar, no avatar before... skipping]
+
+[Hashes are the same... skipping]
+
+[Avatar History: Unable to save avatar]
+Historique des avatars : Impossible d'enregistrer l'avatar
+[AVH Debug: File copied successfully]
+
+[Avatars]
+Avatars
+[Contact changed avatar]
+Le contact a changé d'avatar
+[Contact removed avatar]
+Le contact a retiré l'avatar
+;file \plugins\AvatarHistory\src\AvatarHistory.h
+[removed his/her avatar]
+a effacé son avatar
+[changed his/her avatar]
+a changé d'avatar
+;file \plugins\AvatarHistory\src\icolib.cpp
+[History]
+Historique
+[Avatar Overlay]
+
+;file \plugins\AvatarHistory\src\options.cpp
+[Do nothing]
+
+[Close popup]
+
+[Show avatar history]
+Afficher l'historique des avatars
+[Show contact history]
+Afficher l'historique du contact
+[Test Contact]
+Test : Contact
+[Test description]
+Test : Description
+[Avatar]
+Avatar
+[Popups]
+Popups
+[Avatar Change]
+Changement d'avatar
+;file \plugins\AvatarHistory\src\utils.cpp
+[Unknown UIN]
+UIN inconnu
+[Unknown Protocol]
+Protocole inconnu
+[AVH Debug: GetOldStyleAvatarName]
+
+[Avatar History: Unable to create shortcut]
+
+[AVH Debug: Shortcut created successfully]
+

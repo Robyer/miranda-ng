@@ -1,0 +1,50 @@
+﻿#muuid {cf25d645-4dab-4b0a-b9f1-de1e86231f9b}
+;============================================================
+;  File: MsgPopup.dll
+;  Plugin: Message popup
+;  Version: 0.1.1.3
+;  Authors: StDenis
+;============================================================
+[Plugin replaces message boxes (those having only OK button) with popups.]
+Замяняе дыялогавыя вокны (якія маюць толькі кнопку ОК) на усплывальныя вокны.
+;file \plugins\MsgPopup\res\MsgPopup.rc
+[ASTERISK style]
+Зорачка
+[Background color]
+Колер фону
+[Text color]
+Колер тэксту
+[ERROR style]
+Памылка
+[EXCLAMATION style]
+Усклік
+[QUESTION style]
+Пытанне
+[Preview]
+Прагляд
+[Timeout]
+Затрымка
+[Special values of the "Timeout":\n -1 - infinity, 0 - use default timeout value]
+Адмысловыя значэнні "затрымкі":\n -1 - заўсёды, 0 - значэнне па змаўчанні
+[Emit a sound]
+Граць гук
+;file \plugins\MsgPopup\src\main.cpp
+[VirtualProtect failed. Code %d\nTry to call the author]
+Памылка віртуальнай абароны. Код %d\nЗьвяжыцеся з аўтарам
+[Error]
+Памылка
+[Hmm. Something goes wrong. I can't write into the memory.\nAnd as you can see, there are no any exception raised...\nTry to call the author]
+Хм. Нешта ідзе не так. Я не магу пісаць у памяць. \nІ як вы можаце бачыць не генеруецца ніякіх выключэнняў. \nПаспрабуйце звязацца з аўтарам.
+[MessagePopup]
+Увага
+[Popups]
+Усплывальныя вокны
+;file \plugins\MsgPopup\src\options.cpp
+[Message with question]
+Паведамленне з пытальнікам
+[Message with exclamation]
+Усклік
+[Message with error]
+Заўвага пра памылку
+[Message with asterisk]
+Паведамленне *з зорачкай*

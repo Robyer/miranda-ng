@@ -1,0 +1,301 @@
+﻿#muuid {8432b009-ff32-4727-aae6-a9035038fd58}
+;============================================================
+;  File: Facebook.dll
+;  Plugin: Facebook RM
+;  Version: 0.2.7.0
+;  Authors: Michal Zelinka, Robert Pösel
+;============================================================
+[Facebook protocol support for Miranda NG.]
+Support du protocole Facebook pour Miranda NG.
+;file \protocols\FacebookRM\res\facebook.rc
+[E-mail:]
+Courriel :
+[Password:]
+Passe :
+[Create a new Facebook account]
+Créer un nouveau compte Facebook
+[What's on your mind?]
+Exprimez-vous
+[Wall:]
+Mur :
+[Visibility:]
+Visibilité :
+[Text:]
+Texte :
+[URL:]
+Lien :
+[Place:]
+
+[Contacts >>]
+Contacts >>
+[Attach contacts:]
+
+[Share]
+Partager
+[Cancel]
+Annuler
+[User details]
+Détails du contact
+[Contacts Settings]
+Configuration des contacts
+[Default group:]
+Groupes :
+[Automatically set 'Ignore status change' flag]
+
+[Use bigger avatars]
+Utiliser des grands avatars
+[Event notifications]
+
+[Notifications]
+Notifications
+[News feeds]
+Fil d'actualité
+[News feed types to notify:]
+
+[Don't show advertising posts]
+
+[Other events]
+Autres événements
+[Client notifications]
+
+[Preview]
+Aperçu
+[Use balloon notifications in system tray instead of popups]
+
+[Advanced Settings]
+Options Avancées
+[Force secure (HTTPS) connection]
+Se connecter via une connection sécurisée HTTPS
+[Post Miranda statuses to Wall]
+Poster les statuts de Miranda sur le mur
+[Use secure connection also for channel requests]
+
+[Also disconnect chat when going to offline]
+
+[Map non-standard statuses to Invisible (instead of Online)]
+
+[Allow posting statuses to my pages (may slow down login)]
+
+[Use this server for opening links:]
+Utiliser ce serveur pour ouvrir les liens :
+[Enable support for Custom smileys (EXPERIMENTAL + BUGGY!)]
+
+[Use local time for received messages]
+Utiliser l'heure locale pour les messages reçus
+[Message sessions]
+Sessions de message
+[Keep messages as unread on server (don't send "seen" info)]
+Conserver les messages comme non lus sur le serveur (ne pas envoyer "vu")
+[Receive messages from "inbox" folder only]
+Recevoir uniquement les messages de la boîte de réception
+[Load last messages on opening message window (EXPERIMENTAL)]
+
+[Number of messages to load:]
+
+[Do not open chat windows on creation]
+
+;file \protocols\FacebookRM\src\chat.cpp
+[Myself]
+
+[User]
+Utilisateur
+[Friend]
+
+[&Invite user...]
+&Inviter l'utilisateur...
+[&Leave chat session]
+
+[User &details]
+&Détails du contact
+[User &history]
+
+;file \protocols\FacebookRM\src\communication.cpp
+[Login error: %s]
+
+[Unknown error]
+Erreur inconnue
+[Login error: Invalid request.]
+
+[Login error: Some Facebook things are required.]
+
+[Login error: Captcha code is required. Bad login credentials?]
+
+[Login error, probably bad login credentials.]
+
+[Your account requires HTTPS connection. Activating.]
+
+[Something happened to Facebook. Maybe there was some major update so you should wait for an update.]
+
+[Need confirmation for sending messages to other clients.\nOpen Facebook website and try to send message to this contact again!]
+
+[Timeout when sending message.]
+
+[Status update was successful.]
+Mise à jour du statut avec succès.
+;file \protocols\FacebookRM\src\connection.cpp
+[Please enter a username.]
+Veuillez entrer un nom d'utilisateur.
+[Please enter a password.]
+S'il vous plaît entrer un mot de passe.
+;file \protocols\FacebookRM\src\constants.h
+[Top News]
+
+[Most Recent]
+
+[Pages]
+
+[Classic website]
+Site internet classique
+[Mobile website]
+Site internet Mobile
+[Smartphone website]
+Site internet Mobile
+[Public]
+Public
+[Friends of friends]
+
+[Friends]
+
+[Friends except acquaintances]
+
+[Only me]
+
+;file \protocols\FacebookRM\src\contacts.cpp
+[%s and more (%d)]
+
+[Contact was removed from your server list.]
+Le contact a été supprimé de votre liste sur le serveur.
+[Error occurred when removing contact from server.]
+
+[Request for friendship was sent.]
+
+[Error occurred when requesting friendship.]
+
+[Request for friendship was canceled.]
+
+[Error occurred when canceling friendship request.]
+
+;file \protocols\FacebookRM\src\dialogs.cpp
+[Default]
+Défaut
+[<< Contacts]
+
+[What's on your mind, %s?]
+
+[Note: Make sure you have disabled 'Validate SSL certificates' option in Network options to work properly.]
+
+[Sample event]
+
+[Sample request]
+
+[Sample newsfeed]
+
+[Sample notification]
+
+;file \protocols\FacebookRM\src\json.cpp
+[a sticker]
+un autocollant
+[files]
+Fichiers
+[a file]
+un fichier
+[photos]
+photos
+[a photo]
+une photo
+[User sent %s:]
+
+[User sent an unsupported attachment. Open your browser to see it.]
+
+[Message read: %s by %s]
+
+[This message is no longer available, because it was marked as abusive or spam.]
+Ce message n'est plus disponible, car il a été marqué comme injurieux ou indésirable.
+[%s is typing a message...]
+%s vous écrit un message...
+;file \protocols\FacebookRM\src\messages.cpp
+[You cannot send messages when you are offline.]
+Vous ne pouvez pas envoyer de message si vous êtes Hors ligne.
+;file \protocols\FacebookRM\src\process.cpp
+[Contact is back on server-list.]
+
+[Contact is no longer on server-list.]
+Le contact n'est plus sur la liste du serveur.
+;file \protocols\FacebookRM\src\proto.cpp
+[%s server connection]
+%s serveur connexion
+[Unable to get Netlib connection for Facebook]
+
+[Facebook ID must be numeric value.]
+
+[Network]
+Réseau
+[Account]
+Compte
+[Events]
+Évènements
+[Advanced]
+Avancées
+[Share status...]
+Partager le statut
+[Own wall]
+
+[Loading newsfeeds...]
+
+[Checking friend requests...]
+
+[Refreshing buddy list...]
+
+[Do you want to cancel your friendship with '%s'?]
+
+[Visit profile]
+Visiter le profil
+[Visit notifications]
+
+[Show 'Share status' window]
+
+[Notification]
+
+[News Feed]
+
+[Other Event]
+Autre événement
+[Message read: %s]
+Message lu : %s
+;file \protocols\FacebookRM\src\theme.cpp
+[Facebook icon]
+
+[Mind]
+
+[Poke]
+Poke
+[Newsfeed]
+
+[Friendship details]
+
+[Conversation]
+Conversation
+[Message read]
+
+[Visit friendship details]
+Voir les détails
+[Visit conversation]
+
+[Cancel friendship]
+Supprimer
+[Cancel friendship request]
+
+[Request friendship]
+
+[Approve friendship]
+
+[Services...]
+Services...
+[Refresh Buddy List]
+Actualiser la liste d'amis
+[Services]
+Services
+[Check Friends Requests]
+
+[Check Newsfeeds]
+

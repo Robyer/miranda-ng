@@ -1,0 +1,163 @@
+﻿#muuid {1aac15e8-dcec-4050-b66f-2aa0e6120c22}
+;============================================================
+;  File: PasteIt.dll
+;  Plugin: Paste it
+;  Version: 1.0.0.3
+;  Authors: Krzysztof Kral
+;============================================================
+[Uploads the text to web page and sends the URL to your friends.]
+Umieszcza tekst na stronie www i wysyła link do twoich przyjaciół.
+;file \plugins\PasteIt\res\PasteIt.rc
+[Settings]
+Ustawienia
+[Default web page]
+Domyślna strona www
+[Default file encoding]
+Domyślne kodowanie pliku
+[Auto-detect UTF-8]
+Auto-wykrywanie UTF-8
+[Show confirmation dialog box]
+Pokaż okno potwierdzenia
+[Autosend download link to contact]
+Automatycznie wyślij do kontaktu link do pobrania pliku
+[Web page settings]
+Ustawienia strony www
+[Web page to configure]
+Strona www do konfiguracji
+[Configure]
+Konfiguruj
+[Default formatting]
+Domyślne formatowanie
+[Auto-detect format from file extension]
+Auto-wykrywanie formatu z rozszerzenia pliku
+[Public paste]
+Publiczna wklejka
+[Login as guest]
+Zaloguj się jako gość
+[User key]
+Klucz użytkownika
+[Get user key]
+Pobierz klucz
+[Configure formatting]
+Konfiguruj formatowanie
+[Cancel]
+Anuluj
+[Up]
+Do góry
+[Down]
+W dół
+[Delete]
+Usuń
+[Restore defaults]
+Przywróć domyślne
+[Download more]
+Pobierz więcej
+[Login to pastebin.com]
+Logowanie do pastebin.com
+[User name]
+Nazwa użytkownika
+[Password]
+Hasło:
+[Paste It]
+Wklej To
+[Format]
+Format
+[Encoding]
+Kodowanie
+[Recode]
+Zmień kodowanie
+;file \plugins\PasteIt\src\Options.cpp
+[Use default codepage]
+Użyj domyślnej strony kodowej
+[Thai]
+Tajski
+[Japanese]
+Japoński
+[Simplified Chinese]
+Chiński Uproszczony
+[Korean]
+Koreański
+[Traditional Chinese]
+Chiński Tradycyjny
+[Central European]
+Europa Środkowa
+[Cyrillic]
+Cyrylica
+[Cyrillic KOI8-R]
+Cyrylica KOI8-R
+[Latin I]
+Łacina I
+[Greek]
+Grecki
+[Turkish]
+Turecki
+[Hebrew]
+Hebrajski
+[Arabic]
+Arabski
+[Baltic]
+Bałtyckie
+[Vietnamese]
+Wietnamski
+[Korean (Johab)]
+Koreański (Johab)
+[You've entered invalid codepage. Select codepage from combo box or enter correct number.]
+Wprowadziłeś nieprawidłową stronę kodową. Wybierz ją z combo boxa lub wprowadź poprawną liczbę.
+[Invalid codepage]
+Nieprawidłowa strona kodowa
+[Services]
+Usługi
+[Main]
+Ogólne
+[Web page]
+Strona www
+;file \plugins\PasteIt\src\PasteIt.cpp
+[All Files (*.*)]
+Wszystkie pliki (*.*)
+[Paste It - Select file]
+Wklej To - Wybierz plik
+[Error]
+Błąd
+[Paste from clipboard]
+Wklej ze schowka
+[Paste from file]
+Wklej z pliku
+[Paste It HTTP connections]
+Połączenie HTTP Paste It
+;file \plugins\PasteIt\src\PasteToWeb.cpp
+[You can only paste 1 file]
+Możesz wkleić tylko 1 plik
+[Cannot get data from clipboard]
+Nie można pobrać danych ze schowka
+[File size is %d KB, do you really want to paste such a large file?]
+Rozmiar pliku wynosi %d KB, na pewno chcesz wkleić tak duży plik?
+[Are You sure?]
+Czy na pewno?
+[Cannot read file '%s']
+Nie można wczytać pliku "%s"
+[File size is larger then 10 MB, cannot be sent]
+Rozmiar pliku jest większy niż 10 MB, nie może zostać wysłany
+[Cannot open file '%s']
+Nie można otworzyć pliku "%s"
+[File '%s' is empty]
+Plik "%s" jest pusty
+;file \plugins\PasteIt\src\PasteToWeb1.cpp
+[Error during sending text to web page: %s]
+Błąd podczas wysyłania tekstu do strony www: %s
+[Error during sending text to web page]
+Błąd podczas wysyłania tekstu do strony www
+[Error during getting user key from web page: %s]
+Błąd podczas pobierania klucza użytkownika ze strony www: %s
+[Paste expire date]
+Data ważności wklejki
+[Never]
+Nigdy
+[10 minutes]
+10 minut
+[1 hour]
+1 godzina
+[1 day]
+1 dzień
+[1 month]
+1 miesiąc
+;file \plugins\PasteIt\src\PasteToWeb2.cpp

@@ -1,0 +1,35 @@
+﻿#muuid {b92282ac-686b-4541-a12d-6e9971a253b7}
+;============================================================
+;  File: HistoryPP.dll
+;  Plugin: History++
+;  Version: 1.5.1.5
+;  Authors: theMIROn, Art Fedorov
+;============================================================
+[Customize Filters]
+Customise Filters
+[Customize Toolbar]
+Customise Toolbar
+[&Customize...]
+&Customise...
+[Authorization request by %s (%s%d): %s]
+Authorisation request by %s (%s%d): %s
+[Authorization request granted by %s (%d): %s]
+Authorisation request granted by %s (%d): %s
+[Authorization request denied by %s (%d): %s]
+Authorisation request denied by %s (%d): %s
+[Authorization future request by %s (%d): %s]
+Authorisation future request by %s (%d): %s
+[Authorization Request by %s (%s%s%d): %s]
+Authorisation Request by %s (%s%s%d): %s
+[Authorization Request Sample]
+Authorisation Request Sample
+[Customize %s]
+Customise %s
+[Customize the look of %s Event. Select it's font, font color and background color.]
+Customise the look of %s Event. Select it's font, font colour and background colour.
+[Date Font Color]
+Date Font Colour
+[Nick Font Color]
+Nick Font Colour
+[Authorization request]
+Authorisation request

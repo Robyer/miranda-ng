@@ -1,0 +1,75 @@
+﻿#muuid {0324785E-74CE-4600-B781-851773B3EFC5}
+;============================================================
+;  File: Contacts.dll
+;  Plugin: Send/receive contacts
+;  Version: 1.6.0.0
+;  Authors: Joe Kucera, Todor Totev
+;============================================================
+[Allows you to send and receive contacts.]
+Дозволяє надсилати та отримувати контакти.
+[Send contacts]
+Надіслати контакти
+[&Add]
+&Додати
+[&User menu]
+&Меню користувача
+[User &details]
+Деталі &користувача
+[&History]
+&Історія
+[Choose contacts to be send:]
+Вибрати контакти для надсилання:
+[&Send]
+&Надіслати
+[Cancel]
+Скасувати
+[&Select All]
+&Вибрати все
+[Received contacts]
+Отримані контакти
+[Add to &group:]
+Додати в групу:
+[&Details]
+Деталі
+[Close]
+Закрити
+[Contacts send error]
+Помилка надсилання контактів
+[An error has occurred. The protocol reported the following error:]
+Протокол повідомляє про наступну помилку:
+[Try again]
+Повторити
+[Popup]
+Спливаюче вікно
+[Add to List]
+Додати
+[User details]
+Про користувача
+[Send Message]
+Надіслати
+[Contacts received from]
+Отримано контакти від
+[Contacts]
+Контакти
+[Incoming Contacts]
+Вхідні контакти
+[Outgoing Contacts]
+Вихідні контакти
+[Nick]
+Нік
+[First Name]
+Ім'я
+[Last Name]
+Прізвище
+[Add Contact Permanently to List]
+Додати у список
+[View User's Details]
+Інформація про користувача
+[View User's History]
+Історія повідомлень
+[User Menu]
+Меню користувача
+[Contacts from]
+Контакти від
+[Send Contacts to]
+Надіслати контакти

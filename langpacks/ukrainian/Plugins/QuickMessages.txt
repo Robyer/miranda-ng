@@ -1,0 +1,69 @@
+﻿#muuid {37ed754b-6cf9-40ed-9eb6-0fef8e822475}
+;============================================================
+;  File: QuickMessages.dll
+;  Plugin: Quick messages
+;  Version: 0.0.4.2
+;  Authors: MaD_CLuSTeR
+;============================================================
+[Plugin for quick insert pre-defined messages in message input area.]
+Дозволяє вставляти заздалегідь заготовлені фрази у вікно повідомлень.
+[Button Right-Click value]
+Функція правої кнопки миші
+[Button Left-Click menu]
+Меню лівої кнопки миші
+[Buttons]
+Кнопки
+[Menu entry value:]
+Найменування меню:
+[Misc.]
+Різне
+[Auto-send on Left-Click]
+Автовідправлення по лівій клавіші
+[Auto-send on Right-Click]
+Автовідправлення по правій клавіші
+[Add to QuickMenu]
+Додати в контекстне меню
+[Enable QuickMenu]
+Дозволити контекстне меню
+[Consider as ServiceName]
+Внутрішня команда
+[You have changed the plugin settings via database.\nThis requires restart!]
+Ви змінили налаштування плагіна через базу даних.\nПотрібен перезапуск Miranda!
+[Quick Messages Help]
+Допомога по швидким повідомленням
+[- Selected text]
+- Виділений текст
+[List of variables:]
+Список змінних:
+[- Text from Clipboard]
+- Текст з буфера обміну
+[- Contacts Protocol name (upper case)]
+- Ім'я контакту (Великі літери)
+[- Contact display name]
+- Ім'я контакту за замовчанням
+[Tips:]
+Підказки:
+[*Rename menu item into "---" to insert separator]
+Щоб вставити роздільник, перейменуйте пункт меню у "---"
+[*Use drag'n'drop for arranging menu items]
+*Перетягуйте мишкою пункти меню для сортування
+[- Contact first name]
+- Ім'я контакту
+[- Contact last name]
+- Прізвище контакту
+[Quick Messages]
+Швидкі повідомлення
+[Enter Value]
+Введіть значення
+[Congratulation!\r\nYou have clicked this button 100 times!\r\nThere was access violation at this point...\r\nAnd now function for freeing resources must be called...\r\nBut no! there's only break :D]
+Вітаємо!\r\nВи натиснули на кнопку 100 разів!\r\nТрапилося порушення прав доступу...\r\nІ тепер має бути запущена функція вивільнення ресурсів...\r\nАле ні, відбудеться лише переривання :D
+[You win!]
+Ви виграли!
+[New Button]
+Нова кнопка
+[New Menu Entry]
+Новий пункт меню
+[Message Sessions]
+Бесіди
+[Quick Messages Button %u]
+Кнопка швидких повідомлень %u

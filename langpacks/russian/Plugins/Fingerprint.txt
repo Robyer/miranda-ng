@@ -1,0 +1,265 @@
+﻿#muuid {687364af-58b0-4af2-a4ee-20f40a8d9afb}
+;============================================================
+;  File: Fingerprint.dll
+;  Plugin: Fingerprint NG
+;  Version: 0.1.0.0
+;  Authors: faith_healer, ghazan, mataes
+;============================================================
+[Fingerprint NG (client version) icons module for Miranda NG.]
+Fingerprint NG отображает значки клиентов, используемых вашими собеседниками.
+[Fingerprint overlays icons]
+Оверлеи значков клиентов
+[Miranda clients]
+Клиенты Miranda
+[Miranda packs overlays]
+Оверлеи сборок Miranda
+[Show Miranda version at Overlay#2]
+Значок версии на оверлее #2
+[Resource overlays]
+Оверлеи ресурсов
+[Platform overlays]
+Оверлеи платформы
+[Protocols overlays]
+Оверлеи протоколов
+[Unicode overlay]
+Оверлей Unicode
+[Secure overlays]
+Оверлеи шифрования
+[Select protocols]
+Протоколы
+[AIM clients]
+Клиенты AIM
+[Gadu-Gadu clients]
+Клиенты Gadu-Gadu
+[ICQ clients]
+Клиенты ICQ
+[IRC clients]
+Клиенты IRC
+[Jabber clients]
+Клиенты Jabber
+[MRA clients]
+Клиенты MRA
+[MSN clients]
+Клиенты MSN
+[QQ clients]
+Клиенты QQ
+[RSS clients]
+Клиенты RSS
+[Tlen clients]
+Клиенты Tlen
+[Weather clients]
+Клиенты погоды
+[Yahoo clients]
+Клиенты Yahoo
+[Multi-protocol clients]
+Мульти-протокольные клиенты
+[Other (rare) protocols]
+Клиенты редких протоколов
+[Other icons]
+Другие значки
+[Show client icon in message window status bar]
+Показывать значок клиента в строке состояния окна сообщений
+[Fingerprint]
+Значки клиентов
+[Client icons]
+Клиенты
+[Pack overlays]
+Оверлеи сборок
+[Multi-proto clients]
+Мульти-протокол
+[Other protocols]
+Другие протоколы
+[Overlays]
+Оверлеи
+[Resource]
+Ресурс
+[Platform]
+Операционная система
+[Security]
+Безопасность
+[Protocol]
+Протокол
+[Miranda NG stable]
+Стабильная Miranda NG
+[Miranda IM (old versions)]
+Miranda IM (старая версия)
+[Miranda (unknown)]
+Miranda (неизвестно)
+[spam client]
+спам клиент
+[PHP Jabber Client]
+PHP Jabber клиент
+[MP3 Script for mIRC]
+MP3 скрипт для mIRC
+[Mail.Ru Agent (official)]
+Mail.Ru Агент (официальный)
+[Mail.Ru (unknown client)]
+Mail.Ru (неизвестный клиент)
+[TM 2008 and >]
+TM 2008 и выше
+[Gadu-Gadu client]
+Gadu-Gadu клиент
+[Tlen.pl client]
+Tlen.pl клиент
+[Python-based clients]
+Клиенты на основе Python
+[Jabber client]
+Jabber клиент
+[XMPP client]
+XMPP клиент
+[Client not found]
+Ненайденный клиент
+[Unknown client]
+Неизвестный клиент
+[Undetected client]
+Неопределённый клиент
+[AIM overlay]
+Оверлей AIM
+[ICQJ Plus Mod overlay]
+Оверлей ICQJ Plus Mod
+[ICQJ overlay]
+Оверлей ICQJ
+[IRC overlay]
+Оверлей IRC
+[JGmail overlay]
+Оверлей JGmail
+[JGTalk overlay]
+Оверлей JGTalk
+[Jabber overlay]
+Оверлей Jabber
+[MSN overlay]
+Оверлей MSN
+[QQ overlay]
+Оверлей QQ
+[Tlen.pl overlay]
+Оверлей Tlen.pl
+[Yahoo overlay]
+Оверлей Yahoo
+[Mail.Ru Agent overlay]
+Оверлей Mail.Ru Agent
+[ICQ 2003 overlay]
+ICQ 2003 оверлей
+[ICQ Lite 4 overlay]
+ICQ Lite 4 оверлей
+[ICQ v5.x overlay]
+ICQ v5.x оверлей
+[ICQ v6.x overlay]
+ICQ v6.x оверлей
+[ICQ v7.x overlay]
+ICQ v7.x оверлей
+[ICQ v8.x overlay]
+ICQ v8.x оверлей
+[Yahoo v11.x overlay]
+Yahoo v11.x оверлей
+[Yahoo v10.x overlay]
+Yahoo v10.x оверлей
+[Yahoo v9.x overlay]
+Yahoo v9.x оверлей
+[Gadu-Gadu v11 client]
+Gadu-Gadu v11 клиент
+[Gadu-Gadu v10 client]
+Gadu-Gadu v10 клиент
+[Gadu-Gadu v9 client]
+Gadu-Gadu v9 клиент
+[Gadu-Gadu v8 client]
+Gadu-Gadu v8 клиент
+[Tlen 7.x overlay]
+Tlen 7.x оверлей
+[Tlen 6.x overlay]
+Tlen 6.x оверлей
+[Tlen 5.x overlay]
+Tlen 5.x оверлей
+[TM/QQ 2012 overlay]
+TM/QQ 2012 оверлей
+[TM/QQ 2011 overlay]
+TM/QQ 2011 оверлей
+[TM/QQ 2010 overlay]
+TM/QQ 2010 оверлей
+[TM/QQ 2009 overlay]
+TM/QQ 2009 оверлей
+[TM/QQ 2008 overlay]
+TM/QQ 2008 оверлей
+[TM/QQ 2007 overlay]
+TM/QQ 2007 оверлей
+[TM/QQ 2006 overlay]
+TM/QQ 2006 оверлей
+[TM/QQ 2005 overlay]
+TM/QQ 2005 оверлей
+[QQ 2004 overlay]
+QQ 2004 оверлей
+[TM 3.x / QQ 2003 overlay]
+TM 3.x / QQ 2003 оверлей
+[TM 2.x overlay]
+TM 2.x оверлей
+[TM 1.x overlay]
+TM 1.x оверлей
+[QQ 2000 overlay]
+QQ 2000 оверлей
+[Windows overlay]
+Оверлей Windows
+[iOS overlay (iPhone/iPad)]
+Оверлей iOS (iPhone/iPad)
+[MacOS overlay]
+Оверлей MacOS
+[Linux overlay]
+Оверлей Linux
+[Flash overlay]
+Оверлей Flash
+[Java overlay]
+Оверлей Java
+[Symbian overlay]
+Оверлей Symbian
+[Amiga overlay]
+Оверлей Amiga
+[Android overlay]
+Оверлей Android
+[debug overlay]
+Оверлей debug
+[office overlay]
+Оверлей office
+[mobile overlay]
+Оверлей mobile
+[home overlay]
+Оверлей home
+[work overlay]
+Оверлей work
+[notebook overlay]
+Оверлей notebook
+[Miranda NG v0.6 #2 overlay]
+Miranda NG v0.6 #2 оверлей
+[Miranda NG v0.5 #2 overlay]
+Miranda NG v0.5 #2 оверлей
+[Miranda NG v0.4 #2 overlay]
+Miranda NG v0.4 #2 оверлей
+[Miranda NG v0.3 #2 overlay]
+Miranda NG v0.3 #2 оверлей
+[Miranda NG v0.2 #2 overlay]
+Miranda NG v0.2 #2 оверлей
+[Miranda NG v0.1 #2 overlay]
+Miranda NG v0.1 #2 оверлей
+[Miranda IM v0.10 #2 overlay]
+Miranda IM v0.10 #2 оверлей
+[Miranda IM v0.9 #2 overlay]
+Miranda IM v0.9 #2 оверлей
+[Miranda IM v0.8 #2 overlay]
+Miranda IM v0.8 #2 оверлей
+[Miranda IM v0.7 #2 overlay]
+Miranda IM v0.7 #2 оверлей
+[Miranda IM v0.6 #2 overlay]
+Miranda IM v0.6 #2 оверлей
+[Miranda IM v0.5 #2 overlay]
+Miranda IM v0.5 #2 оверлей
+[Miranda IM v0.4 #2 overlay]
+Miranda IM v0.4 #2 оверлей
+[x64 overlay]
+Оверлей x64
+[x32 overlay]
+Оверлей x32
+[NewGPG overlay]
+NewGPG оверлей
+[MirOTR overlay]
+MirOTR оверлей
+[SecureIM overlay]
+Оверлей SecureIM
+[Icons]
+Значки

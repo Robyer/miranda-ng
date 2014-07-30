@@ -1,0 +1,106 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\src\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "..\\src\\resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOGEX 0, 0, 312, 249
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Contact List Window Start Position",IDC_STATIC,6,37,298,165,WS_TABSTOP
+    EDITTEXT        IDC_CLTOP,128,57,26,12,ES_AUTOHSCROLL
+    CONTROL         "Left",IDC_CLALIGNLEFT,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,27,104,95,10
+    CONTROL         "Right",IDC_CLALIGNRIGHT,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,27,117,94,10
+    EDITTEXT        IDC_CLBOTTOM,128,73,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLSIDE,128,89,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLWIDTH,128,130,26,12,ES_AUTOHSCROLL
+    CONTROL         "Pixels from Top",IDC_CLTOPENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,59,98,10
+    CONTROL         "Pixels from Bottom",IDC_CLBOTTOMENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,75,100,10
+    CONTROL         "Pixels from Side",IDC_CLSIDEENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,91,100,10
+    CONTROL         "Width",IDC_CLWIDTHENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,131,99,10
+    CONTROL         "Always start...",IDC_CLSTATEENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,148,273,10
+    CONTROL         "Minimized to System Tray",IDC_CLSTATETRAY,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,27,162,262,10
+    CONTROL         "Opened",IDC_CLSTATEOPENED,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,27,175,261,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 311
+        TOPMARGIN, 2
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

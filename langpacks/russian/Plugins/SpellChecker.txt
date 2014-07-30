@@ -1,0 +1,133 @@
+﻿#muuid {36753ae3-840b-4797-94a5-fd9f5852b942}
+;============================================================
+;  File: SpellChecker.dll
+;  Plugin: Spell checker
+;  Version: 0.2.6.1
+;  Authors: Ricardo Pescuma Domenecci, FREAK_THEMIGHTY
+;============================================================
+[Spell checker for the message windows. Uses Hunspell to do the checking.]
+Проверка орфографии в окне сообщений. Использует Hunspell для проверки.
+[Replacements]
+Замены
+[Enable auto-replacements]
+Включить автозамену
+[Language:]
+Язык:
+[Add...]
+Добавить...
+[Edit...]
+Правка...
+[Remove]
+Удалить
+[Add auto-replace word]
+Добавление слова для автозамены
+[Wrong word:]
+Слово с ошибкой:
+[No separators and all lowercase chars]
+Не учитывать разделители и регистр
+[Correction:]
+Исправление:
+[Use variables in correction]
+Использовать переменные для замены
+[Cancel]
+Отмена
+[Spell Checker]
+Орфография
+[Default language:]
+Язык по умолчанию:
+[Auto-replace words with dictionary suggestions]
+Автоматическая замена словами из словаря
+[Ignore words with numbers]
+Игнорировать слова с числами
+[Ignore words in UPPER CASE]
+Игнорировать слова ЗАГЛАВНЫМИ БУКВАМИ
+[Ask before sending a message with spelling errors]
+Спрашивать перед отсылкой сообщения с ошибками
+[Download more dictionaries]
+Загрузить другие словари
+[Advanced]
+Дополнительно
+[Underline type:]
+Тип подчеркивания:
+[Show corrections in submenu]
+Группировать исправления в подменю
+[Show all corrections in context menu (takes more time to show)]
+Показывать все исправления в меню (требует больше времени)
+[Show wrong word]
+Показывать слово с ошибкой
+[Use flags]
+Отображать флаги
+[Use input language to select dictionary]
+Использовать язык ввода для выбора словаря
+[Use dictionaries from other programs]
+Использовать словари из других программ
+[Avoid removing underscores (slows down checking of long texts)]
+Не удалять подчеркивания (замедляет проверку больших текстов)
+[The wrong word can't be empty!]
+Слово с ошибкой не может быть пустым!
+[Wrong Correction]
+Неверное исправление
+[The correction can't be empty!]
+Исправление не может быть пустым!
+[The correction can't be equal to the wrong word!]
+Исправление не может быть таким же как слово с ошибкой!
+[Tagalog (Philippines)]
+Тагалог (Филиппины)
+[German (Germany)]
+Немецкий (Германия)
+[Message Sessions]
+Беседы
+[Auto-replacements]
+Автозамена
+[Line]
+Линия
+[Dotted]
+Точками
+[Dash]
+Тире
+[Dash dot]
+Точка тире
+[Dash dot dot]
+Две точки тире
+[Wave]
+Волна
+[Thick]
+Жирный
+[Wrong word]
+Неправильное слово
+[Correction]
+Исправление
+[Dictionaries]
+Словари
+[Custom Dictionaries]
+Личные словари
+[Flags DLL]
+Библиотека с флагами (DLL)
+[Enable/disable spell checker]
+Включить/выключить проверку орфографии
+[Enabled]
+Включён
+[Disabled]
+Выключен
+[Unknown]
+Неизвестно
+[There are %d spelling errors. Are you sure you want to send this message?]
+Есть %d орфографических ошибок. Вы уверены, что хотите отправить это сообщение?
+[Other...]
+Другое...
+[Always replace with]
+Всегда заменять на
+[Ignore all]
+Игнорировать все
+[Add to dictionary]
+Добавить в словарь
+[Corrections]
+Исправления
+[Wrong word: %s]
+Неверное слово: %s
+[Language]
+Язык
+[Enable spell checking]
+Включить проверку орфографии
+[Wrong words]
+Неправильные слова

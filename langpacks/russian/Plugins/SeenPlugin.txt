@@ -1,0 +1,261 @@
+﻿#muuid {2d506d46-c94e-4ef8-8537-f11233a80381}
+;============================================================
+;  File: SeenPlugin.dll
+;  Plugin: Last seen
+;  Version: 5.0.4.9
+;  Authors: Heiko Schillinger, YB
+;============================================================
+[Logs when a user was last seen online and which users were online while you were away.]
+Запоминает, когда пользователь последний раз появлялся в сети и кто был в сети, пока вы отсутствовали.
+[Last seen options]
+Параметры последнего появления
+[Last seen menu item]
+Пункт меню последнего появления
+[Show icon]
+Показать значок
+[User info tab]
+Вкладка в информации о контакте
+[Log to file]
+Запись в файл
+[Log to history]
+Записывать историю
+[Maximum size]
+Максимальный размер
+[Variable list]
+Переменные
+[Enable Idle support]
+Включить режим ожидания
+[Ignore contacts going offline]
+Игнорировать уходящих из сети
+[Enable 'Missed Ones' feature]
+Разрешить функцию "Пропущенные"
+[Count times]
+Количество входов в сеть
+[Accounts to watch:]
+Учётные записи для наблюдения:
+[Use popups]
+Вспл. окна
+[Title]
+Заголовок
+[Text]
+Текст
+[Popup Colors]
+Цвета окон
+[Online]
+В сети
+[Away]
+Отсутствую
+[NA]
+Недоступен
+[Occupied]
+Занят
+[DND]
+Не беспокоить
+[On the phone]
+На телефоне
+[Out to lunch]
+Обедаю
+[Free for chat]
+Готов болтать
+[Invisible]
+Невидимый
+[Offline]
+Не в сети
+[Reset colors]
+Сброс цветов
+[Last seen plugin]
+Последнее появление
+[You missed following contacts:]
+Пропущены следующие контакты:
+[Alert when user status changes]
+Предупреждать при изменении статуса
+[last seen history]
+история последней встречи
+[View User's Details]
+Информация о пользователе
+[User Menu]
+Меню пользователя
+[Send Instant Message]
+Отправить мгновенное сообщение
+[Date: %d.%m.%y(%Y) \n Date desc: %W - %w - %E - %e \n Time: %H:%M:%S (%h-%p) \n user: %n - %u \n Status: %s \n IP: %i - %r]
+Дата: %d.%m.%y(%Y)\n Описание: %W - %w - %E - %e\n Время: %H:%M:%S (%h-%p)\n Пользователь: %n - %u\n Статус: %s\n IP: %i - %r
+[LastSeen]
+Последнее появление
+[User status change]
+Смена статуса пользователя
+[Changed to Online]
+Смена: В сети
+[User Logged Off]
+Пользователь Отключён
+[User Logged In]
+Пользователь Подключён
+[<unknown>]
+<неизвестно>
+[<none>]
+<нет>
+[Last Seen Variables]
+Переменные
+[Contacts]
+Контакты
+[Last seen]
+Последнее появление
+[Popups]
+Всплывающие окна
+[%n is %s (%u)]
+%n %s (%u)
+[%i(%r)%bWas %o]
+%i(%r)%bбыл %o
+[Name:%t%N%bStatus:%t%s%bDay:%t%d.%m.%Y%bTime:%t%H:%M:%S%bPrevious Status:%t%o%b%b%P ID:%t%u%bExternal IP:%t%i%bInternal IP:%t%r%bClient ID: %t%C%b%bStatus Message:%t%T]
+Имя:%t%N%bСтатус:%t%s%bДата:%t%d.%m.%Y%bВремя:%t%H:%M:%S%bПредыдущий статус:%t%o%b%b%P ID:%t%u%bВнешний IP:%t%i%bВнутренний IP:%t%r%bКлиент: %t%C%b%bСообщение статуса:%t%T
+[-- Date --]
+-- Дата --
+[year (4 digits)]
+год (4 цифры)
+[year (2 digits)]
+год (2 цифры)
+[month]
+месяц
+[name of month]
+название месяца
+[short name of month]
+назв. месяца (сокр.)
+[day]
+день
+[weekday (full)]
+день недели (полн.)
+[weekday (abbreviated)]
+день недели (сокр.)
+[-- Time --]
+-- Время --
+[hours (24)]
+часы (24)
+[hours (12)]
+часы (12)
+[AM/PM]
+ДП/ПП
+[minutes]
+минуты
+[seconds]
+секунды
+[-- User --]
+-- Пользователь --
+[username]
+пользователь
+[nick]
+ник
+[UIN/handle]
+номер/обработчик
+[Group]
+Группа
+[Status]
+Статус
+[Status message]
+Сообщение статуса
+[Old status]
+Старый статус
+[external IP]
+внешний IP
+[internal IP]
+внутренний IP
+[Client info]
+Клиент
+[Protocol]
+Протокол
+[Account]
+Учётная запись
+[-- Format --]
+-- Формат --
+[tabulator]
+табуляция
+[line break]
+с новой строки
+[Note:]
+Примечание:
+[Use]
+Использовать
+[for empty string]
+для пустой строки
+[instead of]
+вместо
+[Sunday]
+Воскресенье
+[Monday]
+Понедельник
+[Tuesday]
+Вторник
+[Wednesday]
+Среда
+[Thursday]
+Четверг
+[Friday]
+Пятница
+[Saturday]
+Суббота
+[Sun.]
+Вс.
+[Mon.]
+Пн.
+[Tue.]
+Вт.
+[Wed.]
+Ср.
+[Thu.]
+Чт.
+[Fri.]
+Пт.
+[Sat.]
+Сб.
+[January]
+Январь
+[February]
+Февраль
+[March]
+Март
+[April]
+Апрель
+[May]
+Май
+[June]
+Июнь
+[July]
+Июль
+[August]
+Август
+[September]
+Сентябрь
+[October]
+Октябрь
+[November]
+Ноябрь
+[December]
+Декабрь
+[Jan.]
+Янв
+[Feb.]
+Фев
+[Mar.]
+Мар
+[Apr.]
+Апр
+[Jun.]
+Июн
+[Jul.]
+Июл
+[Aug.]
+Авг
+[Sep.]
+Сен
+[Oct.]
+Окт
+[Nov.]
+Ноя
+[Dec.]
+Дек
+[<never seen>]
+<никогда не появлялся>
+[Idle]
+Ожидание
+[Unknown]
+Неизвестно
+[Not Idle]
+Не в ожидании

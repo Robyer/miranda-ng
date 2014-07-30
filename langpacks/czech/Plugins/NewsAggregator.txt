@@ -1,0 +1,167 @@
+﻿#muuid {56cc3f29-ccbf-4546-a8ba-9856248a412a}
+;============================================================
+;  File: NewsAggregator.dll
+;  Plugin: News aggregator
+;  Version: 0.0.0.1
+;  Authors: Mataes, FREAK_THEMIGHTY
+;============================================================
+[RSS/Atom news aggregator.]
+Čtečka novinek RSS/Atom.
+;file \plugins\NewsAggregator\Res\Resource.rc
+[Add]
+Přidat
+[Change]
+Změnit
+[Remove]
+Odebrat
+[Import]
+Importovat
+[Export]
+Exportovat
+[Retrieve news at startup]
+Získat novinky při spuštění
+[Cancel]
+Zrušit
+[General Settings]
+Obecná nastavení
+[Title]
+Název
+[URL]
+Odkaz
+[Check every]
+Projít každých
+[minutes]
+min.
+[Check Feed]
+Zkont. zdroj
+[Authentication]
+
+[Use &authentication]
+Použít &autorizaci
+[Login]
+Přihlášení
+[Password]
+Heslo
+[Visualization]
+Vizualizace
+[Display news using the following format:]
+Zprávy zobrazit v následujícím formátu:
+[All item's tags are valid. Put them between #. Example: #<author>#]
+Značky je třeba umístit mezi #. Příklad: #<autor>#
+[Reset]
+Reset
+[0 - check manually]
+
+[Feed name]
+
+[This feed seems to need authentication. Please fill username and password fields:]
+
+[Username]
+Uživatel
+[Available feeds:]
+Zdroje k dispozici:
+[Feeds to be exported:]
+Zdroje k exportu:
+[&Export]
+&Exportovat
+[&Close]
+&Zavřít
+[Import from:]
+Importovat z:
+[Feeds to be imported:]
+Zdroje k importu:
+[&Import]
+&Importovat
+;file \plugins\NewsAggregator\Src\Authentication.cpp
+[Enter your username]
+Zadejte vaše uživ. jméno
+[Error]
+Chyba
+[Enter your password]
+Zadejte vaše heslo
+;file \plugins\NewsAggregator\Src\CheckFeed.cpp
+[%s\nis a valid feed's address.]
+%s\nje platná adresa zdroje.
+[News Aggregator]
+
+[%s\nis not a valid feed's address.]
+%s\nnení platná adresa zdroje.
+[empty]
+prázdné
+;file \plugins\NewsAggregator\Src\ExportImport.cpp
+[Imported %d feed(s)\r\nNot imported %d duplicate(s).]
+
+[Imported %d feed(s).]
+
+[OPML files]
+
+[Not valid import file.]
+
+;file \plugins\NewsAggregator\Src\Icons.cpp
+[Protocol icon]
+Ikona protokolu
+[Check All Feeds]
+
+[Add Feed]
+Přidat zdroj
+[Import Feeds]
+Importovat zdroje
+[Export Feeds]
+Exportovat zdroje
+[Auto Update Enabled]
+Deaktivovat automatickou aktualizaci
+[Auto Update Disabled]
+Aktivovat automatickou aktualizaci
+;file \plugins\NewsAggregator\Src\Menus.cpp
+[Check feed]
+Zkont. zdroj
+[Change feed]
+Změnit zdroj
+;file \plugins\NewsAggregator\Src\NewsAggregator.cpp
+;file \plugins\NewsAggregator\Src\Options.cpp
+[Enter Feed name]
+
+[Enter Feed URL]
+Zadejte URL zdroje
+[Enter checking interval]
+
+[Enter message format]
+
+[The title of the item.]
+
+[The item synopsis.]
+
+[The URL of the item.]
+
+[Email address of the author of the item.]
+
+[URL of a page for comments relating to the item.]
+
+[A string that uniquely identifies the item.]
+
+[Specify one or more categories that the item belongs to.]
+
+[Feed Tag Help]
+
+[Are you sure?]
+Opravdu chcete pokračovat?
+[Tags Mask Reset]
+
+[Wait...]
+Počkejte...
+[Change Feed]
+Změnit zdroj
+[Contact deleting]
+
+[Network]
+Sítě
+;file \plugins\NewsAggregator\Src\Services.cpp
+[Avatars]
+Avatary
+[Enable/disable auto update]
+Povolit/zakázat automatickou aktualizaci
+;file \plugins\NewsAggregator\Src\Utils.cpp
+[NewsAggregator HTTP connection]
+
+[Feed]
+Zdroj

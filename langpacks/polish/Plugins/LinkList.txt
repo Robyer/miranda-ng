@@ -1,0 +1,156 @@
+﻿#muuid {DA0B09F5-9C66-488C-AE37-8A5F191C9079}
+;============================================================
+;  File: LinkList.dll
+;  Plugin: History linklist plus
+;  Version: 0.0.0.2
+;  Authors: Thomas Wendel, gureedo
+;============================================================
+[Generates a list of extracted URIs from the history.]
+Generuje listę linków wyodrębnionych z historii.
+;file \plugins\HistoryLinkListPlus\res\linklist.rc
+[Search]
+Szukaj
+[Close]
+Zamknij
+[Search for:]
+Wyszukaj dla:
+[Message direction]
+Kierunek wiadomości
+[Message types]
+Typy wiadomości
+[All directions]
+Wszystkie kierunki
+[Incoming only]
+Tylko przychodzące
+[Outgoing only]
+Tylko wychodzące
+[All types]
+Wszystkie typy
+[Mail addresses only]
+Tylko adresy e-mail
+[Web addresses only]
+Tylko adresy WWW
+[Deep search]
+Głębokie wyszukiwanie
+[Static]
+Statyczne
+[Color select]
+Kolor zaznaczenia
+[Incoming messages]
+Przychodzące wiadomości
+[Plugin default]
+Domyślna wtyczka
+[Preview]
+Podgląd
+[Outgoing messages]
+Wychodzące wiadomości
+[Background color]
+Kolor tła
+[Use Miranda settings]
+Użyj ustawień Mirandy
+[Text color]
+Kolor tekstu
+[General settings]
+Ogólne
+[Open links always in a new window]
+Zawsze otwieraj linki w nowym oknie
+[Update list on new events]
+Zaktualizuj listę
+[Show whole message on 'mouse over' event]
+Pokaż całą wiadomość po najechaniu kursorem
+[Save window position individually for each contact]
+Zapisz pozycję okna indywidualnie dla każdego kontaktu
+[Show...]
+Pokaż...
+[Date]
+Data
+[Parting line]
+Podział
+[Timestamp]
+Czas
+[Direction]
+Kierunek
+[Type]
+Typ
+[&File]
+&Plik
+[&Save]
+&Zapisz
+[&Close]
+Z&amknij
+[&Options]
+&Opcje...
+[Message &direction]
+&Kierunek wiadomości
+[&Outgoing messages only]
+Tylko wiadomości &wychodzące
+[&Incoming messages only]
+Tylko wiadomości &przychodzące
+[Message &type]
+&Typ wiadomości
+[&Web addresses only]
+Tylko adresy &WWW
+[&Mail addresses only]
+Tylko adresy e-&mail
+[&Clear search results]
+&Wyczyść wyniki wyszukiwania
+[&Search]
+&Szukaj
+[link]
+link
+[Open]
+Otwórz
+[Open in new window]
+Otwórz w nowym oknie
+[Copy to clipboard]
+Kopiuj do schowka
+[Show message]
+Pokaż wiadomości
+;file \plugins\HistoryLinkListPlus\src\language.h
+[History Linklist]
+Lista linków
+[History is empty!]
+Historia jest pusta!
+[There are no links in history!]
+Brak linków w historii!
+[Error]
+Błąd
+[incoming]
+przychodzące
+[outgoing]
+wychodzące
+[Filter]
+Filtr
+[no filter]
+brak
+[Search filter]
+Filtr wyszukiwania
+[no settings]
+brak ustawień
+;file \plugins\HistoryLinkListPlus\src\linklist.cpp
+[&Create Linklist]
+&Utwórz listę linków
+[History]
+Historia
+[Processing history...]
+Przetwarzanie historii...
+[Could not create window!]
+Nie można utworzyć okna!
+[Could not allocate memory!]
+Nie można przydzielić pamięci!
+;file \plugins\HistoryLinkListPlus\src\linklist_dlg.cpp
+[Linklist plugin]
+Lista linków
+;file \plugins\HistoryLinkListPlus\src\linklist_fct.cpp
+[Matches for searchtext]
+Rezultatów wyszukiwania
+[Processing list...]
+Przetwarzanie listy...
+[No messages found!\nPlease change current filter options.]
+Nie znaleziono wiadomości!\nProszę zmienić bieżące opcje filtra.
+[RTF file]
+Plik RTF
+[All files]
+Wszystkie pliki
+[Save RTF File]
+Zapisz jako RTF

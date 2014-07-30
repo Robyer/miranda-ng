@@ -1,0 +1,106 @@
+﻿#muuid {53c715a8-eb01-4136-a73c-441868610074}
+;============================================================
+;  File: FltContacts.dll
+;  Plugin: Floating contacts
+;  Version: 0.7.0.1
+;  Authors: Iavor Vajarov, Kosh&chka, Victor Pavlychko
+;============================================================
+[Floating Contacts plugin for Miranda.]
+Плагiн плывучых кантактаў для Miranda
+;file \plugins\FloatingContacts\res\fltcnt.rc
+[Hiding contacts]
+Утойванне кантактаў
+[Hide offline contacts]
+Схаваць адключаных
+[Stick together]
+Склейваць кантакты
+[Use fixed width]
+Шырыня
+[pixels]
+пікс.
+[Hide all contacts]
+Хаваць усе кантакты
+[Hide when a fullscreen app is active]
+Хаваць калі прыкладанне разгорнута
+[Show tooltips*]
+Паказваць падказкі*
+[ms]
+мс
+[Tooltips]
+Падказкі
+[Miscellaneous]
+Іншае
+[0 = Default]
+0=Змаўчанне
+[*requires Tipper plugin]
+* патрабуе Tipper
+[Bring to front]
+На пярэдні план
+[Bring to front every]
+Перасоўваць на ўгару кожныя
+[seconds]
+секунд(ы)
+[Hide when contact list is shown]
+Хаваць калі спіс кантактаў бачны
+[Single click interface]
+Адна пстрычка
+[Dim idle contacts]
+Прыцьміць неактыўныя кантакты
+[Idle contacts]
+Неактыўныя кантакты
+[Border]
+Рамка
+[Draw border]
+Паказваць рамку
+[Left-top edge's color:]
+Колер уверсе злева:
+[Right-bottom edge's color:]
+Колер унізе справа:
+[Background]
+Фон
+[Background color:]
+Колер фону:
+[Use background bitmap]
+Фонавая выява
+[Stretch to width]
+Расцягнуць па шырыні
+[Stretch to height]
+Расцягнуць па вышыні
+[Tile horizontally]
+Гарызантальная мазаіка
+[Tile vertically]
+Вертыкальная мазаіка
+[Stretch proportionally]
+Расцягнуць
+[Opacity:]
+Непразрыстасць:
+;file \plugins\FloatingContacts\src\main.cpp
+[Standard contacts]
+Стандартныя кантакты
+[Online contacts to whom you have a different visibility]
+Са змененай бачнасцю (далучаны)
+[Offline contacts]
+Адключаныя кантакты
+[Offline contacts to whom you have a different visibility]
+Са змененай бачнасцю (адключаныя)
+[Contacts which are 'not on list']
+Кантакты 'не ў спісе'
+[Floating contacts]
+Плывучыя кантакты
+[Show all thumbs]
+Паказаць плывучыя кантакты
+[Hide all thumbs]
+Схаваць плывучыя кантакты
+[Remove thumb]
+Прыбраць плывучы кантакт
+[Show/Hide all thumbs]
+Паказаць/Схаваць усе кантакты
+;file \plugins\FloatingContacts\src\options.cpp
+[Floating Contacts]
+Плывучыя кантакты
+[Contact list]
+Спіс кантактаў
+[Main Features]
+Галоўнае
+[Appearance]
+Знешні выгляд

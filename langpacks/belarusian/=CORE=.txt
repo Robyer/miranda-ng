@@ -1,0 +1,3183 @@
+﻿;============================================================
+;  File: miranda32/64.exe
+;  Module: Miranda Core
+;  Version: 0.95.3
+;============================================================
+;file \src\resource.rc
+[Enter account name (for example, My Google)]
+Увядзіце імя конта
+[Choose the protocol type]
+Выбар тыпу пратаколу
+[Specify the internal account name (optional)]
+Пазначце ўнутранае імя конту (не абавязкова)
+[Cancel]
+Скасаваць
+[Add %s]
+Дадаць %s
+[&Add]
+Дадаць
+[&Cancel]
+Скасаваць
+[Send "You were added"]
+Адправіць "Вас дадалі"
+[Send authorization request]
+Адправіць запыт на аўтарызацыю
+[Open contact's chat window]
+Адчыніць вакно гутаркі
+[Custom name:]
+Зададзенае імя:
+[Group:]
+Гурт:
+[Options]
+Налады
+[Authorization request]
+Запыт аўтарызацыі
+[Delete contact]
+Выдаліць кантакт
+[&Yes]
+&Так
+[&No]
+&Не
+[Hide from list only, in order to keep their history and ignore/visibility settings]
+Схаваць са спісу (захоўваецца гісторыя і налады бачнасці)
+[Use Options->Contacts->Ignore to unhide contacts.]
+Налады->Кантакты->Ігнараваць, каб адлюстраваць кантакты.
+[Are you sure you want to delete %s?]
+Выдаліць %s са спісу?
+[This will erase all history and settings for this contact!]
+Гэта выдаліць усю гісторыю і налады для дадзенага кантакту!
+[Contact display options]
+Параметры паказу кантактаў
+[Instead of displaying contacts by their nickname,\ndrag to choose another order:]
+Замест паказу мянушак,\nабярыце іншы прыярытэт паказу імёнаў:
+[Miranda NG profile manager]
+Мэнэджар профіляў Miranda
+[&Run]
+выканаць
+[&Exit]
+Выхад
+[Start in service mode with]
+Запуск у службовым рэжыме з
+[Find/add contacts]
+Знайсці/дадаць кантакты
+[Search:]
+Шукаць:
+[E-mail address]
+Адрас e-mail
+[Name]
+Імя
+[Nick:]
+Мянушка:
+[First:]
+Імя:
+[Last:]
+Прозвішча:
+[Advanced]
+Дадаткова
+[Advanced >>]
+Дадаткова >>
+[&Search]
+Шукаць
+[More options]
+Яшчэ налады
+[Add to list]
+Дадаць у спіс
+[Custom]
+Наладзіць
+[Find/add contacts\nHere you can add contacts to your contact list]
+Пошук кантактаў\nТут Вы можаце знайсці і дадаць кантакты ў спіс кантактаў
+[Options\nConfigure your Miranda NG options]
+Налады\nГалоўны дыялог налад Miranda NG
+[Apply]
+Ужыць
+[Switch to simple options]
+Спрошчаны выгляд налад
+[Please select a subentry from the list]
+Абярыце падпадзел са спісу
+[Install database settings]
+Усталяваць налады базы дадзеных
+[Yes]
+Так
+[No]
+Не
+[A file containing new database settings has been placed in the Miranda NG directory.]
+Файл з новымі наладамі базы дадзеных быў змешчаны ў тэчку Міранды.
+[Do you want to import the settings now?]
+Імпартаваць налады зараз?
+[No to all]
+Не для ўсіх
+[&View contents]
+&Змест
+[Security systems to prevent malicious changes are in place and you will be warned before changes that are not known to be safe.]
+Сістэма бяспекі для прадухілення непажаданых змен актыўная і вы будзеце папярэджаны перад небяспечнымі зменамі.
+[Database setting change]
+Змена налад базы дадзеных
+[Database settings are being imported from]
+Налады імпартуюцца з
+[This file wishes to change the setting]
+Гэты файл змяняе наладу
+[to the value]
+на значэнне
+[Do you want to allow this change?]
+Дазволіць змену?
+[&Allow all further changes to this section]
+&Дазволіць усе змены ў гэтай секцыі
+[Cancel import]
+Скасаваць імпарт
+[Database import complete]
+Імпарт базы здзейснены
+[The import has completed from]
+Імпарт здзейснены з
+[What do you want to do with the file now?]
+Што вы жадаеце зрабіць з файлам?
+[&Recycle]
+Вярнуць
+[&Delete]
+Выдаліць
+[&Move/Rename]
+Перасунуць/пераназваць
+[&Leave]
+Пакінуць
+[Netlib log options]
+Налады лога сеціва
+[Show]
+Паказаць
+[Received bytes]
+Атрыманыя байты
+[Sent bytes]
+Адпраў. байты
+[Additional data due to proxy communication]
+Дадатковыя дадзеныя пра проксі
+[SSL traffic]
+Трафік SSL
+[Text dumps where available]
+Тэкставыя дампы (калі ёсць)
+[Auto-detect text]
+Аўтавызначэнне тэксту
+[Calling modules' names]
+Імёны выклікаючых плагінаў
+[Log to]
+Весьці лог у
+[OutputDebugString()]
+Выснова адладкавых радкоў
+[File]
+Файл
+[Run program when Miranda NG starts (e.g., tail -f, dbgview, etc.):]
+Выканаць праграму пры запуску (напрыклад, tail -f, dbgview, etc.):
+[Run now]
+Вык. зараз
+[Show this dialog box when Miranda NG starts]
+Паказаць гэты дыялог пры запуску Miranda NG
+[Sounds]
+Гукі
+[&Change...]
+Змяніць...
+[&Preview]
+Прагляд
+[Download more sounds]
+Запампаваць з сайта Miranda NG
+[Sound information]
+Дадатковая інфармацыя
+[Location:]
+Шлях:
+[Name:]
+Імя:
+[Enable sound events]
+Уключыць гукі падзей
+[Icons]
+Абразкі
+[Show category:]
+Катэгорыя:
+[&Load icon set...]
+Абраць набор абразкоў...
+[&Import icons >>]
+Імпарт абразкоў >>
+[Download more icons]
+Запампаваць яшчэ
+[The following events are being ignored:]
+Наступныя падзеі будуць праігнараваны:
+[Messages]
+Паведамленні
+[URLs]
+Спасылкі
+[Files]
+Файлы
+[Online notification]
+Абвестка "Далучаны"
+[Auth requests]
+Запыты аўтарызацыі
+[All events]
+Усе падзеі
+[None]
+Няма
+[Only the ticked contacts will be shown on the main contact list]
+Толькі пазначаныя кантакты будуць паказаны ў спісе кантактаў
+[Ignore]
+Ігнараваць
+[Added notification]
+Абвестка пра даданне
+[Typing]
+Набор тэксту
+[Visibility]
+Бачнасць
+[You are visible to this person even when in invisible mode]
+Вы заўсёды бачныя для гэтага чалавека
+[You are never visible to this person]
+Вы заўсёды нябачныя для гэтага чалавека
+[Icon index]
+Нумар абразка
+[Icon library:]
+Бібліятэка:
+[Drag icons to main list to assign them:]
+Перацягніце абразок у вакно для замены:
+[Import multiple]
+Імпарт некалькіх
+[To main icons]
+Галоўныя абразкі
+[To]
+У
+[<< &Import]
+<< Імпарт
+[To default status icons]
+Абразкі па змаўчанні
+[Logging...]
+Лог...
+[Outgoing connections]
+Выходныя злучэнні
+[Use proxy server]
+Карыстацца проксі
+[Type:]
+Тып:
+[Host:]
+Хост:
+[Port:]
+Порт:
+[(often %d)]
+(частая %d)
+[Use custom login (domain login picked up automatically)]
+Імя карыстача (уваход з даменным іменем аўтаматычны)
+[Username:]
+Карыстач:
+[Password:]
+Пароль:
+[Resolve hostnames through proxy]
+Выкарыстоўваць DNS на проксі
+[Port range:]
+Порты:
+[Example: 1050-1070, 2000-2010, 2500]
+Прыклад: 1050-1070, 2000-2010, 2500
+[Validate SSL certificates]
+Правяраць подпіс SSL сертыфікатаў
+[Incoming connections]
+Уваходныя злучэнні
+[Enable UPnP port mapping]
+Уключыць перанакіраванне портаў UPnP
+[You will need to reconnect for the changes you have made on this page to take effect.]
+Змены запрацуюць пры наступным далучэнні.
+[Please complete the following form to create a new user profile]
+Запоўніце форму для стварэння профіля карыстача
+[Profile]
+Профіль
+[e.g., Workplace]
+напр. "Працоўны"
+[You can select a different profile driver from the default, it may offer more features or abilities, if in doubt use the default.]
+Вы можаце абраць  іншы драйвер базы дадзеных, які мае больш магчымасцяў. Калі не ўпэўнены, выкарыстоўвайце драйвер па змаўчанні.
+[e.g., dbx mmap]
+напрыклад, dbx_mmap
+[Driver]
+Драйвер
+[Problem: Unable to find any database drivers, this means you cannot create a new profile, you need to get dbx_mmap.dll]
+Не знойдзены рухавікі базы дадзеных, вы не можаце стварыць новы профіль. Вам неабходны файл dbx_mmap.dll
+[Download more plugins]
+Запампаваць іншыя плагіны
+[Description:]
+Апісанне:
+[Author(s):]
+Аўтар(ы):
+[E-mail:]
+Пошта:
+[Homepage:]
+Сайт:
+[Unique ID:]
+Унік. ID:
+[Copyright:]
+Правы:
+[Please restart Miranda NG for your changes to take effect.]
+Змены запрацуюць пасля перазапуску праграмы.
+[Fonts and colors]
+Шрыфты і колеры
+[Undo]
+Адкат
+[Reset]
+Скід
+[Export...]
+Экспарт...
+[Color/background]
+Колер фону
+[Text effect]
+Эфект
+[Text color]
+Колер тэксту
+[Choose font]
+Шрыфт
+[Font]
+Шрыфт
+[&Font:]
+Шрыфт:
+[Font st&yle:]
+Стыль шрыфта:
+[\nStyles and effects are disabled for this font.]
+Для гэтага шрыфта налады стыляў і эфектаў адключаны.
+[&Size:]
+Памер:
+[Effects]
+Эфекты
+[Stri&keout]
+Закрэслены
+[&Underline]
+Падкрэсліць
+[&Color:]
+Колер:
+[Sample]
+Прыклад
+[AaBbYyZz]
+АаБбВвГг
+[Sc&ript:]
+Скрыпт:
+[&Apply]
+Ужыць
+[&Help]
+Даведка
+[Menu objects]
+Выгляды меню
+[Menu items]
+Пункты меню
+[Protocol menus]
+Меню пратаколаў
+[Move to the main menu]
+У галоўным меню
+[Move to the status bar]
+У панэлі статусаў
+[Warning!\r\nThis menu object not support user defined options.]
+Увага!\r\nГэтыя пункты меню не паддаюцца наладзе.
+[Insert separator]
+Уставіць падзельнік
+[Service:]
+Cлужба:
+[Default]
+Змаўчанні
+[Set]
+Абраць
+[Disable icons]
+Адключыць абразкі
+[Show accounts in the following order,\ndrag to choose another order:]
+Паслядоўнасць адлюстравання контаў.\nПерацягвайце для змены:
+[Account order and visibility]
+Паслядоўнасць контаў
+[Note: Miranda NG will have to be restarted for changes to take effect.]
+Нататка: Змены запрацуюць пасля перазапуску праграмы.
+[Key bindings]
+Гарачыя клавішы
+[Shortcut:]
+Спалучэнне:
+[Add]
+Дадаць
+[Remove]
+Выдаліць
+[Undo changes]
+Адмяніць змены
+[Reset to default]
+Скід на змаўчанні
+[Hotkeys]
+Гарачыя клавішы
+[Accounts]
+Конты
+[Accounts\nConfigure your IM accounts]
+Конты\nНалада вашых контаў
+[Account information:]
+Конт:
+[Additional:]
+Дадаткова:
+[Configure network...]
+Налада сеціва...
+[Get more protocols...]
+Загрузка пратаколаў...
+[&Add...]
+&Дадаць
+[&Edit]
+Кіраваць
+[&Options]
+&Налады
+[&Upgrade]
+&Мадэрнізацыя
+[&Remove...]
+Выдаліць...
+[Miranda NG is being restarted.\nPlease wait...]
+Miranda NG перазапускаецца.\nКалі ласка, пачакайце...
+[Error console]
+Кансоль памылак
+[Error notifications]
+Абвесткі пра памылкі
+[Headers:]
+Загалоўкі:
+[This font is used to display main section titles or text elements.]
+Шрыфт для загалоўкаў асноўных частак ці тэкставых элементаў.
+[Normal text:]
+Звычайны тэкст:
+[This font is used to display most text elements or section bodies.]
+Шрыфт для большасці тэкставых элементаў ці частак.
+[Minor notes:]
+Нататкі:
+[This font is used to display various additional notes.]
+Шрыфт для розных дадатковых нататак.
+[Welcome to Miranda NG's account manager!\nHere you can set up your IM accounts.\n\nSelect an account from the list on the left to see the available options. Alternatively, just click on the Plus sign underneath the list to set up a new IM account.]
+Вас вітае менеджэр контаў Міранды НГ!\nТут вы можаце наладзіць свае конты.\n\nАбярыце конт з спісу злева, каб убачыць даступныя опцыі. Цi проста націсніце на кнопку "Стварыць" пад спісам, каб стварыць новы конт.
+[Event icon legend:]
+Апісанне абразкоў падзей:
+[Choose events you wish to ignore:]
+Выберыце падзеі, якія вы хочаце ігнараваць:
+[Font effect]
+Эфект шрыфта
+[Effect:]
+Эфект:
+[Base color:]
+Асноўны колер:
+[opacity:]
+непразрыстасць:
+[Secondary color:]
+Другасны колер:
+[Select the extra icons to be shown in the contact list:]
+Абярыце якія экстра абразкі будуць адлюстроўвацца ў спісе кантактаў:
+[*only the first %d icons will be shown]
+*будуць адлюстроўвацца толькі першыя %d абразкоў
+[You can group/ungroup icons by selecting them (CTRL+left click) and using the popup menu (right click)]
+Вы можаце гуртаваць/разгуртоўваць абразкі, вылучаючы іх (CTRL+клік левай кнопкай мышы) і выклікаючы меню з дапамогай правай кнопкі мышы.
+[Add to existing metacontact]
+Дадаць да метакантакту
+[Please select a metacontact:]
+Абярыце метакантакт
+[Sort alphabetically]
+Па алфавіце
+[Editing]
+Рэдагаванне
+[Information]
+Інфармацыя
+[Contacts]
+Кантакты
+[&Remove]
+выдаліць
+[&Set as default]
+&Па змаўчанні
+[Move &up]
+Угару
+[Move &down]
+Уніз
+[Send &offline]
+У афлайн
+[Context menu]
+Кантэкстнае меню
+[Use contact's unique ID]
+UIN, E-mail і г.д.
+[Use contact's display name]
+Выкарыстоўваць імя
+[Contact labels]
+Пазнакі кантактаў
+[Set default and open message window]
+Адчыніць вакно паведамленні
+[Show subcontact context menu]
+Паказваць кантэкстнае меню
+[Show user information]
+Пра кантакт
+[Contact list]
+Спіс кантактаў
+[Display subcontact nickname]
+Выкарыстоўваць мянушку субкантакту
+[Display subcontact display name]
+Выкарыстоўваць адлюстроўванае імя
+[Lock name to first contact]
+Фіксаваць імя
+[Last modified using:]
+Праверана на версіі:
+[Date:]
+Дата:
+[Locale:]
+Мова:
+[Reload langpack]
+Аднавіць пераклад
+[Download more language packs]
+Загрузіць дадатковыя пераклады
+[Tray]
+Трэй
+[&Hide/Show]
+С&хаваць/паказаць
+[E&xit]
+Выхад
+[Nowhere]
+Нідзе
+[&New group]
+Стварыць гурт
+[&Hide offline users]
+Схаваць адключаных
+[Hide &offline users out here]
+Схаваць адключаных па-за гуртоў
+[Hide &empty groups]
+Схаваць пустыя гурты
+[Disable &groups]
+Адключыць гурты
+[Hide Miranda]
+Схаваць спіс кантактаў
+[Group]
+Гурт
+[&New subgroup]
+Стварыць падгурт
+[&Hide offline users in here]
+Схаваць адключаных у гурце
+[&Rename group]
+Пераназваць гурт
+[&Delete group]
+Выдаліць гурт
+[&Reset to default]
+&Скінуць
+[find/add]
+знайсці/дадаць
+[&Add to list]
+&Дадаць у спіс
+[User &details]
+&Інфармацыя
+[Send &message]
+Адправіць паведамленне
+[Log]
+Лог
+[&Copy]
+Капіяваць
+[Co&py all]
+Капіяваць усё
+[Select &all]
+Вылучыць &усё
+[C&lear log]
+Сцерці лог
+[Open in &new window]
+Адкрыць у новым вакне
+[&Open in existing window]
+Адкрыць у бягучым вакне
+[&Copy link]
+Капіяваць спасылку
+[Cancel change]
+Адкаціць змены
+[Ungroup]
+Разгуртаваць
+;file \src\core\stdauth\resource.rc
+[&Authorize]
+Дазволіць
+[&Deny]
+Забараніць
+[Decide &later]
+Вырашыць &пазней
+[Reason:]
+Чыннік:
+[Denial reason:]
+Чыннік адмовы:
+[Add to contact list if authorized]
+Дадаваць у спіс кантактаў пасля аўтарызацыі
+[You were added]
+Вас дадалі
+[&Close]
+Зачыніць
+;file \src\core\stdaway\resource.rc
+[%s message for %s]
+%s (%s)
+[Retrieving %s message...]
+Загрузка паведамлення "%s"...
+[Status messages]
+Паведамленні статусу
+[Do not reply to requests for this message]
+Не адказваць на запыты гэтага паведамлення
+[Do not pop up dialog asking for new message]
+Не паказваць дыялог для новага паведамлення
+[By default, use the same message as last time]
+Выкарыстоўваць папярэдняе паведамленне
+[By default, use this message:]
+Выкарыстоўваць паведамленне:
+[Use %time% for the current time, %date% for the current date]
+%date% - сенняшняя дата; %time% - бягучы час
+[Status messages:]
+Статусныя паведамленні:
+[Change %s message]
+Змяніць паведамленне "%s"
+[Closing in %d]
+Зачыніць (%d)
+;file \src\core\stdchat\res\chat.rc
+[&Send]
+&Адправіць
+[&Emoticons]
+Эмоцыі
+[&Bold]
+Тлусты
+[&Italic]
+Курсіў
+[&Color]
+Колер
+[&Background color]
+Колер фона
+[&History]
+Гісторыя
+[&Filter]
+фільтр
+[&Room settings]
+Налады чата
+[&Show/Hide nick list]
+Паказаць/Схаваць спіс
+[Show these events only:]
+Паказваць толькі:
+[Actions]
+Дзеянні
+[Nick changes]
+Змена ніка
+[Users joining]
+Уваходы ў чат
+[Users leaving]
+Выйсці з чата
+[Topic changes]
+Змены тэмы
+[Status changes]
+Змены статусу
+[Disconnects]
+Адключэнні
+[User kicks]
+Выспятак
+[Notices]
+Абвесткі
+[Log options]
+Налады лога
+[Log timestamp]
+Запісваць час
+[Timestamp]
+Час
+[Other name]
+Імёны іншых
+[Your name]
+Ваша імя
+[Enable highlighting]
+Уключыць вылучэнне
+[Limit log text to (events):]
+Абмежаваць лог да (падзей):
+[Trim to (KB)]
+Ліміт (КБ)
+[Words to highlight (wildcards allowed)]
+Словы для падсвятлення (дазволены маскі)
+[Enable logging to disk]
+Запіс лога на дыск
+[Log directory]
+Тэчка лога
+[Other]
+Іншае
+[Add new rooms to group:]
+Дадаваць чаты ў гурт:
+[Nick list row distance (pixels):]
+Адлегласць паміж радкамі (пікс.):
+[Use same style as in the message log]
+Той жа стыль, што і ў логе
+[Use default colors]
+Колеры па змаўчанні
+[Use custom colors]
+Задаць колеры
+[Popups for the Chat plugin]
+Усплывальныя вокны чата
+[Timeout (s)]
+Працягласць (з)
+[Text]
+Тэкст
+[Background]
+Фон
+[(Setting timeout to 0 means default setting and -1 means indefinite time)]
+( 0 - па змаўчанні, -1 - бясконца)
+[List]
+Спіс
+[&Message]
+Паведамленне
+[Clear lo&g]
+Сцерці чат
+[Word lookup]
+Знайсці слова
+[Link]
+Спасылка
+[Open a &new browser window]
+Адкрыць у &новым вакне
+[&Open in current browser window]
+Адкрыць у бягучым вакне
+[Message]
+Паведамленне
+[Redo]
+Вярнуць
+[Copy]
+Капіяваць
+[Cut]
+Выразаць
+[Paste]
+Уставіць
+[Select all]
+Вылучыць усё
+[Clear]
+Сцерці
+[Tabs]
+Укладкі
+[&Close tab]
+Зачыніць укладку
+[C&lose other tabs]
+Зачыніць астатнія ўкладкі
+[&Open at this position]
+Адкрыць у гэтым месцы
+;file \src\core\stdclist\res\resource.rc
+[Hide offline users]
+Схаваць адключаных
+[Hide empty groups]
+Схаваць пустыя гурты
+[Disable groups]
+Адключыць гурты
+[Ask before deleting contacts]
+Пацверджанне выдалення
+[Sort contacts by name]
+Сартаванне па імені
+[Sort contacts by status]
+Сартаванне па статусе
+[Sort contacts by protocol]
+Сартаванне па конту
+[Single click interface]
+Адна пстрычка
+[Always show status in tooltip]
+Заўсёды паказваць статус у падказцы
+[Disable icon blinking]
+Выключыць мігценне
+[ms delay]
+Затрымка (мс)
+[icon when statuses differ]
+пры розных статусах
+[Cycle icons every]
+Змяняць кожныя
+[seconds, when statuses differ]
+секунд, пры розных статусах
+[Show multiple icons]
+Некалькі абразкоў
+[Only when statuses differ]
+Пры розных статусах
+[System tray icon]
+Абразок у трэі
+[System tray icon when using multiple protocols]
+Абразкі пратаколаў у сістэмным лапку
+[Contact list sorting]
+Сартаванне спісу кантактаў
+[Window]
+Вакно
+[Always on top]
+Па-над усімі вокнамі
+[Tool style main window]
+Стыль панэлі загалоўка
+[Minimize to tray]
+Схаваць у сістэмны латок
+[Show menu bar]
+Паказваць меню
+[Easy move]
+Простае перасоўванне
+[Show title bar]
+Паказваць загаловак
+[Title bar text:]
+Загаловак вакна:
+[Show drop shadow (restart required)]
+Цень (патрэбен перазапуск)
+[Pin to desktop]
+Прымацаваць ды стала
+[Hide contact list after it has been idle for]
+Схаваць спіс, калі не актыўны на працягу:
+[seconds]
+секунд(ы)
+[Automatically resize window to height of list]
+Аўтаматычна змяняць памер вакна
+[maximum]
+максімум
+[% of screen]
+% ад экрана
+[Size upwards]
+Расцягваць угару
+[If window is partially covered, bring to front instead of hiding]
+Змясціць вакно на пярэдні план, калі яно прычынена іншымі вокнамі
+[Enable docking]
+Паркаваць
+[Translucency options]
+Налады празрыстасці
+[Fade contact list in/out]
+Плыўна схаваць спіс
+[Transparent contact list]
+Празрысты спіс кантактаў
+[Inactive opacity:]
+Вакно неактыўнае:
+[Active opacity:]
+Вакно актыўнае:
+[Items]
+Элементы
+[Show divider between online and offline contacts]
+Зрабіць мяжу паміж далучанымі і адключанымі
+[Hot track items as mouse passes over]
+Падсвятленне пад курсорам мышы
+[Disable drag and drop of items]
+Адключыць перацягванне элементаў
+[Disable rename of items by clicking twice]
+Адключыць пераназванне па дзвюх пстрычках
+[Show selection even when list is not focused]
+Вылучэнне, нават калі вакно неактыўнае
+[Make selection highlight translucent]
+Напаўпразрыстае вылучэнне
+[Dim idle contacts]
+Прыцьміць неактыўных
+['Hide offline' means to hide:]
+'Схаваць адключаных' - схаваць:
+[Groups]
+Гурты
+[Draw a line alongside group names]
+Лінія ўздоўж назваў гуртоў
+[Show counts of number of contacts in a group]
+Паказваць колькасць кантактаў у гуртах
+[Hide group counts when there are none online]
+Хаваць лічбу, калі няма далучаных
+[Sort groups alphabetically]
+Сартаваць гурты па алфавіце
+[Quick search in open groups only]
+Хуткі пошук толькі ў адчыненых гуртах
+[Indent groups by:]
+Водступ для гуртоў:
+[pixels]
+пікселяў
+[Visual]
+Візуальныя налады
+[Scroll list smoothly]
+Плыўная прагортка
+[Time:]
+Час:
+[milliseconds]
+мс
+[Left margin:]
+Левае поле:
+[Hide vertical scroll bar]
+Схаваць паласу прагорткі
+[Row height:]
+Вышыня радка:
+[Gamma correction]
+Карэкцыя гамы
+[Gray out entire list when:]
+Зрабіць шэрым, калі:
+[Contact list background]
+Фон спісу
+[Background color]
+Колер фону
+[Selection color]
+Колер вылучэння
+[Use background image]
+Выкарыстоўваць фон
+[Stretch to width]
+Расцягнуць па шырыні
+[Stretch to height]
+Расцягнуць па вышыні
+[Tile horizontally]
+Гарызантальная мазаіка
+[Tile vertically]
+Вертыкальная мазаіка
+[Scroll with text]
+Пракручваць з тэкстам
+[Stretch proportionally]
+Расцягнуць
+[Use Windows colors]
+Колеры Windows
+[Status bar]
+Панэль статусу
+[Show status bar]
+Паказваць панэль статусу
+[Show icons]
+Паказваць абразкі
+[Show protocol names]
+Паказваць пратаколы
+[Show status text]
+Паказваць тэкст статусу
+[Right click opens status menu]
+Правая пстрычка - меню статусу
+[Right click opens Miranda NG menu]
+Правая пстрычка - галоўнае меню
+[Make sections equal width]
+Часткі роўнай шырыні
+[Show bevels on panels]
+Бардзюры на панэлях
+[Show resize grip indicator]
+Індыкатар зм. памеру
+[Ordering:]
+Сартаванне:
+[Contact list:]
+Спіс кантактаў:
+[If window is partially covered, bring it to front]
+Калі вакно часткова зачынена, вывесці наперад
+[Window:]
+Вакно:
+[Contact list background:]
+Фон спісу кантактаў:
+[&Main menu]
+Галоўнае меню
+[&Status]
+Статус
+[&Offline\tCtrl+0]
+Адключаны
+[On&line\tCtrl+1]
+Далучаны
+[&Away\tCtrl+2]
+Адышоў
+[&NA\tCtrl+3]
+Недасяжны
+[Occ&upied\tCtrl+4]
+Заняты
+[&DND\tCtrl+5]
+Не турбаваць
+[&Free for chat\tCtrl+6]
+Вольны
+[&Invisible\tCtrl+7]
+Нябачны
+[On the &phone\tCtrl+8]
+Тэлефон
+[Out to &lunch\tCtrl+9]
+За ежай
+;file \src\core\stdfile\resource.rc
+[Send file(s)]
+Адправіць файл(ы)
+[To:]
+Для:
+[File(s):]
+Файл(ы):
+[&Choose again...]
+&Абраць ізноў...
+[Total size:]
+Агульны памер:
+[&User menu]
+Меню кантакта
+[Incoming file transfer]
+Уваходны файл
+[A&ccept]
+Прыняць
+[&Decline]
+Адмовіць
+[From:]
+Ад:
+[Files:]
+Файлы:
+[Save to:]
+Захоўваць у:
+[&Open...]
+Адкрыць...
+[Open &folder]
+Адкрыць тэчку
+[Transfer completed, open file(s).]
+Перадача завершана, адкрыць файл(ы).
+[No data transferred]
+Не перададзены
+[File already exists]
+Файл ужо існуе
+[Resume]
+Працягнуць
+[Resume all]
+Дапампаваць усё
+[Overwrite]
+Перазапісаць
+[Overwrite all]
+Перазапісаць усё
+[Save as...]
+Захаваць як...
+[Auto rename]
+Аўтаперайменаванне
+[Skip]
+Пропуск
+[Cancel transfer]
+Скасаваць перадачу
+[You are about to receive the file]
+Вы прымаеце файл
+[Existing file]
+Існуючы файл
+[Size:]
+Памер:
+[Last modified:]
+Зменены:
+[Open file]
+Адкрыць файл
+[Open folder]
+Адчыніць тэчку
+[File properties]
+Уласцівасці файла
+[File being received]
+Прыманы файл
+[File transfers]
+Перадача файлаў
+[Clear completed]
+Сцерці завершаныя
+[Close]
+Зачыніць
+[Receiving files]
+Прыем файлаў
+[Received files folder:]
+Каталог для файлаў:
+[Variables allowed: %userid%, %nick%, %proto%, %miranda_path%, %userprofile%]
+Зменныя: %userid%, %nick%, %proto%, %miranda_path%, %userprofile%
+[Auto-accept incoming files from people on my contact list]
+Аўтаматычна прымаць файлы ад людзей у спісе кантактаў
+[Minimize the file transfer window]
+Згарнуць вакно перадачы файлаў
+[Close window when transfer completes]
+Зачыніць вакно пры завяршэнні перадачы
+[Clear completed transfers on window closing]
+Чысціць завершаныя перадачы пры зачыненні вакна
+[Virus scanner]
+Антывірус
+[Scan files:]
+Правяраць:
+[Never, do not use virus scanning]
+Ніколі, не правяраць на вірусы
+[When all files have been downloaded]
+Пры заканчэнні загрузкі ўсіх файлаў
+[As each file finishes downloading]
+Пры заканчэнні запампоўкі кожнага файла
+[Command line:]
+Кам. радок:
+[%f will be replaced by the file or folder name to be scanned]
+%f = імя правяранага файла ці тэчкі
+[Warn me before opening a file that has not been scanned]
+Папярэджваць пры адкрыцці неправеранага файла
+[If incoming files already exist]
+Калі прыманы файл ужо існуе
+[Ask me]
+Спытаць
+[Rename (append " (1)", etc.)]
+Дапісаць "(1)" і г. д.
+[You will always be asked about files from people not on your contact list]
+Запыт заўсёды будзе паказаны, калі чалавек не ў спісе
+;file \src\core\stdhelp\resource.rc
+[About Miranda NG]
+Аб праграме
+[Credits >]
+Аўтары >
+;file \src\core\stdidle\resource.rc
+[Become idle if the following is left unattended:]
+Перайсці ў рэжым чакання, калі неактыўныя:
+[Become idle if the screen saver is active]
+Рэжым чакання, калі ўключана застаўка
+[Become idle if the computer is locked]
+Рэжым чакання, калі кампутар заблакаваны
+[Become idle if a terminal session is disconnected]
+Рэжым чакання, калі аддаленая сесія завершана
+[Do not let protocols report any idle information]
+Не дазваляць пратаколам паведамляць інфармацыю пра чаканне
+[minute(s)]
+хвіліны(ы)
+[for]
+на працягу
+[Change my status mode to:]
+Змяніць статус на:
+[Do not set status back to online when returning from idle]
+Не аднаўляць статус пры вяртанні з рэжыму чакання
+[Idle options]
+Рэжым чакання
+[Become idle if application full screen]
+Рэжым чакання, калі прыкладанне запушчана ў поўнаэкранным рэжыме
+[Disable sounds on idle]
+Адключыць гукі пры пераходзе ў рэжым чакання
+[Become idle if computer is left unattended for:]
+Рэжым бяздзейнасці, калі кампутар неактыўны больш:
+[Idle (auto-away):]
+Рэжым бяздзейнасці:
+;file \src\core\stdmsg\res\resource.rc
+[Automatically popup window when:]
+Адкрываць вакно, калі:
+[In background]
+У фоне
+[Close the message window on send]
+Зачыняць вакно пасля адпраўкі
+[Minimize the message window on send]
+Згортваць вакно пасля адпраўкі
+[Use the contact's status icon as the window icon]
+Выкарыстоўваць у якасці абразка вакна абразок статусу кантакту
+[Save the window size and location individually for each contact]
+Захоўваць памер і становішча вакна для кожнага кантакту
+[Cascade new windows]
+Размяшчаць новыя вокны каскадам
+[Show 'Send' button]
+Паказваць кнопку "адправіць"
+[Show username on top row]
+Паказваць імя ў верхнім радку
+[Show toolbar buttons on top row]
+Паказваць кнопкі ў верхнім радку
+[Send message on double 'Enter']
+Пасылаць па падвойным "Enter"
+[Send message on 'Enter']
+Пасылаць па "Enter"
+[Show character count]
+Паказваць лічыльнік знакаў
+[Show warning when message has not been received after]
+Паведамляць, калі паведамленне не атрымалася адправіць на працягу
+[Support CTRL+Up/Down in message area to show previously sent messages]
+Паказваць старыя паведамленні пры націску Ctrl+УГАРУ/УНІЗ
+[Delete temporary contacts when closing message window]
+Выдаляць часавыя кантакты пры зачыненні вакна паведамлення
+[Enable avatar support in the message window]
+Падтрымка аватараў у вакне паведамлення
+[Limit avatar height to]
+Вышыня аватара да
+[Maximum number of flashes]
+Мігцець не больш
+[Send error]
+Памылка адпраўкі
+[An error has occurred. The protocol reported the following error:]
+Пратакол вярнуў наступную памылку:
+[while sending the following message:]
+пры пасылцы наступнага паведамлення:
+[Try again]
+Яшчэ раз
+[Message session]
+Гутарка
+[&Details]
+Падрабязна
+[Message window event log]
+Журнал гутаркі
+[Show names]
+Паказваць імёны
+[Show timestamp]
+Паказваць час
+[Show seconds]
+Секунды
+[Show dates]
+Паказваць даты
+[Show formatting]
+Паказаць фарматаванне
+[Load history events]
+Падгрузка гісторыі
+[Load unread events only]
+Толькі непрачытаныя падзеі
+[Load number of previous events]
+Папярэднія падзеі ў колькасці
+[Load previous events less than]
+Падзеі, атрыманыя
+[minutes old]
+хвілін назад
+[Send typing notifications to the following users when you are typing a message to them:]
+Абвяшчаць адзначаных пра тое, што вы набіраеце паведамленне:
+[Show typing notifications when a user is typing a message]
+Паказваць абвяшчэнні пра набор тэксту
+[Update inactive message window icons when a user is typing]
+Абнавіць абразок неактыўнага вакна пры наборы паведамлення Вам
+[Show typing notification when no message dialog is open]
+Абвяшчаць пра набор тэксту, пры зачыненым вакне гутаркі
+[Flash in the system tray and in the contact list]
+Міргаць у трэі і ў спісе кантактаў
+[Show balloon popup]
+Паказваць усплываючую падказку
+[Save the window position for each contact]
+Захоўваць пазіцыю для кожнага кантакта
+[Message window behavior:]
+Паводзіны вакна гутаркі:
+[Messaging:]
+Адсылаць паведамленні:
+[&Open link]
+&адчыніць спасылку
+[Paste and send]
+Уставіць і адправіць
+[Delete]
+Выдаліць
+;file \src\core\stduihist\resource.rc
+[Find]
+Знайсці
+[&Find next]
+&Наступны
+[Find what:]
+Знайсці:
+[Message history]
+Гісторыя паведамленняў
+[&Find...]
+&Знайсці
+;file \src\core\stduserinfo\resource.rc
+[Add phone number]
+Дадаць тэлефон
+[Enter country, area code and phone number:]
+Увядзіце краіну, код горада і нумар тэлефона:
+[Or enter a full international number:]
+Ці ўвядзіце міжнародны нумар:
+[Phone can receive SMS text messages]
+Тэлефон можа атрымліваць SMS
+[Add e-mail address]
+Дадаць адрас
+[%s: user details]
+Пра кантакт %s
+[%s\nView personal user details and more]
+%s\nПрагляд асабістых дадзеных кантакта
+[Update now]
+Абнавіць
+[Updating]
+Абнаўленне
+[Nickname:]
+Мянушка:
+[First name:]
+Імя:
+[Gender:]
+Род:
+[Last name:]
+Прозвішча:
+[Age:]
+Узрост:
+[Date of birth:]
+Дата нараджэння:
+[Marital status:]
+Сямейнае становішча:
+[Phone:]
+Тэлефон:
+[Web page:]
+Сайт:
+[Past background:]
+Мінулае:
+[Interests:]
+Зацікаўленасці:
+[About:]
+Інфармацыя:
+[My notes:]
+Мае нататкі:
+[Street:]
+Вуліца:
+[City:]
+Горад:
+[State:]
+Штат:
+[Postal code:]
+Індэкс:
+[Country:]
+Краіна:
+[Spoken languages:]
+Мовы:
+[Timezone:]
+Гадзінны пояс:
+[Local time:]
+Мясцовы час:
+[Set custom time zone]
+Усталяваць другі гадзінны пояс
+[Company:]
+Кампанія:
+[Department:]
+Аддзел:
+[Position:]
+Пасада:
+[Website:]
+Сайт:
+;file \src\core\stdauth\auth.cpp
+[%s requests authorization]
+%s запытаў аўтарызацыю
+[%u requests authorization]
+%u запытаў аўтарызацыю
+[%s added you to their contact list]
+%s дадаў(ла) вас у свой спіс
+[%u added you to their contact list]
+%u дадаў(ла) вас у свой спіс
+[Alerts]
+Абвесткі
+[Added event]
+Падзея дадання
+;file \src\core\stdauth\authdialogs.cpp
+[View user's details]
+Пра кантакт
+[Add contact permanently to list]
+Дадаць у спіс
+[<Unknown>]
+Невядома
+[%s added you to the contact list\n%u (%s) on %s]
+%s дададзены(а) у Ваш спіс кантактаў\n%u (%s) у %s
+[%s added you to the contact list\n%u on %s]
+%s дададзены(а) у Ваш спіс кантактаў\n%u у %s
+[%s added you to the contact list\n%s on %s]
+%s дададзены(а) у Ваш спіс кантактаў\n%s у %s
+[(Unknown)]
+(невядомы)
+[%s requested authorization\n%u (%s) on %s]
+%s запытаў(ла) аўтарызацыю\n%u (%s) у %s
+[%s requested authorization\n%u on %s]
+%s запытаў(ла) аўтарызацыю\n%u у %s
+[%s requested authorization\n%s on %s]
+%s запытаў(ла) аўтарызацыю\n%s у %s
+[Feature is not supported by protocol]
+Не падтрымліваецца пратаколам
+;file \src\core\stdaway\awaymsg.cpp
+[Re&ad %s message]
+&Прачытаць паведамленне "%s"
+[Re&ad status message]
+Чытаць статуснае паведамленне
+;file \src\core\stdaway\sendmsg.cpp
+[I've been away since %time%.]
+Адышоў %time%. Хутка буду.
+[Give it up, I'm not in!]
+Мяне няма
+[Not right now.]
+Не зараз.
+[Give a guy some peace, would ya?]
+Не чапайце пакуль, га?
+[I'm a chatbot!]
+Вольны
+[Yep, I'm here.]
+Так, я тут.
+[Nope, not here.]
+Не, я не тут.
+[I'm hiding from the mafia.]
+Я хаваюся ад мафіі.
+[That'll be the phone.]
+Гавару па тэлефоне...
+[Mmm... food.]
+Ммм... е-е-ежа...
+[idleeeeeeee]
+чаканне...
+[Status]
+Статус
+;file \src\core\stdchat\src\colorchooser.cpp
+;file \src\core\stdchat\src\main.cpp
+[Chat module]
+Плагін чата
+[Group chat log background]
+Фон лога для чатаў
+[Message background]
+Фон паведамлення
+[Nick list background]
+Фон спісу
+[Nick list lines]
+Колер ліній спісу
+[Nick list background (selected)]
+Заліванне спісу (абрана)
+;file \src\core\stdchat\src\options.cpp
+[Use a tabbed interface]
+Выкарыстоўваць укладкі
+[Close tab on double click]
+Зачыняць па падвойнай пстрычцы
+[Restore previously open tabs when showing the window]
+Аднаўляць адкрытыя ўкладкі пры паказе вакна
+[Show tabs at the bottom]
+Укладкі ўнізе
+[Send message by pressing the 'Enter' key]
+УВОД адпраўляе паведамленне
+[Send message by pressing the 'Enter' key twice]
+Падвойны ЎВОД адпраўляе паведамленне
+[Flash window when someone speaks]
+Міргаць вакном, пры новым паведамленні
+[Flash window when a word is highlighted]
+Міргаць вакном, прыпадсветленым  паведамленні
+[Show list of users in the chat room]
+Паказваць спіс удзельнікаў чата
+[Show button for sending messages]
+Паказваць кнопку адпраўкі паведамлення
+[Show buttons for controlling the chat room]
+Паказваць кнопкі кіравання чатам
+[Show buttons for formatting the text you are typing]
+Паказваць кнопкі фарматавання тэксту
+[Show button menus when right clicking the buttons]
+Паказваць меню кнопкі па правай пстрычцы
+[Show new windows cascaded]
+Паскладаць каскадам
+[Save the size and position of chat rooms]
+Захоўваць памер і пазіцыю вокнаў чата
+[Show the topic of the room on your contact list (if supported)]
+Паказваць тэму чата ў спісе кантактаў (калі падтрымліваецца)
+[Do not play sounds when the chat room is focused]
+Не ўключаць гук, калі чат на пярэднім плане
+[Do not pop up the window when joining a chat room]
+Не адчыняць вакно чата пры ўваходзе
+[Toggle the visible state when double clicking in the contact list]
+Пераключыць бачнасць па падвойнай пстрычцы ў спісе кантактаў
+[Show contact statuses if protocol supports them]
+Паказваць статусы, калі есць падтрымка ў пратаколе
+[Display contact status icon before user role icon]
+Паказваць абразок статусу перад абразком ролі
+[Prefix all events with a timestamp]
+Падстаўляць час ва ўсе падзеі
+[Only prefix with timestamp if it has changed]
+Падстаўляць час, калі ёсць змены
+[Timestamp has same color as the event]
+Паказваць час тым жа колерам што і падзею
+[Indent the second line of a message]
+Водступ другога радка паведамлення
+[Limit user names in the message log to 20 characters]
+Абмежаваць імёны ў логе 20-ю знакамі
+[Add ':' to auto-completed user names]
+Дадаваць ":" да імёнаў кантактаў
+[Strip colors from messages in the log]
+Забараніць колеры ў логе
+[Enable the 'event filter' for new rooms]
+Уключыць 'фільтр падзей' для новых чатаў
+[Show topic changes]
+Змена тэмы
+[Show users joining]
+Новыя кантакты
+[Show users disconnecting]
+Кантакты, што пакінулі сервер
+[Show messages]
+Паведамленні
+[Show actions]
+Дзеянні
+[Show users leaving]
+Кантакты, што пакідаюць чат
+[Show users being kicked]
+Выспяткі з чата
+[Show notices]
+Паказваць абвесткі
+[Show users changing name]
+Змена мянушкі
+[Show information messages]
+Інфармацыйныя паведамленні
+[Show status changes of users]
+Змена статусу
+[Show icon for topic changes]
+Змены тэмы
+[Show icon for users joining]
+Новыя удзельнікі
+[Show icon for users disconnecting]
+Адключэнні ўдзельнікаў
+[Show icon for messages]
+Паведамленні
+[Show icon for actions]
+Дзеянні
+[Show icon for highlights]
+Падсветленыя паведамленні
+[Show icon for users leaving]
+Выйсці ўдзельнікаў
+[Show icon for users kicking other user]
+Выспяткі
+[Show icon for notices]
+Абразок абвесткі
+[Show icon for name changes]
+Змены нікаў
+[Show icon for information messages]
+Інфармацыйныя паведамленні
+[Show icon for status changes]
+Змены статусаў
+[Show icons in tray only when the chat room is not active]
+Паказваць абразкі толькі калі вакно чата неактыўнае
+[Show icon in tray for topic changes]
+Змена тэмы
+[Show icon in tray for users joining]
+Далучэнні ўдзельнікаў
+[Show icon in tray for users disconnecting]
+Адключэнні ўдзельнікаў
+[Show icon in tray for messages]
+Паведамленні
+[Show icon in tray for actions]
+Дзеянні
+[Show icon in tray for highlights]
+Падсветленыя паведамленні
+[Show icon in tray for users leaving]
+Выйсці ўдзельнікаў
+[Show icon in tray for users kicking other user]
+Выспятак
+[Show icon in tray for notices]
+Абразок абвесткі ў трэі
+[Show icon in tray for name changes]
+Змены мянушак
+[Show icon in tray for information messages]
+Інфармацыйныя паведамленні
+[Show icon in tray for status changes]
+Змены статусаў
+[Show popups only when the chat room is not active]
+Паказваць успл. вокны толькі пры не актыўным вакне чата
+[Show popup for topic changes]
+Змена тэмы
+[Show popup for users joining]
+Далучэнні ўдзельнікаў
+[Show popup for users disconnecting]
+Адключэнні ўдзельнікаў
+[Show popup for messages]
+Паведамленні
+[Show popup for actions]
+Дзеянні
+[Show popup for highlights]
+Падсветленыя паведамленні
+[Show popup for users leaving]
+Выйсці ўдзельнікаў
+[Show popup for users kicking other user]
+Выспятак
+[Show popup for notices]
+Вакно абвесткі
+[Show popup for name changes]
+Змены мянушак
+[Show popup for information messages]
+Інфармацыйныя паведамленні
+[Show popup for status changes]
+Змены статусаў
+[Window icon]
+Абразок вакна
+[Bold]
+Тоўсты
+[Italics]
+Курсіў
+[Underlined]
+Падкрэслены
+[Smiley button]
+Смайлы
+[Room history]
+Гісторыя
+[Room settings]
+Налады
+[Event filter disabled]
+Фільтр падзей выключаны
+[Event filter enabled]
+Фільтр падзей уключаны
+[Hide nick list]
+Схаваць спіс
+[Show nick list]
+Паказаць спіс
+[Icon overlay]
+Абразок па-над
+[Status 1 (10x10)]
+Статус 1 (10x10)
+[Status 2 (10x10)]
+Статус 2 (10x10)
+[Status 3 (10x10)]
+Статус 3 (10x10)
+[Status 4 (10x10)]
+Статус 4 (10x10)
+[Status 5 (10x10)]
+Статус 5 (10x10)
+[Status 6 (10x10)]
+Статус 6 (10x10)
+[Message in (10x10)]
+Прынятае паведамленне (10х10)
+[Message out (10x10)]
+Адпраўленае паведамленне (10х10)
+[Action (10x10)]
+Дзеянне (10x10)
+[Add status (10x10)]
+Дадаць статус (10х10)
+[Remove status (10x10)]
+Выдаліць статус (10х10)
+[Join (10x10)]
+Увайсці (10x10)
+[Leave (10x10)]
+Пакінуць (10х10)
+[Quit (10x10)]
+Выйсце (10х10)
+[Kick (10x10)]
+Выгнаць (10х10)
+[Nick change (10x10)]
+Змена мянушкі (10х10)
+[Notice (10x10)]
+Абвестка (10x10)
+[Topic (10x10)]
+Тэма (10х10)
+[Highlight (10x10)]
+Вылучыць (10х10)
+[Information (10x10)]
+Інфармацыя (10х10)
+[Messaging]
+Паведамленні
+[Group chats]
+Чаты
+[Group chats log]
+Логі чатаў
+[Options for using a tabbed interface]
+Налады ўкладак
+[Appearance and functionality of chat room windows]
+Выгляд і функцыянальнасць вокнаў чата
+[Appearance of the message log]
+Вонкавы выгляд лога паведамленняў
+[Default events to show in new chat rooms if the 'event filter' is enabled]
+Паказаць у новым вакне, калі 'Фільтр падзей' уключаны
+[Icons to display in the message log]
+Абразкі лога паведамленняў
+[Icons to display in the tray]
+Абразкі ў сістэмным латку
+[Popups to display]
+Усплывальныя вокны
+[Select folder]
+Абраць тэчку
+[Message sessions]
+Гутаркі
+[General]
+Агульнае
+[Chat log]
+Лог чата
+[Popups]
+Усплывальныя вокны
+;file \src\core\stdchat\src\tools.cpp
+[Look up '%s':]
+Шукаць '%s':
+[No word to look up]
+Няма слоў для пошуку
+[&Message %s]
+&Паведамленне %s
+;file \src\core\stdchat\src\window.cpp
+[Insert a smiley]
+Уставіць смайл
+[Make the text bold (CTRL+B)]
+Зрабіць тэкст тоўстым (CTRL+B)
+[Make the text italicized (CTRL+I)]
+Зрабіць тэкст курсівам (CTRL+I)
+[Make the text underlined (CTRL+U)]
+Падкрэсліць тэкст (CTRL+U)
+[Select a background color for the text (CTRL+L)]
+Абраць фон тэксту (CTRL+L)
+[Select a foreground color for the text (CTRL+K)]
+Абраць колер тэксту (CTRL+K)
+[Show the history (CTRL+H)]
+Паказаць гісторыю (CTRL+H)
+[Show/hide the nick list (CTRL+N)]
+Паказаць/схаваць спіс кантактаў (CTRL+N)
+[Control this room (CTRL+O)]
+Кантраляваць гэты чат(CTRL+O)
+[Enable/disable the event filter (CTRL+F)]
+Уключыць/выключыць фільтр падзей (CTRL+F)
+[Close current tab (CTRL+F4)]
+Зачыніць бягучую ўкладку (CTRL+F4)
+[%s: chat room (%u user)]
+%s: Чат (%u удзельнік)
+[%s: chat room (%u users)]
+%s: Чат (%u удзельнікаў)
+[%s: message session]
+%s: гутарка
+[%s: message session (%u users)]
+%s: гутарка (%u удзельнікаў)
+[Nickname]
+Мянушка
+[Unique ID]
+Асабісты конт
+;file \src\core\stdclist\src\clcfonts.cpp
+[Standard contacts]
+Стандартныя кантакты
+[Online contacts to whom you have a different visibility]
+Са змененай бачнасцю (далучаны)
+[Offline contacts]
+Адключаныя кантакты
+[Contacts which are 'not on list']
+Кантакты 'не ў спісе'
+[Group member counts]
+Лічыльнікі гуртоў
+[Dividers]
+Падзельнікі
+[Offline contacts to whom you have a different visibility]
+Са змененай бачнасцю (адключаныя)
+[Selected text]
+Вылучаны тэкст
+[Hottrack text]
+Пад курсорам
+[Quicksearch text]
+Хуткі пошук
+;file \src\core\stdclist\src\clcopts.cpp
+[Not focused]
+Не ў фокусе
+[Offline]
+Адключаны
+[Online]
+Далучаны
+[Away]
+Адсутнічаю
+[NA]
+Недасяжны
+[Occupied]
+Заняты
+[DND]
+Не турбаваць
+[Free for chat]
+Вольны
+[Invisible]
+Нябачны
+[Out to lunch]
+Абедаю
+[On the phone]
+На тэлефоне
+[List background]
+Фон спісу
+;file \src\core\stdclist\src\clistopts.cpp
+[Global]
+Глабальныя
+;file \src\core\stdclist\src\cluiopts.cpp
+;file \src\core\stdcrypt\encrypt.cpp
+[Standard crypto provider]
+Звычайны шыфравальнік
+;file \src\core\stdemail\email.cpp
+[User has not registered an e-mail address]
+Карыстач не зарэгістраваў свой адрас e-mail.
+[Send e-mail]
+Адправіць e-mail
+[&E-mail]
+&E-mail
+;file \src\core\stdfile\file.cpp
+[File from %s]
+Файл ад %s
+[bytes]
+байт
+[&File]
+&Файл
+[File &transfers...]
+Перадачы &файлаў
+[Incoming]
+Уваходныя
+[Complete]
+Зроблена
+[Error]
+Памылка
+[Denied]
+Адмоўлена
+;file \src\core\stdfile\fileexistsdlg.cpp
+[%s file]
+%s файл
+[All files]
+Усе файлы
+;file \src\core\stdfile\fileopts.cpp
+[Executable files]
+Выкананыя файлы
+[Events]
+Падзеі
+;file \src\core\stdfile\filerecvdlg.cpp
+[My received files]
+Мае атрыманыя файлы
+[View user's history]
+Гісторыя паведамленняў
+[User menu]
+Меню кантакта
+[Canceled]
+Скасавана
+;file \src\core\stdfile\filesenddlg.cpp
+[%d files]
+%d файла(аў)
+[%d directories]
+%d каталога(аў)
+;file \src\core\stdfile\filexferdlg.cpp
+[This file has not yet been scanned for viruses. Are you certain you want to open it?]
+Гэты файл яшчэ не правяраўся антывірусам. Вы ўсё ж і жадаеце адкрыць яго?
+[File received]
+Файл атрыманы
+[of]
+з
+[Request sent, waiting for acceptance...]
+Запыт адпраўлены, чаканне пацверджання...
+[Waiting for connection...]
+Чаканне злучэння
+[Unable to initiate transfer.]
+Немагчыма пачаць перадачу.
+[Contact menu]
+Меню кантакту
+[Open...]
+Адчыніць...
+[sec]
+сек
+[remaining]
+засталося
+[Decision sent]
+Рашэнне адпраўлена
+[Connecting...]
+Далучэнне...
+[Connecting to proxy...]
+Далучэнне да проксі...
+[Connected]
+Злучаны
+[Initializing...]
+Ініцыялізацыя...
+[Moving to next file...]
+Наступны файл...
+[Sending...]
+Перадача...
+[Receiving...]
+Атрыманне...
+[File transfer denied]
+У перадачы файла адмоўлена
+[File transfer failed]
+Няўдалая перадача файла
+[Transfer completed.]
+Перадача завершана.
+[Transfer completed, open file.]
+Перадача завершана, адкрыць файл.
+[Transfer completed, open folder.]
+Перадача завершана, адкрыць тэчку.
+[Scanning for viruses...]
+Праверка на вірусы...
+[Transfer and virus scan complete]
+Перадача і праверка на вірусы завершаны
+;file \src\core\stdfile\ftmanager.cpp
+[Outgoing]
+Выходныя
+;file \src\core\stdhelp\about.cpp
+[< Copyright]
+< Правы
+;file \src\core\stdhelp\help.cpp
+[&About...]
+&Пра праграму
+[&Support]
+&Падтрымка
+[&Miranda NG homepage]
+А&фіцыйны сайт Miranda NG
+[&Report bug]
+Паведаміць пра памылку
+;file \src\core\stdidle\idle.cpp
+[Idle]
+Чаканне
+;file \src\core\stdmsg\src\cmdlist.cpp
+[The message send timed out.]
+Затрымка адпраўкі паведамлення
+;file \src\core\stdmsg\src\globals.cpp
+[Incoming message (10x10)]
+Уваходнае паведамленне (10x10)
+[Outgoing message (10x10)]
+Выходнае паведамленне (10x10)
+;file \src\core\stdmsg\src\msgdialog.cpp
+[Last message received on %s at %s.]
+Апошняе паведамленне вы атрымалі %s у %s.
+[%s is typing a message...]
+%s набірае тэкст...
+;file \src\core\stdmsg\src\msglog.cpp
+[File sent]
+Пасылка файла
+;file \src\core\stdmsg\src\msgoptions.cpp
+[Outgoing messages]
+Выходныя паведамленні
+[Incoming messages]
+Уваходныя паведамленні
+[Outgoing name]
+Маё імя
+[Outgoing time]
+Час адпраўлення
+[Outgoing colon]
+Двукроп'е ў выходных паведамленнях
+[Incoming name]
+Імя суразмоўцы
+[Incoming time]
+Час атрымання
+[Incoming colon]
+Двукроп'е ва ўваходных паведамленнях
+[Message area]
+Вобласць паведамлення
+[Message log]
+Журнал
+[** New contacts **]
+** Новыя кантакты **
+[** Unknown contacts **]
+** Невядомыя кантакты **
+[Show balloon popup (unsupported system)]
+Паказваць падказкі (непадтрымоўваная сістэма)
+[Messaging log]
+Лог
+[Typing notify]
+Набірае тэкст
+;file \src\core\stdmsg\src\msgs.cpp
+[Message from %s]
+Паведамленне ад %s
+[%s is typing a message]
+%s набірае тэкст
+[Typing notification]
+Абвестка пра набор тэксту
+[Miranda could not load the built-in message module, riched20.dll is missing. Press 'Yes' to continue loading Miranda.]
+Miranda не здолела загрузіць убудаваную сістэму паведамленняў, так як адсутнічае riched20.dll. націсніце "Так" для працягу загрузкі праграмы.
+[Instant messages]
+Паведамленні IM
+[Incoming (focused window)]
+Уваходныя (актыўнае вакно)
+[Incoming (unfocused window)]
+Уваходныя (неактыўнае вакно)
+[Incoming (new session)]
+Уваходныя (новыя сеанс)
+[Message send error]
+Памылка адпраўкі паведамлення
+[Contact started typing]
+Кантакт пачаў пісаць
+[Contact stopped typing]
+Кантакт скончыў пісаць
+;file \src\core\stdmsg\src\msgtimedout.cpp
+[An unknown error has occurred.]
+Невядомая памылка.
+;file \src\core\stduihist\history.cpp
+[Invalid message]
+Паведамленне пашкоджана
+[Outgoing message]
+Выходнае паведамленне
+[Incoming message]
+Уваходнае паведамленне
+[Outgoing URL]
+Выходныя URL
+[Incoming URL]
+Уваходны URL
+[Outgoing file]
+Выходныя файл
+[Incoming file]
+Уваходны файл
+[History for %s]
+Гісторыя для %s
+[Are you sure you want to delete this history item?]
+Выдаліць гэты запіс з гісторыі?
+[Delete history]
+Выдаліць гісторыю
+[View &history]
+&Гісторыя
+;file \src\core\stdurl\url.cpp
+[URL from %s]
+URL ад %s
+[Web page address (&URL)]
+Спасылка (&URL)
+[URL]
+Спасылка
+;file \src\core\stdurl\urldialogs.cpp
+[Send URL to]
+Адправіць URL
+[Send timed out]
+Час адпраўкі мінуў
+;file \src\core\stduserinfo\contactinfo.cpp
+[Edit E-Mail address]
+Рэдагаваць адрас E-mail
+[Edit phone number]
+Змяніць тэлефонны нумар
+[The phone number should start with a + and consist of numbers, spaces, brackets and hyphens only.]
+Тэлефон павінен пачынацца з + і складацца толькі з лічбаў, прабелаў, дужак і працяжнікаў.
+[Invalid phone number]
+Няслушны нумар тэлефона
+[Primary]
+Галоўны
+[Custom %d]
+Рознае %d
+[Fax]
+Факс
+[Mobile]
+Мабільны
+[Work phone]
+Працоўны тэлефон
+[Work fax]
+Працоўны факс
+;file \src\core\stduserinfo\stdinfo.cpp
+[Male]
+Мужчынскі
+[Female]
+Жаночы
+[<not specified>]
+<не паказана>
+[Summary]
+Рэзюмэ
+[Contact]
+Кантакт
+[Location]
+Месца
+[Work]
+Праца
+[Background info]
+Біяграфія
+[Notes]
+Нататкі
+;file \src\core\stduserinfo\userinfo.cpp
+[Owner]
+Уладальнік
+[View/change my &details...]
+Асабістыя дадзеныя
+;file \src\core\stduseronline\useronline.cpp
+[%s is online]
+%s далучаны
+;file \src\modules\addcontact\addcontact.cpp
+[Add contact]
+Дадаць кантакт
+[Please authorize my request and add me to your contact list.]
+Калі ласка, дазвольце дадаць Вас у мой спіс кантактаў.
+;file \src\modules\chat\chat_opts.cpp
+[Others nicknames]
+Іншыя мянушкі
+[Your nickname]
+Ваша мянушка
+[User has joined]
+Кантакт далучыўся
+[User has left]
+Кантакт сышоў
+[User has disconnected]
+Кантакт адключыўся
+[User kicked ...]
+Выспятак
+[User is now known as ...]
+Змена мянушкі
+[Notice from user]
+Абвестка
+[The topic is ...]
+Змена тэмы
+[Information messages]
+Інфармацыйныя паведамленні
+[User enables status for ...]
+Устаноўка статусу
+[User disables status for ...]
+Здыманне статусу
+[Action message]
+Дзеянне
+[Highlighted message]
+Падсветленае паведамленне
+[Nick list members (online)]
+Кантакты (далучаны)
+[Nick list members (away)]
+Кантакты (адсутнічаюць)
+[Message typing area]
+Поле набору тэксту
+[Chat log symbols (Webdings)]
+Знакі ў чаце (шрыфт Webdings)
+[Message is highlighted]
+Паведамленне вылучана
+[User has performed an action]
+Кантакт здзейсніў дзеянне
+[User has kicked some other user]
+Кантакт штурхнуў іншага
+[User's status was changed]
+Статус кантакта змяніўся
+[User has changed name]
+Кантакт змяніў імя
+[User has sent a notice]
+Кантакт адправіў абвестку
+[The topic has been changed]
+Тэма змянілася
+;file \src\modules\chat\chat_svc.cpp
+[&Join chat]
+Зайсці
+[&Leave chat]
+Пакінуць чат
+;file \src\modules\chat\clist.cpp
+[&Open chat window]
+Адчыніць гутарку
+;file \src\modules\chat\log.cpp
+[%s has joined]
+%s увайшоў
+[You have joined %s]
+Вы прыйшлі на '%s'
+[%s has left]
+%s выйшаў
+[%s has disconnected]
+%s адключыўся
+[%s is now known as %s]
+%s змяніў імя на %s
+[You are now known as %s]
+Зараз вы вядомыя як %s
+[%s kicked %s]
+%s выкінуў %s
+[Notice from %s: ]
+Абвестка ад %s:\s
+[The topic is '%s%s']
+Тэма '%s%s'
+[ (set by %s on %s)]
+ (усталявана %s %s)
+[ (set by %s)]
+ (пастаўлена %s)
+[%s enables '%s' status for %s]
+%s уключае статус '%s' для %s
+[%s disables '%s' status for %s]
+%s выключае статус '%s' для %s
+[<invalid>]
+<няверна>
+;file \src\modules\chat\tools.cpp
+[%s wants your attention in %s]
+%s патрабуе Вашай увагі ў %s
+[%s speaks in %s]
+%s кажа ў %s
+[%s has joined %s]
+%s увайшоў у %s
+[%s has left %s]
+%s выйшаў з %s
+[%s kicked %s from %s]
+%s выкінуў %s з %s
+[Notice from %s]
+Абвестка ад %s
+[Topic change in %s]
+Змена тэмы ў %s
+[Information in %s]
+Інфармацыя ў %s
+[%s enables '%s' status for %s in %s]
+%s уключае статус '%s' для %s у %s
+[%s disables '%s' status for %s in %s]
+%s выключае статус '%s' для %s у %s
+[%s says: %s]
+%s кажа: %s
+[%s has left (%s)]
+%s выйшаў (%s)
+[%s has disconnected (%s)]
+%s адключыўся (%s)
+[%s kicked %s (%s)]
+%s выкінуў %s (%s)
+[Notice from %s: %s]
+Абвестка ад %s: %s
+[The topic is '%s']
+Тэма '%s'
+[The topic is '%s' (set by %s)]
+Тэма '%s' (усталявана %s)
+;file \src\modules\clist\clcitems.cpp
+;file \src\modules\clist\clistmenus.cpp
+[Custom status]
+хстатус
+[%s (locked)]
+%s (заблакаваны)
+[Status menu]
+Меню статусаў
+[Main menu]
+Галоўнае меню
+;file \src\modules\clist\clistsettings.cpp
+[(Unknown contact)]
+(Невядомы кантакт)
+;file \src\modules\clist\clisttray.cpp
+;file \src\modules\clist\clui.cpp
+[This contact is on an instant messaging system which stores its contact list on a central server. The contact will be removed from the server and from your contact list when you next connect to that network.]
+Гэты кантакт знаходзіцца ў сістэме абмену імгненнымі паведамленнямі, якая захоўвае спісы кантактаў на серверы. Кантакт будзе выдалены з сервера і з лакальнага спісу пры наступным злучэнні.
+[De&lete]
+Выдаліць
+[&Rename]
+Пераназваць
+[&Add permanently to list]
+Дадаць у сталы спіс
+;file \src\modules\clist\contacts.cpp
+[My custom name (not movable)]
+Зададзенае імя (заўсёды першае)
+[Nick]
+Мянушка
+[FirstName]
+Імя
+[E-mail]
+Пошта
+[LastName]
+Прозвішча
+[Username]
+Імя карыстача
+[FirstName LastName]
+Імя Прозвішча
+[LastName FirstName]
+Прозвішча Імя
+['(Unknown contact)' (not movable)]
+'(Невядомы)' (заўсёды апошняе)
+['(Unknown contact)']
+'(Невядомы кантакт)'
+[Contact names]
+Кантакты
+;file \src\modules\clist\genmenu.cpp
+[Menu icons]
+Меню
+;file \src\modules\clist\genmenuopt.cpp
+[Menus]
+Меню
+[Customize]
+Тонкая налада
+;file \src\modules\clist\groups.cpp
+[New group]
+Новы гурт
+[Are you sure you want to delete group '%s'? This operation cannot be undone.]
+Вы ўпэўнены, што жадаеце выдаліць гурт "%s"? Аперацыя не можа быць адменена.
+[Delete group]
+Выдаленне гурта
+[You already have a group with that name. Please enter a unique name for the group.]
+Гурт з такім імем ужо ёсць. Увядзіце ўнікальнае імя для гурта.
+[Rename group]
+Пераназваць гурт
+[This group]
+Гэты гурт
+;file \src\modules\clist\keyboard.cpp
+[Show/Hide contact list]
+Паказаць/Схаваць спіс кантактаў
+[Read message]
+Прачытаць паведамленне
+[Open Options page]
+Адкрыць налады
+[Open logging options]
+Налады лога сеціва
+[Open 'Find user' dialog]
+Адкрыць дыялог пошуку кантактаў
+;file \src\modules\clist\movetogroup.cpp
+[&Move to group]
+Перасунуць у
+[<Root group>]
+<Каранёвы гурт>
+;file \src\modules\database\database.cpp
+[Miranda is trying to upgrade your profile structure.\nIt cannot move profile %s to the new location %s\nBecause profile with this name already exists. Please resolve the issue manually.]
+Міранда спрабуе абнавіць профіль структуры.\nНемагчыма перамясціць профіль %s на новае месца %s,\nбо профіль з такой назвай ужо існуе. Калі ласка, вырашыце праблему ўручную.
+[Miranda is trying to upgrade your profile structure.\nIt cannot move profile %s to the new location %s automatically\nMost likely due to insufficient privileges. Please move profile manually.]
+Міранда спрабуе абнавіць профіль структуры.\nНемагчыма перамясціць профіль %s на новае месца %s,\nхутчэй за ўсё, з-за недахопу правоў доступу. Калі ласка, наладзьце профіль уручную
+[Profile cannot be placed into Miranda root folder.\nPlease move Miranda profile to some other location.]
+Профіль не можа быць змешчаны ў каранёвую тэчку Міранды.\nКалі ласка, абярыце профілю іншае месца.
+[Miranda is unable to open '%s' because you do not have any profile plugins installed.\nYou need to install dbx_mmap.dll]
+Miranda не можа адкрыць '%s', бо плагіны для падтрымкі профіляў не ўсталяваны.\nВам трэба ўсталяваць dbx_mmap.dll
+[No profile support installed!]
+Няма ўсталяваных плагінаў базы!
+[Miranda was unable to open '%s', it's in an unknown format.\nThis profile might also be damaged, please run DbChecker which should be installed.]
+Miranda NG не можа адчыніць '%s', профіль у невядомым фармаце.\nГэты профіль можа быць пашкоджаны, паспрабуйце выправіць яго з дапамогай DbChecker.
+[Miranda can't understand that profile]
+Miranda не можа распазнаць гэты профіль
+[Miranda was unable to open '%s'\nIt's inaccessible or used by other application or Miranda instance]
+Miranda не можа адкрыць '%s'\nЁн недасяжны ці заняты іншым прыкладаннем, ці іншай копіяй Miranda NG
+[Miranda can't open that profile]
+Miranda NG не можа адкрыць гэты профіль
+;file \src\modules\database\dbini.cpp
+[Security systems to prevent malicious changes are in place and you will be warned before every change that is made.]
+Сістэма бяспекі для прадухілення непажаданых змен актыўная і вы будзеце папярэджаны перад кожнай вырабленай зменай.
+[Security systems to prevent malicious changes are in place and you will be warned before changes that are known to be unsafe.]
+Сістэма бяспекі для прадухілення непажаданых змен актыўная і вы будзеце папярэджаны перад небяспечнымі зменамі.
+[Security systems to prevent malicious changes have been disabled. You will receive no further warnings.]
+Сістэма бяспекі для прадухілення непажаданых змен выключана. Вы не атрымаеце далейшых папярэджанняў.
+[This change is known to be safe.]
+Гэта змена вядома, як бяспечная.
+[This change is known to be potentially hazardous.]
+Гэта змена патэнцыйна небяспечна.
+[This change is not known to be safe.]
+Невядома, ці будзе змена бяспечнай.
+[Invalid setting type for '%s'. The first character of every value must be b, w, d, l, s, e, u, g, h or n.]
+Наслушны тып налады для  '%s'. Першы знак любога значэння павінен быць b, w, d, l, s, e, u, g, h цi n.
+;file \src\modules\database\dbutils.cpp
+[Authorization request from %s%s: %s]
+Запыт аўтарызацыі от %s%s: %s
+[You were added by %s%s]
+Вас дадаў %s%s
+[Contacts: ]
+Кантакты:\s
+;file \src\modules\database\profilemanager.cpp
+[The profile '%s' already exists. Do you want to move it to the Recycle Bin?\n\nWARNING: The profile will be deleted if Recycle Bin is disabled.\nWARNING: A profile may contain confidential information and should be properly deleted.]
+Профіль '%s' ўжо існуе. Хочаце перамясціць яго ў Сметніцу?\n\nУвага: Профіль будзе выдалены, калі ён адключаны.\nУвага: Профіль можа ўтрымліваць канфідэнцыйную інфармацыю і павінен быць правільна выдалены.
+[The profile already exists]
+Профіль ужо існуе
+[Couldn't move '%s' to the Recycle Bin. Please select another profile name.]
+Не магу перамясціць '%s' у Сметніцу, абярыце іншае імя для профіля.
+[Problem moving profile]
+Праблема з перасоўваннем профіля
+[Unable to create the profile '%s', the error was %x]
+Не магу стварыць профіль '%s', памылка %x
+[Problem creating profile]
+Праблема са стварэннем профіля
+[&Create]
+Стварыць
+[<In use>]
+<Выкарыстоўваецца>
+[Are you sure you want to remove profile "%s"?]
+Вы ўпэўнены, што хочаце выдаліць профіль "%s"?
+[Run]
+Запусціць
+[Check database]
+Праверыць базу
+[Size]
+Памер
+[Created]
+Створаны
+[Modified]
+Зменены
+[Manage your Miranda NG profile]
+Кіраванне профілямі Miranda NG
+[My profiles]
+Мае профілі
+[New profile]
+Стварыць профіль
+;file \src\modules\extraicons\DefaultExtraIcons.cpp
+[Chat activity]
+Актыўнасць у чаце
+;file \src\modules\extraicons\extraicons.cpp
+;file \src\modules\extraicons\options_ei.cpp
+[Extra icons]
+Экстра абразкі
+;file \src\modules\findadd\findadd.cpp
+[You haven't filled in the search field. Please enter a search term and try again.]
+Вы не запоўнілі поле для пошуку. Калі ласка, увядзіце запыт для пошуку і паспрабуйце яшчэ раз.
+[Search]
+Пошук
+[Results]
+Вынікі
+[There are no results to display.]
+Няма вынікаў.
+[Searching]
+Пошук
+[All networks]
+Усе пратаколы
+[Handle]
+Назва
+[&Find/add contacts...]
+Дадаць кантакты
+;file \src\modules\findadd\searchresults.cpp
+[Could not start a search on '%s', there was a problem - is %s connected?]
+Не магу запусціць пошук па %s. Калі ласка, праверце далучэнне да пратакола %s.
+[Could not search on any of the protocols, are you online?]
+Не магу запусціць пошук ні ў адным пратаколе, праверце далучэнне.
+[Problem with search]
+Праблема з пошукам
+[1 %s user found]
+Знойдзены 1 кантакт %s
+[%d %s users found]
+Знойдзена %d кантактаў %s
+[%d users found (]
+Знойдзена %d кантактаў (
+[No users found]
+Кантакты не знойдзены
+;file \src\modules\fonts\FontOptions.cpp
+[Failed to create file]
+Памылка стварэння файла
+[<none>]
+<няма>
+[Shadow at left]
+Цень злева
+[Shadow at right]
+Цень справа
+[Outline]
+Контур
+[Outline smooth]
+Гладкі контур
+[Smooth bump]
+Размыцце
+[Contour thin]
+Тонкі контур
+[Contour heavy]
+Тоўсты контур
+[Configuration files]
+Файлы канфігурацый
+[Text files]
+Тэкставыя файлы
+[Error writing file]
+Памылка запісу ў файл
+[Sample text]
+Прыклад тэксту
+[Fonts]
+Шрыфты
+;file \src\modules\fonts\FontService.cpp
+[Headers]
+Загалоўкі
+[Generic text]
+Асноўны тэкст
+[Small text]
+Дадатковы тэкст
+;file \src\modules\icolib\skin2opts.cpp
+[Icon sets]
+Наборы абразкоў
+;file \src\modules\ignore\ignore.cpp
+[** All contacts **]
+** Усе кантакты **
+;file \src\modules\langpack\lpopts.cpp
+[(incompatible)]
+(несумяшчальны)
+[Unknown]
+Невядома
+[built-in]
+убудаваны
+[Languages]
+Мовы
+;file \src\modules\metacontacts\metacontacts.h
+[You are going to remove all the contacts associated with this metacontact.\nThis will delete the metacontact.\n\nProceed anyway?]
+Выдаліць метакантакт?
+;file \src\modules\metacontacts\meta_addto.cpp
+[Either there is no metacontact in the database (in this case you should first convert a contact into one)\nor there is none that can host this contact.\nAnother solution could be to convert this contact into a new metacontact.\n\nConvert this contact into a new metacontact?]
+Няма яшчэ ніводнага метакантакту ў базе (у гэтым выпадку трэба спачатку канверсаваць адзін просты кантакт у метакантакт).\n Як варыянт пераўтварыце гэты кантакт у новы метакантакт.\n\n Пераўтварыць гэты кантакт у метакантакт?
+[This contact is a metacontact.\nYou can't add a metacontact to another metacontact.\n\nPlease choose another.]
+Гэты кантакт з'яўлецца МетаКантактам.\nВы не можаце дадаць МетаКантакт у іншы.\n\nКалі ласка, абярыце іншы.
+[Metacontact conflict]
+Канфлікт метакантактаў
+[This contact is already associated to a metacontact.\nYou cannot add a contact to multiple metacontacts.]
+Гэты кантакт ужо дададзены ў метакантакт.\n Вы не можаце дадаць кантакт у некалькі метакантактаў.
+[Multiple metacontacts]
+Мноства метакантактаў
+[No suitable metacontact found]
+Не знойдзена падыходнага метакантакту
+[a contact]
+кантакт
+[Adding %s...]
+Даданне %s...
+[Please select a metacontact]
+Абярыце метакантакт
+[No metacontact selected]
+Метакантакт не абраны
+[Assignment to the metacontact failed.]
+Не атрымалася дадаць да метакантакту.
+[Assignment failure]
+Няўдалае прызначэнне
+;file \src\modules\metacontacts\meta_edit.cpp
+[Protocol]
+Пратакол
+[Send offline]
+Адпраўка ў афлайн
+[Delete metacontact?]
+Выдаліць метакантакт?
+;file \src\modules\metacontacts\meta_main.cpp
+[Toggle off]
+Выключыць
+[Toggle on]
+Уключыць
+[Convert to metacontact]
+Зрабіць метакантактам
+[Add to existing]
+Дадаць
+[Edit]
+Змяніць
+[Set to default]
+Па змаўчанні
+[MetaContacts]
+Метакантакты
+;file \src\modules\metacontacts\meta_menu.cpp
+[There was a problem in assigning the contact to the metacontact]
+Выяўлена праблема дадання кантакту да метакантакту
+[This will remove the metacontact permanently.\n\nProceed anyway?]
+Выдаленне метакантакту.\n\n Працягнуць?
+[Are you sure?]
+Вы ўпэўнены?
+[Remove from metacontact]
+Выдаліць з метакантакту
+[Toggle metacontacts off]
+Выключыць метакантакты
+[Toggle metacontacts on]
+Уключыць метакантакты
+[Add to existing metacontact...]
+Дадаць да метакантакту
+[Edit metacontact...]
+Змяніць метакантакт...
+[Set as metacontact default]
+Метакантакт па змаўчанні
+[Delete metacontact]
+Выдаліць метакантакт
+[Subcontacts]
+Субкантакты
+;file \src\modules\metacontacts\meta_options.cpp
+[Metacontacts]
+Метакантакты
+;file \src\modules\metacontacts\meta_services.cpp
+[No online contacts found.]
+Няма далучаных кантактаў.
+;file \src\modules\metacontacts\meta_utils.cpp
+[Sender]
+Адпраўшчык
+[Could not retrieve contact protocol]
+Не магу запытаць пратакол кантакту
+[Assignment error]
+Памылка прызначэння
+[Could not get unique ID of contact]
+Не магу атрымаць унікальны ID кантакту
+[Contact is 'not on list' - please add the contact to your contact list before assigning.]
+Кантакт не ў спісе. Калі ласка, дадайце кантакт у спіс перад прызначэннем.
+[Metacontact is full]
+Метакантакт поўны
+[Could not write contact protocol to metacontact]
+Памылка запісу пратаколу кантакту ў метакантакт
+[Could not write unique ID of contact to metacontact]
+Памылка запісу ўнікальнага ID кантакту ў метакантакт
+[Could not write nickname of contact to metacontact]
+Не магу запісаць мянушку кантакту ў метакантакт
+;file \src\modules\netlib\netliblog.cpp
+[Standard netlib log]
+Стандартны журнал netlib
+[No times]
+Без часу
+[Standard hh:mm:ss times]
+Гадзіны, хвіліны, секунды
+[Times in milliseconds]
+Мілісекунды
+[Times in microseconds]
+Мікрасекунды
+[(Miranda core logging)]
+Ядро Miranda
+[Select where log file will be created]
+Абраць шлях ды файла лога
+[Select program to be run]
+Абраць праграму для запуску
+;file \src\modules\netlib\netlibopts.cpp
+[<mixed>]
+<розныя>
+[<All connections>]
+<Усе далучэнні>
+[Network]
+Сеціва
+;file \src\modules\netlib\netlibssl.cpp
+[Client cannot decode host message. Possible causes: host does not support SSL or requires not existing security package]
+Кліент не можа дэкадаваць паведамлення хаста. Магчымыя прычыны: вузел не падтрымлівае SSL ці патрабуе неіснуючы пакет бяспекі
+[Host we are connecting to is not the one certificate was issued for]
+Выдадзены сертыфікат не адпавядае хасту далчэння
+;file \src\modules\options\options.cpp
+[<all modules>]
+<усе плагіны>
+[<core modules>]
+<базавыя налады>
+[Loading... %d%%]
+Загрузка... %d%%
+[%s options]
+%s налады
+[Miranda NG options]
+Налады Miranda
+[&Options...]
+&Налады
+;file \src\modules\plugins\newplugins.cpp
+[Core plugin '%s' cannot be loaded or missing. Miranda will exit now]
+Плагін ядра '%s' не можа быць загружана ці адсутнічае. Праграма змушана завяршыць працу
+[Fatal error]
+Фатальная памылка
+[No messaging plugins loaded. Please install/enable one of the messaging plugins, for instance, "StdMsg.dll"]
+Няма загружаных плагінаў гутаркі. Калі ласка, усталюйце/уключыце адзін з плагінаў гутаркі,напрыклад, "StdMsg.dll"
+['%s' is disabled, re-enable?]
+'%s' адключаны, далучыць?
+[Re-enable Miranda plugin?]
+Уключыць плагін?
+[Unable to load plugin in service mode!]
+Немагчыма загрузіць плагін у службовым рэжыме!
+[Unable to start any of the installed contact list plugins, I even ignored your preferences for which contact list couldn't load any.]
+Немагчыма загрузіць ніводны з усталяваных плагінаў спісу кантактаў. Нават адключаныя ў наладах не запускаюцца.
+[Can't find a contact list plugin! You need StdClist or any other contact list plugin.]
+Не знойдзены плагін спісу канактаў. Вам патрэбны StdClist ці Clist_*.
+;file \src\modules\plugins\pluginopts.cpp
+[Plugin]
+Плагін
+[Version]
+Версія
+[Miranda NG must be restarted to apply changes for these plugins:]
+Для наступных плагінаў патрабуецца перазапуск Miranda NG:
+[Do you want to restart it now?]
+Вы жадаеце перазагрузіць зараз?
+[Plugins]
+Плагіны
+;file \src\modules\protocols\protoopts.cpp
+[WARNING! The account is going to be deleted. It means that all its settings, contacts and histories will be also erased.\n\nAre you absolutely sure?]
+УВАГА! Конт будзе выдалены. Гэта азначае, што ўсе налады, кантакты і гісторыя таксама будуць выдаленыя.\n\nВы абсалютна ўпэўненыя?
+[Your account was successfully upgraded. To activate it, restart of Miranda is needed.\n\nIf you want to restart Miranda now, press Yes, if you want to upgrade another account, press No]
+Ваш конт паспяхова адноўлены. Для яго актывацыі неабходна перазапусціць Miranda\n\nДля перазапуску націсніце "Так", калі жадаеце аднавіць іншы конт, націсніце "Не".
+[This account uses legacy protocol plugin. Use Miranda NG options dialogs to change its preferences.]
+Гэты конт выкарыстоўвае стары пратакол. Змена налад карыстача робіцца праз асноўныя налады.
+[Create new account]
+Новы конт
+[Editing account]
+Кіраваць конт
+[Upgrading account]
+Аднавіць конт
+[Account name has to be unique. Please enter unique name.]
+Імя конта павінна быць унікальным. Калі ласка, увядзіце іншае імя.
+[Account error]
+Памылка конта
+[Account is disabled. Please activate it to access options.]
+Конт адключаны. Уключыце для кіравання.
+[New account]
+Новы конт
+[Remove account]
+Выдаліць конт
+[Configure...]
+Налада...
+[Upgrade account]
+Аднаўленне
+[Account ID]
+ID конта
+[<unknown>]
+<невядома>
+[Protocol is not loaded.]
+Пратакол не загружаны.
+[Rename]
+Пераназваць
+[Configure]
+Наладзіць
+[Upgrade]
+Аднавіць
+[Account %s is being disabled]
+Конт %s адключаны
+[Account is online. Disable account?]
+Конт далучаны. Адключыць?
+[Account %s is being deleted]
+Выдаленне конту %s
+[You need to disable plugin to delete this account]
+Для выдалення конта неабходна яго адключыць
+[&Accounts...]
+Конты...
+;file \src\modules\skin\hotkey_opts.cpp
+[Remove shortcut]
+Выдаліць спалучэнне
+[Add another shortcut]
+Дадаць злучэнне
+[Scope:]
+Дзе:
+[System]
+Сістэма
+[Actions:]
+Дзеянні:
+[Add binding]
+Дадаць злучэнне
+[Modify]
+Змяніць
+[System scope]
+Спалучэнне ў сістэме
+[Miranda scope]
+Спалучэнне ў Miranda
+;file \src\modules\skin\skinicons.cpp
+[User online]
+Кантакт далучаны
+[Group (open)]
+Гурт (адкрыты)
+[Group (closed)]
+Гурт (зачынены)
+[Connecting]
+Далучэнне
+[User details]
+Пра кантакт
+[History]
+Гісторыя
+[Down arrow]
+Уніз
+[Find user]
+Знайсці
+[Search all]
+Знайсці ўсіх
+[Tick]
+Пазначана
+[No tick]
+Не пазначана
+[Help]
+Даведка
+[Miranda website]
+Сайт Miranda NG
+[Small dot]
+Кропка
+[Filled blob]
+Запоўнена
+[Empty blob]
+Не запоўнена
+[Unicode plugin]
+Юнікод плагін
+[ANSI plugin]
+ANSI плагін
+[Running plugin]
+Запушчаны плагін
+[Unloaded plugin]
+Выгружаны плагін
+[Show/Hide]
+Схаваць/паказаць
+[Exit]
+Выйсце
+[Join chat]
+Увайсці ў чат
+[Leave chat]
+Пакінуць чат
+[Move to group]
+У гурт
+[On]
+Укл.
+[Off]
+Адкл.
+[Running core plugin]
+Дзейсны плагін ядра
+[Non-loadable plugin]
+Не загружваемы плагін
+[Frames]
+Фрэймы
+[Request authorization]
+Запытаць аўтарызацыю
+[Grant authorization]
+Аўтарызаваць
+[Revoke authorization]
+Адазваць аўтарызацыю
+[Always visible]
+Заўсёды бачны
+[Always invisible]
+Заўсёды нябачны
+[Locked status]
+Блакаваны статус
+[Status icons]
+Статус
+[%s icons]
+%s абразкі
+[Main icons]
+Галоўныя
+;file \src\modules\skin\sounds.cpp
+[Sound files]
+Файлы гукаў
+[WAV files]
+Файлы гукаў
+;file \src\modules\utils\bmpfilter.cpp
+[You need an image services plugin to process PNG images.]
+Вам патрэбны плагін службы малюнкаў для падтрымкі PNG.
+[All bitmaps]
+Усе выявы
+[Windows bitmaps]
+BMP
+[JPEG bitmaps]
+Выявы JPEG
+[GIF bitmaps]
+Выявы GIF
+[PNG bitmaps]
+Выявы PNG
+;file \src\modules\utils\path.cpp
+[Avatars]
+Аватары
+[Avatars root folder]
+Каранёвая тэчка аватараў
+;file \src\modules\utils\timezones.cpp
+[<unspecified>]
+<не пазначана>
+;file \src\modules\utils\utils.cpp
+[Unspecified]
+Не пазначана
+[Afghanistan]
+Афганістан
+[Aland Islands]
+Аландскія астравы
+[Albania]
+Албанія
+[Algeria]
+Алжыр
+[American Samoa]
+Амерыканскае Самоа
+[Andorra]
+Андора
+[Angola]
+Ангола
+[Anguilla]
+Ангілья
+[Antarctica]
+Антарктыда
+[Antigua and Barbuda]
+Антыгуа і Барбуда
+[Argentina]
+Аргенціна
+[Armenia]
+Арменія
+[Aruba]
+Аруба
+[Australia]
+Аўстралія
+[Austria]
+Аўстрыя
+[Azerbaijan]
+Азербайджан
+[Bahamas]
+Багамы
+[Bahrain]
+Бахрэйн
+[Bangladesh]
+Бангладэш
+[Barbados]
+Барбадас
+[Belarus]
+Беларусь
+[Belgium]
+Бельгія
+[Belize]
+Беліз
+[Benin]
+Бенін
+[Bermuda]
+Бярмуды
+[Bhutan]
+Бутан
+[Bolivia]
+Балівія
+[Bonaire, Sint Eustatius and Saba]
+Бонайрэ, Сінт-Эстатіус і Саба
+[Bosnia and Herzegovina]
+Боснія і Герцагавіна
+[Botswana]
+Батсвана
+[Bouvet Island]
+Востраў Буве
+[Brazil]
+Бразілія
+[British Indian Ocean Territory]
+Брытанскай тэрыторыі ў Індыйскім акіяне
+[Brunei]
+Бруней-Даруссалам
+[Bulgaria]
+Балгарыя
+[Burkina Faso]
+Буркіна-Фасо
+[Burundi]
+Бурундзі
+[Cambodia]
+Камбоджа
+[Cameroon]
+Камерун
+[Canada]
+Канада
+[Cape Verde]
+Каба-Вэрдэ
+[Cayman Islands]
+Кайманавы астравы
+[Central African Republic]
+ЦАР
+[Chad]
+Чад
+[Chile]
+Чылі
+[China]
+КНР
+[Christmas Island]
+Востраў Раства
+[Cocos (Keeling) Islands]
+Какосавыя (Кілінг) астравы
+[Colombia]
+Калумбія
+[Comoros]
+Каморы
+[Congo, Republic of the]
+Конго
+[Congo, Democratic Republic of the]
+Конга, Дэмакратычная Рэспубліка
+[Cook Islands]
+Выспы Кука
+[Costa Rica]
+Коста-Рыка
+[Cote d'Ivoire]
+Бераг Слановай Косці
+[Croatia]
+Харватыя
+[Cuba]
+Куба
+[Curacao]
+Кюрасао
+[Cyprus]
+Кіпр
+[Czech Republic]
+Чэхія
+[Denmark]
+Данія
+[Djibouti]
+Джыбуці
+[Dominica]
+Дамініка
+[Dominican Republic]
+Дамініканская Рэспубліка
+[East Timor]
+Усходні Тымор
+[Ecuador]
+Эквадор
+[Egypt]
+Егіпет
+[El Salvador]
+Сальвадор
+[Equatorial Guinea]
+Экватарыяльная Гвінея
+[Eritrea]
+Эрытрэя
+[Estonia]
+Эстонія
+[Ethiopia]
+Эфіопія
+[Falkland Islands (Malvinas)]
+Фальклендзкія астравы (Мальвінскія)
+[Faroe Islands]
+Фарэрскія выспы
+[Fiji]
+Фіджы
+[Finland]
+Фінляндыя
+[France]
+Францыя
+[French Guiana]
+Французская Гвіяна
+[French Polynesia]
+Французская Палінезія
+[French Southern and Antarctic Lands]
+Французскія Паўднёвыя Тэрыторыі
+[Gabon]
+Габон
+[Gambia]
+Гамбія
+[Georgia]
+Грузія
+[Germany]
+Германія
+[Ghana]
+Гана
+[Gibraltar]
+Гібралтар
+[Greece]
+Грэцыя
+[Greenland]
+Грэнландыя
+[Grenada]
+Грэнада
+[Guadeloupe]
+Гвадэлупа
+[Guam]
+Гуам
+[Guatemala]
+Гватэмала
+[Guernsey]
+Гернсі
+[Guinea]
+Гвінея
+[Guinea-Bissau]
+Гвінея-Бісау
+[Guyana]
+Гаяна
+[Haiti]
+Гаіці
+[Heard Island and McDonald Islands]
+Выспы Херд і Макдональд
+[Honduras]
+Гандурас
+[Hong Kong]
+Ганконг
+[Hungary]
+Венгрыя
+[Iceland]
+Ісландыя
+[India]
+Індыя
+[Indonesia]
+Інданезія
+[Iran]
+Іран
+[Iraq]
+Ірак
+[Ireland]
+Ірландыя
+[Isle of Man]
+Востраў Мэн
+[Israel]
+Ізраіль
+[Italy]
+Італія
+[Jamaica]
+Ямайка
+[Japan]
+Японія
+[Jersey]
+Джэрсі
+[Jordan]
+Іарданія
+[Kazakhstan]
+Казахстан
+[Kenya]
+Кенія
+[Kiribati]
+Кірыбаці
+[North Korea]
+Паўночная Карэя
+[South Korea]
+Рэспубліка Карэя
+[Kuwait]
+Кувейт
+[Kyrgyzstan]
+Кіргізія
+[Laos]
+Лаос
+[Latvia]
+Латвія
+[Lebanon]
+Ліван
+[Lesotho]
+Лесота
+[Liberia]
+Ліберыя
+[Libya]
+Лівія
+[Liechtenstein]
+Ліхтэнштэйн
+[Lithuania]
+Літва
+[Luxembourg]
+Люксембург
+[Macau]
+Макао
+[Macedonia]
+Македонія, Былая Югаславія
+[Madagascar]
+Мадагаскар
+[Malawi]
+Малаві
+[Malaysia]
+Малайзія
+[Maldives]
+Мальдывы
+[Mali]
+Малі
+[Malta]
+Мальта
+[Marshall Islands]
+Маршалавы выспы
+[Martinique]
+Марцініка
+[Mauritania]
+Маўрытанія
+[Mauritius]
+Маўрыкій
+[Mayotte]
+Маёта
+[Mexico]
+Мексіка
+[Micronesia, Federated States of]
+Мікранезія
+[Moldova]
+Малдова
+[Monaco]
+Манака
+[Mongolia]
+Манголія
+[Montenegro]
+Чарнагорыя
+[Montserrat]
+Монтсеррат
+[Morocco]
+Марока
+[Mozambique]
+Мазамбік
+[Myanmar]
+М'янма
+[Namibia]
+Намібія
+[Nauru]
+Науру
+[Nepal]
+Непал
+[Netherlands]
+Нідэрланды
+[New Caledonia]
+Новая Каледонія
+[New Zealand]
+Новая Зеландыя
+[Nicaragua]
+Нікарагуа
+[Niger]
+Нігер
+[Nigeria]
+Нігерыя
+[Niue]
+Ніуэ
+[Norfolk Island]
+Востраў Норфолк
+[Northern Mariana Islands]
+Паўночныя Марыянскія выспы
+[Norway]
+Нарвегія
+[Oman]
+Аман
+[Pakistan]
+Пакістан
+[Palau]
+Палау
+[Palestinian Territories]
+Палестына, акупаваная тэрыторыя
+[Panama]
+Панама
+[Papua New Guinea]
+Папуа - Новая Гвінея
+[Paraguay]
+Парагвай
+[Peru]
+Перу
+[Philippines]
+Філіпіны
+[Pitcairn Islands]
+Піткэрн
+[Poland]
+Польшча
+[Portugal]
+Партугалія
+[Puerto Rico]
+Пуэрта-Рыка
+[Qatar]
+Катар
+[Reunion]
+Рэюньён
+[Romania]
+Румынія
+[Russia]
+Руская Федэрацыя
+[Rwanda]
+Руанда
+[Saint Barthelemy]
+Санкт-Барцелемі
+[Saint Helena, Ascension and Tristan da Cunha]
+Выспы Сьвятой Алены, Узнясення і Трыстан-ды-Кунья
+[Saint Kitts and Nevis]
+Сэнт-Кітс і Нэвіс
+[Saint Lucia]
+Сэнт-Люсія
+[Saint Martin (French part)]
+Сен-Мартэн
+[Saint Pierre and Miquelon]
+Сэн-П'ер і Мікелон
+[Saint Vincent and the Grenadines]
+Сэнт-Вінсэнт і Грэнадыны
+[Samoa]
+Самоа
+[San Marino]
+Сан-Марына
+[Sao Tome and Principe]
+Сан-Томе і Прынсэп
+[Saudi Arabia]
+Саудаўская Аравія
+[Senegal]
+Сенегал
+[Serbia]
+Сербія
+[Seychelles]
+Сейшэлы
+[Sierra Leone]
+Сьера-Леонэ
+[Singapore]
+Сінгапур
+[Slovakia]
+Славакія
+[Slovenia]
+Славенія
+[Solomon Islands]
+Саламонавы выспы
+[Somalia]
+Самалі
+[South Africa]
+ПАР
+[South Georgia and the South Sandwich Islands]
+Паўднёвая Георгія і Паўднёвыя Сандвічавы астравы
+[South Sudan]
+Паўднёвы Судан
+[Spain]
+Іспанія
+[Sri Lanka]
+Шры Ланка
+[Sudan]
+Судан
+[Suriname]
+Сурынам
+[Svalbard and Jan Mayen]
+Шпіцбэрген
+[Swaziland]
+Свазіленд
+[Sweden]
+Швецыя
+[Switzerland]
+Швейцарыя
+[Syria]
+Сірыйская Арабская Рэспубліка
+[Taiwan]
+Тайвань
+[Tajikistan]
+Таджыкістан
+[Tanzania]
+Танзанія
+[Thailand]
+Тайланд
+[Togo]
+Того
+[Tokelau]
+Токелау
+[Tonga]
+Тонга
+[Trinidad and Tobago]
+Трынідад і Табага
+[Tunisia]
+Туніс
+[Turkey]
+Турцыя
+[Turkmenistan]
+Туркменістан
+[Turks and Caicos Islands]
+Астравы Тэркс і Кайкас
+[Tuvalu]
+Тувалу
+[Uganda]
+Уганда
+[Ukraine]
+Украіна
+[United Arab Emirates]
+ААЭ
+[United Kingdom]
+Вялікабрытанія
+[United States]
+ЗША
+[United States Minor Outlying Islands]
+Злучаныя Штаты Амерыкі Знешнія малыя выспы
+[Uruguay]
+Уругвай
+[Uzbekistan]
+Узбекістан
+[Vanuatu]
+Вануату
+[Vatican City]
+Ватыкан
+[Venezuela]
+Венесуэла
+[Vietnam]
+В'етнам
+[Virgin Islands (British)]
+Віргінскія выспы (Брытанія)
+[Virgin Islands (United States)]
+Віргінскія выспы (ЗША)
+[Wallis and Futuna]
+Уоліс і Футуна
+[Western Sahara]
+Сахарская Арабская Дэмакратычная Рэспубліка
+[Yemen]
+Емен
+[Zambia]
+Замбія
+[Zimbabwe]
+Зімбабвэ
+;file \src\modules\visibility\visibility.cpp

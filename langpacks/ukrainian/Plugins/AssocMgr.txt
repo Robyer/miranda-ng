@@ -1,0 +1,73 @@
+﻿#muuid {52685cd7-0ec7-44c1-a1a6-381612418202}
+;============================================================
+;  File: AssocMgr.dll
+;  Plugin: File association manager
+;  Version: 0.1.1.0
+;  Authors: H. Herkenrath
+;============================================================
+[Handles file type associations and URLs like aim, ymsgr, xmpp, wpmsg, gg, tlen.]
+Асоціація розширень файлів і URL-посилань з протоколами: AIM, Yahoo, Jabber, Gadu-Gadu, Tlen.
+[Registered associations for Miranda NG:]
+Зареєстровані асоціації для Miranda NG:
+[Miscellaneous]
+Інше
+[&Start Miranda NG automatically when the computer starts (using current profile)]
+&Завантажувати програму при запуску комп'ютера (використовуючи поточний профіль)
+[Only associate with Miranda NG while it is &running]
+Асоціювати тільки під час &роботи програми
+[%hs files]
+%hs файли
+[Type]
+Тип
+[Description]
+Опис
+[URLs on websites]
+Посилання і сайти
+[File types]
+Типи файлів
+[File association error]
+Помилка асоціації файлів
+[There was an error writing to the registry to modify the file/url associations.\nReason: %s]
+Сталася помилка запису для модифікації асоціацій файлів/посилань.\n\nПричина: %s
+[Unknown]
+Невідомо
+[Autostart error]
+Помилка автозавантаження
+[There was an error writing to the registry to modify the autostart list.\n\nReason: %s]
+Помилка запису для модифікації списку автозапуску.\n\nПричина: %s
+[Services]
+Служби
+[Associations]
+Асоціації
+[Miranda NG database]
+База даних Miranda NG
+[Miranda NG could not open file]
+Miranda NG не може відкрити файл
+[Miranda NG was not able to open "%S".\n\nThere is no registered handler for this file type.]
+Miranda NG не може відкрити "%S".\n\nНе зареєстрований обробник для цього типу файлів.
+[Miranda NG was not able to open "%S".\n\nThe file could not be processed.]
+Miranda NG не може відкрити "%S".\n\nФайл не може бути оброблений.
+[Miranda NG could not open URL]
+Miranda NG не може відкрити посилання
+[Miranda NG was not able to open "%S".\n\nThere is no registered handler for this URL type.]
+Miranda NG не може відкрити "%S".\n\nНе зареєстрований обробник для цього типу посилань.
+[Miranda NG was not able to open "%S".\n\nThe given URL is invalid and cannot be parsed.]
+Miranda NG не може відкрити "%S".\n\nЦей URL є недійсним і не може бути проаналізований.
+[Access failed:\n%.64hs(%.128s)\n%.250hs(%u)\n%.256hs (%u)]
+Доступ заборонений:\n%.64hs(%.128s)\n%.250hs(%u)\n%.256hs (%u)
+[Registry warning]
+Попередження
+[AIM Link Protocol]
+Протокол AIM
+[ICQ Link Shortcut]
+Протокол ICQ
+[&Add to contact list...]
+&Додати в список контактів...
+[Yahoo Link Protocol]
+Протокол Yahoo
+[MSN Link Protocol]
+Протокол MSN
+[Gadu-Gadu Link Protocol]
+Протокол Gadu-Gadu
+[Jabber Link Protocol]
+Протокол Jabber

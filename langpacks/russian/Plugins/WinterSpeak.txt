@@ -1,0 +1,131 @@
+﻿#muuid {81e189dc-c251-45f6-9edf-a0f3a05c4248}
+;============================================================
+;  File: WinterSpeak.dll
+;  Plugin: WinterSpeak
+;  Version: 0.9.8.3
+;  Authors: Ryan Winter, BlubbFish
+;============================================================
+[Miranda interface to the Microsoft Speech API.]
+Интерфейс распознавания речи Microsoft.
+[Engine Settings]
+Настройки движка
+[Engine]
+Движок
+[Voice]
+Голос
+[Volume]
+Громкость
+[Rate]
+Скорость
+[Pitch]
+Высота
+[Test]
+Тест
+[Lexicon]
+Лексикон
+[Welcome Message]
+Приветствие:
+[Status Changes]
+Смены статуса
+[Offline]
+Не в сети
+[Online]
+В сети
+[Away]
+Отсутствую
+[DND]
+Не беспокоить
+[NA]
+Недоступен
+[Occupied]
+Занят
+[Free for chat]
+Готов болтать
+[Invisible]
+Невидимый
+[Occurring Events]
+События
+[Incoming message]
+Входящее сообщение
+[Incoming URL]
+Входящая ссылка
+[Incoming File]
+Входящий файл
+[Authorization request]
+Запрос авторизации
+[Added to contact list]
+"Вас добавили"
+[Status messages]
+Сообщения статуса
+[Announce status changes on connect]
+Объявлять изменения статуса при соединении
+[Message Events]
+Сообщения
+[Read message if less characters than]
+Читать сообщение, если меньше, чем
+[Ignore event if message dialog is open]
+Игнорировать событие, если открыто окно
+[Ignore event if message dialog is focused]
+Игнорировать событие, если активно окно
+[Active Modes]
+Активные режимы
+[Active Users]
+Активные пользователи
+[The following events are being ignored:]
+Следующие события будут проигнорированы:
+[Messages]
+Сообщения
+[Online Notification]
+Уведомление В сети
+[All Events]
+Все события
+[None]
+Нет
+[Add]
+Добавить
+[Remove]
+Удалить
+[** All contacts **]
+** Все контакты **
+[** Unknown contacts **]
+** Неизвестные контакты **
+[testing testing 1 2 3]
+Проверка, проверка: 1 2 3
+[incoming message from %u]
+Сообщение от пользователя %u.
+[incoming URL from %u]
+Ссылка от %u.
+[you have been added to %u's contact list]
+Вы добавлены к списку контактов пользователя %u.
+[%u requests your authorization]
+%u запрашивает у вас авторизацию
+[there is an incoming file from %u]
+Файл от пользователя %u.
+[%u says]
+%u пишет:
+[Speak]
+Речь
+[Engine/Voice]
+Движок/Голос
+[Announce]
+Уведомление
+[Message Session]
+Сообщение сессии
+[Message Received]
+Сообщение получено
+[%u is now offline]
+%u сейчас не в сети.
+[%u is now online]
+%u сейчас в сети.
+[%u is away]
+%u отсутствует.
+[%u is invisible]
+%u в режиме "Невидимость".
+[%u is not available]
+%u вне доступности.
+[%u does not want to be disturbed]
+%u не хочет, чтобы беспокоили.
+[%u is occupied]
+%u в режиме "Занят".
+[%u is free for chat]
+%u не прочь поболтать.

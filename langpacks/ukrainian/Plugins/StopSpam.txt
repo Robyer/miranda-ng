@@ -1,0 +1,59 @@
+﻿#muuid {553811ee-deb6-48b8-8902-a8a00c1fd679}
+;============================================================
+;  File: StopSpam.dll
+;  Plugin: StopSpam+
+;  Version: 0.0.1.4
+;  Authors: Roman Miklashevsky, A. Petkevich, Kosh&chka, persei
+;============================================================
+[Anti-spam plugin for Miranda NG.]
+Антиспам для Miranda NG.
+[Question (Ctrl+Enter for carriage return):]
+Питання (Ctrl+Enter - новий рядок):
+[Restore defaults]
+Скинути
+[Answer (Use divider to separate answers):]
+Відповідь (користуйтеся роздільником, якщо варіантів кілька):
+[Congratulation:]
+Привітання:
+[Auth. request reply:]
+Відповідь на запити авторизації:
+[Divider:]
+Роздільник:
+[Disable protection for following accounts:]
+Вимкнути захист для наступних облікових записів:
+[Do not send more than]
+Не надсилати більше
+[questions to one contact (0 - for no limit)]
+питань контакту (0 - необмежено)
+[Enable StopSpam-StopSpam infinite talk protection]
+Вимикати антиспам при спробі відповіді іншому антиспаму
+[Add contact permanently]
+Додавати в постійний список
+[Enable auth. requests blocking]
+Блокувати запити авторизації
+[Answer is not case sensitive]
+Не враховувати регістр відповіді
+[Remove all temporary contacts after restart]
+Видаляти всі тимчасові контакти після перезапуску
+[Log Spammers to system history]
+Записувати спамерів в системну історію
+[Message Sessions]
+Бесіди
+[General]
+Загальна
+[Messages]
+Повідомлення
+[Accounts]
+Облікові записи
+[StopSpam]
+Антиспам
+[No more spam! Robots can't go! Only human beings invited!\r\n\r\nThis plugin works pretty simple:\r\nWhile messages from users on your contact list go as there is no any anti-spam software, messages from unknown users are not delivered to you. But also they are not ignored, this plugin replies with a simple question, and if user gives the right answer plugin adds him to your contact list so that he can contact you.]
+Немає більше спаму! Роботи відпочивають!\r\n\r\nЦей плагін працює просто:\r\nПовідомлення від користувачів у вашому списку приходять без перевірки на спам, а повідомлення від невідомих користувачів вам не доставляються. Але вони не ігноруються: плагін відповідає простим питанням і, якщо користувач дає правильну відповідь, додає його до списку, щоб він міг зв'язатися з вами.
+[StopSpam automatic message:\r\n]
+Повідомлення антиспаму:\r\n
+[Not In List]
+Не у списку
+[Complete]
+Готово
+[Remove Temporary Contacts]
+Видалити тимчасові контакти

@@ -1,0 +1,99 @@
+﻿#muuid {bd542bb4-5ae4-4d0e-a435-ba8dbe39607f}
+;============================================================
+;  File: SmileyAdd.dll
+;  Plugin: SmileyAdd
+;  Version: 0.2.3.17
+;  Authors: Peacow, nightwish, bid, borkra
+;============================================================
+[Smiley support for Miranda NG.]
+Підтримка смайлів в Miranda NG.
+[Smiley categories]
+Категорії смайлів
+[Specify smiley pack for each category]
+Категорії з різними наборами смайлів
+[Name:]
+Ім'я:
+[Author:]
+Автор:
+[Version:]
+Версія:
+[Preview]
+Тест
+[Display]
+Показувати
+[Replace only smileys surrounded by spaces]
+Замінювати тільки смайли, оточені пробілами
+[Scale smiley to text height]
+Масштабувати смайли під текст
+[Disable custom smileys]
+Вимкнути завантажувані смайли
+[High quality smiley scaling]
+Якісне масштабування
+[Animate]
+Анімація
+[Maximum 'Custom smiley' height]
+Макс. висота завант. смайлів
+[Minimum smiley height]
+Мінімальна висота смайлів
+[Smiley selector]
+Вибір смайла
+[Surround inserted smiley with spaces]
+Вставити смайл з пробілами
+[Use first smiley for selection size]
+Розмір усіх смайлів як у першого
+[IEView style window]
+Вікно в стилі IEView
+[Input area]
+Поле вводу
+[Enable smileys]
+Ввімкнути смайли
+[Don't replace at cursor]
+Не замінювати під курсором
+[Built-in message dialog support]
+Підтримка плагінів повідомлень
+[Disable]
+Вимкнути
+[Smiley button]
+Кнопка смайла
+[Show smiley selection window]
+Показати вікно вибору смайлів
+[SmileyAdd]
+Смайли
+[Smiley cache]
+Кеш смайлів
+[SmileyAdd HTTP connections]
+HTTP-з'єднання SmileyAdd
+[Button smiley]
+Кнопка смайла
+[Assign smiley category]
+Категорія смайлів
+[Only one instance of SmileyAdd could be executed.\nRemove duplicate instances from 'Plugins' directory]
+Може бути запущена тільки одна копія SmileyAdd.\nВидаліть дублікат з папки Plugins.
+[Smileys]
+Смайли
+[Customize]
+Тонке налаштування
+[Off]
+Вимк.
+[Top]
+Вгорі
+[Bottom]
+Внизу
+[Smiley packs]
+Набір смайлів
+[All files]
+Усі файли
+[Protocol specific]
+Згідно з протоколом
+[Smiley pack %s not found.\nSelect correct smiley pack in the Options -> Customize -> Smileys.]
+Набір смайлів %s не знайдено.\nВиберіть набір смайлів: Налаштування -> Тонке налаштування -> Смайли.
+[There were problems loading smiley pack (it should be corrected).\nSee network log for details.]
+Проблеми з завантаженням набору смайлів (необхідно виправити).\nДля подробиць дивіться мережевий журнал.
+[Smiley #%u in file %s for smiley pack %s not found.]
+Смайл #%u у файлі %s для набору смайлів %s не знайдено.
+[Standard]
+Стандартні
+[Regular expression "%s" in smiley pack "%s" could produce "empty matches".]
+Регулярний вираз "%s" у наборі смайлів "%s" може виводити "порожнє значення".
+[Regular expression "%s" in smiley pack "%s" malformed.]
+Помилковий регулярний вираз "%s" у наборі смайлів "%s".

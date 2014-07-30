@@ -1,0 +1,82 @@
+﻿#muuid {4bb5b4aa-c364-4f23-9746-d5b708a286a5}
+;============================================================
+;  File: ConnectionNotify.dll
+;  Plugin: ConnectionNotify
+;  Version: 0.1.0.5
+;  Authors: MaKaR
+;============================================================
+[Notify with popup if some connection established]
+Powiadamia popupem, gdy zostanie nawiązane połączenie.
+;file \plugins\ConnectionNotify\res\ConnectionNotify.rc
+[Set popup colors]
+Ustaw kolory komunikatów
+[Popup options]
+Opcje popupów
+[Background]
+Tło
+[Text]
+Tekst
+[Close after:]
+Zamknij po:
+[sec (0 default, -1 disabled)]
+s (0 - domyślnie, -1 nie chowaj)
+[Settings]
+Ustawienia
+[try resolve addresses]
+Próbuj ustalić adresy
+[Version:]
+Wersja:
+[Show notification if no filter defined]
+Wyświetl powiadomienie, jeśli nie ma filtrów
+[Attempt interval (ms)]
+Interwał próby (ms.)
+[X]
+X
+['Online' means:]
+"Dostępny", czyli:
+[Filters]
+Filtry
+[DN]
+DN
+[UP]
+UP
+[Rule editor]
+Edytor reguł
+[Application name]
+Nazwa programu
+[Local IP:Port]
+Lokalne IP:Port
+[Action:]
+Akcja:
+[Cancel]
+Anuluj
+[* and ? wildcard characters also available (for port enter number or *)]
+Znaki * i ? są także dostępne (jako port podaj liczbę lub *)
+[Remote IP:Port]
+Zdalne IP:Port
+;file \plugins\ConnectionNotify\src\ConnectionNotify.cpp
+[Show]
+Pokaż
+[Hide]
+Ukryj
+[Always show popup]
+Zawsze pokazuj popup
+[Never show popup]
+Nigdy nie pokazuj popupu
+[Status]
+Status
+[Application]
+Program
+[Internal socket]
+Wewnętrzna brama
+[External socket]
+Zewnętrzna brama
+[Action]
+Akcja
+[Plugins]
+Wtyczki
+[New Connection Notification]
+Powiadomienie o nowym połączeniu
+;file \plugins\ConnectionNotify\src\filter.cpp
+[First close options window]
+Najpierw zamknij okno opcji

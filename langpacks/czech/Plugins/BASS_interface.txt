@@ -1,0 +1,72 @@
+﻿#muuid {2f07ea05-05b5-4ff0-875d-c590da2ddac1}
+;============================================================
+;  File: BASS_interface.dll
+;  Plugin: BASS interface
+;  Version: 0.0.0.14
+;  Authors: tico-tico
+;============================================================
+[un4seen's BASS interface Miranda NG plugin.]
+Doplněk pro rozhraní un4seen's BASS pro Mirandu NG.
+;file \plugins\BASS_interface\res\Bass.rc
+[un4seen's bass interface]
+Rozhraní un4seen's bass
+[bass.dll loading error]
+Chyba načítání bass.dll
+[Current bass.dll path:]
+Aktuální cesta k bass.dll:
+[Maximum number of bass internal channels:]
+Maximální počet interních kanálů bass:
+[Output device:]
+Výstupní zařízení:
+[Volume:]
+Hlasitost:
+[Quiet time:]
+Čas ticha:
+[download bass library]
+stáhnout bass knihovnu
+[Play only if]
+Povolit pouze ve stavu
+[Offline]
+Offline
+[Online]
+Online
+[Away]
+Na chvíli pryč
+[NA]
+Nejsem tady
+[Occupied]
+Nemám čas
+[DND]
+Nerušit!
+[Free for chat]
+Mám volno
+[Invisible]
+Neviditelný
+[On the phone]
+Mám telefon
+[Out to lunch]
+Jsem na obědě
+[Preview]
+Náhled
+;file \plugins\BASS_interface\src\Bass_interface.h
+[Bass Interface]
+Bass rozhraní
+;file \plugins\BASS_interface\src\Main.cpp
+[un4seen's bass version: %d.%d.%d.%d]
+Verze un4seen's bass: %d.%d.%d.%d
+[--default device--]
+--výchozí zařízení--
+[Sounds]
+Zvuky
+[Disable sounds]
+Zakázat zvuky
+[Enable sounds]
+Povolit zvuky
+[Frame background]
+Barva pozadí rámečku
+[Bass library]
+Bass knihovna
+[Sounds enabled]
+Zvuky povoleny
+[Sounds disabled]
+Zvuky zakázány

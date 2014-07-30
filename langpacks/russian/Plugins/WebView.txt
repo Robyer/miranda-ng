@@ -1,0 +1,135 @@
+﻿#muuid {cd5427fb-5320-4f65-b4bf-86b7cf7b5087}
+;============================================================
+;  File: Webview.dll
+;  Plugin: Webview
+;  Version: 0.1.3.0
+;  Authors: Vincent Joyce
+;============================================================
+[Adds web pages as contacts to your contact list and can display text and/or issue change alerts from those pages in a window.]
+Позволяет добавить веб-страницы в качестве контактов в список контактов, показывает текст и/или изменения этих страниц.
+[minutes]
+минут(ы)
+[seconds]
+секунд
+[Disable main menu items]
+Откл. пункты главного меню
+[Background color:]
+Цвет фона:
+[Text color:]
+Цвет текста:
+[Bold]
+Жирный
+[Italic]
+Курсив
+[Underline]
+Подчёркивание
+[Error messages]
+Ошибки
+[Suppress error messages]
+Подавлять сообщения об ошибках
+[Expert options]
+Расширенные настройки
+[(not recommended)]
+(не рекомендуется)
+[Display]
+Показывать
+[Cancel]
+Отмена
+[Apply]
+Применить
+[Find]
+Найти
+[&Find next]
+&Следующий
+[Find what:]
+Найти:
+[Add time and date of alert to contact name]
+Добавить время и дату к имени контакта
+[Add as prefix]
+Добавить как префикс
+[Add as suffix]
+Добавить как суффикс
+[Log to file]
+Запись в файл
+[Log file:]
+Файл журнала:
+[Append data to file]
+Добавить содержимое в файл
+[Popup delay]
+Задержка окна
+[Delay]
+Задержка
+[From Popup plugin]
+По умолчанию
+[Permanent]
+Постоянно
+[Preview]
+Тест
+[Colors]
+Цвета
+[Use custom colors]
+Задать цвета
+[Background]
+Фон
+[Text]
+Текст
+[Use Windows colors]
+Цвета Windows
+[Dismiss popup]
+Закрыть
+[Log]
+Журнал
+[&Copy]
+&Копировать
+[C&ut]
+В&ырезать
+[&Delete]
+&Удалить
+[&Paste]
+&Вставить
+[Co&py all]
+Ко&пировать всё
+[&Select all]
+Выбрать все
+[Auto update disabled]
+Автообновление выключено
+[Auto update enabled]
+Автообновление включено
+[Contact options]
+Параметры
+[Network]
+Сеть
+[Popups]
+Всплывающие окна
+[Cannot write to file]
+Невозможно записать в файл
+[Stick to the front]
+Поверх окон
+[Disable stick to the front]
+Выключить поверх окон
+[The server is down or lagging.]
+Сервер упал или лагает.
+[Processing data (Stage 1)]
+Обработка данных (этап 1)
+[Processing data stopped by user.]
+Обработка данных остановлена пользователем.
+[Processing data (Stage 2)]
+Обработка данных (этап 2)
+[Processing data (Stage 3)]
+Обработка данных (этап 3)
+[Processing data (Stage 4)]
+Обработка данных (этап 4)
+[Processing data (Stage 5)]
+Обработка данных (этап 5)
+[Processing data (Stage 6)]
+Обработка данных (этап 6)
+[Processing data (Stage 7)]
+Обработка данных (этап 7)
+[Processing data (Stage 8)]
+Обработка данных (этап 8)
+[Online]
+В сети
+[A site is already downloading, try again in a moment.]
+Сайт уже загружается, попробуйте позже.
+[Popup plugin]
+Вспл. окна

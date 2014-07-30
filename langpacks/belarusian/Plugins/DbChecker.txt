@@ -1,0 +1,147 @@
+﻿#muuid {a0138fc6-4c52-4501-af93-7d3e20bcae5b}
+;============================================================
+;  File: DbChecker.dll
+;  Plugin: Database checker
+;  Version: 0.95.0.3
+;  Authors: George Hazan
+;============================================================
+[Miranda NG Database Checker.]
+Плагін праверкі БД Miranda NG.
+;file \plugins\DbChecker\res\resource.rc
+[Welcome to the Miranda Database Wizard]
+Сардэчна запрашаем у майстар базы дадзеных
+[Using this Wizard you can compact your Miranda profile database to remove dead space created during normal usage, as well as repair a large number of issues that could affect the database.]
+Выкарыстоўваючы гэты майстар, вы можаце паменшыць памер профіля выдаленнем "мёртвай" прасторы.
+[To continue, click Next.]
+Націсніце "Далей" для працягу.
+[This program is licensed under the terms of the GNU General Public License.]
+Праграма ліцэнзавана пад умовамі GNU General Public License.
+[Miranda Database Tool]
+Прылада базы Miranda NG
+[< &Back]
+< &Назад
+[&Next >]
+&Далей >
+[Cancel]
+Скасаваць
+[Select Miranda Profile]
+Выбар профіля Miranda NG
+[You can choose the Miranda profile database to compact or repair.]
+Абярыце профіль Miranda NG для сціску ці аднаўленні.
+[Select the &profile database from the list below. If the database you wish to use is not listed here then click Other to browse your computer.]
+Абярыце профіль базы ў спісе. Калі яго няма ў спісе, націсніце "Яшчэ..." для пошуку на кампутары.
+[&File:]
+Файл:
+[&Other...]
+Яшчэ...
+[Error Opening Database]
+Памылка адкрыцця базы
+[There was an error opening the profile database given.]
+Памылка адкрыцця базы профіля.
+[Click Next to try opening the file again, or click Back to select a new profile database to manipulate.]
+Націсніце Далей, каб паўтарыць чытанне файла, ці націсніце Назад, каб абраць іншы профіль базы дадзеных.
+[The file may be in use by a currently running copy of Miranda. Exit any running Mirandas and click Next to retry.]
+Файл ужо выкарыстоўваецца іншай копіяй Miranda NG. Зачыніце ўсе адкрытыя копіі і націсніце "Далей" для паўтору.
+[File Access Options]
+Налады доступу
+[You can select low level options to determine how the database is processed.]
+Вы можаце абраць узровень змен базы.
+[Create backup]
+Стварыць рэзерв
+[Creates a backup copy of the database before any of the requested changes are made.]
+Стварае рэзервовую копію базы перад любой зменай.
+[Aggressively find corruption]
+Агрэсіўны пошук пашкоджанняў
+[Scans the database for data that is not linked to any other data. This requires more disk space and more time, so is only required if you suspect corruption.]
+Скануе базу для пошуку не прывязаных дадзеных. Патрабуецца больш часу і месцы на дыску. Выкарыстоўвайце, толькі калі вы ўпэўнены ў пашкоджаннях.
+[Check consistency only]
+Толькі праверыць цэласнасць
+[Just checks that the database is valid, without writing anything to the disk.]
+Толькі праверка базы, без запісу чаго-небудзь на дыск.
+[Cleaning Options]
+Налады сцірання
+[You can choose to remove information from the database while it is being processed.]
+Вы можаце выдаліць інфармацыю з базы падчас працэсу.
+[Erase all histories]
+Выдаліць усю гісторыю
+[Removes all the saved history for all contacts in the database.]
+Выдаляе ўсе захаваныя запісы ў гісторыі для ўсіх кантактаў.
+[Mark all events read]
+Пазначыць як прачытаныя
+[Marks all the history events as read. This will rectify any problems with old messages always appearing in the message window log box.]
+Пазначыць усе падзеі як прачытаныя. Гэта выправіць праблемы са старымі паведамленнямі, заўсёды адлюстроўванымі ў вакне паведамлення
+[Convert old Unicode messages to UTF8]
+Канверсаваць старыя Unicode паведамленні ў UTF8
+[Converts history messages in pre-0.7 format (ANSI+UCS2) to the new UTF8 format supported by 0.7. Saves the database space in most cases (recommended).]
+Канверсуе гісторыю паведамленняў з <0.7 фармату (ANSI+UCS2) у новы UTF8 фармат. У большасці выпадкаў дапамагае захаваць месца на дыску (рэкамендуецца).
+[Working...]
+Выкананне...
+[Please wait while the requested operations are being performed.]
+Пачакайце, пакуль усе аперацыі будуць завершаны.
+[Finished!]
+Скончана
+[All tasks have been completed.]
+Усе задачы завершаны.
+[Launch Miranda with this profile]
+Запусціць Miranda NG з гэтым профілем
+[Launches Miranda with the profile that was just worked on.]
+Запускае Miranda NG з папярэднім профілем
+[Backup:]
+Рэзерв:
+[The processing of the database has been completed. Click Next to return to the start of the wizard to select another database to check, or click Finish to exit the wizard.]
+Праверка базы завершана. Націсніце "Далей" для звароту ў майстар і праверкі іншай базы, ці "Завяршыць" для выйсця.
+;file \plugins\DbChecker\src\finished.cpp
+[&Finish]
+Завяршыць
+;file \plugins\DbChecker\src\progress.cpp
+[Click Next to continue]
+Націсніце "Далей" для працягу
+[Processing has not yet completed, if you cancel now then the changes that have currently been made will be rolled back and the original database will be restored. Do you still want to cancel?]
+Апрацоўка яшчэ не завершана; калі вы адменіце яе цяпер, то змены не будуць ужыты да арыгінальнай базы дадзеных. Вы жадаеце адмяніць?
+[Processing has not yet completed, if you go back now then the changes that have currently been made will be rolled back and the original database will be restored. Do you still want to go back?]
+Апрацоўка яшчэ не завершана; калі вы пяройдзеце назад цяпер, то змены не будуць ужыты да арыгінальнай базы дадзеных. Вы жадаеце перайсці назад?
+;file \plugins\DbChecker\src\selectdb.cpp
+[Database Checker cannot find a suitable database plugin to open '%s'.]
+Плагін праверкі не можа знайсці патэбнага драйвера БД для адкрыцця '%s'.
+[Error]
+Памылка
+[Database driver '%s' doesn't support checking.]
+Драйвер базы '%s' не падтрымлівае праверку.
+[Database]
+Профіль
+[Total size]
+Памер
+[Miranda Databases (*.dat)]
+Базы Miranda NG (*.dat)
+[All Files]
+Усе файлы
+;file \plugins\DbChecker\src\wizard.cpp
+;file \plugins\DbChecker\src\worker.cpp
+[Errors were encountered, however you selected not to backup the original database. It is strongly recommended that you do so in case important data was omitted. Do you wish to keep a backup of the original database?]
+Былі знойдзены памылкі, але вы не захавалі рэзервовую копію. Строга рэкамендуецца яе зрабіць, бо важныя дадзеныя могуць быць згублены. Вы жадаеце захаваць рэзервовую копію арыгінальнай базы дадзеных?
+[%s\\Backup of %s]
+%s\\Рэзервовая копія %s
+[%s\\Backup (%d) of %s]
+%s\\Рэзервовая копія (%d) %s
+[Unable to rename original file]
+Немагчыма пераназваць арыгінальны файл
+[Unable to delete original file]
+Немагчыма выдаліць арыгінальны файл
+[Unable to rename output file]
+Немагчыма пераназваць файл на выйсці
+[Database worker thread activated]
+Актывавана аднаўленне працаздольнасці базы
+[<check only>]
+<толькі праверыць>
+[ (Output).dat]
+ (Output).dat
+[Can't create output file (%u)]
+Немагчыма стварыць файл на выйсці (%u)
+[Processing aborted by user]
+Апрацоўка адменена карыстачом
+[Elapsed time: %d sec]
+Выдаткавана часу: %d сек.
+[All tasks completed but with errors (%d)]
+Усе задачы завершаны, але з памылкамі (%d шт)
+[All tasks completed successfully]
+Усе задачы завершаны

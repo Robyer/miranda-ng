@@ -1,0 +1,69 @@
+﻿#muuid {2f07ea05-05b5-4ff0-875d-c590da2ddac1}
+;============================================================
+;  File: BASS_interface.dll
+;  Plugin: BASS interface
+;  Version: 0.0.0.14
+;  Authors: tico-tico
+;============================================================
+[un4seen's BASS interface Miranda NG plugin.]
+Поддержка библиотеки BASS для Miranda NG.
+[un4seen's bass interface]
+Поддержка библиотеки BASS
+[bass.dll loading error]
+Ошибка загрузки библиотеки bass.dll
+[Current bass.dll path:]
+Текущий путь к bass.dll:
+[Maximum number of bass internal channels:]
+Максимальное количество каналов:
+[Output device:]
+Устройство вывода:
+[Volume:]
+Уровень громкости:
+[Quiet time:]
+Тихий час:
+[download bass library]
+загрузить библиотеку bass
+[Play only if]
+Играть, если
+[Offline]
+Не в сети
+[Online]
+В сети
+[Away]
+Отсутствую
+[NA]
+Недоступен
+[Occupied]
+Занят
+[DND]
+Не беспокоить
+[Free for chat]
+Готов болтать
+[Invisible]
+Невидимый
+[On the phone]
+На телефоне
+[Out to lunch]
+Обедаю
+[Preview]
+Тест
+[Bass Interface]
+Библиотека BASS
+[un4seen's bass version: %d.%d.%d.%d]
+Версия библиотеки BASS: %d.%d.%d.%d
+[--default device--]
+--устройство по умолчанию--
+[Sounds]
+Звуки
+[Disable sounds]
+Выключить звуки
+[Enable sounds]
+Включить звуки
+[Frame background]
+Фон фрейма
+[Bass library]
+Библиотека Bass
+[Sounds enabled]
+Звуки включены
+[Sounds disabled]
+Звуки выключены

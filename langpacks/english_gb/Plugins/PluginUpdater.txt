@@ -1,0 +1,17 @@
+﻿#muuid {968def4a-bc60-4266-ac08-754ce721db5f}
+;============================================================
+;  File: PluginUpdater.dll
+;  Plugin: Plugin updater
+;  Version: 0.1.2.2
+;  Authors: Mataes, George Hazan
+;============================================================
+[Go to Customize -> Hotkeys to change the hotkey]
+Go to Customise -> Hotkeys to change the hotkey
+[Colors]
+Colours
+[Use cus&tom colors]
+Use cus&tom colours
+[Use &Windows colors]
+Use &Windows colours
+[Use Pop&up colors]
+Use Pop&up colours

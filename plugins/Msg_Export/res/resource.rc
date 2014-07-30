@@ -1,0 +1,230 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\src\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <winres.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "..\\src\\resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include <winres.h>\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPT_MSGEXPORT DIALOGEX 0, 0, 310, 234
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_EXPORT_DIR,11,12,125,114,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Browse",IDC_EXPORT_DIR_BROWSE,141,11,43,14
+    COMBOBOX        IDC_DEFAULT_FILE,53,29,83,112,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use internal viewer",IDC_USE_INTERNAL_VIEWER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,61,78,10
+    CONTROL         "Replace Miranda history",IDC_REPLACE_MIRANDA_HISTORY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,91,61,90,10
+    COMBOBOX        IDC_FILE_VIEWER,11,75,125,89,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Browse",IDC_FILE_VIEWER_BROWSE,141,74,43,14
+    EDITTEXT        IDC_MAX_CLOUMN_WIDTH,259,11,39,14,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_EXPORT_TIMEFORMAT,241,29,57,122,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Use UTF8 in new files",IDC_USE_UTF8_IN_NEW_FILES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,194,46,104,10
+    CONTROL         "Append extra new line",IDC_APPEND_NEWLINE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,194,59,104,10
+    CONTROL         "Use << and >>",IDC_USE_LESS_AND_GREATER_IN_EXPORT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,194,72,104,10
+    CONTROL         "List1",IDC_MAP_USER_LIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_EDITLABELS | WS_BORDER | WS_TABSTOP,5,100,299,114
+    PUSHBUTTON      "Auto filename",IDC_AUTO_FILENAME,5,218,63,14
+    PUSHBUTTON      "Clear all",IDC_CLEAR_ALL,86,218,63,14
+    PUSHBUTTON      "Help",IDC_OPEN_HELP,161,218,63,14
+    PUSHBUTTON      "Export all history",IDC_EXPORTALL,235,218,63,14
+    GROUPBOX        "Export directory",IDC_STATIC,5,0,181,46
+    LTEXT           "Max column width",IDC_STATIC,194,14,58,8
+    LTEXT           "Time format",IDC_STATIC,194,31,38,8
+    GROUPBOX        "Export format",IDC_STATIC,190,0,114,94
+    LTEXT           "Default file",IDC_STATIC,11,32,34,8
+    GROUPBOX        "File viewer",IDC_STATIC,5,49,181,45
+END
+
+IDD_EXPORT_ALL_DLG DIALOGEX 0, 0, 252, 46
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Exporting old messages"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_EXPORT_PROGRESS,"msctls_progress32",WS_BORDER,7,7,238,15
+    LTEXT           "",IDC_EXP_ALL_STATUS,7,31,238,8
+END
+
+IDD_FILE_VIEWER DIALOG 0, 0, 346, 259
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "History file for %s (%s format %s)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_RICHEDIT,"RichEdit20W",TCS_HOTTRACK | TCS_VERTICAL | TCS_BUTTONS | TCS_RAGGEDRIGHT | TCS_MULTISELECT | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,6,7,333,224
+    PUSHBUTTON      "&Find...",IDC_FV_FIND,46,238,50,14
+    PUSHBUTTON      "&External",IDC_FV_EXTERNAL,142,238,50,14
+    DEFPUSHBUTTON   "&Close",IDOK,246,238,50,14
+END
+
+IDD_OPT_MSGEXPORT2 DIALOGEX 0, 0, 302, 227
+STYLE DS_SETFONT | DS_3DLOOK | DS_CENTER | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "When filename changes",IDC_STATIC,8,9,138,56
+    CONTROL         "Prompt for action",IDC_FC_PROMPT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,14,24,125,10
+    CONTROL         "Rename file",IDC_FC_RENAME,"Button",BS_AUTORADIOBUTTON,14,37,125,10
+    CONTROL         "Do nothing",IDC_FC_NOTHING,"Button",BS_AUTORADIOBUTTON,14,50,125,10
+    GROUPBOX        "When user is deleted",IDC_STATIC,152,10,138,56
+    CONTROL         "Prompt for action",IDC_FD_PROMPT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,161,24,121,10
+    CONTROL         "Delete file",IDC_FD_DELETE,"Button",BS_AUTORADIOBUTTON,161,37,121,10
+    CONTROL         "Do nothing",IDC_FD_NOTHING,"Button",BS_AUTORADIOBUTTON,161,50,121,10
+    CONTROL         "List1",IDC_EXPORT_PROTOS,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_EDITLABELS | WS_BORDER | WS_TABSTOP,8,72,282,134
+    PUSHBUTTON      "Debug",IDC_DEBUG_INFO,253,210,37,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPT_MSGEXPORT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 307
+        VERTGUIDE, 5
+        VERTGUIDE, 11
+        VERTGUIDE, 136
+        VERTGUIDE, 141
+        VERTGUIDE, 186
+        VERTGUIDE, 194
+        VERTGUIDE, 298
+        VERTGUIDE, 304
+        HORZGUIDE, 18
+        HORZGUIDE, 36
+        HORZGUIDE, 46
+        HORZGUIDE, 66
+    END
+
+    IDD_EXPORT_ALL_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_FILE_VIEWER, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 339
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+
+    IDD_OPT_MSGEXPORT2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 294
+        VERTGUIDE, 8
+        VERTGUIDE, 14
+        VERTGUIDE, 139
+        VERTGUIDE, 146
+        VERTGUIDE, 152
+        VERTGUIDE, 161
+        VERTGUIDE, 282
+        VERTGUIDE, 290
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_EXPORT_MESSAGE      ICON                    "export_m.ico"
+IDI_TICK                ICON                    "tick.ico"
+IDI_NOTICK              ICON                    "notick.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MSG_EXPORT MENU
+BEGIN
+    POPUP "UserList"
+    BEGIN
+        MENUITEM "User &details",               ID_USERLIST_USERDETAILS
+        MENUITEM "Export selected",             ID_EXPORTSELECTED
+        MENUITEM "Set to default filename",     ID_SET_TO_DEFAULT
+        MENUITEM SEPARATOR
+        MENUITEM "Auto filename",               IDC_AUTO_FILENAME
+        MENUITEM "Clear all",                   IDC_CLEAR_ALL
+    END
+END
+
+IDR_FV_EDIT MENU
+BEGIN
+    POPUP "1"
+    BEGIN
+        MENUITEM "Copy",                        ID_EDIT_COPY
+    END
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

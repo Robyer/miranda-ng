@@ -1,0 +1,41 @@
+﻿#muuid {28ff9b91-3e4d-4f1c-b47c-c641b037ff40}
+;============================================================
+;  File: Dbx_mmap_SA.dll
+;  Plugin: Miranda NG mmap secure database driver
+;  Version: 0.7.5.4
+;  Authors: Miranda-IM project, modification by FYR and chaos.persei, nullbie, Billy_Bons
+;============================================================
+[OK]
+OK
+[Cancel]
+Tühista
+[Remove]
+Eemalda
+[Yes]
+Jah
+[No]
+Ei
+[Do you want to import the settings now?]
+Kas Sa tahad praegu importida seadeid?
+[No to all]
+Ei kõigile
+[&Yes]
+&Jah
+[&No]
+&Ei
+[Cancel Import]
+Tühista import
+[&Delete]
+Kustuta
+[&Move/Rename]
+Teisalda/nimeta ümber
+[&Leave]
+Lahku
+[Unique ID:]
+Unikaalne ID:
+[Name]
+Nimi
+[Version]
+Versioon
+[Error]
+Viga

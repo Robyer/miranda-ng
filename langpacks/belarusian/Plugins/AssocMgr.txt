@@ -1,0 +1,78 @@
+﻿#muuid {52685cd7-0ec7-44c1-a1a6-381612418202}
+;============================================================
+;  File: AssocMgr.dll
+;  Plugin: File association manager
+;  Version: 0.1.1.0
+;  Authors: H. Herkenrath
+;============================================================
+[Handles file type associations and URLs like aim, ymsgr, xmpp, wpmsg, gg, tlen.]
+Супастаўленне пашырэнняў файлаў і спасылак з пратаколамі: AIM, Yahoo, Jabber, Gadu-Gadu, Tlen.
+;file \plugins\AssocMgr\res\resource.rc
+[Registered associations for Miranda NG:]
+Зарэгістраваныя супастаўленні для Miranda NG:
+[Miscellaneous]
+Іншае
+[&Start Miranda NG automatically when the computer starts (using current profile)]
+&Загружаць праграму пры запуску кампутара (выкарыстоўваючы гэты профіль)
+[Only associate with Miranda NG while it is &running]
+Супаставіць толькі падчас &працы праграмы
+;file \plugins\AssocMgr\src\assoclist.cpp
+[%hs files]
+%hs файлы
+[Type]
+Тып
+[Description]
+Апісанне
+[URLs on websites]
+Спасылкі і сайты
+[File types]
+Тыпы файлаў
+[File association error]
+Памылка асацыяцыі файлаў
+[There was an error writing to the registry to modify the file/url associations.\nReason: %s]
+Адбылася памылка запісу для мадыфікацыі асацыяцый файлаў/спасылак.\n\n Чыннік: %s
+[Unknown]
+Невядома
+[Autostart error]
+Памылка аўтазагрузкі
+[There was an error writing to the registry to modify the autostart list.\n\nReason: %s]
+Адбылася памылка запісу пры змяненні спісу аўтазапуску.\n\nЧыннік: %s
+[Services]
+Службы
+[Associations]
+Супастаўленні
+[Miranda NG database]
+База дадзеных Miranda NG
+;file \plugins\AssocMgr\src\dde.cpp
+[Miranda NG could not open file]
+Miranda NG не можа адкрыць файл
+[Miranda NG was not able to open "%S".\n\nThere is no registered handler for this file type.]
+Міранда NG не можа адкрыць "% S".\n\nНезарэгістраваны апрацоўшчык для дадзенага тыпу файлаў.
+[Miranda NG was not able to open "%S".\n\nThe file could not be processed.]
+Міранда NG не ў стане адкрыць "% S".\n\nФайл не можа быць апрацаваны.
+[Miranda NG could not open URL]
+Miranda NG не можа адкрыць спасылку
+[Miranda NG was not able to open "%S".\n\nThere is no registered handler for this URL type.]
+Міранда NG не ў стане адкрыць "% S".\n\nНяма зарэгістраванага апрацоўшчыка для гэтага тыпу URL.
+[Miranda NG was not able to open "%S".\n\nThe given URL is invalid and cannot be parsed.]
+Miranda NG не можа адчыніць "% S".\n\nДадзеная спасылка не можа быць прачытана і апрацавана.
+;file \plugins\AssocMgr\src\reg.cpp
+[Access failed:\n%.64hs(%.128s)\n%.250hs(%u)\n%.256hs (%u)]
+Доступ забаронены:\n%.64hs(%.128s)\n%.250hs(%u)\n%.256hs (%u)
+[Registry warning]
+Заўвага рэестра
+;file \plugins\AssocMgr\src\test.cpp
+[AIM Link Protocol]
+Спасылка AIM
+[ICQ Link Shortcut]
+Спасылка ICQ
+[&Add to contact list...]
+Дадаць кантакт у спіс
+[Yahoo Link Protocol]
+Спасылка Yahoo
+[MSN Link Protocol]
+Спасылка MSN
+[Gadu-Gadu Link Protocol]
+Спасылка Gadu-Gadu
+[Jabber Link Protocol]
+Спасылка Jabber

@@ -1,0 +1,361 @@
+﻿#muuid {59b0036e-5403-422e-883b-c9aaf425682b}
+;============================================================
+;  File: Variables.dll
+;  Plugin: Variables
+;  Version: 0.2.3.10
+;  Authors: P Boon
+;============================================================
+[Adds support for dynamic variables in strings for plugins.]
+Підтримка динамічних змінних для інших плагінів.
+[Parse options]
+Налаштування аналізу
+[Automatically strip "end of line" characters]
+Обрізати символ "кінець рядка"
+[Automatically strip white space]
+Автоматично обрізати пробіли
+[Automatically strip all non-parsing characters]
+Автоматично обрізати всі не аналізовані символи
+[Test area]
+Область тесту
+[Click on the help button to get more information]
+Натисніть на кнопку допомоги, щоб отримати більше інформації
+[Parse the following string at startup]
+Аналіз рядків при завантаженні
+[Auto parse]
+Автоаналіз
+[Parse]
+Аналіз
+[Please enter your input below]
+Введіть ваш рядок нижче
+[Don't set a contact]
+Не встановлювати контакт
+[Set to the following contact]
+Встановити контакту
+[The token %subject% is translated into a special contact, which depends on the situation in which the string is parsed. Use this dialog to simulate the contact to which %subject% translates. An example for using this token is: !cinfo(%subject%,display).]
+Маркер %subject% буде прийнятий як спеціальний контакт, який залежить від ситуації, як і де цей рядок використано. Використовуйте цей діалог, щоб симулювати контакт, який буде підставлятися в %subject%. Приклад використання цього маркера: !cinfo(%subject%,display).
+[Description]
+Опис
+[Setting]
+Параметр
+[The token %extratext% is translated into a string which depends on the situation in which the string is parsed. Use this dialog to simulate the string to which %extratext% translates.]
+Маркер %extratext% буде прийнятий як спеціальний рядок, який залежить від ситуації, як і де цей рядок використано. Використовуйте цей діалог, щоб симулювати рядок, який буде підставлятися в %extratext%
+[Close]
+Закрити
+[The Variables plugin translates various tokens into a certain value. An example is: I'm running Miranda %mirandaversion%. The substring %mirandaversion% will be translated into the correct version number. The following list shows all available tokens.]
+Служба змінних підставляє різним маркерам відповідні значення. Приклад: Я використовую Miranda NG версії %mirandaversion%. В маркер %mirandaversion% буде підставлений номер версії вашої Miranda NG. Наступний список показує всі доступні маркери.
+[Notes]
+Нотатки
+[Variables...]
+Змінні...
+[Token]
+Маркер
+[Tokens]
+Маркери
+[Input]
+Ввід
+[Cancel]
+Скасувати
+[Help]
+Довідка
+[Variables Help]
+Допомога по змінним
+[Open String Formatting Help]
+Допомога по формату рядків
+[Services]
+Служби
+[Variables]
+Змінні
+[Alias]
+Аліас
+[user defined]
+визначено користувачем
+[stores y as alias named x]
+зберігає Y як аліас X
+[Stopped]
+Зупинено
+[Paused]
+Пауза
+[External Applications]
+Зовнішні програми
+[retrieves song name of the song currently playing in Winamp]
+отримує назву пісні, що програється в Winamp
+[retrieves current Winamp state (Playing/Paused/Stopped)]
+отримує стан Winamp (грає/пауза/зупинено)
+[Internet Related]
+Інтернет
+[converts each non-html character into hex format]
+переводить кожен не-HTML символ в шістнадцятковий формат
+[converts each hex value into non-html character]
+переводить кожне шістнадцяткове значення в не-HTML символ
+[converts a 32-bit number to IPv4 dotted notation]
+переводить 32-бітне число у формат IPv4 (4 числа, розділені крапками)
+[converts a 32-bit number (in host byte order) to IPv4 dotted notation]
+переводить 32-бітне число (у порядку хоста) у формат IPv4 (4 числа, розділені крапками)
+[Logical Expressions]
+Логічні вирази
+[performs logical AND (x && y && ...)]
+логічне І (x && y && ...)
+[Boolean FALSE]
+логічне БРЕХНЯ
+[performs w, then shows z and performs y while x is TRUE]
+виконує W, потім показує Z і виконує Y, поки X = ПРАВДА
+[shows y if x is TRUE, otherwise it shows z]
+показує Y, якщо X = ПРАВДА, інакше показує Z
+[shows x if x is TRUE, otherwise it shows y (if(x,x,y))]
+показує X, якщо X = ПРАВДА, інакше показує Y (if(x,x,y))
+[the first argument parsed successfully]
+перший аргумент аналізований успішно
+[y if w = x, else z]
+Y, якщо W = X, інакше Z
+[y if w > x, else z]
+Y, якщо W > X, інакше Z
+[y if string length of w > x, else z]
+Y, якщо довжина рядка W > X, інакше Z
+[TRUE if x = y]
+ПРАВДА, якщо X = Y
+[TRUE if x > y]
+ПРАВДА, якщо X > Y
+[TRUE if x is longer than y]
+ПРАВДА, якщо X довше, ніж Y
+[performs logical NOT (!x)]
+виконує логічне НІ (!x)
+[performs logical OR (x || y || ...)]
+виконує логічне АБО (x || y || ...)
+[Boolean TRUE]
+логічне ПРАВДА
+[performs logical XOR (x ^ y)]
+виконує логічне виключне АБО - XOR (x ^ y)
+[Mathematical Functions]
+Математичні функції
+[x + y + ...]
+X + Y + ...
+[x divided by y]
+X, поділене на Y
+[converts decimal value x to hex value and padds to length y]
+переводить десяткове значення X в шістнадцяткове, використовуючи довжину Y
+[x modulo y (remainder of x divided by y)]
+модуль X від Y (залишок X, поділеного на Y)
+[x times y]
+X, помножене на Y
+[x times y divided by z]
+X, помножене на Y, поділене на Z
+[minimum value of (decimal) arguments]
+мінімальне значення (десяткових) аргументів
+[maximum value of (decimal) arguments]
+максимальне значення (десяткових) аргументів
+[pads decimal value x to length y with zeros]
+заповнює десяткове значення X по довжині Y нулями
+[random number]
+випадкове число
+[x - y - ...]
+X - Y - ...
+[Metacontacts]
+Метаконтакти
+[get parent metacontact of contact x]
+повертає батьківський метаконтакт субконтакта X
+[get default subcontact x]
+повертає субконтакт за замовчанням метаконтакту X
+[get the 'most online' subcontact x]
+повертає субконтакт "у мережі" метаконтакту X
+[Miranda Core Global]
+Змінні ядра Miranda
+[path to Miranda root folder]
+шлях до папки програми
+[path to current Miranda profile]
+шлях до папки поточного профілю
+[name of current Miranda profile (filename, without extension)]
+ім'я поточного профілю (тільки ім'я, без розширення)
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%]
+повертає рядок виду %miranda_profile%\\Profiles\\%miranda_profilename%
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%\\AvatarCache]
+повертає шлях %miranda_profile%\\Profiles\\%miranda_profilename%\\AvatarCache
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%\\Logs]
+повертає шлях %miranda_profile%\\Profiles\\%miranda_profilename%\\Logs
+[Miranda Core OS]
+Змінні оточення в Miranda
+[same as environment variable %APPDATA% for currently logged-on Windows user]
+те саме, що й змінна середовища %APPDATA% для поточного користувача системи
+[username for currently logged-on Windows user]
+ім'я поточного користувача системи
+["My Documents" folder for currently logged-on Windows user]
+папка "Мої документи" для поточного користувача системи
+["Desktop" folder for currently logged-on Windows user]
+папка "Робочий стіл" для поточного користувача системи
+[Miranda Related]
+Пов'язане з Miranda NG
+[translates status code x into a status description]
+переводить код статусу X в текстовий опис статусу
+[zth contact with property y described by x, example: (unregistered,nick) (z is optional)]
+контакт номер Z з властивістю Y, описаною в X, приклад: (unregistered,nick) (Z необов'язкове)
+[number of contacts with property y described by x, example: (unregistered,nick)]
+номер контакту з властивістю Y, описаною X, приклад: (unregistered,nick)
+[info property y of contact x]
+інформаційна властивість Y контакту X
+[database profile name]
+ім'я профілю бази
+[database profile path]
+шлях до профілю бази
+[database setting z of module y of contact x and return w if z doesn't exist (w is optional)]
+отримати налаштування Z плагіна Y контакту X або повернути W, якщо Z не існує (W необов'язкове)
+[get event for contact x (optional), according to y,z,w, see documentation]
+отримати подію для контакту X (необов'язково), відповідну Y,Z,W, див. документацію
+[get last seen time of contact x in format y (y is optional)]
+отримати час останньої появи контакту X у форматі Y (Y необов'язкове)
+[get last seen date of contact x in format y (y is optional)]
+отримати дату останньої появи контакту X у форматі Y (Y необов'язкове)
+[get last seen status of contact x]
+отримати останній статус контакту X
+[path to the Miranda NG executable]
+шлях до Miranda32(64).exe
+[current status description of protocol x (without x, the global status is retrieved)]
+поточне визначення статусу протоколу X (без X використовується глобальний статус)
+[info property y of protocol ID x]
+інформаційна властивість Y y ID протоколу X
+[retrieves the subject, depending on situation]
+отримати subject залежно від ситуації
+[translates x]
+переводить X
+[get the version of Miranda]
+отримати версію Miranda NG
+[get the contact display name]
+отримати видиме ім'я контакту
+[get the date and time (using Miranda format)]
+отримати дату і час (використовується формат Miranda NG)
+[TRUE if service function exists]
+ПРАВДА, якщо сервісна функція існує
+[Regular Expressions]
+Регулярні вирази
+[(ANSI input only) the number of substring matches found in y with pattern x]
+(тільки ввід ANSI) кількість підрядків, знайдених в Y за шаблоном X
+[(ANSI input only) substring match number z found in subject y with pattern x]
+(тільки ввід ANSI) підрядок номер Z, знайдений в subject Y за шаблоном X
+[String Functions]
+Рядкові функції
+[converts each first letter of a word to uppercase, all others to lowercase]
+переводить кожну першу букву слова у ВЕЛИКУ, всі інші - в малі
+[converts each first letter of a word to uppercase]
+переводить кожну першу букву слова у ВЕЛИКУ
+[inserts 'end of line' character]
+вставляє символ EOL
+[depends on calling plugin]
+залежить від плагіна, який викликає токен
+[replace all occurrences of \\n (Unix) by \\r\\n (Windows)]
+замінює всі \\n (Unix) на \\r\\n (Windows)
+[cuts x after the first line and appends y (y is optional)]
+обрізає X після першої лінії і додає Y (Y необов'язкове)
+[replaces all end of line characters by y (y is optional)]
+замінює всі символи EOL на Y (Y необов'язкове)
+[inserts string y at position z in string x]
+вставляє рядок Y в позицію Z у рядку X
+[trims x to length y, keeping first y characters]
+обрізає X по довжині Y, зберігаючи перші Y символів
+[length of x]
+довжина X
+[the number of lines in string x]
+кількість рядків у рядку X
+[the longest string of the arguments]
+найдовший рядок в аргументах
+[converts x to lowercase]
+переводить X в малі букви
+[no operation, x as given]
+немає операції, X задано
+[pads x to length y prepending character z (z is optional)]
+подовжує X до довжини Y, додаючи ліворуч символ Z (Z необов'язкове)
+[pads x to length y appending character z (z is optional)]
+подовжує X до довжини Y, додаючи праворуч символ Z (Z необов'язкове)
+[pads x to length y prepending character z, or cut if x is longer (z is optional)]
+подовжує X до довжини Y, додаючи ліворуч символ Z, або обрізає, якщо X довше (Z необов'язкове)
+[pads x to length y appending character z, or cut if x is longer (z is optional)]
+подовжує X до довжини Y, додаючи праворуч символ Z, або обрізає, якщо X довше (Z необов'язкове)
+[repeats x y times]
+повторює X Y разів
+[replace all occurrences of y in x with z, multiple y and z arguments allowed]
+замінює всі входження Y в X на Z, допустимі численні аргументи Y і Z
+[trims x to length y, keeping last y characters]
+обрізає X по довжині Y, зберігаючи останні Y символів
+[moves string x, z characters to the left and trims it to y characters]
+зсув рядка X на Z символів ліворуч і обрізання до Y символів
+[TRUE if x equals y]
+ПРАВДА, якщо X = Y
+[TRUE if x equals any of the following arguments]
+ПРАВДА, якщо X дорівнює будь-якому аргументів
+[TRUE if the first z characters of x equal y]
+ПРАВДА, якщо перші Z символів X дорівнюють Y
+[TRUE if x equals y, ignoring case]
+ПРАВДА, якщо X = Y, без урахування регістру
+[TRUE if the first z characters of x equal y, ignoring case]
+ПРАВДА, якщо перші Z символів X дорівнюють Y, без урахування регістру
+[the shortest string of the arguments]
+найкоротший рядок в аргументах
+[location of first occurrence of character y in string x]
+місце першого входження символу Y в рядку X
+[location of last occurrence of character y in string x]
+місце останнього входження символу Y в рядку X
+[location of first occurrence of string y in x]
+місце першого входження рядка Y в X
+[substring of x starting from position y to z]
+підрядок X, що починається з позиції Y в Z
+[the xth string of the arguments]
+рядок номер X в аргументах
+[z if y equals x, multiple y and z arguments allowed]
+Z, якщо Y = X, допустимі численні аргументи Y і Z
+[removes white spaces in before and after x]
+видаляє пробіли перед і після X
+[inserts x tab characters (x is optional)]
+вставляє X символів табуляції (X необов'язкове)
+[converts x to upper case]
+переводить X у ВЕЛИКІ букви
+[words (separated by white spaces) number y to z from string x (z is optional)]
+слова (розділені пробілом) кількістю від Y до Z з рядка X (Z необов'язкове)
+[System Functions]
+Системні функції
+[computer name]
+ім'я комп'ютера
+[CPU load of process x (without extension) (x is optional)]
+навантаження процесу X (без розширення) на ЦП (X необов'язкове)
+[current date in format y (y is optional)]
+поточна дата у форматі Y (Y необов'язкове)
+[current time in format y (y is optional)]
+поточний час у форматі Y (Y необов'язкове)
+[the directory y directories above x]
+шлях до папки на Y папок вище X
+[strips y directories from x]
+вирізає Y папок зі шляху X
+[number of seconds between date x and y (x and y in format: M/d/yy H:m:s)]
+кількість секунд між датами X і Y (X і Y у форматі: М/д/рр Г:м:с)
+[TRUE if directory x exists]
+ПРАВДА, якщо папка X існує
+[TRUE if file x exists]
+ПРАВДА, якщо файл X існує
+[window title of first window of class x]
+заголовок першого вікна класу X
+[shows files and directories of directory x, with filter y, separated by z (y and z optional)]
+показує файли і папки шляху X з фільтром Y, розділеним Z (Y і Z необов'язкові)
+[TRUE if process x is running]
+ПРАВДА, якщо процес X запущений
+[value y from registry key x (REG_SZ (string) values only)]
+значення Y з ключа X реєстру Windows (тільки значення REG_SZ (string))
+[formats timestamp x (seconds since 1/1/1970) in date format y]
+виводить час X (в секундах з 1/1/1970) у форматі дати Y
+[formats timestamp x (seconds since 1/1/1970) in time format y]
+виводить час X (в секундах з 1/1/1970) у форматі часу Y
+[y > 0: line number y from file x, y = 0: the whole file, y < 0: line y counted from the end, y = r: random line]
+Y > 0: рядок номер Y з файлу X, Y = 0: увесь файл, Y < 0: рядок y від кінця файлу, Y = r: випадковий рядок
+[uptime in seconds]
+час роботи системи в секундах
+[any environment variable defined in current Windows session (like %systemroot%, %allusersprofile%, etc.)]
+будь-яка змінна оточення, визначена у поточній сесії Windows (наприклад, %systemroot%, %allusersprofile% тощо)
+[expand environment variable x]
+розширює змінну оточення X
+[user name]
+ім'я користувача
+[text from clipboard]
+текст з буфера обміну
+[variable set by put(s) with name x]
+змінна, задана put з ім'ям X
+[x, and stores y as variable named x]
+X, і зберігає Y як змінну з ім'ям X
+[only stores y as variables x]
+тільки зберігає Y як змінну X
+[--- Special characters ---\r\n\r\nThe following characters have a special meaning in a formatting string:\r\n\r\n?<function>(<arguments>)\r\nThis will parse the function given the arguments, the result will be parsed again. Example: Today is ?cdate(yyyy/MM/dd).\r\n\r\n!<function>(<arguments>)\r\nThis will parse the function given the arguments, the result will not be parsed again. Example: Message waiting: !message(,first,rcvd,unread).\r\n\r\n%<field>%\r\nThis will parse the given field. Example: I installed Miranda at: %mirandapath%.\r\n\r\n`<string>`\r\nThis will not parse the given string, any function, field or special character in the string will shown in the result without being translated. Example: Use `%mirandapath%` to show the installation path.\r\n\r\n#<comment>\r\nThis will add a comment in the formatting string. Everything from the # character to the end of the line will be removed. Example: %dbprofile% #this is a useless comment.\r\n\r\n\r\n--- Contacts ---\r\n\r\nWhenever a functions requires a contact as an argument, you can specify it in two ways:\r\n\r\n(1) Using a unique ID (UIN for ICQ, email for MSN) or, a protocol ID followed by a unique ID in the form <PROTOID:UNIQUEID>, for example <MSN:miranda@hotmail.com> or <ICQ:123456789>.\r\n\r\n(2) Using the contact function:\r\n?contact(x,y)\r\nA contact will be searched which will have value x for its property y, y can be one of the following:\r\nfirst, last, nick, email, ID or display\r\n\r\nFor example: ?contact(miranda@hotmail.com,email) or ?contact(Miranda,nick). The contact function will return either a unique contact according to the arguments or nothing if none or multiple contacts exists with the given property.]
+--- Спеціальні символи ---\r\n\r\nНаступні символи мають спеціальне значення в рядку форматування:\r\n\r\n?<функція>(<аргументи>)\r\nОбробка функції з заданими аргументами, результат обробляється знову. Приклад: Сьогодні ?cdate(yyyy/MM/dd).\r\n\r\n!<функція>(<аргументи>)\r\nОбробка функції з заданими аргументами, результат НЕ обробляється знову. Приклад: Вхідне повідомлення: !message(first,rcvd,unread).\r\n\r\n%<поле>%\r\nОбробляє це поле. Приклад: Я встановив Miranda NG в: %mirandapath%.\r\n\r\n`<рядок>`\r\nНе обробить цей рядок, функцію, поле чи спеціальний символ у рядку. Приклад: Використовуйте `%mirandapath%` для показу шляху встановлення.\r\n\r\n#<коментар>\r\nДодає коментар. Усе за символом # до кінця рядка буде видалено. Приклад: %dbprofile% #це непотрібний коментар.\r\n\r\r\n\r\n--- Контакти ---\r\n\r\nЯкщо функції необхідний контакт як аргумент, його можна отримати двома способами:\r\n\r\n1) використовуючи унікальний ID (UIN для ICQ, E-mail для MSN) або ID контакту, вказаним за ID протоколу у форматі <PROTOID:UNIQUEID>, наприклад <MSN:miranda@hotmail.com> або <ICQ:123456789>.\r\n\r\n2) використовуючи функцію contact:\n?contact(x,y)\r\nПоверне контакт зі значенням X властивості Y, Y може бути одним з:\r\nfirst, last, nick, email, ID або display\r\n\r\nПриклад: ?contact(miranda@hotmail.com,email) або ?contact(Miranda,nick). Функція contact повертає унікальний контакт, знайдений за заданими аргументами, або не повертає нічого, якщо не знайдено жодного або знайдено декілька контактів.

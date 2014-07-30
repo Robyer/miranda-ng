@@ -1,0 +1,156 @@
+﻿#muuid {DA0B09F5-9C66-488C-AE37-8A5F191C9079}
+;============================================================
+;  File: LinkList.dll
+;  Plugin: History linklist plus
+;  Version: 0.0.0.2
+;  Authors: Thomas Wendel, gureedo
+;============================================================
+[Generates a list of extracted URIs from the history.]
+Erstellt eine Liste aller URIs aus dem Verlauf.
+;file \plugins\HistoryLinkListPlus\res\linklist.rc
+[Search]
+Suchen
+[Close]
+Schließen
+[Search for:]
+Suchen nach:
+[Message direction]
+Nachrichtenrichtung
+[Message types]
+Nachrichtenarten
+[All directions]
+alle Richtungen
+[Incoming only]
+nur eingehende
+[Outgoing only]
+nur ausgehende
+[All types]
+alle Arten
+[Mail addresses only]
+nur Mailadressen
+[Web addresses only]
+nur Internetadressen
+[Deep search]
+Genaue Suche
+[Static]
+Statisch
+[Color select]
+Farbauswahl
+[Incoming messages]
+Eingehende Nachrichten
+[Plugin default]
+Standard
+[Preview]
+Vorschau
+[Outgoing messages]
+Ausgehende Nachrichten
+[Background color]
+Hintergrundfarbe
+[Use Miranda settings]
+Miranda-Einstellungen verwenden
+[Text color]
+Textfarbe
+[General settings]
+Allgemeine Einstellungen
+[Open links always in a new window]
+Links immer in neuem Fenster öffnen
+[Update list on new events]
+Liste automatisch aktualisieren
+[Show whole message on 'mouse over' event]
+Ganze Nachricht bei Mauskontakt anzeigen
+[Save window position individually for each contact]
+Fensterposition individuell für jeden Kontakt speichern
+[Show...]
+Zeige...
+[Date]
+Datum
+[Parting line]
+Trennlinie
+[Timestamp]
+Zeitanzeige
+[Direction]
+Richtung
+[Type]
+Typ
+[&File]
+Datei
+[&Save]
+&Speichern
+[&Close]
+S&chließen
+[&Options]
+Einstellungen
+[Message &direction]
+Nachrichtenrichtung
+[&Outgoing messages only]
+Nur ausgehende Nachrichten
+[&Incoming messages only]
+Nur e&ingehende Nachrichten
+[Message &type]
+Nachrich&tenart
+[&Web addresses only]
+Nur Internetadressen
+[&Mail addresses only]
+Nur E-&Mail-Adressen
+[&Clear search results]
+Su&chergebnisse löschen
+[&Search]
+&Suchen
+[link]
+Link
+[Open]
+Öffnen
+[Open in new window]
+In neuem Fenster öffnen
+[Copy to clipboard]
+In Zwischenablage kopieren
+[Show message]
+Zeige Nachricht
+;file \plugins\HistoryLinkListPlus\src\language.h
+[History Linklist]
+Verlaufslinkliste
+[History is empty!]
+Keine Nachrichten im Verlauf!
+[There are no links in history!]
+Der Verlauf enthält keine Links!
+[Error]
+Fehler
+[incoming]
+eingehende
+[outgoing]
+ausgehende
+[Filter]
+Filter
+[no filter]
+kein Filter
+[Search filter]
+Suchfilter
+[no settings]
+keine Einstellungen
+;file \plugins\HistoryLinkListPlus\src\linklist.cpp
+[&Create Linklist]
+Linkliste erstellen
+[History]
+Verlauf
+[Processing history...]
+Verlauf wird verarbeitet...
+[Could not create window!]
+Fenster konnte nicht erzeugt werden!
+[Could not allocate memory!]
+Speicher konnte nicht belegt werden!
+;file \plugins\HistoryLinkListPlus\src\linklist_dlg.cpp
+[Linklist plugin]
+Linklisten-Plugin
+;file \plugins\HistoryLinkListPlus\src\linklist_fct.cpp
+[Matches for searchtext]
+Treffer fur Suchtext
+[Processing list...]
+Liste wird verarbeitet...
+[No messages found!\nPlease change current filter options.]
+Keine Nachrichten gefunden!\nBitte Filterregeln ändern.
+[RTF file]
+RTF-Datei
+[All files]
+Alle Dateien
+[Save RTF File]
+RTF-Datei speichern

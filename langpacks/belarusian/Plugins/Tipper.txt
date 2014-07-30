@@ -1,0 +1,708 @@
+﻿#muuid {8392df1d-9090-4f8e-9df6-2fe058edd800}
+;============================================================
+;  File: Tipper.dll
+;  Plugin: Tipper
+;  Version: 2.1.0.5
+;  Authors: Scott Ellis, yaho
+;============================================================
+[Tool Tip notification windows.]
+Усплывальныя падказкi для іншых плагiнаў.
+;file \plugins\TipperYM\res\resource.rc
+[Layout]
+Размяшчэнне
+[Text indent:]
+Водступ тэксту:
+[Title indent:]
+Водступ загалоўка:
+[Value indent:]
+Водступ значэння:
+[General padding:]
+Асноўны водступ:
+[Text padding:]
+Міжрадковы водступ:
+[Outer avatar padding:]
+Зн. водступ аватара:
+[Inner avatar padding:]
+Унут. водступ аватара:
+[Alignment]
+Выраўноўванне
+[Labels:]
+Назвы:
+[Values:]
+Значэнні:
+[Window]
+Акно
+[Max width:]
+Макс. шырыня:
+[Min width:]
+Мін. шырыня:
+[Max height:]
+Макс. вышыня:
+[Min height:]
+Мін. вышыня:
+[Avatar size:]
+Аватар:
+[Sidebar width:]
+Шырыня ўрэзкі:
+[Hover time:]
+Затрымка:
+[Show if list not focused]
+Спіс не ў фокусе
+[Options]
+Налады
+[Show title]
+Загаловак
+[Status bar tips]
+Падказкі ў панэлі статусу
+[Avatar border]
+Рамка аватара
+[Round corners (avatar)]
+Акругляць куты аватара
+[Keep original avatar size]
+Захоўваць памер аватара
+[Substitution]
+Падстанова
+[Label:]
+Пазнака:
+[Module:]
+Плагін:
+[Contact protocol module]
+Плагін пратаколу кантакту
+[Setting or prefix:]
+Параметр, прэфікс:
+[Translation:]
+Пераўтварэнне:
+[Cancel]
+Скасаваць
+[Item]
+Элемент
+[Value:]
+Значэнне:
+[Variables]
+Зменныя
+[Draw a line above]
+Маляваць лінію зверху
+[Value on a new line]
+Значэнне з новага радка
+[Parse Tipper variables first]
+Апрацоўваць зменныя падказак першымі
+[Preset items:]
+Зададзеныя элементы:
+[Items]
+Элементы
+[Substitutions]
+Падстановы
+[Add]
+Дадаць
+[Remove]
+Выдаліць
+[Up]
+Угару
+[Down]
+Уніз
+[Edit]
+Змяніць
+[Separator]
+Падзельнік
+[Extra icons]
+Экстра абразкі
+[Smileys support]
+Смайлікі
+[Enable SmileyAdd support]
+Падтрымка смайлікаў
+[Use protocol smileys]
+Смайлікі пратаколу
+[Resize smileys]
+Маштабаваць смайлы
+[Replace only isolated smileys]
+Толькі смайлы праз прабел
+[Advanced options]
+Дадаткова
+[Show tooltip after all content is ready (avatar && status message)]
+Паказаць падказку толькі пасля загрузкі ўсяго змесціва
+[Retrieve new status message]
+Запытваць паведамленне статусу
+[Disable in invisible status]
+Адключыць запыт, калі нябачны
+[Retrieve XStatus details if auto-retrieve is disabled]
+Запытваць падрабязны xСтатус, калі аўтазапыт выключаны
+[Status bar and tray tooltip]
+Панэль статусу і падказка ў трэі
+[Limit status messages in status bar and tray tooltips to:]
+Абмежаваць паведамленне ў панэлі статусу і ў падказцы трэя да:
+[characters]
+знакаў
+[Skins]
+Скіны
+[Reload skin list]
+Абнавіць спіс скінаў
+[Apply skin]
+Ужыць скін
+[Get more skins]
+Запампаваць скіны
+[Preview]
+Прагляд
+[No preview]
+Няма прэв'ю
+[Effects]
+Эфекты
+[Animation speed:]
+Хуткасць анімацыі:
+[Shadow]
+Цень
+[Border]
+Рамка
+[Round corners (window)]
+Акругляць куты вакна
+[Skin option]
+Налада скіна
+[Enable skin coloring]
+Размалёўка скінаў
+[Load tooltip proportions]
+Загружаць прапорцыі падказкі
+[Load fonts and colors]
+Загружаць шрыфты і колеры
+[Transparency]
+Празрыстасць
+[Opacity (%):]
+Непразрыстасць (%):
+[Aero Glass (Vista+)]
+Эфект Aero Glass (Vista+)
+[Enable tray tooltips]
+Падказкі ў трэі
+[Handle tray tooltips by Tipper]
+Перахапляць падказкі ў трэі
+[Hide offline protocols]
+Хаваць адключаныя пратаколы
+[Expand to second level after:]
+Другі ўзровень падказкі праз:
+[ms]
+мс
+[First level tooltip]
+Падказка першага ўзроўня
+[Second level tooltip]
+Падказка другога ўзроўня
+[Favorite contacts]
+Абраныя кантакты
+[Hide offline]
+Схаваць адключаных
+[Append protocol name]
+Дадаць імя пратаколу
+;file \plugins\TipperYM\src\mir_smileys.cpp
+[Tipper smileys]
+Смайлы падказак
+;file \plugins\TipperYM\src\options.cpp
+[You must enter a label]
+Вы павінны ўвесці пазнаку
+[Invalid Substitution]
+Хібная замена
+[<No Label>]
+<Без пазнакі>
+[Add item]
+Дадаць
+[Add separator]
+Дадаць падзельнік
+[Move up]
+Вышэй
+[Move down]
+Ніжэй
+[No icon]
+Без значка
+[Icon on left]
+Абразок злева
+[Icon on right]
+Абразок справа
+[Bottom right]
+Унізе справа
+[Bottom left]
+Унізе злева
+[Top right]
+Наверсе справа
+[Top left]
+Наверсе злева
+[Top]
+Угару
+[Center]
+Цэнтр
+[Bottom]
+Ніз
+[Left]
+Злева
+[Right]
+Справа
+[No avatar]
+Без аватара
+[Left avatar]
+Аватар злева
+[Right avatar]
+Аватар справа
+[Max avatar size:]
+Памер (макс.):
+[None]
+Няма
+[Animation]
+Анімацыя
+[Fade]
+Згасанне
+[Appearance]
+Знешні выгляд
+[Tooltips]
+Падказкі
+[Customize]
+Тонкая налада
+[Content]
+Змесціва
+[Tray tooltip]
+Падказкі ў трэі
+[Extra]
+Іншае
+;file \plugins\TipperYM\src\options.h
+[Show for all contact types]
+Паказваць для ўсіх тыпаў кантактаў
+[Show only for contacts]
+Паказваць толькі для кантактаў
+[Show only for chatrooms]
+Паказваць толькі для чат-пакаояў
+[Number of contacts]
+Кол-у кантактаў
+[Protocol lock status]
+Заблакаваны статус
+[Logon time]
+Час уваходу
+[Unread emails]
+Непрачытаныя лісты
+[Status]
+Статус
+[Status message]
+Паведамленне статусу
+[Extra status]
+Дад. статус
+[Listening to]
+Слухаю
+[Miranda uptime]
+Час працы Miranda
+[Contact list event]
+Падзея спісу
+[Jabber activity]
+Занятак Jabber
+[Gender]
+Род
+[Country flag]
+Сцяг краіны
+[Client]
+Кліент
+;file \plugins\TipperYM\src\popwin.cpp
+[%s (locked)]
+%s (заблакаваны)
+[%s ago]
+%s назад
+[Log on:]
+Далучаны:
+[Unread emails:]
+Непрачытаных лістоў:
+[Status:]
+Статус:
+[Status message:]
+Статуснае паведамленне:
+[Mood:]
+Настрой:
+[XStatus:]
+хстатус:
+[Activity:]
+Занятак:
+[Listening to:]
+Слухаю:
+[Copy all items with labels]
+Капіяваць усё з пазнакамі
+[Copy all items]
+Капіяваць усё
+[Copy avatar]
+Капіяваць аватар
+[<No Label>: ]
+<Без меткі>:\s
+[<No Value>]
+<Без значэння>
+[Fav. contacts]
+Абраныя
+[Other]
+Іншае
+[Miranda uptime:]
+Час працы Miranda:
+;file \plugins\TipperYM\src\preset_items.cpp
+[Account]
+Конт
+[Account:]
+Конт:
+[Birthday]
+Дзень нараджэння
+[Birthday:]
+Дзень нараджэння:
+[Client:]
+Кліент:
+[Email]
+Email
+[Email:]
+Пошта:
+[Gender:]
+Род:
+[Homepage]
+Сайт
+[Homepage:]
+Сайт:
+[Identifier]
+Ідэнтыфікатар
+[Idle]
+Чаканне
+[Idle:]
+У чаканні:
+[IP internal]
+Унутраны IP
+[IP internal:]
+Унутраны IP:
+[Last message]
+Апош. паведамл.
+[Last message: (%sys:last_msg_reltime% ago)]
+Апошнія паведамленне: (%sys:last_msg_reltime% назад)
+[Name]
+Імя
+[Name:]
+Імя:
+[Number of received messages]
+Колькасць атрыманых паведамленняў
+[Number of msg [IN]:]
+Колькасць атрыманых паведамленняў:
+[Number of sent messages]
+Колькасць адпраўленых паведамленняў
+[Number of msg [OUT]:]
+Колькасць адпраўленых паведамленняў:
+[Contact time]
+Час кантакту
+[Time:]
+Час:
+[XStatus title]
+Загаловак хстатуса
+[XStatus title:]
+Загаловак хстатуса:
+[XStatus text]
+Тэкст хстатуса
+[XStatus text:]
+Тэкст хстатуса:
+[[jabber.dll] Activity title]
+(jabber.dll) Загаловак занятку
+[Activity title:]
+Загаловак занятку:
+[[jabber.dll] Activity text]
+(jabber.dll) Тэкст занятку
+[Activity text:]
+Тэкст занятку:
+[[seenplugin.dll] Last seen time]
+(seenplugin.dll) Апошняе з'яўленне
+[Last seen time:]
+Апошняе з'яўленне:
+[[seenplugin.dll] Last seen status]
+(seenplugin.dll) Апошні статус
+[Last seen status:]
+Апошні статус:
+[[weather.dll] Condition]
+(weather.dll) Стан
+[Condition:]
+Стан:
+[[weather.dll] Humidity]
+(weather.dll) Вільготнасць
+[Humidity:]
+Вільготнасць:
+[[weather.dll] Max/Min temperature]
+(weather.dll) Макс/мін тэмпература
+[Max/Min:]
+Макс./мін. тэмпература:
+[[weather.dll] Moon]
+(weather.dll) Месяц
+[Moon:]
+Месяц:
+[[weather.dll] Pressure]
+(weather.dll) Ціск
+[Pressure:]
+Ціск:
+[[weather.dll] Sunrise]
+(weather.dll) Узыход
+[Sunrise:]
+Узыход:
+[[weather.dll] Sunset]
+(weather.dll) Заход
+[Sunset:]
+Заход:
+[[weather.dll] Temperature]
+(weather.dll) Тэмпература
+[Temperature:]
+Тэмпература:
+[[weather.dll] Update time]
+(weather.dll) Час абнаўлення
+[Update time:]
+Час абнаўлення:
+[[weather.dll] UV Index]
+(weather.dll) Індэкс УХ
+[UV Index:]
+Індэкс УХ:
+[[weather.dll] Visibility]
+(weather.dll) Бачнасць
+[Visibility:]
+Бачнасць:
+[[weather.dll] Wind]
+(weather.dll) Вецер
+[Wind:]
+Вецер:
+;file \plugins\TipperYM\src\skin_parser.cpp
+[# Solid color fill]
+\# заліванне колерам
+;file \plugins\TipperYM\src\subst.cpp
+;file \plugins\TipperYM\src\tipper.cpp
+[Background]
+Фон
+[Dividers]
+Падзельнікі
+[Sidebar]
+Урэзка
+[Title]
+Загаловак
+[Labels]
+Пазнакі
+[Values]
+Значэнні
+[Tray title]
+Загаловак у трэі
+[Tipper]
+Падказкі
+;file \plugins\TipperYM\src\translations.cpp
+[Female]
+Жаночы
+[Male]
+Мужчынскі
+[[No translation]]
+(без пераўтварэння)
+[WORD to status description]
+Слова - у апісанне статусу
+[DWORD timestamp to time]
+Дв. слова - падчас
+[DWORD timestamp to time difference]
+Дв. слова - у розніцу часу
+[BYTE to Yes/No]
+Байт - у значэнне Ды/Не
+[BYTE to Male/Female (ICQ)]
+Байт - у падлогу (М/Ж) (ICQ)
+[WORD to country name]
+Слова - у назву краіны
+[DWORD to IP address]
+Дв. слова - у IP-адрас
+[<prefix>Day|Month|Year to date]
+<прэфікс>дзень|месяц|год - у дату
+[<prefix>Day|Month|Year to age]
+<прэфікс>дзень|месяц|год - ва ўзрост
+[<prefix>Hours|Minutes|Seconds to time]
+<прэфікс>гадзіны|хвіліны|секунды - падчас
+[<prefix>Day|Month|Year|Hours|Minutes|Seconds to time difference]
+<прэфікс>дзень|месяц|год|гадзіны|хв|сек - у розніцу часу
+[<prefix>Day|Month to days to next birthday]
+<прэфікс>дзень|месяц - у днях да наступнага дня нараджэння
+[DWORD timestamp to time (no seconds)]
+Дв. слова - у дату (без секунд)
+[<prefix>Hours|Minutes to time]
+<прэфікс>гадзіны|хвіліны - падчас
+[DWORD timestamp to date (short)]
+Дв. слова - у дату (кароткую)
+[DWORD timestamp to date (long)]
+Дв. слова - у дату (доўгую)
+[xStatus: empty xStatus name to default name]
+хстатус: пустое імя ў імя па змаўчанні
+[DWORD seconds to time difference]
+Дв. слова секунд у часавую розніцу
+[BYTE timezone to time]
+Байт зона часу падчас
+[WORD to name of a day (0..6, 0 is Sunday)]
+Слова - у назву дня тыдня (0..6, 0 - нядзеля)
+[WORD to name of a month (1..12, 1 is January)]
+Слова - у назву месяца (1..12, 1 - студзень)
+[BYTE to language (ICQ)]
+Байт - у мову (ICQ)
+;file \plugins\TipperYM\src\translations.h
+[Afrikaans]
+Афрыкаанс
+[Albanian]
+Албанскі
+[Arabic]
+Арабскі
+[Armenian]
+Армянскі
+[Azerbaijani]
+Азербайджанскі
+[Belorussian]
+Беларускі
+[Bhojpuri]
+Хайпурыйскі
+[Bosnian]
+Баснійскі
+[Bulgarian]
+Балгарскі
+[Burmese]
+Бурмескі
+[Cantonese]
+Катанезійскі
+[Catalan]
+Каталанскі
+[Chamorro]
+Чаморскій
+[Chinese]
+Кітайскі
+[Croatian]
+Харвацкі
+[Czech]
+Чэшскі
+[Danish]
+Дацкі
+[Dutch]
+Галандскі
+[English]
+Ангельскі
+[Esperanto]
+Эсперанта
+[Estonian]
+Эстонскі
+[Farsi]
+Фарсі
+[Finnish]
+Фінскі
+[French]
+Французскі
+[Gaelic]
+Гайскі
+[German]
+Нямецкі
+[Greek]
+Грэцкі
+[Gujarati]
+Гуджарацкі
+[Hebrew]
+Іўрыт
+[Hindi]
+Хінді
+[Hungarian]
+Вугорскі
+[Icelandic]
+Ісландскі
+[Indonesian]
+Інданэзійскі
+[Italian]
+Італьянскі
+[Japanese]
+Японскі
+[Khmer]
+Кхмерскі
+[Korean]
+Карэйскі
+[Kurdish]
+Курдскі
+[Lao]
+Лаоскі
+[Latvian]
+Латышскі
+[Lithuanian]
+Літоўскі
+[Macedonian]
+Македонскі
+[Malay]
+Малайскі
+[Mandarin]
+Мандарын
+[Mongolian]
+Мангольскі
+[Norwegian]
+Нарвежскі
+[Persian]
+Персідскі
+[Polish]
+Польскі
+[Portuguese]
+Партугальскі
+[Punjabi]
+Панджабскі
+[Romanian]
+Румынскі
+[Russian]
+Рускі
+[Serbo-Croatian]
+Сербахарвацкі
+[Sindhi]
+Сіндзі
+[Slovak]
+Славацкі
+[Slovenian]
+Славенскі
+[Somali]
+Самалійскі
+[Spanish]
+Гішпанскі
+[Swahili]
+Суахілі
+[Swedish]
+Швецкі
+[Tagalog]
+Тагалог
+[Taiwanese]
+Тайваньскі
+[Tamil]
+Тамільскі
+[Tatar]
+Татарскі
+[Thai]
+Тайскі
+[Turkish]
+Турэцкі
+[Ukrainian]
+Украінскі
+[Urdu]
+Урду
+[Vietnamese]
+В'етнамскі
+[Welsh]
+Валійскі
+[Yiddish]
+Ідыш
+[Yoruba]
+Ерубскі
+[Sunday]
+Нядзеля
+[Monday]
+Панядзелак
+[Tuesday]
+Аўторак
+[Wednesday]
+Серада
+[Thursday]
+Чацвер
+[Friday]
+Пятніца
+[Saturday]
+Субота
+[January]
+Студзень
+[February]
+Люты
+[March]
+Сакавік
+[April]
+Красавік
+[May]
+Травень
+[June]
+Чэрвень
+[July]
+Ліпень
+[August]
+Жнівень
+[September]
+Верасень
+[October]
+Кастрычнік
+[November]
+Лістапад
+[December]
+Снежань

@@ -1,0 +1,102 @@
+﻿;============================================================
+;  File: yweather.ini
+;  Module: weather
+;============================================================
+[Feel]
+Odczuwalna
+[Forecast Day 1]
+Prognoza na 1 dzień
+[Forecast Day 1 Condition]
+Prognoza dzień 1 - Warunki
+[Forecast Day 1 Date]
+Prognoza dzień 1 - Data
+[Forecast Day 1 Day]
+Prognoza dzień 1 - Dzień tyg.
+[Forecast Day 1 High]
+Prognoza dzień 1 - Temperatura maksymalna
+[Forecast Day 1 Low]
+Prognoza dzień 1 - Temperatura minimalna
+[Heat Index]
+Wskaźnik upałów
+[Wind Direction]
+Kierunek wiatru
+[Wind Speed]
+Prędkość wiatru
+[Wind Direction Degrees]
+Kierunek wiatru w stopniach
+[Mon]
+pon.
+[Tue]
+wt.
+[Wed]
+śr.
+[Thu]
+czw.
+[Fri]
+piąt.
+[Sat]
+sob.
+[Sun]
+niedz.
+[Sunny]
+Słonecznie
+[Partly Sunny]
+Małe zachmurzenie
+[Mostly Sunny]
+W większości słonecznie
+[Partly Cloudy]
+Częściowe zachmurzenie
+[Mostly Cloudy]
+W większości pochmurnie
+[Mostly Clear]
+W większości przejrzyście
+[N]
+północ
+[W]
+zachód
+[S]
+południe
+[E]
+wschód
+[NW]
+północny zachód
+[NE]
+północny wschód
+[SW]
+południowy zachód
+[SE]
+południowy wschód
+[NNW]
+północno-północny zachód
+[NNE]
+północno-północny wschód
+[SSW]
+południowo-południowy zachód
+[SSE]
+południowo-południowy wschód
+[ENE]
+wschodnio-północny wschód
+[WSW]
+zachodnio-południowy zachód
+[WNW]
+zachodnio-północny zachód
+[ESE]
+wschodnio-południowy wschód
+[Scattered Clouds]
+Mało chmur
+[North]
+Północ
+[East]
+Wschód
+[South]
+Południe
+[West]
+Zachód
+[Northwest]
+Północny zachód
+[Northeast]
+Północny wschód
+[Southwest]
+Południowy zachód
+[Southeast]
+Południowy wschód

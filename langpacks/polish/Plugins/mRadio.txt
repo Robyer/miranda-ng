@@ -1,0 +1,199 @@
+﻿#muuid {eebc474c-b0ad-470f-99a8-9dd9210ce233}
+;============================================================
+;  File: mRadio.dll
+;  Plugin: mRadio Mod
+;  Version: 0.0.2.4
+;  Authors: Awkward
+;============================================================
+[This plugin plays and records Internet radio streams. Also local media files can be played.]
+Odtwarza i nagrywa strumienie audycji radiowych z internetu. Potrafi także odtwarzać pliki lokalne.
+[mRadio Mod]
+Protokół mRadio
+[REC]
+REC
+[Cave]
+Jaskinia
+[Arena]
+Arena
+[Genre]
+Gatunek
+[Plain]
+Równina
+[Alley]
+Alejka
+[Dizzy]
+Przestrzenny
+[Generic]
+Ogólny
+[Bathroom]
+Łazienka
+[Parking Lot]
+Parking
+[Stone Corridor]
+Korytarz z kamienia
+[Sewer Pipe]
+Kanalizacja ściekowa
+[Auditorium]
+Audytorium
+[Carpeted Hallway]
+Hol wyłożony wykładziną
+[Play from first]
+Graj jako pierwszy
+[Shuffle playlist]
+Tasuj playlistę
+[Loop single media]
+Pętla jednego utworu
+[Station Name]
+Nazwa stacji
+[Timeout, ms (5000)]
+Czas oczekiwania, ms (5000)
+[PreBuf, % (75%)]
+Bufor wstępny, % (75%)
+[Hallway]
+Hangar
+[Mountains]
+Góry
+[Use EAX]
+Włącz EAX
+[Under Water]
+Pod wodą
+[Station URL (required)]
+Link do stacji (wymagany)
+[To INI]
+Do pliku
+[Buffer, ms (5000)]
+Bufor, ms (5000)
+[Add station]
+Dodaj stacje
+[Add Station]
+Dodawanie stacji
+[Bitrate]
+Szybkość
+[Stone Room]
+Pomieszczenie z kamienia
+[Living Room]
+Duży pokój
+[Drugged]
+Przygłuszony
+[Record path]
+Zapisz do:
+[Padded Cell]
+Wyściełana cela
+[Autoconnect last station]
+Włącz ostatnio graną stacje
+[Concert Hall]
+Sala koncertowa
+[Psychotic]
+Psychotyczny
+[Forrest]
+Las
+[To list]
+Do listy
+[Hangar]
+Hangar
+[Offline station as Offline]
+Niedostępna stacja jako Offline
+[Protocol depending status]
+Status zależny od protokołu
+[Continuous record]
+Ciągłe nagrywanie
+[Quarry]
+Kamieniołom
+[Sorry!]
+Przepraszamy!
+[BASS.DLL not found!]
+BASS.dll nie odnaleziony!
+[Station]
+Stacja
+[Custom INI file]
+Niestandardowy plik INI
+[Radio station URL]
+Link do stacji radiowej
+[Start record]
+Nagrywaj
+[Stop record]
+Przerwij nagrywanie
+[Currently played URL]
+Aktualnie odtwarzany link
+[Current stream title]
+Aktualny tytuł strumienia
+[Station/playlist URL]
+Stacja/Plik playlisty
+[Currently used decoder]
+Aktualnie używany kodek
+[connecting]
+Łączenie...
+[aborting]
+Zatrzymano
+[Can't initialize device]
+Nie udało się zainicjować urządzenia
+[Can't connect to net. Please, clear 'Work offline' option in Internet settings]
+Nie udało się połączyć z internetem. Proszę odznaczyć opcję "Pracuj w trybie Offline" w opcjach internetowych
+[Start broadcasting]
+Graj
+[Stop broadcasting]
+Stop
+[Start/Stop broadcasting]
+Graj/Stop
+[Start/Stop Record]
+Nagrywaj/Przerwij nagrywanie
+[Record]
+Zgrywanie
+[Status message template]
+Szablon opisu
+[Equalizer presets]
+Ustawienia początkowe Eq.
+[Export All]
+Eksportuj wszystko
+[Current status]
+Aktualny status
+[Broadcast ON]
+Graj
+[Broadcast OFF]
+Przerwij granie
+[Add EQ preset]
+Dodaj ustawienie EQ
+[Delete EQ preset]
+Usuń ustawienie EQ
+[BASS library path (empty for default)]
+Folder docelowy BASS (domyślnie puste)
+[Tries to connect]
+Prób łączenia
+[Mute]
+Wycisz
+[mRadio volume control]
+Pasek głośności mRadio
+[mRadio off]
+mRadio wył.
+[mRadio on]
+mRadio wł.
+[Import File]
+Importuj z pliku
+[Play Station]
+Odtwórz
+[Forced Mono]
+Wymuś Mono
+[Play/Pause]
+Odtwarzaj/Pauza
+[Oops! BASS error]
+Ups! Błąd biblioteki BASS.
+[Mute with Miranda]
+Wycisz z Mirandą
+[Advanced]
+Zaawansowane
+[Stop]
+Stop
+[Play]
+Graj
+[Frame background]
+Tło ramki
+[OFF]
+Wył.
+[Volume]
+Głośność
+[Device list]
+Lista urządzeń
+[Equalizer]
+Equalizer
+[New]
+Nowy

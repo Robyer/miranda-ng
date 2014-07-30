@@ -1,0 +1,203 @@
+﻿#muuid {a71f8335-7b87-4432-b8a3-81479431c6f5}
+;============================================================
+;  File: SkypeClassic.dll
+;  Plugin: Skype protocol (Classic)
+;  Version: 0.0.0.54
+;  Authors: leecher, tweety, jls17
+;============================================================
+[Skype protocol support for Miranda NG. Classic implementation which requires running original Skype client.]
+Падтрымка пратакола Skype для Miranda NG. Класічная рэалізацыя, патрабуе запушчаны кліент Skype.
+;file \protocols\SkypeClassic\res\Resource.rc
+[Set]
+Абраць
+[Delete]
+Выдаліць
+[Start Skype with Miranda NG if not running using the following command line options:]
+Запускаць Skype разам з Miranda, калі яшчэ не запушчаны, з наступнымі ключамі:
+[/NOSPLASH - Don't show splash screen on startup]
+/NOSPLASH - Непаказваць застаўку пры запуску
+[/MINIMIZED - Start Skype minimized]
+/MINIMIZED - Запусціць Skype згорнутым у трэі
+[/NOTRAY - Skype tray icon becomes gray and is therefore "invisible"]
+/NOTRAY - Абразок Skype у трэі  - "Нябачны"
+[/REMOVEABLE - For running portable Skype]
+/REMOVEABLE - Для запуска пераноснага Skype
+[/SECONDARY - This is the second instance]
+/SECONDARY - Запуск другой копіі Skype
+[/DATAPATH - Specify Skype data folder*]
+/DATAPATH - Шлях да профіля Skype*
+[Use custom Skype executable*]
+Свой шлях да Skype.exe*
+[* Relative path root is Miranda NG folder]
+* Шлях адносна корня Miranda NG
+[Shutdown Skype when you close Miranda NG]
+Зачыніць Skype пры выхадзе з Miranda NG
+[Unload Skype when you change to Offline status]
+Зачыняць Skype, калі "Адключаны"
+[Try at least]
+Спрабаваць
+[times to connect to Skype API before giving up]
+разоў далучыцца да Skype API перад памылкай
+[User name:]
+Логін:
+[Password:]
+Пароль:
+[Dial]
+Патэлефанаваць
+[Number:]
+Нумар:
+[Cancel]
+Скасаваць
+[%s is calling]
+%s тэлефануе
+[Join conference with %s]
+Далучыццв да гутаркі з %s
+[Answer call; set call to %s on hold]
+Адказаць, паставіць званок %s на паўзу
+[Hang up]
+Адбіць званок
+[Dialog]
+Гутарка
+[Use Skype proxy connection over network instead of local Skype API]
+Скарыстаць сеткавы проксі замест лакальнага Skype API
+[Host:]
+Хост:
+[Port:]
+Порт:
+[* You must restart Miranda NG in order to let the settings take effect]
+* Змены адбудуцца толькі пасля перазапуску.
+[This Skype proxy requires password authentication:]
+Проксі патрабуе пароль:
+[Name:]
+Імя:
+[Birthday:]
+Дзень нараджэння:
+[Sex:]
+Род:
+[City:]
+Горад:
+[Country:]
+Краіна:
+[Province:]
+Правінцыя:
+[Home phone:]
+Хатні тэлефон:
+[Office phone:]
+Офіс. тэлефон:
+[Homepage:]
+Сайт:
+[Save]
+Захаваць
+[Enable Skype menu options (currently: Find/Add user)]
+Уключыуь меню (зараз толькі: Знайсці/дадаць кантакты)
+[Use popup plugin for displaying messages]
+Карыстаць усплывальныя вокны
+[Suppress all error messages (not recommended, but if it annoys you... ;)]
+Выключыць усе паведамленні пра памылкі
+[Use group chat interface for conversations (requires group chat module)]
+Карыстаць выгляд чата
+[Mark group chat message as read to avoid notification]
+Пазначаць гуртавыя паведамленні як прачытанныя без звестак
+[Keep requested online status on startup under every circumstance]
+Падтрымоўваць статус "Далучаны" пры запуску ў любым выпадку
+[Use time zone patch]
+Карыстаць мясцовы час
+[Ignore time zones]
+Ігнараваць мясцовы час
+[Show default Skype avatar for contacts]
+Паказваць аватары па змаўчанні
+[Suppress call summary chat message]
+Выключыць канчатковую справаздачу пра званкі
+[Disable support for N/A and SkypeMe status (for Skype 4+)]
+Адключыць падтрымку "Недасяжны" і "SkypeMe" (для Skype 4+)
+[Show full name in contact list instead of nickname]
+Паказваць ў спісе кантактаў поўнае імя замест мянушкі
+[SkypeOut contacts are in status:]
+SkypeOut кантакты ў статусе:
+[Cleanup Nicknames]
+Сцерці мянушкі
+[Skype Popups]
+Усплывальныя вокны Skype
+[Incoming Calls]
+Уваходныя званкі
+[Show incoming calls]
+Паказаць уваходныя званкі
+[seconds]
+секунд(ы)
+[Background]
+Фон
+[Use Windows colors]
+Колеры Windows
+[Text]
+Тэкст
+[Preview]
+Прагляд
+[Error Messages]
+Памылкі
+[Display error messages]
+Паказваць памылкі
+;file \protocols\SkypeClassic\src\contacts.cpp
+[Call (Skype)]
+Пазваніць па Skype
+[Call using SkypeOut]
+Пазваніць па SkypeOut
+[Hold call]
+Утрымаць званок
+[Resume call]
+Уваходны званок
+[&File]
+&Файл
+[&Open group chat]
+Адчыніць чат
+[Import Skype history]
+Імпартаваць гісторыю з Skype
+[Add Skype contact]
+Дадаць кантакт Skype
+;file \protocols\SkypeClassic\src\gchat.cpp
+[Unknown]
+Невядома
+[&Invite user...]
+Запрасіць кантакт...
+[Me]
+Я
+[&Leave chat session]
+&Пакінуць сеанс
+[Set &Topic...]
+Усталяваць тэму...
+[User &details]
+&Інфармацыя
+[User &history]
+Гісторыя кантакта
+[&Kick user]
+&Выгнаць
+;file \protocols\SkypeClassic\src\skype.cpp
+[Do a SkypeOut-call]
+Пазваніць па SkypeOut
+[Phone call]
+Званок
+[Incoming Skype Call]
+Уваходны званок Skype
+[Incoming call from %s]
+Уваходны званок Skype ад %s
+[Connection to Skype lost]
+Далучэнне да Skype згублена
+[This seems to be the first time that you're running the Skype protocol plugin. Do you want to enable the protocol for this Miranda profile? If you chose NO, you can always enable it in the plugin options later.]
+Вы ў першы раз запусцілі пратакол Skype. Хочаце ўключыць яго для гэтага профіля  Miranda? Калі вы адмовіцеся, яго можна будзе ўключыць потым у наладах.
+;file \protocols\SkypeClassic\src\skypeopt.cpp
+[Preview Error Message]
+Прадпрагляд памылкі
+[Skype default]
+Змаўчанні Skype
+[Skype advanced]
+Skype дадаткова
+[Skype proxy]
+Skype проксі
+[Avatar]
+Аватар
+[Details]
+Дэталі
+[MALE]
+Мужчына
+[FEMALE]
+Жанчына
+;file \protocols\SkypeClassic\src\skypesvc.cpp

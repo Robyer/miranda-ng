@@ -1,0 +1,91 @@
+﻿#muuid {f593c752-51d8-4d46-ba27-37577953f55c}
+;============================================================
+;  File: TopToolBar.dll
+;  Plugin: TopToolBar
+;  Version: 0.8.0.3
+;  Authors: Bethoven
+;============================================================
+[ToptoolBar adds buttons in top frame for fast access.]
+Fügt eine Toolbar der Kontaktliste hinzu.
+;file \plugins\TopToolBar\res\main.rc
+[Buttons order and visibility]
+Buttonreihenfolge && Sichtbarkeit
+[Button height]
+Buttonhöhe
+[Button width]
+Buttonbreite
+[Interval between buttons]
+Abstand zwischen Buttons
+[Use flat mode]
+Flache Anzeige verwenden
+[Auto resize]
+Automatische Größenanpassung
+[Single line]
+Einzeilig
+[Buttons order:]
+Button-Reihenfolge:
+[Add separator]
+Platzhalter hinzufügen
+[Add launch]
+Ausführung hinzufügen
+[Delete separator/launch button]
+Platzhalter/Ausführung Löschen
+[Name:]
+Name:
+[Path:]
+Pfad:
+[Set]
+Setzen
+;file \plugins\TopToolBar\src\InternalButtons.cpp
+[Show main menu]
+Hauptmenü anzeigen
+[Show options page]
+Einstellungen anzeigen
+[Show accounts manager]
+Kontenmanager anzeigen
+[Find/add contacts]
+Kontakte suchen/hinzufügen
+[Show status menu]
+Statusmenü anzeigen
+[Show/hide offline contacts]
+Offline-Kontakte anzeigen/ausblenden
+[Hide offline contacts]
+Offline-Kontakte ausblenden
+[Show offline contacts]
+Offline-Kontakte anzeigen
+[Enable/disable metacontacts]
+Metakontakte (de-)aktivieren
+[Disable metacontacts]
+Metakontakte deaktivieren
+[Enable metacontacts]
+Metakontakte aktivieren
+[Enable/disable groups]
+Gruppen (de-)aktivieren
+[Enable groups]
+Gruppen aktivieren
+[Disable groups]
+Gruppen deaktivieren
+[Enable/disable sounds]
+Klänge (de-)aktivieren
+[Disable sounds]
+Klänge deaktivieren
+[Enable sounds]
+Klänge aktivieren
+[Minimize contact list]
+Kontaktliste minimieren
+[Exit]
+Beenden
+;file \plugins\TopToolBar\src\toolbar.cpp
+[Default]
+Standard
+[TopToolBar background]
+TopToolBar Hintergrund
+[Frames service has not been found, so plugin will be disabled.\nTo run it you need to install and / or enable contact list plugin that supports it:\n- Modern contact list\n- Nicer+\nYou can get them at http://wiki.miranda-ng.org/Download]
+Frames-Dienst wurde nicht gefunden, also wird das Plugin deaktiviert.\nUm es zu benutzen, müssen Sie ein Kontaktlisten-Plugin installieren und/oder aktivieren, das Frames unterstützt.\n - Modern Contact List\n - Nicer+\mSie bekommen diese unter http://wiki.miranda-ng.org/Download
+[TopToolBar]
+TopToolBar
+;file \plugins\TopToolBar\src\ttbopt.cpp
+[Contact list]
+Kontaktliste
+[Toolbar]
+Toolbar

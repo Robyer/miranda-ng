@@ -1,0 +1,78 @@
+﻿#muuid {4fac353d-0a36-44a4-9064-6759c53ae782}
+;============================================================
+;  File: BossKey.dll
+;  Plugin: BossKey+
+;  Version: 0.5.0.3
+;  Authors: Goblineye Entertainment, Billy_Bons
+;============================================================
+[Anti-Boss plugin. Makes your Miranda NG hidden or password-protected.]
+Anti-Boss-plugin. Versteckt Miranda NG oder schützt es mit einem Passwort.
+;file \plugins\BossKeyPlus\res\BossKey.rc
+[BossKey]
+BossKey
+[Go to Customize -> Hotkeys to change the hotkey]
+Unter 'Customize -> Hotkeys' können Sie den Hotkey ändern
+[When I press the hotkey:]
+Wenn ich den Hotkey drücke:
+[Change status to]
+Status ändern in
+[Change only if current status is Online]
+Nur ändern, wenn aktueller Status online
+[Use default status message]
+Standard-Statusnachricht verwenden
+[Disable Sounds]
+Klänge deaktivieren
+[Show the Tray Icon]
+Systemtray-Icon anzeigen
+[When I return:]
+Wenn ich zurückkehre:
+[Request password:]
+Passwort abfragen:
+[Change status back]
+Status zurücksetzen
+[Hotkey]
+Hotkey
+[Password:]
+Passwort:
+[Cancel]
+Abbrechen
+[Workstation is locked]
+Arbeitsstation gesperrt ist
+[Screen Saver is running]
+Bildschirmschoner läuft
+[Windows is inactive]
+Windows inaktiv ist
+[Hide Miranda when:]
+Verstecke Miranda, wenn:
+[Miranda is inactive]
+Miranda inaktiv ist
+[min]
+Min
+[Miranda is started]
+Miranda gestartet wurde
+[Others]
+Sonstiges
+[Create a main menu item]
+Einen Hauptmenüeintrag erzeugen
+[Restore hiding on startup after failure]
+Miranda bei Neustart nach einem Fehler verstecken
+;file \plugins\BossKeyPlus\src\BossKey.cpp
+[Miranda NG is locked.\nEnter password to unlock it.]
+Miranda NG ist gesperrt.\Geben Sie das Passwort ein, um es zu entsperren
+[Password is not correct!\nPlease, enter correct password.]
+Passwort ist nicht korrekt.\nBitte geben Sie das korrekte Passwort an.
+[Hide Miranda NG]
+Miranda NG verbergen
+[Hide]
+Verstecken
+[Hide/Show Miranda]
+Verstecke/zeige Miranda
+[get the BossKey name]
+BossKey Name erhalten
+;file \plugins\BossKeyPlus\src\Options.cpp
+[Events]
+Ereignisse
+[Main]
+Allgemein
+[Advanced]
+Erweitert

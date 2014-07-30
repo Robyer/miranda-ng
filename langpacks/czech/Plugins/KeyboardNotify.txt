@@ -1,0 +1,216 @@
+﻿#muuid {119d7288-2050-448d-9900-d86ac70426bf}
+;============================================================
+;  File: KeyboardNotify.dll
+;  Plugin: Keyboard notify ext.
+;  Version: 1.5.7.7
+;  Authors: TioDuke
+;============================================================
+[Flashes your keyboard LEDs when a message has arrived.]
+Bliká LEDkami vaší klávesnice při příchozí zprávě.
+;file \plugins\KeyboardNotify\res\resources.rc
+[Accounts to check]
+Účty ke kontrole
+[Events to react on]
+Reagovat při událostech
+[Incoming messages]
+Příchozí zprávy
+[Incoming files]
+Příchozí soubory
+[Incoming URLs]
+Příchozí - URL
+[Everything else]
+Všechno ostatní
+[Message-Event only]
+Pouze pro zprávy
+[Blink if message window is open]
+Blikat při otevřeném kom. okně
+[and not in foreground]
+které není v popředí
+[Only if last is]
+Jen starší
+[sec. old]
+ti sek.
+[Flash until]
+Doba blikání
+[seconds]
+sek.
+[is re-attended]
+- povšimnutí
+[Events are opened]
+Do vyřešení událostí
+[End of 'notify when' conditions]
+Do skončení 'Okolnosti pro oznámení'
+[Notify when]
+Okolnosti pro oznámení
+[Full Screen mode]
+Celoobrazovkový režim
+[Screen Saver is running]
+Běžící spořič obrazovky
+[Workstation is locked]
+Uzamčená stanice
+[Defined programs are running]
+Běží vybrané programy
+[All other situations]
+Všechny ostatní situace
+[Only notify if status is]
+Upozornit pouze ve stavu
+[Online]
+Online
+[Away]
+Na chvíli pryč
+[Occupied]
+Nemám čas
+[NA]
+Nejsem tady
+[DND]
+Nerušit!
+[Free for chat]
+Mám volno
+[Invisible]
+Neviditelný
+[On the phone]
+Mám telefon
+[Out to lunch]
+Jsem na obědě
+[Pending Events]
+Trvající události
+[Remind me every]
+Blikat každých
+[minutes]
+min.
+[Offline]
+Offline
+[xStatuses]
+xStatus
+[Keys to flash]
+Rozsvítit LEDky
+[Num Lock]
+Num Lock
+[Caps Lock]
+Caps Lock
+[Scroll Lock]
+Scroll Lock
+[Flashing effects]
+Efekty blikání
+[All at the same time]
+Všechny LEDky najednou
+[In turn]
+Na střídačku
+[In sequence]
+Žížalka
+[Custom theme]
+Vlastní sekvence
+[Accordingly to events' count]
+Podle počtu událostí
+[Wait before starting flashing]
+Prodleva před začátkem blikání
+[Flash speed]
+Rychlost blikání
+[Fast]
+Rychle
+[Slow]
+Pomalu
+[&Preview]
+&Přehrát
+[Emulate key presses (Use this option if you are using a USB keyboard)]
+Emulovat zmáčknutí kláves (vyžadováno pro klávesnice typu USB)
+[Create/Edit Themes]
+Tvorba a úprava sekvence
+[Theme]
+Sekvence
+[Test]
+Ověřit
+[Add]
+Přidat
+[Update]
+Aktualizovat
+[Delete]
+Smazat
+[Import/Export]
+Import a export
+[Export...]
+Exportovat...
+[Import...]
+Importovat...
+[Override existing]
+Přepsat existující
+[Set program list]
+Seznam vybraných programů
+[Program]
+Program
+[Cancel]
+Zrušit
+[Set LEDs for events]
+Zvolit LEDky pro události
+[Num]
+Num
+[Caps]
+Caps
+[Scroll]
+Scroll
+[Message events]
+Zprávy
+[File events]
+Přenos souborů
+[URL events]
+Příchozí odkazy
+[Other events]
+Jiné události
+[Consider event opened after]
+Brát v úvahu události otevřené po
+[Use custom theme]
+Použít vlastní téma
+[The following events are being ignored:]
+Následující události budou ignorovány:
+[Ignore messages]
+Ignorovat zprávy
+[Ignore URLs]
+Ignorovat adresy
+[Ignore files]
+Ignorovat soubory
+[Ignore others]
+Ignorovat ostatní
+[Ignore all]
+Ignorovat vše
+[Ignore none]
+Neignorovat
+[Ignore]
+Filtrování
+[Set xStatus list]
+Nastavit rozšířené stavy
+;file \plugins\KeyboardNotify\src\ignore.cpp
+[** All contacts **]
+** všechny kontakty **
+[** Unknown contacts **]
+** neznámé kontakty **
+;file \plugins\KeyboardNotify\src\options.cpp
+[left->right]
+zleva doprava
+[right->left]
+zprava doleva
+[left<->right]
+Knight Rider
+[Keyboard Flash]
+Blikání klávesnicí
+[Events]
+Události
+[Accounts]
+Účty
+[Rules]
+Pravidla
+[Flashing]
+Blikání
+[Themes]
+Vlastní sekvence
+[Protocol]
+Protokol
+[Keyboard Notify Theme]
+Sekvence blikání klávesnicí
+[All Files]
+Všechny soubory
+[\n; Automatically generated Keyboard Notify Theme file\n\n\n]
+\n; Automaticky generovaný soubor s tématem pro upozornění klávesnicí\n\n\n
+[\n; End of automatically generated Keyboard Notify Theme file\n]
+\n; Konec automaticky generovaného souboru s tématem pro upozornění klávesnicí\n
+[None]
+---

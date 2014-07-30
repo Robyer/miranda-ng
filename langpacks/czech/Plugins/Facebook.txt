@@ -1,0 +1,301 @@
+﻿#muuid {8432b009-ff32-4727-aae6-a9035038fd58}
+;============================================================
+;  File: Facebook.dll
+;  Plugin: Facebook RM
+;  Version: 0.2.7.0
+;  Authors: Michal Zelinka, Robert Pösel
+;============================================================
+[Facebook protocol support for Miranda NG.]
+Facebook protokol pro Mirandu NG.
+;file \protocols\FacebookRM\res\facebook.rc
+[E-mail:]
+E-mail:
+[Password:]
+Heslo:
+[Create a new Facebook account]
+Zřídit nový účet na Facebooku
+[What's on your mind?]
+Co se vám honí hlavou?
+[Wall:]
+Zeď:
+[Visibility:]
+Viditelnost:
+[Text:]
+Text:
+[URL:]
+Odkaz:
+[Place:]
+Místo:
+[Contacts >>]
+Kontakty >>
+[Attach contacts:]
+Označit kontakty:
+[Share]
+Sdílet
+[Cancel]
+Zrušit
+[User details]
+Informace o uživateli
+[Contacts Settings]
+Nastavení kontaktů
+[Default group:]
+Výchozí skupina:
+[Automatically set 'Ignore status change' flag]
+Automaticky ignorovat změnu stavu
+[Use bigger avatars]
+Zobrazit větší avatary
+[Event notifications]
+Oznámení události
+[Notifications]
+Upozornění
+[News feeds]
+Novinky
+[News feed types to notify:]
+Upozorňovat na tyto novinky:
+[Don't show advertising posts]
+Nezobrazovat reklamní příspěvky
+[Other events]
+Jiné události
+[Client notifications]
+Upozornění klienta
+[Preview]
+Náhled
+[Use balloon notifications in system tray instead of popups]
+Místo klasického oznámení použít bubliny v systémové liště
+[Advanced Settings]
+Pokročilé nastavení
+[Force secure (HTTPS) connection]
+Použít zabezpečené spojení (HTTPS)
+[Post Miranda statuses to Wall]
+Odesílat stav Mirandy na zeď Facebooku
+[Use secure connection also for channel requests]
+Zabezpečit i servisní spojení
+[Also disconnect chat when going to offline]
+Po odpojení zároveň odejít i z diskuse
+[Map non-standard statuses to Invisible (instead of Online)]
+Pro nestandardní stavy použít Neviditelný (nikoli Online)
+[Allow posting statuses to my pages (may slow down login)]
+Umožnit sdílení stavů na mé stránky (může zpomalit přihlašování)
+[Use this server for opening links:]
+Pro otevírání odkazů použít tento server:
+[Enable support for Custom smileys (EXPERIMENTAL + BUGGY!)]
+Aktivovat podporu pro vlastní smajlíky (EXPERIMENTÁLNÍ + CHYBOVÉ!)
+[Use local time for received messages]
+Použít lokální čas počítače pro příchozí zprávy
+[Message sessions]
+Komunikace
+[Keep messages as unread on server (don't send "seen" info)]
+Ponechat zprávy na serveru jako nepřečtené (neodesílat informaci o času přečtení)
+[Receive messages from "inbox" folder only]
+Přijímat pouze zprávy ze složky "příchozí"
+[Load last messages on opening message window (EXPERIMENTAL)]
+Načíst poslední zprávy při otevření komunikačního okna (EXPERIMENTÁLNÍ)
+[Number of messages to load:]
+Počet zpráv pro načtení:
+[Do not open chat windows on creation]
+Neotevírat okno se skupinovým rozhovorem po jeho vytvoření
+;file \protocols\FacebookRM\src\chat.cpp
+[Myself]
+Já
+[User]
+Uživatel
+[Friend]
+Přítel
+[&Invite user...]
+Pozvat k d&iskusi...
+[&Leave chat session]
+&Opustit diskusi
+[User &details]
+&Detaily uživatele
+[User &history]
+Zobrazit &historii
+;file \protocols\FacebookRM\src\communication.cpp
+[Login error: %s]
+Chyba připojení: %s
+[Unknown error]
+Neznámá chyba
+[Login error: Invalid request.]
+Chyba připojení: Neplatný požadavek.
+[Login error: Some Facebook things are required.]
+Chyba připojení: Něco je vyžadováno.
+[Login error: Captcha code is required. Bad login credentials?]
+Chyba připojení: Je vyžadována captcha. Špatné přihlašovací údaje?
+[Login error, probably bad login credentials.]
+Chyba při přihlašování, možná máte špatné přihlašovací údaje.
+[Your account requires HTTPS connection. Activating.]
+Váš účet vyžaduje zabezpečené spojení. Aktivováno.
+[Something happened to Facebook. Maybe there was some major update so you should wait for an update.]
+Chyba při připojování k síti Facebook. Důvodem mohou být větší změny na straně serveru, což vyžaduje zároveň změny na straně Mirandy.
+[Need confirmation for sending messages to other clients.\nOpen Facebook website and try to send message to this contact again!]
+Vyžadováno potvrzení pro odesílání zpráv jiným klientům.\nOtevřte stránky Facebooku a odešlete znovu zprávu tomuto kontaktu!
+[Timeout when sending message.]
+Vypršel čas na odeslání zprávy.
+[Status update was successful.]
+Stav byl úspěšně aktualizován.
+;file \protocols\FacebookRM\src\connection.cpp
+[Please enter a username.]
+Zadejte uživatelské jméno.
+[Please enter a password.]
+Zadejte heslo.
+;file \protocols\FacebookRM\src\constants.h
+[Top News]
+Hlavní zprávy
+[Most Recent]
+Nejnovější
+[Pages]
+Stránky
+[Classic website]
+Klasické stránky
+[Mobile website]
+Mobilní stránky
+[Smartphone website]
+Smartphone stránky
+[Public]
+Veřejný
+[Friends of friends]
+Přátelé přátel
+[Friends]
+Přátelé
+[Friends except acquaintances]
+Přátelé kromě známých
+[Only me]
+Jenom já
+;file \protocols\FacebookRM\src\contacts.cpp
+[%s and more (%d)]
+%s a další (%d)
+[Contact was removed from your server list.]
+Kontakt byl odebrán z vašeho seznamu přátel.
+[Error occurred when removing contact from server.]
+Nastala chyba při odebírání kontaktu z vašeho seznamu přátel.
+[Request for friendship was sent.]
+Požadavek o přátelství byl odeslán.
+[Error occurred when requesting friendship.]
+Nastala chyba při žádání o přátelství.
+[Request for friendship was canceled.]
+Požadavek o přátelství byl zrušen.
+[Error occurred when canceling friendship request.]
+Nastala chyba při rušení požadavku o přátelství.
+;file \protocols\FacebookRM\src\dialogs.cpp
+[Default]
+Výchozí
+[<< Contacts]
+<< Kontakty
+[What's on your mind, %s?]
+Co se vám honí hlavou, %s?
+[Note: Make sure you have disabled 'Validate SSL certificates' option in Network options to work properly.]
+Pozn.: Pro správnou funkčnost se ujistěte, že máte vypnutou volbu 'Ověřit platnost certifikátů' v nastavení sítě.
+[Sample event]
+Ukázková událost
+[Sample request]
+Ukázkový požadavek
+[Sample newsfeed]
+Ukázková novinka
+[Sample notification]
+Ukázkové upozornění
+;file \protocols\FacebookRM\src\json.cpp
+[a sticker]
+samolepku
+[files]
+soubory
+[a file]
+soubor
+[photos]
+fotky
+[a photo]
+fotku
+[User sent %s:]
+Uživatel odeslal %s:
+[User sent an unsupported attachment. Open your browser to see it.]
+Uživatel odeslal nepodporovanou přílohu. Otevřte webový prohlížeč pro její zobrazení.
+[Message read: %s by %s]
+Zpráva byla přečtena: %s - %s
+[This message is no longer available, because it was marked as abusive or spam.]
+Tato zpráva již není dostupná, protože byla označena jako urážlivá nebo spam.
+[%s is typing a message...]
+%s píše zprávu...
+;file \protocols\FacebookRM\src\messages.cpp
+[You cannot send messages when you are offline.]
+Ve stavu offline nelze odesílat zprávy.
+;file \protocols\FacebookRM\src\process.cpp
+[Contact is back on server-list.]
+Kontakt je zpět mezi vašimi přáteli.
+[Contact is no longer on server-list.]
+Kontakt již není mezi vašimi přáteli.
+;file \protocols\FacebookRM\src\proto.cpp
+[%s server connection]
+%s - spojení se serverem
+[Unable to get Netlib connection for Facebook]
+Facebook: Chyba při zpracování síťové komunikace.
+[Facebook ID must be numeric value.]
+Facebook ID musí být číselná hodnota.
+[Network]
+Sítě
+[Account]
+Účet
+[Events]
+Události
+[Advanced]
+Extra
+[Share status...]
+Sdílet stav...
+[Own wall]
+Vlastní zeď
+[Loading newsfeeds...]
+Načítání novinek...
+[Checking friend requests...]
+Kontrola žádostí o přátelství...
+[Refreshing buddy list...]
+Obnovování seznamu kontaktů...
+[Do you want to cancel your friendship with '%s'?]
+Přejete si zrušit vaše přátelství s '%s'?
+[Visit profile]
+Zobrazit profil
+[Visit notifications]
+Zobrazit upozornění
+[Show 'Share status' window]
+Zobrazit okno pro sdílení stavu
+[Notification]
+Oznámení
+[News Feed]
+Novinky
+[Other Event]
+Ostatní události
+[Message read: %s]
+Zpráva byla přečtena: %s
+;file \protocols\FacebookRM\src\theme.cpp
+[Facebook icon]
+Ikona Facebooku
+[Mind]
+Zpráva stavu
+[Poke]
+Šťouchnout
+[Newsfeed]
+Novinka
+[Friendship details]
+Podrobnosti o přátelství
+[Conversation]
+Konverzace
+[Message read]
+Zpráva přečtena
+[Visit friendship details]
+Zobrazit podrobnosti o přátelství
+[Visit conversation]
+Zobrazit konverzaci
+[Cancel friendship]
+Zrušit přátelství
+[Cancel friendship request]
+Zrušit požadavek o přátelství
+[Request friendship]
+Požádat o přátelství
+[Approve friendship]
+Potvrdit přátelství
+[Services...]
+Služby
+[Refresh Buddy List]
+Obnovit seznam kontaktů
+[Services]
+Služby
+[Check Friends Requests]
+Zkontrolovat požadavky o přátelství
+[Check Newsfeeds]
+Zkontrolovat novinky

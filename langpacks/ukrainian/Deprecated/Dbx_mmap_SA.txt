@@ -1,0 +1,135 @@
+﻿#muuid {28ff9b91-3e4d-4f1c-b47c-c641b037ff40}
+;============================================================
+;  File: Dbx_mmap_SA.dll
+;  Plugin: Miranda NG mmap secure database driver
+;  Version: 0.7.5.4
+;  Authors: Miranda-IM project, modification by FYR and chaos.persei, nullbie, Billy_Bons
+;============================================================
+[Provides Miranda database support: global settings, contacts, history, settings per contact. Enhanced modification with Encryption support.]
+Підтримка бази даних Miranda NG: глобальні налаштування, контакти, історія, налаштування контактів. Розширена модифікація з підтримкою шифрування.
+[Login to Miranda NG]
+Вхід в Miranda NG
+[Cancel]
+Скасувати
+[New password]
+Новий пароль
+[Change password]
+Змінити пароль
+[Change]
+Змінити
+[Remove]
+Видалити
+[Old password]
+Старий пароль
+[Install Database Settings]
+Встановити налаштування бази даних
+[Yes]
+Так
+[No]
+Ні
+[A file containing new database settings has been placed in the Miranda NG directory.]
+Файл з новими налаштуваннями бази даних вміщено в каталог Miranda NG.
+[Do you want to import the settings now?]
+Імпортувати налаштування зараз?
+[No to all]
+Ні для всіх
+[&View contents]
+&Вміст
+[Security systems to prevent malicious changes are in place and you will be warned before changes that are not known to be safe.]
+Захист від небезпечних змін ввімкнено, вас попередять про зміни налаштувань, що можуть бути небезпечними.
+[Database Setting Change]
+Зміна налаштувань бази даних
+[Database settings are being imported from]
+Налаштування імпортуються з
+[This file wishes to change the setting]
+Цей файл змінює налаштування
+[to the value]
+значення
+[Do you want to allow this change?]
+Дозволити зміну?
+[&Allow all further changes to this section]
+&Дозволити всі зміни в цій секції
+[&Yes]
+&Так
+[&No]
+&Ні
+[Cancel Import]
+Скасувати імпорт
+[Database Import Complete]
+Імпорт бази завершено
+[The import has completed from]
+Імпорт завершено з
+[What do you want to do with the file now?]
+Що зробити з файлом?
+[&Recycle]
+&Використати знову
+[&Delete]
+&Видалити
+[&Move/Rename]
+Перемістити/перейменувати
+[&Leave]
+&Залишити
+[Database encryption]
+Шифрування профілю
+[Info:]
+Інфо:
+[Author:]
+Автор:
+[Site:]
+Сайт:
+[Email:]
+Пошта:
+[Unique ID:]
+Унік. ID:
+[Your profile was decrypted to convert it into dbx_mmap format. When Miranda starts, you'll need to reenter a password]
+Ваш профіль розшифровано для конвертації в формат dbx_mmap. При наступному запуску програми вам доведеться заново ввести пароль из пункта в главном меню
+[Password warning]
+Попередження щодо паролю
+[Database is Secured MMAP database]
+БД: база даних з шифрованням
+[You are not authorized for access to Database]
+Ви не авторизовані для доступу до БД
+[Secured MMAP: authorization successful]
+Secured MMAP: авторизація успішна
+[Database is marked as belonging to an unknown version of Miranda]
+Базу даних позначено як створену невідомою версією Miranda
+[Database Features]
+Можливості БД
+[Database]
+Профіль
+[Change Password]
+Змінити пароль
+[Set password]
+Встановити пароль
+[Dll]
+Алгоритм
+[Name]
+Ім'я
+[Version]
+Версія
+[Please type in your password for]
+Будь ласка, введіть пароль для
+[Too many errors!]
+Забагато помилок!
+[Password is not correct!]
+Пароль неправильний!
+[Please enter your new password]
+Будь ласка, введіть новий пароль
+[Password is too short!]
+Пароль занадто короткий!
+[Passwords do not match!]
+Паролі не збігаються!
+[Wrong password!]
+Неправильний пароль!
+[Sorry, but your database encrypted with unknown module]
+БД зашифровано за допомогою невідомого алгоритму
+[Error]
+Помилка
+[Crypto modules not found]
+Плагіни шифрування не знайдено
+[DB is already secured!]
+Профіль вже зашифрований!
+[current database]
+поточна БД
+[Set Password]
+Встановити пароль

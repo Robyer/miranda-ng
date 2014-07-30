@@ -1,0 +1,51 @@
+﻿#muuid {6471d451-2fe0-4ee2-850e-9f84f3c0d187}
+;============================================================
+;  File: AddContactPlus.dll
+;  Plugin: Add contact+
+;  Version: 0.9.9.2
+;  Authors: Bartosz 'Dezeath' Bialek
+;============================================================
+[Provides the ability to quickly add new contacts.]
+Предоставляет возможность быстро добавить контакт.
+[Add contact]
+Добавить контакт
+[Add contact\nAdd a contact to your contact list]
+Добавить контакт\nДобавить контакт в список контактов
+[Account:]
+Учётная запись:
+[Contact ID:]
+ID контакта:
+[Custom name:]
+Заданное имя:
+[Group:]
+Группа:
+[Options]
+Настройки
+[Add temporarily]
+Добавить временно
+[Send "You were added"]
+Отправить "Вас добавили"
+[Send authorization request]
+Отправить запрос авторизации
+[Authorization request]
+Запрос авторизации
+[&Add]
+&Добавить
+[&Cancel]
+&Отмена
+[Please authorize my request and add me to your contact list.]
+Пожалуйста, разрешите добавить вас в мой список контактов.
+[None]
+Нет
+[The contact cannot be added to your contact list. Please make sure the contact ID is entered correctly.]
+Контакт не может быть добавлен в ваш список контактов. Убедитесь, что вы указали правильный ID пользователя.
+[The contact cannot be added to your contact list. If you are not logged into the selected account, please try to do so. Also, make sure the contact ID is entered correctly.]
+Контакт не может быть добавлен в ваш список контактов. Убедитесь, что вы вошли в эту учётную запись и указали правильный ID пользователя.
+[&Add contact...]
+&Добавить контакт...
+[Open add contact dialog]
+Открыть диалог добавления контакта
+[Main]
+Главный
+[AddContact+]
+Добавить контакт

@@ -1,0 +1,303 @@
+﻿#muuid {748f8934-781a-528d-5208-001265404ab3}
+;============================================================
+;  File: Tlen.dll
+;  Plugin: Tlen protocol
+;  Version: 2.1.0.0
+;  Authors: Santithorn Bunchua, Adam Strzelecki, Piotr Piastucki
+;============================================================
+[Tlen protocol support for Miranda NG.]
+Падтрымка пратакола Tlen для Miranda NG.
+;file \protocols\Tlen\res\tlen.rc
+[Username:]
+Карыстач:
+[Password:]
+Пароль:
+[Save password]
+Захаваць пароль
+[Create new account]
+Новы конт
+[Options]
+Налады
+[Automatically reconnect after unintentional disconnection]
+Перападключыцца пасля нечаканага парыву
+[Leave status message after disconnection]
+Пакінуць паведамленне статусу пасля адключэння
+[Ignore advertisements]
+Ігнараваць рэкламу
+[Automatically delete contacts not in my roster]
+Аўтаматычна выдаляць кантакты, якія не ў спісе
+[Show offline users with status messages as invisible in contact list]
+Паказваць адключаных карыстачоў з паведамленнямі статусу як нябачныя
+[Enable avatars]
+Уключыць аватары
+[Send and receive client version information]
+Адпраўляць і атрымліваць версіі кліентаў
+[Alert policy]
+Правілы падзей
+[Use Nudge plugin]
+Ужываць плагін увагі Nudge
+[Log alerts as messages]
+Захоўв. падзеі як паведамленні
+[Group chat policy]
+Правілы гутарак
+[Voice Chats]
+Галасавыя гутаркі
+[Voice chat policy]
+Правілы галасавых гутарак
+[Recording device:]
+Прылада запісу:
+[Playback device:]
+Прылада прайгр.:
+[Expert Options]
+Пашыраныя налады
+[Login server:]
+Сервер:
+[Connection Host:]
+Вузел далучэння:
+[Port:]
+Порт:
+[Keep connection alive]
+Падтрымліваць злучэнне
+[Enable encryption]
+Уключыць шыфраванне
+[Enable Always Visible and Never Visible]
+Уключыць Заўсёды бачны і Заўсёды нябачны
+[P2P Connections]
+P2P далучэнні
+[Use proxy for incoming connections]
+Ужыв. проксі для ўваходных далучэнняў
+[Proxy type:]
+Тып проксі:
+[Proxy server:]
+Проксі-сервер:
+[Proxy requires authorization]
+Проксі патрабуе аўтарызацыі
+[Mail Notification]
+Абвестка пра пошту
+[Enable incoming mail notification]
+Укл. абвестку пра ўваходную пошту
+[Colors]
+Колеры
+[Background]
+Фон
+[Text]
+Тэкст
+[Delay]
+Затрымка
+[&From Popup plugin]
+Устаноўкі Popup
+[&Custom]
+Наладзіць
+[P&ermanent]
+Пастаянна
+[Preview]
+Прагляд
+[Tlen Password]
+Tlen Пароль
+[Cancel]
+Скасаваць
+[Nickname:]
+Мянушка:
+[First name:]
+Імя:
+[Last name:]
+Прозвішча:
+[E-mail:]
+Пошта:
+[Gender:]
+Род:
+[Year of birth:]
+Год нараджэння:
+[City:]
+Горад:
+[School:]
+Школа:
+[Occupation:]
+Занятак:
+[Looking for:]
+Шукаю:
+[Voice chats]
+Галасавыя чаты
+[Save changes]
+Захаваць змены
+[Avatar]
+Аватар
+[Avatar Options]
+Налады аватара
+[Tlen login:]
+Уваход Tlen:
+[Subscription:]
+Падпіска:
+[Software:]
+Кліент:
+[Version:]
+Версія:
+[System:]
+Сістэма:
+[Personal Information]
+Персанальныя дадзеныя
+[Age:]
+Узрост:
+[to]
+у
+[Extra Search Criteria]
+Дадатковыя крытэрыі
+[Status:]
+Статус:
+[Plan:]
+План:
+[Tlen Voice Chat]
+Tlen галасавы чат
+[Quality]
+Якасць
+[In]
+Уваходныя
+[Out]
+Зыходныя
+[Finish]
+Завяршыць
+[Tlen Voice Chat Invitation]
+Tlen запрашэнне галасавога чата
+[&Accept]
+Прыняць
+[From:]
+Ад:
+[The following invitation to join a voice chat is received.]
+Атрымана запрашэнне ўвайсці ў галасавы чат.
+;file \protocols\Tlen\src\tlen.cpp
+[Protocol icon]
+Абразок пратаколу
+[Tlen inbox]
+Tlen уваходныя
+[Group chats]
+Чаты
+[Tlen chats]
+Tlen чаты
+[Voice chat]
+Галасавы чат
+[Microphone]
+Мікрафон
+[Speaker]
+Дынамік
+[Send image]
+Адправіць
+[Incoming mail]
+Уваходная пошта
+[Alert]
+Увага
+[Multi-User Conference]
+Канферэнцыя
+[Tlen Mail]
+Tlen пошта
+[Send picture]
+Адаслаць выяву
+[Voice Chat]
+Галасавы чат
+[Request authorization]
+Запытаць аўтарызацыю
+[Grant authorization]
+Аўтарызаваць
+;file \protocols\Tlen\src\tlen_avatar.cpp
+;file \protocols\Tlen\src\tlen_file.cpp
+[1 File]
+1 файл
+[%d Files]
+%d файлаў
+;file \protocols\Tlen\src\tlen_iqid.cpp
+[Authentication failed for %s@%s.]
+Аутэнтыфікацыя не пройдзена для %s@%s.
+[Tlen Authentication]
+Аўтэнтыфікацыя Tlen
+;file \protocols\Tlen\src\tlen_opt.cpp
+[General]
+Агульнае
+[Advanced]
+Дадаткова
+[Notifications]
+Абвесткі
+[Network]
+Сеціва
+[These changes will take effect the next time you connect to the Tlen network.]
+Змены адбудуцца, пасля таго як Вы перападключыцеся Tlen.
+[Tlen Protocol Option]
+Налады пратаколу Tlen
+[Accept all alerts]
+Прымаць усе падзеі
+[Ignore alerts from unauthorized contacts]
+Ігнараваць падзеі ад неаўтарызаваных кантактаў
+[Ignore all alerts]
+Ігнараваць усе падзеі
+[Always ask me]
+Заўсёды пытаць
+[Accept invitations from authorized contacts]
+Прымаць запрашэнні ад аўтарызаваных кантактаў
+[Accept all invitations]
+Прымаць усе запрашэнні
+[Ignore invitations from unauthorized contacts]
+Ігнараваць запрашэнні ад неаўтарызаваных кантактаў
+[Ignore all invitation]
+Ігнараваць усе запрашэнні
+[Accept all images]
+Прымаць усе выявы
+[Ignore images from unauthorized contacts]
+Ігнараваць выявы ад неаўтарызаваных кантактаў
+[Ignore all images]
+Ігнараваць усе выявы
+[<Last message>]
+(Апошняе паведамленне)
+[Forwarding]
+Перанакіраванне
+[%S mail]
+%S пошта
+;file \protocols\Tlen\src\tlen_picture.cpp
+;file \protocols\Tlen\src\tlen_svc.cpp
+[Tlen login]
+Tlen уваход
+;file \protocols\Tlen\src\tlen_thread.cpp
+[Enter password for %s]
+Увядзіце пароль для %s.
+[Tlen Connection Error]
+Tlen памылка далучэння
+[%s Web Messages]
+%s Web паведамленняў
+[Web message]
+Вэб-паведамленне
+[From]
+Ад
+[E-mail]
+Пошта
+[An alert has been received.]
+Абвестка прынята.
+[Private conference]
+Асабістая канферэнцыя
+[%s mail]
+%s пошта
+[Subject]
+Тэма
+;file \protocols\Tlen\src\tlen_userinfo.cpp
+[Account]
+Конт
+[both]
+у абодва бакі
+[from]
+з
+[none]
+няма
+[not on roster]
+не у росцеры
+;file \protocols\Tlen\src\tlen_voice.cpp
+[...Connecting...]
+...далучэнне...
+[...Waiting for connection...]
+...Чаканне злучэння...
+[...Finished...]
+...Завершана...
+[...Error...]
+...Памылка...
+[...Denied...]
+...Забаронена...
+[Default]
+Змаўчанні
+;file \protocols\Tlen\src\tlen_ws.cpp
+[%s connection]
+Злучэнне %s

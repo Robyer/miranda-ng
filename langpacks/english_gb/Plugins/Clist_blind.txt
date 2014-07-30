@@ -1,0 +1,9 @@
+﻿#muuid {53e095a3-2695-490a-9dad-d20479093831}
+;============================================================
+;  File: Clist_blind.dll
+;  Plugin: BClist
+;  Version: 0.8.1.1
+;  Authors: Ricardo Pescuma Domenecci, based on previous work from Miranda IM project
+;============================================================
+[Minimize to tray]
+Minimise to tray

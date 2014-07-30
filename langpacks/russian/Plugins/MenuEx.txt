@@ -1,0 +1,103 @@
+﻿#muuid {b1902a52-9114-4d7e-ac2e-b3a52e01d574}
+;============================================================
+;  File: MenuEx.dll
+;  Plugin: Menu item ext
+;  Version: 1.3.0.10
+;  Authors: Heiko Schillinger, Baloo, Billy_Bons, Robert Pösel
+;============================================================
+[Adds some useful options to a contacts menu.]
+Добавляет дополнительные пункты меню контактов.
+[Enter an authorization request]
+Текст запроса авторизации
+[&Send]
+&Отправить
+[&Cancel]
+О&тмена
+[Shown menu items]
+Показаны пункты меню
+[Visibility]
+Видимость
+[Show alpha icons]
+Альфа-значки
+[Hide from list]
+Скрыть из списка
+[Ignore]
+Игнорировать
+[Copy to Account (Ctrl+click for move to Account)]
+Копировать в учётную запись (Ctrl+клик - перемещение)
+[Send 'You were added']
+Отправить "Вас добавили"
+[Request Authorization]
+Запросить авторизацию
+[Browse Received Files]
+Принятые файлы
+[Copy IP]
+Копировать IP
+[Copy MirVer]
+Копировать ID клиента
+[Copy Status Message]
+Копировать статус
+[Add item name]
+Добавить имя элемента
+[Copy ID]
+Копировать ID
+[Add protocol name]
+Добавить протокол
+[Show ID in menu item]
+Показать ID в контекстном меню
+[Trim too long ID]
+Обрезать длинный ID
+[* Use Ctrl+click to see popup with the copied text]
+* Ctrl+клик для показа всплывающего окна с текстом
+[Hide contact on 'Ignore all']
+Скрывать при 'Ignore all'
+[Status message]
+Сообщение статуса
+[XStatus title]
+Заголовок хСтатуса
+[XStatus message]
+Сообщение xСтатуса
+[Listening to]
+Слушаю
+[Activity title]
+Заголовок занятия
+[Activity text]
+Текст занятия
+[Show in list]
+Показывать в списке
+[Always visible]
+Всегда видимый
+[Never visible]
+Всегда невидимый
+[Copy to Account]
+Копировать в учётную запись
+[Copy xStatus Message]
+Копировать сообщение ХСтатуса
+[All]
+Все
+[Messages]
+Сообщения
+[URL]
+Ссылка
+[Files]
+Файлы
+[User Online]
+Пользователь в сети
+[Authorization]
+Авторизация
+[You Were Added]
+Вас добавили
+[Typing Notify]
+Набирает текст
+[Please authorize me to add you to my contact list.]
+Разрешите, пожалуйста, добавить вас в список.
+[Do you want to send authorization request\nto new contact?]
+Отправить запрос авторизации\nновому контакту?
+[MenuItemEx]
+Доп. пункты меню
+[Open ignore settings]
+Открыть настройки игнорирования
+[Request authorization]
+Запросить авторизацию
+[Customize]
+Тонкая настройка

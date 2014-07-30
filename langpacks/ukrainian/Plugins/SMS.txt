@@ -1,0 +1,121 @@
+﻿#muuid {cf97fd5d-b911-47a8-af03-d21968b5b894}
+;============================================================
+;  File: SMS.dll
+;  Plugin: SMS
+;  Version: 0.2.5.3
+;  Authors: Richard Hughes, Improved by Ariel Shulman, rewritten by Rozhuk Ivan
+;============================================================
+[Send SMS text messages to mobile phones through the IM networks.]
+Надсилання SMS-повідомлень на мобільні телефони за допомогою IM-мереж.
+[Received SMS]
+Отримане SMS
+[&Reply]
+&Відповісти
+[&Close]
+&Закрити
+[Read Next]
+Наступне
+[From:]
+Від:
+[Message received:]
+Повідомлення прийнято:
+[Number:]
+Номер:
+[Send SMS]
+Надіслати SMS
+[To:]
+Для:
+[Add number to list]
+Додати номер до списку
+[Save number]
+Зберегти номер
+[Multiple >>]
+Кільком >>
+[Enter message:]
+Повідомлення:
+[Chars:]
+Знаки:
+[&Send]
+&Надіслати
+[SMS Message Didn't Send]
+SMS-повідомлення не надіслано
+[&Try again]
+&Повторити
+[&Cancel]
+С&касувати
+[The SMS message send timed out]
+Ліміт часу відправлення SMS
+[SMS Plugin]
+Плагін SMS
+[Beginning]
+початок
+[End]
+кінець
+[Put signature at the:]
+Поставити підпис у:
+[Use Signature]
+Використовувати підпис
+[Show server notifications]
+Показати відповідь сервера
+[Auto popup on new message]
+Автовікно на нове повідомлення
+[Save window position per contact]
+Зберігати позицію вікна поконтактно
+[SMS Message Sent]
+SMS-повідомлення надіслано
+[Message ID:]
+ID повідомлення:
+[Source:]
+Джерело:
+[Network:]
+Оператор:
+[From %s:\r\n\r\n]
+Від %s:\r\n\r\n
+[Events]
+Події
+[SMS message didn't send by %S to %s because: %S]
+SMS-повідомлення по %S для %s не надіслано: %S
+[SMS Message from %s]
+SMS від %s
+[SMS Confirmation from %s]
+SMS підтвердження від %s
+[Received SMS Confirmation]
+Отримане SMS підтвердження
+[View User's History]
+Історія повідомлень
+[Add Number To The Multiple List]
+Додати номер до списку телефонів для відправки
+[Save Number To The User's Details Phonebook]
+Зберегти номер у списку телефонів профілю
+[Show/Hide Multiple List]
+Показує/ховає список телефонів для відправки
+[Shows How Much Chars You've Typed]
+Показує, скільки знаків набрано
+[The SMS message send to %s timed out.]
+Час надсилання SMS для %s вичерпано.
+[The phone number should start with a + and consist of numbers, spaces, brackets and hyphens only.]
+Телефон повинен починатися з "+" і містити лише цифри, пробіли, дужки і тире.
+[Invalid Phone Number]
+Неправильний номер телефону
+[Message is too long, press OK to continue.]
+Повідомлення дуже довге, натисніть OK для продовження
+[Error - Message too long]
+Помилка - повідомлення дуже довге
+[There must be numbers in the list first.]
+У списку повинні бути номери.
+[No Numbers]
+Немає номерів
+[Valid phone numbers are of the form '+(country code)(phone number)'. The contents of the phone number portion is dependent on the national layout of phone numbers, but often omits the leading zero.]
+Правильні номери телефонів мають бути у формі '+(код країни)(номер телефону)'. Вміст частини 'номер телефону' залежить від національних стандартів, але часто перший нуль опускається.
+[Invalid phone number]
+Неправильний номер телефону
+[<< Single]
+<< Одному
+[Send &SMS...]
+Надіслати SMS...
+[&SMS Message]
+Повідомлення SMS
+[Incoming SMS Message]
+Вхідне SMS
+[Incoming SMS Confirmation]
+Підтвердження доставки SMS

@@ -1,0 +1,26 @@
+﻿#muuid {68c36842-3d95-4f4a-ab81-014d6593863b}
+;============================================================
+;  File: Flags.dll
+;  Plugin: Country flags
+;  Version: 0.1.0.4
+;  Authors: H. Herkenrath
+;============================================================
+[Service offering misc country utilities as flag icons and an IP-to-Country database.]
+Dienst stellt verschiedene Länderdienste, wie Flaggen und eine IP-Zu-Land-Datenbank, zur Verfügung.
+;file \plugins\CountryFlags\res\resource.rc
+[Country Flags]
+Länderflaggen
+[Show country flag as &status icon on message window]
+Länderflagge als &Statusicon im Nachrichtenfenster anzeigen
+[Show country flag as &extra image on contact list]
+Länderflagge als &Extra Icon in &Kontaktliste anzeigen
+[Use &IP-to-country database for country detection]
+&IP-Datenbank zur Bestimmung des Landes verwenden
+[Use &unknown flag if the country cannot be determined]
+"&Unbekannt" anzeigen, wenn Land nicht bestimmbar
+;file \plugins\CountryFlags\src\extraimg.cpp
+[Country flag]
+Länderflagge
+;file \plugins\CountryFlags\src\options.cpp
+[Icons]
+Icons

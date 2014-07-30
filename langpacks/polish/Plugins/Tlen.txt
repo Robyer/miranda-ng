@@ -1,0 +1,329 @@
+﻿#muuid {748f8934-781a-528d-5208-001265404ab3}
+;============================================================
+;  File: Tlen.dll
+;  Plugin: Tlen protocol
+;  Version: 2.1.0.0
+;  Authors: Santithorn Bunchua, Adam Strzelecki, Piotr Piastucki
+;============================================================
+[Tlen protocol support for Miranda NG.]
+Wsparcie protokołu Tlen w Mirandzie NG.
+;file \protocols\Tlen\res\tlen.rc
+[Username:]
+Użytkownik:
+[Password:]
+Hasło:
+[Save password]
+Zapisz hasło
+[Create new account]
+Utwórz nowe konto
+[Tlen]
+Tlen
+[Options]
+Opcje
+[Automatically reconnect after unintentional disconnection]
+Automatycznie łącz po niezamierzonym rozłączeniu
+[Leave status message after disconnection]
+Po rozłączeniu zostaw opis
+[Ignore advertisements]
+Ignoruj reklamy
+[Automatically delete contacts not in my roster]
+Automatycznie usuwaj kontakty spoza mojej listy
+[Show offline users with status messages as invisible in contact list]
+Pokazuj kontakty niedostępne z opisami jako niewidoczne na liście kontaktów
+[Enable avatars]
+Włącz obsługę awatarów
+[Send and receive client version information]
+Wysyłaj i odbieraj informacje o wersji klienta
+[Alert policy]
+Polityka alertów
+[Use Nudge plugin]
+Użyj wtyczki Nudge
+[Log alerts as messages]
+Zapisuj alerty jako wiadomości
+[Group chat policy]
+Polityka czatów grupowych
+[Image transfer policy]
+Polityka przesyłania obrazków
+[Voice Chats]
+Rozmowy głosowe
+[Voice chat policy]
+Polityka rozmów głosowych
+[Recording device:]
+Urządzenie nagrywania:
+[Playback device:]
+Urządzenie odtwarzania:
+[Expert Options]
+Opcje zaawansowane
+[Login server:]
+Serwer:
+[Connection Host:]
+Host połączenia:
+[Port:]
+Port:
+[Keep connection alive]
+Utrzymuj połączenie
+[Enable encryption]
+Włącz szyfrowanie
+[Enable Always Visible and Never Visible]
+Włącz Zawsze Widoczny oraz Nigdy Niewidoczny
+[P2P Connections]
+Połączenia P2P
+[Use proxy for incoming connections]
+Używaj proxy dla połączeń przychodzących
+[Proxy type:]
+Typ proxy:
+[Proxy server:]
+Serwer proxy:
+[Proxy requires authorization]
+Proxy wymaga uwierzytelnienia
+[Mail Notification]
+Powiadomienie o poczcie
+[Enable incoming mail notification]
+Włącz powiadomienia o przychodzącej poczcie
+[Colors]
+Kolory
+[Background]
+Tło
+[Text]
+Tekst
+[Delay]
+Wyświetlaj
+[&From Popup plugin]
+&Z wtyczki Popup
+[&Custom]
+&Niestandardowe
+[P&ermanent]
+S&tałe
+[Preview]
+Podgląd
+[Tlen Password]
+Hasło Tlen
+[Cancel]
+Anuluj
+[Nickname:]
+Pseudonim:
+[First name:]
+Imię:
+[Last name:]
+Nazwisko:
+[E-mail:]
+E-mail:
+[Gender:]
+Płeć:
+[Year of birth:]
+Rok urodzenia:
+[City:]
+Miasto:
+[School:]
+Szkoła:
+[Occupation:]
+Zawód:
+[Looking for:]
+Szukam:
+[Voice chats]
+Rozmowy głosowe
+[Publicly visible status]
+Publicznie widoczny status
+[Save changes]
+Zapisz zmiany
+[Avatar]
+Awatar
+[Avatar Options]
+Opcje awatara
+[Public avatar]
+Awatar publiczny
+[Tlen login:]
+Login Tlen:
+[Subscription:]
+Subskrypcja:
+[Software:]
+Oprogramowanie:
+[Version:]
+Wersja:
+[System:]
+System:
+[Personal Information]
+Informacje osobiste
+[Age:]
+Wiek:
+[to]
+Do
+[Extra Search Criteria]
+Dodatkowe Kryteria Wyszukiwania
+[Status:]
+Status:
+[Plan:]
+Plan:
+[Tlen Voice Chat]
+Rozmowa głosowa Tlen
+[Quality]
+Jakość
+[In]
+Wejście
+[Out]
+Wyjście
+[Finish]
+Zakończ
+[Tlen Voice Chat Invitation]
+Zaproszenie do rozmowy głosowej w Tlen
+[&Accept]
+&Akceptuj
+[From:]
+Od:
+[The following invitation to join a voice chat is received.]
+Otrzymano następujące zaproszenie do dołączenia do rozmowy głosowej.
+;file \protocols\Tlen\src\tlen.cpp
+[Protocol icon]
+Ikona protokołu
+[Tlen inbox]
+Skrzynka pocztowa Tlen
+[Group chats]
+Rozmowy grupowe
+[Tlen chats]
+Czaty Tlen
+[Voice chat]
+Rozmowa Głosowa
+[Microphone]
+Mikrofon
+[Speaker]
+Głośniki
+[Send image]
+Wyślij obrazek
+[Incoming mail]
+Przychodząca wiadomość e-mail
+[Alert]
+Alert
+[Multi-User Conference]
+Konferencja
+[Tlen Mail]
+Poczta Tlen
+[Send picture]
+Wyślij obrazek
+[Voice Chat]
+Rozmowa głosowa
+[Request authorization]
+Poproś o autoryzację
+[Grant authorization]
+Udziel autoryzacji
+;file \protocols\Tlen\src\tlen_avatar.cpp
+[Cannot create avatars cache directory. ERROR: %d: %s\n%s]
+Nie można utworzyć folderu cache awatarów. BŁĄD: %d: %s\n%s
+[Cannot save new avatar file "%s" Error:\n\t%s (Error: %d)]
+Nie można zapisać pliku nowego awataru "%s". Błąd:\n\t%s (Błąd: %d)
+[Error while setting avatar on Tlen account (no response)]
+Błąd podczas ustawiania awatara na koncie Tlen (brak odpowiedzi)
+[Error while setting avatar on Tlen account (invalid response)]
+Błąd podczas ustawiania awatara na koncie Tlen (nieprawidłowa odpowiedź)
+[Error while setting avatar on Tlen account]
+Błąd podczas ustawiania awatara na koncie Tlen
+;file \protocols\Tlen\src\tlen_file.cpp
+[1 File]
+1 Plik
+[%d Files]
+%d Plików
+;file \protocols\Tlen\src\tlen_iqid.cpp
+[Authentication failed for %s@%s.]
+Autoryzacja nieudana dla %s@%s.
+[Tlen Authentication]
+Autoryzacja Tlen
+;file \protocols\Tlen\src\tlen_opt.cpp
+[General]
+Ogólne
+[Advanced]
+Zaawansowane
+[Notifications]
+Powiadomienia
+[Network]
+Protokoły
+[These changes will take effect the next time you connect to the Tlen network.]
+Te zmiany wejdą w życie po ponownym połączeniu się z siecią Tlen.
+[Tlen Protocol Option]
+Opcja protokołu Tlen
+[Accept all alerts]
+Akceptuj wszystkie alarmy
+[Ignore alerts from unauthorized contacts]
+Ignoruj alarmy od nieautoryzowanych kontaktów
+[Ignore all alerts]
+Ignoruj wszystkie alarmy
+[Always ask me]
+Zawsze pytaj
+[Accept invitations from authorized contacts]
+Akceptuj zaproszenia od autoryzowanych kontaktów
+[Accept all invitations]
+Akceptuj wszystkie zaproszenia
+[Ignore invitations from unauthorized contacts]
+Ignoruj zaproszenia od nieautoryzowanych kontaktów
+[Ignore all invitation]
+Ignoruj wszystkie zaproszenia
+[Accept all images]
+Akceptuj wszystkie obrazki
+[Ignore images from unauthorized contacts]
+Ignoruj obrazki od nieautoryzowanych kontaktów
+[Ignore all images]
+Ignoruj wszystkie obrazki
+[<Last message>]
+<Ostatni opis>
+[Forwarding]
+Przekierowanie
+[%S mail]
+%S wiadomość
+;file \protocols\Tlen\src\tlen_picture.cpp
+[Image sent file://%s]
+Wysłany obrazek://%s
+[Image received file://%s]
+Otrzymany obrazek://%s
+;file \protocols\Tlen\src\tlen_svc.cpp
+[Tlen login]
+Logowanie Tlen
+[You need to be connected to Tlen account to set avatar.]
+Musisz być połączony z kontem Tlen aby móc ustawić awatar.
+;file \protocols\Tlen\src\tlen_thread.cpp
+[Enter password for %s]
+Wprowadź hasło dla %s
+[Tlen Connection Error]
+Błąd połączenia Tlen
+[%s Web Messages]
+%s wiadomości w przeglądarce
+[Web message]
+Wiadomość w przeglądarce
+[From]
+Od
+[E-mail]
+E-mail
+[An alert has been received.]
+Otrzymano alert.
+[Private conference]
+Prywatna konferencja
+[%s mail]
+%s mail
+[Subject]
+Temat
+;file \protocols\Tlen\src\tlen_userinfo.cpp
+[Account]
+Konto
+[both]
+Obustronna
+[from]
+Od
+[none]
+brak
+[not on roster]
+nie na liście
+;file \protocols\Tlen\src\tlen_voice.cpp
+[...Connecting...]
+...Łączenie...
+[...Waiting for connection...]
+...Oczekuje na połączenie...
+[...Finished...]
+...Zakończono...
+[...Error...]
+...Błąd...
+[...Denied...]
+...Odmówiono...
+[Default]
+Domyślny
+;file \protocols\Tlen\src\tlen_ws.cpp
+[%s connection]
+Połączenie %s
+[%s SOCKS connection]
+%s połączenie SOCKS

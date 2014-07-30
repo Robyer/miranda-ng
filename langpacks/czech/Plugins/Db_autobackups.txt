@@ -1,0 +1,99 @@
+﻿#muuid {81c220a6-0226-4ad6-bfca-217b17a16053}
+;============================================================
+;  File: Db_autobackups.dll
+;  Plugin: Db autobackuper
+;  Version: 0.0.0.10
+;  Authors: chaos.persei, sje, Kildor, Billy_Bons
+;============================================================
+[Database autobackuper plugin.]
+Doplněk pro zálohování databáze.
+;file \plugins\Db_autobackups\res\db_autobackups.rc
+[Backup progress]
+Průběh zálohování
+[Cancel]
+Zrušit
+[Automatic backups]
+Automatické zálohování
+[Backup NOW]
+Zazálohovat
+[Disabled]
+Vypnuto
+[When Miranda starts]
+Při spuštění Mirandy
+[When Miranda exits]
+Při ukončení Mirandy
+[Every:]
+Každé:
+[Number of backups to keep:]
+Počet uložených kopií:
+[Backup to folder:]
+Složka pro zálohování profilů:
+[Browse...]
+Procházet...
+[Go to the "Customize -> Folders" to change settings]
+Nastavení změníte v sekci Vlastní úpravy -> Složky
+[Compress backup to zip-archive]
+Komprimovat zálohu do zip-archivu
+[Disable progress bar]
+Vypnout ukazatel průběhu
+[Disable popups]
+Vypnout oznámení
+;file \plugins\Db_autobackups\src\backup.cpp
+[Miranda NG database]
+Databáze Mirandy NG
+[Created by:]
+Vytvořeno:
+[Miranda NG databases]
+Databáze Mirandy NG
+[Compressed Miranda NG databases]
+Komprimované databáze Mirandy NG
+[All files]
+Všechny soubory
+[Backup in progress]
+Probíhá zálohování
+[Copying database file...]
+Kopírování souborů s profilem...
+[Database backed up]
+Databáze zálohována
+;file \plugins\Db_autobackups\src\main.cpp
+[Backup profile]
+Zazálohovat profil
+[Save profile as...]
+Uložit profil jako...
+[Database backups]
+Zálohování databáze
+[Backup folder]
+Složka pro zálohování profilů
+[Database]
+Databáze
+;file \plugins\Db_autobackups\src\options.cpp
+[path to Miranda root folder]
+cesta ke kořenové složce Mirandy
+[path to current Miranda profile]
+cesta k aktuálnímu profilu Mirandy
+[name of current Miranda profile (filename, without extension)]
+jméno aktuálního profilu Mirandy (jméno souboru bez přípony)
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%]
+navrátí řetězec %miranda_profile%\\Profiles\\%miranda_profilename%
+[same as environment variable %APPDATA% for currently logged-on Windows user]
+stejné jako systémová proměnná %APPDATA% pro aktuálně přihlášeného uživatele Windows
+[username for currently logged-on Windows user]
+jméno pro aktuálně přihlášeného uživatele Windows
+["My Documents" folder for currently logged-on Windows user]
+složka "Dokumenty" pro aktuálně přihlášeného uživatele Windows
+["Desktop" folder for currently logged-on Windows user]
+složka "Plocha" pro aktuálně přihlášeného uživatele Windows
+[any environment variable defined in current Windows session (like %systemroot%, %allusersprofile%, etc.)]
+nějaká systémová proměnná definovaná v aktuální relaci Windows (jako %systemroot%, %allusersprofile% atd.)
+[Variables]
+Proměnné
+[days]
+dnů
+[hours]
+hodin
+[minutes]
+minut
+[Select backup folder]
+Vyberte složku pro zálohování profilů
+[Error creating backup folder]
+Chyba při vytváření složky pro zálohování

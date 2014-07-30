@@ -1,0 +1,148 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "..\src\resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <winres.h>
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPT_SMILEYS DIALOGEX 0, 0, 320, 256
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Smiley categories",IDC_STATIC,6,3,310,102
+    CONTROL         "",IDC_CATEGORYLIST,"SysTreeView32",TVS_DISABLEDRAGDROP | TVS_SHOWSELALWAYS | TVS_CHECKBOXES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,14,13,104,83
+    CONTROL         "Specify smiley pack for each category",IDC_USESTDPACK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,124,11,165,11
+    EDITTEXT        IDC_FILENAME,124,25,185,12,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "...",IDC_BROWSE,296,11,13,11
+    LTEXT           "Name:",IDC_STATIC,125,42,34,8
+    LTEXT           "",IDC_LIBNAME,163,41,146,11,SS_SUNKEN | SS_PATHELLIPSIS
+    LTEXT           "Author:",IDC_STATIC,125,56,34,8
+    LTEXT           "",IDC_LIBAUTHOR,163,55,100,11,SS_SUNKEN | SS_PATHELLIPSIS
+    LTEXT           "Version:",IDC_STATIC,125,70,34,8
+    LTEXT           "",IDC_LIBVERSION,163,70,100,11,SS_SUNKEN | SS_PATHELLIPSIS
+    PUSHBUTTON      "Preview",IDC_SMLOPTBUTTON,270,55,37,25
+    EDITTEXT        IDC_NEWCATEGORY,126,85,129,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_ADDCATEGORY,263,84,17,15
+    PUSHBUTTON      "-",IDC_DELETECATEGORY,290,84,17,15
+    GROUPBOX        "Display",IDC_STATIC,6,106,310,54
+    CONTROL         "Replace only smileys surrounded by spaces",IDC_SPACES,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,16,115,198,12,WS_EX_RTLREADING
+    CONTROL         "Scale smiley to text height",IDC_SCALETOTEXTHEIGHT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,128,147,10
+    CONTROL         "Disable custom smileys",IDC_DISABLECUSTOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,138,147,10
+    CONTROL         "High quality smiley scaling",IDC_HQSCALING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,148,148,10
+    CONTROL         "Animate",IDC_ANIMATEDLG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,218,116,91,10
+    EDITTEXT        IDC_MAXCUSTSMSZ,165,128,30,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "",IDC_MAXCUSTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,182,129,11,12
+    LTEXT           "Maximum 'Custom smiley' height",IDC_STATIC,198,132,115,8
+    EDITTEXT        IDC_MINSMSZ,165,144,30,14,ES_RIGHT | ES_NUMBER
+    CONTROL         "",IDC_MINSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,182,145,11,12
+    LTEXT           "Minimum smiley height",IDC_STATIC,198,148,115,8
+    GROUPBOX        "Smiley selector",IDC_STATIC,6,160,310,46
+    CONTROL         "Surround inserted smiley with spaces",IDC_APPENDSPACES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,171,235,10
+    CONTROL         "Use first smiley for selection size",IDC_SCALEALLSMILEYS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,182,209,10
+    CONTROL         "IEView style window",IDC_IEVIEWSTYLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,193,198,10
+    CONTROL         "",IDC_SELCLR,"ColourPicker",WS_TABSTOP,260,170,50,11
+    CONTROL         "Animate",IDC_ANIMATESEL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,218,193,91,10
+    GROUPBOX        "Input area",IDC_STATIC,6,208,145,42
+    CONTROL         "Enable smileys",IDC_INPUTSMILEYS,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,15,219,130,12
+    CONTROL         "Don't replace at cursor",IDC_DCURSORSMILEY,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,15,231,130,12
+    GROUPBOX        "Built-in message dialog support",IDC_STATIC,154,208,162,42
+    CONTROL         "Disable",IDC_PLUGENABLED,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,240,217,69,12
+    COMBOBOX        IDC_SMLBUT,159,230,60,35,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Smiley button",IDC_STATIC,161,219,72,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPT_SMILEYS, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 316
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 250
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SMILINGICON         ICON                    "smiley.ICO"
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "..\\src\\resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include <winres.h>\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

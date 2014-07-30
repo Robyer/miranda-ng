@@ -1,0 +1,141 @@
+﻿#muuid {a0138fc6-4c52-4501-af93-7d3e20bcae5b}
+;============================================================
+;  File: DbChecker.dll
+;  Plugin: Database checker
+;  Version: 0.95.0.3
+;  Authors: George Hazan
+;============================================================
+[Miranda NG Database Checker.]
+Плагин проверки БД Miranda NG.
+[Welcome to the Miranda Database Wizard]
+Добро пожаловать в мастер базы данных
+[Using this Wizard you can compact your Miranda profile database to remove dead space created during normal usage, as well as repair a large number of issues that could affect the database.]
+Используя этот мастер, вы можете уменьшить размер профиля удалением "мёртвого" пространства.
+[To continue, click Next.]
+Нажмите "Далее" для продолжения.
+[This program is licensed under the terms of the GNU General Public License.]
+Программа лицензирована под условиями GNU General Public License.
+[Miranda Database Tool]
+Инструмент базы Miranda NG
+[< &Back]
+< &Назад
+[&Next >]
+&Далее >
+[Cancel]
+Отмена
+[Select Miranda Profile]
+Выбор профиля Miranda NG
+[You can choose the Miranda profile database to compact or repair.]
+Выберите профиль Miranda NG для сжатия или восстановления.
+[Select the &profile database from the list below. If the database you wish to use is not listed here then click Other to browse your computer.]
+Выберите &профиль базы в списке. Если его нет в списке, нажмите "Ещё..." для поиска на компьютере.
+[&File:]
+&Файл:
+[&Other...]
+&Ещё...
+[Error Opening Database]
+Ошибка открытия базы
+[There was an error opening the profile database given.]
+Ошибка открытия базы профиля.
+[Click Next to try opening the file again, or click Back to select a new profile database to manipulate.]
+Нажмите Далее, чтобы повторить чтение файла, или нажмите Назад, чтобы выбрать другой профиль базы данных.
+[The file may be in use by a currently running copy of Miranda. Exit any running Mirandas and click Next to retry.]
+Файл уже используется другой копией Miranda NG. Закройте все открытые копии и нажмите "Далее" для повтора.
+[File Access Options]
+Настройки доступа
+[You can select low level options to determine how the database is processed.]
+Вы можете выбрать уровень изменений базы.
+[Create backup]
+Резервная копия
+[Creates a backup copy of the database before any of the requested changes are made.]
+Создаёт резервную копию базы перед любым изменением.
+[Aggressively find corruption]
+Агрессивный поиск повреждений
+[Scans the database for data that is not linked to any other data. This requires more disk space and more time, so is only required if you suspect corruption.]
+Сканирует базу для поиска непривязанных данных. Требуется больше времени и места на диске. Используйте, только если вы уверены в повреждениях.
+[Check consistency only]
+Только проверить целостность
+[Just checks that the database is valid, without writing anything to the disk.]
+Только проверка базы, без записи чего-либо на диск.
+[Cleaning Options]
+Опции очистки
+[You can choose to remove information from the database while it is being processed.]
+Вы можете удалить информацию из базы во время процесса.
+[Erase all histories]
+Удалить всю историю
+[Removes all the saved history for all contacts in the database.]
+Удаляет все сохранённые записи в истории для всех контактов.
+[Mark all events read]
+Пометить как прочитанные
+[Marks all the history events as read. This will rectify any problems with old messages always appearing in the message window log box.]
+Пометить все события как прочитанные. Это исправит проблемы со старыми сообщениями, всегда отображаемыми в окне сообщения
+[Convert old Unicode messages to UTF8]
+Конвертировать старые Unicode сообщения в UTF8
+[Converts history messages in pre-0.7 format (ANSI+UCS2) to the new UTF8 format supported by 0.7. Saves the database space in most cases (recommended).]
+Конвертирует историю сообщений из <0.7 формата (ANSI+UCS2) в новый UTF8 формат. В большинстве случаев помогает сохранить место на диске (рекомендуется).
+[Working...]
+Выполнение...
+[Please wait while the requested operations are being performed.]
+Подождите, пока все операции будут завершены.
+[Finished!]
+Закончено
+[All tasks have been completed.]
+Все операции завершены.
+[Launch Miranda with this profile]
+Запустить Miranda NG с этим профилем
+[Launches Miranda with the profile that was just worked on.]
+Запускает Miranda NG с предыдущим профилем
+[Backup:]
+Резерв:
+[The processing of the database has been completed. Click Next to return to the start of the wizard to select another database to check, or click Finish to exit the wizard.]
+Проверка базы завершена. Нажмите "Далее" для возврата в мастер и проверки другой базы, или "Завершить" для выхода.
+[&Finish]
+&Завершить
+[Click Next to continue]
+Нажмите "Далее" для продолжения
+[Processing has not yet completed, if you cancel now then the changes that have currently been made will be rolled back and the original database will be restored. Do you still want to cancel?]
+Обработка ещё не завершена; если вы отмените её сейчас, то изменения не будут применены к оригинальной базе данных. Вы хотите отменить?
+[Processing has not yet completed, if you go back now then the changes that have currently been made will be rolled back and the original database will be restored. Do you still want to go back?]
+Обработка ещё не завершена; если вы перейдёте назад сейчас, то изменения не будут применены к оригинальной базе данных. Вы хотите перейти назад?
+[Database Checker cannot find a suitable database plugin to open '%s'.]
+Плагин проверки не может найти подходящего драйвера БД для открытия '%s'.
+[Error]
+Ошибка
+[Database driver '%s' doesn't support checking.]
+Драйвер БД '%s' не поддерживает проверку.
+[Database]
+Профиль
+[Total size]
+Размер
+[Miranda Databases (*.dat)]
+Базы Miranda NG (*.dat)
+[All Files]
+Все файлы
+[Errors were encountered, however you selected not to backup the original database. It is strongly recommended that you do so in case important data was omitted. Do you wish to keep a backup of the original database?]
+Были найдены ошибки, но вы не сохранили резервную копию. Строго рекомендуется её сделать, так как важные данные могут быть утеряны. Вы хотите сохранить резервную копию оригинальной базы данных?
+[%s\\Backup of %s]
+%s\\Резервная копия %s
+[%s\\Backup (%d) of %s]
+%s\\Резервная копия (%d) %s
+[Unable to rename original file]
+Невозможно переименовать оригинальный файл
+[Unable to delete original file]
+Невозможно удалить оригинальный файл
+[Unable to rename output file]
+Невозможно переименовать файл на выходе
+[Database worker thread activated]
+Активировано восстановление работоспособности базы
+[<check only>]
+<только проверить>
+[ (Output).dat]
+ (Выходной).dat
+[Can't create output file (%u)]
+Невозможно создать файл на выходе (%u)
+[Processing aborted by user]
+Обработка отменена пользователем
+[Elapsed time: %d sec]
+Затрачено времени: %d сек.
+[All tasks completed but with errors (%d)]
+Все задачи завершены, но с ошибками (%d шт.)
+[All tasks completed successfully]
+Все задачи завершены

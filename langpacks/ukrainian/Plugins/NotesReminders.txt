@@ -1,0 +1,311 @@
+﻿#muuid {842a6668-f9da-4968-bfd7-d2bd9df848ee}
+;============================================================
+;  File: NotesReminders.dll
+;  Plugin: Sticky Notes & Reminders
+;  Version: 0.0.5.1
+;  Authors: Joe Kucera, Lubomir Kolev Ivanov, Georg Fischer
+;============================================================
+[Sticky Notes & Reminders Implementation for Miranda NG.]
+Нотатки та нагадування для Miranda NG.
+[Sticky Notes Options]
+Налаштування
+[Default Note Size]
+Розмір нотатки
+[Width (Pixels)]
+Ширина
+[Height (Pixels)]
+Висота
+[Notes Appearance]
+Вигляд нотаток
+[Show Scrollbars]
+Прокрутка
+[Show Buttons]
+Кнопки
+[Title Date]
+Дата
+[Title Time]
+Час
+[Startup options]
+Налаштування запуску
+[Hide notes at startup]
+Ховати нотатки на старті
+[Add Contact list menu items]
+Пункт у меню контакту
+[(Requires Miranda restart)]
+(Вимагає перезапуск Miranda NG)
+[Reminder options]
+Налаштування нагадувань
+[Add Reminder closes dialog]
+Діалог закриття нагадувань
+[Use MCI to play alert sounds]
+Використовувати драйвер MCI
+[Note transparency]
+Прозорість нотаток
+[Send Reminders through E-mail/SMS:]
+Нагадування на E-mail/SMS:
+[Open links with this program instead:]
+Відкривати посилання:
+[Reset to defaults]
+Скинути
+[(Using MCI allows different sounds to be played simultaneously, may not be needed or desired when a custom sound plugin is installed.)]
+Дозволяє різним звукам програватися одночасно (можливі небажані наслідки, якщо встановлений плагін користувальницьких звуків.)
+[Add Reminder]
+Додати нагадування
+[Trigger On Time && Date:]
+Дата &і час запуску:
+[Date]
+Дата
+[Time]
+Час
+[Reminder Note:]
+Нагадування:
+[None]
+Немає
+[Daily]
+Днів
+[Weekly]
+Тижнів
+[Monthly]
+Місяців
+[Repeat Alert Sound]
+Повторювати сигнал
+[Use Sound]
+Використовувати сигнал
+[&Add Reminder]
+&Додати
+[&Close]
+&Закрити
+[&View Reminders]
+&Перегляд нагадувань
+[Reminder]
+Нагадування
+[After:]
+Після:
+[On Time && Date:]
+Дата &і час
+[&Remind Again]
+&Нагадати ще раз
+[&Create Note]
+&Створити нотатку
+[&Dismiss]
+Прибрати
+[Reminders]
+Нагадування
+[Add New]
+Додати...
+[Edi&t Reminder]
+Ред&агувати нагадування
+[New &Reminder]
+Нове &нагадування
+[&Delete Reminder]
+&Видалити нагадування
+[D&elete All Reminders]
+В&идалити всі нагадування
+[&Hide Note]
+&Сховати нотатку
+[&Always On Top]
+&Завжди зверху
+[&New Note]
+Нова нотатка
+[&Delete Note]
+&Видалити нотатку
+[Appearance]
+Зовнішній вигляд
+[Background Color]
+Колір фону
+[Custom...]
+Змінити...
+[Reset]
+Скинути
+[Text Color]
+Колір тексту
+[Font]
+Шрифт
+[Paste Title]
+Вставити заголовок
+[Reset Title]
+Скинути заголовок
+[Undo]
+Відкотити
+[&Copy]
+&Копіювати
+[&Paste]
+&Вставити
+[C&ut]
+В&ирізати
+[C&lear]
+О&чистити
+[&View Notes]
+&Показати нотатки
+[&Bring All To Front]
+Перемістити на передній план
+[Edi&t Note]
+Редагува&ти нотатку
+[&Visible]
+&Видимість
+[Always &On Top]
+Завжди &зверху
+[Delete &All Notes]
+Видалити &всі нотатки
+[&Show / Hide Notes]
+&Показати/Сховати нотатки
+[Notes & Reminders]
+Нотатки і нагадування
+[New Note]
+Нова нотатка
+[Toggle Notes Visibility]
+Перемкнути видимість нотаток
+[Bring All Notes to Front]
+Перемістити нотатки на передній план
+[New Reminder]
+Нове нагадування
+[Are you sure you want to delete all notes?]
+Впевнені, що хочете видалити усі нотатки?!
+[Are you sure you want to delete all reminders?]
+Впевнені, що хочете видалити усі нагадування?!
+[Delete All Notes]
+Видалити всі нотатки
+[Show/Hide Notes]
+Показати/Сховати нотатки
+[On Top Caption Icon]
+Прикріпити
+[Delete All Reminders]
+Видалити всі нагадування
+[View Reminders]
+Перегляд нагадувань
+[Not on Top Caption Icon]
+Відчепити
+[Hide Note Icon]
+Сховати нотатку
+[Remove Note Icon]
+Видалити нотатку
+[Reminder Icon]
+Нагадування
+[Bring All to Front]
+Перемістити на передній план
+[Play Sound Icon]
+Програти звук
+[View Notes]
+Переглянути нотатки
+[Sticky Notes]
+Нотатки
+[Plugins]
+Плагіни
+[Add New Note]
+Додати нотатку...
+[Add New Reminder]
+Додати нагадування...
+[Alerts]
+Сигнал
+[Reminder triggered]
+Спрацьовування нагадування
+[Reminder triggered (Alternative 1)]
+Спрацьовування нагадування (Альтернатива 1)
+[Reminder triggered (Alternative 2)]
+Спрацьовування нагадування (Альтернатива 2)
+[Notes && Reminders]
+Нотатки &і нагадування
+[New &Note]
+Нова &нотатка
+[Vie&w Notes]
+Пере&гляд нотаток
+[&Delete All Notes]
+&Видалити всі нотатки
+[&Bring All to Front]
+Перемістити на передній план
+[Miranda could not load the Note & Reminders plugin, RICHED20.DLL is missing. If you are using Windows 95 or WINE please make sure you have riched20.dll installed. Press 'Yes' to continue loading Miranda.]
+Неможливо завантажити плагін Notes & Reminders, оскільки RICHED20.DLL відсутній. Якщо ви використовуєте Windows 95 або WINE, будь ласка, переконайтеся, що riched20.dll встановлено. Натисніть "Так" для продовження.
+[Black]
+Чорний
+[Maroon]
+Бордовий
+[Green]
+Зелений
+[Olive]
+Оливковий
+[Navy]
+Темно-синій
+[Purple]
+Пурпурний
+[Teal]
+Синьо-зелений
+[Gray]
+Сірий
+[Silver]
+Срібний
+[Red]
+Червоний
+[Orange]
+Жовтогарячий
+[Lime]
+Лайм
+[Yellow]
+Жовтий
+[Blue]
+Синій
+[Fuchsia]
+Фуксія
+[Aqua]
+Блакитний
+[White]
+Білий
+[Are you sure you want to delete this note?]
+Впевнені, що хочете видалити нотатку?
+[Visible]
+Видима
+[Top]
+Зверху
+[Notes]
+Нотатка
+[Note text]
+Нотатка
+[Date/Title]
+Дата/заголовок
+[Sticky Note Caption]
+Заголовок
+[Sticky Note Background Color]
+Фон
+[Sticky Note Body]
+Вікно
+[Executable Files\0*.exe\0All Files\0*.*\0\0]
+Виконувані файли\0*.exe\0Усі файли\0*.*\0\0
+[Select Executable]
+Вибрати програму...
+[Minutes]
+хвилин
+[Hours]
+годин
+[Hour]
+годину
+[Day]
+день
+[Days]
+днів
+[Week]
+тиждень
+[The specified time is invalid due to begin of daylight saving (summer time).]
+Зазначений час недійсний через перехід на літній час.
+[The specified time is invalid.]
+Зазначений час недійсний.
+[The specified time offset is invalid.]
+Вказане зміщення часу неправильне.
+[&Update Reminder]
+&Оновити нагадування
+[Every]
+Кожні
+[Seconds]
+секунд
+[Never]
+Не використовувати
+[Default]
+Стандартний
+[Alternative 1]
+Альтернативний 1
+[Alternative 2]
+Альтернативний 2
+[Reminder text]
+Нагадування
+[Date of activation]
+Дата активації
+[Are you sure you want to delete this reminder?]
+Впевнені, що хочете видалити це нагадування?

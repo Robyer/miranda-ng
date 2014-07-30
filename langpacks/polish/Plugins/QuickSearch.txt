@@ -1,0 +1,276 @@
+﻿#muuid {e4058506-6494-4d60-9cf4-40bf545f78bd}
+;============================================================
+;  File: QuickSearch.dll
+;  Module: Quick Search
+;  Version: 1.4.2.0
+;  Authors: Awkward
+;============================================================
+[This plugin allows you to quick search for nickname, firstname, lastname, email, uin in your contact list. And now you may add any setting to display - for example user's version of Miranda, group or city.]
+Pozwala szybko znaleźć kontakty z listy kontaktów poprzez nick, imię, e-mail, UIN, itp.
+[Quick Search]
+Szybkie szukanie
+[Title]
+Nazwa
+[Module/InfoType]
+Moduł/TypInfo
+[Setting]
+Ustawienia
+[Reload]
+Odśwież
+[New]
+Nowy
+[Up]
+Do góry
+[Down]
+W dół
+[Delete]
+Usuń
+[Default]
+Domyślny
+[Additional Options]
+Dodatkowe opcje
+[Tool Window Style]
+Styl okna narzędzi
+[Draw Grid]
+Rysuj kratkę
+[Save search pattern]
+Zapisz wzorzec szukania
+[Auto Close mode]
+Tryb autozamykania
+[Sort by Status]
+Sortuj wg statusu
+[Show Client Icons]
+Pokaż ikony klienta
+[Settings]
+Ustawienia
+[Title:]
+Nazwa:
+[Account]
+Konto
+[Gender]
+Płeć
+[UserID]
+UserID
+[Nickname]
+Nick
+[First name]
+Imię
+[Last name]
+Nazwisko
+[Group]
+Grupa
+[Container]
+Kontener
+[E-mail]
+E-mail
+[Client ID]
+Klient
+[Ext IP]
+IP
+[LastSeen]
+Ostatnio widziany
+[Last Event]
+Ostatnie zdarzenie
+[Online since]
+Dostępny Od
+[Metacontact]
+Metakontakt
+[Event count]
+Liczba zdarzeń
+[Contact add time]
+Czas dodania kontaktu
+[Type:]
+Typ:
+[DB setting]
+Ustawienie bazy danych
+[Script]
+Skrypt
+[Service]
+Usługa
+[Contact info]
+Dane użytkownika
+[Other]
+Inne
+[Data type:]
+Typ danych:
+[Byte]
+BYTE
+[Word]
+WORD
+[DWord]
+DWord
+[Signed]
+Podpisane
+[As hex]
+Jako hex
+[String]
+STRING
+[IP]
+IP
+[TimeStamp]
+Sygnatura czasu
+[Module:]
+Moduł:
+[Setting:]
+Ustawienia:
+[Service:]
+Usługa:
+[Param]
+Param
+[number value]
+wartość
+[ANSI string]
+ANSI
+[Unicode string]
+Unicode
+[current contact]
+obecny kontakt
+[last result]
+ostatni wynik
+[parameter]
+parametry
+[Result]
+Wynik
+[Result type]
+Typ wyniku
+[Free memory]
+Wolna pamięć
+[Save]
+Zapisz
+[All]
+Wszystko
+[Close]
+Zamknij
+[Refresh]
+Odśwież
+[QuickSearch]
+Szybkie szukanie
+[Show Offline contacts]
+Pokaż Rozłączonych
+[New column]
+Nowa kolumna
+[Save Item]
+Zapisz
+[InfoType:]
+TypInfo:
+[New Column]
+Nowa kolumna
+[Column Up]
+Do góry
+[Column Down]
+W dół
+[Delete Column]
+Usuń kolumnę
+[Male]
+Mężczyzna
+[Female]
+Kobieta
+[Contacts]
+Kontakty
+[ContactInfo]
+O kontakcie
+[LastEvent]
+Ostatnie zdarzenie
+[EventCount]
+EventCount
+[Script Editor]
+Edytor Skryptów
+[Normal background]
+Normalne tło
+[Normal foreground]
+Normalne tło pierwszoplanowe
+[Odd background]
+Inne tło
+[Odd foreground]
+Inne tło pierwszoplanowe
+[Disabled account background]
+Wyłącz tło konta
+[Disabled account foreground]
+Wyłącz tło pierwszoplanowe konta
+[Deleted account background]
+Usuń tło konta
+[Deleted account foreground]
+Usuń tło pierwszoplanowe konta
+[Hidden contact background]
+Ukryj tło kontaktu
+[Hidden contact foreground]
+Ukryj tło pierwszoplanowe kontaktu
+[Metacontact background]
+Tło metakontaktów
+[Metacontact foreground]
+Tło pierwszoplanowe metakontaktów
+[Subcontact background]
+Tło subkontaktów
+[Subcontact foreground]
+Tło pierwszoplanowe subkontaktów
+[&Delete]
+&Usuń
+[&Copy]
+&Kopiuj
+[C&onvert to Meta]
+K&onwertuj do Meta
+[Attach to &Tab container]
+Dołącz do kontenera &zakładki
+[&Move to Group]
+&Przenieś do grupy
+[Some of selected contacts in different metacontacts already]
+Niektóre z wybranych kontaktów są już w różnych metakontaktach
+[Do you really want to delete selected contacts?]
+Czy na pewno chcesz usunąć zaznaczone kontakty?
+[Warning]
+Ostrzeżenie
+[One or more contacts in same Meta already. Try to convert anyway?]
+Jeden lub więcej kontaktów jest już w tym samym metakontakcie. Konwertować mimo to?
+[Editing of column ]
+Edycja kolumny\s
+[%i users found (%i) Online: %i]
+Znaleziono %i kontaktów (%i) Dostępnych: %i
+[ users found (]
+ znalezionych (
+[) Online: ]
+) Dostępnych:\s
+[Online]
+Dostępny
+[deleted]
+usunięte
+[off]
+wył.
+[active]
+aktywny
+[Colorize]
+Koloruj
+[QuickSearch window hotkey]
+Otwórz okno szybkiego szukania
+[Column content is simple database setting.]
+Zawartość kolumny jest prostym ustawieniem bazy danych.
+[Column content is script result.\r\nMore help from "Help" button in script dialog.]
+Zawartość kolumny jest wynikiem skryptu.\r\nWięcej informacji pod przyciskiem "Pomoc" w oknie skryptu.
+[Column content is contact property (see list). Can be empty.]
+Zawartość kolumny jest właściwością kontaktu (zobacz listę). Może być pusta.
+[Content is last online time.]
+Zawartość to ostatni czas dostępności.
+[Content is time of last contact event.]
+Zawartość to czas ostatniego zdarzenia.
+[Content is metacontact info.]
+Zawartość to informacje o metakontakcie.
+[Content is count of ALL contact events (not messages only)]
+Zawartość to liczba wszystkich zdarzeń kontaktu (nie tylko wiadomości)
+[Other info]
+Inne informacje
+[Change setting through QS]
+Zmień ustawienie przez QS
+[default]
+domyślny
+[Selected]
+Wybrano
+[contacts]
+kontakty
+[Unknown]
+Nieznany
+[Stay on Top]
+Zawsze na wierzchu
+; these lines are not present in the sources, but they are present in compiled plugin
+[Text Editor]
+Edytor tekstu
+[Wrap Text]
+Zawijaj tekst

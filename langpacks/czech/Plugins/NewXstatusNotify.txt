@@ -1,0 +1,394 @@
+﻿#muuid {ebf19652-e434-4d79-9897-91a0ff226f51}
+;============================================================
+;  File: NewXstatusNotify.dll
+;  Plugin: xStatus notify
+;  Version: 1.4.0.9
+;  Authors: Luca Santarelli, Vasilich, yaho
+;============================================================
+[Notifies you when a contact changes his/her (X)status or status message.]
+Oznamuje, když si kontakt změní svůj stav, rozšířený stav nebo zprávu stavu.
+;file \plugins\NewXstatusNotify\res\resource.rc
+[Notify when a contact changes to one of these statuses]
+Oznámení změny stavu ostatních kontaktů
+[Online]
+Online
+[Offline]
+Offline
+[Invisible]
+Neviditelný
+[Free for chat]
+Mám volno
+[Away]
+Na chvíli pryč
+[NA]
+Nejsem tady
+[Occupied]
+Nemám čas
+[DND]
+Nerušit!
+[Out to lunch]
+Jsem na obědě
+[On the phone]
+Mám telefon
+[Always when changing from offline]
+Vždy při přechodu ze stavu offline
+[Plugin activation]
+Aktivace doplňku
+[Automatically turn off Popups and Sounds on status change]
+Automaticky vypnout oznámení a zvuky při změně stavu
+[Configure]
+Nastavit...
+[Notify me for people not in my Contact List]
+Oznamovat i pro kontakty mimo můj seznam kontaktů
+[Blink icon in the system tray]
+Blikat v oznamovací části lišty
+[Use status icon]
+Použít ikonu stavu
+[Use individual sounds]
+Použít individuální zvuky
+[Log to file]
+Uložit do souboru
+[Enable]
+Aktivovat
+[Extra status]
+Rozšířený stav
+[Open]
+Otevřít
+[Status message]
+Zpráva stavu
+[Log in history]
+Uložit do historie
+[Log status changes in history]
+Ukládat změny stavů do historie
+[Only when message window is open]
+Pouze pokud je otevřeno komunikační okno
+[Change]
+Změnit
+[Preview]
+Náhled
+[Delete]
+Smazat
+[Enable sounds]
+Povolit zvuky
+[Enable popups]
+Povolit oznámení
+[Status Notify]
+Oznámení stavu
+[Individual sounds are disabled.\n\nTo enable them, go to Options -> Status -> Status Notify, enable\n"Use individual sounds" checkbox, and then reopen this dialog.]
+Individuální zvuky jsou vypnuty.\n\nZapnete je v sekci Stavy -> Oznámení stavu\n, kde povolte "Použít individální zvuky". Poté se vraťte na tento dialog.
+[Sounds]
+Zvuky
+[Popups]
+Oznámení
+[Extra status notify]
+Oznámení rozšířeného stavu
+[Extra status logging]
+Záznam rozšířeného stavu
+[Disable all]
+Vypnout vše
+[Enable all]
+Aktivovat vše
+[Background]
+Pozadí
+[Text]
+Text
+[Colors]
+Barvy
+[Use custom colors]
+Použít vlastní barvy
+[Use Windows colors]
+Použít barvy Windows
+[Use Popup colors]
+Použít výchozí barvy
+[Popup text]
+Text oznámení
+[Read status message]
+Přečíst zprávu stavu
+[Show previous status too]
+Zobrazit i předchozí stav
+[Timeout]
+Doba zobrazení
+[Popups when status changes to:]
+Oznamovat tyto změny stavu:
+[Click action]
+Při kliknutí myší
+[Show contact group name]
+Zobrazit název skupiny uživatele
+[Use alternative descriptions]
+Použít alternativní popis stavů
+[0 = Default]
+0 = výchozí
+[-1 = Infinite]
+-1 = neustále
+[Sec]
+sek.
+[On left click]
+Levé tlačítko
+[On right click]
+Pravé tlačítko
+[Show status description]
+Zobrazit popis stavu
+[Ignore empty status and xStatus messages]
+Ignorovat prázdné stavové zprávy a rozšířené stavy
+[Connection timeout]
+Prodleva pro připojení
+[Notification]
+Oznámení
+[Disable for extra status 'Music']
+Vypnout pro rozšířený stav 'Hudba'
+[Truncate message length to:]
+Oříznout délku zprávy na:
+[characters]
+znaků
+[Templates]
+Šablony
+[Title - text delimiter:]
+Oddělovač nadpisu a textu:
+[Remove:]
+Zrušení stavu:
+[New message:]
+Nová zpráva:
+[New status:]
+Nový stav:
+[Variables]
+Proměnné
+[Reset]
+Reset
+[Disable notifications]
+Vypnout oznámení
+[Cancel]
+Zrušit
+[Disable globally]
+Vypnout globálně
+[Disable only if I change global status]
+Vypnout pouze při změně globálního stavu
+[Disable when my status is:]
+Vypnout když jsem ve stavu:
+[Extra status log]
+Záznam rozšířených stavů
+[Enable logging extra status to message window]
+Povolit záznam rozšířených stavů do komunikačního okna
+[Keep events in history]
+Ponechat události v historii
+[Prevent identical logs]
+Zabránit duplicitním záznamům
+[On opening ML:]
+Při otevření komunikačního okna:
+[General]
+Obecné
+[Show Popups when I connect]
+Zobrazit oznámení při připojení
+[Accounts]
+Účty
+[Enable/Disable accounts which you don't wish to be notified for:]
+Zvolte účty, pro které chcete být oznamování:
+;file \plugins\NewXstatusNotify\src\indsnd.cpp
+[Sound files]
+Zvukové soubory
+[All files]
+Všechny soubory
+[Wave files]
+Soubory Wave
+[Status]
+Stavy
+[Sound for the status]
+Zvuky
+[From offline]
+Ze stavu offline
+[** All contacts **]
+** všechny kontakty **
+;file \plugins\NewXstatusNotify\src\indsnd.h
+[(default sound)]
+(výchozí zvuk)
+;file \plugins\NewXstatusNotify\src\main.cpp
+[<no status message>]
+<zpráva není zadaná>
+[Contact]
+Kontakt
+[connecting]
+připojování
+[aborting]
+rušení
+[playing]
+přehrávání
+[%s is now %s]
+%s je nyní %s
+[%s, %s. %s changed to: %s (was: %s).\r\n]
+%s, %s. %s změna na: %s (dříve: %s).\r\n
+[(M) is back online!]
+je opět online
+[(F) is back online!]
+je opět online
+[(U) is back online!]
+je opět online
+[User: Online]
+Stav (online)
+[(M) went offline! :(]
+odešel...
+[(F) went offline! :(]
+odešla...
+[(U) went offline! :(]
+odešel...
+[User: Offline]
+Stav (offline)
+[(M) hides in shadows...]
+je neviditelný...
+[(F) hides in shadows...]
+je neviditelná...
+[(U) hides in shadows...]
+je neviditelný...
+[User: Invisible]
+Stav (neviditelný)
+[(M) feels talkative!]
+má volno
+[(F) feels talkative!]
+má volno
+[(U) feels talkative!]
+má volno
+[User: Free For Chat]
+Stav (mám volno)
+[(M) went Away]
+odběhl pryč
+[(F) went Away]
+odběhla pryč
+[(U) went Away]
+odběhl pryč
+[User: Away]
+Stav (na chvíli pryč)
+[(M) isn't there anymore!]
+bude pryč delší dobu
+[(F) isn't there anymore!]
+bude pryč delší dobu
+[(U) isn't there anymore!]
+bude pryč delší dobu
+[User: Not Available]
+Stav (nejsem tady)
+[(M) has something else to do.]
+nemá čas
+[(F) has something else to do.]
+nemá čas
+[(U) has something else to do.]
+nemá čas
+[User: Occupied]
+Stav (nemám čas)
+[(M) doesn't want to be disturbed!]
+nechce být vyrušován!
+[(F) doesn't want to be disturbed!]
+nechce být vyrušována!
+[(U) doesn't want to be disturbed!]
+nechce být vyrušován!
+[User: Do Not Disturb]
+Stav (nerušit!)
+[(M) is eating something]
+je na obědě
+[(F) is eating something]
+je na obědě
+[(U) is eating something]
+je na obědě
+[User: Out To Lunch]
+Stav (na obědě)
+[(M) had to answer the phone]
+telefonuje
+[(F) had to answer the phone]
+telefonuje
+[(U) had to answer the phone]
+telefonuje
+[User: On The Phone]
+Stav (mám telefon)
+[Enable status notification]
+Zapnout oznámení stavu
+[Disable status notification]
+Vypnout oznámení stavu
+[Notification enabled]
+Oznámení jsou zapnuty
+[Notification disabled]
+Oznámení jsou vypnuty
+[New Status Notify]
+Oznámení stavu
+[User: from offline (has priority!)]
+Uživatel: z offline (má prioritu!)
+[Extra status changed]
+Změna rozšířeného stavu
+[Extra status message changed]
+Změna zprávy rozšířeného stavu
+[Extra status removed]
+Zrušení rozšířeného stavu
+[Toggle status notification]
+Přepnout oznámení stavu
+[Status change]
+Změna stavu
+;file \plugins\NewXstatusNotify\src\options.cpp
+[All Files]
+Všechny soubory
+[Log]
+Záznam
+[This is status message]
+Toto je zpráva stavu
+[Do you want to reset all templates to default?]
+Přejete si obnovit všechny šablony do výchozího nastavení?
+[Reset templates]
+Resetovat šablony
+[Show available variables]
+Zobrazit dostupné proměnné
+[Reset all templates to default]
+Resetovat všechny šablony
+[Protocol]
+Protokol
+[Filtering]
+Filtrování
+[Message log]
+Záznam komunikace
+;file \plugins\NewXstatusNotify\src\popup.h
+[(was %s)]
+(předtím %s)
+[Open message window]
+Otevřít komunikační okno
+[Close popup]
+Zavřít oznámení
+[Open contact details window]
+Zobrazit okno s detaily kontaktu
+[Open contact menu]
+Zobrazit nabídku kontaktu
+[Open contact history]
+Zobrazit historii kontaktu
+[Do nothing]
+Nedělat nic
+;file \plugins\NewXstatusNotify\src\utils.cpp
+[You cannot specify a value lower than %d and higher than %d.]
+Nelze zadat hodnotu nižší než %d a vyšší než %d.
+[Can't open the log file!]
+Nelze otevřít záznamový soubor!
+[NewXstatusNotify]
+Oznámení stavu
+;file \plugins\NewXstatusNotify\src\xstatus.cpp
+[Mood]
+Nálada
+[Activity]
+Činnost
+[Xstatus]
+Rozšířený stav
+[<unknown>]
+<neznámý>
+[%s, %s. %s removed %s.\r\n]
+%s, %s. %s zrušil %s.\r\n
+[%s, %s. %s changed %s to: %s.\r\n]
+%s, %s. %s změnil %s na: %s.\r\n
+;file \plugins\NewXstatusNotify\src\xstatus.h
+[changed %N to: %T%D%I]
+změna %N na: %T%D%I
+[changed %N message to:%D%I]
+změna zprávy %N na:%D%I
+[removed %N]
+zrušení %N
+[changed his/her status message to %n]
+změna zprávy stavu na %n
+[changed %N @ %T%D%I]
+změna %N @ %T%D%I
+[changed %N message @ %I]
+změna zprávy %N @ %I
+[has %N @ %T%D%I]
+má %N @ %T%D%I
+[These variables are available:\r\n\r\n%N\textra status name (Xstatus, Mood, Activity)\r\n%T\textra status title\r\n%I\textra status text\r\n%D\tdelimiter\r\n%B\tline break (can be used as delimiter)]
+Dostupné jsou tyto proměnné:\r\n\r\n%N\tnázev rozšířeného stavu (nálady, aktivity)\r\n%T\tnadpis rozšířeného stavu\r\n%I\ttext rozšířeného stavu\r\n%D\toddělovač\r\n%B\tnový řádek (může být použit jako oddělovač)
+[These variables are available:\r\n\r\n%n\tNew Status Message\r\n%o\tOld Status Message\r\n%c\tCustom Nickname\r\n\\n\tline break\r\n\\t\ttab stop]
+Dostupné jsou tyto proměnné:\r\n\r\n%n\tnová zpráva stavu\r\n%o\tstará zpráva stavu\r\n%c\tvlastní přezdívka\r\n\\n\tnový řádek\r\n\\t\ttabulátor

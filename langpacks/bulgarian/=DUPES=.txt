@@ -1,0 +1,1700 @@
+﻿
+;============================================================
+;  Module: lot's of duplicated strings from different modules.
+;============================================================
+[Cancel]
+Отказ
+[&Add]
+Добавяне
+[&Cancel]
+Отказ
+[Send "You were added"]
+Изпращане на съобщение "Вие бяхте добавен(а)"
+[Send authorization request]
+Изпрати молба за упълномощаване
+[Custom name:]
+Избор на име:
+[Group:]
+Група:
+[Options]
+Настройки
+[Authorization request]
+Молба за упълномощаване
+[Delete contact]
+Изтриване на контакта
+[&Yes]
+Да
+[&No]
+Не
+[Hide from list only, in order to keep their history and ignore/visibility settings]
+Скриване (запазва историята и настройките за игнориране/видимост)
+[Use Options->Ignore (expert mode) to unhide contacts.]
+Може да бъде отменено от Настройки>Събития>Игнориране
+[Are you sure you want to delete %s?]
+Сигурни ли сте, че желаете контактът "%s" да бъде изтрит?
+[This will erase all history and settings for this contact!]
+Ще бъде изтрита изтрита историята и настройките за контакта!
+[&Exit]
+Изход
+[Search:]
+Търсене:
+[E-mail address]
+Имейл
+[Name]
+Име
+[Nick:]
+Прякор:
+[Advanced]
+Разширени
+[Advanced >>]
+Разширено >>
+[&Search]
+Търсене
+[More options]
+Още опции
+[Custom]
+Избор
+[Apply]
+Прилагане
+[Install database settings]
+Инсталиране на нови настройки в базата от данни
+[Yes]
+Да
+[No]
+Не
+[A file containing new database settings has been placed in the Miranda NG directory.]
+В директорията на Miranda NG има файл с нови настройки за базата от данни.
+[Do you want to import the settings now?]
+Желаете ли настройките да бъдат внесени сега?
+[No to all]
+Не на всички
+[&View contents]
+Съдържание
+[Security systems to prevent malicious changes are in place and you will be warned before changes that are not known to be safe.]
+Налични са системи за предотвратяване на злонамерени промени. Ще бъдете уведомени преди промени, за които не е известно да са безопасни.
+[Database setting change]
+Промяна в базата от данни
+[Database settings are being imported from]
+Внасяне на настройки в базата от данни от
+[This file wishes to change the setting]
+Файлът ще промени настройките
+[to the value]
+на следната стойност
+[Do you want to allow this change?]
+Желаете ли да позволите тази промяна?
+[&Allow all further changes to this section]
+Разреши всички следващи промени в секцията
+[Cancel import]
+Отказ от вноса
+[Database import complete]
+Внасянето на базата от данни завърши
+[What do you want to do with the file now?]
+Какво желаете да стане с файла?
+[&Delete]
+Изтриване
+[&Move/Rename]
+Преместване/Преименуване
+[&Leave]
+Излизане
+[Show]
+Показване
+[File]
+Файл
+[Sounds]
+Звук
+[&Preview]
+Образец
+[Name:]
+Име:
+[Icons]
+Икони
+[The following events are being ignored:]
+Следните събития ще бъдат игнорирани:
+[Messages]
+Съобщения
+[URLs]
+URL адреси
+[Files]
+Файлове
+[None]
+Няма
+[Ignore]
+Игнориране
+[Typing]
+Пише
+[Visibility]
+Видимост
+[To]
+За
+[Type:]
+Тип:
+[Host:]
+Хост:
+[Port:]
+Порт:
+[Username:]
+Потребител:
+[Password:]
+Парола:
+[You will need to reconnect for the changes you have made on this page to take effect.]
+Необходимо е да се свържете на ново, за да бъдат осъществени промените направени тук.
+[Profile]
+Профил
+[Description:]
+Описание:
+[Author(s):]
+Автор(и):
+[E-mail:]
+Имейл:
+[Homepage:]
+Страница:
+[Copyright:]
+Copyright:
+[Please restart Miranda NG for your changes to take effect.]
+Моля, рестартирайте Miranda NG, за да бъдат осъществени промените.
+[Undo]
+Отмяна
+[Reset]
+Анулиране
+[Export...]
+Износ...
+[Text color]
+Цвят на текста
+[Font]
+Шрифт
+[Effects]
+Ефекти
+[&Apply]
+Прилагане
+[&Help]
+Помощ
+[Warning!\r\nThis menu object not support user defined options.]
+Внимание!\r\nТова меню не поддържа дефиниране на елементи от потребителя.
+[Service:]
+Услуга:
+[Default]
+Стандарт
+[Set]
+Задай
+[Add]
+Добавяне
+[Remove]
+Премахване
+[Hotkeys]
+Клавишни комбинации
+[Accounts]
+Акаунти
+[&Edit]
+Редактиране
+[&Options]
+Настройки
+[&Remove...]
+Премахване...
+[Close]
+Затваряне
+[Effect:]
+Ефект:
+[opacity:]
+плътност:
+[Tray]
+Трей
+[&Hide/Show]
+Показване/Скриване
+[E&xit]
+Изход
+[&New group]
+Нова група
+[&Hide offline users]
+Скриване на контактите "Извън линия"
+[Hide &offline users out here]
+Скриване на контактите "Извън линия" тук
+[Hide &empty groups]
+Скриване на празните групи
+[Disable &groups]
+Без групи
+[Hide Miranda]
+Скриване на Miranda
+[Group]
+Група
+[&New subgroup]
+Нова подгрупа
+[&Hide offline users in here]
+Скриване на контактите "Извън линия" тук
+[&Rename group]
+Преименуване на групата
+[&Delete group]
+Изтриване на групата
+[User &Details]
+Подробности за потребителя
+[Log]
+Дневник
+[&Copy]
+Копиране
+[Co&py all]
+Копиране на всичко
+[Select &all]
+Маркиране на всичко
+[C&lear log]
+Изчистване на дневника
+[Open in &new window]
+Отваряне в нов прозорец
+[&Open in existing window]
+Отваряне в съществуващ прозорец
+[&Copy link]
+Копиране на връзката
+[&Deny]
+Отхвърляне
+[You were added]
+Вие бяхте добавен
+[&Close]
+Затваряне
+[%s message for %s]
+Текст "%s" на %s
+[Retrieving %s message...]
+Извличане на текста "%s"...
+[Status messages]
+Текст за състояние
+[Use %time% for the current time, %date% for the current date]
+Използвайте %time% и %date% за текущ час и дата.
+[Change %s message]
+Промяна на текста "%s"
+[Closing in %d]
+Затваряне след %d
+[&Send]
+Изпращане
+[Show these events only:]
+Показване само на следните събития:
+[Actions]
+Действия
+[Nick changes]
+Промяна на прякор
+[Users joining]
+Влизане на потребител
+[Users leaving]
+Излизане на потребител
+[Topic changes]
+Промяна на темата
+[Status changes]
+Промяна на състояние
+[Information]
+Информация
+[Disconnects]
+Излизания от мрежата
+[User kicks]
+Изгонване на потребител
+[Notices]
+Известия
+[Log options]
+Настройки на дневника
+[Log timestamp]
+В дневника
+[Timestamp]
+Времева марка
+[Other name]
+Друго име
+[Your name]
+Вашето име
+[Enable highlighting]
+Отличаване на думи
+[Limit log text to (events):]
+Макс. брой събития в прозорец:
+[Words to highlight (wildcards allowed)]
+Думи за отличаване (wildcards allowed)
+[Enable logging to disk]
+Запис на разговорите в дневник на диска
+[Log directory]
+Директория на дневника
+[Other]
+Друго
+[Add new rooms to group:]
+Добавяне на новите стаи към група:
+[Use same style as in the message log]
+Ползване на същия стил както в дневника за съобщения
+[Use default colors]
+Стандартни цветове
+[Use custom colors]
+Зададени цветове
+[Timeout (s)]
+Времетраене (сек)
+[Text]
+Текст
+[Background]
+Фон
+[List]
+Списък
+[&Message]
+Съобщение
+[Clear lo&g]
+Изчистване на дневника
+[Word lookup]
+Търсене на дума
+[Link]
+Връзка
+[Open a &new browser window]
+Отваряне в нов прозорец на браузера
+[&Open in current browser window]
+Отваряне в текущия прозорец
+[Message]
+Съобщение
+[Redo]
+Възстановяване
+[Copy]
+Копиране
+[Cut]
+Изрязване
+[Paste]
+Поставяне
+[Select all]
+Избор - всичко
+[Clear]
+Изчистване
+[Tabs]
+Табове
+[&Close tab]
+Затваряне на таба
+[C&lose other tabs]
+Затваряне на другите табове
+[&Open at this position]
+Отваряне на тази позиция
+[Hide offline users]
+Скриване на контактите "Извън линия"
+[Hide empty groups]
+Скриване на празните групи
+[Disable groups]
+Без групи
+[Ask before deleting contacts]
+Запитване преди изтриване на контакт
+[Sort contacts by name]
+име
+[Sort contacts by status]
+състояние
+[Sort contacts by protocol]
+протокол
+[Single click interface]
+Интерфейс с едно натискане
+[Always show status in tooltip]
+Показване на състоянието в подсказка
+[Disable icon blinking]
+Без мигане на икони
+[ms delay]
+мс времетраене
+[icon when statuses differ]
+икона при различни състояния
+[Cycle icons every]
+Смяна на иконата всеки
+[seconds, when statuses differ]
+секунди, при различни състояния
+[Show multiple icons]
+Всички икони
+[Only when statuses differ]
+Само при различни състояния
+[Contact List]
+Списък с контакти
+[System tray icon]
+Икона в трея
+[System tray icon when using multiple protocols]
+Режим на иконата в трея, когато се използват няколко протокола
+[Contact List Sorting]
+Сортиране на списъка с контакти по:
+[Window]
+Прозорец
+[Always on top]
+Винаги отгоре
+[Minimize to tray]
+Минимизиране в трея
+[Show menu bar]
+Лента за менюто
+[Easy move]
+Лесно местене
+[Show title bar]
+Заглавна лента
+[Title bar text:]
+Заглавна лента:
+[Show drop shadow (restart required)]
+Сенки под менютата (изисква рестарт)
+[Pin to desktop]
+Прилепване към работния плот
+[Hide contact list after it has been idle for]
+Скриване на списъка след бездействие за:
+[seconds]
+секунди
+[Automatically resize window to height of list]
+Автооразмеряване към височината на списъка
+[maximum]
+максимум
+[% of screen]
+% от екрана
+[Size upwards]
+Оразмеряване нагоре
+[If window is partially covered, bring to front instead of hiding]
+Извеждане на прозорецът отпред, ако е частично покрит, вместо скриване
+[Fade contact list in/out]
+Избледняване/Изсветляване на списъка
+[Transparent contact list]
+Прозрачност на списъка с контакти
+[Inactive opacity:]
+Неактивен прозорец:
+[Active opacity:]
+Активен прозорец:
+[Items]
+Елементи
+[Show divider between online and offline contacts]
+Разделител м/у контактите "На/Извън линия"
+[Hot track items as mouse passes over]
+Изтъкване на посочените с курсора елементи
+[Disable drag and drop of items]
+Без влачене на елементите
+[Disable rename of items by clicking twice]
+Без преименуване чрез двукратно натискане
+[Show selection even when list is not focused]
+Показване на маркираното при дефокусиран списък
+[Make selection highlight translucent]
+Полупрозрачност на отличения текст
+[Dim idle contacts]
+Потъмняване на бездействащите контакти
+['Hide Offline' means to hide:]
+Скриване като извън линия:
+[Groups]
+Групи
+[Draw a line alongside group names]
+Добавяне на линия до имената на групите
+[Show counts of number of contacts in a group]
+Показване на броя контакти в група
+[Hide group counts when there are none online]
+Скриване на броя, когато всички са "Извън линия"
+[Sort groups alphabetically]
+Сортиране на групите по азбучен ред
+[Quicksearch in open groups only]
+Бързо търсене само в отворените групи
+[Indent groups by:]
+Отстъп на групите:
+[pixels]
+пиксела
+[Visual]
+Визуално
+[Scroll list smoothly]
+Плавно придвижване
+[Time:]
+Време:
+[milliseconds]
+милисекунди
+[Left margin:]
+Ляв ръб:
+[Hide vertical scroll bar]
+Без вертикална лента за придвижване
+[Row height:]
+Ред (височина):
+[Gamma correction]
+Корекция на гамата
+[Gray out entire list when:]
+Посивяване на списъка, когато:
+[Contact List Background]
+Фон на списъка с контакти
+[Background color]
+Цвят на фона
+[Use background image]
+Фоново изображение
+[Stretch to width]
+Разтягане на ширина
+[Stretch to height]
+Разтягане на височина
+[Tile horizontally]
+Мозаично по хоризонтала
+[Tile vertically]
+Мозаично по вертикала
+[Scroll with text]
+Придвижване с текста
+[Stretch proportionally]
+Пропорционално разтягане
+[Use Windows colors]
+Цветове от Windows
+[Status Bar]
+Лента за състояние
+[Show status bar]
+Показване на лента за състояние
+[Show icons]
+Показване на икони
+[Show protocol names]
+Показване името на протокола
+[Show status text]
+Показване на текст за състоянието
+[Right click opens status menu]
+Десен бутон = меню на състоянието
+[Right click opens Miranda NG menu]
+Десен бутон отваря главното меню
+[Make sections equal width]
+Еднакво широки панели
+[Show bevels on panels]
+Разделител между панелите
+[Show resize grip indicator]
+Индикатор за ръчна промяна на размера
+[Window:]
+Прозорец:
+[&Status]
+Състояние
+[&Offline\tCtrl+0]
+Извън линия\tCtrl+0
+[On&line\tCtrl+1]
+На линия\tCtrl+1
+[&Away\tCtrl+2]
+Отсъстващ\tCtrl+2
+[&NA\tCtrl+3]
+Недостъпен\tCtrl+3
+[Occ&upied\tCtrl+4]
+Зает\tCtrl+4
+[&DND\tCtrl+5]
+Не безпокойте\tCtrl+5
+[&Free for chat\tCtrl+6]
+Готов за чат\tCtrl+6
+[&Invisible\tCtrl+7]
+Невидим\tCtrl+7
+[On the &Phone\tCtrl+8]
+На телефона\tCtrl+8
+[Out to &Lunch\tCtrl+9]
+На обяд\tCtrl+9
+[To:]
+За:
+[Incoming File Transfer]
+Входящ файл
+[From:]
+От:
+[Date:]
+Дата:
+[Contact menu]
+Меню на контактите
+[Resume]
+Продължаване
+[Overwrite]
+Презаписване
+[Size:]
+Размер:
+[File Transfers]
+Обмен на файлове
+[Credits >]
+Заслуги >
+[In background]
+без фокусиране (на заден план)
+[Close the message window on send]
+Затваряне на прозореца след изпращане
+[Minimize the message window on send]
+Минимизиране на прозореца след изпращане
+[Use the contact's status icon as the window icon]
+Ползване на иконата за състояние на контакта като икона на прозореца
+[Cascade new windows]
+Каскадно подреждане на новите прозорци
+[Send message on double 'Enter']
+Двукратно натискане на "Enter" изпраща съобщение
+[Send message on 'Enter']
+Изпращане на съобщение с "Enter"
+[Show warning when message has not been received after]
+Предупреждение, ако съобщение не е получено след
+[Send Error]
+Грешка при изпращането
+[An error has occurred. The protocol reported the following error:]
+Възникна следната грешка:
+[while sending the following message:]
+при опит за изпращане на следното съобщение:
+[Try again]
+Опитай отново
+[Message Session]
+Разговор
+[Message Window Event Log]
+Дневник на събитията в прозореца за съобщения
+[Show names]
+Показване на имена
+[Load unread events only]
+Само непрочетените събития
+[Load number of previous events]
+Предишни събития на брой
+[Load previous events less than]
+Събития от преди
+[minutes old]
+минути
+[Show seconds]
+Показване на секунди
+[Load History Events]
+Допълнително зареждани събития
+[Send typing notifications to the following users when you are typing a message to them:]
+Изпращане на уведомяване при писане до следните потребители, когато им пишете съобщение:
+[Show typing notifications when a user is typing a message]
+Уведомяване при писане, когато потребител пише съобщение
+[Show typing notification when no message dialog is open]
+Уведомяване, ако няма отворен прозорец за съобщения
+[Flash in the system tray and in the contact list]
+Мигане на иконата в трея и списъка с контакти
+[Show balloon popup]
+Показване на балонни popup
+[&Open link]
+Отваряне на връзката
+[Paste && Send]
+Поставяне и изпращане
+[Delete]
+Изтриване
+[Find]
+Намери
+[Message History]
+История на съобщенията
+[&Find...]
+Търсене...
+[Add Phone Number]
+Добавяне на телефонен номер
+[Enter country, area code and phone number:]
+Въведете код на държавата, областта и тел. номер:
+[Or enter a full international number:]
+Или въведете целия международен номер:
+[Phone can receive SMS text messages]
+Телефонът може да получава SMS съобщения
+[Updating]
+Актуализиране
+[Nickname:]
+Прякор:
+[First name:]
+Име:
+[Gender:]
+Пол:
+[Last name:]
+Фамилия:
+[Age:]
+Възраст:
+[Date of birth:]
+Рожден ден:
+[Marital status:]
+Брачно състояние:
+[Phone:]
+Телефон:
+[About:]
+Относно:
+[Street:]
+Улица:
+[City:]
+Град:
+[State:]
+Област:
+[Postal code:]
+Пощенски код:
+[Country:]
+Държава:
+[Timezone:]
+Часови пояс:
+[Company:]
+Фирма:
+[Department:]
+Отдел:
+[Position:]
+Позиция:
+[Alerts]
+Уведомявания
+[View User's Details]
+Подробности за потребителя
+[Add Contact Permanently to List]
+Добавяне на контакта за постоянно в списъка
+[<Unknown>]
+<Неизвестно>
+[Re&ad %s message]
+Показване на текста "%s"
+[I've been away since %time%.]
+Отсъствам от %time%.
+[Not right now.]
+Не точно сега.
+[Yep, I'm here.]
+Да, тук съм.
+[Nope, not here.]
+Не, не съм тук.
+[I'm hiding from the mafia.]
+Крия се от мафията.
+[Mmm... food.]
+Ммм... храна.
+[Status]
+Състояние
+[Join chat]
+Влизане в чата
+[Open chat window]
+Отваряне на чат прозорец
+[%s has joined]
+%s влезе
+[You have joined %s]
+Вие влязохте в %s
+[%s has left]
+%s излезе
+[%s has disconnected]
+%s излезе от мрежата
+[%s is now known as %s]
+%s смени името си на %s
+[You are now known as %s]
+Сменихте името си на %s
+[%s kicked %s]
+%s изгони %s
+[Notice from %s: ]
+Известие от %s:\s
+[ (set by %s on %s)]
+ (зададена от %s на %s)
+[ (set by %s)]
+ (зададена от %s)
+[<invalid>]
+<невалидно>
+[Others nicknames]
+Други прякори
+[Your nickname]
+Вашият прякор
+[User has joined]
+Влизане на потребител
+[User has left]
+Излизане на потребител
+[User has disconnected]
+Излизане на потребител от мрежата
+[User kicked ...]
+Изгонване на потребител ...
+[User is now known as ...]
+Смяна на потребителско име
+[Notice from user]
+Получаване на известие
+[Incoming message]
+Входящо съобщение
+[Outgoing message]
+Изходящо съобщение
+[The topic is ...]
+Темата е ...
+[Information messages]
+Информационни съобщения
+[User enables status for ...]
+Даване на статут на ...
+[User disables status for ...]
+Отнемане на статута на ...
+[Action message]
+Съобщение за действие
+[Highlighted message]
+Отличено съобщение
+[Message typing area]
+Поле за въвеждане на съобщения
+[Nick list members (Online)]
+Списък с прякори (На линия)
+[Nick list members (away)]
+Списък с прякори (Отсъстващ)
+[Flash window when someone speaks]
+Мигане на прозореца при ново съобщение
+[Flash window when a word is highlighted]
+Мигане на прозореца при отличаване на дума
+[Show list of users in the chat room]
+Списък с потребители в чат стаята
+[Show button menus when right clicking the buttons]
+Показване менютата на бутоните при натискане с десен бутон
+[Do not pop up the window when joining a chat room]
+Без изскачане на прозореца при влизане в чат стая
+[Prefix all events with a timestamp]
+Времева марка като представка за всички събития
+[Only prefix with timestamp if it has changed]
+Представка (времева марка) само ако времето е различно
+[Indent the second line of a message]
+Отстъп на втория ред от всяко съобщение
+[Limit user names in the message log to 20 characters]
+Ограничаване на потребителските имена в дневника за съобщения до 20 знака
+[Strip colors from messages in the log]
+Премахване на цветовете от съобщенията в дневника
+[Show topic changes]
+Промяна на тема
+[Show users joining]
+Влизане на потребител
+[Show users disconnecting]
+Излизане от мрежата на потребител
+[Show messages]
+Съобщение
+[Show actions]
+Действия
+[Show users leaving]
+Излизане на потребител
+[Show users being kicked]
+Изгонване на потребител
+[Show notices]
+Известия
+[Show users changing name]
+Промяна на прякор
+[Show information messages]
+Информационни съобщения
+[Show status changes of users]
+Промяна на състояние на потребител
+[Show icons in tray only when the chat room is not active]
+Показване на икони в трея само при неактивна чат стая
+[Show icon in tray for topic changes]
+Промяна на тема (topic)
+[Show icon in tray for users joining]
+Влизане на потребител
+[Show icon in tray for users disconnecting]
+Излизане от мрежата на потребители
+[Show icon in tray for messages]
+Съобщение
+[Show icon in tray for actions]
+Действия
+[Show icon in tray for highlights]
+Отличаване
+[Show icon in tray for users leaving]
+Излизане на потребител
+[Show icon in tray for users kicking other user]
+Потребител изгонва друг потребител
+[Show icon in tray for notices ]
+Известие\s
+[Show icon in tray for name changes]
+Промяна на прякор
+[Show icon in tray for information messages]
+Информационни съобщения
+[Show icon in tray for status changes]
+Промяна на състояние
+[Show popups only when the chat room is not active]
+Показване на popups, когато чат стаята е активна
+[Show popup for topic changes]
+Показване на popups при промяна на тема
+[Show popup for users joining]
+Показване на popups при влизане на потребител
+[Show popup for users disconnecting]
+Показване на popups при излизане от мрежата на потребители
+[Show popup for messages]
+Показване на popups за ново съобщение
+[Show popup for actions]
+Показване на popups за действия
+[Show popup for highlights]
+Показване на popups при отличаване
+[Show popup for users leaving]
+Показване на popups при излизане на потребител
+[Show popup for users kicking other user]
+Показване на popups при изгонване на потребител
+[Show popup for notices ]
+Показване на popups за известие\s
+[Show popup for name changes]
+Показване на popups при промяна на име
+[Show popup for information messages]
+Показване на popups за информационни съобщения
+[Show popup for status changes]
+Показване на popups при промяна на състояние
+[Window Icon]
+Икона на прозореца
+[Bold]
+Удебеляване
+[Italics]
+Курсив
+[Underlined]
+Подчертан
+[Smiley button]
+Бутон "Усмивки"
+[Room history]
+История на стаята
+[Room settings]
+Конфигуриране на стаята
+[Event filter disabled]
+Филтъра за събития е изключен
+[Event filter enabled]
+Филтъра за събития е включен
+[Hide nick list]
+Скриване на списъка с прякори
+[Show nick list]
+Показване на списъка с прякори
+[Icon overlay]
+Насложена икона
+[Status 1 (10x10)]
+Състояние 1 (10x10)
+[Status 2 (10x10)]
+Състояние 2 (10x10)
+[Status 3 (10x10)]
+Състояние 3 (10x10)
+[Status 4 (10x10)]
+Състояние 4 (10x10)
+[Status 5 (10x10)]
+Състояние 5 (10x10)
+[Status 6 (10x10)]
+Състояние 6 (10x10)
+[Message in (10x10)]
+Входящо съобщение (10x10)
+[Message out (10x10)]
+Изходящо съобщение (10x10)
+[Action (10x10)]
+Действие (10х10)
+[Add Status (10x10)]
+Добавяне на състояние (10х10)
+[Remove status (10x10)]
+Премахване на състояние (10x10)
+[Join (10x10)]
+Влизане (10x10)
+[Leave (10x10)]
+Излизане (10x10)
+[Quit (10x10)]
+Изход (10x10)
+[Kick (10x10)]
+Изгонване (10х10)
+[Nickchange (10x10)]
+Промяна на прякор (10х10)
+[Notice (10x10)]
+Известие (10x10)
+[Topic (10x10)]
+Тема (10х10)
+[Highlight (10x10)]
+Отличаване (10x10)
+[Information (10x10)]
+Информация (10х10)
+[Messaging]
+Съобщения
+[Group Chats]
+Групови чатове
+[Appearance and functionality of chat room windows]
+Външен вид и функционалност на чат стаите
+[Appearance of the message log]
+Външен вид на дневника за съобщения
+[Icons to display in the tray]
+Икони за изобразяване в трея
+[Select Folder]
+Избор на папка
+[Message Sessions]
+Разговори
+[Group chats]
+Групови чатове
+[General]
+Основни
+[Popups]
+Рopups
+[Message is highlighted]
+Отличаване на съобщение
+[User has performed an action]
+Изпълнение на действие
+[User has kicked some other user]
+Изгонване на потребител
+[User's status was changed]
+Промяна на потребителско състояние
+[User has changed name]
+Промяна на потребителски прякор
+[User has sent a notice]
+Получаване на известие
+[The topic has been changed]
+Промяна на тема
+[&Join]
+Влизане
+[%s wants your attention in %s]
+%s изисква вниманието ви в %s
+[%s speaks in %s]
+%s говори в %s
+[%s has joined %s]
+%s влезе %s
+[%s has left %s]
+%s излезе %s
+[%s kicked %s from %s]
+%s изгони %s от %s
+[Notice from %s]
+Известие от %s
+[Topic change in %s]
+Промяна на темата в %s
+[Information in %s]
+Информация в %s
+[%s says: %s]
+%s каза: %s
+[%s has left (%s)]
+%s излезе (%s)
+[%s has disconnected (%s)]
+%s излезе от мрежата (%s)
+[%s kicked %s (%s)]
+%s изгони %s (%s)
+[Notice from %s: %s]
+Известие от %s: %s
+[No word to look up]
+Няма дума за търсене
+[Insert a smiley]
+Вмъкване на усмивка
+[Make the text bold (CTRL+B)]
+Удебеляване (CTRL+B)
+[Make the text italicized (CTRL+I)]
+Наклоняване (CTRL+I)
+[Make the text underlined (CTRL+U)]
+Подчертаване (CTRL+U)
+[Select a background color for the text (CTRL+L)]
+Фон за текста (CTRL+L)
+[Select a foreground color for the text (CTRL+K)]
+Цвят на текста (CTRL+K)
+[Show the history (CTRL+H)]
+Показване на историята (CTRL+H)
+[Show/hide the nick list (CTRL+N)]
+Показване/Скриване на списъка с прякори (CTRL+N)
+[Control this room (CTRL+O)]
+Управление на стаята (CTRL+O)
+[Enable/disable the event filter (CTRL+F)]
+Включване/Изключване на филтъра за събития (CTRL+F)
+[%s: Chat Room (%u user)]
+%s: Чат стая (%u потребител)
+[%s: Chat Room (%u users)]
+%s: Чат стая (%u потребителя)
+[%s: Message Session]
+%s: Разговор
+[%s: Message Session (%u users)]
+%s: Разговор (%u потребителя)
+[Nick name]
+Прякор
+[Standard contacts]
+Стандартни контакти
+[Online contacts to whom you have a different visibility]
+Контакти, към които имате различна видимост
+[Offline contacts]
+Контакти "Извън линия"
+[Contacts which are 'not on list']
+Контакти, които не са в списъка
+[Group member counts]
+Брой контакти в групата
+[Dividers]
+Разделители
+[Offline contacts to whom you have a different visibility]
+Контакти "Извън линия", към които имате различна видимост
+[Selected Text]
+Маркиран текст
+[Hottrack Text]
+Посочен текст
+[Quicksearch Text]
+Бързо търсен текст
+[Not focused]
+Дефокусирано
+[Offline]
+Извън линия
+[Online]
+На линия
+[Away]
+Отсъстващ
+[NA]
+Недостъпен
+[Occupied]
+Зает
+[DND]
+Не безпокойте
+[Free for chat]
+Готов за чат
+[Invisible]
+Невидим
+[Out to lunch]
+На обяд
+[On the phone]
+На телефона
+[List Background]
+Фон на списъка
+[Global]
+Общо
+[Send e-mail]
+Изпращане на е-писмо
+[bytes]
+байта
+[&File]
+Файл
+[Incoming]
+Входящи
+[Complete]
+Завършен
+[Error]
+Грешка
+[All Files]
+Всички файлове
+[Executable Files]
+Изпълними файлове
+[Events]
+Събития
+[View User's History]
+История на съобщенията
+[User Menu]
+Потребителско меню
+[sec]
+сек
+[Connecting...]
+Свързване...
+[Sending...]
+Изпращане...
+[Receiving...]
+Получаване...
+[Outgoing]
+Изходящи
+[< Copyright]
+< Copyright
+[Idle]
+Бездействие
+[Incoming message (10x10)]
+Входящо съобщение (10х10)
+[Outgoing message (10x10)]
+Изходящо съобщение (10х10)
+[Last message received on %s at %s.]
+Последното съобщение е получено на %s в %s.
+[signed off (was %s)]
+излезе (беше %s)
+[signed on (%s)]
+влезе (%s)
+[is now %s (was %s)]
+сега е %s (беше %s)
+[%s is typing a message...]
+%s пише съобщение...
+[File sent]
+Файлът е изпратен
+[File received]
+Файлът е получен
+[Outgoing messages]
+Изходящи съобщения
+[Incoming messages]
+Входящите съобщения
+[Outgoing name]
+Изходящо име
+[Outgoing time]
+Изходяща дата
+[Outgoing colon]
+Двоеточие в изходящите съобщения
+[Incoming name]
+Входящо име
+[Incoming time]
+Входяща дата
+[Incoming colon]
+Двоеточие във входящите съобщения
+[Message area]
+Поле за съобщения
+[Message Log]
+Дневник за съобщения
+[** New contacts **]
+** Нови контакти **
+[** Unknown contacts **]
+** Непознати контакти **
+[Show balloon popup (unsupported system)]
+Показване на балонни popup (неподдържана система)
+[Typing Notify]
+Уведомяване при писане
+[Message from %s]
+Съобщение от %s
+[%s is typing a message]
+%s пише съобщение
+[Typing Notification]
+Уведомявания при писане
+[Incoming (Focused Window)]
+Входящо (Фокусиран прозорец)
+[Incoming (Unfocused Window)]
+Входящо (Дефокусиран прозорец)
+[Incoming (New Session)]
+Входящо (Нов разговор)
+[Message send error]
+Грешка при опит за изпращане на съобщение
+[Invalid Message]
+Невалидно съобщение
+[Outgoing URL]
+Изходящ URL адрес
+[Incoming URL]
+Входящ URL адрес
+[History for %s]
+История за %s
+[View &History]
+Преглед на историята
+[Edit Phone Number]
+Редактиране на телефонния номер
+[Invalid Phone Number]
+Невалиден телефонен номер
+[Fax]
+Факс
+[Male]
+Мъж
+[Female]
+Жена
+[<not specified>]
+<неуточнено>
+[Summary]
+Обобщение
+[Contact]
+Контакт
+[Location]
+Местоположение
+[Work]
+Работа
+[Background info]
+Биографични данни
+[Notes]
+Бележки
+[Owner]
+Собственик
+[View/Change My &Details...]
+Преглед/Промяна на личните данни
+[Add Contact]
+Добавяне на контакт
+[Please authorize my request and add me to your contact list.]
+Моля, приемете моята молба за упълномощаване и ме добавете в списъка си с контакти.
+[%s (locked)]
+%s (заключен)
+[(Unknown Contact)]
+(Непознат контакт)
+[&Main Menu]
+Главно меню
+[&Rename]
+Преименуване
+[Nick]
+Прякор
+[E-mail]
+Имейл
+[Username]
+Потребител
+['(Unknown Contact)']
+"(Непознат контакт)"
+[Contact names]
+Имена на контактите
+[Customize]
+Персонализиране
+[Delete Group]
+Изтриване на групата
+[<Root Group>]
+<Главна група>
+[&Create]
+Създаване
+[Size]
+Размер
+[Extra icons]
+Допълнителни икони
+[Search]
+Търсене
+[Searching]
+Търсене
+[&Find/Add Contacts...]
+Търсене/Добавяне на контакти
+[Failed to create file]
+Грешка при създаването на файла
+[<none>]
+<няма>
+[Text Files]
+Текстови файлове
+[Fonts & Colors]
+Шрифтове и цветове
+[** All contacts **]
+** Всички контакти **
+[Contacts]
+Контакти
+[Network]
+Мрежа
+[Miranda NG Options]
+Miranda NG настройки
+[&Options...]
+Настройки...
+[Version]
+Версия
+[Plugins]
+Приставки
+[Create new account]
+Създаване на акаунт
+[Edit]
+Редактиране
+[Remove account]
+Премахване на акаунта
+[<unknown>]
+<неизвестно>
+[Rename]
+Преименуване
+[Configure]
+Настройване
+[Modify]
+Промяна
+[User Online]
+Потребител "На линия"
+[User Details]
+Подробности за потребителя
+[History]
+История
+[Find User]
+Търсене на потребител
+[Help]
+Помощ
+[Main Menu]
+Главно меню
+[On]
+Включено
+[Off]
+Изкл.
+[Frames]
+Рамки
+[Always visible]
+Винаги видимо
+[Sound Files]
+Файлове със звуци
+[You need an image services plugin to process PNG images.]
+Необходима е услуга за изображенията за обработка на PNG изображения.
+[Windows Bitmaps]
+BMP изображения
+[JPEG Bitmaps]
+JPEG изображения
+[GIF Bitmaps]
+GIF изображения
+[PNG Bitmaps]
+PNG изображения
+[Unspecified]
+Неуточнено
+[Unknown]
+Неизвестно
+[Afghanistan]
+Афганистан
+[Albania]
+Албания
+[Algeria]
+Алжир
+[Andorra]
+Андора
+[Angola]
+Ангола
+[Anguilla]
+Ангила
+[Antigua and Barbuda]
+Антигуа и Барбуда
+[Argentina]
+Аржентина
+[Armenia]
+Армения
+[Aruba]
+Аруба
+[Australia]
+Австралия
+[Austria]
+Австрия
+[Azerbaijan]
+Азербайджан
+[Bahamas]
+Бахамски острови
+[Bahrain]
+Бахрейн
+[Bangladesh]
+Бангладеш
+[Barbados]
+Барбадос
+[Belarus]
+Беларус
+[Belgium]
+Белгия
+[Belize]
+Белийз
+[Benin]
+Бенин
+[Bermuda]
+Бермуда
+[Bhutan]
+Бутан
+[Bosnia and Herzegovina]
+Босна и Херцеговина
+[Botswana]
+Ботсуана
+[Brazil]
+Бразилия
+[Bulgaria]
+България
+[Burkina Faso]
+Буркина Фасо
+[Burundi]
+Бурунди
+[Cambodia]
+Камбоджа
+[Cameroon]
+Камерун
+[Canada]
+Канада
+[Cayman Islands]
+Кайманови острови
+[Central African Republic]
+Централноафриканска република
+[Chad]
+Чад
+[China]
+Китай
+[Colombia]
+Колумбия
+[Comoros]
+Коморски острови
+[Cook Islands]
+острови Кук (Cook)
+[Costa Rica]
+Коста Рика
+[Croatia]
+Хърватия
+[Cuba]
+Куба
+[Curacao]
+Кюрасао
+[Czech Republic]
+Чешка република
+[Denmark]
+Дания
+[Djibouti]
+Джибути
+[Dominica]
+Доминика
+[Dominican Republic]
+Доминиканска република
+[Ecuador]
+Еквадор
+[Egypt]
+Египет
+[El Salvador]
+Ел Салвадор
+[Equatorial Guinea]
+Екваториална Гвинея
+[Eritrea]
+Еритрея
+[Estonia]
+Естония
+[Ethiopia]
+Етиопия
+[Fiji]
+Фиджи
+[Finland]
+Финландия
+[France]
+Франция
+[French Guiana]
+Френска Гвиана
+[French Polynesia]
+Френска Полинезия
+[Gabon]
+Габон
+[Gambia]
+Гамбия
+[Georgia]
+Грузия
+[Germany]
+Германия
+[Ghana]
+Гана
+[Gibraltar]
+Гибралтар
+[Greece]
+Гърция
+[Greenland]
+Гренландия
+[Grenada]
+Гренада
+[Guadeloupe]
+Гваделупа
+[Guatemala]
+Гватемала
+[Guinea]
+Гвинея
+[Guinea-Bissau]
+Гвинея Бисау
+[Guyana]
+Гвияна
+[Haiti]
+Хаити
+[Honduras]
+Хондурас
+[Hong Kong]
+Хонконг
+[Hungary]
+Унгария
+[Iceland]
+Исландия
+[India]
+Индия
+[Indonesia]
+Индонезия
+[Iraq]
+Ирак
+[Ireland]
+Ирландия
+[Israel]
+Израел
+[Italy]
+Италия
+[Jamaica]
+Ямайка
+[Japan]
+Япония
+[Jordan]
+Йордания
+[Kazakhstan]
+Казахстан
+[Kenya]
+Кения
+[Kiribati]
+Кирибати
+[Kuwait]
+Кувейт
+[Kyrgyzstan]
+Киргизстан
+[Latvia]
+Латвия
+[Lebanon]
+Ливан
+[Lesotho]
+Лесото
+[Liberia]
+Либерия
+[Liechtenstein]
+Лихтенщайн
+[Lithuania]
+Литва
+[Luxembourg]
+Люксембург
+[Madagascar]
+Мадагаскар
+[Malawi]
+Малави
+[Malaysia]
+Малайзия
+[Maldives]
+Малдиви
+[Mali]
+Мали
+[Malta]
+Малта
+[Marshall Islands]
+Маршалови острови
+[Martinique]
+Мартиника
+[Mauritania]
+Мавритания
+[Mauritius]
+Мавриций
+[Mexico]
+Мексико
+[Micronesia, Federated States of]
+Микронезия
+[Moldova]
+Молдова
+[Monaco]
+Монако
+[Mongolia]
+Монголия
+[Montserrat]
+Монсерат
+[Morocco]
+Мароко
+[Mozambique]
+Мозамбик
+[Myanmar]
+Мианмар
+[Namibia]
+Намибия
+[Nauru]
+Науру
+[Nepal]
+Непал
+[Netherlands]
+Нидерландия (Холандия)
+[New Caledonia]
+Нова Каледония
+[New Zealand]
+Нова Зеландия
+[Nicaragua]
+Никарагуа
+[Niger]
+Нигер
+[Nigeria]
+Нигерия
+[Niue]
+Ниуе
+[Norway]
+Норвегия
+[Oman]
+Оман
+[Pakistan]
+Пакистан
+[Palau]
+Палау
+[Panama]
+Панама
+[Papua New Guinea]
+Папуа-Нова Гвинея
+[Paraguay]
+Парагвай
+[Peru]
+Перу
+[Philippines]
+Филипини
+[Poland]
+Полша
+[Portugal]
+Португалия
+[Puerto Rico]
+Пуерто Рико
+[Qatar]
+Катар
+[Romania]
+Румъния
+[Rwanda]
+Руанда
+[Saint Kitts and Nevis]
+сейнт Китс и Нейвис
+[Saint Lucia]
+сейнт Лусия
+[Saint Pierre and Miquelon]
+сен Пиер и Микелон
+[Saint Vincent and the Grenadines]
+сейнт Винсънт и Гренадини
+[San Marino]
+Сан Марино
+[Sao Tome and Principe]
+Сао Томе и Принсипи
+[Saudi Arabia]
+Саудитска Арабия
+[Senegal]
+Сенегал
+[Seychelles]
+Сейшелски острови
+[Sierra Leone]
+Сиера Леоне
+[Singapore]
+Сингапур
+[Slovakia]
+Словакия
+[Slovenia]
+Словения
+[Solomon Islands]
+Соломонови острови
+[Somalia]
+Сомалия
+[South Africa]
+Южна Африка
+[Spain]
+Испания
+[Sri Lanka]
+Шри Ланка
+[Sudan]
+Судан
+[Suriname]
+Суринам
+[Swaziland]
+Свазиленд
+[Sweden]
+Швеция
+[Switzerland]
+Швейцария
+[Syria]
+Сирия
+[Tajikistan]
+Таджикистан
+[Thailand]
+Тайланд
+[Togo]
+Того
+[Tokelau]
+Токелау
+[Tonga]
+Тонга
+[Trinidad and Tobago]
+Тринидад и Тобаго
+[Tunisia]
+Тунис
+[Turkey]
+Турция
+[Turkmenistan]
+Туркменистан
+[Turks and Caicos Islands]
+острови Търкс и Кайкос
+[Tuvalu]
+Тувалу
+[Uganda]
+Уганда
+[Ukraine]
+Украйна
+[United Arab Emirates]
+Обединени арабски емирства
+[United Kingdom]
+Обединено кралство
+[Uruguay]
+Уругвай
+[Uzbekistan]
+Узбекистан
+[Vanuatu]
+Вануату
+[Yemen]
+Йемен
+[Zambia]
+Замбия
+[Zimbabwe]
+Зимбабве
+[Request authorization]
+Молба за упълномощаване
+[Grant authorization]
+Даване на пълномощно
+[Revoke authorization]
+Отнемане на пълномощното

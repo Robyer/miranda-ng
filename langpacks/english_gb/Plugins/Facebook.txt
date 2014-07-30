@@ -1,0 +1,11 @@
+﻿#muuid {8432b009-ff32-4727-aae6-a9035038fd58}
+;============================================================
+;  File: Facebook.dll
+;  Plugin: Facebook RM
+;  Version: 0.2.7.0
+;  Authors: Michal Zelinka, Robert Pösel
+;============================================================
+[Request for friendship was canceled.]
+Request for friendship was cancelled.
+[Error occurred when canceling friendship request.]
+Error occurred when cancelling friendship request.

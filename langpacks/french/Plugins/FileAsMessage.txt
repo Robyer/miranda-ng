@@ -1,0 +1,103 @@
+﻿#muuid {34b5a402-1b79-4246-b041-43d0b590ae2c}
+;============================================================
+;  File: FileAsMessage.dll
+;  Plugin: File as message
+;  Version: 0.0.2.4
+;  Authors: Denis Stanishevskiy
+;============================================================
+[File transfer by using the messaging services - as plain text.]
+
+;file \plugins\FileAsMessage\res\resources.rc
+[fileAsMessage]
+
+[Filename:]
+Fichier :
+[Size:]
+Taille :
+[Chunk size]
+Taille des morceaux
+[ms]
+ms
+[Delays between sends]
+Délai entre 2 envois
+[bytes]
+octets
+[Transfer settings]
+Configuration de transferts
+[Appearance]
+Apparence
+[Unsent]
+Non envoyé
+[Sent]
+Envoi
+[To send]
+Envoyé
+[Received]
+Reçu
+[Use only alphanumeric encoding on transfer]
+Veuillez utiliser uniquement de l'alphanumérique sur les transferts
+[Extra options: Events > File Transfers, "Receiving files" group]
+
+;file \plugins\FileAsMessage\src\dialog.cpp
+[File already exists. Overwrite?]
+
+[Couldn't open a file]
+Impossible d'ouvrir le fichier
+[Size: %d bytes]
+Taille : %d octets
+[Request sent. Awaiting of acceptance..]
+Requête envoyée. Attente de confirmation...
+[Sending...]
+Envoi en cours
+[Received successfully]
+Reçu avec succès
+[Requesting of missing chunks]
+En requête de parties manquantes
+[Receiving...]
+Réception...
+[Sent successfully]
+Envoi réussi
+[Unknown command for "File As Message" was received]
+
+[Incoming file request. Do you want to proceed?]
+Requête de fichier entrant. Voulez-vous continuer?
+[Canceled by remote user]
+Annulé par l'utilisateur à distance
+[New incoming file request. Do you want to proceed?]
+Nouvelle requête de fichier entrant. Voulez-vous continuer?
+[File transfer is paused because of dropped connection]
+Suspendu, due à la perte de connexion
+[Failed on file initialization]
+Échec d'initialisation du fichier
+[Paused...]
+En pause...
+[Synchronizing...]
+Synchronisation...
+[Select a file]
+Sélectionnez un fichier
+[Save as]
+Sauver sous
+[Can't get a file size]
+N'a pu obtenir la taille du fichier
+[Canceled by user]
+Annulé par l'usager
+[Transfer is in progress. Do you really want to close?]
+Transfert en cours. Voulez-vous vraiment annuler ?
+;file \plugins\FileAsMessage\src\main.cpp
+[Play]
+
+[Pause]
+Pause
+[Revive]
+
+[Stop]
+
+[Main]
+Principales
+[Events]
+Évènements
+[File As Message...]
+Fichier comme message...
+;file \plugins\FileAsMessage\src\main.h
+[File As Message]
+

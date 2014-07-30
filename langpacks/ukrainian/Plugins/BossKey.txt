@@ -1,0 +1,75 @@
+﻿#muuid {4fac353d-0a36-44a4-9064-6759c53ae782}
+;============================================================
+;  File: BossKey.dll
+;  Plugin: BossKey+
+;  Version: 0.5.0.3
+;  Authors: Goblineye Entertainment, Billy_Bons
+;============================================================
+[Anti-Boss plugin. Makes your Miranda NG hidden or password-protected.]
+Дозволяє по натисканню "гарячої клавіші" ховати Miranda NG від сторонніх очей.
+[BossKey]
+Антибосс
+[Go to Customize -> Hotkeys to change the hotkey]
+Налаштування в Тонке налаштування -> Гарячі клавіші
+[When I press the hotkey:]
+Коли я натисну гарячу клавішу...
+[Change status to]
+Змінити статус на
+[Change only if current status is Online]
+Змінювати тільки при статусі "В мережі"
+[Use default status message]
+Статусне повідомлення за замовчанням
+[Disable Sounds]
+Вимкнути звуки
+[Show the Tray Icon]
+Показувати значок в треї
+[When I return:]
+При поверненні...
+[Request password:]
+Запитати пароль:
+[Change status back]
+Повернути попередній статус
+[Hotkey]
+Гаряча клавіша
+[Password:]
+Пароль:
+[Cancel]
+Скасувати
+[Workstation is locked]
+Комп'ютер заблоковано
+[Screen Saver is running]
+Запущена заставка
+[Windows is inactive]
+Windows не активна
+[Hide Miranda when:]
+Сховати програму, коли:
+[Miranda is inactive]
+Програма неактивна
+[min]
+хв.
+[Miranda is started]
+Програма запускається
+[Others]
+Інше
+[Create a main menu item]
+Пункт у головному меню
+[Restore hiding on startup after failure]
+Відновлювати приховування при запуску після "падіння"
+[Miranda NG is locked.\nEnter password to unlock it.]
+Miranda NG заблокована.\nВведіть пароль для розблокування.
+[Password is not correct!\nPlease, enter correct password.]
+Неправильний пароль!\nВведіть правильний пароль.
+[Hide Miranda NG]
+Сховати Miranda NG
+[Hide]
+Сховати
+[Hide/Show Miranda]
+Сховати/Показати Miranda NG
+[get the BossKey name]
+Отримати клавішу блокування з АнтиБосс+
+[Events]
+Події
+[Main]
+Головний
+[Advanced]
+Додатково

@@ -1,0 +1,74 @@
+﻿;============================================================
+;  File: smcn.dll, smcnotify.dll (???)
+;  Module: StatusMessageChangeNotify
+;  Versions: 0.0.1.6-0.0.3.19
+;  URL: http://www.torun.mm.pl/~slotwin/smcn/smcnotifytest.zip
+;============================================================
+[Status Message Change Notify]
+Абвестка пра змену статуснага паведамлення
+[Enable &status message change notification]
+Укл. абвестку пра змену статуснага паведамлення
+[Disable &status message change notification]
+Выкл. абвестку пра змену статуснага паведамлення
+[View Status Message History]
+Гісторыя статусных паведамленняў
+[List Contacts with Status Message]
+Статусныя паведамленні кантактаў
+[Disable SMCN Popups]
+Выкл. Вокны пра змену статусу
+[Enable SMCN Popups]
+Укл. Вокны пра змену статусу
+[Status Message Changed]
+Статуснае паведамленне змянілася
+[changes his/her status message to:]
+памяняўла) статуснае паведамленне на:
+[cleares his/her status message]
+выдаліў(ла) статуснае паведамленне
+[changes his/her status message:]
+памяняў(ла) статуснае паведамленне:
+[<empty status message>]
+<пустое статуснае паведамленне>
+[Old status message]
+Старое статуснае паведамленне
+[New status message]
+Новае статуснае паведамленне
+[List Status Messages]
+Паказаць статусныя паведамленні
+[Go To URL in Status Message]
+URL у статусным паведамленні
+[Status Message History]
+Гісторыя статусных паведамленняў
+[Use OSD]
+Выкарыстоўваць OSD
+[Do not notify and log when status message is empty]
+Не абвяшчаць і не запісваць пустыя паведамленні
+[Show status message changes in message window]
+Паказваць змены статусаў у вакне паведамленняў
+[Message cleared]
+Паведамленне выдалена
+[Message changed]
+Паведамленне змянілася
+[%n New Status Message]
+%n Новае статуснае паведамленне
+[%o Old Status Message]
+%o Старое статуснае паведамленне
+[%D/%M/%Y day/month/year]
+%D/%M/%Y  дзень/месяц/год
+[%c Custom nickname]
+%c Свая мянушка
+[%H:%m Time (in 24h format)]
+%H:%m Час (фармат 24г)
+[%h:%m %a (in 12h format)]
+%h:%m %a (фармат 12г)
+[\\n line break]
+\\n новая лінія
+[\\t tab stop]
+\\t табулятар
+[View status message history]
+Гісторыя статусных паведамленняў
+[Clear history]
+Сцерці гісторыю
+[Do not log empty status messages]
+Не запісваць пустыя статусныя паведамленні
+[Only if status message has changed]
+Толькі калі статуснае паведамленне змянілася

@@ -1,0 +1,91 @@
+﻿#muuid {c8cc7414-6507-4af6-925a-83c1d2f7be8c}
+;============================================================
+;  File: CSList.dll
+;  Plugin: Custom status list
+;  Version: 0.1.1.0
+;  Authors: Mataes, jarvis
+;============================================================
+[This plugin offers simple management functions to keep your extra statuses on one place.]
+Этот плагин предоставляет простой в использовании менеджер хСтатусов и возможность хранения хСтатусов в одном месте.
+[Custom Status List]
+Пользовательский список статусов
+[No items available in the database.\nClick the Add button to define some.]
+Нет записей в базе данных.\nНажмите на кнопку "Добавить новый пункт" для заполнения списка.
+[Add/Modify Custom Status]
+Добавить/изменить хСтатус
+[Add/Modify]
+Добавить/изменить
+[Cancel]
+Отмена
+[List settings]
+Настройки
+[Confirm deletion of items]
+Подтверждать удаление пунктов
+[Delete entries in Custom status menu after Import]
+После импорта удалять тексты статусов в списке
+[Remember last window position]
+Помнить последнее положение окна
+[Note: Menu items are only visible when at least one account is properly set. Check if you have at least one account with UIN filled in.]
+Примечание: Пункты меню отображаются только при наличии хотя бы одной правильно установленной учётной записи. Проверьте, есть ли у вас по крайней мере одна учётная запись с UIN.
+[Status]
+Статус
+[Add new item]
+Добавить новый пункт
+[Add]
+Добавить
+[Modify item]
+Изменить пункт
+[Modify]
+Изменить
+[Warning]
+Предупреждение
+[This field doesn't accept string longer than %d characters. The string will be truncated.]
+Это поле ограничено по длине %d символами. Строка будет обрезана.
+[Favorites]
+Избранные
+[Regular statuses]
+Частые статусы
+[Title]
+Заголовок
+[Message]
+Сообщение
+[Do you really want to delete selected item?]
+Удалить выбранную запись?
+[Do you want old database entries to be deleted after Import?]
+Вы хотите удалить записи старой базы данных после импорта?
+[Main Menu]
+Главное меню
+[Main Icon]
+Главный значок
+[Modify selected item]
+Изменить выбранный пункт
+[Delete selected item]
+Удалить выбранный пункт
+[Remove]
+Удалить
+[Set/unset current item as favorite]
+Установить/убрать выбранный пункт как избранный
+[Favorite]
+Избранное
+[Undo changes]
+Отменить изменения
+[Import statuses from database]
+Импорт статусов из базы данных
+[Import]
+Импорт
+[Filter list]
+Фильтр
+[Filter]
+Фильтр
+[Close without changing custom status]
+Закрыть без изменений
+[No change]
+без изм.
+[Clear custom status (reset to None) and close]
+Очистить хСтатус (поставить в Нет) и закрыть
+[Clear]
+Очистить
+[Set custom status to selected one and close]
+Уст. хСтатус на выбранный и закрыть
+[Set]
+Выбрать

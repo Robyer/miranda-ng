@@ -1,0 +1,85 @@
+﻿#muuid {2f129563-2c7d-4a9a-b948-97dfcc0afdd7}
+;============================================================
+;  File: Folders.dll
+;  Plugin: Custom profile folders
+;  Version: 0.2.0.1
+;  Authors: Cristian Libotean, Miranda NG Team
+;============================================================
+[Allows plugins to save their data to user selected folders; supports variables.]
+Pozwala wtyczkom zapisywać dane do folderów wybranych przez użytkownika; wspiera zmienne.
+;file \plugins\Folders\res\folders.rc
+[Dialog]
+Okno
+[Custom folders]
+Niestandardowe foldery
+[Preview]
+Podgląd
+[Edit]
+Edytuj
+[Refresh preview]
+Odśwież podgląd
+[Variables help]
+Pomoc o zmiennych
+[Custom folders variables help]
+Pomoc o zmiennych niestandardowych folderów
+[Close]
+Zamknij
+;file \plugins\Folders\src\dlg_handlers.cpp
+[Some changes weren't saved. Apply the changes now?]
+Nie wszystkie zmiany zostały zapisane. Zastosować zmiany teraz?
+[Changes not saved]
+Zmiany nie zapisane
+[Don't forget to click on Apply to save the changes. If you don't then the changes won't]
+Nie zapomnij, by kliknąć Zastosuj, by zapisać zmiany. Jeśli tego nie zrobisz, zmiany nie
+[be saved to the database, they will only be valid for this session.]
+będą zapisane do bazy danych, będą one ważne tylko dla tej sesji.
+[Variable string]
+Zmienna
+[What it expands to:]
+Jakie jest jej rozwinięcie:
+[Expands to your Miranda path (e.g., c:\\program files\\miranda ng).]
+Rozwija się do ścieżki Mirandy (np. C:\Program Files\miranda ng).
+[Expands to your profile path - the value found in mirandaboot.ini,]
+Rozwija się do ścieżki twojego profilu - wartość znaleziona w mirandaboot.ini
+[ProfileDir section (usually inside Miranda's folder).]
+w sekcji ProfileDir (zazwyczaj w folderze Mirandy).
+[Expands to your current profile name without the extenstion.]
+Rozwija się do nazwy obecnie załadowanego profilu bez rozszerzenia jego pliku.
+[(e.g., default if your your profile is default.dat).]
+(np. default, jeśli twój profil to default.dat).
+[Environment variables]
+Zmienne środowiskowe
+[The plugin can also expand environment variables; the variables are specified like in any other]
+Wtyczka może także rozwijać zmienne środowiskowe; zmienne te są określone jak w każdym innym
+[program that can use environment variables, i.e., %<env variable>%.]
+programie, który obsługuje zmienne środowiskowe, czyli %<env variable>%.
+[Note: Environment variables are expanded before any Miranda variables. So if you have, for]
+Uwaga: zmienne środowiskowe są rozwijane przed jakimikolwiek zmiennymi Mirandy. Dlatego jeśli posiadasz
+[example, %profile_path% defined as a system variable then it will be expanded to that value]
+np. ścieżkę profilu zdefiniowaną jako zmienną systemową, zostanie ona rozwinięta do tej wartości.
+[instead of expanding to Miranda's profile path.]
+zamiast rozwijania do ścieżki profilu Mirandy.
+[Examples:]
+Przykład:
+[If the value for the ProfileDir inside mirandaboot.ini, ProfileDir section is '.\\profiles\\', current]
+Jeśli wartość ProfileDir w sekcji ProfileDir pliku mirandaboot.ini to ".\\profiles\\", obecny
+[profile is 'default.dat' and Miranda path is 'c:\\program files\\miranda ng\\' then:]
+profil to Default.dat, a ścieżka Mirandy to "C:\Program Files\miranda ng", to wtedy
+[will expand to 'c:\\program files\\miranda ng']
+zostanie rozwinięte do "c:\\program files\\miranda ng"
+[will expand to 'c:\\program files\\miranda ng\\profiles']
+zostanie rozwinięte do "c:\\program files\\miranda ng\\profiles"
+[will expand to 'default']
+zostanie rozwinięte do "domyślny"
+[will expand to the temp folder of the current user.]
+zostanie rozwinięte do folderu tymczasowego aktualnego użytkownika.
+[will expand to 'c:\\program files\\miranda ng\\profiles\\default']
+zostanie rozwinięte do "c:\\program files\\miranda ng\\profiles\\default"
+[will expand to 'c:\\program files\\miranda ng\\plugins\\config']
+zostanie rozwinięte do "c:\\program files\\miranda ng\\plugins\\config"
+[Notice that the spaces at the beginning and the end of the string are trimmed, as well as the last.]
+Zauważ, że spacje na początku i końcu ciągu są przycięte, zarówno jak i ostatnia.
+[Folders]
+Foldery
+[Customize]
+Personalizacja

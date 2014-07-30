@@ -1,0 +1,78 @@
+﻿#muuid {4fac353d-0a36-44a4-9064-6759c53ae782}
+;============================================================
+;  File: BossKey.dll
+;  Plugin: BossKey+
+;  Version: 0.5.0.3
+;  Authors: Goblineye Entertainment, Billy_Bons
+;============================================================
+[Anti-Boss plugin. Makes your Miranda NG hidden or password-protected.]
+Wtyczka Anti-Boss. Ukrywa Mirandę lub blokuje hasłem.
+;file \plugins\BossKeyPlus\res\BossKey.rc
+[BossKey]
+BossKey
+[Go to Customize -> Hotkeys to change the hotkey]
+Przejdź do Personalizacja -> Skróty, aby je ustawić
+[When I press the hotkey:]
+Kiedy nacisnę skrót:
+[Change status to]
+Zmień status na
+[Change only if current status is Online]
+Zmień tylko, jeśli aktualny status to Dostępny
+[Use default status message]
+Użyj domyślnego opisu
+[Disable Sounds]
+Wyłącz dźwięki
+[Show the Tray Icon]
+Pokaż ikonę w zasobniku
+[When I return:]
+Kiedy wrócę:
+[Request password:]
+Zażądaj hasła:
+[Change status back]
+Przywróć poprzedni status
+[Hotkey]
+Skrót
+[Password:]
+Hasło:
+[Cancel]
+Anuluj
+[Workstation is locked]
+Komputer jest zablokowany
+[Screen Saver is running]
+Wygaszacz jest włączony
+[Windows is inactive]
+Okno jest nieaktywne
+[Hide Miranda when:]
+Ukryj Mirandę kiedy:
+[Miranda is inactive]
+Miranda jest nieaktywna
+[min]
+min
+[Miranda is started]
+Miranda się uruchamia
+[Others]
+Inne
+[Create a main menu item]
+Utwórz wpis w menu głównym
+[Restore hiding on startup after failure]
+Przywróć ukrywanie na starcie po awarii
+;file \plugins\BossKeyPlus\src\BossKey.cpp
+[Miranda NG is locked.\nEnter password to unlock it.]
+Miranda jest zablokowana.\n Proszę wprowadzić hasło.
+[Password is not correct!\nPlease, enter correct password.]
+Błędne hasło!\nProszę wpisać poprawne hasło.
+[Hide Miranda NG]
+Ukryj Mirandę NG
+[Hide]
+Ukryj
+[Hide/Show Miranda]
+Pokaż/Ukryj Mirandę
+[get the BossKey name]
+pobierz nazwę BossKey
+;file \plugins\BossKeyPlus\src\Options.cpp
+[Events]
+Zdarzenia
+[Main]
+Ogólne
+[Advanced]
+Zaawansowane

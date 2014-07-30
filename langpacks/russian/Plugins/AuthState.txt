@@ -1,0 +1,33 @@
+﻿#muuid {dace7d41-dfa9-4772-89ae-a59a6153e6b2}
+;============================================================
+;  File: AuthState.dll
+;  Plugin: Authorization state
+;  Version: 0.0.2.1
+;  Authors: Thief, idea by snwbrdr
+;============================================================
+[If a contact didn't authorize you this plugin puts an icon in front of the contact's name.]
+Этот плагин поместит значок напротив имени, если контакт не авторизовал вас, или вы не авторизовали его.
+[Show Auth icon]
+Показывать значок "Запрос"
+[Show Grant icon]
+Показывать значок "Разрешить"
+[Plugin settings]
+Настройки
+[Enable menu item (*)]
+Добавить пункт меню (*)
+[Show icons only for recently added contacts]
+Значки только для недавно добавленных
+[Disable AuthState icons]
+Выкл. значки состояния авторизации
+[Enable AuthState icons]
+Вкл. значки состояния авторизации
+[Auth]
+Авторизация
+[Grant]
+Разрешить
+[Auth & Grant]
+Запрос & Разрешить
+[Auth State]
+Состояние авторизации
+[Icons]
+Значки

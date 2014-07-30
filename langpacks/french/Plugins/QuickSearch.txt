@@ -1,0 +1,276 @@
+﻿#muuid {e4058506-6494-4d60-9cf4-40bf545f78bd}
+;============================================================
+;  File: QuickSearch.dll
+;  Module: Quick Search
+;  Version: 1.4.2.0
+;  Authors: Awkward
+;============================================================
+[This plugin allows you to quick search for nickname, firstname, lastname, email, uin in your contact list. And now you may add any setting to display - for example user's version of Miranda, group or city.]
+
+[Quick Search]
+Recherche rapide
+[Title]
+
+[Module/InfoType]
+
+[Setting]
+
+[Reload]
+Recharger
+[New]
+Nouveau
+[Up]
+Haut
+[Down]
+Bas
+[Delete]
+Effacer
+[Default]
+Défaut
+[Additional Options]
+Options supplémentaires
+[Tool Window Style]
+
+[Draw Grid]
+Afficher la grille
+[Save search pattern]
+
+[Auto Close mode]
+
+[Sort by Status]
+Trier par état
+[Show Client Icons]
+Voir l'icône du client
+[Settings]
+Paramètres
+[Title:]
+Titre :
+[Account]
+Compte
+[Gender]
+
+[UserID]
+
+[Nickname]
+Pseudo
+[First name]
+Prénom
+[Last name]
+Nom
+[Group]
+Groupe
+[Container]
+
+[E-mail]
+e-mail
+[Client ID]
+
+[Ext IP]
+
+[LastSeen]
+
+[Last Event]
+
+[Online since]
+
+[Metacontact]
+
+[Event count]
+
+[Contact add time]
+
+[Type:]
+Type :
+[DB setting]
+
+[Script]
+
+[Service]
+
+[Contact info]
+
+[Other]
+Autre
+[Data type:]
+
+[Byte]
+
+[Word]
+
+[DWord]
+
+[Signed]
+
+[As hex]
+
+[String]
+
+[IP]
+
+[TimeStamp]
+Horodateur
+[Module:]
+Module :
+[Setting:]
+Paramètre :
+[Service:]
+Service :
+[Param]
+
+[number value]
+Valeur numérique
+[ANSI string]
+Chaine ANSI
+[Unicode string]
+Chaine unicode
+[current contact]
+contact actuel
+[last result]
+
+[parameter]
+
+[Result]
+
+[Result type]
+
+[Free memory]
+
+[Save]
+Sauver
+[All]
+
+[Close]
+Fermer
+[Refresh]
+Actualiser
+[QuickSearch]
+Recherche rapide
+[Show Offline contacts]
+Montrer les contacts hors ligne
+[New column]
+Nouvelle colonne
+[Save Item]
+Sauver
+[InfoType:]
+InfoType :
+[New Column]
+Nouvelle colonne
+[Column Up]
+Monter la colonne
+[Column Down]
+Descendre la colonne
+[Delete Column]
+Effacer la colonne
+[Male]
+Homme
+[Female]
+Femme
+[Contacts]
+Contacts
+[ContactInfo]
+
+[LastEvent]
+
+[EventCount]
+
+[Script Editor]
+
+[Normal background]
+
+[Normal foreground]
+
+[Odd background]
+
+[Odd foreground]
+
+[Disabled account background]
+
+[Disabled account foreground]
+
+[Deleted account background]
+
+[Deleted account foreground]
+
+[Hidden contact background]
+
+[Hidden contact foreground]
+
+[Metacontact background]
+
+[Metacontact foreground]
+
+[Subcontact background]
+
+[Subcontact foreground]
+
+[&Delete]
+&Effacer
+[&Copy]
+&Copier
+[C&onvert to Meta]
+
+[Attach to &Tab container]
+
+[&Move to Group]
+&Déplacer vers le groupe
+[Some of selected contacts in different metacontacts already]
+
+[Do you really want to delete selected contacts?]
+
+[Warning]
+Avertissement
+[One or more contacts in same Meta already. Try to convert anyway?]
+
+[Editing of column ]
+
+[%i users found (%i) Online: %i]
+
+[ users found (]
+
+[) Online: ]
+
+[Online]
+En ligne
+[deleted]
+Effacé
+[off]
+
+[active]
+active
+[Colorize]
+
+[QuickSearch window hotkey]
+
+[Column content is simple database setting.]
+
+[Column content is script result.\r\nMore help from "Help" button in script dialog.]
+
+[Column content is contact property (see list). Can be empty.]
+
+[Content is last online time.]
+
+[Content is time of last contact event.]
+
+[Content is metacontact info.]
+
+[Content is count of ALL contact events (not messages only)]
+
+[Other info]
+
+[Change setting through QS]
+
+[default]
+Défaut
+[Selected]
+
+[contacts]
+Contacts
+[Unknown]
+Inconnu
+[Stay on Top]
+Toujours visible
+; these lines are not present in the sources, but they are present in compiled plugin
+[Text Editor]
+
+[Wrap Text]
+

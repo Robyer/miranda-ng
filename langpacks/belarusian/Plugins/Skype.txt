@@ -1,0 +1,361 @@
+﻿#muuid {9c448c61-fc3f-42f9-b9f0-4a30e1cf8671}
+;============================================================
+;  File: Skype.dll
+;  Plugin: Skype protocol
+;  Version: 0.11.0.2
+;  Authors: unsane, mataes, ghazan
+;============================================================
+[Skype protocol support for Miranda NG.]
+Skype пратакол для Miranda NG.
+;file \protocols\Skype\res\Resource.rc
+[Invite contacts to conference]
+Запрасіць у канферэнцыю
+[Skype name:]
+Імя Skype:
+[&Invite]
+Запрасіць
+[&Cancel]
+Скасаваць
+[Add]
+Дадаць
+[Create conference]
+Стварыць канферэнцыю
+[&Create]
+Стварыць
+[Topic:]
+Тэма:
+[Guideline:]
+Кіравала:
+[Enable joining]
+Дазволіць уваход у чат
+[New members join with role:]
+Роль для новых удзельнікаў:
+[Create with password]
+Стварыць з паролем
+[Password:]
+Пароль:
+[Confirmation:]
+Пацверджанне:
+[Password hint:]
+Падказка пароля:
+[Set password]
+Усталяваць пароль
+[Hint:]
+!!!:
+[Enter password]
+Увядзіце пароль
+[Remember this session password]
+Запомніць пароль сеансу
+[Cancel]
+Скасаваць
+[Status text:]
+Тэкст статусу:
+[Online since:]
+Далучаны:
+[Last event date:]
+Дата апошняй падзеі:
+[Last profile change:]
+Дата апошняй змены профіля:
+[Full name:]
+Поўнае імя:
+[Date of birth:]
+Дата нараджэння:
+[Gender:]
+Род:
+[Homepage:]
+Сайт:
+[Language:]
+Мова:
+[About:]
+Інфармацыя:
+[Mood:]
+Настрой:
+[E-mail 1:]
+Пошта 1:
+[E-mail 2:]
+Пошта 2:
+[E-mail 3:]
+Пошта 3:
+[Mobile phone:]
+Мабільны:
+[Home phone:]
+Хатні тэлефон:
+[Office phone:]
+Офіс. тэлефон:
+[City:]
+Горад:
+[State:]
+Штат:
+[Country:]
+Краіна:
+[Timezone:]
+Гадзінны пояс:
+[Skype credit:]
+Баланс Skype:
+[Change password]
+Змяніць пароль
+[Old password:]
+Стары пароль:
+[New password:]
+Новы пароль:
+[Register new account]
+Зарэгістравацца
+[Account]
+Конт
+[Connection]
+Далучэнне
+[Use port]
+Порт
+[for incoming connections]
+для ўваходных далучэнняў
+[Use ports 80 and 443 as alternative incoming]
+Выкарыстоўваць порты 80 і 443 як уваходныя
+[Default group:]
+Гурт:
+[Block]
+Заблакаваць
+[Allow IMs from...]
+Дазволіць імгненныя паведамленні ад...
+[Anyone]
+Усіх
+[People in my Contact list only]
+Спісу маіх кантактаў
+[Allow calls from...]
+Дазволіць званкі ад...
+[Automatically receive video and share screens with...]
+Аўтаматычна паказваць экран і прымаць выдэё ад...
+[No one]
+Нікога
+[Show avatars]
+Аватары
+[Contacts count]
+Лічыльнік кантактаў
+[Local time]
+Мясцовы час
+[Allow my online status to be shown on the web]
+Дазволіць адлюстраванне майго статуса далучэння
+[Block this person]
+Блакаваць кантакт
+[Remove from your Contact List]
+Выдаліць з спісу кантактаў
+[Abuse]
+Парушэнне
+[You can also report abuse from this user.]
+Вы таксама можаце паведаміць пра парушэнне гэтага кантакта
+[Report abuse]
+Паведаміць пра парушэнне
+;file \protocols\Skype\src\skype.cpp
+[Did not unpack SkypeKit.exe.]
+SkypeKit.exe не распакаваны.
+;file \protocols\Skype\src\skype_account.cpp
+[HTTPS proxy authentication failed]
+Аўтэнтыфікацыя па HTTP проксі не атрымалася
+[SOCKS proxy authentication failed]
+Аўтэнтыфікацыя па SOCKS проксі не атрымалася
+[P2P connection failed]
+Злучэнне па P2P не атрымалася
+[Server is overloaded]
+Сервер перагружаны
+[SkypeKit database already in use]
+База дадзеных SkypeKit ужо выкарыстоўваецца
+[Invalid Skype name]
+Няслушны Skype ID
+[Invalid email]
+Няслушны e-mail
+[Unacceptable password]
+Недапушчальны пароль
+[Skype name is taken]
+Імя Skype занята
+[Incorrect password]
+Няслушны пароль
+[Too many login attempts]
+Занадта шмат спроб уваходу
+[Password has changed]
+Пароль быў зменены
+[SkypeKit database is corrupt]
+База дадзеных SkypeKit пашкоджана
+[Invalid application ID]
+Няслушнае ID прыкладанні
+[Version is unsupported]
+Версія не падтрымліваецца
+[Account blocked]
+Конт заблакаваны
+[Logout from another instance]
+Выйсці на іншых прыладах
+[Password successfully changed]
+Пароль паспяхова зменены
+[Password changing]
+Змена пароля
+[Old password was incorrect]
+Стары пароль не дакладны
+[Failed to verify password. No connection to server]
+Немагчыма праверыць пароль. Няма падлучэння да сервера
+[Password was set but server didn't like it much]
+Пароль быў адпрэчаны серверам
+[New password was exactly the same as old one]
+Уведзены пароль сапраўды такой жа як стары
+[The new password was unacceptable]
+Новы пароль непрымальны
+[Account was currently not logged in]
+Конт не далучаны
+[You have not entered a Skype name.\nConfigure this in Options->Network->%s and try again.]
+Вы не ўвялі Skype ID.\nУвядзіце яго ў Налады->Сеціва->%s і паспрабуйце зноў.
+;file \protocols\Skype\src\skype_blocked.cpp
+[Name]
+Імя
+;file \protocols\Skype\src\skype_bookmarks.cpp
+[Conferences]
+Канферэнцыі
+;file \protocols\Skype\src\skype_chat.cpp
+[&User details]
+Інфармацыя пра кантакт
+[&Request auth]
+&Запытаць аўтарызацыю
+[Invite to conference]
+Запрасіць у канферэнцыю
+[Set &role]
+Усталяваць &ролю
+[&Master]
+&Мадэратар
+[&Helper]
+&Памагаты
+[&User]
+&Кантакт
+[&Listener]
+&Слухач
+[&Add]
+&Дадаць
+[&Kick]
+Выкінуць
+[Outlaw (&ban)]
+Забаніць
+[Copy &Skype name]
+Капіяваць &Skype ID
+[Copy room &URI]
+Капіяваць URI канферэнцыі
+[User]
+Кантакт
+[me]
+Я
+[Incoming group call finished]
+Уваходны гуртавы званок скончаны
+[The password is incorrect]
+Няслушны пароль
+[Your application to join the conference was denied]
+Ваша просьба пра далучэнне да канферэнцыі адхілена
+[Incoming group call started]
+Уваходны гуртавы званок
+[You did not select any contact]
+Вы не абралі кантакт
+[Hi! I'd like to add you to my contact list]
+Прывітанне! Я жадаў бы дадаць Вас у свой спіс кантактаў
+;file \protocols\Skype\src\skype_contacts.cpp
+[Contact already in your contact list]
+Кантакт ужо ў вашым спісе
+[Contacts received]
+Кантакты адасланы
+;file \protocols\Skype\src\skype_dialogs.cpp
+[Enter a password for %s:]
+Увядзіце пароль для %s:
+[Password can't be empty.]
+Пароль не можа быць пустым.
+[Old password is not correct.]
+Стары пароль несапраўдны
+[<not specified>]
+<не паказана>
+[Male]
+Мужчынскі
+[Female]
+Жаночы
+[You are not currently connected to the Skype network. You must be online in order to update your information on the server.]
+Вы не падлучаны ў наш час. Вы павінны быць анлайн, каб абнавіць Вашу інфармацыю на серверы.
+;file \protocols\Skype\src\skype_events.cpp
+[Network]
+Сеціва
+[Privacy]
+Прыватнасць
+[Contacts]
+Кантакты
+[Home]
+Дома
+[General]
+Агульнае
+[Skype account]
+Конт Skype
+;file \protocols\Skype\src\skype_icons.cpp
+[Protocol icon]
+Абразок пратаколу
+[Call]
+Званок
+[Conference]
+Чат
+[Send contact]
+Адаслаць кантакт
+[Contact]
+Кантакт
+[Delete]
+Выдаліць
+[Protocols]
+Пратаколы
+;file \protocols\Skype\src\skype_ignore_list.cpp
+;file \protocols\Skype\src\skype_instances.cpp
+[Initialization key corrupted or not valid.]
+Ключ ініцыялізацыі пашкоджаны ці не сапраўдны.
+[SkypeKit did not start.]
+SkypeKit не запусціўся.
+;file \protocols\Skype\src\skype_menus.cpp
+[Unblock this person...]
+Разбракаваць кантакт...
+[Block this person...]
+Блакаваць кантакт
+[Skype menu chooser]
+Выбар конту Skype
+[Request authorization]
+Запытаць аўтарызацыю
+[Grant authorization]
+Аўтарызаваць
+[Revoke authorization]
+Адклікаць аўтарызацыю
+[View old messages...]
+Паглядзець гісторыю
+[for last day]
+за апошні дзень
+[for last week]
+за апошні тыздень
+[for last month]
+за апошні месяц
+[for last 3 month]
+за апошнія 3 месяцы
+[for last year]
+за апошні год
+[for all time]
+заўсёды
+;file \protocols\Skype\src\skype_messages.cpp
+[Incoming call started]
+Уваходны званок
+[Incoming call finished]
+Уваходны званок завершаны
+[history synchronization]
+сінхранізацыя гісторыі
+[Done!]
+Выканана!
+;file \protocols\Skype\src\skype_netlib.cpp
+[%s connection]
+Злучэнне %s
+;file \protocols\Skype\src\skype_proto.cpp
+[Skype name]
+Імя Скайп
+;file \protocols\Skype\src\skype_transfers.cpp
+;file \protocols\Skype\src\skype_utils.cpp
+[Validation succeeded]
+Валідацыя пройдзена
+[Password is too short]
+Пароль занадта кароткі
+[Value has invalid format]
+Значэнне мае няслушны фармат
+[Value contains invalid word]
+Значэнне мае недапушчальнае слова
+[Password is too simple]
+Пароль занадта простай
+[Command "%s" is unsupported]
+Каманда "%s" не падтрымліваецца

@@ -1,0 +1,63 @@
+﻿#muuid {2fd0df15-7098-41ce-aa92-ff621806e38b}
+;============================================================
+;  File: Exchange.dll
+;  Plugin: Exchange
+;  Version: 0.1.3.4
+;  Authors: Cristian Libotean, Attila Vajda, MaKaR (NG)
+;============================================================
+[Notifies you if you have unread email on an exchange server.]
+Уведомляет о непрочитанной почте на сервере Exchange.
+[Unread emails]
+Непрочитанные письма
+[Close]
+Закрыть
+[Mark as read]
+Прочитанное
+[Dialog]
+Диалог
+[Connection]
+Подключение
+[Username:]
+Пользователь:
+[Password:]
+Пароль:
+[Server:]
+Сервер:
+[Preferences]
+Настройки
+[Check every]
+Пров. каждые
+[seconds]
+секунд
+[Force reconnect every]
+Принудительно переподключаться каждые
+[minutes]
+минут(ы)
+[Check server before trying to connect]
+Проверять сервер перед подключением
+[Try to connect]
+Подключиться
+[times before giving up]
+раз, прежде чем отказаться
+[Show email notifications using popup module]
+Показывать уведомления о почте во всплывающих окнах
+[Entry ID]
+ID записи
+[Subject]
+Тема
+[Sender]
+Отправитель
+[You have %d unread emails...]
+У вас %d непрочитанных писем...
+[You have one unread email...]
+У вас 1 непрочитанное письмо...
+[Exchange email]
+Почта Exchange
+[Do you want to see the email headers?]
+Вы хотите видеть заголовки писем?
+[Check exchange mailbox]
+Проверить почтовый ящик Exchange
+[Exchange notify]
+Уведомление Exchange
+[Plugins]
+Плагины

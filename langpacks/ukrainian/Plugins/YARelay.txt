@@ -1,0 +1,65 @@
+﻿#muuid {01202e6a-c1b3-42e5-838a-3e497b31f38e}
+;============================================================
+;  File: YARelay.dll
+;  Plugin: YARelay
+;  Version: 0.1.0.1
+;  Authors: Anar Ibragimoff
+;============================================================
+[Forwards messages to some contact when you are not available.]
+За вашої відсутності переадресовує повідомлення на вказаний контакт.
+[Forward messages from...]
+Переадресація повідомлень від...
+[Everyone]
+Всіх
+[Contact]
+Контакт
+[Forward when your status is...]
+Переадресація, коли ваш статус...
+[Offline]
+Не в мережі
+[Online]
+У мережі
+[Away]
+Відсутній
+[NA]
+Недоступний
+[Occupied]
+Зайнятий
+[DND]
+Не турбувати
+[Free for chat]
+Готовий до чату
+[Invisible]
+Невидимий
+[Forward messages to...]
+Переадресація повідомлень для...
+[Template]
+Шаблон
+[%u - user nick;   %i - uin;    %t - time;   \r%d - date;   %m - message]
+%u - нік;   %i - UIN;    %t - час;   \r%d - дата;   %m - повідомлення
+[Forwarding options]
+Налаштування переадресації
+[Split message (%m)]
+Розділяти повідомлення (%m)
+[Send only first]
+Надсилати перші
+[Max size of split part (chars)]
+Макс. розмір частини (симв.)
+[Mark received messages as 'read']
+Позначати отримані повідомлення як прочитані
+[Save sent messages in recipient's history]
+Зберігати надіслані повідомлення в історії
+[split parts (0 = all)]
+частин (0 = всі)
+[Note: Max size - it's a size of %m parameter]
+Примітка: максимальний розмір - це значення параметру %m
+[Note: messages from this contact will not be forwarded]
+Примітка: повідомлення від цього контакту не будуть переадресовані
+[!EVERYONE!]
+!ВСІМ!
+[!DON'T FORWARD!]
+!НЕ ПЕРЕСИЛАТИ!
+[Message Sessions]
+Бесіди
+[Messages forwarding]
+Переадресація

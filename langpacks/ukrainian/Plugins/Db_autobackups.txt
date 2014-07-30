@@ -1,0 +1,95 @@
+﻿#muuid {81c220a6-0226-4ad6-bfca-217b17a16053}
+;============================================================
+;  File: Db_autobackups.dll
+;  Plugin: Db autobackuper
+;  Version: 0.0.0.10
+;  Authors: chaos.persei, sje, Kildor, Billy_Bons
+;============================================================
+[Database autobackuper plugin.]
+Плагін авторезервування профілю.
+[Backup progress]
+Резервне копіювання
+[Cancel]
+Скасувати
+[Automatic backups]
+Авторезервування профілю
+[Backup NOW]
+Резервувати ЗАРАЗ!
+[Disabled]
+Вимкнено
+[When Miranda starts]
+При старті
+[When Miranda exits]
+При виході
+[Every:]
+Кожні:
+[Number of backups to keep:]
+Кількість резервних копій для зберігання:
+[Backup to folder:]
+Папка для резервних копій
+[Browse...]
+Огляд...
+[Go to the "Customize -> Folders" to change settings]
+Відкрийте "Тонке налаштування -> Папки" для зміни налаштувань
+[Compress backup to zip-archive]
+Стиснути резервну копію в zip-архів
+[Disable progress bar]
+Вимкнути індикацію
+[Disable popups]
+Вимкнути сплив. вікна
+[Miranda NG database]
+База даних Miranda NG
+[Created by:]
+Створена:
+[Miranda NG databases]
+Бази даних Miranda NG
+[Compressed Miranda NG databases]
+Стиснуті бази даних Miranda NG
+[All files]
+Усі файли
+[Backup in progress]
+Резервування у процесі
+[Copying database file...]
+Копіювання файлу бази даних...
+[Database backed up]
+Профіль зарезервовано
+[Backup profile]
+Резервувати профіль
+[Save profile as...]
+Зберегти профіль як...
+[Database backups]
+Резервування профілю
+[Backup folder]
+Папка резервування
+[Database]
+База даних
+[path to Miranda root folder]
+шлях до папки програми
+[path to current Miranda profile]
+шлях до папки поточного профілю
+[name of current Miranda profile (filename, without extension)]
+ім'я поточного профілю (тільки ім'я, без розширення)
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%]
+поверне рядок виду %miranda_profile%\\Profiles\\%miranda_profilename%
+[same as environment variable %APPDATA% for currently logged-on Windows user]
+те саме, що й змінна середовища %APPDATA% для поточного користувача системи
+[username for currently logged-on Windows user]
+ім'я поточного користувача системи
+["My Documents" folder for currently logged-on Windows user]
+папка "Мої документи" для поточного користувача Windows
+["Desktop" folder for currently logged-on Windows user]
+папка "Робочий стіл" для поточного користувача Windows
+[any environment variable defined in current Windows session (like %systemroot%, %allusersprofile%, etc.)]
+будь-яка змінна середовища, визначена в поточній сесії Windows (наприклад, %systemroot%, %allusersprofile% тощо)
+[Variables]
+Змінні
+[days]
+днів
+[hours]
+годин
+[minutes]
+хвилин
+[Select backup folder]
+Обрати папку резервного копіювання
+[Error creating backup folder]
+Помилка при створенні папки для резервного копіювання

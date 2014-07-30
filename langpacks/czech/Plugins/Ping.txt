@@ -1,0 +1,173 @@
+﻿#muuid {760ea901-c0c2-446c-8029-94c3bc47c45e}
+;============================================================
+;  File: Ping.dll
+;  Plugin: Ping
+;  Version: 0.9.1.1
+;  Authors: Scott Ellis
+;============================================================
+[Ping labelled IP addresses or domain names.]
+Zasílá ping na zvolené IP adresy nebo doménové jména.
+;file \plugins\Ping\res\ping.rc
+[Delay between pings (secs):]
+Doba mezi dotazy (sek.):
+[Timeout]
+Doba zobrazení
+[Ping timeout (secs):]
+Dotaz vyprší po (sek.):
+[Logging]
+Záznam
+[Log to File]
+Do souboru
+[Log Filename:]
+Název souboru:
+[Network]
+Sítě
+[Popups]
+Oznámení
+[Reply]
+Odpovědět
+[Block Repetitions]
+Potlačit opakované
+[View Log]
+Zobrazit záznam
+[Browse...]
+Procházet...
+[Interface]
+Rozhraní
+[Do not change icon when testing]
+Neměnit ikonu během testování
+[Use the Customize/Fonts options to change text size and color.]
+Změnu písma a barev provedete v sekci Vlastní úpravy -> Písma a barvy.
+[Indent:]
+Odstup:
+[Row height:]
+Výška řádku:
+[Repeats for success/failure:]
+Opakování pro úspěch/chybu:
+[Attach to contact list]
+Přichytit k seznamu kontaktů
+[Use CSV format]
+Použít formát CSV
+[Add]
+Přidat
+[Remove]
+Odebrat
+[Edit]
+Upravit
+[Up]
+Nahoru
+[Down]
+Dolů
+[Edit Host]
+Upravit hostitele
+[Cancel]
+Zrušit
+[Address:]
+Adresa:
+[Label:]
+Popis:
+[TCP Connect]
+TCP Connect
+[Port:]
+Port:
+[Control Protocol:]
+Ovládaný protokol:
+[Set my status to:]
+Změnit stav na:
+[On success, if my status is:]
+Je-li vše v pořádku a stav:
+[Execute the following command on double-click:]
+Dvojím kliknutím spustit následující příkaz:
+[Contact]
+Kontakt
+[Protocols]
+Protokoly
+[(Optional) Command Parameters:]
+Argumenty příkazu:
+[Menu]
+Menu
+[Graph]
+Graf
+[Enable]
+Aktivovat
+[Disable all pings]
+Deaktivovat všechny pingy
+[Enable all pings]
+Deaktivovat všechny pingy
+[Options...]
+Možnosti...
+[Hosts...]
+Hostitelé...
+;file \plugins\Ping\src\menu.cpp
+[Ping]
+Ping
+;file \plugins\Ping\src\options.cpp
+[Text Files (*.txt)]
+Textové soubory (*.txt)
+[All Files]
+Všechny soubory
+[Open log file]
+Zobrazit záznam
+[<none>]
+<žádný>
+[<all>]
+<všechny>
+[Settings]
+Nastavení
+[Hosts]
+Hostitelé
+;file \plugins\Ping\src\ping.cpp
+[Ping Plugin]
+Ping doplněk
+;file \plugins\Ping\src\pinggraph.cpp
+[Show grid lines]
+Zobrazit mřížku
+[Show stats]
+Zobrazit statistiky
+[%d ms]
+%d ms
+[AVG %.1lf ms]
+AVG %.1lf ms
+[MAX %hd ms]
+MAX %hd ms
+[MIN %hd ms]
+MIN %hd ms
+[Ping Graph]
+Graf Ping
+;file \plugins\Ping\src\pingthread.cpp
+[%s - setting status of protocol '%S' (%d)]
+%s - nastavení stavu protokolu '%S' (%d)
+[Ping Reply]
+Ping - přijata odpověď
+[%s - reply, %d]
+%s - přijata odpověď, %d
+[Ping Timeout]
+Ping - čas vypršel
+[%s - timeout]
+%s - čas vypršel
+[Disable]
+Vypnout
+[enabled]
+zapnuto
+[double clicked]
+dvojité kliknutí
+[Show/Hide &Ping Window]
+Zobrazit/skrýt okno &Ping
+[List]
+Seznam
+;file \plugins\Ping\src\rawping.cpp
+[Host %s requests that you reduce the amount of traffic you are sending.]
+Upozornění! Zahlcujete hostitele %s\npříliš velkým množstvím dat. Zvyšte dobu mezi\njednotlivými dotazy (=pingy).
+;file \plugins\Ping\src\utils.cpp
+[Unknown Address]
+Neznámá adresa
+[Unknown]
+Neznámý
+[Responding]
+Odpovídá
+[Not Responding]
+Neodpovídá
+[Testing]
+Testování
+[Disabled]
+Vypnuto

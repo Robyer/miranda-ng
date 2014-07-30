@@ -1,0 +1,245 @@
+﻿#muuid {ed39af7c-becd-404e-9499-4d04f711b9cb}
+;============================================================
+;  File: SendSS.dll
+;  Plugin: Send ScreenShot+
+;  Version: 0.8.7.0
+;  Authors: Merlin
+;============================================================
+[Take a screenshot and send it to a contact.]
+Створення та надсилання знімків екрану контактам.
+[Dialog]
+Діалог
+[All]
+Всі
+[None]
+Немає
+[Cancel]
+Скасувати
+[Send screenshot]
+Відправити знімок екрану
+[Send screenshot to\n<unknown>]
+Відправити знімок екрану\n<невідомо>
+[Ti&med capture]
+&Затримка захоплення
+[Time (secs):]
+Секунд:
+[&Format:]
+&Формат:
+[Send B&y:]
+&Через:
+[E&xplore]
+&Огляд
+[&Fill description textbox.]
+&Заповнити рядки опису.
+[Delete &after send]
+Видалити &після відправки
+[Open editor before sending]
+Редагувати перед надсиланням
+[Open again]
+Відкрити знову
+[&Capture]
+&Захоплення
+[About]
+Інформація
+[Credits >]
+Автори >
+[&Close]
+&Закрити
+[Edit]
+Змінити
+[Caption:]
+Заголовок:
+[Size (HxW):]
+Розмір (ВхШ):
+[C&lient Area]
+В&міст
+[Target Tool]
+Інструмент прицілювання
+[File:]
+Файл:
+[Description:]
+Опис:
+[Result]
+Результат
+[Thumbnail]
+Мініатюра
+[&Copy]
+&Копіювати
+[Close]
+Закрити
+[Copy]
+Копіювати
+[Error]
+Помилка
+[GCHAT error]
+Помилка GCHAT
+[An unknown error has occurred.]
+Невідома помилка.
+[Unable to initiate %s.]
+Не вдалося ініціювати %s.
+[MAPI error (%i):\n%s.]
+Помилка MAPI (%i):\n%s.
+[Unknown response from %s (%i)]
+Невідома відповідь від %s (%i)
+[Got no response from %s (%i)]
+Немає відповіді від %s (%i)
+[%s (%i):\nCould not add a share to the Dropbox plugin.]
+%s (%i):\nНеможливо додати ресурс у плагін Dropbox.
+[The specified attachment was not found]
+Вкладення не знайдено
+[The specified attachment could not be opened]
+Вкладення неможливо відкрити
+[The type of a recipient was not MAPI_TO, MAPI_CC, or MAPI_BCC]
+Тип одержувача не MAPI_TO, MAPI_CC, або MAPI_BCC
+[One or more unspecified errors occurred]
+Одна чи декілька невизначених помилок
+[There was insufficient memory to proceed]
+Недостатньо пам'яті для продовження
+[One or more recipients were invalid or did not resolve to any address]
+Один або декілька одержувачів є недійсними або не відповідають жодній із вказаних адрес.
+[There was no default logon, and the user failed to log on successfully when the logon dialog box was displayed]
+Не виконано входу в систему за замовчанням, і користувач не зміг увійти в систему, коли відображалося діалогове вікно входу.
+[The text in the message was too large]
+Текст повідомлення був занадто великий
+[There were too many file attachments]
+Забагато вкладених файлів
+[There were too many recipients]
+Забагато одержувачів
+[A recipient did not appear in the address list]
+Одержувача немає в списку адрес
+[The user canceled one of the dialog boxes]
+Користувач скасував одне з діалогових вікон
+[Unknown Error]
+Невідома помилка
+[File transfer]
+Передача файлу
+[FTPFile transfer]
+Передача FTPFile
+[%s (%i):\nCould not add a share to the FTP File plugin.]
+%s (%i):\nНеможливо додати ресурс у плагін FTP File.
+[Could not start the HTTP Server plugin.]
+Неможливо запустити плагін HTTP Server.
+[%s (%i):\nCould not add a share to the HTTP Server plugin.]
+%s (%i):\nНеможливо додати ресурс у плагін HTTP Server.
+[Retry]
+Ще раз
+[Yes]
+Так
+[No]
+Ні
+[Abort]
+Скасувати
+[Ignore]
+Ігнорувати
+[SendScreenshot - Error]
+Помилка SendSS
+[Fatal error, image services not found. Send Screenshot will be disabled.]
+Невиправна помилка, сервісу зображень не знайдено. Плагін SendSS буде відключено.
+[Open SendSS+]
+Відкрити SendSS
+[SendSS]
+Надіслати скріншот
+[Screenshots]
+Знімки екрану
+[SendSS HTTP connections]
+HTTP-з'єднання SendSS
+[Could not create main dialog.]
+Неможливо створити головний діалог.
+[Send Screenshot]
+Надіслати скріншот
+[Send desktop screenshot]
+Відправити скріншот екрану
+[Take a screenshot]
+Зробити скріншот
+[Could not register Miranda service.]
+Неможливо зареєструвати сервіс.
+[Could not create Screenshot folder (error code: %d):\n%s\nDo you have write permissions?]
+Не вдалося створити папку знімків екрану (код помилки: %d):\n%s\nУ вас є права на запис?
+[Screenshot Icon1]
+Значок 1
+[Screenshot Icon2]
+Значок 2
+[Target Cursor]
+Ціль вікно у фокусі
+[Target Desktop]
+Ціль робочий стіл
+[Help]
+Довідка
+[Open Folder]
+Відкрити папку
+[Description off]
+Опис вимк.
+[Description on]
+Опис ввімк.
+[Delete off]
+Видалення вимк.
+[Delete on]
+Видалення ввімк.
+[Prev]
+Попереднє
+[Next]
+Наступне
+[Update]
+Оновити
+[Down arrow]
+Стрілка вниз
+[Buttons]
+Кнопки
+[Overlays]
+Оверлеї
+[Credits]
+Автори
+[< Copyright]
+< Права
+[Copyright]
+Права
+[Drag&Drop the target on the desired window.]
+Перетягніть приціл на потрібне вікно.
+[Send screenshot to\n]
+Відправити знімок екрану\n
+[Window]
+Вікно
+[Desktop]
+Робочий стіл
+[<Entire Desktop>]
+<Весь Робочий стіл>
+[Monitor]
+Монітор
+[ (primary)]
+ (основний)
+[File]
+Файл
+[<Only save>]
+<Тільки зберегти>
+[File Transfer]
+Передача файлу
+[E-mail]
+Пошта
+[FTP File]
+Файл на FTP
+[Upload Pie (30m)]
+Upload Pie (30 хв)
+[Upload Pie (1d)]
+Upload Pie (1 дн)
+[Upload Pie (1w)]
+Upload Pie (1 тижд)
+[Information]
+Інформація
+[Fill description textbox.]
+Заповніть опис у текстовому полі.
+[Delete after send]
+Видалити після відправки
+[Capture]
+Запис
+[Can't create a Screenshot]
+Неможливо створити знімок екрану
+[Select a file]
+Виберіть файл
+[Select a target window.]
+Виберіть вікно, щоб зробити знімок.
+[Screenshot ]
+Знімок екрану\s
+[of "]
+з "
+[" Window]
+" вікно

@@ -1,0 +1,65 @@
+﻿#muuid {1d9bf74a-44a8-4b3f-a6e5-73069d3a8979}
+;============================================================
+;  File: HistorySweeperLight.dll
+;  Plugin: History sweeper light
+;  Version: 0.1.0.1
+;  Authors: Sergey V. Gershovich a.k.a. Jazzy$, Boris Krasnovskiy, tico-tico
+;============================================================
+[This plugin can sweep system history, history from all contacts or only from chosen; also it may sweep history older than certain time; and may do it at Miranda NG startup/shutdown.]
+Этот плагин может чистить системную историю, историю всех контактов или только выбранного; чистить историю более старую чем определённое время; также при запуске/выключении программы.
+[History Sweeper Light]
+Чистка истории
+[Sweep history for these contacts:]
+Очистить историю для этих контактов:
+[Action 1]
+Действие 1
+[Action 2]
+Действие 2
+[Sweep on closing message window]
+Очищать при закрытии окна сообщений
+[Clicking on the icon in the status bar will change settings]
+Щелчок по иконке в панели статусов меняет настройки
+[Use UNSAFE mode (sweep as fast as possible, but dangerous for database)]
+Использовать НЕБЕЗОПАСНЫЙ режим (быстрее, но опаснее для профиля)
+[Keep all events]
+Все события сохраняются в истории
+[Delete all events]
+Все события удаляются из истории
+[Delete older than 1 day]
+Удалить историю старше 1 дня
+[Delete older than 3 days]
+Удалить историю старше 3 дней
+[Delete older than 7 days]
+Удалить историю старше 7 дней
+[Delete older than 2 weeks (14 days)]
+Удалить историю старше 2 недель
+[Delete older than 1 month (30 days)]
+Удалить историю старше 1 месяца
+[Delete older than 3 months (90 days)]
+Удалить историю старше 3 месяцев
+[Delete older than 6 months (180 days)]
+Удалить историю старше 6 месяцев
+[Delete older than 1 year (365 days)]
+Удалить историю старше 1 года
+[Keep 1 last event]
+Сохранить 1 последнее событие
+[Keep 2 last events]
+Сохранить 2 последних события
+[Keep 5 last events]
+Сохранить 5 последних событий
+[Keep 10 last events]
+Сохранить 10 последних событий
+[Keep 20 last events]
+Сохранить 20 последних событий
+[Keep 50 last events]
+Сохранить 50 последних событий
+[Default Action]
+Действие по умолчанию
+[Delete All]
+Удалить все
+[*** Default Action ***]
+*** Общее действие ***
+[*** System History ***]
+*** Системная история ***
+[History]
+История

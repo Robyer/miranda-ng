@@ -1,0 +1,158 @@
+﻿#muuid {a82baeb3-a33c-4036-b837-7803a5b6c2ab}
+;============================================================
+;  File: MyDetails.dll
+;  Plugin: My details
+;  Version: 0.0.1.12
+;  Authors: Ricardo Pescuma Domenecci, Drugwash
+;============================================================
+[Shows and allows you to edit your details for all protocols.]
+Pokazuje i pozwala edytować twoje dane dla wszystkich protokołów.
+;file \plugins\MyDetails\res\resource.rc
+[Set my nickname]
+Ustaw mój nick
+[Nickname:]
+Nick:
+[Cancel]
+Anuluj
+[General]
+Ogólne
+[RTL]
+RTL
+[Align text to right]
+Tekst po prawej
+[Auto-resize frame]
+Dopasuj wielkość ramki
+[Use contact list smileys]
+Użyj emotikon listy kontaktów
+[Replace smileys]
+Zamieniaj emotikony
+[Resize smileys]
+Dopasuj emotikony
+[Global on...]
+Globalny...
+[...avatar]
+...awatar
+[...nickname]
+...nick
+[...status]
+...status
+[...status message]
+...opis
+[Account]
+Konto
+[Show account name]
+Pokaż nazwę konta
+[Show account cycle button]
+Pokaż przycisk przełączania kont
+[Cycle through accounts every:]
+Przełączaj konta co:
+[seconds]
+s
+[Avatar]
+Awatar
+[Custom size:]
+Rozmiar:
+[pixels]
+px
+[Allow it to grow]
+Pozwól na powiększanie
+[Draw border]
+Rysuj obramowanie
+[Round corners]
+Zaokrąglone rogi
+[Custom corner size:]
+Rozmiar rogów:
+[Use free space (under avatar) to other texts]
+Użyj wolnego miejsca (pod awatarem) dla innego tekstu
+[Frame options]
+Opcje ramki
+[Top:]
+Góra:
+[Bottom:]
+Dół:
+[Left:]
+Lewa:
+[Right:]
+Prawa:
+[Set my status message for all status]
+Ustaw mój opis dla wszystkich statusów
+[Status message:]
+Opis:
+[&Offline]
+&Rozłączony
+[On&line]
+&Dostępny
+[&Away]
+&Zaraz wracam
+[&NA]
+&Wrócę później
+[Occ&upied]
+Za&jęty
+[&DND]
+&Nie przeszkadzać
+[&Free for chat]
+&Chętny do rozmowy
+[&Invisible]
+N&iewidoczny
+[On the &phone]
+Pod &telefonem
+[Out to &lunch]
+Na &obiedzie
+[Set my avatar...]
+Ustaw awatar...
+[Set my nickname...]
+Ustaw nick...
+[Set my status message...]
+Ustaw opis...
+[Enable listening to]
+Włącz Listening To
+[Show next account]
+Pokaż następne konto
+[Show previous account]
+Pokaż poprzednie konto
+[Cycle through accounts]
+Przełączaj konta
+[Don't cycle through accounts]
+Nie przełączaj kont
+;file \plugins\MyDetails\src\data.cpp
+[<no status name>]
+<brak opisu>
+;file \plugins\MyDetails\src\frame.cpp
+[Nickname]
+Nick
+[Status]
+Status
+[Status message]
+Opis
+[Listening to]
+Obecnie Słucham
+[My details]
+Moje dane
+[Background]
+Tło
+[Avatar border]
+Ramka awatara
+[Show my details]
+Pokaż moje dane
+[Enable listening to for %s]
+Włącz Listening To dla %s
+[Set my avatar for %s...]
+Ustaw awatar dla %s...
+[Set my nickname for %s...]
+Ustaw nick dla %s...
+[Set my status message for %s...]
+Ustaw opis dla %s...
+[Hide my details]
+Ukryj moje dane
+;file \plugins\MyDetails\src\mydetails.cpp
+[Previous account]
+Poprzednie konto
+[Next account]
+Następne konto
+[Set my nickname for %s]
+Ustaw mój nick dla %s
+[Set my status message for %s]
+Ustaw mój opis dla %s
+[Contact list]
+Lista kontaktów
+;file \plugins\MyDetails\src\options.cpp

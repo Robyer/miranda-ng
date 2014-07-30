@@ -1,0 +1,23 @@
+﻿#muuid {68c36842-3d95-4f4a-ab81-014d6593863b}
+;============================================================
+;  File: Flags.dll
+;  Plugin: Country flags
+;  Version: 0.1.0.4
+;  Authors: H. Herkenrath
+;============================================================
+[Service offering misc country utilities as flag icons and an IP-to-Country database.]
+Служба, добавляющая национальные флаги как значки, и ip-в страну базу данных.
+[Country Flags]
+Флаги стран
+[Show country flag as &status icon on message window]
+Показывать флаг, как значок &статуса в окне беседы
+[Show country flag as &extra image on contact list]
+Показывать флаг, как &доп. значок в списке контактов
+[Use &IP-to-country database for country detection]
+Использовать базу &IP для определения страны
+[Use &unknown flag if the country cannot be determined]
+Показ. &неизв. флаг, если страну нельзя определить
+[Country flag]
+Флаг страны
+[Icons]
+Значки

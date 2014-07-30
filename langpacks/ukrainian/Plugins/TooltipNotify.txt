@@ -1,0 +1,93 @@
+﻿#muuid {5906a545-f31a-4726-b48f-03a09f060318}
+;============================================================
+;  File: TooltipNotify.dll
+;  Plugin: Tooltip notify
+;  Version: 0.7.0.1
+;  Authors: perf
+;============================================================
+[Shows a small tooltip above system tray area when a contact status is changed.]
+Сповіщення в треї при зміні статусу контакту.
+[Select protocols]
+Виберіть протоколи
+[Choose contacts]
+Виберіть контакти
+[Allow tooltip notifications for the following users:]
+Увімкнути сповіщення для наступних користувачів:
+[Cancel]
+Скасувати
+[Notify upon the following events]
+Сповіщати про наступні події
+[Online]
+В мережі
+[Offline]
+Не в мережі
+[All other]
+Усі інші
+[Typing]
+Набір тексту
+[Protocols]
+Протоколи
+[Suppress notifications upon connection for]
+Не сповіщати при підключенні до
+[sec]
+с
+[Prefix protocol name]
+Ім'я облікового запису
+[Duration]
+Тривалість
+[Show tooltip for]
+Показати підказку
+[ms]
+мс
+[Duration x2 upon online event]
+В 2 рази довша для "У мережі"
+[Double click on tooltip]
+Двічі клацніть по підказці
+[Shows/Hides contact list]
+Показує/ховає список контактів
+[Opens message dialog]
+Відкриває вікно повідомлень
+[Behavior]
+Поведінка
+[Misc]
+Інше
+[Obey 'Suppress online notification' settings]
+Ввімкнути тимчасову заборону сповіщень
+[Auto positioning]
+Автопозиция
+[Transparent input]
+Прозорий клік
+[Preview]
+Тест
+[Translucency options]
+Налаштування прозорості
+[Transparent tooltip]
+Прозорість
+[Contacts]
+Контакти
+[Idle]
+Очікування
+[Tooltip Notify]
+Спливаючі сповіщення
+[Other status]
+Інші статуси
+[Tooltip Notify: Online]
+Сповіщення: В мережі
+[Tooltip Notify: Offline]
+Сповіщення: Не в мережі
+[Tooltip Notify: Other]
+Сповіщення: Інше
+[Tooltip Notify: Typing]
+Сповіщення: Набирають
+[Popups]
+Спливаючі вікна
+[** New contacts **]
+** Нові контакти **
+[** Unknown contacts **]
+** Невідомі контакти **
+[Not Idle]
+Не в очікуванні
+[Unknown]
+невідомо
+[is]
+тепер

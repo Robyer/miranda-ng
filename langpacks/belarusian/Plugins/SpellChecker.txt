@@ -1,0 +1,127 @@
+﻿#muuid {36753ae3-840b-4797-94a5-fd9f5852b942}
+;============================================================
+;  File: SpellChecker.dll
+;  Plugin: Spell checker
+;  Version: 0.2.6.1
+;  Authors: Ricardo Pescuma Domenecci, FREAK_THEMIGHTY
+;============================================================
+[Spell checker for the message windows. Uses Hunspell to do the checking.]
+Праверка арфаграфіі ў вакне паведамленняў. Выкарыстоўвае Hunspell для праверкі.
+;file \plugins\SpellChecker\res\resource.rc
+[Replacements]
+Замены
+[Enable auto-replacements]
+Уключыць аўтазамену
+[Language:]
+Мова:
+[Add...]
+Дадаць...
+[Edit...]
+Праўка...
+[Remove]
+Выдаліць
+[Add auto-replace word]
+Дадатак аўтазамены слова
+[Wrong word:]
+Слова з памылкай:
+[No separators and all lowercase chars]
+Не ўлічваць падзельнікі і рэгістр
+[Correction:]
+Выпраўленне:
+[Use variables in correction]
+Выкарыстоўваць зменныя для замены
+[Cancel]
+Скасаваць
+[Spell Checker]
+Арфаграфія
+[Default language:]
+Мова па змаўчанні:
+[Auto-replace words with dictionary suggestions]
+Аўтаматычная замена словамі са слоўніка
+[Ignore words with numbers]
+Ігнараваць словы з лікамі
+[Ignore words in UPPER CASE]
+Ігнараваць словы ЗАГАЛОЎНЫМІ ЛІТАРАМІ
+[Ask before sending a message with spelling errors]
+Пытаць перад дасылкай паведамлення з памылкамі
+[Download more dictionaries]
+Загрузіць іншыя слоўнікі
+[Advanced]
+Дадаткова
+[Underline type:]
+Тып падкрэслення:
+[Show corrections in submenu]
+Гуртаваць выпраўленні ў падменю
+[Show all corrections in context menu (takes more time to show)]
+Паказваць усе выпраўленні ў меню (патрабуе больш часу)
+[Show wrong word]
+Паказваць слова з памылкай
+[Use flags]
+Адлюстроўваць сцягі
+[Use input language to select dictionary]
+Выкарыстоўваць мову ўводу для выбару слоўніка
+[Use dictionaries from other programs]
+Выкарыстоўваць слоўнікі з іншых праграм
+[Avoid removing underscores (slows down checking of long texts)]
+Не выдаляць падкрэсленні (запавольвае праверку вялікіх тэкстаў)
+;file \plugins\SpellChecker\src\ardialog.cpp
+[Wrong Correction]
+Няслушнае выпраўленне
+;file \plugins\SpellChecker\src\dictionary.cpp
+;file \plugins\SpellChecker\src\options.cpp
+[Message Sessions]
+Гутаркі
+[Auto-replacements]
+Аўтазамена
+[Line]
+Лінія
+[Dotted]
+Кропкамі
+[Dash]
+Працяжнік
+[Dash dot]
+Кропка працяжніка
+[Dash dot dot]
+Дзве кропкі працяжніка
+[Wave]
+Хваля
+[Thick]
+Тоўсты
+[Wrong word]
+Няслушнае слова
+[Correction]
+Выпраўленне
+;file \plugins\SpellChecker\src\spellchecker.cpp
+[Dictionaries]
+Слоўнікі
+[Custom Dictionaries]
+Асабістыя слоўнікі
+[Flags DLL]
+Бібліятэка са сцягамі (DLL)
+[Enable/disable spell checker]
+Уключыць/выключыць праверку арфаграфіі
+[Enabled]
+Уключаны
+[Disabled]
+Выключаны
+[Unknown]
+Невядома
+;file \plugins\SpellChecker\src\utils.cpp
+[Other...]
+Іншае...
+[Always replace with]
+Заўсёды замяняць на
+[Ignore all]
+Ігнараваць усё
+[Add to dictionary]
+Дадаць у слоўнік
+[Corrections]
+Выпраўленні
+[Wrong word: %s]
+Няслушнае слова: %s
+[Language]
+Мова
+[Enable spell checking]
+Уключыць праверку арфаграфіі
+[Wrong words]
+Няслушныя словы

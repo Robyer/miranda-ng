@@ -1,0 +1,35 @@
+﻿#muuid {23eacc0d-bab0-49c0-8f37-5e259ece527f}
+;============================================================
+;  File: LotusNotify.dll
+;  Plugin: LotusNotify
+;  Version: 0.1.21.0
+;  Authors: MaKaRSoFT - http://maciej.wycik.pl/miranda
+;============================================================
+[Notify about new mail in Lotus Database]
+Уведомляет о появлении новых писем в базе Lotus Notes.
+[Show error messages]
+Показывать ошибки
+[Popup options]
+Всплывающие окна
+[Background]
+Фон
+[Text]
+Текст
+[version:]
+Версия:
+[Sender]
+Отправитель
+[Subject]
+Тема
+[Database:]
+База данных:
+[min.]
+мин.
+[Password:]
+Пароль:
+[Status]
+Статус
+[Plugins]
+Плагины
+[LotusNotify.dll cannot work with 64bit Miranda. (Lotus client is 32bit only)]
+LotusNotify.dll не будет работать с 64-разрядной версией Miranda NG (поскольку клиент Lotus 32-разрядный)

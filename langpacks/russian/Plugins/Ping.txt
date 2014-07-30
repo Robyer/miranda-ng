@@ -1,0 +1,165 @@
+﻿#muuid {760ea901-c0c2-446c-8029-94c3bc47c45e}
+;============================================================
+;  File: Ping.dll
+;  Plugin: Ping
+;  Version: 0.9.1.1
+;  Authors: Scott Ellis
+;============================================================
+[Ping labelled IP addresses or domain names.]
+Пингует IP адрес или доменное имя.
+[Delay between pings (secs):]
+Задержка между пингами (сек):
+[Timeout]
+Таймаут
+[Ping timeout (secs):]
+Таймаут пингов (сек):
+[Logging]
+История
+[Log to File]
+Лог файл
+[Log Filename:]
+Имя лог файла:
+[Network]
+Сеть
+[Popups]
+Всплывающие окна
+[Reply]
+Ответ
+[Block Repetitions]
+Без повторов
+[View Log]
+Журнал
+[Browse...]
+Открыть...
+[Interface]
+Интерфейс
+[Do not change icon when testing]
+Не менять значок при тестировании
+[Use the Customize/Fonts options to change text size and color.]
+Настройка шрифтов в "Тонкая настройка->Шрифты и цвета"
+[Indent:]
+Отступ:
+[Row height:]
+Высота строки:
+[Repeats for success/failure:]
+Повторять до результата:
+[Attach to contact list]
+Добавить в список
+[Use CSV format]
+Формат CSV
+[Add]
+Добавить
+[Remove]
+Удалить
+[Edit]
+Изменить
+[Up]
+Вверх
+[Down]
+Вниз
+[Edit Host]
+Править хост
+[Cancel]
+Отмена
+[Address:]
+Адрес:
+[Label:]
+Метка:
+[TCP Connect]
+TCP соединение
+[Port:]
+Порт:
+[Control Protocol:]
+Протокол:
+[Set my status to:]
+Установить мой статус в:
+[On success, if my status is:]
+При успехе, если мой статус:
+[Execute the following command on double-click:]
+Выполнить следующую команду по двойному клику:
+[Contact]
+Контакт
+[Protocols]
+Протоколы
+[(Optional) Command Parameters:]
+Параметры команды (дополнительно):
+[Menu]
+Меню
+[Graph]
+Граф
+[Enable]
+Включено
+[Disable all pings]
+Выключить все пинги
+[Enable all pings]
+Включить все пинги
+[Options...]
+Настройки...
+[Hosts...]
+Хосты...
+[Ping]
+Пинг
+[Text Files (*.txt)]
+Текстовые файлы (*.txt)
+[All Files]
+Все файлы
+[Open log file]
+Открыть журнал
+[<none>]
+<нет>
+[<all>]
+<все>
+[Settings]
+Настройки
+[Hosts]
+Хосты
+[Ping Plugin]
+Плагин пинг
+[Show grid lines]
+Показывать линии
+[Show stats]
+Статистика
+[%d ms]
+%d мс
+[AVG %.1lf ms]
+СРДН %.1lf мс
+[MAX %hd ms]
+МАКС %hd мс
+[MIN %hd ms]
+МИН %hd мс
+[Ping Graph]
+Граф пингов
+[%s - setting status of protocol '%S' (%d)]
+%s - установка статуса протокола '%S' (%d)
+[Ping Reply]
+Пинг ответ
+[%s - reply, %d]
+%s - ответ, %d
+[Ping Timeout]
+Таймаут пингов
+[%s - timeout]
+%s - таймаут
+[Disable]
+Выключить
+[enabled]
+включён
+[double clicked]
+двойное нажатие
+[Show/Hide &Ping Window]
+Показать/скрыть &окно
+[List]
+Список
+[Host %s requests that you reduce the amount of traffic you are sending.]
+Хост %s требует уменьшить количество посылаемого вами трафика.
+[Unknown Address]
+Неизвестный адрес
+[Unknown]
+Неизвестно
+[Responding]
+Отвечает
+[Not Responding]
+Не отвечает
+[Testing]
+Тестирование
+[Disabled]
+Выключен

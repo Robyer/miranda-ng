@@ -1,0 +1,147 @@
+﻿#muuid {82181510-5dfa-49d7-b469-33871e2ae8b5}
+;============================================================
+;  File: TrafficCounter.dll
+;  Plugin: Traffic counter
+;  Version: 0.1.1.8
+;  Authors: Ghost, Mironych
+;============================================================
+[Adding traffic and time counters.]
+Счётчики трафика и времени.
+[Selected totals]
+Выделено всего
+[Accounts]
+Учётные записи
+[Units]
+Единицы
+[Clear statistics]
+Очистить
+[Notification]
+Уведомление
+[Notify me on every]
+Уведомлять каждые
+[kilobytes]
+килобайт
+[minutes]
+минут(ы)
+[Background color:]
+Цвет фона:
+[Text color:]
+Цвет текста:
+[Reset to default]
+Сброс на умолчания
+[Popup timeout]
+Длительность окна
+[From Popup plugin]
+По умолчанию
+[Custom]
+Настроить
+[Test]
+Тест
+[Show now]
+Показать
+[Space between lines:]
+Между строками:
+[Counters format string:]
+Формат строки счётчиков:
+[Tooltip format string:]
+Формат подсказки:
+[Display traffic for current]
+Трафик за текущий
+[Display]
+Показывать
+[Icon]
+Значок
+[Account name]
+Имя учётной записи
+[Current traffic]
+Текущий трафик
+[Total traffic]
+Общий трафик
+[Current online]
+Текущий онлайн
+[Total online]
+Общий онлайн
+[General]
+Общее
+[Draw frame as skin element]
+Отрисовывать фрейм как элемент скина
+[Show tooltip in traffic window]
+Показывать подсказку в окне трафика
+["Toggle traffic counter" in main menu]
+"Переключить счётчик трафика" в главном меню
+[Visible accounts]
+Отображаемые учётные записи
+[Summary traffic for visible accounts]
+Суммарный трафик для видимых учётных записей
+[Overall traffic]
+Общий трафик
+[Hide now]
+Скрыть
+[Day]
+День
+[Week]
+Неделю
+[Month]
+Месяц
+[Year]
+Год
+[Services]
+Службы
+[Options]
+Настройки
+[Traffic counter]
+Счётчик трафика
+[Statistics]
+Статистика
+[Popups]
+Всплывающие окна
+[Bytes]
+Байт
+[KB]
+КБ
+[MB]
+МБ
+[Adaptive]
+Плавающий
+[Hourly]
+Ежечасно
+[Daily]
+Ежедневно
+[Weekly]
+Еженедельно
+[Monthly]
+Ежемесячно
+[Yearly]
+Ежегодно
+[Period]
+Период
+[Incoming]
+Входящие
+[Outgoing]
+Исходящие
+[Sum]
+Сумма
+[Online]
+В сети
+[Now traffic statistics for selected accounts will be cleared.\nContinue?]
+Вся статистика по выбранным учётным записям будет очищена\nПродолжить?
+[Couldn't read statistics file]
+Не могу прочитать файл статистики
+[Traffic Counter]
+Счётчик трафика
+[Font]
+Шрифт
+[Show/Hide frame]
+Показать/Скрыть фрейм
+[Hide traffic window]
+Скрыть окно трафика
+[Clear the current (Now:) value]
+Сбросить текущее (Now:) значение
+[Toggle traffic counter]
+Переключить счётчик трафика
+[Traffic counter notification]
+Уведомление счётчика трафика
+[%d kilobytes sent]
+%d Кб отправлено
+[%d kilobytes received]
+%d Кб получено

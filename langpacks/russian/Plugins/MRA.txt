@@ -1,0 +1,485 @@
+﻿#muuid {e7c48bab-8ace-4cb3-8446-d4b73481f497}
+;============================================================
+;  File: MRA.dll
+;  Plugin: MRA protocol
+;  Version: 2.1.0.8
+;  Authors: Rozhuk Ivan
+;============================================================
+[Miranda Mail.ru Agent protocol plugin.]
+Поддержка протокола Mail.ru Агент (MRA) в Miranda NG.
+[E-mail:]
+Почта:
+[Password:]
+Пароль:
+[Create a new Mail.ru account]
+Создать новую учётную запись Mail.ru
+[Configuration]
+Конфигурация
+[Login Server:]
+Сервер:
+[Port:]
+Порт:
+[Default]
+По умолчанию
+[Automatically request authorization on logon]
+Автоматически запрашивать авторизацию при подключении
+[Automatically add contacts to server list on logon]
+Автоматически добавлять контакты на сервер при подключении
+[Automatically grant authorization to users in contact list]
+Автоматически авторизовывать пользователей из списка
+[Automatically grant authorization to new users]
+Автоматически авторизовывать новых пользователей
+[Automatic authorization on Mail.ru web services]
+Автоматическая авторизация на веб сервисах Mail.ru
+[Notify me when a message delivery has failed]
+Уведомить меня, если сообщение не доставлено
+[Notify about new mail if increment]
+Уведомлять о почте, только если счётчик увеличился
+[Notify about new mail tray icon]
+Показывать значок в трее при приходе почты
+[Click to Inbox]
+Проверить почту щелчком
+[Show received formatted text (receive RTF)]
+Показывать принятый форматированный текст
+[Send formatted text (send RTF)]
+Отправлять Форматированный текст
+[Background color]
+Цвет фона
+[Font]
+Шрифт
+[Summary]
+Резюме
+[Nickname:]
+Ник:
+[First name:]
+Имя:
+[Last name:]
+Фамилия:
+[Gender:]
+Пол:
+[Age:]
+Возраст:
+[from:]
+От:
+[to:]
+до:
+[Birthday:]
+День рождения:
+[Zodiac:]
+Зодиак:
+[Location]
+Место
+[Country:]
+Страна:
+[State:]
+Штат:
+[Search online users only]
+Искать только подключённых
+[City:]
+Город:
+[Remember]
+Напоминание
+[Enable avatars support (loading)]
+Включить поддержку образов (загружать)
+[Server:]
+Сервер:
+[Updates check interval, min]
+Интервал проверки обновлений, минут
+[Return absolute path]
+Возвращать абсолютный путь
+[Delete avatar file with contact]
+Удалять файл образа вместе с контактом
+[Use keep-alive connections]
+Использовать постоянные соединения (keep-alive)
+[Files exchange]
+Обмен файлами
+[No out connection on send]
+Запретить исходящие подключения при отправке
+[No out connection on receive]
+Запретить исходящие подключения при получении
+[Out connections: ignore additional ports (443, 2041)]
+Исходящие подключения: игнорировать доп. порты (443, 2041)
+[Hide my IP addresses]
+Скрывать мои IP адреса
+[Add extra address]
+Добавить дополнительные адреса
+[Your host (or router):]
+Ваш хост (или роутер):
+[File send block size:]
+Размер блока при отправке:
+[512 - 65536 bytes]
+512 - 65536 байт
+[Enable direct connections]
+Разрешить прямые подключения
+[Enable MRIM proxy connections]
+Разрешить использование MRIM прокси
+[Mail.ru Agent]
+Протокол Mail.ru Агент
+[Full e-mail:]
+Полный e-mail:
+[Example: Petrov_Ivan@mail.ru]
+Пример: Petrov_Ivan@mail.ru
+[Create a new Mail.ru account using the Mail.ru website]
+Зарегистрироваться в Mail.ru
+[Retrieve a lost password]
+Забыли пароль?
+[Leave empty if you don't want to change password]
+Оставьте пустым, если не желаете менять пароль
+[Popup type]
+Тип окна
+[Popup settings]
+Настройки всплывающего окна
+[Enable]
+Включено
+[&Use Windows colors]
+&Цвета Windows
+[Back Color]
+Цвет фона
+[Text Color]
+Цвет текста
+[Timeout]
+Таймаут
+[Previe&w]
+&Тест
+[Custom Status "%s" Details]
+xСтатус "%s"
+[Closing in %d]
+Закрыть (%d)
+[Title:]
+Заголовок:
+[Message:]
+Диалог:
+[Cancel]
+Отмена
+[Notify]
+Уведомление
+[Written:]
+Написал:
+[Select e-mail]
+Выбор электронной почты
+[Male]
+Мужской
+[Female]
+Женский
+[January]
+Январь
+[February]
+Февраль
+[March]
+Март
+[April]
+Апрель
+[May]
+Май
+[June]
+Июнь
+[July]
+Июль
+[August]
+Август
+[September]
+Сентябрь
+[October]
+Октябрь
+[November]
+Ноябрь
+[December]
+Декабрь
+[Aries]
+Овен
+[Taurus]
+Телец
+[Gemini]
+Близнецы
+[Cancer]
+Рак
+[Leo]
+Лев
+[Virgo]
+Дева
+[Libra]
+Весы
+[Scorpio]
+Скорпион
+[Sagittarius]
+Стрелец
+[Capricorn]
+Козерог
+[Aquarius]
+Водолей
+[Pisces]
+Рыбы
+[Avatars' plugin connections]
+Подключение аватаров
+[Avatars: server return HTTP code: %lu]
+Аватары: сервер вернул HTTP код: %lu
+[Avatars: can't open file %s, error]
+Аватары: невозможно открыть %s, ошибка
+[CHAT plugin is required for conferences. Install it before chatting]
+Для конференций требуется модуль Chat или tabSRMM 1.0+.
+[invite sender]
+отправитель приглашения
+[invite new members]
+позвать новых участников
+[Your contact wakes you]
+Ваш собеседник будит вас
+[Display &Inbox]
+Открыть &входящие
+[Display &Inbox status]
+Показать состояние &ящика
+[Edit &Profile]
+Редактировать &анкету
+[My Album]
+Мой альбом
+[My Blog Status]
+Статус в блоге
+[My Video]
+Моё видео
+[My Answers]
+Мои ответы
+[My World]
+Мой мир
+[Web search]
+Поиск в вебе
+[Update all users info]
+Обновить информацию всех пользователей
+[Check users avatars updates]
+Проверить обновления образов пользователей
+[Request authorization for all]
+Запросить авторизацию у всех
+[Request authorization]
+Запросить авторизацию
+[Grant authorization]
+Авторизовать
+[&Send E-Mail]
+&Отправить E-Mail
+[&Send postcard]
+&Отправить открытку
+[&View Album]
+&Посмотреть альбом
+[Reply Blog Status]
+Ответ на статус в блоге
+[View Video]
+Посмотреть видео
+[Answers]
+Ответы
+[World]
+Мир
+[Send &Nudge]
+&Встряхнуть
+[Mail box deleted]
+Почтовый ящик удалён
+[Contact not on server]
+Контакт отсутствует на сервере
+[Not authorized]
+Не авторизован
+[Phone/SMS only contact]
+Телефонный/SMS контакт
+[Blog status message]
+Сообщение статуса в блоге
+[New E-mail available in Inbox]
+Новая почта в папке "Входящие"
+[Please authorize me]
+Пожалуйста, авторизуй
+[Receive files: can't allocate disk space for file, size %lu bytes, error]
+Передача файлов: невозможно выделить место на диске, размер %lu байт, ошибка
+[Receive files: can't open file %s, error]
+Передача файлов: невозможно открыть файл %s, ошибка
+[Receive files: request for file %s not sent, error]
+Передача файлов: запрос для файла %s не отправлен, ошибка
+[Send files: can't open file %s, error]
+Отправка файлов: невозможно открыть файл %s, ошибка
+[Send files: requested file: %S - not found in send files list.]
+Отправка файлов: запрошенный файл: %S - не найден среди файлов подготовленных к отправке
+[Protocols]
+Протоколы
+[MRA]
+Протокол Mail.ru Агент
+[Main Menu]
+Главное меню
+[Contact Menu]
+Меню контакта
+[Extra status]
+Дополнительный статус
+[Custom Status]
+хСтатус
+[None]
+Нет
+[Debug]
+Отладка
+[Information]
+Информация
+[Question]
+Вопрос
+[Warning]
+Предупреждение
+[Error]
+Ошибка
+[NewMail]
+Новая почта
+[Popups]
+Всплывающие окна
+[%s connection]
+%s подключение
+[Mail.ru Xstatus]
+Mail.ru хСтатус
+[Mail.ru extra info]
+Mail.ru дополнительно
+[E-mail address]
+Адрес e-mail
+[Unread mail is available: %lu/%lu messages]
+Непрочитанная почта: %lu/%lu сообщений
+[From: %S\r\nSubject: %S\r\n%s]
+От: %S\r\nТема: %S\r\n%s
+[No unread mail is available\r\nTotal messages: %lu]
+Непрочитанной почты нет\r\nВсего сообщений: %lu
+[Closing in %ld]
+Закрыто %ld
+[Reply to %s blog status]
+Ответить на статус блога %s
+[Set my blog status]
+Статус моего блога
+[Written]
+Написал
+[Are you sure?]
+Вы уверены?
+[Services...]
+Службы...
+[Network]
+Сеть
+[Account]
+Учётная запись
+[Connections]
+Соединения
+[Files]
+Файлы
+[Avatars]
+Аватары
+[Please, setup e-mail in options]
+Пожалуйста, введите e-mail в настройках
+[Please, setup password in options]
+Пожалуйста, введите пароль в настройках
+[Thread creation failure]
+Ошибка создания потока
+[Logon error: invalid login/password]
+Ошибка при проверки имени пользователя/пароля
+[MRIM_CS_MESSAGE_STATUS: not found in queue]
+MRIM_CS_MESSAGE_STATUS: не найден в очереди
+[Server error: can't get MPOP key for web authorize]
+Ошибка сервера: не возможно получить MPOP ключ для веб авторизации
+[MRIM_CS_FILE_TRANSFER_ACK: unknown error, code: %lu]
+MRIM_CS_FILE_TRANSFER_ACK: неизвестная ошибка, код: %lu
+[invisible status changed]
+статус невидимости изменился
+[MRIM_CS_*_CONTACT_ACK: unknown server error, code: %lu]
+MRIM_CS_*_CONTACT_ACK: неизвестная ошибка сервера, код: %lu
+[MRIM_CS_*_CONTACT_ACK: not found in queue]
+MRIM_CS_*_CONTACT_ACK: не найден в очереди
+[MRIM_ANKETA_INFO: not found in queue]
+MRIM_ANKETA_INFO: не найдено в очереди
+[MRIM_CS_GAME: unknown internal game message code: %lu]
+MRIM_CS_GAME: неизвестный внутренний код игрового сообщения: %lu
+[MRIM_CS_CONTACT_LIST2: unknown server error, code: %lu]
+MRIM_CS_CONTACT_LIST2: неизвестная ошибка сервера, код: %lu
+[MRIM_CS_SMS_ACK: not found in queue]
+MRIM_CS_SMS_ACK: не найден в очереди
+[Mail.ru System notify]
+Системное уведомление от администрации Mail.ru
+[Sick]
+Болен
+[Home]
+Дом
+[Eating]
+Кушаю
+[Compass]
+Компас
+[On WC]
+В туалете
+[Cooking]
+Готовлю еду
+[Walking]
+Гуляю
+[Alien]
+Инопланетянин
+[Shrimp]
+Креветка
+[Got lost]
+Заблудился
+[Crazy]
+Сумасшедший
+[Duck]
+В ванной
+[Playing]
+Играю
+[Smoking]
+Курю
+[Office]
+Офис
+[Meeting]
+Встреча
+[Beer]
+Пью пиво
+[Coffee]
+Пью кофе
+[Working]
+Работаю
+[Relaxing]
+Расслабляюсь
+[On the phone]
+На телефоне
+[In institute]
+В институте
+[At school]
+В школе
+[Wrong number]
+Ошиблись номером
+[Laughing]
+Смеюсь
+[Malicious]
+Ехидный
+[Imp]
+Чертенок
+[Blind]
+Слепой
+[Disappointed]
+Разочарованный
+[Almost crying]
+Сдерживаю слезы
+[Fearful]
+Испуган
+[Angry]
+Злюсь
+[Vampire]
+Вампир
+[Ass]
+Задница
+[Love]
+Любовь
+[Sleeping]
+Сплю
+[Cool!]
+Класс!
+[Peace!]
+Миру-мир!
+[Cock a snook]
+Фига
+[Get out]
+Отвалите
+[Death]
+Смерть
+[Rocket]
+Ракета
+[Devil-fish]
+Осьминожек
+[Heavy metal]
+Металлист
+[Things look bad]
+Отстой
+[Squirrel]
+Белка
+[Star]
+Звезда
+[Music]
+Музыка
+[Dating]
+Знакомства

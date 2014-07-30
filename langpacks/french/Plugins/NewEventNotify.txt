@@ -1,0 +1,126 @@
+﻿#muuid {3503D584-6234-4BEF-A553-6C1B9CD471F2}
+;============================================================
+;  File: NewEventNotify.dll
+;  Plugin: NewEventNotify
+;  Version: 0.2.2.3
+;  Authors: icebreaker, Prezes, vj, vlko, Joe @ Whale
+;============================================================
+[Notifies you when you receive a message, URL, file or any other event by displaying a popup.]
+
+;file \plugins\NewEventNotify\res\resource.rc
+[General options]
+Options générales
+[Show entry in the Popups menu]
+
+[Temporarily disable event popups]
+Désactiver les popups
+[Show preview of event in popup]
+Aperçu d'évènement dans popup
+[Popup options]
+
+[Message]
+Message
+[URL]
+Lien
+[File]
+Fichier
+[Others]
+Autres
+[Text]
+Texte
+[Background]
+Arrière-plan
+[Timeout]
+Délai
+[Notify me of...]
+Me notifier si...
+[Left click actions]
+Clic gauche
+[Dismiss popup]
+
+[Open event]
+Ouvre l'évènement
+[Dismiss event]
+Ferme l'évènement
+[Right click actions]
+Clic droit
+[Timeout actions]
+Action après délai écoulé
+[Message event only]
+
+[Don't show popup when message dialog is already open]
+Ne pas voir le popup quand le message est déjà ouvert
+[Hide popup when sending new message]
+Cacher le popup quand envoi d'un nouveau message
+[Open reply dialog instead of reading the message]
+Ouvrir la fenêtre de réponse au lieu de lire le message
+[Merge popups from one user]
+Fusionner les popups d'un contact
+[Preview]
+Aperçu
+[Show date]
+Voir la date
+[Show time]
+Voir l'heure
+[Show headers]
+Voir l'en-tête
+[Number of begin shown messages]
+Nombre de messages affichés au début
+[Last message display first]
+Dernier message en premier
+[Last message display last]
+Dernier message en dernier
+[Edit]
+Éditer
+[No popups for RSS contacts]
+Pas de popup pour les contacts RSS
+[No popups for read messages]
+
+;file \plugins\NewEventNotify\src\menuitem.cpp
+[Popups]
+Popups
+;file \plugins\NewEventNotify\src\neweventnotify.h
+[Contacts]
+Contacts
+[You were added!]
+Vous avez été ajouté !
+[Requests your authorization]
+Demande votre autorisation
+[ICQ Web pager]
+
+[ICQ Email express]
+
+[SMS Message]
+
+[SMS Confirmation]
+
+[Unknown Event]
+Évènement inconnu
+[Notify of new events]
+Notification de nouveaux évènements
+[Enable new event notification]
+Activer la notification d'un nouvel évènement
+[Disable new event notification]
+Désactiver la notification d'un nouvel évènement
+;file \plugins\NewEventNotify\src\options.cpp
+[Event Notify]
+Notification d'évènements
+;file \plugins\NewEventNotify\src\popup.cpp
+[Received %d contacts.]
+
+[ added you to the contact list]
+ vous a ajouté à sa liste de contact
+[ requested authorization]
+ demande une autorisation
+[This is a sample message event :-)]
+Ceci est un exemple de message  :-)
+[This is a sample URL event ;-)]
+Ceci est un exemple de lien  ;-)
+[This is a sample file event :-D]
+Ceci est un exemple de transfert de fichier  :-D
+[This is a sample other event ;-D]
+Ceci est un exemple d'évènement  ;-D
+[Plugin Test]
+
+[[b]Number of new message(s): %d[/b]\n]
+\[b]Nombre de nouveaux messages: %d[/b]\n

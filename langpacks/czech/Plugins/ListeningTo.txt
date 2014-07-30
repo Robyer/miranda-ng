@@ -1,0 +1,162 @@
+﻿#muuid {f981f3f5-035a-444f-9892-ca722c195ada}
+;============================================================
+;  File: ListeningTo.dll
+;  Plugin: ListeningTo
+;  Version: 0.3.0.0
+;  Authors: Ricardo Pescuma Domenecci
+;============================================================
+[Handles listening information to/for contacts.]
+Zajišťuje informace o poslechu hudby kontaktů(m).
+;file \plugins\ListeningTo\res\resource.rc
+[Listening to information]
+Informace o poslechu hudby
+[Enable sending listening information to contacts:]
+Povolit posílání informací o poslechu hudby kontaktům
+[Music]
+Hudba
+[Radio]
+Rádio
+[Video]
+Video
+[Others]
+Ostatní
+[You also have to enable it per protocol in the main menu]
+Poznámka: Musíte povolit i jednotlivé protokoly v hlavní nabídce.
+[XStatus]
+Rozšířený stav
+[For protocols that don't support listening to but support XStatus:]
+V případě protokolů, které podporují jen tzv. rozšířený stav (XStatus):
+[Set XStatus to Music and show listening info]
+Změnit stav na 'Poslouchám hudbu' a přidat informaci o skladbě
+[If other XStatus is not set, set XStatus to Music and show listening info]
+Totéž jako výše, ale pouze tehdy, není-li už rozšířený stav používaný
+[If XStatus is Music, show listening info]
+Je-li už rozšířený stav 'Poslouchám hudbu', přidat informaci o skladbě
+[Do nothing]
+Nedělat nic
+[Contacts]
+Kontakty
+[Apply template for info from contacts (overrides contacts template)]
+Použít šablonu na informace od kontaktu (změní šablonu pro kontakt)
+[Get info from WATrack plugin]
+Převzít informace z doplňku WATrack
+[Get info from these players:]
+Převzít informace z těchto přehrávačů:
+[Winamp (*)]
+Winamp (*)
+[Windows Media Player]
+Windows Media Player
+[iTunes]
+iTunes
+[foobar2000 (need to install the plugin manually)]
+foobar2000 (vyžaduje ruční instalaci)
+[Other players]
+Jiné přehrávače
+[Ask for new info every]
+Zjistit informace každých
+[seconds]
+sek.
+[Allow auto-loading plugins into players (affect players with *)]
+Povolit automatické načtení doplňků do přehrávačů (týká se položek s *)
+[mRadio]
+Rádia
+[Listening to]
+Poslech hudby
+[Template:]
+Šablona:
+[Variables:]
+Proměnné:
+[%artist% - Artist name]
+%artist% - jméno interpreta
+[%album% - Album name]
+%album% - název alba
+[%title% - Song title]
+%title% - název skladby
+[%track% - Track number]
+%track% - číslo skladby
+[%year% - Song year]
+%year% - rok vydání
+[%genre% - Song genre]
+%genre% - žánr
+[%length% - Song length]
+%length% - délka skladby
+[%player% - Player name]
+%player% - přehrávač
+[%type% - Media type (Music, Radio, Video, etc.)]
+%type% - druh média (hudba, rádio, video, atd.)
+[When variable not found, use:]
+Není-li proměnná, vložit text:
+[Title:]
+Název:
+[Message:]
+Zpráva:
+[Other Variables:]
+Jiné proměnné:
+[%listening% - Listening to info (as set above)]
+%listening% - dle šablony (viz výše)
+[When nothing is playing, replace %listening% with:]
+Pokud nehraje hudba, namísto %listening% použít:
+;file \plugins\ListeningTo\src\listeningto.cpp
+[Send to %s]
+Poslat %s
+[Listening to (enabled)]
+Poslech hudby (zapnuto)
+[Listening to (disabled)]
+Poslech hudby (vypnuto)
+[ListeningTo]
+Poslech hudby
+[Listening to music]
+Poslouchám hudbu
+[Send to all protocols]
+Poslat všem protokolům
+[Listening info]
+Poslech hudby
+[Listening info as set in the options]
+Poslech hudby dle voleb v možnostech
+[Media type: Music, Video, etc.]
+Druh média: hudba, video, atd.
+[Artist name]
+Jméno umělce
+[Album name]
+Název alba
+[Song name]
+Název skladby
+[Track number]
+Číslo skladby
+[Song year]
+Rok skladby
+[Song genre]
+Žánr skladby
+[Song length]
+Délka skladby
+[Player name]
+Jméno hudebníka
+[Don't send to any protocols]
+Neposílat žádnému protokolu
+[Toggle send to all protocols]
+Přepnout stav posílání protokolům
+[Enable/Disable sending Listening To info (to all protocols)]
+Zapnout/vypnout posílání informací o poslechu hudby (všem protokolům)
+[Disable ListeningTo (to all protocols)]
+Vypnout poslech hudby (pro všechny protokoly)
+[Enable ListeningTo (to all protocols)]
+Zapnout poslech hudby (pro všechny protokoly)
+;file \plugins\ListeningTo\src\options.cpp
+[<Unknown>]
+<neznámý>
+[<Nothing is playing now>]
+<nic nehraje>
+[Status]
+Stavy
+[General]
+Obecné
+[Format]
+Formát
+[Players]
+Přehrávače
+;file \plugins\ListeningTo\src\players\generic.cpp
+[Miranda ListeningTo receiver]
+Přijímač poslechu hudby pro Mirandu
+;file \plugins\ListeningTo\src\players\wmp.cpp
+[Miranda ListeningTo WMP receiver]
+Přijímač poslechu hudby pro Mirandu

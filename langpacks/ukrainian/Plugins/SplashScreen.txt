@@ -1,0 +1,51 @@
+﻿#muuid {c64cc8e0-cf03-474a-8b11-8bd4565ccf04}
+;============================================================
+;  File: SplashScreen.dll
+;  Plugin: Splash screen
+;  Version: 0.1.2.3
+;  Authors: nullbie, Thief
+;============================================================
+[Shows a splash at Miranda startup.]
+Показує спливаюче вікно при старті Miranda NG.
+[Splash Options]
+Параметри заставки
+[Show splash]
+Заставка
+[Show random splash]
+Показувати випадкову заставку
+[Play sound]
+Програвати звук
+[Show Miranda Version]
+Показувати версію Miranda NG
+[Enable]
+Ввімкнено
+[Prefix:]
+Префікс:
+[Appearance]
+Зовнішній вигляд
+[Display time:]
+Відображати:
+[ms]
+мс
+[Fade in:]
+Поява:
+[steps]
+кроків
+[Fade out:]
+Зникнення:
+[AdvaImg plugin not found. Please get it from http://miranda-ng.org/p/AdvaImg/ to be able to use images.]
+Бібліотека AdvaImg.dll не знайдена. Будь ласка, встановіть її для використання зображень.
+[Preview...]
+Перегляд...
+[Your advaimg.dll is either obsolete or damaged. Get latest from Miranda alpha builds.]
+Ваша AdvaImg.dll застаріла або пошкоджена. Встановіть останню версію з сайту Miranda NG.
+[Error]
+Помилка
+[Graphic files]
+Графічні файли
+[Sound Files]
+Звукові файли
+[Skins]
+Скіни
+[Splash Screen]
+Заставка

@@ -1,0 +1,301 @@
+﻿#muuid {8432b009-ff32-4727-aae6-a9035038fd58}
+;============================================================
+;  File: Facebook.dll
+;  Plugin: Facebook RM
+;  Version: 0.2.7.0
+;  Authors: Michal Zelinka, Robert Pösel
+;============================================================
+[Facebook protocol support for Miranda NG.]
+Zapewnia obsługę protokołu Facebook w Mirandzie NG.
+;file \protocols\FacebookRM\res\facebook.rc
+[E-mail:]
+E-mail:
+[Password:]
+Hasło:
+[Create a new Facebook account]
+Utwórz nowe konto na Facebooku
+[What's on your mind?]
+O czym teraz myślisz?
+[Wall:]
+Tablica:
+[Visibility:]
+Widoczność:
+[Text:]
+Tekst:
+[URL:]
+Link:
+[Place:]
+Miejsce:
+[Contacts >>]
+Kontakty >>
+[Attach contacts:]
+Dołącz kontakty:
+[Share]
+Wyślij
+[Cancel]
+Anuluj
+[User details]
+Dane kontaktu
+[Contacts Settings]
+Opcje kontaktu
+[Default group:]
+Domyślna grupa:
+[Automatically set 'Ignore status change' flag]
+Automatycznie ustaw "Ignoruj zmiany statusu"
+[Use bigger avatars]
+Użyj większych awatarów
+[Event notifications]
+Zdarzenia
+[Notifications]
+Powiadomienia
+[News feeds]
+Aktualności
+[News feed types to notify:]
+Powiadamiaj o następujących typach aktualności:
+[Don't show advertising posts]
+Nie pokazuj proponowanych postów
+[Other events]
+Inne zdarzenia
+[Client notifications]
+Powiadomienia klienta
+[Preview]
+Podgląd
+[Use balloon notifications in system tray instead of popups]
+Użyj baloników systemowych w zasobniku zamiast popupów
+[Advanced Settings]
+Ustawienia zaawansowane
+[Force secure (HTTPS) connection]
+Wymuś szyfrowane połączenie (HTTPS)
+[Post Miranda statuses to Wall]
+Pokazuj statusy Mirandy jako posty na Tablicy
+[Use secure connection also for channel requests]
+Używaj bezpiecznego połączenia również dla kanału próśb o dodanie do znajomych
+[Also disconnect chat when going to offline]
+Rozłączaj również "Czat" przechodząc w status rozłączony
+[Map non-standard statuses to Invisible (instead of Online)]
+Niestandardowy status jako Niewidoczny (zamiast Dostępnego)
+[Allow posting statuses to my pages (may slow down login)]
+Zezwól na publikowanie postów na moich stronach (może spowolnić logowanie)
+[Use this server for opening links:]
+Użyj tego serwera do otwierania linków:
+[Enable support for Custom smileys (EXPERIMENTAL + BUGGY!)]
+Wsparcie dla niestandardowych emotikon (EKSPERYMENTALNY)
+[Use local time for received messages]
+Użyj czasu lokalnego dla odebranych wiadomości
+[Message sessions]
+Sesje rozmowy
+[Keep messages as unread on server (don't send "seen" info)]
+Utrzymuj wiadomości na serwerze jako nieprzeczytane (nie wysyłaj informacji o dostępności)
+[Receive messages from "inbox" folder only]
+Odbieraj wiadomości tylko z folderu "Odebrane"
+[Load last messages on opening message window (EXPERIMENTAL)]
+Załaduj ostatnie wiadomości podczas otwierania okna rozmowy(Eksperymentalne)
+[Number of messages to load:]
+Liczba wiadomości do załadowania:
+[Do not open chat windows on creation]
+Nie otwieraj okien czatów po ich utworzeniu
+;file \protocols\FacebookRM\src\chat.cpp
+[Myself]
+Ja
+[User]
+Użytkownik
+[Friend]
+Znajomy
+[&Invite user...]
+&Zaproś użytkownika
+[&Leave chat session]
+&Opuść sesję czatu
+[User &details]
+&Dane użytkownika
+[User &history]
+&Historia użytkownika
+;file \protocols\FacebookRM\src\communication.cpp
+[Login error: %s]
+Błąd logowania: %s
+[Unknown error]
+Nieznany błąd
+[Login error: Invalid request.]
+Błąd logowania: Nieprawidłowe żądanie.
+[Login error: Some Facebook things are required.]
+Błąd logowania: Nieznana przyczyna.
+[Login error: Captcha code is required. Bad login credentials?]
+Błąd logowania: Wymagany kod Captcha. Złe dane logowania?
+[Login error, probably bad login credentials.]
+Błąd logowania, sprawdź login i hasło.
+[Your account requires HTTPS connection. Activating.]
+Twoje konto wymaga połączenia HTTPS.
+[Something happened to Facebook. Maybe there was some major update so you should wait for an update.]
+Coś stało się z Facebook. Może było trochę więcej aktualizacji, więc poczekaj na aktualizację.
+[Need confirmation for sending messages to other clients.\nOpen Facebook website and try to send message to this contact again!]
+Potrzebujesz potwierdzenia dla wysyłania wiadomości do innych klientów.\nOtwórz stronę Facebook i spróbuj wysłać wiadomość do kontaktu ponownie!
+[Timeout when sending message.]
+Upłynęło zbyt dużo czasu wysyłania wiadomości.
+[Status update was successful.]
+Aktualizacja statusu powiodła się.
+;file \protocols\FacebookRM\src\connection.cpp
+[Please enter a username.]
+Wprowadź nazwę użytkownika.
+[Please enter a password.]
+Wprowadź hasło
+;file \protocols\FacebookRM\src\constants.h
+[Top News]
+Najpopularniejsze
+[Most Recent]
+Najnowsze
+[Pages]
+Strony
+[Classic website]
+Klasyczna strona
+[Mobile website]
+Strona mobilna
+[Smartphone website]
+Strona dla ekranów dotykowych
+[Public]
+Publiczny
+[Friends of friends]
+Znajomi znajomych
+[Friends]
+Znajomi
+[Friends except acquaintances]
+Znajomi poza dalszymi znajomymi
+[Only me]
+Tylko ja
+;file \protocols\FacebookRM\src\contacts.cpp
+[%s and more (%d)]
+%s i więcej (%d)
+[Contact was removed from your server list.]
+Kontakt został usunięty z listy serwera.
+[Error occurred when removing contact from server.]
+Błąd podczas usuwania kontaktu z serwera.
+[Request for friendship was sent.]
+Zaproszenie zostało wysłane.
+[Error occurred when requesting friendship.]
+Błąd podczas zapraszania do grona znajomych.
+[Request for friendship was canceled.]
+Zaproszenie zostało cofnięte.
+[Error occurred when canceling friendship request.]
+Wystąpił błąd podczas anulowania zaproszenia do grona znajomych
+;file \protocols\FacebookRM\src\dialogs.cpp
+[Default]
+Domyślny
+[<< Contacts]
+<< Kontakty
+[What's on your mind, %s?]
+O czym teraz myślisz, %s?
+[Note: Make sure you have disabled 'Validate SSL certificates' option in Network options to work properly.]
+Uwaga: Upewnij się, że wyłączyłeś opcję "Potwierdzaj ważność certyfikatów SSL" w opcjach sieci, aby zapewnić poprawne działanie.
+[Sample event]
+Próbne zdarzenie
+[Sample request]
+Próbne zaproszenie
+[Sample newsfeed]
+Próbne aktualności
+[Sample notification]
+Próbne powiadomienie
+;file \protocols\FacebookRM\src\json.cpp
+[a sticker]
+naklejka
+[files]
+pliki
+[a file]
+plik
+[photos]
+zdjęcia
+[a photo]
+zdjęcie
+[User sent %s:]
+Użytkownik wysłał %s:
+[User sent an unsupported attachment. Open your browser to see it.]
+Użytkownik wysłał plik niewspieranego typu. Otwórz przeglądarkę, aby go zobaczyć.
+[Message read: %s by %s]
+Wiadomość odczytana: %s przez %s
+[This message is no longer available, because it was marked as abusive or spam.]
+Ta wiadomość nie jest już dostępna, ponieważ została oznaczona jako nadużycie lub spam.
+[%s is typing a message...]
+%s pisze wiadomość...
+;file \protocols\FacebookRM\src\messages.cpp
+[You cannot send messages when you are offline.]
+Nie można wysłać wiadomości, gdy jesteś offline.
+;file \protocols\FacebookRM\src\process.cpp
+[Contact is back on server-list.]
+Kontakt powrócił na listę na serwerze.
+[Contact is no longer on server-list.]
+Kontakt jest już na liście serwera.
+;file \protocols\FacebookRM\src\proto.cpp
+[%s server connection]
+Połączenie %s
+[Unable to get Netlib connection for Facebook]
+Nie można uzyskać połączenia Netlib Facebook
+[Facebook ID must be numeric value.]
+Facebook ID musi być wartością numeryczną.
+[Network]
+Protokoły
+[Account]
+Konto
+[Events]
+Zdarzenia
+[Advanced]
+Zaawansowane
+[Share status...]
+Udostępnij status
+[Own wall]
+Własna tablica
+[Loading newsfeeds...]
+Ładowanie aktualności...
+[Checking friend requests...]
+Sprawdzanie zaproszeń do grona znajomych...
+[Refreshing buddy list...]
+Odświeżanie listy kontaktów...
+[Do you want to cancel your friendship with '%s'?]
+Czy chcesz anulować znajomość z "%s"?
+[Visit profile]
+Odwiedź profil
+[Visit notifications]
+Przejdź do powiadomień
+[Show 'Share status' window]
+Pokaż okno "Udostępnij status"
+[Notification]
+Powiadomienie
+[News Feed]
+Aktualności
+[Other Event]
+Inne zdarzenie
+[Message read: %s]
+Wiadomość odczytana: %s
+;file \protocols\FacebookRM\src\theme.cpp
+[Facebook icon]
+Facebook
+[Mind]
+Status
+[Poke]
+Zaczep
+[Newsfeed]
+Aktualności
+[Friendship details]
+Dane znajomości
+[Conversation]
+Rozmowa
+[Message read]
+Wiadomość odczytana
+[Visit friendship details]
+Sprawdź dane znajomości
+[Visit conversation]
+Przejdź do historii rozmowy
+[Cancel friendship]
+Cofnij znajomość
+[Cancel friendship request]
+Cofnij zaproszenie
+[Request friendship]
+Zaproś do grona znajomych
+[Approve friendship]
+Zatwierdź znajomość
+[Services...]
+Usługi...
+[Refresh Buddy List]
+Odśwież listę kontaktów
+[Services]
+Usługi
+[Check Friends Requests]
+Sprawdź zaproszenia do grona znajomych
+[Check Newsfeeds]
+Sprawdź aktualności

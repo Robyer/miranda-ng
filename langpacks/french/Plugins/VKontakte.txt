@@ -1,0 +1,106 @@
+﻿#muuid {32579908-724b-467f-adad-22b6359a749a}
+;============================================================
+;  File: VKontakte.dll
+;  Plugin: VKontakte protocol
+;  Version: 0.1.0.10
+;  Authors: Miranda NG Team
+;============================================================
+[VKontakte protocol support for Miranda NG.]
+Support du protocole VKontakte pour Miranda NG.
+;file \protocols\VKontakte\res\resource.rc
+[E-mail or phone number:]
+
+[Password:]
+Passe :
+[Open VKontakte site]
+
+[Login settings]
+
+[Local settings]
+
+[Contact list group:]
+
+[Advanced]
+Avancé
+[Server-side delivery confirmation]
+
+[Hide chats on startup]
+
+[Automatically wipe local contacts missing in your Friends list]
+
+[Bots challenge test]
+
+[Instruction:]
+Instruction :
+[Submit]
+Soumettre
+[Cancel]
+Annuler
+[Invite user to chat]
+
+[Choose one of your contacts to be invited:]
+
+[Create group chat]
+
+[Mark users you want to invite to a new chat]
+
+[New chat's title:]
+
+;file \protocols\VKontakte\src\misc.cpp
+[Captcha form icon]
+
+[Protocols]
+Protocoles
+[VKontakte]
+
+;file \protocols\VKontakte\src\vk_captcha.cpp
+[Enter the text you see]
+
+;file \protocols\VKontakte\src\vk_chats.cpp
+[Participants]
+
+[Owners]
+
+[Unknown]
+Inconnu
+[Enter new chat title]
+
+[This chat is going to be destroyed forever with all its contents. This action cannot be undone. Are you sure?]
+
+[Warning]
+Avertissement
+[&Invite a user]
+
+[View/change &title]
+
+[&Destroy room]
+
+[&User details]
+&Détails contact
+[&Kick]
+
+;file \protocols\VKontakte\src\vk_options.cpp
+[Network]
+Réseau
+[Account]
+Compte
+;file \protocols\VKontakte\src\vk_proto.cpp
+[%s server connection]
+%s serveur connexion
+[Create new chat]
+
+;file \protocols\VKontakte\src\vk_thread.cpp
+[Attachments:]
+
+[Photo]
+Photo
+[Audio]
+Audio
+[Video]
+Video
+[Document]
+Document
+[Wall post]
+
+[Unsupported or unknown attachment type: %s]
+

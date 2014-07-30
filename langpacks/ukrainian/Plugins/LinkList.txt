@@ -1,0 +1,151 @@
+﻿#muuid {DA0B09F5-9C66-488C-AE37-8A5F191C9079}
+;============================================================
+;  File: LinkList.dll
+;  Plugin: History linklist plus
+;  Version: 0.0.0.2
+;  Authors: Thomas Wendel, gureedo
+;============================================================
+[Generates a list of extracted URIs from the history.]
+Створює і показує список посилань з історії контакту.
+[Search]
+Пошук
+[Close]
+Закрити
+[Search for:]
+Знайти:
+[Message direction]
+Напрямок повідомлень
+[Message types]
+Типи повідомлень
+[All directions]
+Всі напрямки
+[Incoming only]
+Тільки вхідні
+[Outgoing only]
+Тільки вихідні
+[All types]
+Всі види
+[Mail addresses only]
+Тільки адреси E-mail
+[Web addresses only]
+Тільки веб-адреси
+[Deep search]
+Глибокий пошук
+[Static]
+Статичний
+[Color select]
+Вибір кольору
+[Incoming messages]
+Вхідні повідомлення
+[Plugin default]
+За замовчанням
+[Preview]
+Тест
+[Outgoing messages]
+Вихідні повідомлення
+[Background color]
+Фон
+[Use Miranda settings]
+Використовувати налаштування програми
+[Text color]
+Колір тексту
+[General settings]
+Основні налаштування
+[Open links always in a new window]
+Завжди відкривати посилання в новому вікні
+[Update list on new events]
+Автоматичне оновлення списку нових подій
+[Show whole message on 'mouse over' event]
+Показувати повне повідомлення при наведенні миші
+[Save window position individually for each contact]
+Зберігати позицію вікна окремо для кожного контакту
+[Show...]
+Показати...
+[Date]
+Дата
+[Parting line]
+Розділ. лінію
+[Timestamp]
+Час
+[Direction]
+Напрямок
+[Type]
+Тип
+[&File]
+&Файл
+[&Save]
+&Зберегти
+[&Close]
+&Закрити
+[&Options]
+&Налаштування
+[Message &direction]
+Напрямок &повідомлень
+[&Outgoing messages only]
+Тільки вихідні повідомлення
+[&Incoming messages only]
+Тільки вхідні повідомлення
+[Message &type]
+Тип &повідомлень
+[&Web addresses only]
+Тільки веб-адреси
+[&Mail addresses only]
+Тільки адреси E-mail
+[&Clear search results]
+&Очистити результати пошуку
+[&Search]
+&Пошук
+[link]
+Посилання
+[Open]
+Відкрити
+[Open in new window]
+Відкрити у новому вікні
+[Copy to clipboard]
+Копіювати в буфер
+[Show message]
+Показати повідомлення
+[History Linklist]
+Історія посилань
+[History is empty!]
+Історія порожня!
+[There are no links in history!]
+Посилань в історії не знайдено!
+[Error]
+Помилка
+[incoming]
+вхідні
+[outgoing]
+вихідні
+[Filter]
+Фільтр
+[no filter]
+без фільтру
+[Search filter]
+Пошуковий фільтр
+[no settings]
+без налаштувань
+[&Create Linklist]
+&Створити список
+[History]
+Історія
+[Processing history...]
+Обробка історії...
+[Could not create window!]
+Неможливо створити вікно!
+[Could not allocate memory!]
+Не вдається виділити пам'ять!
+[Linklist plugin]
+Плагін Linklist
+[Matches for searchtext]
+Виявлення відповідностей при пошуку
+[Processing list...]
+Обробка списку...
+[No messages found!\nPlease change current filter options.]
+Повідомлень не знайдено!\nБудь ласка, змініть поточні параметри фільтру.
+[RTF file]
+Файл RTF
+[All files]
+Усі файли
+[Save RTF File]
+Зберегти у файл RTF

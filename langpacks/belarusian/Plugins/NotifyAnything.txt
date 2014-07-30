@@ -1,0 +1,51 @@
+﻿#muuid {e92874ec-594a-4a2f-bded-c0be8b5a45d1}
+;============================================================
+;  File: NotifyAnything.dll
+;  Plugin: NotifyAnything
+;  Version: 0.0.2.8
+;  Authors: Daniel Wesslen, Korney San
+;============================================================
+[Displays popups for custom events, triggered by UDP packages.]
+Паказвае усплывальныя вокны для карыстацкіх падзей, выкліканых пакетаў UDP.
+;file \plugins\NotifyAnything\res\NotifyAnything.rc
+[Property Page]
+Старонка уласцівасцяў
+[Security]
+Бяспека
+[Only listen to localhost]
+Толькі ад гэтага кампутара
+[Sound]
+Гук
+[Play sounds]
+Прайграваць гукі
+[Use internal speaker]
+Выкарыстоўваць дынамік
+[Debug]
+Адладка
+[Log to file]
+Запіс у файл
+[Message debugging]
+Адладка паведамленняў
+[Port:]
+Порт:
+[(Default is 12001)]
+(Па змаўчанні 12001)
+[Allow actions to execute programs]
+Дазволіць выкананне праграм
+[Password:]
+Пароль:
+;file \plugins\NotifyAnything\src\common.h
+;file \plugins\NotifyAnything\src\main.cpp
+[N/A: Failed to format error message]
+N/A: Памылка фармату паведамлення, з памылкай
+[N/A: FormatMessage failed, error code was 0x]
+N/A: Памылка фармату паведамлення, код памылкі:0x
+[Error]
+Памылка
+;file \plugins\NotifyAnything\src\options.cpp
+[Log (*.log)\0*.log\0Text (*.txt)\0*.txt\0All Files (*.*)\0*.*\0]
+Лог (*.log)\0*.log\0Тэкст (*.txt)\0*.txt\0Усе фарматы (*.*)\0*.*\0
+[Invalid port number]
+Няслушны нумар порта
+[Plugins]
+Плагіны

@@ -1,0 +1,64 @@
+﻿#muuid {68f5a030-ba32-48ec-9507-5c2fbdea5217}
+;============================================================
+;  File: Steam.dll
+;  Plugin: Steam protocol
+;  Version: 0.11.0.1
+;  Authors: unsane
+;============================================================
+[Steam protocol support for Miranda NG.]
+Steam protokol pro Mirandu NG.
+;file \protocols\Steam\res\Resource.rc
+[Username:]
+Uživatel:
+[Password:]
+Heslo:
+[Default group:]
+Výchozí skupina:
+[Account]
+Účet
+[Captcha]
+Ověřovací kód
+[Cancel]
+Zrušit
+[Steam Guard]
+Steam Guard
+[As an added account security measure, you'll need to grant access by entering the special code we've just sent to your email address.]
+Z bezpečnostních důvodů musíte ověřit přístup k vašemu účtu zadáním speciálního kódu, který jsme vám právě odeslali na vaši e-mailovou adresu.
+[Go to email domain]
+Navštívit doménu e-mailu
+[Block]
+Blokovat
+;file \protocols\Steam\src\steam_contacts.cpp
+[%s has added you to his or her Friend List]
+%s si vás přidal do svého seznamu kontaktů
+;file \protocols\Steam\src\steam_dialogs.cpp
+[Fatal error, image services not found. Avatar services will be disabled.]
+Závažná chyba, nebyly nalezeny služby pro obrázky. Avatary budou vypnuty.
+[Avatar Service]
+Avatary
+[Name]
+Jméno
+;file \protocols\Steam\src\steam_events.cpp
+[%s connection]
+%s - spojení se serverem
+[Network]
+Sítě
+[Blocked contacts]
+Blokované kontakty
+;file \protocols\Steam\src\steam_menus.cpp
+[Steam menu chooser]
+Volba nabídky Steam
+[Request authorization]
+Požádat o autorizaci
+[Join to game]
+Přidat se do hry
+;file \protocols\Steam\src\steam_pooling.cpp
+[%s has been removed from your contact list]
+%s byl odebrán z vašeho seznamu kontaktů
+;file \protocols\Steam\src\steam_proto.cpp
+[Protocols]
+Protokoly
+[Protocol icon]
+Ikona protokolu
+[SteamID]
+SteamID

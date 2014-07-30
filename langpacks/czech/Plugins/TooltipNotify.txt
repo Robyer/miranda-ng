@@ -1,0 +1,95 @@
+﻿#muuid {5906a545-f31a-4726-b48f-03a09f060318}
+;============================================================
+;  File: TooltipNotify.dll
+;  Plugin: Tooltip notify
+;  Version: 0.7.0.1
+;  Authors: perf
+;============================================================
+[Shows a small tooltip above system tray area when a contact status is changed.]
+Při přechodu do vybraného stavu zobrazí v oznamovací oblasti příslušnou informaci.
+;file \plugins\TooltipNotify\res\main.rc
+[Select protocols]
+Vybrat protokoly
+[Choose contacts]
+Vyberte kontakty
+[Allow tooltip notifications for the following users:]
+U vybraných kontaktů povolit upozornění na změnu stavu:
+[Cancel]
+Zrušit
+[Notify upon the following events]
+Upozornění na události
+[Online]
+Online
+[Offline]
+Offline
+[All other]
+Ostatní
+[Typing]
+Píšu
+[Protocols]
+Protokoly
+[Suppress notifications upon connection for]
+Zpozdit upozornění na připojení o
+[sec]
+sek.
+[Prefix protocol name]
+Indikovat protokol
+[Duration]
+Doba trvání
+[Show tooltip for]
+Zobrazit na
+[ms]
+ms
+[Duration x2 upon online event]
+Při přechodu do online 2× déle
+[Double click on tooltip]
+Dvojím kliknutím
+[Shows/Hides contact list]
+Zobrazit/skrýt seznam kontaktů
+[Opens message dialog]
+Otevřít okno a psát
+[Behavior]
+Chování
+[Misc]
+Různé
+[Obey 'Suppress online notification' settings]
+Zohlednit stav 'Neoznamovat přechod do online'
+[Auto positioning]
+Autom. umístění
+[Transparent input]
+Průhledný vstup
+[Preview]
+Náhled
+[Translucency options]
+Průhlednost
+[Transparent tooltip]
+Míra průhlednosti
+[Contacts]
+Kontakty
+[Idle]
+Nečinnost
+;file \plugins\TooltipNotify\src\TooltipNotify.cpp
+[Tooltip Notify]
+Změna stavu
+[Other status]
+Ostatní stavy
+[Tooltip Notify: Online]
+Změna stavu (přechod online)
+[Tooltip Notify: Offline]
+Změna stavu (přechod offline)
+[Tooltip Notify: Other]
+Změna stavu (ostatní)
+[Tooltip Notify: Typing]
+Změna stavu (psaní zprávy)
+[Popups]
+Oznámení
+[** New contacts **]
+** nové kontakty **
+[** Unknown contacts **]
+** neznámé kontakty **
+[Not Idle]
+Není nečinný
+[Unknown]
+neznámý
+[is]
+je

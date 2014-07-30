@@ -1,0 +1,151 @@
+﻿#muuid {82181510-5dfa-49d7-b469-33871e2ae8b5}
+;============================================================
+;  File: TrafficCounter.dll
+;  Plugin: Traffic counter
+;  Version: 0.1.1.8
+;  Authors: Ghost, Mironych
+;============================================================
+[Adding traffic and time counters.]
+
+;file \plugins\TrafficCounter\res\resource.rc
+[Selected totals]
+
+[Accounts]
+Účty
+[Units]
+Jednotky
+[Clear statistics]
+
+[Notification]
+Oznámení
+[Notify me on every]
+Upozornit každých
+[kilobytes]
+kB
+[minutes]
+min.
+[Background color:]
+Barva pozadí:
+[Text color:]
+Barva textu:
+[Reset to default]
+Obnovit výchozí
+[Popup timeout]
+Doba zobrazení
+[From Popup plugin]
+Globální nastavení
+[Custom]
+Vlastní
+[Test]
+Ověřit
+[Show now]
+Zobrazit okno
+[Space between lines:]
+Odstup mezi řádky:
+[Counters format string:]
+
+[Tooltip format string:]
+
+[Display traffic for current]
+
+;file \plugins\TrafficCounter\src\options.cpp
+[Display]
+Zobrazení
+[Icon]
+Ikona
+[Account name]
+Název účtu
+[Current traffic]
+
+[Total traffic]
+
+[Current online]
+
+[Total online]
+
+[General]
+Obecné
+[Draw frame as skin element]
+
+[Show tooltip in traffic window]
+
+["Toggle traffic counter" in main menu]
+
+[Visible accounts]
+
+[Summary traffic for visible accounts]
+
+[Overall traffic]
+
+[Hide now]
+Skrýt okno
+[Day]
+den
+[Week]
+týden
+[Month]
+měsíc
+[Year]
+rok
+[Services]
+Služby
+[Options]
+Možnosti
+[Traffic counter]
+Počitadlo dat
+[Statistics]
+Statistika
+[Popups]
+Oznámení
+;file \plugins\TrafficCounter\src\statistics.cpp
+[Bytes]
+bajtů
+[KB]
+KB
+[MB]
+MB
+[Adaptive]
+
+[Hourly]
+
+[Daily]
+Každý den
+[Weekly]
+Co týden
+[Monthly]
+Co měsíc
+[Yearly]
+Co rok
+[Period]
+
+[Incoming]
+Příchozí
+[Outgoing]
+Odchozí
+[Sum]
+
+[Online]
+Online
+[Now traffic statistics for selected accounts will be cleared.\nContinue?]
+
+[Couldn't read statistics file]
+
+[Traffic Counter]
+Počitadlo dat
+;file \plugins\TrafficCounter\src\TrafficCounter.cpp
+[Font]
+Písmo
+[Show/Hide frame]
+
+[Hide traffic window]
+
+[Clear the current (Now:) value]
+
+[Toggle traffic counter]
+
+[Traffic counter notification]
+
+[%d kilobytes sent]
+
+[%d kilobytes received]
+

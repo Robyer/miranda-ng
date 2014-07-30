@@ -1,0 +1,18 @@
+﻿#muuid {45230488-977b-405b-856d-ea276d7083b7}
+;============================================================
+;  File: Rate.dll
+;  Plugin: Contact`s rate
+;  Version: 0.0.2.1
+;  Authors: Kildor, Thief
+;============================================================
+[Shows rating of contact in contact list (if present).]
+Zobrazuje prioritu kontaktu v seznamu kontaktů (pokud je zvolena).
+;file \plugins\Rate\src\main.cpp
+[Rate high]
+Vysoká priorita
+[Rate medium]
+Střední priorita
+[Rate low]
+Nízká priorita
+[Contact rate]
+Priorita kontaktu

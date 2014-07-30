@@ -1,0 +1,264 @@
+﻿#muuid {53e095a3-2695-490a-9dad-d20479093831}
+;============================================================
+;  File: Clist_blind.dll
+;  Plugin: BClist
+;  Version: 0.8.1.1
+;  Authors: Ricardo Pescuma Domenecci, based on previous work from Miranda IM project
+;============================================================
+[A contact list for blind folks.]
+Kontaktliste für blinde oder sehbehinderte Menschen.
+;file \plugins\Clist_blind\res\resource.rc
+[Delete Contact]
+Kontakt löschen
+[Are you sure you want to delete %s?]
+Soll Kontakt %s wirklich gelöscht werden ?
+[This will erase all history and settings for this contact!]
+Damit werden der Verlauf und die Einstellungen des Kontakts gelöscht!
+[Yes]
+Ja
+[No]
+Nein
+[Hide from list only, in order to keep their history and ignore/visibility settings]
+Nur in der Kontaktliste ausblenden. Verlauf und Einstellungen bleiben erhalten.
+[Use Options->Contacts->Ignore to unhide contacts.]
+Unter Einstellungen->Kontakte->Ignorieren Kontakt wieder einblenden.
+[Hotkeys]
+Hotkeys
+[Show/Hide:]
+Zeigen/Verstecken:
+[Read Message:]
+Nachricht lesen:
+[Web Search:]
+Web-Suche:
+[URL:]
+URL:
+[Open in new browser window]
+In neuem Browserfenster öffnen
+[Show Options]
+Einstellungen anzeigen
+[Hide offline users]
+Offline-Kontakte ausblenden
+[Hide empty groups]
+Leere Gruppen ausblenden
+[Disable groups]
+Gruppenfunktion ausschalten
+[Ask before deleting contacts]
+Vor Löschen von Kontakten fragen
+[Sort contacts by name]
+Kontakte nach Name sortieren
+[Sort contacts by status]
+Kontakte nach Status sortieren
+[Sort contacts by protocol]
+Kontakte nach Protokoll sortieren
+[Single click interface]
+Kontaktliste mit Einfachklick öffnen
+[Always show status in tooltip]
+Immer Status als Tooltip anzeigen
+[Disable icon blinking]
+Iconblinken deaktivieren
+[ms delay]
+ms Frequenz
+[Show]
+Zeige
+[icon when statuses differ]
+-Icon, wenn Status unterschiedlich
+[Cycle icons every]
+Icon durchwechseln alle
+[seconds, when statuses differ]
+Sekunden, wenn Status unterschiedlich
+[Show multiple icons]
+Mehrere Icons anzeigen
+[Only when statuses differ]
+Nur, wenn Status untersch.
+[Contact list]
+Kontaktliste
+[System tray icon]
+Systemtray-Icon
+[System tray icon when using multiple protocols]
+Systemtray-Icon bei Benutzung mehrerer Protokolle
+[Contact list sorting]
+Sortierung der Kontaktliste
+[Window]
+Fenster
+[Always on top]
+Immer im Vordergrund
+[Tool style main window]
+Schmale Titelleiste
+[Minimize to tray]
+In Systemtray minimieren
+[Hide contact list after it has been idle for]
+Kontaktliste verstecken nach Inaktivität von
+[seconds]
+Sekunden
+[Automatically resize window to height of list]
+Höhe automatisch an Kontaktanzahl anpassen
+[maximum]
+Maximal
+[% of screen]
+% des Bildschirms
+[Size upwards]
+Größenanpassung nach oben
+[Title bar text:]
+Titelleistentext:
+[Translucency options]
+Transparenz-Einstellungen
+[Fade contact list in/out]
+Ein-/Ausblenden animieren
+[Transparent contact list]
+Transparente Kontaktliste
+[Inactive opacity:]
+Deckkraft inaktiv:
+[Active opacity:]
+Deckkraft aktiv:
+[Show menu bar]
+Menüleiste anzeigen
+[Easy move]
+Einfaches Bewegen
+[Show title bar]
+Titelleiste anzeigen
+[If window is partially covered, bring to front instead of hiding]
+Teilweise verdeckte Fenster in Vordergrund bringen, anstatt sie zu verstecken
+[Show drop shadow (restart required)]
+Schatten werfen (erfordert Neustart)
+[Pin to desktop]
+An den Desktop anheften
+[Items]
+Objekte
+['Hide offline' means to hide:]
+'Offline-Kontakte verstecken':
+[Groups]
+Gruppen
+[Show counts of number of contacts in a group]
+Anzahl der Kontakte in der Gruppe anzeigen
+[Hide group counts when there are none online]
+Summe der Kontakte ausblenden, wenn niemand online ist
+[Sort groups alphabetically]
+Gruppen alphabetisch sortieren
+[Quicksearch in open groups only]
+Schnellsuche nur in offenen Gruppen
+[Templates]
+Vorlagen
+[Contact:]
+Kontakt:
+[Group:]
+Gruppe:
+[Divider:]
+Trennung:
+[Info:]
+Info:
+[Status bar]
+Statusleiste
+[Show status bar]
+Statusleiste anzeigen
+[Show icons]
+Icons anzeigen
+[Show protocol names]
+Protokollnamen anzeigen
+[Show status text]
+Statustext anzeigen
+[Right click opens status menu]
+Rechtsklick öffnet Statusmenü
+[Right click opens Miranda NG menu]
+Rechtsklick öffnet Miranda-Hauptmenü
+[Make sections equal width]
+Alle Protokolle gleiche Breite
+[Show bevels on panels]
+Rahmen um Protokolle
+[Show resize grip indicator]
+Ecke zur Größenänderung anzeigen
+[&Main menu]
+&Hauptmenü
+[E&xit]
+B&eenden
+[&Status]
+&Status
+[&Offline\tCtrl+0]
+&Offline\tStrg+0
+[On&line\tCtrl+1]
+On&line\tStrg+1
+[&Away\tCtrl+2]
+&Abwesend\tStrg+2
+[&NA\tCtrl+3]
+Au&ßer Haus\tStrg+3
+[Occ&upied\tCtrl+4]
+Besch&äftigt\tStrg+4
+[&DND\tCtrl+5]
+Bitte nicht st&ören\tStrg+5
+[&Free for chat\tCtrl+6]
+&Für Chat bereit\tStrg+6
+[&Invisible\tCtrl+7]
+Uns&ichtbar\tStrg+7
+[On the &phone\tCtrl+8]
+Am Telefon\tStrg+8
+[Out to &lunch\tCtrl+9]
+&Beim Essen\tStrg+9
+[Tray]
+Tray
+[&Hide/Show]
+Zeigen/Ausblenden
+[Nowhere]
+Nirgends
+[&New group]
+&Neue Gruppe
+[&Hide offline users]
+Offline-Kontakte ausblenden
+[Hide &offline users out here]
+&Offline-Kontakte außerhalb ausblenden
+[Hide &empty groups]
+L&eere Gruppen ausblenden
+[Disable &groups]
+&Gruppenfunktion ausschalten
+[Hide Miranda]
+Miranda NG ausblenden
+[Group]
+Gruppe
+[&New subgroup]
+&Neue Untergruppe
+[&Hide offline users in here]
+Offline-Kontakte &hier ausblenden
+[&Rename group]
+G&ruppe umbenennen
+[&Delete group]
+Gruppe löschen
+;file \plugins\Clist_blind\src\clcopts.cpp
+[Not focused]
+nicht fokussiert
+[Offline]
+Offline
+[Online]
+Online
+[Away]
+Abwesend
+[NA]
+Außer Haus
+[Occupied]
+Beschäftigt
+[DND]
+Bitte nicht stören
+[Free for chat]
+Für Chat bereit
+[Invisible]
+Unsichtbar
+[Out to lunch]
+Zum Essen
+[On the phone]
+Am Telefon
+[Group: %name% %count% [%mode%]]
+Gruppe: %name% %count% [%mode%]
+[Divider: %s]
+Trennlinie: %s
+[Info: %s]
+Info: %s
+[List]
+Liste
+;file \plugins\Clist_blind\src\clistopts.cpp
+[Global]
+Global
+;file \plugins\Clist_blind\src\cluiopts.cpp
+;file \plugins\Clist_blind\src\init.cpp
+[Unknown Protocol]
+Unbekanntes Protokoll
+[Expanded]
+Ausgeklappt
+[Collapsed]
+Eingeklappt

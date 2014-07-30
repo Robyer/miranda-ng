@@ -1,0 +1,99 @@
+﻿#muuid {32579908-724b-467f-adad-22b6359a749a}
+;============================================================
+;  File: VKontakte.dll
+;  Plugin: VKontakte protocol
+;  Version: 0.1.0.10
+;  Authors: Miranda NG Team
+;============================================================
+[VKontakte protocol support for Miranda NG.]
+Поддержка протокола ВКонтакте в Miranda NG.
+[E-mail or phone number:]
+E-mail или номер телефона:
+[Password:]
+Пароль:
+[Open VKontakte site]
+Открыть страницу ВКонтакте
+[Login settings]
+Настройки входа
+[Local settings]
+Локальные настройки
+[Contact list group:]
+Группа в списке контактов:
+[Advanced]
+Дополнительные настройки
+[Server-side delivery confirmation]
+Подтверждение доставки со стороны сервера
+[Hide chats on startup]
+Не открывать окна комнат чата при входе
+[Automatically wipe local contacts missing in your Friends list]
+Автоматически очищать локальные контакты, которых нет в списке друзей
+[Bots challenge test]
+Защита от ботов
+[Instruction:]
+Инструкция
+[Submit]
+Принять
+[Cancel]
+Отмена
+[Invite user to chat]
+Пригласить пользователя в чат
+[Choose one of your contacts to be invited:]
+Выбор пользователя для приглашения в чат:
+[Create group chat]
+Cоздать комнату чата
+[Mark users you want to invite to a new chat]
+Отметить пользователей для приглашения в комнату чата
+[New chat's title:]
+Звголовок новой комнаты
+[Captcha form icon]
+Иконка формы с капчей
+[Protocols]
+Протоколы
+[VKontakte]
+ВКонтакте
+[Enter the text you see]
+Введите текст, который видите
+[Participants]
+Участники
+[Owners]
+Владельцы
+[Unknown]
+Неизвестный
+[Enter new chat title]
+Введите новый заголовок чата
+[This chat is going to be destroyed forever with all its contents. This action cannot be undone. Are you sure?]
+Этот чат будет уничтожен со всеми входящими в него контактами. Это действие не может быть отменено. Вы уверены, что хотите продолжить?
+[Warning]
+Предупреждение
+[&Invite a user]
+&Пригласить пользователя
+[View/change &title]
+Просмотр/смена &заголовка
+[&Destroy room]
+&Удалить комнату чата
+[&User details]
+Информация о &контакте
+[&Kick]
+&Выкинуть
+[Network]
+Сеть
+[Account]
+Учётная запись
+[%s server connection]
+Подключение к серверу %s
+[Create new chat]
+Создать новый чат
+[Attachments:]
+Вложения:
+[Photo]
+Фото
+[Audio]
+Аудио
+[Video]
+Видео
+[Document]
+Документ
+[Wall post]
+Запись на стене
+[Unsupported or unknown attachment type: %s]
+Неподдерживаемый или неизвестный тип вложения: %s

@@ -1,0 +1,15 @@
+﻿#muuid {e00f1643-263c-4599-b84b-053e5c511d29}
+;============================================================
+;  File: AVS.dll
+;  Plugin: Avatar service
+;  Version: 0.95.2.2
+;  Authors: Nightwish, Pescuma
+;============================================================
+[Color difference allowed:]
+Colour difference allowed:
+[Make transparency proportional to color diff]
+Make transparency proportional to colour diff
+[Draw avatars grayscale]
+Draw avatars greyscale
+[Color diff:]
+Colour diff:

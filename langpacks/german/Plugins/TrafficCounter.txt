@@ -1,0 +1,151 @@
+﻿#muuid {82181510-5dfa-49d7-b469-33871e2ae8b5}
+;============================================================
+;  File: TrafficCounter.dll
+;  Plugin: Traffic counter
+;  Version: 0.1.1.8
+;  Authors: Ghost, Mironych
+;============================================================
+[Adding traffic and time counters.]
+Zeigt Statistiken über den ein- und ausgehenden Datenverkehr an.
+;file \plugins\TrafficCounter\res\resource.rc
+[Selected totals]
+Ausgew. Summen
+[Accounts]
+Konten
+[Units]
+Einheiten
+[Clear statistics]
+Lösche Statistiken
+[Notification]
+Benachrichtigung
+[Notify me on every]
+Anzeige bei allen
+[kilobytes]
+Kilobyte
+[minutes]
+Minuten
+[Background color:]
+Hintergrundfarbe:
+[Text color:]
+Textfarbe:
+[Reset to default]
+Zurücksetzen auf Standard
+[Popup timeout]
+Popup Anzeigedauer
+[From Popup plugin]
+Vom Popup-Plugin
+[Custom]
+Benutzerdef.
+[Test]
+Testen
+[Show now]
+Jetzt anzeigen
+[Space between lines:]
+Zeilenabstand:
+[Counters format string:]
+Zähler Formatierung:
+[Tooltip format string:]
+Tooltip Formatierung:
+[Display traffic for current]
+Zeige Traffic für aktuellen
+;file \plugins\TrafficCounter\src\options.cpp
+[Display]
+Anzeige
+[Icon]
+Icon
+[Account name]
+Kontoname
+[Current traffic]
+Aktueller Datenverkehr
+[Total traffic]
+Insgesamter Datenverkehr
+[Current online]
+Aktuell online
+[Total online]
+Insgesamt online
+[General]
+Allgemein
+[Draw frame as skin element]
+Zeichne Frame als Skin-Element
+[Show tooltip in traffic window]
+Zeige Tooltips im Trafficfenster
+["Toggle traffic counter" in main menu]
+"Traffic Counter umschalten" im Hauptmenü anzeigen
+[Visible accounts]
+Sichtbare Konten
+[Summary traffic for visible accounts]
+Zusammenfassung für den Verkehr für sichtbar Konten
+[Overall traffic]
+Gesamter Verkehr
+[Hide now]
+Jetzt verstecken
+[Day]
+Tag
+[Week]
+Woche
+[Month]
+Monat
+[Year]
+Jahr
+[Services]
+Dienste
+[Options]
+Einstellungen
+[Traffic counter]
+Trafficzähler
+[Statistics]
+Statistiken
+[Popups]
+Popups
+;file \plugins\TrafficCounter\src\statistics.cpp
+[Bytes]
+Bytes
+[KB]
+KB
+[MB]
+MB
+[Adaptive]
+Angepasst
+[Hourly]
+Stündlich
+[Daily]
+Täglich
+[Weekly]
+Wöchentlich
+[Monthly]
+Monatlich
+[Yearly]
+Jährlich
+[Period]
+Periode
+[Incoming]
+Eingehend
+[Outgoing]
+Ausgehend
+[Sum]
+Summe
+[Online]
+Online
+[Now traffic statistics for selected accounts will be cleared.\nContinue?]
+Der aktuelle Traffic für den ausgewählten Account wird gelöscht.\nWeitermachen?
+[Couldn't read statistics file]
+Konnte die Statistikdatei nicht lesen
+[Traffic Counter]
+Trafficzähler
+;file \plugins\TrafficCounter\src\TrafficCounter.cpp
+[Font]
+Schriftart
+[Show/Hide frame]
+Frame anzeigen/verbergen
+[Hide traffic window]
+verstecke Trafficfenster
+[Clear the current (Now:) value]
+Lösche aktuellen Wert
+[Toggle traffic counter]
+Trafficzähler zeigen
+[Traffic counter notification]
+Trafficzähler-Benachrichtigungen
+[%d kilobytes sent]
+%d Kilobytes gesendet
+[%d kilobytes received]
+%d Kilobytes empfangen

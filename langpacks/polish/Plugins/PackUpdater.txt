@@ -1,0 +1,148 @@
+﻿#muuid {29517be5-779a-48e5-8950-cb4de1d43172}
+;============================================================
+;  File: PackUpdater.dll
+;  Plugin: Pack updater
+;  Version: 0.1.0.1
+;  Authors: Mataes, ZERO_BiT
+;============================================================
+[Simple updater for Miranda NG premodified packs.]
+Prosty aktualizator dla paczek.
+;file \plugins\PackUpdater\Res\Resource.rc
+[Updates found!]
+Znaleziono aktualizacje!
+[Update]
+Aktualizacja
+[View info]
+Pokaż informacje
+[Cancel]
+Anuluj
+[PackUpdater has detected updated versions\nof the following Miranda components:]
+PackUpdater wykrył nowe wersje\nnastępujących komponentów Mirandy:
+[Description]
+Opis
+[Downloading...]
+Pobieranie...
+[Pack update options]
+Opcje aktualizacji paczki
+[On startup]
+Przy starcie
+[Remind about not installed pack update]
+Przypomnij o niezainstalowanej aktualizacji paczki
+[Hotkey]
+Skrót
+[Go to Customize -> Hotkeys to change the hotkey]
+Przejdź do Personalizacja -> Skróty, aby je ustawić
+[Notifications]
+Powiadomienia
+[Message boxes]
+Okienka dialogowe
+[Errors]
+Błędy
+[Info messages]
+Informacje
+[Progress dialogs]
+Postęp
+[Every]
+Co
+[(but only once a day)]
+(ale tylko raz dziennie)
+[Message boxes (*)]
+Komunikaty
+[Back]
+Tło
+[Text]
+Tekst
+[Colors]
+Kolory
+[Use cus&tom colors]
+Użyj nie&standardowych kolorów
+[Use &Windows colors]
+Użyj kolorów &Windows
+[Use Pop&up colors]
+Użyj kolorów Pop&up
+[Preview]
+Podgląd
+[Click action]
+Akcje przycisku
+[On left click]
+LPM
+[On right click]
+PPM
+[Timeout]
+Wyświetlaj
+[0 = Default]
+0 - domyślnie
+[-1 = Infinite]
+-1 - nie chowaj
+[Sec]
+s
+[* Needs popup actions to be enabled]
+* Wymaga działań popup, które zostaną włączone
+[Not sets for "Message boxes"]
+Nie określa dla "Komunikaty"
+[Boxes]
+Okna
+[Popups]
+Popupy
+;file \plugins\PackUpdater\Src\Events.cpp
+[Check for pack updates]
+Sprawdź aktualizacje paczki
+[Pack Updater]
+Aktualizator paczek
+;file \plugins\PackUpdater\Src\Notifications.cpp
+[An error occurred while downloading the update.]
+Wystąpił błąd podczas pobierania aktualizacji
+[Component Name]
+Nazwa wtyczki
+[Current Version]
+Bieżąca wersja
+[New Version]
+Nowa wersja
+[Downloading pack updates...]
+Pobieranie aktualizacji paczki...
+[Downloading update...]
+Pobieranie aktualizacji...
+[Downloads complete. Start updating? All your data will be saved and Miranda NG will be closed.]
+Pobieranie zakończone. Rozpocząć aktualizację? Wszystkie twoje ustawienia zostaną zapisane i Miranda NG zostanie zamknięta.
+[Download complete. Start updating? All your data will be saved and Miranda NG will be closed.]
+Pobieranie zakończone. Rozpocząć aktualizację? Wszystkie twoje ustawienia zostaną zapisane i Miranda NG zostanie zamknięta.
+[You have chosen not to install the pack update immediately.\nYou can install it manually from this location:\n\n%s]
+Wybrałeś, aby nie instalować pobranych aktualizacji.\nMożesz zainstalować je ręcznie z lokalizacji:\n\n%s
+;file \plugins\PackUpdater\Src\Notifications.h
+[Close popup]
+Zamknij popup
+[Do nothing]
+Nic nie rób
+;file \plugins\PackUpdater\Src\Options.cpp
+[hours]
+godziny
+[days]
+dni
+[Test]
+Test
+[Services]
+Usługi
+;file \plugins\PackUpdater\Src\PackUpdater.cpp
+[Clear pack updates folder]
+Wyczyść folder aktualizacji paczek
+;file \plugins\PackUpdater\Src\Utils.cpp
+['Yes' Button]
+Przycisk "Tak"
+['No' Button]
+Przycisk "Nie"
+[Pack Updater HTTP connection]
+Połączenie HTTP aktualizatora paczek
+[URL for checking updates not found.]
+Link do sprawdzania aktualizacji nie został odnaleziony.
+[Downloading version info...]
+Pobieranie informacji o wersji...
+[Name of Update's file is not supported.]
+Nazwy aktualizowanych plików nie są wspierane.
+[Update is not possible!\nYou have no Administrator's rights.\nPlease run Miranda NG with Administrator's rights.]
+Aktualizacja nie jest możliwa! \nMożesz nie mieć praw administratora. \nProszę uruchomić Mirandę NG z prawami administratora.
+[No updates found.]
+Nie znaleziono aktualizacji.
+[No files for update.]
+Brak plików do aktualizacji
+[Update checking already started!]
+Sprawdzanie aktualizacji już rozpoczęte!

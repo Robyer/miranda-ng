@@ -1,0 +1,44 @@
+﻿#muuid {a6872bcd-f2a1-41b8-b2f1-dd7cec055734}
+;============================================================
+;  File: IgnoreState.dll
+;  Plugin: Ignore state
+;  Version: 0.0.3.0
+;  Authors: Kildor
+;============================================================
+[Shows ignore state of contact in contact list.]
+Zobrazuje stav filtrování kontaktu v seznamu kontaktů.
+;file \plugins\IgnoreState\res\ignore.rc
+[Plugin settings]
+Nastavení doplňku
+[Filtered events:]
+Filtrované události:
+[Use Miranda ignore settings for All Contacts]
+Použít nastavení filtrování Mirandy pro všechny kontakty
+;file \plugins\IgnoreState\src\main.cpp
+[All]
+Všechno
+[Messages]
+Zprávy
+[URL]
+Odkaz
+[Files]
+Soubory
+[User Online]
+Uživatel online
+[Authorization]
+Autorizace
+[You Were Added]
+Zpráva o zařazení mezi kontakty
+[Typing Notify]
+Psaní zprávy
+[Full Ignore]
+Kompletní filtrování
+[Partial Ignore]
+Částečné filtrování
+[Message Ignore]
+Filtrování zpráv
+[Ignore State]
+Stav filtrování
+;file \plugins\IgnoreState\src\options.cpp
+[Icons]
+Ikony

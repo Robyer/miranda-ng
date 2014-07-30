@@ -1,0 +1,63 @@
+﻿#muuid {2fd0df15-7098-41ce-aa92-ff621806e38b}
+;============================================================
+;  File: Exchange.dll
+;  Plugin: Exchange
+;  Version: 0.1.3.4
+;  Authors: Cristian Libotean, Attila Vajda, MaKaR (NG)
+;============================================================
+[Notifies you if you have unread email on an exchange server.]
+Сповіщає про непрочитані повідомлення E-mail на сервері Exchange.
+[Unread emails]
+Непрочитані листи
+[Close]
+Закрити
+[Mark as read]
+Позначити як прочитане
+[Dialog]
+Діалог
+[Connection]
+Підключення
+[Username:]
+Користувач:
+[Password:]
+Пароль:
+[Server:]
+Сервер:
+[Preferences]
+Параметри
+[Check every]
+Перев. кожні
+[seconds]
+секунд
+[Force reconnect every]
+Примусове підключення кожні
+[minutes]
+хвилин
+[Check server before trying to connect]
+Перевіряти сервер перед спробою підключення
+[Try to connect]
+Підключатися
+[times before giving up]
+разів до відмови
+[Show email notifications using popup module]
+Сповіщати про пошту у спливаючих вікнах
+[Entry ID]
+ID запису
+[Subject]
+Тема
+[Sender]
+Відправник
+[You have %d unread emails...]
+У вас %d непрочитаних листів...
+[You have one unread email...]
+У вас 1 непрочитаний лист...
+[Exchange email]
+Пошта Exchange
+[Do you want to see the email headers?]
+Показувати заголовки листів?
+[Check exchange mailbox]
+Перевірити пошту Exchange
+[Exchange notify]
+Сповіщення Exchange
+[Plugins]
+Плагіни

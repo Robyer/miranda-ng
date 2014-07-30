@@ -1,0 +1,93 @@
+ifndef CFG
+	CFG = Release
+endif
+
+ifndef BIT
+	BIT = 32
+endif
+
+COMPILER_OPTS = -c -Wall -fmessage-length=0 -fpermissive -fno-exceptions \
+	-DUNICODE -D_UNICODE
+INCLUDE_PATH = -I../../Include -I../../Include/msapi -I../ExternalAPI
+LINKER_OPTS = -nostartfiles -nodefaultlibs -nostdlib -shared -Wl,-Map,$(OUTDIR)/$(PROJECT_NAME).map -Wl,-e,_DllMain@12
+LIBRARIES = -lgcc -lmsvcrt -lkernel32 -lshell32 -luser32 -lcomctl32 -lgdi32 -lmsimg32 -loleaut32
+
+ifeq ($(CFG), Release)
+  COMPILER_OPTS += -O2 -Os -DNDEBUG
+  LINKER_OPTS += -s
+else
+  ifeq ($(CFG), Debug)
+    COMPILER_OPTS += -O0 -g3 -D_DEBUG
+  else
+    $(error Invalid configuration specfied: $(CFG))
+  endif
+endif
+
+ifeq ($(BIT), 32)
+	LIBRARIES += $(FINDIR)10/lib/mir_core.lib
+else
+	ifeq ($(BIT), 64)
+		LIBRARIES += $(FINDIR)10/lib/mir_core64.lib
+	else
+		$(error Invalid bit count specfied: $(BIT))
+	endif
+endif
+
+PROJECT_NAME = TrafficCounter
+SRCDIR = src
+OUTDIR = $(CFG)
+FINDIR = ../../bin
+OUTNAME = $(FINDIR)/$(CFG)$(BIT)/Plugins/$(PROJECT_NAME).dll
+
+COMPILER = gcc
+LINKER = gcc
+RSC = windres
+
+SRCS =	$(SRCDIR)/TrafficCounter.cpp \
+		$(SRCDIR)/misc.cpp \
+		$(SRCDIR)/options.cpp \
+		$(SRCDIR)/opttree.cpp \
+		$(SRCDIR)/statistics.cpp \
+		$(SRCDIR)/vars.cpp
+
+OBJECTS =	$(OUTDIR)/TrafficCounter.obj \
+		$(OUTDIR)/misc.obj \
+		$(OUTDIR)/options.obj \
+		$(OUTDIR)/opttree.obj \
+		$(OUTDIR)/statistics.obj \
+		$(OUTDIR)/vars.obj \
+		$(OUTDIR)/resource.res
+
+DEPFILE = $(OUTDIR)/$(PROJECT_NAME).dep
+
+ALL:	$(OUTDIR) depfile
+	@$(MAKE) USE_DEPFILE=1 -f makefile_gcc build
+	@echo Done.
+
+$(OUTDIR):
+	@mkdir -pv $(OUTDIR)
+
+.PHONY: depfile
+depfile:
+	@echo Rebuilding dependencies...
+	$(COMPILER) -MM $(INCLUDE_PATH) $(SRCS) > $(DEPFILE)
+
+.PHONY: build
+build: $(OUTNAME)
+
+$(OUTNAME): $(OBJECTS)
+	@echo Building $(OUTNAME)...
+	@$(LINKER) $(LINKER_OPTS) $(LIBRARIES_PATH) -o $(OUTNAME) $(OBJECTS) $(LIBRARIES)
+
+ifdef USE_DEPFILE
+  include $(DEPFILE)
+endif
+
+$(OUTDIR)/%.obj : $(SRCDIR)/%.cpp
+	@echo Compliling $<
+	@$(COMPILER) $(INCLUDE_PATH) -o $@ $(COMPILER_OPTS) $<
+	
+$(OUTDIR)/%.res : res/%.rc
+	@echo Compiling resources...
+	@cat res/*.rc > res/tmp
+	@$(RSC) $(INCLUDE_PATH) -i res/tmp -o $@ -J RC -O COFF -c 0x4E3

@@ -1,0 +1,75 @@
+﻿#muuid {ce2c0401-f9e0-40d7-8e95-1a4197d7ab04}
+;============================================================
+;  File: FavContacts.dll
+;  Plugin: Favorite contacts
+;  Version: 0.1.0.2
+;  Authors: Victor Pavlychko
+;============================================================
+[Favorite contacts menu.]
+Nabídka s oblíbenými kontakty.
+;file \plugins\FavContacts\res\resource.rc
+[Customize]
+Vlastní úpravy
+[Show second line]
+Zobrazit druhý řádek
+[Show avatars]
+Zobrazit avatary
+[Draw avatar border]
+Orámovat avatary
+[Round corners by]
+Zaoblit rohy o
+[px.]
+px.
+[Hide for transparent avatars]
+Skrýt pro průhledné avatary
+[Use system colors and fonts]
+Použít systémové písma a barvy
+[Hotkey shows menu centered on screen]
+Kl. zkratka zobrazí menu uprostřed obrazovky
+[Menu item preview:]
+Náhled položky menu:
+[Favorite Contacts]
+Oblíbené kontakty
+[Enable groups]
+Povolit skupiny
+[Multicolumn menu]
+Vícesloupcové menu
+[Configure fonts and colors...]
+Nastavit písma a barvy...
+[Align to the right]
+Zarovnat doprava
+[Dim idle contact icons]
+Zešednout neaktivní kontakty
+[Show]
+Zobrazit
+[recent contacts]
+posledních kontaktů
+;file \plugins\FavContacts\src\favlist.h
+[<no group>]
+<žádná skupina>
+;file \plugins\FavContacts\src\main.cpp
+[Favorite Contact]
+Oblíbený kontakt
+[Regular Contact]
+Obyčejný kontakt
+[Favorites]
+Oblíbené
+;file \plugins\FavContacts\src\menu.cpp
+;file \plugins\FavContacts\src\options.cpp
+[Contacts]
+Kontakty
+;file \plugins\FavContacts\src\services.cpp
+[Contact name]
+Jméno kontaktu
+[Second line]
+Druhý řádek
+[Selected contact name (color)]
+Jméno vybraného kontaktu (barva)
+[Selected second line (color)]
+Druhý řádek vybraného kontaktu (barva)
+[Background]
+Pozadí
+[Selected background]
+Vybrané pozadí
+[Show favorite contacts]
+Zobrazit oblíbené kontakty

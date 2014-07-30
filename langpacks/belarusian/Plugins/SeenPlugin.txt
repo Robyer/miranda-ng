@@ -1,0 +1,267 @@
+﻿#muuid {2d506d46-c94e-4ef8-8537-f11233a80381}
+;============================================================
+;  File: SeenPlugin.dll
+;  Plugin: Last seen
+;  Version: 5.0.4.9
+;  Authors: Heiko Schillinger, YB
+;============================================================
+[Logs when a user was last seen online and which users were online while you were away.]
+Запамінае, калі кантакт апошні раз далучаўся і хто быў далучаны, пакуль вы адсутнічалі.
+;file \plugins\SeenPlugin\res\resource.rc
+[Last seen options]
+Параметры апошняга з'яўлення
+[Last seen menu item]
+Пункт меню апошняга з'яўлення
+[Show icon]
+Паказаць абразок
+[User info tab]
+Закладка ў інфармацыі пра кантакт
+[Log to file]
+Запіс у файл
+[Log to history]
+Запісваць гісторыю
+[Maximum size]
+Максімальны памер
+[Variable list]
+Зменныя
+[Enable Idle support]
+Уключыць чаканне
+[Ignore contacts going offline]
+Ігнараваць кантакты, што адключаюцца
+[Enable 'Missed Ones' feature]
+Дазволіць функцыю 'Прапушчаныя'
+[Count times]
+Колькасць уваходаў у сетку
+[Accounts to watch:]
+Конты для назірання:
+[Use popups]
+Успл. вокны
+[Title]
+Загаловак
+[Text]
+Тэкст
+[Popup Colors]
+Колеры вокнаў
+[Online]
+Далучаны
+[Away]
+Адсутнічаю
+[NA]
+Недасяжны
+[Occupied]
+Заняты
+[DND]
+Не турбаваць
+[On the phone]
+На тэлефоне
+[Out to lunch]
+Абедаю
+[Free for chat]
+Вольны
+[Invisible]
+Нябачны
+[Offline]
+Адключаны
+[Reset colors]
+Скід кветак
+[Last seen plugin]
+Апошняе з'яўленне
+[You missed following contacts:]
+Прапушчаны наступныя кантакты:
+[Alert when user status changes]
+Папярэджваць пры змене статусу
+;file \plugins\SeenPlugin\src\history.cpp
+[last seen history]
+гісторыя апошняй сустрэчы
+[View User's Details]
+Пра кантакт
+[User Menu]
+Меню кантакта
+[Send Instant Message]
+Адправіць імгненнае паведамленне
+[Date: %d.%m.%y(%Y) \n Date desc: %W - %w - %E - %e \n Time: %H:%M:%S (%h-%p) \n user: %n - %u \n Status: %s \n IP: %i - %r]
+Дата: %d.%m.%y(%Y) \nАдносная дата: %W - %w - %E - %e \nЧас: %H:%M:%S (%h-%p) \nкантакт: %n - %u \nСтатус: %s \nIP: %i - %r
+;file \plugins\SeenPlugin\src\main.cpp
+[LastSeen]
+Апошняе з'яўленне
+[User status change]
+Змена статусу кантакта
+[Changed to Online]
+Змена: Далучаны
+[User Logged Off]
+Кантакт Адключаны
+[User Logged In]
+Кантакт далучаны
+;file \plugins\SeenPlugin\src\menu.cpp
+[<unknown>]
+<невядома>
+[<none>]
+<няма>
+;file \plugins\SeenPlugin\src\options.cpp
+[Last Seen Variables]
+Зменныя
+[Contacts]
+Кантакты
+[Last seen]
+Апошняе з'яўленне
+[Popups]
+Усплывальныя вокны
+;file \plugins\SeenPlugin\src\seen.h
+[%n is %s (%u)]
+%n %s (%u)
+[%i(%r)%bWas %o]
+%i(%r)%b быў %o
+[Name:%t%N%bStatus:%t%s%bDay:%t%d.%m.%Y%bTime:%t%H:%M:%S%bPrevious Status:%t%o%b%b%P ID:%t%u%bExternal IP:%t%i%bInternal IP:%t%r%bClient ID: %t%C%b%bStatus Message:%t%T]
+Імя:%t%N%b Статус:%t%s%b Дата:%t%d.%m.%Y%b Час:%t%H:%M:%S%b Папярэдні статус:%t%o%b%b%P ID:%t%u%b Вонкавы IP:%t%i%b Унутраны IP:%t%r%b Кліент: %t%C%b%b Паведамленне статусу:%t%T
+[-- Date --]
+-- Дата --
+[year (4 digits)]
+год (4 лічбы)
+[year (2 digits)]
+год (2 лічбы)
+[month]
+месяц
+[name of month]
+назва месяца
+[short name of month]
+назва месяца
+[day]
+дзень
+[weekday (full)]
+дзень тыдня (full)
+[weekday (abbreviated)]
+дзень тыдня (abbreviated)
+[-- Time --]
+-- Час --
+[hours (24)]
+гадзіны (24)
+[hours (12)]
+гадзіны (12)
+[minutes]
+хвілін(ы)
+[seconds]
+секунд(ы)
+[-- User --]
+-- Кантакт --
+[username]
+імя карыстача
+[nick]
+мянушка
+[UIN/handle]
+нумар/апрацоўнік
+[Group]
+Гурт
+[Status]
+Статус
+[Status message]
+Паведамленне статусу
+[Old status]
+Стары статус
+[external IP]
+вонкавы IP
+[internal IP]
+унутраны IP
+[Client info]
+Кліент
+[Protocol]
+Пратакол
+[Account]
+Конт
+[-- Format --]
+-- Фармат --
+[tabulator]
+табуляцыя
+[line break]
+з новага радка
+[Note:]
+Нататка:
+[Use]
+Выкарыстоўваць
+[for empty string]
+для пустога радка
+[instead of]
+замест
+;file \plugins\SeenPlugin\src\userinfo.cpp
+;file \plugins\SeenPlugin\src\utils.cpp
+[Sunday]
+Нядзеля
+[Monday]
+Панядзелак
+[Tuesday]
+Аўторак
+[Wednesday]
+Серада
+[Thursday]
+Чацвер
+[Friday]
+Пятніца
+[Saturday]
+Субота
+[Sun.]
+Нд.
+[Mon.]
+Пн.
+[Tue.]
+Аўт.
+[Wed.]
+Ср.
+[Thu.]
+Чц.
+[Fri.]
+Пт.
+[Sat.]
+Сб.
+[January]
+Студзень
+[February]
+Люты
+[March]
+Сакавік
+[April]
+Красавік
+[May]
+Травень
+[June]
+Чэрвень
+[July]
+Ліпень
+[August]
+Жнівень
+[September]
+Верасень
+[October]
+Кастрычнік
+[November]
+Лістапад
+[December]
+Снежань
+[Jan.]
+Сту
+[Feb.]
+Люты
+[Mar.]
+Сак.
+[Apr.]
+Крас.
+[Jun.]
+Чэр.
+[Jul.]
+Ліп.
+[Aug.]
+Жні.
+[Sep.]
+Вер.
+[Oct.]
+Кас.
+[Nov.]
+Ліс.
+[Dec.]
+Сне.
+[<never seen>]
+<ніколі не з'яўляўся>
+[Idle]
+Чаканне
+[Unknown]
+Невядома
+[Not Idle]
+Не ў чаканні

@@ -1,0 +1,9 @@
+﻿#muuid {2d77a746-00a6-4343-bfc5-f808cdd772ea}
+;============================================================
+;  File: Import.dll
+;  Plugin: Import contacts and messages
+;  Version: 0.11.0.1
+;  Authors: Miranda team
+;============================================================
+[Select this if you want to customize what to import.]
+Select this if you want to customise what to import.

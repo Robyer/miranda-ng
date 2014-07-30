@@ -1,0 +1,125 @@
+﻿#muuid {60558872-2aab-45aa-888d-097691c9b683}
+;============================================================
+;  File: Sessions.dll
+;  Plugin: Sessions
+;  Version: 0.1.3.0
+;  Authors: MaD_CLuSTeR
+;============================================================
+[Sessions Manager for Miranda NG.]
+Správce relací pro Mirandu NG.
+;file \plugins\Sessions\res\Sessions.rc
+[Action on Startup]
+Akce při spuštění
+[Open Sessions Manager dialog]
+Otevřít okno správce relací
+[Restore Last Session]
+Obnovit poslední relaci
+[Do nothing]
+Nedělat nic
+[Only if last session present]
+Pouze pokud existuje poslední relace
+[Startup delay]
+Zpoždění po startu
+[ms]
+ms
+[User Sessions Management]
+Správa uživatelských relací
+[Edit]
+Upravit
+[Delete]
+Smazat
+[Save]
+Uložit
+[Action on Exit]
+Akce při ukončení
+[Ask]
+Zeptat se
+[Save Current Session]
+Uložit aktuální relaci
+[Save only last]
+Uložit pouze poslední
+[Sessions]
+Relace
+[Misc]
+Různé
+[Exclude hidden contacts from session on exit]
+Při ukončení vyloučit skryté kontakty z relace
+[Warn, when some of LastSession contacts are hidden]
+Varovat když jsou některé kontakty z poslední relace skryty
+[Show other warnings ("session already opened", etc.)]
+Zobrazovat ostatní varování ("relace je již otevřena", atd.)
+[Crash Recovery mode]
+Mód obnovení po pádu
+[Restore Session]
+Obnovit relaci
+[&Restore Session]
+Obnovit &relaci
+[&Cancel]
+&Zrušit
+[Choose session to restore from the list:]
+Zvolit relaci pro obnovení ze seznamu:
+[Del]
+Smazat
+[Save Session]
+Uložit relaci
+[&Save Session]
+&Uložit relaci
+[Enter session name:]
+Zadejte název relace:
+[Save and Close]
+Uložit a zavřít
+[adv.]
+rozš.
+[Sessions Manager]
+Správce relací
+[Cancel]
+Zrušit
+[Save your current session?]
+Uložit vaši aktuální relaci?
+;file \plugins\Sessions\Src\Main.cpp
+[Favorite Session]
+Oblíbená relace
+[Not favorite Session]
+Běžná relace
+[Load Session]
+Načíst relaci
+[Load last Session]
+Načíst poslední relaci
+[Current session is empty!]
+Aktuální relace je prázdná!
+[Session name is empty, enter the name and try again]
+Nezadali jste název relace, zadejte jej a zkuste to znovu
+[No sessions to open]
+Neexistuje žádná relace k otevření
+[Last Sessions is empty]
+Poslední relace je prázdná
+[No contacts to open]
+Neexistují žádné kontakty k otevření
+[This Session already opened]
+Tato relace je již otevřena
+[This Session already opened (but probably hidden).\nDo you want to show hidden contacts?]
+Tato relace je již otevřena (ale nejspíše skryta)\nPřejete si zobrazit skryté kontakty?
+[Open Sessions Manager]
+Otevřít správce relací
+[Show Favorite Sessions Menu]
+Zobrazit nabídku oblíbených relací
+[Restore last Session]
+Obnovit poslední relaci
+[Close Session]
+Zavřít relaci
+[Save session...]
+Uložit relaci...
+[Load session...]
+Načíst relaci...
+[Close session]
+Zavřít rozhovor
+[Load last session]
+Načíst poslední relaci
+;file \plugins\Sessions\Src\Options.cpp
+[View]
+Zobrazit
+[Message Sessions]
+Komunikace
+;file \plugins\Sessions\Src\Utils.cpp
+[Session Before Last Crash]
+Relace před posledním pádem

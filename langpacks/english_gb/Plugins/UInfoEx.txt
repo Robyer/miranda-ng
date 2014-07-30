@@ -1,0 +1,33 @@
+﻿#muuid {9c23a24b-e6aa-43c6-b0b8-d6c36d2f7b57}
+;============================================================
+;  File: UInfoEx.dll
+;  Plugin: User info ext
+;  Version: 0.8.5.0
+;  Authors: DeathAxe, Yasnovidyashii, Merlin, K. Romanov, Kreol
+;============================================================
+[Enter your full e-mail address.\n(e.g., john.doe@provider.com)]
+Enter your full e-mail address.\n(e.g. john.doe@provider.com)
+[Birthday popup colors]
+Birthday popup colours
+[Background color]
+Background colour
+[Text color]
+Text colour
+[Use Windows colors]
+Use Windows colours
+[Use default colors]
+Use default colours
+[Anniversary popup colors]
+Anniversary popup colours
+[Enable colors to give information about information's status.]
+Enable colours to give information about information's status.
+[Colors]
+Colours
+[No pages have been added. Canceling dialog creation!]
+No pages have been added. Cancelling dialog creation!
+[Non-Government Organization]
+Non-Government Organisation
+[Mail order catalog]
+Mail order catalogue
+[TmplPast Organization]
+TmplPast Organisation

@@ -1,0 +1,41 @@
+﻿#muuid {08b86253-ec6e-4d09-b7a9-64acdf0627b8}
+;============================================================
+;  File: XSoundNotify.dll
+;  Plugin: XSoundNotify
+;  Version: 1.0.1.2
+;  Authors: Roman Torsten
+;============================================================
+[Provides extended options for sound notifications.]
+Предоставляет расширенные опции звуковых уведомлений о входящих сообщениях.
+[Account:]
+Учётная запись:
+[Nick:]
+Ник:
+[Sound:]
+Звук:
+[Not set]
+Не установлено
+[Choose]
+Выбрать
+[Test play]
+Тест
+[Reset]
+Сброс
+[Ignore sound for this contact]
+Игнорировать звук для этого контакта
+[Cancel]
+Отмена
+[Custom sound for %s (%s)]
+Пользовательский звук для %s (%s)
+[Sound files]
+Звуковые файлы
+[WAV files]
+Файлы WAV
+[Sounds]
+Звуки
+[XSound Notify]
+Пользовательские звуки
+[Self status]
+Свой статус
+[Custom contact sound]
+Заданный звук контакта

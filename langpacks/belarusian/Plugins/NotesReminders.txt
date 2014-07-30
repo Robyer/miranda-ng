@@ -1,0 +1,296 @@
+﻿#muuid {842a6668-f9da-4968-bfd7-d2bd9df848ee}
+;============================================================
+;  File: NotesReminders.dll
+;  Plugin: Sticky Notes & Reminders
+;  Version: 0.0.5.1
+;  Authors: Joe Kucera, Lubomir Kolev Ivanov, Georg Fischer
+;============================================================
+[Sticky Notes & Reminders Implementation for Miranda NG.]
+Нататкі і напамінкі для Miranda NG.
+;file \plugins\NotesAndReminders\res\resource.rc
+[Sticky Notes Options]
+Налады нататак
+[Default Note Size]
+Памер нататкі
+[Width (Pixels)]
+Шырыня
+[Height (Pixels)]
+Вышыня
+[Notes Appearance]
+Выгляд нататак
+[Show Scrollbars]
+Прагорткі
+[Show Buttons]
+Кнопкі
+[Title Date]
+Дата
+[Title Time]
+Час
+[Startup options]
+Налады запуску
+[Hide notes at startup]
+Хаваць нататкі на старце
+[Add Contact list menu items]
+Пункт у галоўным меню
+[(Requires Miranda restart)]
+(Патрабуе перазапуск Miranda NG)
+[Reminder options]
+Налады напамінкаў
+[Add Reminder closes dialog]
+Дыялог зачынення напамінкаў
+[Use MCI to play alert sounds]
+Выкарыстоўваць драйвер MCI
+[Note transparency]
+Празрыстасць нататак
+[Send Reminders through E-mail/SMS:]
+Напамінкі на e-mail/SMS:
+[Open links with this program instead:]
+Адкрываць спасылкі ў:
+[Reset to defaults]
+Скінуць
+[(Using MCI allows different sounds to be played simultaneously, may not be needed or desired when a custom sound plugin is installed.)]
+Дазваляе розным гукам прайгравацца адначасова (магчымыя нежаданыя наступствы, калі ўсталяваны плагін карыстацкіх гукаў)
+[Add Reminder]
+Дадаць напамінак
+[Trigger On Time && Date:]
+Дата &і час запуску:
+[Date]
+Дата
+[Time]
+Час
+[Reminder Note:]
+Напамінак:
+[None]
+Няма
+[Daily]
+Дзён
+[Weekly]
+Тыдняў
+[Monthly]
+Месяцаў
+[Repeat Alert Sound]
+Паўтараць сігнал
+[Use Sound]
+Выкарыстоўваць сігнал
+[&Add Reminder]
+&Дадаць
+[&Close]
+&Зачыніць
+[&View Reminders]
+&Прагледзець напамінкаў
+[reftime]
+час (секунд)
+[Reminder]
+Напамінак
+[After:]
+Пасля:
+[On Time && Date:]
+Дата &і час
+[&Remind Again]
+&Нагадаць яшчэ раз
+[&Create Note]
+&Стварыць нататку
+[&Dismiss]
+Прыбраць
+[Reminders]
+Напамінкі
+[Add New]
+Дадаць…
+[Edi&t Reminder]
+Рэд&актаваць напамінак
+[New &Reminder]
+Новы &напамінак
+[&Delete Reminder]
+&Выдаліць напамінак
+[D&elete All Reminders]
+Выдаліць усе напамінкі
+[Context Menu Note Popup]
+Кантэкстнае меню абвестак
+[&Hide Note]
+&Схаваць нататкі
+[&Always On Top]
+&«Заўсёды зверху»
+[&New Note]
+Новая нататка
+[&Delete Note]
+&Выдаліць нататку
+[Appearance]
+Знешні выгляд
+[Background Color]
+Колер фону
+[Custom...]
+Змяніць…
+[Reset]
+Скід
+[Text Color]
+Колер тэксту
+[Font]
+Шрыфт
+[Paste Title]
+Уставіць загаловак
+[Reset Title]
+Скінуць нарыхтовак
+[Undo]
+Адкат
+[&Copy]
+&Капіяваць
+[&Paste]
+&Уставіць
+[C&ut]
+Выразаць
+[C&lear]
+Пра&чысціць
+[&View Notes]
+&Паказаць нататкі
+[&Bring All To Front]
+Перамясціць на пярэдні план
+[Edi&t Note]
+Рэдагаваць нататку
+[&Visible]
+&Бачнасць
+[Always &On Top]
+«Заўсёды &зверху»
+[Delete &All Notes]
+Выдаліць &усе нататкі
+[&Show / Hide Notes]
+&Паказаць / Схаваць нататкі
+;file \plugins\NotesAndReminders\src\globals.h
+[Notes & Reminders]
+Нататкі і напамінкі
+;file \plugins\NotesAndReminders\src\hotkeys.cpp
+[New Note]
+Новая нататка
+[Toggle Notes Visibility]
+Пераключыць бачнасць нататак
+[Bring All Notes to Front]
+Перамясціць нататкі на пярэдні план
+[New Reminder]
+Новы напамінак
+;file \plugins\NotesAndReminders\src\main.cpp
+[Are you sure you want to delete all notes?]
+Упэўнены, што жадаеце выдаліць усе нататкі?!
+[Are you sure you want to delete all reminders?]
+Упэўнены, што жадаеце выдаліць усе напамінкі?!
+[Delete All Notes]
+Выдаліць усе нататкі
+[Show/Hide Notes]
+Паказаць/Схаваць нататкі
+[On Top Caption Icon]
+Прычапіць
+[Delete All Reminders]
+Выдаліць усе напамінкі
+[View Reminders]
+Прагледзець напамінкаў
+[Not on Top Caption Icon]
+Адчапіць
+[Hide Note Icon]
+Схаваць нататку
+[Remove Note Icon]
+выдаліць нататку
+[Reminder Icon]
+Напамінак
+[Bring All to Front]
+Перамясціць на пярэдні план
+[Play Sound Icon]
+Прайграть гук
+[View Notes]
+Прагледзець нататкі
+[Sticky Notes]
+Нататкі
+[Plugins]
+Плагіны
+[Add New Note]
+Дадаць нататку…
+[Add New Reminder]
+Дадаць напамінак…
+[Alerts]
+Абвесткі
+[Reminder triggered]
+Спрацоўванне напамінку
+[Reminder triggered (Alternative 1)]
+Спрацоўванне напамінку (Альтэрнатыва 1)
+[Reminder triggered (Alternative 2)]
+Спрацоўванне напамінку (Альтэрнатыва 2)
+[Notes && Reminders]
+Нататкі &і напамінкі
+[New &Note]
+Новая &нататка
+[Vie&w Notes]
+Пра&агляд нататак
+[&Delete All Notes]
+&Выдаліць усе нататкі
+[&Bring All to Front]
+&Перамясціць на пярэдні план
+[Miranda could not load the Note & Reminders plugin, RICHED20.DLL is missing. If you are using Windows 95 or WINE please make sure you have riched20.dll installed. Press 'Yes' to continue loading Miranda.]
+Міранда не можа загрузіць плагін NotesReminders, няма Riched20.dll. Калі вы выкарыстоўваеце WINE, пераканайцеся, што вы ўсталявалі бібліятэкі riched20.dll. Націсніце кнопку "Так" для працягу загрузкі Міранды.
+;file \plugins\NotesAndReminders\src\notes.cpp
+[Black]
+Чорны
+[Green]
+Зялены
+[Red]
+Чырвоны
+[Yellow]
+Жоўты
+[Blue]
+Сіні
+[White]
+Белы
+[Are you sure you want to delete this note?]
+Упэўнены, што жадаеце выдаліць нататку?
+[Notes]
+Нататкі
+[Note text]
+Нататка
+[Date/Title]
+Дата/загаловак
+;file \plugins\NotesAndReminders\src\options.cpp
+[Sticky Note Caption]
+Загаловак
+[Sticky Note Background Color]
+Колер фону нататкі
+[Sticky Note Body]
+Акно
+[Executable Files\0*.exe\0All Files\0*.*\0\0]
+Файлы выканання\0*.exe\0All Files\0*.*\0\0
+[Select Executable]
+Абраць праграму…
+;file \plugins\NotesAndReminders\src\reminders.cpp
+[Minutes]
+Хвілін
+[Hours]
+Гадзін
+[Hour]
+Гадзіна
+[Day]
+Дзень
+[Days]
+Дзён
+[Week]
+Тыдзень
+[The specified time is invalid due to begin of daylight saving (summer time).]
+Паказаны час несапраўдна з-за пераходу на «летні час»
+[The specified time is invalid.]
+Паказаны час несапраўдна
+[The specified time offset is invalid.]
+Указанае змяшчэнне часу з'яўляецца несапраўдным.
+[&Update Reminder]
+&Абнавіць напамінак
+[Every]
+Кожныя
+[Seconds]
+Секунд
+[Never]
+Не выкарыстоўваць
+[Default]
+Змаўчанні
+[Alternative 1]
+Альтэрнатыўны 1
+[Alternative 2]
+Альтэрнатыўны 2
+[Reminder text]
+Напамінак
+[Date of activation]
+Дата актывацыі
+[Are you sure you want to delete this reminder?]
+Упэўнены, што жадаеце выдаліць гэты напамінак?

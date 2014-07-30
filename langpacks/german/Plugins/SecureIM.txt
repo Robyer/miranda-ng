@@ -1,0 +1,422 @@
+﻿#muuid {1B2A39E5-E2F6-494D-958D-1808FD110DD5}
+;============================================================
+;  File: SecureIM.dll
+;  Plugin: SecureIM
+;  Version: 1.0.12.4
+;  Authors: Johell, Ghost, Nightwish, __alex, Baloo
+;============================================================
+[SecureIM plugin for Miranda NG.]
+SecureIM plugin für Miranda NG.
+;file \plugins\SecureIM\res\resource.rc
+[User List]
+Benutzerliste
+[Enable Secure Offline messages]
+Verschlüsselte Offline-Nachrichten
+[Enable Secure File Transfer]
+Verschlüsselter Dateiversand
+[Always show status icons in contact list]
+Status immer in der Kontaktliste anzeigen
+[Context Menu only for "Miranda" clients]
+Kontaktmenü nur für Miranda-Clients anz.
+[Status in Context Menu]
+Status im Kontaktmenü anzeigen
+[Disable encryption for game plugins]
+Keine Verschl. für Spiele-Plugins
+[Always secured if possible]
+Immer verschlüsseln, falls möglich
+[Not secured for NotOnList]
+Unverschlüsselt für unbekannte Kontakte
+[Auto accept RSA key (NOT SECURED)]
+Autom. RSA-Schlüssel akzept. (UNSICHER!)
+[Mode in Context Menu]
+Modus im Kontaktmenü anzeigen
+[Key Exchange Timeout:]
+Schlüsseltausch-Timeout:
+[sec]
+Sek.
+[Offline Key Timeout:]
+Offlineschl.-Timeout:
+[days]
+Tage
+[PGP]
+PGP
+[GPG]
+GPG
+[Reset All]
+Alle rückg.
+[Protocols]
+Protokolle
+[Split Messages]
+Trenne Nachrichten
+[Online:]
+Online:
+[Offline:]
+Offline:
+[RSA Key]
+RSA-Schlüssel
+[SHA1:]
+SHA1:
+[Public]
+Öffentlich
+[&Copy SHA1]
+SHA1 &kopieren
+[E&xport]
+E&xport
+[Private]
+Privat
+[&Export]
+&Exportieren
+[&Import]
+&Importieren
+[Set &keyrings...]
+Set &keyrings...
+[Disable keyrings use]
+Schlüsselringe deakt.
+[Load &Private key]
+&Privaten Schlüssel laden
+[Basic]
+Allgemein
+[Executable:]
+GnuPG-Programm:
+[Home Directory:]
+Benutzerverzeichnis:
+[Temp Dir:]
+Temp. Verzeichnis:
+[Key Assignment]
+Schlüsselzuordnung
+[Debug]
+Debug
+[Log to File]
+In Datei speichern
+[Save Pass]
+Passwort speichern
+[Back]
+Hgrd.
+[Text]
+Text
+[Key agreement colors]
+Schlüsselaustausch
+[Secure connection colors]
+Sichere Verbindung
+[Send/Receive encrypted colors]
+Sichere Nachrichten
+[SecureIM Popup Colors]
+Farben der Popups
+[Preview]
+Vorschau
+[Events]
+Ereignisse
+[Popup Timeout]
+Anzeigedauer
+[Time in Seconds]
+Zeit in Sekunden
+[0 = Default Popup Timeout Value]
+0 = Standard
+[Show a popup on established connection]
+Popup beim Aufbau einer Verbindung zeigen
+[Show a popup on disabled connection]
+Popup beim Abbau einer Verbindung zeigen
+[Show a popup on key send]
+Popup beim Versand eines Schlüssels zeigen
+[Show a popup on key received]
+Popup beim Empfang eines Schlüssels zeigen
+[Show a popup on each secure send]
+Popup bei sicherem Nachrichtenversand zeigen
+[Show a popup on each secure receive]
+Popup bei sicherem Nachrichtenempfang zeigen
+[Please type in your password]
+Bitte vergeben Sie ein Passwort!
+[Username:]
+Benutzername:
+[Password:]
+Passwort:
+[Cancel]
+Abbrechen
+[SecureIM plugin Passphrase of private key]
+SecureIM: Passphrase des privaten Schlüssels
+[Enter passphrase for the secret key:]
+'Passphrase' für den geheimen Schlüssel eingeben:
+[Mode]
+Modus
+[Native SecureIM]
+AES SecureIM (Nativ)
+[PGP SecureIM]
+PGP SecureIM
+[GPG SecureIM]
+GPG SecureIM
+[RSA/AES SecureIM]
+RSA/AES SecureIM
+[Status]
+Status
+[Always Try to Establish Secure IM]
+SecureIM-Verbindung immer versuchen
+[Secure IM Enabled]
+SecureIM aktiviert
+[Secure IM Disabled]
+SecureIM deaktiviert
+[Pre-shared key]
+Pre-Shared Key
+[Set key]
+Schlüssel setzen
+[Delete key]
+Schlüssel löschen
+[Set pre-shared key]
+Pre-Shared Key setzen
+[Delete pre-shared key]
+Pre-Shared Key löschen
+[Public key]
+Öffentlicher Schlüssel
+[Export key]
+Schlüssel exportieren
+[Import key]
+Schlüssel importieren
+[Export public key]
+Öffentlichen Schlüssel exportieren
+[Import public key]
+Öffentlichen Schlüssel importieren
+[Delete public key]
+Öffentlichen Schlüssel löschen
+;file \plugins\SecureIM\src\language.cpp
+[SecureIM established...]
+Sichere Verbindung aufgebaut...
+[Key exchange failed...]
+Austausch der Schlüssel fehlgeschlagen...
+[Key from disabled...]
+Schlüssel deaktiviert...
+[Sent back message received...]
+Zurückgesendete Nachricht erhalten...
+[Sending back secure message...]
+Sende sichere Nachricht zurück...
+[SecureIM disabled...]
+SecureIM deaktiviert...
+[Sending key...]
+Sende Schlüssel...
+[Key received...]
+Schlüssel erhalten...
+[Sending message...]
+Sende Nachricht...
+[Message received...]
+Nachricht erhalten...
+[Encrypting file:]
+Verschlüssele Datei:
+[Decrypting file:]
+Entschlüssele Datei:
+[Bad key received...]
+Falschen Schlüssel erhalten...
+[SecureIM: Error while decrypting the message.]
+SecureIM: Fehler beim Entschlüsseln der Nachricht.
+[SecureIM: Error while decrypting the message, bad message length.]
+SecureIM: Fehler beim Entschlüsseln der Nachricht, fehlerhafte Länge.
+[SecureIM: Error while decrypting the message, bad message CRC.]
+SecureIM: Fehler beim Entschlüsseln der Nachricht, fehlerhaftes CRC.
+[User has not answered to key exchange!\nYour messages are still in SecureIM queue, do you want to send them unencrypted now?]
+Benutzer hat den Schlüsselaustausch nicht beantwortet!\nIhre Nachrichten sind immer noch in der SecureIM-Warteschlange, möchten Sie diese nun unverschlüsselt senden?
+[SecureIM not enabled! You must enable SecureIM with this user...]
+SecureIM nicht aktiviert! Sie müssen bei diesem Benutzer SecureIM aktivieren...
+[Can't send encrypted message!\nUser is offline now and his secure key has been expired. Do you want to send your message?\nIt will be unencrypted!]
+Kann keine verschlüsselte nachricht senden!\nDer Benutzer ist jetzt offline und sein geheimer Schlüssel ist ausgelaufen,\nmöchten Sie Ihre Nachricht nun unverschlüsselt senden?
+[SecureIM won't be loaded because cryptopp.dll is missing or wrong version!]
+SecureIM wird nicht geladen weil cryptopp.dll fehlt oder in einer falschen Version vorliegt!
+[SecureIM can't load PGP/GPG key! Check PGP/GPG settings!]
+SecureIM kann PGP-/GPG-Schlüssel nicht laden. Prüfen Sie Ihre PGP-/GPG-Einstellungen!
+[SecureIM can't encrypt message! Check trust of PGP/GPG key!]
+SecureIM kann die Nachricht nicht verschlüsseln! Prüfen Sie die Vertrauenswürdigkeit Ihrer PGP-/GPG-Schlüssel.
+[Can't send encrypted message!\nDo you want to send your message?\nIt will be unencrypted!]
+Kann Nachricht nicht verschlüsselt senden.\nMöchten Sie die Nachricht unverschlüsselt senden?
+[Can't change mode! Secure connection established!]
+Kann Modus nicht ändern! Sichere Verbindung aufgebaut.
+[Can't export RSA private key!]
+Kann privaten RSA-Schlüssel nicht exportieren!
+[Can't import RSA private key!]
+Kann privaten RSA-Schlüssel nicht importieren!
+[Can't export RSA public key!]
+Kann öffentl. RSA-Schlüssel nicht exportieren!
+[Can't import RSA public key!]
+Kann öffentl. RSA-Schlüssel nicht importieren!
+[General]
+Allgemein
+[Nickname]
+Nick
+[Name]
+Name
+[Password is too short!]
+Passwort ist zu kurz!
+[ON]
+Ein
+[Off]
+Aus
+[Keyrings loaded.]
+Schlüsselringe geladen.
+[Keyrings not loaded!]
+Schlüsselringe nicht geladen!
+[PGP SDK v%i.%i.%i found.]
+PGP-SDK v%i.%i.%i gefunden.
+[PGP SDK not found!]
+PGP-SDK nicht gefunden!
+[This version not supported!]
+Diese Version wird nicht unterstützt!
+[(none)]
+(kein)
+[Private key loaded.]
+Privater Schlüssel geladen.
+[Private key not loaded!]
+Privater Schlüssel nicht geladen!
+[The new settings will become valid when you restart Miranda NG!]
+Die neuen Einstellungen werden nach einem Neustart von Miranda NG wirksam!
+[Keyrings disabled!]
+Schlüsselringe deaktiviert!
+[Native]
+Nativ
+[Disabled]
+Deaktiviert
+[Enabled]
+Aktiviert
+[Always try]
+Immer versuchen
+[Create SecureIM connection]
+SecureIM-Verbindung aktivieren
+[Disable SecureIM connection]
+SecureIM-Verbindung deaktivieren
+[Load PGP Key]
+PGP-Schlüssel laden
+[Unload PGP Key]
+PGP-Schlüssel entladen
+[Load GPG Key]
+GPG-Schlüssel laden
+[Unload GPG Key]
+GPG-Schlüssel entladen
+[Delete RSA Key]
+RSA-Schlüssel löschen
+[SecureIM mode (Native)]
+SecureIM-Modus (Nativ)
+[SecureIM mode (PGP)]
+SecureIM-Modus (PGP)
+[SecureIM mode (GPG)]
+SecureIM-Modus (GPG)
+[SecureIM mode (RSA/AES)]
+SecureIM-Modus (RSA/AES)
+[SecureIM mode (RSA)]
+SecureIM-Modus (RSA)
+[SecureIM status (disabled)]
+SecureIM-Status (deaktiviert)
+[SecureIM status (enabled)]
+SecureIM-Status (aktiviert)
+[SecureIM status (always try)]
+SecureIM-Status (immer versuchen)
+[SecureIM: Sorry, unable to decrypt this message due you have no PGP/GPG installed. Visit www.pgp.com or www.gnupg.org for more info.]
+SecureIM: Kann nachricht nicht entschlüsseln weil Sie kein PGP/GPG installiert haben. Besuchen Sie www.pgp.com oder www.gnupg.org für weitere Informationen.
+[SecureIM received unencrypted message:\n]
+SecureIM hat unverschlüsselte Nachricht empfangen:\n
+[SecureIM received encrypted message:\n]
+SecureIM hat verschlüsselte Nachricht empfangen:\n
+[Session closed by receiving incorrect message type]
+Sitzung aufgrund des Empfangs eines falschen Nachrichtentyps unterbrochen
+[Session closed by other side on error]
+Sitzung aufgrund eines Fehlers unterbrochen.
+[Error while decoding AES message]
+Fehler beim Dekodieren der AES-Nachricht
+[Error while decoding RSA message]
+Fehler beim Dekodieren der RSA-Nachricht
+[Session closed on timeout]
+Sitzung aufgrund eines Timeouts unterbrochen.
+[Session closed by other side when status "disabled"]
+Sitzung vom Gegenüber mit Status "deaktiviert" geschlossen
+[Session closed on error: %02x]
+Sitzung geschlossen mit Fehler: %02x
+[SecureIM received RSA Public Key from "%s"\n\nSHA1: %s\n\nDo you Accept this Key?]
+SecureIM hat den öffentlichen RSA-Schlüssel von "%s" erhalten.\n\nSHA1: %s\n\nMöchten Sie diesen Schlüssel akzeptieren?
+[SecureIM auto accepted RSA Public key from: %s uin: %s SHA1: %s]
+SecureIM hat öffentlichen RSA-Schlüssel automatisch akzeptiert von: %s, UIN: %s, SHA1: %s
+[SecureIM received NEW RSA Public Key from "%s"\n\nNew SHA1: %s\n\nOld SHA1: %s\n\nDo you Replace this Key?]
+SecureIM hat NEUEN öffentlichen RSA-Schlüssel von "%s" empfangen.\n\nNeues SHA1: %s\n\nAltes SHA1: %s\n\nMöchten Sie diesen Schlüssel ersetzen?
+[SecureIM auto accepted NEW RSA Public key from: %s uin: %s New SHA1: %s Old SHA1: %s]
+SecureIM hat NEUEN öffentlichen RSA-Schlüssel automatisch akzeptiert von: %s, UIN: %s, Neues SHA1: %s, Altes SHA1: %s
+;file \plugins\SecureIM\src\loadicons.cpp
+[Contact List]
+Kontaktliste
+[Connection Disabled]
+Verbindung getrennt
+[Connection Established]
+Verbindung hergestellt
+[Contact Menu]
+Kontaktmenü
+[Disable Secure Connection]
+Sichere Verbindung trennen
+[Establish Secure Connection]
+Sichere Verbindung herstellen
+[Message Window]
+Nachrichtenfenster
+[Popups]
+Popups
+[Secure Connection Disabled]
+Sichere Verbindung getrennt
+[Secure Connection Established]
+Sichere Verbindung hergestellt
+[Secure Connection In Process]
+Sichere Verbindung wird hergestellt
+[Recv Secured Message]
+Verschlüsselte Nachricht erhalten
+[Sent Secured Message]
+Verschlüsselte Nachricht gesendet
+[Menu State]
+Status im Kontaktmenü
+[Always Try]
+Immer versuchen
+[Overlays]
+Overlays
+[Native mode]
+Nativer Modus
+[PGP mode]
+PGP-Modus
+[GPG mode]
+GPG-Modus
+[RSA/AES mode]
+RSA/AES-Modus
+;file \plugins\SecureIM\src\main.cpp
+[SecureIM]
+SecureIM
+[Icons]
+Icons
+[Incoming Secure Message]
+Sichere Nachricht (eingehend)
+[Outgoing Secure Message]
+Sichere Nachricht (ausgehend)
+[SecureIM status]
+SecureIM-Status
+;file \plugins\SecureIM\src\options.cpp
+[Executable Files]
+Ausführbare Dateien
+[Select GnuPG Executable]
+GnuPG-Programm wählen
+[ASC files]
+ASC-Dateien
+[All files]
+Alle Dateien
+[Open Key File]
+Schlüsseldatei öffnen
+[Save Private Key File]
+Privaten Schlüssel in Datei speichern
+[Save Public Key File]
+Öffentlichen Schlüssel in Datei speichern
+[Load Private Key File]
+Privaten Schlüssel aus Datei laden
+[Load Public Key File]
+Öffentlichen Schlüssel aus Datei laden
+[Services]
+Dienste
+;file \plugins\SecureIM\src\popupOptions.cpp
+[Key Popup]
+Schlüssel-Popup
+[Secure Popup]
+Sicherheits-Popup
+[Message Popup]
+Nachrichten-Popup
+;file \plugins\SecureIM\src\svcs_srmm.cpp
+[SecureIM [Native]]
+SecureIM [Nativ]
+[SecureIM [PGP]]
+SecureIM [PGP]
+[SecureIM [GPG]]
+SecureIM [GPG]
+[SecureIM [RSA/AES]]
+SecureIM [RSA/AES]

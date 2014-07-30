@@ -1,0 +1,75 @@
+﻿#muuid {4f1ff7fa-4d75-44b9-93b0-2ced2e4f9e3e}
+;============================================================
+;  File: WhatsApp.dll
+;  Plugin: WhatsApp protocol
+;  Version: 0.0.2.1
+;  Authors: Uli Hecht
+;============================================================
+[WhatsApp protocol support for Miranda NG.]
+Підтримка протоколу WhatsApp для Miranda NG.
+[Phone-Number]
+Телефон
+[Including country code, without '+' or '00']
+З кодом країни, без "+" чи "00"
+[Nickname]
+Нік
+[Password]
+Пароль
+[Request Code]
+Запросити код
+[Register Code]
+Реєструвати код
+[SMS-Code:]
+SMS-код:
+[Will only be used for registration]
+Потрібен тільки для реєстрації
+[Paste password from WART utility]
+Вставте пароль з програми WART
+[Use WART utility from Plugins folder for registering your number and generating password]
+Для реєстрації номеру та отримання паролю скористайтеся програмою WART з папки Plugins
+[Use SSL connection (443 port)]
+Підключення по SSL (порт 443)
+[Cancel]
+Скасувати
+[Please enter a country-code.]
+Введіть код країни
+[Please enter a phone-number without country code.]
+Введіть номер телефону без коду країни
+[Please enter a nickname.]
+Введіть нік
+[Please enter a password.]
+Введіть пароль
+[An SMS with registration-code will be sent to your mobile phone.\nNotice that you are not able to use the real WhatsApp and this plugin simultaneously!\nContinue?]
+SMS-повідомлення з реєстраційним кодом буде відправлено на ваш мобільний телефон.\nНагадуемо, що ви не зможете використовувати справжній WhatsApp і цей плагін одночасно!\nПродовжити?
+[Please correctly specify your registration code received by SMS]
+Будь ласка, правильно вкажіть ваш реєстраційний код, отриманий в SMS
+[Your password has been set automatically.\nIf you change your password manually you may lose it and need to request a new code!]
+Ваш пароль встановлений автоматично.\nЯкщо ви зміните пароль вручну, ви можете його втратити, і буде потрібно робити запит на новий код!
+[Did not unpack WART (registration utility).]
+Не розпакована програма для реєстрації WART.
+[%s server connection]
+Підключення до серверу %s
+[Unable to get Netlib connection for WhatsApp]
+Не вдається встановити з'єднання для WhatsApp
+[Network-connection error.]
+Помилка з'єднання.
+[Network]
+Мережа
+[Account]
+Обліковий запис
+[WhatsApp Icon]
+Значок протоколу
+[Add To Group]
+Додати у групу
+[Create Chat Group]
+Створити чат-групу
+[Remove From Chat Group]
+Видалити з чат-групи
+[Leave And Delete Group]
+Покинути та видалити групу
+[Leave Group]
+Покинути групу
+[Change Group Subject]
+Змінити тему групи
+[Create Group]
+Створити групу

@@ -1,0 +1,67 @@
+﻿#muuid {2fd0df15-7098-41ce-aa92-ff621806e38b}
+;============================================================
+;  File: Exchange.dll
+;  Plugin: Exchange
+;  Version: 0.1.3.4
+;  Authors: Cristian Libotean, Attila Vajda, MaKaR (NG)
+;============================================================
+[Notifies you if you have unread email on an exchange server.]
+Абвяшчае, калі ў вас ёсць непрачытаныя электроннай пошты на Exchange Server.
+;file \plugins\Exchange\res\exchange.rc
+[Unread emails]
+Непрачытаныя лісты
+[Close]
+Зачыніць
+[Mark as read]
+Адзначыць як прачытанае
+[Dialog]
+Гутарка
+[Connection]
+Далучэнне
+[Username:]
+Імя кантакта:
+[Password:]
+Пароль:
+[Server:]
+Сервер:
+[Preferences]
+Налады
+[Check every]
+Прав. кожныя
+[seconds]
+секунд
+[Force reconnect every]
+Прымушанае далучэнне
+[minutes]
+хвілін
+[Check server before trying to connect]
+Праверце сервер, перш чым далучыцца
+[Try to connect]
+Спроба далучыцца
+[times before giving up]
+разоў, перш чым здацца
+[Show email notifications using popup module]
+Паказаць абвесткі праз усплывальнае вакно
+;file \plugins\Exchange\src\dlg_handlers.cpp
+[Entry ID]
+Параметры уваходу
+[Subject]
+Тэма
+[Sender]
+Адпраўшчык
+;file \plugins\Exchange\src\emails.cpp
+[You have %d unread emails...]
+У вас %d непрачытаных лістоў...
+[You have one unread email...]
+У вас непрачытаныя паведамленніl...
+[Exchange email]
+Пошта Exchange
+[Do you want to see the email headers?]
+Паказаць загалоўкі электроннай пошты?
+;file \plugins\Exchange\src\hooked_events.cpp
+[Check exchange mailbox]
+Праверыць скрыню exchange
+[Exchange notify]
+Паведамленне Exchange
+[Plugins]
+Плагіны

@@ -1,0 +1,165 @@
+﻿#muuid {f7a6b27c-9d9c-4a42-be86-a448ae109161}
+;============================================================
+;  File: Dbx_mmap.dll
+;  Plugin: Miranda NG mmap database driver
+;  Version: 0.95.1.3
+;  Authors: Miranda-NG project
+;============================================================
+[Provides Miranda database support: global settings, contacts, history, settings per contact.]
+Zapewnia wsparcie profilu Mirandy: ustawień globalnych, kontaktów, historii, ustawień dla każdego kontaktu z osobna.
+;file \plugins\Db3x_mmap\res\db3x_mmap.rc
+[Login to Miranda NG]
+Logowanie do Mirandy NG
+[Cancel]
+Anuluj
+[New password]
+Nowe hasło do profilu:
+[Please enter your new password]
+Proszę wpisać twoje nowe hasło.
+[Enter password]
+Wprowadź hasło
+[Change password]
+Zmień hasło
+[Change]
+Zmień
+[Remove]
+Usuń
+[Old password]
+Stare hasło do profilu:
+[Database encryption mode]
+Tryb szyfrowania bazy
+[Standard]
+Standardowy
+[Total]
+Całkowity
+[Only critical data are encrypted (passwords, security tokens, etc). All another settings and history remains unencrypted. Fast and effective, suitable for the most cases]
+Tylko najważniejsze dane (hasła, tokeny bezpieczeństwa itp.) są zaszyfrowane. Inne ustawienia, historia itp. pozostają niezaszyfrowane. Szybki i efektywny sposób. Powinien wystarczyć w większości przypadków.
+[All string settings and all events in histories are encrypted. It also makes Miranda much slower and creates a risk of losing everything you've stored in a profile in case of losing password. Recommended only for paranoid users]
+Wszystkie wpisy ustawień oraz zdarzenia w bazie są zaszyfrowane. Sprawia to, że Miranda może działać wolniej oraz stwarza ryzyko utraty wszystkich danych zapisanych w profilu w przypadku utraty hasła. Zalecane tylko obsesyjnym użytkownikom.
+[Set password]
+Ustaw/Zmień hasło
+;file \plugins\Db3x_mmap\src\database.cpp
+[Disk is full. Miranda will now shut down.]
+Dysk jest pełny. Miranda zostanie zamknięta.
+[Database failure. Miranda will now shut down.]
+Awaria profilu. Miranda zostanie zamknięta.
+[Database Error]
+Błąd profilu
+[Miranda has detected corruption in your database. This corruption may be fixed by DbChecker plugin. Please download it from http://miranda-ng.org/p/DbChecker/. Miranda will now shut down.]
+Miranda wykryła błąd w twojej bazie danych. Może być naprawiony przez wtyczkę DbChecker. Pobierz go z http://miranda-ng.org/p/DbChecker/. Miranda zostanie teraz zamknięta.
+[Database Panic]
+Panika profilu
+;file \plugins\Db3x_mmap\src\dbheaders.cpp
+[This profile is too old to be updated with PluginUpdater, your database must be converted first.\n\nWould you like to read how to fix this?]
+Ten profil jest zbyt stary, by uaktualnić go wtyczką PluginUpdater. Twoja baza danych musi zostać najpierw skonwertowana.\n\nChcesz przeczytać jak to naprawić?
+[Obsolete database format]
+Przestarzały format bazy danych
+;file \plugins\Db3x_mmap\src\dbintf.h
+[Change/remove password]
+Zmień/Usuń hasło
+;file \plugins\Db3x_mmap\src\ui.cpp
+[Logo]
+Logo
+[Password]
+Hasło:
+[Too many errors!]
+Zbyt wiele błędów!
+[Password is not correct!]
+Nieprawidłowe hasło!
+[Please type in your password]
+Proszę wprowadzić hasło
+[Wrong old password entered!]
+Złe stare hasło!
+[Password is too short!]
+Hasło jest za krótkie!
+[Passwords do not match!]
+Hasła nie pasują!
+[Database]
+Baza danych
+;file \plugins\Db3x_mmap\src\dbtool\aggressive.cpp
+[Performing aggressive pass]
+Wykonywanie agresywnego przejścia
+[Aggressive: random junk at %08X: skipping]
+Agresywny: losowe śmieci w %08X: pomijam
+[Aggressive: unlinked data at %08X: can't automatically place]
+Agresywny: nieoznaczone dane w %08X: nie można automatycznie rozmieścić
+;file \plugins\Db3x_mmap\src\dbtool\contactchain.cpp
+[Processing contact chain]
+Przetwarzanie łańcucha kontaktu
+[Contact count marked wrongly: correcting]
+Źle oznaczone dane kontaktów: poprawianie
+[Contact chain corrupted, further entries ignored]
+Uszkodzony łańcuch kontaktu, dalsze wpisy będą ignorowane
+;file \plugins\Db3x_mmap\src\dbtool\disk.cpp
+[Invalid offset found (database truncated?)]
+Znaleziono nieprawidłowe przesunięcie (baza danych obcięta?)
+[Invalid offset found]
+Znaleziono nieprawidłową przesunięcie
+[Error reading, database truncated? (%u)]
+Błąd odczytu, niekompletny plik profilu? (%u)
+[Can't write to working file, aggressive mode may be too aggressive now]
+Zapis do pliku roboczego niemożliwy, tryb agresywny może być teraz zbyt agresywny
+[Can't write to output file - disk full? (%u)]
+Nie można zapisać do pliku - dysk jest pełen? (%u)
+;file \plugins\Db3x_mmap\src\dbtool\eventchain.cpp
+[Event count marked wrongly: correcting]
+Źle oznaczone dane zdarzeń: poprawianie
+[Event chain corrupted, trying to recover...]
+Łańcuch zdarzeń uszkodzony, próbuję odzyskać...
+[Event chain corrupted, further entries ignored]
+Uszkodzony łańcuch zdarzeń, dalsze wpisy ignorowane
+[First event not marked as such: correcting]
+Pierwsze zdarzenie nie oznaczone jako: poprawianie
+[Extra flags found in event: removing]
+Dodatkowe flagi w przypadku: usuwanie
+[First unread event marked wrong: fixing]
+Źle oznaczone pierwsze nieprzeczytane zdarzenie: naprawianie
+[Infeasibly large event blob: skipping]
+Niewiarygodnie duży blok zdarzenia: pomijanie
+[Event not backlinked correctly: fixing]
+Niepoprawnie olinkowane zdarzenie: naprawianie
+[Duplicate event was found: skipping]
+Znaleziono duplikat zdarzenia: pomijanie
+[Event position in chain is not correct]
+Pozycja zdarzenia w łańcuchu jest niewłaściwa
+[Event position in chain is not correct: fixing]
+Pozycja zdarzenia w łańcuchu jest niewłaściwa: naprawianie
+[Event position in chain is not correct: unable to fix]
+Pozycja zdarzenia w łańcuchu niemożliwa: naprawa niemożliwa
+;file \plugins\Db3x_mmap\src\dbtool\finaltasks.cpp
+[Processing final tasks]
+Wykonywanie końcowych zadań
+;file \plugins\Db3x_mmap\src\dbtool\initialchecks.cpp
+[Database signature is corrupted, automatic repair is impossible]
+Profil jest uszkodzona, automatyczna naprawa jest niemożliwa
+[Database version doesn't match this driver's one. Convert a database first]
+Wersja bazy danych nie pokrywa się z wersją sterownika. Najpierw przekonwertuj bazę danych.
+[Database is newly created and has no data to process]
+Profil nie zawiera żadnych danych
+[Processing completed successfully]
+Przetwarzanie zakończone sukcesem
+[Can't create map view of file (%u)]
+Nie udało się utworzyć widoku mapy pliku (%u)
+;file \plugins\Db3x_mmap\src\dbtool\modulechain.cpp
+[Processing module name chain]
+Przetwarzanie łańcucha nazwy modułu
+[Module chain corrupted, further entries ignored]
+Uszkodzony łańcuch modułu, dalsze wpisy będą ignorowane
+[Module name '%s' is not unique: %d duplicates found]
+Nazwa modułu "%s" nie jest unikalna: znaleziono %d duplikatów
+[Invalid module name offset, skipping data]
+Nieprawidłowy offset nazwy modułu, pomijam dane
+;file \plugins\Db3x_mmap\src\dbtool\settingschain.cpp
+[Settings chain corrupted, further entries ignored]
+Uszkodzony ciąg ustawień, dalsze wpisy będą ignorowane
+[Infeasibly large settings blob: skipping]
+Zbyt duży blob ustawień: pomijam
+[Empty settings group at %08X: skipping]
+Pusta grupa ustawień na %08X: pomijanie
+;file \plugins\Db3x_mmap\src\dbtool\user.cpp
+[Processing user data]
+Przetwarzanie danych użytkownika
+[User corrupted, this could cause major problems]
+Uszkodzony kontakt - to może spowodować poważne problemy
+[More than one user contact: keeping only first]
+Więcej niż jeden kontakt użytkownika: zatrzymuję tylko pierwszy

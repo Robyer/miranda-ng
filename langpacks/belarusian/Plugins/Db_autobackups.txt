@@ -1,0 +1,99 @@
+﻿#muuid {81c220a6-0226-4ad6-bfca-217b17a16053}
+;============================================================
+;  File: Db_autobackups.dll
+;  Plugin: Db autobackuper
+;  Version: 0.0.0.10
+;  Authors: chaos.persei, sje, Kildor, Billy_Bons
+;============================================================
+[Database autobackuper plugin.]
+Плагін стварэння рэзервовых копій профілю.
+;file \plugins\Db_autobackups\res\db_autobackups.rc
+[Backup progress]
+Ход працэсу рэзервавання
+[Cancel]
+Скасаваць
+[Automatic backups]
+Аўтаматычнае рэзерваванне
+[Backup NOW]
+Захаваць ЦЯПЕР
+[Disabled]
+Выключаны
+[When Miranda starts]
+Пры запуску Miranda
+[When Miranda exits]
+Пры выйсці з Miranda
+[Every:]
+Кожныя:
+[Number of backups to keep:]
+Колькасць рэзервовых копій:
+[Backup to folder:]
+Захоўваць у тэчку:
+[Browse...]
+Адкрыць...
+[Go to the "Customize -> Folders" to change settings]
+Адкрыйце "Тонкая налада -> Тэчкі" для змены налад
+[Compress backup to zip-archive]
+Сціск рэзервовай копіі ў архіў
+[Disable progress bar]
+Адключыць індыкатар выканання
+[Disable popups]
+Адключыць усплывальныя вокны
+;file \plugins\Db_autobackups\src\backup.cpp
+[Miranda NG database]
+Рэзервовая копія профіля
+[Created by:]
+Створана:
+[Miranda NG databases]
+Базы данных Miranda NG
+[Compressed Miranda NG databases]
+Сціснутыя профілі Miranda NG
+[All files]
+Усе файлы
+[Backup in progress]
+Рэзерваванне падчас
+[Copying database file...]
+Капіяванне файла базы...
+[Database backed up]
+Профіль зарэзерваваны
+;file \plugins\Db_autobackups\src\main.cpp
+[Backup profile]
+Рэзерваваць профіль
+[Save profile as...]
+Захаваць профіль як...
+[Database backups]
+Рэзерваванне профіля
+[Backup folder]
+Тэчка рэзервавання
+[Database]
+Профіль
+;file \plugins\Db_autobackups\src\options.cpp
+[path to Miranda root folder]
+шлях да тэчкі праграмы
+[path to current Miranda profile]
+шлях да тэчкі бягучага профіля
+[name of current Miranda profile (filename, without extension)]
+імя бягучага профіля (толькі імя, без пашырэння)
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%]
+верне радок выгляду %miranda_profile%\\Profiles\\%miranda_profilename%
+[same as environment variable %APPDATA% for currently logged-on Windows user]
+аналог зменнага асяроддзя %APPDATA% для бягучага карыстача сістэмы
+[username for currently logged-on Windows user]
+імя бягучага карыстача сістэмы
+["My Documents" folder for currently logged-on Windows user]
+тэчка "Мае дакументы" для бягучага Windows карыстача
+["Desktop" folder for currently logged-on Windows user]
+тэчка "Працоўны стол" для бягучага Windows карыстача
+[any environment variable defined in current Windows session (like %systemroot%, %allusersprofile%, etc.)]
+любая зменная асяроддзі, вызначаная ў бягучай Windows сесіі (напрыклад, %systemroot%, %allusersprofile% і г.д.)
+[Variables]
+Зменныя
+[days]
+дзён
+[hours]
+гадзін
+[minutes]
+хвілін
+[Select backup folder]
+Абярыце тэчку для рэзервовых копій
+[Error creating backup folder]
+Памылка пры стварэнні тэчкі для рэзервовага капіравання

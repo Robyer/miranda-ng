@@ -1,0 +1,7 @@
+﻿[MPD Host]
+[Port]
+[Password]
+[Watrack MPD connection]
+[Winamp Track]
+[Plugins]
+[Watrack MPD]

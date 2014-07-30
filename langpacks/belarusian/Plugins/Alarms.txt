@@ -1,0 +1,192 @@
+﻿#muuid {4dd7762b-d612-4f84-aa86-068f17859b6d}
+;============================================================
+;  File: Alarms.dll
+;  Plugin: Alarms
+;  Version: 0.4.0.5
+;  Authors: Scott Ellis
+;============================================================
+[Sets once-off, daily, weekly and weekday alarms.]
+Устаноўка штодзённых, штотыднёвых і разавых напамінкаў.
+;file \plugins\Alarms\res\resource.rc
+[New]
+Стварыць
+[Delete]
+Выдаліць
+[Edit]
+Змяніць
+[Alarms]
+Напамінкі
+[Use popup plugin]
+Усплывальныя вокны
+[Default snooze:]
+Паўза па змаўчанні:
+[minutes]
+хвілін(ы)
+[Row height:]
+Вышыня радка
+[Indent:]
+Водступ:
+[Reminder frame]
+Спіс напамінкаў
+[Auto hide/show]
+Аўтаўтойванне
+[Loop sound]
+Паўтараць гук
+[Period (hours):]
+Перыяд (гадзін):
+[Hide/show with clist]
+Схаваць/паказаць са спісам
+[Auto size vertically]
+Падганяць вышыню
+[Transparency (%):]
+Празрыстасць (%):
+[Alert window]
+Вакно напамінку
+[Round corners]
+Закругленыя куты
+[Don't steal focus unless idle]
+Калі не актыўны, не перахапляць фокус
+[Preview]
+Прагляд
+[Alarm]
+Напамінак
+[Cancel]
+Скасаваць
+[Title:]
+Загаловак:
+[Description:]
+Апісанне:
+[Actions]
+Дзеянні
+[Popup window]
+Усплывальнае вакно
+[Sound:]
+Гук:
+[Run command:]
+Выканаць каманду:
+[Parameters:]
+Параметры:
+[Alert 1]
+Гук 1
+[Alert 2]
+Гук 2
+[Alert 3]
+Гук 3
+[Speak]
+Гаворка
+[Occurrence]
+Падзея
+[Once]
+Адзін раз
+[Weekly]
+Тыдняў
+[Daily]
+Дзён
+[Weekdays]
+Па буднях
+[Monthly]
+Месяцаў
+[Yearly]
+Штогод
+[i'm hiding]
+хаваюся
+[Date and time]
+Дата і час
+[Disable next occurrence]
+Адключыць наступны напамінак
+[Don't trigger on startup]
+Не спрацоўваць пры загрузцы
+[No reminder]
+Не паказваць у спісе
+[Dismiss]
+Прыбраць
+[Snooze]
+Адкласці
+[Static]
+Статычны
+[&Suspend]
+&Адкласці
+[&Edit...]
+&Змяніць
+[&Delete]
+&Выдаліць
+[&Options...]
+&Налады
+[&New alarm...]
+&Новы напамінак...
+;file \plugins\Alarms\src\alarmlist.cpp
+;file \plugins\Alarms\src\alarms.cpp
+[Unknown command issued: "%s"]
+Выдадзена невядомая каманда: "%s"
+[Set alarm]
+Даць напамінак
+;file \plugins\Alarms\src\alarm_win.cpp
+[Example alarm]
+Прыклад напамінку
+[Some example text. Example, example, example.]
+Прыклад тэксту. Прыклад, прыклад, прыклад.
+[5 mins]
+5 хвілін
+[15 mins]
+15 хвілін
+[30 mins]
+30 хвілін
+[1 hour]
+1 гадзіна
+[1 day]
+1 дзень
+[1 week]
+1 тыдзень
+[Title]
+Загаловак
+[Background]
+Фон
+[Window]
+Акно
+;file \plugins\Alarms\src\frame.cpp
+[%dh %dm]
+%d гадз. %d хв.
+[%dm]
+%d хв.
+[Hide reminders]
+Схаваць напамінкі
+[Show reminders]
+Паказаць напамінкі
+[Frames]
+Фрэймы
+[Alarm reminders]
+Напамінкі
+;file \plugins\Alarms\src\icons.cpp
+[Menu: Set alarm]
+Меню: Даць напамінак
+[Reminder: Soon]
+Напамінак: хутка
+[Reminder: Very soon]
+Напамінак: вельмі хутка
+[Alarm: System tray]
+Трэй
+[Menu: Show/Hide reminders]
+Меню: Паказаць/Схаваць напамінкі
+;file \plugins\Alarms\src\options.cpp
+[Sunday]
+Нядзеля
+[Monday]
+Панядзелак
+[Tuesday]
+Аўторак
+[Wednesday]
+Серада
+[Thursday]
+Чацвер
+[Friday]
+Пятніца
+[Saturday]
+Субота
+[Please enter a title for this alarm.]
+Увядзіце імя напамінку.
+[Error]
+Памылка
+[The alarm time you have selected is in the past.]
+Абраны вамі час ужо мінуў.
+[Events]
+Падзеі

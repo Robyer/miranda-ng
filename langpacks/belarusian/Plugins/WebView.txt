@@ -1,0 +1,105 @@
+﻿#muuid {cd5427fb-5320-4f65-b4bf-86b7cf7b5087}
+;============================================================
+;  File: Webview.dll
+;  Plugin: Webview
+;  Version: 0.1.3.0
+;  Authors: Vincent Joyce
+;============================================================
+[Adds web pages as contacts to your contact list and can display text and/or issue change alerts from those pages in a window.]
+Дадае сайты ў спіс кантактаў і можа адлюстроўваць тэкст ці/або абвяшчае, калі ёсць змены на гэтых старонках.
+;file \plugins\WebView\res\webview.rc
+[Update data every]
+Абнавіць усе
+[minutes]
+хвілін(ы)
+[seconds]
+секунд(ы)
+[Disable main menu items]
+Адкл. пункты галоўнага меню
+[Background color:]
+Колер фону:
+[Text color:]
+Колер тэксту:
+[Bold]
+Тоўсты
+[Italic]
+Курсіў
+[Underline]
+Падкрэсленне
+[Error messages]
+Памылкі
+[Expert options]
+Дадатковыя налады
+[URL:]
+Спасылка:
+[Display]
+Паказваць
+[Start:]
+Пачатак:
+[End:]
+Канец:
+[Cancel]
+Скасаваць
+[Apply]
+Ужыць
+[Find]
+Знайсці
+[&Find next]
+&Наступны
+[Find what:]
+Знайсці:
+[Log to file]
+Запіс у файл
+[Append data to file]
+Дадаць змесціва ў файл
+[Delay]
+Затрымка
+[From Popup plugin]
+Па змаўчанні
+[Permanent]
+Пастаянна
+[Preview]
+Прагляд
+[Colors]
+Колеры
+[Use custom colors]
+Задаць колеры
+[Background]
+Фон
+[Text]
+Тэкст
+[Use Windows colors]
+Колеры Windows
+[Dismiss popup]
+Зачыніць вакно
+[Log]
+Лог
+[&Copy]
+&Капіяваць
+[C&ut]
+Выразаць
+[&Delete]
+&Выдаліць
+[&Paste]
+&Уставіць
+[Co&py all]
+Капіяваць усё
+;file \plugins\WebView\src\main.cpp
+;file \plugins\WebView\src\webview.cpp
+[Network]
+Сеціва
+[Popups]
+Усплывальныя вокны
+;file \plugins\WebView\src\webview_alerts.cpp
+;file \plugins\WebView\src\webview_datawnd.cpp
+;file \plugins\WebView\src\webview_getdata.cpp
+[Alert!]
+Увага!
+[Online]
+Далучаны
+;file \plugins\WebView\src\webview_opts.cpp
+[Popup plugin]
+Успл. вокны
+;file \plugins\WebView\src\webview_services.cpp
+[Please select site in Find/Add contacts...]
+Абярыце сайт у Знайсці...

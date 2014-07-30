@@ -1,0 +1,49 @@
+﻿#muuid {1acb2ed1-c1ed-43ee-89bd-086686f6ebb5}
+;============================================================
+;  File: StatusChange.dll
+;  Plugin: Status change
+;  Version: 1.3.0.0
+;  Authors: Angelo Luiz Tartari
+;============================================================
+[Change status when you send/receive an event.]
+Змінює статус, коли ви надсилаєте/отримуєте події.
+[Offline]
+Не в мережі
+[Online]
+В мережі
+[Away]
+Відсутній
+[NA]
+Недоступний
+[Occupied]
+Зайнятий
+[DND]
+Не турбувати
+[Free for chat]
+Готовий до чату
+[Invisible]
+Невидимий
+[On the phone]
+Телефоную
+[Out to lunch]
+Обідаю
+[On events...]
+На події...
+[Send]
+Відправка
+[Receive]
+Отримання
+[Message]
+Повідомлення
+[URL]
+Посилання
+[File transfer]
+Передача файлу
+[...change status to...]
+...змінити статус...
+[...if status is...]
+...якщо статус...
+[Status Change]
+Зміна статусу
+[Status]
+Статус

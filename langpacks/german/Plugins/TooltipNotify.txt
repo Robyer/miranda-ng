@@ -1,0 +1,95 @@
+﻿#muuid {5906a545-f31a-4726-b48f-03a09f060318}
+;============================================================
+;  File: TooltipNotify.dll
+;  Plugin: Tooltip notify
+;  Version: 0.7.0.1
+;  Authors: perf
+;============================================================
+[Shows a small tooltip above system tray area when a contact status is changed.]
+Zeigt einen kleinen Tooltip über dem Systemtray wenn ein Kontakt seinen Status ändert.
+;file \plugins\TooltipNotify\res\main.rc
+[Select protocols]
+Protokolle auswählen
+[Choose contacts]
+Kontakte auswählen
+[Allow tooltip notifications for the following users:]
+Tooltip-Benachrichtigungen für die folgenden Kontakte erlauben:
+[Cancel]
+Abbrechen
+[Notify upon the following events]
+Bei folgenden Ereignissen benachrichtigen
+[Online]
+Online
+[Offline]
+Offline
+[All other]
+Alles andere
+[Typing]
+Tippen
+[Protocols]
+Protokolle
+[Suppress notifications upon connection for]
+Unterdrücke Benachrichtigungen beim Verbinden für
+[sec]
+Sek.
+[Prefix protocol name]
+Proto-Namenspräfix
+[Duration]
+Dauer
+[Show tooltip for]
+Tooltip zeigen für
+[ms]
+ms
+[Duration x2 upon online event]
+Doppelte Dauer bei Onlinehinweis
+[Double click on tooltip]
+Doppelklick auf Tooltip
+[Shows/Hides contact list]
+Kontaktliste anzeigen/verbergen
+[Opens message dialog]
+Nachrichtenfenster öffnen
+[Behavior]
+Verhalten
+[Misc]
+Diverses
+[Obey 'Suppress online notification' settings]
+Erzwinge die Einhaltung des Unterdrückens von Online-Benachrichtigungen
+[Auto positioning]
+Autom. Positionieren
+[Transparent input]
+Transparente Eingabe
+[Preview]
+Vorschau
+[Translucency options]
+Transparenz-Einstellungen
+[Transparent tooltip]
+Transparenter Tooltip
+[Contacts]
+Kontakte
+[Idle]
+Untätigkeit
+;file \plugins\TooltipNotify\src\TooltipNotify.cpp
+[Tooltip Notify]
+Tooltip-Benachrichtigung
+[Other status]
+Andere Status
+[Tooltip Notify: Online]
+Tooltip Notify: Online
+[Tooltip Notify: Offline]
+Tooltip Notify: Offline
+[Tooltip Notify: Other]
+Tooltip Notify: Andere
+[Tooltip Notify: Typing]
+Tooltip Notify: Tippen
+[Popups]
+Popups
+[** New contacts **]
+** Neue Kontakte **
+[** Unknown contacts **]
+** Unbekannte Kontakte **
+[Not Idle]
+Nicht Untätig
+[Unknown]
+Unbekannt
+[is]
+ist

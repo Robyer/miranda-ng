@@ -1,0 +1,295 @@
+﻿#muuid {748f8934-781a-528d-5208-001265404ab3}
+;============================================================
+;  File: Tlen.dll
+;  Plugin: Tlen protocol
+;  Version: 2.1.0.0
+;  Authors: Santithorn Bunchua, Adam Strzelecki, Piotr Piastucki
+;============================================================
+[Tlen protocol support for Miranda NG.]
+Поддержка протокола Tlen в Miranda NG.
+[Username:]
+Пользователь:
+[Password:]
+Пароль:
+[Save password]
+Сохранить пароль
+[Create new account]
+Новая учётная запись
+[Options]
+Настройки
+[Automatically reconnect after unintentional disconnection]
+Переподключиться после неожиданного разрыва
+[Leave status message after disconnection]
+Оставить сообщение статуса после отключения
+[Ignore advertisements]
+Игнорировать рекламу
+[Automatically delete contacts not in my roster]
+Автоматически удалять контакты, которые не в списке
+[Show offline users with status messages as invisible in contact list]
+Показывать отключённых пользователей с сообщениями статуса как невидимых
+[Enable avatars]
+Включить аватары
+[Send and receive client version information]
+Отправлять и получать версии клиентов
+[Alert policy]
+Политика уведомления
+[Use Nudge plugin]
+Исп. Тряску
+[Log alerts as messages]
+Сохр. увед. как сооб.
+[Group chat policy]
+Политика чатов
+[Voice Chats]
+Голосовые чаты
+[Voice chat policy]
+Политика групповых чатов
+[Recording device:]
+Устройство записи:
+[Playback device:]
+Устройство воспр.:
+[Expert Options]
+Настройки Эксперта
+[Login server:]
+Сервер:
+[Connection Host:]
+Узел подключения:
+[Port:]
+Порт:
+[Keep connection alive]
+Поддерживать соединение
+[Enable encryption]
+Включить шифрование
+[Enable Always Visible and Never Visible]
+Вкл. Всегда видим и Всегда невидим
+[P2P Connections]
+P2P Подключения
+[Use proxy for incoming connections]
+Исп. прокси для входящих подключений
+[Proxy type:]
+Тип прокси:
+[Proxy server:]
+Прокси-сервер:
+[Proxy requires authorization]
+Прокси требует авторизации
+[Enable incoming mail notification]
+Вкл. уведомление о входящей почте
+[Colors]
+Цвета
+[Background]
+Фон
+[Text]
+Текст
+[Delay]
+Задержка
+[&From Popup plugin]
+&Установки Popup
+[&Custom]
+&Настроить
+[P&ermanent]
+Пос&тоянно
+[Preview]
+Тест
+[Tlen Password]
+Пароль Tlen
+[Cancel]
+Отмена
+[Nickname:]
+Псевдоним:
+[First name:]
+Имя:
+[Last name:]
+Фамилия:
+[E-mail:]
+Почта:
+[Gender:]
+Пол:
+[Year of birth:]
+Год рождения:
+[City:]
+Город:
+[School:]
+Школа:
+[Occupation:]
+Занятие:
+[Looking for:]
+Ищу:
+[Voice chats]
+Голосовые чаты
+[Save changes]
+Сохранить изменения
+[Avatar]
+Аватар
+[Avatar Options]
+Настройки аватара
+[Tlen login:]
+Вход Tlen:
+[Subscription:]
+Подписка:
+[Software:]
+Клиент:
+[Version:]
+Версия:
+[System:]
+Система:
+[Personal Information]
+Персональные данные
+[Age:]
+Возраст:
+[to]
+в
+[Extra Search Criteria]
+Доп. критерии поиска
+[Status:]
+Статус:
+[Plan:]
+План:
+[Tlen Voice Chat]
+Голосовой чат Tlen
+[Quality]
+Качество
+[In]
+Входящее
+[Out]
+Исходящее
+[Finish]
+Завершить
+[Tlen Voice Chat Invitation]
+Tlen приглашение голосового чата
+[&Accept]
+&Принять
+[From:]
+От:
+[The following invitation to join a voice chat is received.]
+Получено приглашение войти в голосовой чат.
+[Protocol icon]
+Значок протокола
+[Tlen inbox]
+Tlen входящие
+[Group chats]
+Чаты
+[Tlen chats]
+Чаты Tlen
+[Voice chat]
+Голосовой чат
+[Microphone]
+Микрофон
+[Speaker]
+Динамик
+[Send image]
+Отправить
+[Incoming mail]
+Входящая почта
+[Alert]
+Предупреждение
+[Multi-User Conference]
+Комната чата
+[Tlen Mail]
+Почта Tlen
+[Voice Chat]
+Голосовой чат
+[Request authorization]
+Запросить авторизацию
+[Grant authorization]
+Авторизовать
+[Cannot create avatars cache directory. ERROR: %d: %s\n%s]
+Не удаётся создать папку для кэшированных аватар. Ошибка: %d: %s\n%s
+[Cannot save new avatar file "%s" Error:\n\t%s (Error: %d)]
+Не удаётся сохранить аватар в файл "%s" Ошибка:\n\t%s (Ошибка: %d)
+[Error while setting avatar on Tlen account (no response)]
+Ошибка при установке аватара (нет ответа)
+[Error while setting avatar on Tlen account (invalid response)]
+Ошибка при установке аватара (неверный ответ)
+[Error while setting avatar on Tlen account]
+Ошибка при установке аватара.
+[1 File]
+1 файл
+[%d Files]
+%d файлов
+[Authentication failed for %s@%s.]
+Аутентификация не пройдена для %s@%s
+[Tlen Authentication]
+Аутентификация Tlen
+[General]
+Общее
+[Advanced]
+Дополнительно
+[Notifications]
+Уведомления
+[Network]
+Сеть
+[These changes will take effect the next time you connect to the Tlen network.]
+Изменения вступят в силу, после того как вы переподключитесь к сети Tlen.
+[Tlen Protocol Option]
+Настройки протокола Tlen
+[Accept all alerts]
+Принимать все уведомления
+[Ignore alerts from unauthorized contacts]
+Игнорировать уведомления от неавторизованных контактов
+[Ignore all alerts]
+Игнорировать все уведомления
+[Always ask me]
+Всегда спрашивать
+[Accept invitations from authorized contacts]
+Принимать приглашения от авторизированных контактов
+[Accept all invitations]
+Принимать все приглашения
+[Ignore invitations from unauthorized contacts]
+Игнорировать приглашения от неавторизованных контактов
+[Ignore all invitation]
+Игнорировать все приглашения
+[Accept all images]
+Принимать все изображения
+[Ignore images from unauthorized contacts]
+Игнорировать изображения от неавторизованных пользователей
+[Ignore all images]
+Игнорировать все изображения
+[<Last message>]
+(Последнее сообщение)
+[Forwarding]
+Перенаправление
+[Image sent file://%s]
+Отправлено изображение file://%s
+[Image received file://%s]
+Получено изображение file://%s
+[You need to be connected to Tlen account to set avatar.]
+Необходимо подключить учётную запись Tlen, прежде чем устанавливать аватар.
+[Enter password for %s]
+Введите пароль для %s
+[Tlen Connection Error]
+Ошибка подключения
+[%s Web Messages]
+%s Web сообщений
+[From]
+От
+[E-mail]
+Почта
+[An alert has been received.]
+Уведомление принято.
+[Private conference]
+Личная конференция
+[Subject]
+Тема
+[Account]
+Учётная запись
+[both]
+в обе стороны
+[from]
+из
+[none]
+нет
+[not on roster]
+не в ростере
+[...Connecting...]
+...Подключение...
+[...Waiting for connection...]
+...Ожидание соединения...
+[...Finished...]
+...Завершено...
+[...Error...]
+...Ошибка...
+[...Denied...]
+...Запрещено...
+[Default]
+По умолчанию
+[%s connection]
+%s подключение

@@ -1,0 +1,199 @@
+﻿#muuid {eebc474c-b0ad-470f-99a8-9dd9210ce233}
+;============================================================
+;  File: mRadio.dll
+;  Plugin: mRadio Mod
+;  Version: 0.0.2.4
+;  Authors: Awkward
+;============================================================
+[This plugin plays and records Internet radio streams. Also local media files can be played.]
+
+[mRadio Mod]
+
+[REC]
+
+[Cave]
+Jeskyně
+[Arena]
+Aréna
+[Genre]
+Žánr
+[Plain]
+Pláň
+[Alley]
+Alej
+[Dizzy]
+Trpící závratěmi
+[Generic]
+Obecný
+[Bathroom]
+Koupelna
+[Parking Lot]
+Parkovací místo
+[Stone Corridor]
+Kamenná chodba
+[Sewer Pipe]
+Odpadová roura
+[Auditorium]
+Posluchárna
+[Carpeted Hallway]
+Hala s koberci
+[Play from first]
+Hrát od první písničky
+[Shuffle playlist]
+Písničky v playlistu náhodně
+[Loop single media]
+Přehrávat samostatné média ve smyčce 
+[Station Name]
+Název stanice
+[Timeout, ms (5000)]
+Časový limit, ms (5000)
+[PreBuf, % (75%)]
+Naplnění paměti, % (75%)
+[Hallway]
+Hala
+[Mountains]
+Hory
+[Use EAX]
+Použít EAX
+[Under Water]
+Pod vodou
+[Station URL (required)]
+Adresa stanice (povinné)
+[To INI]
+Do INI
+[Buffer, ms (5000)]
+Vyrovnávací paměť, ms (5000)
+[Add station]
+Přidat stanici
+[Add Station]
+Přidat stanici
+[Bitrate]
+Datový tok
+[Stone Room]
+Kamenná místnost
+[Living Room]
+Obývací pokoj
+[Drugged]
+Zdrogovaný
+[Record path]
+Nahrávat do:
+[Padded Cell]
+Buňka s výplní
+[Autoconnect last station]
+Automaticky spustit poslední stanici
+[Concert Hall]
+Koncertní hala
+[Psychotic]
+Psychotický
+[Forrest]
+Les
+[To list]
+Do CL
+[Hangar]
+Hangár
+[Offline station as Offline]
+Vypnutá stanice jako offline (jinak neviditelná)
+[Protocol depending status]
+
+[Continuous record]
+Nepřetržité nahrávání
+[Quarry]
+Kamenolom
+[Sorry!]
+
+[BASS.DLL not found!]
+Nelze najít knihovnu BASS.DLL!
+[Station]
+Stanice
+[Custom INI file]
+Vlastní INI
+[Radio station URL]
+
+[Start record]
+Spustit nahrávání
+[Stop record]
+Ukončit nahrávání
+[Currently played URL]
+
+[Current stream title]
+
+[Station/playlist URL]
+
+[Currently used decoder]
+
+[connecting]
+připojování
+[aborting]
+rušení
+[Can't initialize device]
+
+[Can't connect to net. Please, clear 'Work offline' option in Internet settings]
+
+[Start broadcasting]
+
+[Stop broadcasting]
+
+[Start/Stop broadcasting]
+
+[Start/Stop Record]
+
+[Record]
+Nahrávat
+[Status message template]
+Šablona zprávy stavu
+[Equalizer presets]
+Předvolby ekvalizéru
+[Export All]
+Exportovat vše
+[Current status]
+
+[Broadcast ON]
+
+[Broadcast OFF]
+
+[Add EQ preset]
+
+[Delete EQ preset]
+
+[BASS library path (empty for default)]
+
+[Tries to connect]
+
+[Mute]
+Ztišit
+[mRadio volume control]
+
+[mRadio off]
+
+[mRadio on]
+
+[Import File]
+
+[Play Station]
+
+[Forced Mono]
+
+[Play/Pause]
+
+[Oops! BASS error]
+
+[Mute with Miranda]
+
+[Advanced]
+Extra
+[Stop]
+Zastavit
+[Play]
+Přehrát
+[Frame background]
+Barva pozadí rámečku
+[OFF]
+VYP
+[Volume]
+Hlasitost
+[Device list]
+
+[Equalizer]
+Ekvalizér
+[New]
+Nový

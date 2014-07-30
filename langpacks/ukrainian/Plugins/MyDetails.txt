@@ -1,0 +1,151 @@
+﻿#muuid {a82baeb3-a33c-4036-b837-7803a5b6c2ab}
+;============================================================
+;  File: MyDetails.dll
+;  Plugin: My details
+;  Version: 0.0.1.12
+;  Authors: Ricardo Pescuma Domenecci, Drugwash
+;============================================================
+[Shows and allows you to edit your details for all protocols.]
+Плагін дозволяє показувати і редагувати ваші деталі для всіх протоколів.
+[Set my nickname]
+Мій нік
+[Nickname:]
+Нік:
+[Cancel]
+Скасувати
+[General]
+Загальні
+[Align text to right]
+Вирівняти праворуч
+[Auto-resize frame]
+Вирівнювати фрейм
+[Use contact list smileys]
+Смайли у списку контактів
+[Replace smileys]
+Замінювати смайли
+[Resize smileys]
+Змінювати розмір смайлів
+[Global on...]
+Глобальний...
+[...avatar]
+аватар
+[...nickname]
+нік
+[...status]
+статус
+[...status message]
+повідомлення статусу
+[Account]
+Обліковий запис
+[Show account name]
+Показувати ім'я облікового запису
+[Show account cycle button]
+Кнопки зміни облікових записів
+[Cycle through accounts every:]
+Міняти облікові записи кожні:
+[seconds]
+секунд
+[Avatar]
+Аватар
+[Custom size:]
+Розмір аватара:
+[pixels]
+пікс.
+[Allow it to grow]
+Розтягнути аватар
+[Draw border]
+Малювати рамку
+[Round corners]
+Заокруглені кути
+[Custom corner size:]
+Розмір кута:
+[Use free space (under avatar) to other texts]
+Викор. вільне місце (під аватаром) для тексту
+[Frame options]
+Опції фрейму
+[Top:]
+Верх:
+[Bottom:]
+Низ:
+[Left:]
+Ліво:
+[Right:]
+Право:
+[Set my status message for all status]
+Статусне повідомлення для yсix статусів
+[Status message:]
+Повідомлення статусу:
+[&Offline]
+Не в &мережі
+[On&line]
+В м&ережі
+[&Away]
+&Відсутній
+[&NA]
+&Недоступний
+[Occ&upied]
+Зайн&ятий
+[&DND]
+&Не турбувати
+[&Free for chat]
+&Готовий до чату
+[&Invisible]
+&Невидимий
+[On the &phone]
+&Телефоную
+[Out to &lunch]
+&Обідаю
+[Set my avatar...]
+Змінити мій аватар...
+[Set my nickname...]
+Змінити мій нік...
+[Set my status message...]
+Змінити статусне повідомлення...
+[Enable listening to]
+Ввімкнути "Слухаю"
+[Show next account]
+Наступний обліковий запис
+[Show previous account]
+Попередній обліковий запис
+[Cycle through accounts]
+Міняти облікові записи
+[Don't cycle through accounts]
+Не міняти облікові записи
+[<no status name>]
+<немає імені статусу>
+[Nickname]
+Нік
+[Status]
+Статус
+[Status message]
+Статусне повідомлення
+[Listening to]
+Слухаю
+[My details]
+Мої деталі
+[Background]
+Фон
+[Avatar border]
+Рамка аватару
+[Show my details]
+Показати мої деталі
+[Enable listening to for %s]
+Ввімкнути "Слухаю" для %s
+[Set my avatar for %s...]
+Змінити мій аватар для %s...
+[Set my nickname for %s...]
+Змінити мій нік для %s...
+[Set my status message for %s...]
+Змінити статусне повідомлення для %s...
+[Hide my details]
+Сховати мої деталі
+[Previous account]
+Попередній обліковий запис
+[Next account]
+Наступний обліковий запис
+[Set my nickname for %s]
+Змінити мій нік для %s
+[Set my status message for %s]
+Встановити статус для %s
+[Contact list]
+Список контактів

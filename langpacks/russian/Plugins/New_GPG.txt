@@ -1,0 +1,205 @@
+﻿#muuid {4227c050-8d97-48d2-91ec-6a952b3dab94}
+;============================================================
+;  File: New_GPG.dll
+;  Plugin: GPG
+;  Version: 0.0.0.11
+;  Authors: sss
+;============================================================
+[New GPG encryption support plugin, based on code from old GPG plugin and SecureIM.]
+Плагин шифрования GPG, основанный на исходных кодах старого GPG плагина и SecureIM.
+[Load from file]
+Импорт из файла
+[Select existing]
+Выбрать существующий
+[Turn on encryption]
+Включить шифрование
+[Import key from keyserver]
+Импорт ключа с сервера ключей
+[Set own key]
+Выбор собственного ключа
+[Generate key]
+Сгенерировать
+[Select key to use]
+Выбрать ключ
+[Key password:]
+Пароль ключа:
+[Load other]
+Загрузить
+[Delete key]
+Удалить ключ
+[Generate and use random key]
+Сгенерировать и использовать ключ
+[Account:]
+Учётная запись:
+[Key ID:]
+ID ключа:
+[Copy public key]
+Копировать публич. ключ
+[Export private key]
+Экспорт приватного ключа
+[Change password]
+Изменить пароль
+[Set GPG bin path and keyring home dir.]
+Задайте путь к исполняемому файлу GnuPG и директории с ключами
+[Continue]
+Продолжить
+[Home directory:]
+Домашний каталог:
+[GnuPG binary:]
+Путь к exe:
+[Browse]
+Обзор
+[Turn on key autoexchange]
+Включить автообмен ключами
+[The new public key was received]
+Получен новый отрытый ключ.
+[Import key]
+Импорт ключа
+[Accept and enable encryption]
+Принять и включить шифрование
+[Ignore]
+Игнорировать
+[Static]
+Статический
+[Key Generation dialog]
+Создание приватного ключа
+[Cancel]
+Отмена
+[Key type:]
+Тип ключа:
+[Key length:]
+Длина ключа
+[Real name:]
+Имя/Ник:
+[Comment:]
+Комментарий:
+[Expire date:]
+Окончание действия ключа:
+[ex.: 2010-08-15]
+пример: 2010-08-15
+[From 1024 to 4096]
+от 1024 до 4096
+[It can take a long time, be patient]
+Это может занять несколько минут.
+[0 - does not expire]
+0 - никогда не заканчивается
+[Select existing public key from list]
+Выбрать открытый ключ из списка
+[Password:]
+Пароль:
+[Save password to database]
+Сохранить пароль в базу
+[Default password]
+Пароль по умолчанию
+[Import]
+Импортировать
+[Select keyserver for key search:]
+Выбрать сервер ключей для поиска:
+[Current password:]
+Текущий пароль:
+[User list:]
+Список пользователей:
+[Export PubKey]
+Сохранить ключ
+[Turn on debug log]
+Вкл. запись отладки
+[Use Jabber API on Miranda NG (recommended)]
+Использовать Jabber API Miranda NG (рекомендуется)
+[Encrypt file transfers]
+Шифрованная передача файлов
+[Automatic key exchange]
+Автообмен ключами
+[Copy own key]
+Копир. свой ключ
+[Select own key]
+Выбрать свой ключ
+[Add tags to encoded and decoded messages]
+Добавлять метки к сообщениям
+[Incoming message tags:]
+Добавлять метки к входящим сообщениям:
+[Outgoing message tags:]
+Добавлять метки исходящим сообщениям:
+[Open:]
+Началу
+[Close:]
+Концу
+[Strip all tags in outgoing messages]
+Удалять все метки из исходящих сообщений
+[GPG encryption status]
+Статус шифрования GPG
+[Export GPG Public keys]
+Экспортировать публичные GPG ключи
+[Import GPG Public keys]
+Импортировать публичные GPG ключи
+[Email]
+Почта
+[Name]
+Имя
+[Creation date]
+Дата создания
+[Key length]
+Длина ключа
+[Accounts]
+Учётные записи
+[Default]
+По умолчанию
+[key ID]
+Ключ
+[not set]
+Не установлено
+[Default private key ID]
+Основной приватный ключ
+[Failed to open file]
+Невозможно открыть файл
+[Error]
+Ошибка
+[Warning]
+Предупреждение
+[This is not GnuPG binary!\nIt is recommended to use GnuPG v1.x.x with this plugin.]
+Выбранный вами exe не GnuPG!\nРекомендуется использовать GnuPG v1.x.x с этим плагином.
+[Unsupported GnuPG version found, use at you own risk!\nIt is recommended to use GnuPG v1.x.x with this plugin.]
+Ваша версия GnuPG не поддерживается и может работать не правильно!\nРекомендуется использовать GnuPG v1.x.x с этим плагином.
+[Info]
+Инфо
+[Your GPG version is supported. The language file was found.\nGPG plugin should work fine.\nPress OK to continue.]
+Ваша версия GPG поддерживается. Языковые файлы найдены.\nGPG Должен работать нормально.\nНажмите ОК.
+[Please choose GPG binary location]
+Выберите директорию c GnuPG
+[Please set keyring's home directory]
+Выберите директорию с ключами GnuPG
+[There is existing key for contact, would you like to replace it with new key?]
+Получен ключ, но у контакта уже есть ключ. Вы хотите его заменить новым?
+[New public key was received, do you want to import it?]
+Получен новый отрытый ключ. Вы хотите его принять?
+[Replace]
+Заменить
+[Accept]
+Принять
+[Invalid Email]
+Неверный e-mail
+[You didn't set a private key.\nWould you like to set it now?]
+Вы не выбрали приватный ключ.\nВы хотите сделать это сейчас?
+[Own private key warning]
+Предупреждение! Не выбран приватный ключ.
+[Services]
+Службы
+[Main]
+Главный
+[GnuPG Variables]
+Пути к GPG
+[Messages]
+Сообщения
+[Advanced]
+Дополнительно
+[Contact]
+Контакт
+[Key ID]
+Ключ
+[Protocol]
+Протокол
+[info]
+Инфо
+[Do you want to remove key from entire metacontact (all subcontacts)?]
+Вы хотите убрать ключ для метаконтакта (всех субконтактов)?
+[LOG files]
+Файлы журнала

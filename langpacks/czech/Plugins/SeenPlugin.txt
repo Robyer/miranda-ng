@@ -1,0 +1,269 @@
+﻿#muuid {2d506d46-c94e-4ef8-8537-f11233a80381}
+;============================================================
+;  File: SeenPlugin.dll
+;  Plugin: Last seen
+;  Version: 5.0.4.9
+;  Authors: Heiko Schillinger, YB
+;============================================================
+[Logs when a user was last seen online and which users were online while you were away.]
+Zaznamenává kdy byl uživatel naposledy spatřen a kteří uživatelé se připojili během vaší nečinnosti.
+;file \plugins\SeenPlugin\res\resource.rc
+[Last seen options]
+Nastavení
+[Last seen menu item]
+Položky menu
+[Show icon]
+Zobrazit ikonu
+[User info tab]
+Záložka s informacemi o kontaktu
+[Log to file]
+Záznam do souboru
+[Log to history]
+Záznam do historie
+[Maximum size]
+Max. velikost
+[Variable list]
+Proměnné
+[Enable Idle support]
+Detekovat stav nečinnosti
+[Ignore contacts going offline]
+Ignorovat přechod do stavu offline
+[Enable 'Missed Ones' feature]
+Aktivovat funkci 'Zmeškané kontakty'
+[Count times]
+Zaznamenat počet
+[Accounts to watch:]
+Sledovat účty:
+[Use popups]
+Použít oznámení
+[Title]
+Název
+[Text]
+Text
+[Popup Colors]
+Barvy oznámení
+[Online]
+Online
+[Away]
+Na chvíli pryč
+[NA]
+Nejsem tady
+[Occupied]
+Nemám čas
+[DND]
+Nerušit!
+[On the phone]
+Mám telefon
+[Out to lunch]
+Jsem na obědě
+[Free for chat]
+Mám volno
+[Invisible]
+Neviditelný
+[Offline]
+Offline
+[Reset colors]
+Výchozí barvy
+[Last seen plugin]
+Sledování změny stavu
+[You missed following contacts:]
+Zmeškali jste tyto kontakty:
+[Alert when user status changes]
+Upozornit při změně stavu
+;file \plugins\SeenPlugin\src\history.cpp
+[last seen history]
+Historie změn stavu
+[View User's Details]
+Zobrazit osobní údaje
+[User Menu]
+Uživatelské menu
+[Send Instant Message]
+Odeslat zprávu
+[Date: %d.%m.%y(%Y) \n Date desc: %W - %w - %E - %e \n Time: %H:%M:%S (%h-%p) \n user: %n - %u \n Status: %s \n IP: %i - %r]
+Datum: %d.%m.%y(%Y) \n Popis data: %W - %w - %E - %e \n Čas: %H:%M:%S (%h-%p) \n Uživatel: %n - %u \n Stav: %s \n IP: %i - %r
+;file \plugins\SeenPlugin\src\main.cpp
+[LastSeen]
+Naposledy spatřen
+[User status change]
+Změna stavu uživatele
+[Changed to Online]
+Změna stavu na Online
+[User Logged Off]
+Uživatel se odhlásil
+[User Logged In]
+Uživatel se přihlásil
+;file \plugins\SeenPlugin\src\menu.cpp
+[<unknown>]
+<neznámý>
+[<none>]
+<žádný>
+;file \plugins\SeenPlugin\src\options.cpp
+[Last Seen Variables]
+Last Seen - seznam proměnných
+[Contacts]
+Kontakty
+[Last seen]
+Naposledy spatřen
+[Popups]
+Oznámení
+;file \plugins\SeenPlugin\src\seen.h
+[%n is %s (%u)]
+%n je %s (%u)
+[%i(%r)%bWas %o]
+%i (%r) %b byl %o
+[Name:%t%N%bStatus:%t%s%bDay:%t%d.%m.%Y%bTime:%t%H:%M:%S%bPrevious Status:%t%o%b%b%P ID:%t%u%bExternal IP:%t%i%bInternal IP:%t%r%bClient ID: %t%C%b%bStatus Message:%t%T]
+Jméno:%t%N%bStav:%t%s%bDen:%t%d.%m.%Y%bČas:%t%H:%M:%S%bPředchozí stav:%t%o%b%b%P ID:%t%u%bExterní IP:%t%i%bInterní IP:%t%r%bKlient ID: %t%C%b%bZpráva stavu:%t%T
+[-- Date --]
+-- Datum --
+[year (4 digits)]
+rok (4 číslice)
+[year (2 digits)]
+rok (2 číslice)
+[month]
+měsíc
+[name of month]
+název měsíce (celý)
+[short name of month]
+název měsíce (zkrácený)
+[day]
+den
+[weekday (full)]
+název dne (celý)
+[weekday (abbreviated)]
+název dne (zkrácený)
+[-- Time --]
+-- Čas --
+[hours (24)]
+hodiny (24)
+[hours (12)]
+hodiny (12)
+[AM/PM]
+dop./odp.
+[minutes]
+min.
+[seconds]
+sek.
+[-- User --]
+-- Uživatel --
+[username]
+uživatelské jméno
+[nick]
+přezdívka
+[UIN/handle]
+UIN (ident. číslo)
+[Group]
+Skupina
+[Status]
+Stavy
+[Status message]
+Zpráva stavu
+[Old status]
+původní stav
+[external IP]
+externí IP
+[internal IP]
+interní IP
+[Client info]
+klient
+[Protocol]
+Protokol
+[Account]
+Účet
+[-- Format --]
+-- Formátování --
+[tabulator]
+tabulátor
+[line break]
+další řádek
+[Note:]
+Pozn.:
+[Use]
+Použít
+[for empty string]
+pro prázdné řetězce
+[instead of]
+namísto
+;file \plugins\SeenPlugin\src\userinfo.cpp
+;file \plugins\SeenPlugin\src\utils.cpp
+[Sunday]
+neděle
+[Monday]
+pondělí
+[Tuesday]
+úterý
+[Wednesday]
+středa
+[Thursday]
+čtvrtek
+[Friday]
+pátek
+[Saturday]
+sobota
+[Sun.]
+ne
+[Mon.]
+po
+[Tue.]
+út
+[Wed.]
+st
+[Thu.]
+čt
+[Fri.]
+pá
+[Sat.]
+so
+[January]
+leden
+[February]
+únor
+[March]
+březen
+[April]
+duben
+[May]
+květen
+[June]
+červen
+[July]
+červenec
+[August]
+srpen
+[September]
+září
+[October]
+říjen
+[November]
+listopad
+[December]
+prosinec
+[Jan.]
+led
+[Feb.]
+úno
+[Mar.]
+bře
+[Apr.]
+dub
+[Jun.]
+čen
+[Jul.]
+čec
+[Aug.]
+srp
+[Sep.]
+zář
+[Oct.]
+říj
+[Nov.]
+lis
+[Dec.]
+pro
+[<never seen>]
+<nikdy nespatřen>
+[Idle]
+Nečinnost
+[Unknown]
+neznámý
+[Not Idle]
+Není nečinný

@@ -1,0 +1,209 @@
+﻿#muuid {798221e1-e47a-4dc8-9077-1e576f9c4307}
+;============================================================
+;  File: MirandaG15.dll
+;  Plugin: MirandaG15
+;  Version: 0.1.2.0
+;  Authors: Martin Kleinhans
+;============================================================
+[Provides an interface to use Miranda from the LCD of various Logitech devices.]
+Додає можливість використання Miranda NG на РК-екрані різних пристроїв Logitech.
+[Fonts]
+Шрифти
+[General settings]
+Загальне
+[Show softkey labels]
+Показувати підписи кнопок
+[Event log:]
+Журнал подій:
+[Sample]
+Приклад
+[Message log:]
+Журнал повідомлень
+[Contact list:]
+Список контактів:
+[Titles:]
+Заголовки:
+[Notifications:]
+Сповіщення:
+[Turn off backlights]
+Вимкнути підсвічування
+[If the applet is active:]
+Якщо аплет активний:
+[Use the VolumeWheel to scroll up and down (might affect system performance)]
+Використовувати колесо регулювання гучності для прокручування списків
+[Show seconds in timestamps]
+Показувати секунди
+[Use transition effects when changing screens]
+Використовувати ефекти при зміні екранів
+[About]
+Інформація
+[For updates and news check the thread on http://www.g15forums.com]
+Оновлення та новини шукайте в темі http://www.g15forums.com
+[Or visit http://www.mkleinhans.de]
+або відвідайте http://www.mkleinhans.de
+[Device:]
+Клавіатура:
+[If the screensaver is active:]
+Якщо активна заставка:
+[Lock the screen]
+Заблокувати екран
+[Skip driver missing notification]
+Пропускати сповіщення про відсутність драйвера
+[Notifications]
+Сповіщення
+[Notification screen title]
+Заголовок вікна сповіщення
+[Hide it]
+Без заголовку
+[Show the plugin name]
+Показувати ім'я плагіна
+[Show a short event summary]
+Короткий зміст події
+[Size of the log]
+Розмір журналу
+[Notification duration]
+Тривалість сповіщень
+[events]
+подій
+[seconds]
+секунд
+[Notification types]
+Типи сповіщень
+[Incoming messages]
+Вхідні повідомлення
+[Contact signs off]
+Контакт виходить з мережі
+[Contact changes status]
+Контакт змінює статус
+[Incoming URL]
+Вхідний URL
+[Contact list events]
+Події сп. контактів
+[Incoming file transfers]
+Прийом файлів
+[Protocol disconnected]
+Протокол відключений
+[Protocol connected]
+Протокол приєднано
+[Protocol status changes]
+Зміна статусу протоколу
+[Show only events from the following protocols:]
+Показувати події тільки наступних протоколів:
+[Contact signs on]
+Контакт входить в мережу
+[When a chat session is active, skip the following notifications for that contact:]
+Пропускати наступні сповіщення для контакта під час розмови з ним:
+[Chat session specific]
+Лише для сесії
+[Show timestamps]
+Показувати час
+[Messages]
+Повідомлення
+[User events]
+Події корист.
+[Emotes]
+Емоції
+[Status changes]
+Зміни статусів
+[Special IRC events:]
+Тільки для IRC
+[Notices]
+Сповіщення
+[Channel events]
+Події каналу
+[Cut off nicknames after]
+Обмежити імена до
+[chars]
+символів
+[Show protocol labels]
+Показувати протоколи
+[Don't skip when replying]
+Не пропускати при відповіді
+[Exceptions:]
+Винятки:
+[Cut off channel names after]
+Обмежити імена каналів до
+[Contact list]
+Список контактів
+[Show the contacts protocols]
+Показувати протоколи контактів
+[Hide offline users]
+Сховати відключених
+[Use ignore settings]
+Враховувати ігнорування контактів
+[Use groups/subgroups]
+Враховувати ігнорування груп
+[Grouped mode]
+Режим груп
+[Draw tree lines]
+Малювати лінії дерева
+[Show counters behind group names]
+Показувати лічильники після назв груп
+[Reset selection]
+Зняти виділення
+[When opening the contact list screen:]
+При відкритті екрану списку контактів:
+[Don't change group states]
+Не змінювати стан груп
+[Collapse all groups]
+Згорнути всі групи
+[Show only contacts from the following protocols:]
+Показувати лише контакти наступних протоколів:
+[Protocol filter]
+Фільтр протоколів
+[Expand all groups]
+Розгорнути всі групи
+[Use two columns]
+Використовувати дві колонки
+[Fade out selection rectangle]
+Поступово затемнювати виділення
+[Chat]
+Чат
+[Typing notifications]
+Повідомлення про набір тексту
+[Show typing notifications]
+Відображати
+[Send typing notifications]
+Надсилати
+[Maximizing]
+Повний екран
+[When maximized:]
+При макс. розмірі:
+[Hide title]
+Ховати заголовок
+[Hide labels]
+Ховати мітки
+[Show only new messages]
+Показувати тільки нові повідомлення
+[Mark incoming messages as read]
+Позначати вхідні як прочитані
+[Maximized scrolling]
+Прокрутка в режимі повного екрану
+[Size of the log:]
+Розмір журналу:
+[On incoming messages:]
+При вхідних повідомленнях:
+[Do nothing]
+Нічого не робити
+[Scroll to the first line]
+До першого рядка
+[Scroll to the last line]
+До останнього рядка
+[Replying]
+Відповідь
+[Show line break indicators]
+Показувати символи переносу рядка
+[Send messages with Enter, insert line breaks with Ctrl+Enter]
+Надсилати натисканням Enter, Ctrl+Enter - новий рядок
+[Maximized replying]
+Відповідь в режимі повного екрану
+[Close chat after]
+Закривати чат після
+[When in background]
+Коли у фоні
+[Appearance]
+Зовнішній вигляд
+[Chat sessions]
+Бесіди
+[No device attached]
+Не приєднано

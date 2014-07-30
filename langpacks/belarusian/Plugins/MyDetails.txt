@@ -1,0 +1,158 @@
+﻿#muuid {a82baeb3-a33c-4036-b837-7803a5b6c2ab}
+;============================================================
+;  File: MyDetails.dll
+;  Plugin: My details
+;  Version: 0.0.1.12
+;  Authors: Ricardo Pescuma Domenecci, Drugwash
+;============================================================
+[Shows and allows you to edit your details for all protocols.]
+Дазваляе паказваць і рэдагаваць вашы дэталі для ўсіх пратаколаў.
+;file \plugins\MyDetails\res\resource.rc
+[Set my nickname]
+Мая мянушка
+[Nickname:]
+Мянушка:
+[Cancel]
+Скасаваць
+[General]
+Агульнае
+[RTL]
+RTL
+[Align text to right]
+Выраўнаваць справа
+[Auto-resize frame]
+Выраўноўваць фрэйм
+[Use contact list smileys]
+Смайлікі спісу кантактаў
+[Replace smileys]
+Замяняць смайлы
+[Resize smileys]
+Змяняць памер смайлаў
+[Global on...]
+Глабальна для...
+[...avatar]
+...аватар
+[...nickname]
+...імя
+[...status]
+...статус
+[...status message]
+...паведамленне статуса
+[Account]
+Конт
+[Show account name]
+Імя конта
+[Show account cycle button]
+Кнопка змены контаў
+[Cycle through accounts every:]
+Змяняць конты кожныя:
+[seconds]
+секунд(ы)
+[Avatar]
+Аватар
+[Custom size:]
+Памер аватара:
+[pixels]
+пікс.
+[Allow it to grow]
+Расцягнуць аватар
+[Draw border]
+Паказваць рамку
+[Round corners]
+Закругленыя куты
+[Custom corner size:]
+Памер кута:
+[Use free space (under avatar) to other texts]
+Ужыв. вольнае месца (пад аватарамі) для тэксту
+[Frame options]
+Налады вакна
+[Top:]
+Верх:
+[Bottom:]
+Ніз:
+[Left:]
+Лева:
+[Right:]
+Права:
+[Set my status message for all status]
+Статуснае паведамленне для ўсіх статусаў
+[Status message:]
+Паведамленне статусу:
+[&Offline]
+Адключаны
+[On&line]
+У с&еціве
+[&Away]
+&Адсутнічаю
+[&NA]
+Недасяжны
+[Occ&upied]
+Зан&ят
+[&DND]
+&Не турбаваць
+[&Free for chat]
+&Свабодны
+[&Invisible]
+&Нябачны
+[On the &phone]
+Тэлефаную
+[Out to &lunch]
+Абедаю
+[Set my avatar...]
+Змяніць мой аватар...
+[Set my nickname...]
+Змяніць мянушку...
+[Set my status message...]
+Змяніць статуснае паведамленне...
+[Enable listening to]
+Уключыць Зараз слухаю
+[Show next account]
+Наступны конт
+[Show previous account]
+Папярэдні конт
+[Cycle through accounts]
+Змяняць конты
+[Don't cycle through accounts]
+Не змяняць конты
+;file \plugins\MyDetails\src\data.cpp
+[<no status name>]
+<няма імя статусу>
+;file \plugins\MyDetails\src\frame.cpp
+[Nickname]
+Мянушка
+[Status]
+Статус
+[Status message]
+Статуснае паведамленне
+[Listening to]
+Слухаю
+[My details]
+Мае дэталі
+[Background]
+Фон
+[Avatar border]
+Мяжа аватара
+[Show my details]
+Паказаць мае дэталі
+[Enable listening to for %s]
+Уключыць Зараз слухаю для %s
+[Set my avatar for %s...]
+Змяніць мой аватар для %s...
+[Set my nickname for %s...]
+Змяніць мянушку для %s...
+[Set my status message for %s...]
+Змяніць статуснае паведамленне для %s...
+[Hide my details]
+Схаваць мае дэталі
+;file \plugins\MyDetails\src\mydetails.cpp
+[Previous account]
+Папярэдні конт
+[Next account]
+Наступны конт
+[Set my nickname for %s]
+Змяніць мянушку для %s
+[Set my status message for %s]
+Усталяваць статус для %s
+[Contact list]
+Спіс кантактаў
+;file \plugins\MyDetails\src\options.cpp

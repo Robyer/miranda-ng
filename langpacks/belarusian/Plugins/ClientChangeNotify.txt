@@ -1,0 +1,93 @@
+﻿#muuid {b68a8906-748b-435d-930e-21cc6e8f3b3f}
+;============================================================
+;  File: ClientChangeNotify.dll
+;  Plugin: Client change notify
+;  Version: 0.1.1.3
+;  Authors: Deathdemon
+;============================================================
+[Shows a notification when someone in your contact list changes his client.]
+Папярэдзіць пра змену кліента ў Вашых кантактаў.
+;file \plugins\ClientChangeNotify\res\Resources.rc
+[ClientChangeNotify error]
+Памылка ClientChangeNotify
+[Fingerprint plugin not found.]
+Плагiн Fingerprint не знойдзены.
+[ClientChangeNotify requires it to work properly.]
+Ён неабходны для працы ClientChangeNotify.
+[Don't remind me anymore]
+Больш не нагадваць
+[Enable notification]
+Уключыць абвесткі
+[Show previous client name]
+Паказваць папярэдняе імя кліента
+[Notify also when just client version changes]
+Абвесціць, калі зменіцца версія кліента
+[Show client version]
+Паказаць версію кліента
+[Don't notify for contacts with disabled status notification]
+Не абвяшчаць для кантактаў з адключанай абвесткай статусу
+[Click action]
+Дзеянні па пстрычцы
+[On left click]
+Левая пстрычка
+[On right click]
+Правая пстрычка
+[Delay]
+Затрымка
+[Sec]
+сек.
+[0 = Default]
+0=Змаўчанне
+[-1 = Infinite]
+-1=Бясконца
+[Colors]
+Колеры
+[Background]
+Фон
+[Use default]
+Па змаўчанні
+[Text]
+Тэкст
+[Preview]
+Прагляд
+[Ignore these clients (separated by semicolons):]
+Ігнараваць гэтыя кліенты (праз кропку з коскі):
+[(you have to install pcre.dll or pcre3.dll to use regular expressions here)]
+(усталюеце pcre.dll ці pcre3.dll каб выкарыстоўваць тут рэгулярныя выразы)
+;file \plugins\ClientChangeNotify\src\ClientChangeNotify.cpp
+[changed client to %s (was %s)]
+змяніў кліент на %s (быў %s)
+[changed client to %s]
+змяніў кліент на %s
+[%s (was %s)]
+%s (быў %s)
+[Disable c&lient change notification]
+Выключыць абвесткі пра змену кліента
+[Enable c&lient change notification]
+Уключыць абвесткі пра змену кліента
+[Popups]
+Усплывальныя вокны
+[ClientChangeNotify: Client changed]
+Абвестка пра змену кліента: Кліент змяніўся
+;file \plugins\ClientChangeNotify\src\Misc.h
+[Error #%d]
+Памылка #%d
+[Can't open log file ]
+Немагчыма адкрыць файл лога\s
+;file \plugins\ClientChangeNotify\src\OptDlg.cpp
+[(you can use regular expressions here)]
+(Вы можаце выкарыстоўваць тут рэгулярныя выразы)
+[Open message window]
+Адкрыць вакно гутаркі
+[Close popup]
+Зачыніць вакно
+[Open contact details window]
+Адчыніць вакно дэталяў кантакту
+[Open contact menu]
+Адкрыць меню кантакту
+[Open contact history]
+Адкрыць гісторыю кантакту
+[Do nothing]
+Нічога не рабіць
+[ClientChangeNotify]
+Абвестка пра змену кліента

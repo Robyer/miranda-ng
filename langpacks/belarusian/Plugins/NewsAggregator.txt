@@ -1,0 +1,167 @@
+﻿#muuid {56cc3f29-ccbf-4546-a8ba-9856248a412a}
+;============================================================
+;  File: NewsAggregator.dll
+;  Plugin: News aggregator
+;  Version: 0.0.0.1
+;  Authors: Mataes, FREAK_THEMIGHTY
+;============================================================
+[RSS/Atom news aggregator.]
+Каналы навін RSS/Atom.
+;file \plugins\NewsAggregator\Res\Resource.rc
+[Add]
+Дадаць
+[Change]
+Змена
+[Remove]
+Выдаліць
+[Import]
+Імпартаваць
+[Export]
+Экспарт
+[Retrieve news at startup]
+Атрымліваць пры запуску
+[Cancel]
+Скасаваць
+[General Settings]
+Асноўныя налады
+[Title]
+Загаловак
+[URL]
+Спасылка
+[Check every]
+Прав. кожныя
+[minutes]
+хвілін(ы)
+[Check Feed]
+Праверка
+[Authentication]
+Аўтэнтыфікацыя
+[Use &authentication]
+Выкарыстоўваць аўтэнтыфікацыю
+[Login]
+Імя карыстача
+[Password]
+Пароль
+[Visualization]
+Адлюстраванне
+[Display news using the following format:]
+Адлюстроўваць навіны, выкарыстоўваючы фармат:
+[All item's tags are valid. Put them between #. Example: #<author>#]
+Усе тэгі навін сапраўдныя. Змесціце іх паміж #, напрыклад: #<author>#
+[Reset]
+Скід
+[0 - check manually]
+0 - правяраць уручную
+[Feed name]
+Назва ленты
+[This feed seems to need authentication. Please fill username and password fields:]
+Канал патрабуе аўтэнтыфікацыі. Увядзіце імя карыстача і пароль:
+[Username]
+Імя карыстача
+[Available feeds:]
+Існыя каналы:
+[Feeds to be exported:]
+Каналы для экспарту:
+[&Export]
+Экспарт
+[&Close]
+Зачыніць
+[Import from:]
+Імпарт з:
+[Feeds to be imported:]
+Каналы для імпарту:
+[&Import]
+Імпарт
+;file \plugins\NewsAggregator\Src\Authentication.cpp
+[Enter your username]
+Увядзіце імя карыстача
+[Error]
+Памылка
+[Enter your password]
+Увядзіце пароль
+;file \plugins\NewsAggregator\Src\CheckFeed.cpp
+[%s\nis a valid feed's address.]
+%s\n сапраўды існуе.
+[News Aggregator]
+Каналы навін
+[%s\nis not a valid feed's address.]
+%s\nняслушны адрас канала
+[empty]
+пуста
+;file \plugins\NewsAggregator\Src\ExportImport.cpp
+[Imported %d feed(s)\r\nNot imported %d duplicate(s).]
+Імпартавана каналаў: %d \r\nПрапушчана дублікатаў: %d
+[Imported %d feed(s).]
+Імпартавана каналаў: %d
+[OPML files]
+Файлы OPML
+[Not valid import file.]
+Наслушны файл імпарта
+;file \plugins\NewsAggregator\Src\Icons.cpp
+[Protocol icon]
+Абразок конту
+[Check All Feeds]
+Праверка ўсіх каналаў
+[Add Feed]
+Дадаць канал
+[Import Feeds]
+Імпарт каналаў
+[Export Feeds]
+Экспарт каналаў
+[Auto Update Enabled]
+Аўтаабнаўленне ўключана
+[Auto Update Disabled]
+Аўтаабнаўленне выключана
+;file \plugins\NewsAggregator\Src\Menus.cpp
+[Check feed]
+Праверыць канал
+[Change feed]
+Змяніць канал
+;file \plugins\NewsAggregator\Src\NewsAggregator.cpp
+;file \plugins\NewsAggregator\Src\Options.cpp
+[Enter Feed name]
+Увядзіце імя канала
+[Enter Feed URL]
+Увядзіце URL канала
+[Enter checking interval]
+Увядзіце затрыку праверкі
+[Enter message format]
+увядзіце фармат паведамлення
+[The title of the item.]
+Загаловак навіны.
+[The item synopsis.]
+Тэкст навіны.
+[The URL of the item.]
+URL навіны.
+[Email address of the author of the item.]
+E-mail аўтара навіны.
+[URL of a page for comments relating to the item.]
+URL старонкі з каментарыямі да навіны.
+[A string that uniquely identifies the item.]
+ID навіны.
+[Specify one or more categories that the item belongs to.]
+Катэгорыі навіны.
+[Feed Tag Help]
+Дапамога па тэгам
+[Are you sure?]
+Вы ўпэўнены?
+[Tags Mask Reset]
+Скід тэгаў
+[Wait...]
+Чакайце...
+[Change Feed]
+Змяніць канал
+[Contact deleting]
+Выдаленне кантакта
+[Network]
+Сеціва
+;file \plugins\NewsAggregator\Src\Services.cpp
+[Avatars]
+Аватары
+[Enable/disable auto update]
+Аднаўляць аўтаматычна
+;file \plugins\NewsAggregator\Src\Utils.cpp
+[NewsAggregator HTTP connection]
+HTTP далучэнне каналаў навін
+[Feed]
+Канал

@@ -1,0 +1,162 @@
+﻿#muuid {968def4a-bc60-4266-ac08-754ce721db5f}
+;============================================================
+;  File: PluginUpdater.dll
+;  Plugin: Plugin updater
+;  Version: 0.1.2.2
+;  Authors: Mataes, George Hazan
+;============================================================
+[Plugin updater for Miranda NG.]
+Абнаўленне Miranda NG.
+;file \plugins\PluginUpdater\res\Resource.rc
+[Updates found!]
+Знойдзены абнаўленні!
+[PluginUpdater has detected updated versions of some Miranda components. Click on Details button to view more information.]
+Былі знойдзены абноўленыя версіі плагінаў Miranda NG. Націсніце на кнопку "Дэталі" для падрабязнай інфармацыі.
+[Update]
+Абнавіць
+[Details >>]
+Дэталі >>
+[Cancel]
+Скасаваць
+[Select &all]
+Абраць усё
+[Select &none]
+Зняць выбар
+[Hotkey]
+Гарачая клавіша
+[Go to Customize -> Hotkeys to change the hotkey]
+Налада ў Тонкая налада -> Гарачыя клавішы
+[Plugin updates options]
+Налады абнаўленняў
+[On startup]
+Пры запуску
+[(but only once a day)]
+(але толькі 1 раз у дзень)
+[Every]
+Кожныя
+[Files source]
+Крыніца абнаўлення
+[Stable version]
+Стабільная версія
+[Development version (less stable)]
+Версія ў распрацоўцы (меней стабільная)
+[Development version with debug symbols]
+Версія ў распрацоўцы з сімваламі адладкі
+[Custom version]
+Зададзеная версія
+[Notifications]
+Абвесткі
+[Errors]
+Памылкі
+[Info messages]
+Інфа паведамленні
+[Back]
+Фон
+[Text]
+Тэкст
+[Colors]
+Колеры
+[Use cus&tom colors]
+Наладзіць колеры
+[Use &Windows colors]
+Колеры Windows
+[Use Pop&up colors]
+Колеры Pop&up
+[Preview]
+Прагляд
+[Click action]
+Дзеянні па пстрычцы
+[On left click]
+Левая пстрычка
+[On right click]
+Правая пстрычка
+[Timeout]
+Затрымка
+[0 = Default]
+0=Змаўчанне
+[-1 = Infinite]
+-1=Бясконца
+[Sec]
+сек.
+[Boxes]
+Вокны
+[Popups]
+Усплывальныя вокны
+[Component list]
+Спіс кампанентаў
+[Here is the complete list of missing Miranda NG components. Check components that you want to download.\n\nClick on info icon to view component info page.]
+Вось поўны спіс даступных кампанентаў Міранды.Адзначце кампаненты, якія вы хочаце загрузіць.\n\nНацісьніце на абразок інфармацыі, каб праглядзець старонку інфармацыі пра кампанент.
+[Download]
+Запампаваць
+;file \plugins\PluginUpdater\src\DlgListNew.cpp
+[Downloading...]
+Загрузка...
+[Succeeded.]
+Завершана.
+[Failed!]
+Памылка!
+[Skipped.]
+Прапушчана.
+[Plugin Updater]
+Абнаўленне плагінаў
+[Download complete]
+Загрузка скончана
+[Download complete. Do you want to go to plugins option page?]
+Загрузка завершана. Адчыніць старонку налад?
+[Component Name]
+Імя кампанента
+[State]
+Стан
+[Plugins]
+Плагіны
+[Icons]
+Абразкі
+[Languages]
+Мовы
+[Other]
+Іншае
+[List is empty.]
+Спіс пусты
+[List loading already started!]
+Пачалася загрузка спісу!
+;file \plugins\PluginUpdater\src\DlgUpdate.cpp
+[Will be deleted!]
+Выдалена!
+[Update complete. Press Yes to restart Miranda now or No to postpone a restart until the exit.]
+Абнаўленне скончана. Націсніце "Так" для перазагрузкі праграмы ці "Не", каб зрабіць гэта пазней.
+[<< Details]
+<< Дэталі
+[Update failed! One of the components wasn't downloaded correctly. Try it again later.]
+Не атрымалася выканаць абнаўленне! Адзін з кампанентаў быў запампаваны з памылкай. Паспрабуйце паўтарыць пазней.
+[No updates found.]
+Абнаўленняў няма.
+[Update checking already started!]
+Абнаўленне ўжо запушчана!
+;file \plugins\PluginUpdater\src\Events.cpp
+;file \plugins\PluginUpdater\src\Notifications.cpp
+;file \plugins\PluginUpdater\src\Notifications.h
+;file \plugins\PluginUpdater\src\Options.cpp
+[hours]
+гадзін(ы)
+[days]
+дзён
+[Test]
+Прагляд
+[Services]
+Службы
+;file \plugins\PluginUpdater\src\PluginUpdater.cpp
+[Check for updates]
+Праверыць абнаўленні
+[Available components list]
+Увесь спіс плагінаў
+;file \plugins\PluginUpdater\src\Utils.cpp
+[Plugin info]
+Пра плагін
+[Plugin list]
+Спіс плагінаў
+[Plugin Updater HTTP connection]
+HTTP падлучэнне Plugin Updater
+[Checking new updates...]
+Праверка абнаўленняў...
+[An error occurred while checking new updates.]
+Пры праверцы абнаўленняў адбылася памылка.

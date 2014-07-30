@@ -1,0 +1,106 @@
+﻿#muuid {b1902a52-9114-4d7e-ac2e-b3a52e01d574}
+;============================================================
+;  File: MenuEx.dll
+;  Plugin: Menu item ext
+;  Version: 1.3.0.10
+;  Authors: Heiko Schillinger, Baloo, Billy_Bons, Robert Pösel
+;============================================================
+[Adds some useful options to a contacts menu.]
+Дадае дадатковыя пункты меню кантактаў.
+;file \plugins\MenuItemEx\res\resource.rc
+[Enter an authorization request]
+Тэкст запыту аўтарызацыі
+[&Send]
+&Адправіць
+[&Cancel]
+С&касаваць
+[Shown menu items]
+Паказаны пункты меню
+[Visibility]
+Бачнасць
+[Show alpha icons]
+Альфа-значкі
+[Hide from list]
+Схаваць са спісу
+[Ignore]
+Ігнараваць
+[Copy to Account (Ctrl+click for move to Account)]
+Капіяваць у конт (Ctrl+клік - перасоўванне)
+[Send 'You were added']
+Адправіць "Вас дадалі"
+[Request Authorization]
+Запытаць аўтарызацыю
+[Browse Received Files]
+Прынятыя файлы
+[Copy IP]
+Капіяваць IP
+[Copy MirVer]
+Капіяваць ID кліента
+[Copy Status Message]
+Капіяваць статус
+[Add item name]
+Дадаць імя элемента
+[Copy ID]
+Капіяваць ID
+[Add protocol name]
+Дадаць пратакол
+[Show ID in menu item]
+Паказаць ID у кантэкстным меню
+[Trim too long ID]
+Абразаць доўгі ID
+[* Use Ctrl+click to see popup with the copied text]
+* Выкарыстоўвайце Ctrl+клік для паказу ўсплывальнага вакна са скапіяваным тэкстам
+[Hide contact on 'Ignore all']
+Хаваць пры 'Ignore all'
+;file \plugins\MenuItemEx\src\main.cpp
+[Status message]
+Паведамленне статусу
+[XStatus title]
+Загаловак хстатуса
+[XStatus message]
+Паведамленне xСтатуса
+[Listening to]
+Слухаю
+[Activity title]
+Актыўная назва
+[Activity text]
+Актыўны тэкст
+[Show in list]
+Паказваць у спісе
+[Always visible]
+Заўсёды бачны
+[Never visible]
+Заўсёды нябачны
+[Copy to Account]
+Капіяваць ва ўліковы запіс
+[Copy xStatus Message]
+Капіяваць паведамленне Хстатусу
+[All]
+Усё
+[Messages]
+Паведамленні
+[URL]
+Спасылка
+[Files]
+Файлы
+[User Online]
+Кантакт далучаны
+[Authorization]
+Аўтарызацыя
+[You Were Added]
+Вас дадалі
+[Typing Notify]
+Набірае тэкст
+[Please authorize me to add you to my contact list.]
+Дазволіце, калі ласка, дадаць Вас у спіс.
+[Do you want to send authorization request\nto new contact?]
+Ці жадаеце вы паслаць запыт аўтарызацыі\nноваму кантакту?
+[MenuItemEx]
+Дадатковае меню
+[Open ignore settings]
+Адкрыць налады ігнаравання
+[Request authorization]
+Запытаць аўтарызацыю
+;file \plugins\MenuItemEx\src\options.cpp
+[Customize]
+Тонкая налада

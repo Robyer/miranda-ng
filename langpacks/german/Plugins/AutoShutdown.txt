@@ -1,0 +1,192 @@
+﻿#muuid {9de24579-5c5c-49aa-80e8-4d38e4344e63}
+;============================================================
+;  File: AutoShutdown.dll
+;  Plugin: Auto shutdown
+;  Version: 1.4.0.2
+;  Authors: H. Herkenrath
+;============================================================
+[Adds the possibility to shutdown the computer when a specified event occurs.]
+Dieses Plugin ermöglicht es, den Computer beim Eintreten festgelegter Ereignisse herunterzufahren.
+;file \plugins\AutoShutdown\res\resource.rc
+[Shutdown]
+Herunterfahren
+[&Show confirmation dialog before shutdown]
+&Bestätigungsfenster vor dem Herunterfahren anzeigen
+[&Countdown starts at:]
+Countdown beginnt bei:
+[seconds]
+Sekunden
+[Shutdown Events]
+Ereignisse beim Herunterfahren
+[&Activate automatic shutdown with the same settings again if Miranda NG was closed with automatic shutdown enabled]
+&Automatisches Beenden mit den gleichen Einstellungen erneut aktivieren, wenn Miranda NG beendet wurde, während dieser aktiviert war
+[&Ignore hidden or temporary contacts when watching for all contacts being offline]
+&Ignoriere versteckte und temporäre Kontakte bei der Beobachtung, ob alle Kontakte offline sind
+[Critical Shutdown Events]
+Kritische Ereignisse
+[Automatically shutdown the computer and turn the power off when one of the following occurs:]
+Automatisch bei einem der folgenden Ereignisse herunterfahren und ausschalten:
+[&Thunderstorm warning is issued (Weather)]
+&Gewitterwarnung ist aktiv (Wetterplugin)
+[Automatic Shutdown]
+Automatisch beenden
+[Select the automatic shutdown event]
+Ein Ereignis zum automatischen Beenden wählen
+[Shutdown at &specific time]
+Beenden zur festgelegten &Zeit
+[Shutdown a&t:]
+Durchführen u&m:
+[Shutdown i&n:]
+Durchführen i&n:
+[Shutdown when a &message is received containing the following text:]
+Beenden, wenn eine &Nachricht eingeht, die den folgenden Text enthält:
+[Shutdown when Miranda NG becomes &idle]
+Beenden, wenn Miranda NG untätig w&ird
+[Configure]
+Einstellungen
+[Shutdown when &processor usage drops below:]
+Herunterfahren bei &Prozessorauslastung unter:
+[(current: 0%)]
+(aktuell: 0%)
+[Shutdown when all contacts are &offline]
+Beenden, wenn alle Kontakte &offline sind
+[Shutdown when all &file transfers are finished]
+Beenden, wenn alle &Dateiübertragungen abgeschlossen sind
+[&Action:]
+&Vorgang:
+[Cancel]
+Abbrechen
+[Unsaved data in open applications except Miranda NG might get lost.]
+Ungespeicherte Daten in geöffneten Anwendungen außer Miranda NG könnten verloren gehen.
+[Please click "Cancel" if you would like to abort the process.]
+Bitte auf "Abbrechen" klicken, wenn der Vorgang nicht durchgefuhrt werden soll.
+[&Now!]
+&Sofort!
+;file \plugins\AutoShutdown\src\frame.cpp
+[Shutdown at:]
+Beenden um:
+[Time left:]
+Verbleibende Zeit:
+[Paused]
+Pause
+[&Unpause Countdown]
+Countdown &fortsetzen
+[&Pause Countdown]
+Countdown &pausieren
+[&Cancel Countdown]
+Countdown &abbrechen
+[AutoShutdown]
+Automatisches Beenden
+[Countdown on Frame]
+Countdown in Frame
+[Background]
+Hintergrund
+[Progress Bar]
+Fortschrittsanzeige
+;file \plugins\AutoShutdown\src\main.cpp
+[Header]
+Kopfzeile
+[Active]
+Aktiv
+[Inactive]
+Inaktiv
+;file \plugins\AutoShutdown\src\options.cpp
+[Events]
+Ereignisse
+;file \plugins\AutoShutdown\src\settingsdlg.cpp
+[Second(s)]
+Sekunden(n)
+[Minute(s)]
+Minute(n)
+[Hour(s)]
+Stunde(n)
+[Day(s)]
+Tage(n)
+[Week(s)]
+Woche(n)
+[Month(s)]
+Monat(en)
+[(current: %u%%)]
+(aktuell: %u%%)
+[Start/Stop automatic shutdown]
+Automatisches Beenden (de-)aktivieren
+[Start automatic shutdown]
+Automatisches Beenden aktivieren
+[Stop automatic shutdown]
+Automatisches Beenden deaktivieren
+[Stop automatic &shutdown]
+Automatisches &Beenden abbrechen
+[Automatic &shutdown...]
+Automatisches &Beenden...
+;file \plugins\AutoShutdown\src\shutdownsvc.cpp
+[Miranda NG is going to be automatically closed in %u second(s).]
+Miranda NG wird in %u Sekunde(n) automatisch geschlossen.
+[All Miranda NG protocols are going to be set to offline in %u second(s).]
+Alle Protokolle in Miranda NG werden in %u Sekunde(n) offline gesetzt.
+[You will be logged off automatically in %u second(s).]
+Sie werden in %u Sekunde(n) automatisch ausgeloggt.
+[The computer will automatically be restarted in %u second(s).]
+Dieser Computer wird in %u Sekunde(n) automatisch neu gestartet.
+[The computer will automatically be set to standby mode in %u second(s).]
+Dieser Computer wird in %u Sekunde(n) automatisch in den Standby-Modus gesetzt.
+[The computer will automatically be set to hibernate mode in %u second(s).]
+Dieser Computer wird in %u Sekunde(n) automatisch in den Energiesparmodus gesetzt.
+[The workstation will automatically get locked in %u second(s).]
+Diese Arbeitsstation wird in %u Sekunde(n) automatisch gesperrt.
+[All dialup connections will be closed in %u second(s).]
+Alle Einwahlverbindungen werden in %u Sekunde(n) automatisch geschlossen.
+[The computer will automatically be shut down in %u second(s).]
+Dieser Computer wird in %u Sekunde(n) automatisch heruntergefahren.
+[Automatic Shutdown Error]
+AutoBeenden-Fehler
+[The shutdown process failed!\nReason: %s]
+Herunterfahren fehlgeschlagen!\nGrund: %s
+[Unknown]
+Unbekannt
+[Inititiating the shutdown process failed!\nReason: %s]
+Einleitung des Herunterfahrens fehlgeschlagen!\nGrund: %s
+[Close Miranda NG]
+Miranda NG schließen
+[Set Miranda NG offline]
+Miranda NG offline schalten
+[Log off user]
+Benutzer abmelden
+[Restart computer]
+Computer neu starten
+[Shutdown computer]
+Computer herunterfahren
+[Standby mode]
+Standbymodus
+[Hibernate mode]
+Ruhezustand
+[Lock workstation]
+Arbeitsstation sperren
+[Hang up dialup connections]
+DFÜ-Verbindungen trennen
+[Sets all Miranda NG protocols to offline and closes Miranda NG.]
+Setzt alle Netzwerkprotokolle auf "Offline" und beendet Miranda NG.
+[Sets all Miranda NG protocols to offline.]
+Setzt alle Protokolle von Miranda NG auf offline.
+[Logs the current Windows user off so that another user can log in.]
+Meldet den aktuellen Benutzer von Windows ab, so dass sich ein anderer Benutzer anmelden kann.
+[Shuts down Windows and then restarts Windows.]
+Beendet die Windowssitzung und Windows und startet dann Windows erneut.
+[Closes all running programs and shuts down Windows to a point at which it is safe to turn off the power.]
+Beendet die Windowssitzung und fährt den Computer herunter. Der Computer wird ausgeschaltet.
+[Saves the current Windows session in memory and sets the system to suspend mode.]
+Behält die Windowssitzung bei, speichert die Daten im Arbeitsspeicher und schaltet den Computer in den Energiesparmodus.
+[Saves the current Windows session on hard drive, so that the power can be turned off.]
+Speichert die Windowssitzung auf der Festplatte, so dass der Computer ausgeschaltet werden kann.
+[Locks the computer. To unlock the computer, you must log in.]
+Sperrt den Computer. Um den Computer wieder zu entsperren müssen Sie sich erneut anmelden.
+[Sets all protocols to offline and closes all RAS connections.]
+Setzt alle Protokolle auf "offline" und trennt alle aktiven DFÜ-Netzwerkverbindungen.
+[Alerts]
+Hinweise
+[Automatic Shutdown Countdown]
+AutoBeenden-Countdown
+;file \plugins\AutoShutdown\src\utils.cpp
+[Toggle Automatic Shutdown]
+Automatisches Beenden ein-/ausschalten
+[Main]
+Allgemein

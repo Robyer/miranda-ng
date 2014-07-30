@@ -1,0 +1,65 @@
+﻿#muuid {fc718bc7-abc8-43cd-aad9-761614617738}
+;============================================================
+;  File: wbOSD.dll
+;  Plugin: WannaBe OSD
+;  Version: 0.2.1.0
+;  Authors: Andrej Krutak
+;============================================================
+[Shows new message/status change info using on-screen display.]
+Показ нових повідомлень, змін статусу за допомогою OSD.
+[General]
+Загальне
+[Align]
+Вирівнювання
+[Select font]
+Вибір шрифту
+[Shadow]
+Тінь
+[Show drop shadow]
+Малювати тінь
+[Shadow align]
+Вирівнювання
+[Shadow color]
+Колір тіні
+[Alternative shadow]
+Альтернативна тінь
+[Shadow distance:]
+Зсув тіні:
+[Other]
+Інше
+[Background color]
+Колір фону
+[Transparent]
+Прозорість
+[Alpha:]
+Альфа:
+[Timeout (ms):]
+Тайм-аут (мс):
+[Show testing OSD]
+Тест
+[Announce]
+Сповіщати про
+[Status changes]
+Зміни статусу
+[Show my status changes]
+Показувати зміни мого статусу
+[Text color]
+Колір тексту
+[Show events]
+Показати події
+[Format:]
+Формат:
+[Show message window after click]
+Вікно повідомлень за натисканням
+[Show when my status is:]
+Показувати, коли мій статус:
+[%s is %s]
+%s - %s
+[Variables:\n  %n : Nick\n  %m : Message\n  %l : New line]
+Змінні:\n  %n : Нік\n  %m : Повідомлення\n  %l : Новий рядок
+[Help]
+Довідка
+[Miranda NG is great and this is a long message.]
+Miranda NG чудова, а це - приклад довгого повідомлення.
+[Plugins]
+Плагіни

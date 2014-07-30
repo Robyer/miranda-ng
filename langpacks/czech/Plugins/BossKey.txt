@@ -1,0 +1,78 @@
+﻿#muuid {4fac353d-0a36-44a4-9064-6759c53ae782}
+;============================================================
+;  File: BossKey.dll
+;  Plugin: BossKey+
+;  Version: 0.5.0.3
+;  Authors: Goblineye Entertainment, Billy_Bons
+;============================================================
+[Anti-Boss plugin. Makes your Miranda NG hidden or password-protected.]
+Anti-šéf doplněk. Umožní skrýt nebo chránit heslem vaši Mirandu NG.
+;file \plugins\BossKeyPlus\res\BossKey.rc
+[BossKey]
+BossKey
+[Go to Customize -> Hotkeys to change the hotkey]
+Zkratky změníte v sekci Vlastní úpravy -> Klávesové zkratky
+[When I press the hotkey:]
+Po stisku vybrané klávesy:
+[Change status to]
+Změnit stav na
+[Change only if current status is Online]
+Změnit pouze když je stávající stav online
+[Use default status message]
+Použít výchozí stavovou zprávu
+[Disable Sounds]
+Zakázat zvuky
+[Show the Tray Icon]
+Zobrazit ikonu v oznamovací oblasti
+[When I return:]
+Po návratu:
+[Request password:]
+Vyžadovat heslo:
+[Change status back]
+Vrátit původní stav
+[Hotkey]
+Klávesy
+[Password:]
+Heslo:
+[Cancel]
+Zrušit
+[Workstation is locked]
+Pracovní stanice je uzamčena
+[Screen Saver is running]
+Běžící spořič obrazovky
+[Windows is inactive]
+Windows je neaktivní
+[Hide Miranda when:]
+Skrýt Mirandu při:
+[Miranda is inactive]
+Miranda je neaktivní
+[min]
+minut
+[Miranda is started]
+Spuštění Mirandy
+[Others]
+Ostatní
+[Create a main menu item]
+Přidat položku do hlavní nabídky
+[Restore hiding on startup after failure]
+Obnovit skrývání při startu po chybě
+;file \plugins\BossKeyPlus\src\BossKey.cpp
+[Miranda NG is locked.\nEnter password to unlock it.]
+Miranda NG je uzamčena.\nZadejte heslo pro její odemčení.
+[Password is not correct!\nPlease, enter correct password.]
+Heslo není správné!\nZadejte prosím správné heslo.
+[Hide Miranda NG]
+Skrýt Mirandu
+[Hide]
+Skrýt
+[Hide/Show Miranda]
+Skrýt/zobrazit Mirandu
+[get the BossKey name]
+získat Bosskey jméno
+;file \plugins\BossKeyPlus\src\Options.cpp
+[Events]
+Události
+[Main]
+Hlavní
+[Advanced]
+Extra

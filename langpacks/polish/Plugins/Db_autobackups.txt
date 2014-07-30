@@ -1,0 +1,99 @@
+﻿#muuid {81c220a6-0226-4ad6-bfca-217b17a16053}
+;============================================================
+;  File: Db_autobackups.dll
+;  Plugin: Db autobackuper
+;  Version: 0.0.0.10
+;  Authors: chaos.persei, sje, Kildor, Billy_Bons
+;============================================================
+[Database autobackuper plugin.]
+Wtyczka do automatycznego tworzenia kopii zapasowej profilu.
+;file \plugins\Db_autobackups\res\db_autobackups.rc
+[Backup progress]
+Tworzenie kopii zapasowej profilu...
+[Cancel]
+Anuluj
+[Automatic backups]
+Kopie zapasowe
+[Backup NOW]
+Utwórz kopię
+[Disabled]
+Wyłączone
+[When Miranda starts]
+Twórz podczas uruchamiania Mirandy
+[When Miranda exits]
+Twórz podczas wyłączania Mirandy
+[Every:]
+Twórz co:
+[Number of backups to keep:]
+Liczba trzymanych kopii zapasowych:
+[Backup to folder:]
+Zapisuj kopię do folderu:
+[Browse...]
+Przeglądaj...
+[Go to the "Customize -> Folders" to change settings]
+Idź do Personalizacja -> Foldery aby zmienić ustawienia
+[Compress backup to zip-archive]
+Kompresuj kopię do archiwum zip
+[Disable progress bar]
+Wyłącz okienko ze wskaźnikiem postępu kopiowania
+[Disable popups]
+Wyłącz popupy
+;file \plugins\Db_autobackups\src\backup.cpp
+[Miranda NG database]
+Baza danych Mirandy NG
+[Created by:]
+Utworzona przez:
+[Miranda NG databases]
+Bazy danych Mirandy NG
+[Compressed Miranda NG databases]
+Skompresowane bazy danych Miranda NG
+[All files]
+Wszystkie pliki
+[Backup in progress]
+Tworzenie kopii zapasowej...
+[Copying database file...]
+Kopiowanie pliku profilu...
+[Database backed up]
+Kopia zapasowa utworzona
+;file \plugins\Db_autobackups\src\main.cpp
+[Backup profile]
+Kopia zapasowa profilu
+[Save profile as...]
+Zapisz profil w...
+[Database backups]
+Kopia zapasowa
+[Backup folder]
+Folder kopii zapasowych
+[Database]
+Profil
+;file \plugins\Db_autobackups\src\options.cpp
+[path to Miranda root folder]
+folder docelowy Mirandy
+[path to current Miranda profile]
+folder docelowy bieżącego profilu Mirandy
+[name of current Miranda profile (filename, without extension)]
+nazwa aktualnego profilu Mirandy (nazwa pliku bez rozszerzenia)
+[will return parsed string %miranda_profile%\\Profiles\\%miranda_profilename%]
+powróci analizowany ciąg %miranda_profile%\\Profiles\\%miranda_profilename%
+[same as environment variable %APPDATA% for currently logged-on Windows user]
+takie samo zmienne środowisko %APPDATA% dla aktualnie zalogowanego użytkownika Windows
+[username for currently logged-on Windows user]
+nazwa obecnie zalogowanego użytkownika Windows
+["My Documents" folder for currently logged-on Windows user]
+folder "Moje dokumenty" aktualnie zalogowanego użytkownika Windows
+["Desktop" folder for currently logged-on Windows user]
+folder "Pulpit" aktualnie zalogowanego użytkownika Windows
+[any environment variable defined in current Windows session (like %systemroot%, %allusersprofile%, etc.)]
+dowolna zmienna środowiskowa zdefiniowana w obecnej sesji Windows (jak %systemroot%, %allusersprofile% itp.)
+[Variables]
+Zmienne
+[days]
+dni
+[hours]
+godzin
+[minutes]
+minuty
+[Select backup folder]
+Wybierz folder kopii zapasowej
+[Error creating backup folder]
+Błąd tworzenia folderu kopii bezpieczeństwa

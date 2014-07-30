@@ -1,0 +1,99 @@
+﻿#muuid {f62c1d7a-ffa4-4065-a251-4c9dd9101cc8}
+;============================================================
+;  File: CrashDumper.dll
+;  Plugin: Crash dumper
+;  Version: 0.0.4.22
+;  Authors: borkra
+;============================================================
+[Crash Dumper for Miranda NG.]
+Плагин создания отчётов об ошибках в случае аварийного завершения работы программы. Поддержка www.miranda-vi.org.
+[View Version Information]
+Информация о версиях
+[Close]
+Закрыть
+[Copy To Clipboard]
+Копировать в буфер
+[To File]
+В файл
+[Support for miranda-vi.org]
+Поддержка miranda-vi.org
+[Username]
+Имя пользователя
+[Password]
+Пароль
+[Upload automatically when changed]
+Загружать автоматически при изменениях
+[General]
+Общее
+[Use classic dates]
+Классический формат времени и даты
+[Create reports in subfolders naming as current date]
+Сохранять отчеты в папки, названные по дате
+[View]
+Вид
+[&Copy]
+&Копировать
+[Co&py All]
+Ко&пировать всё
+[Select &All]
+Выделить &всё
+[VersionInfo stored into file %s]
+Версии сохранены в файле %s
+[VersionInfo file %s is inaccessible]
+Файл %s недоступен
+[Services]
+Службы
+[Version Information To Clipboard]
+Версии в буфер обмена
+[Version Information To File]
+Версии в файл
+[Show Version Information]
+Показать версии
+[Upload Version Information]
+Загрузить версии
+[Crash Reports]
+Отчёты об ошибках
+[Version Information]
+Версии
+[Copy to clipboard]
+Копировать в буфер обмена
+[Store to file]
+Сохранить в файл
+[Show]
+Показать
+[Show with DLLs]
+С библиотеками
+[Upload]
+Загрузить
+[Open crash report directory]
+Папка сохранения отчётов
+[Open miranda-vi.org]
+Открыть miranda-vi.org
+[Copy Version Info to clipboard]
+Копировать версии в буфер обмена
+[Show Version Info]
+Показать версии
+[Crash Dumper]
+Отчёт об ошибках
+[Crash Report write location is not available]
+Путь для записи отчёта об ошибке недоступен
+[Miranda crashed. Crash report stored in the folder:\n %s\n\n Would you like store it in the clipboard as well?]
+Miranda NG была завершена аварийно. Отчёт сохранен в \n %s\n\n Хотите ли вы сохранить его в буфер обмена?
+[View Version Information (with DLLs)]
+Информация о версиях (с библиотеками)
+[VersionInfo upload successful,\n %d old plugins]
+Версии успешно загружены,\n%d старых плагинов
+[Cannot upload VersionInfo. Incorrect username or password]
+Нельзя загрузить информацию о версиях. Неправильное имя пользователя или пароль
+[Cannot upload VersionInfo. User is banned]
+Нельзя загрузить информацию о версиях. Пользователь забанен
+[Cannot upload VersionInfo. Daily upload limit exceeded]
+Нельзя загрузить информацию о версиях. Дневной лимит загрузок исчерпан
+[Cannot upload VersionInfo. Unknown error]
+Нельзя загрузить информацию о версиях. Неизвестная ошибка
+[Cannot upload VersionInfo. Host unreachable.]
+Нельзя загрузить информацию о версиях. Хост недоступен
+[Crash Dumper HTTP connections]
+HTTP подключение Crash Dumper
+[More then one crash reporting plugin installed. This will result in inability of creating crash reports]
+Установлено более одного плагина отчётов об ошибках. Это ведет к невозможности создания отчётов

@@ -1,0 +1,103 @@
+﻿#muuid {e47cc215-0d28-462d-a0f6-3ae4443d2926}
+;============================================================
+;  File: Nudge.dll
+;  Plugin: Nudge
+;  Version: 0.1.0.1
+;  Authors: Tweety/GouZ, FREAK_THEMIGHTY
+;============================================================
+[Plugin to shake the contact list and chat window.]
+Плагин тряски списка контактов и окна сообщений.
+[Protocol options]
+Настройки протокола
+[Specify options for each protocol]
+Индивидуальные настройки протоколов
+[Open contact list]
+Открыть список контактов
+[Enable contact list shaking]
+Трясти список контактов
+[Open message window]
+Открыть окно беседы
+[Enable message window shaking]
+Трясти окно сообщений
+[Show as status change]
+Показывать как смену статуса
+[Auto resend nudge after]
+Повторять тряску каждые
+[s]
+с
+[Enable popup notification]
+Включить всплывающие окна
+[Respect ignore settings (status changes)]
+Учесть настройки игнора (смены статусов)
+[Sending text]
+Текст отправки
+[Receiving text]
+Текст приема
+[Privacy]
+Приватность
+[Allow sending* one nudge to the same contact every:]
+Отправка тряски одному и тому же контакту каждые:
+[Allow receiving one nudge from the same contact every:]
+Прием тряски от одного контакта каждые:
+[* Nudge sending delay is hardcoded and cannot be changed.]
+* Это число нельзя изменять, оно забито в коде плагина.
+[Preview]
+Тест
+[Text]
+Текст
+[Allow nudges when you're:]
+Разрешать тряску когда вы:
+[Offline]
+Не в сети
+[Online]
+В сети
+[Away]
+Отсутствую
+[NA]
+Недоступен
+[Occupied]
+Занят
+[DND]
+Не беспокоить
+[Free for chat]
+Готов болтать
+[Invisible]
+Невидимый
+[On the phone]
+На телефоне
+[Out to lunch]
+Обедаю
+[Shaking contact list options]
+Настройки тряски списка контактов
+[Number of moves]
+Кол-во движений
+[Width of move]
+Ширина движений
+[Static]
+Статический
+[Shaking Message Window Options]
+Тряска окна сообщений
+[You are not allowed to send too much nudge (only 1 each %d sec, %d sec left)]
+Нельзя отправлять много встрясок (только 1 каждые %d сек, %d сек осталось)
+[Nudge]
+Тряска
+[Default Nudge]
+Встряска по-умолчанию
+[Nudge as Default]
+Встряхнуть (по умолчанию)
+[Send Nudge]
+Встряхнуть
+[Show Nudge]
+Тряска
+[Nudge for %s]
+Встряска для %s
+[Send &Nudge]
+&Встряхнуть
+[You received a nudge]
+Вас встряхнули
+[You sent a nudge]
+Вы встряхнули
+[Events]
+События
+[Window Shaking]
+Тряска окна

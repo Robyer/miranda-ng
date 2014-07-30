@@ -1,0 +1,197 @@
+﻿#muuid {119d7288-2050-448d-9900-d86ac70426bf}
+;============================================================
+;  File: KeyboardNotify.dll
+;  Plugin: Keyboard notify ext.
+;  Version: 1.5.7.7
+;  Authors: TioDuke
+;============================================================
+[Flashes your keyboard LEDs when a message has arrived.]
+Добавляет мигание светодиодов клавиатуры при прибывших сообщениях.
+[Accounts to check]
+Проверять учётные записи
+[Events to react on]
+События
+[Incoming messages]
+Входящие сообщения
+[Incoming files]
+Входящие файлы
+[Incoming URLs]
+Входящие URL
+[Everything else]
+Все другие
+[Message-Event only]
+Только для сообщений
+[Blink if message window is open]
+Мигать, если диал. окно открыто
+[and not in foreground]
+и не помещено на передний план
+[Only if last is]
+Если посл.
+[sec. old]
+сек. назад
+[Flash until]
+Мигать до:
+[seconds]
+секунд
+[is re-attended]
+обращения
+[Events are opened]
+События будут открыты
+[End of 'notify when' conditions]
+Окончание "уведомлять когда"
+[Notify when]
+Уведомлять, когда
+[Full Screen mode]
+Полноэкранный режим
+[Screen Saver is running]
+Запущена заставка
+[Workstation is locked]
+Компьютер заблокирован
+[Defined programs are running]
+Запущена указ. программа
+[All other situations]
+Все другие ситуации
+[Only notify if status is]
+Показывать, если статус
+[Online]
+В сети
+[Away]
+Отсутствую
+[Occupied]
+Занят
+[NA]
+Недоступен
+[DND]
+Не беспокоить
+[Free for chat]
+Готов болтать
+[Invisible]
+Невидимый
+[On the phone]
+На телефоне
+[Out to lunch]
+Обедаю
+[Pending Events]
+Ожидающиеся события
+[Remind me every]
+Напом. каждые
+[minutes]
+минут(ы)
+[Offline]
+Не в сети
+[xStatuses]
+хСтатусы
+[Keys to flash]
+Чем моргать
+[Flashing effects]
+Мигать
+[All at the same time]
+Всё одновременно
+[In turn]
+По очереди
+[In sequence]
+По порядку
+[Custom theme]
+Своя тема
+[Accordingly to events' count]
+По количеству событий
+[Wait before starting flashing]
+Пауза перед началом мигания
+[Flash speed]
+Скорость вспышек
+[Fast]
+Быстро
+[Slow]
+Медленно
+[&Preview]
+&Тест
+[Emulate key presses (Use this option if you are using a USB keyboard)]
+Эмулировать нажатия клавиш (Только для USB-клавиатур)
+[Create/Edit Themes]
+Создать/Редактировать тему
+[Theme]
+Тема
+[Test]
+Тест
+[Add]
+Добавить
+[Update]
+Обновить
+[Delete]
+Удалить
+[Import/Export]
+Импорт/Экспорт
+[Export...]
+Экспорт...
+[Import...]
+Импорт...
+[Override existing]
+Заменить сущ.
+[Set program list]
+Список программ
+[Program]
+Программа
+[Cancel]
+Отмена
+[Set LEDs for events]
+Установить по событию
+[Message events]
+Сообщения
+[File events]
+Файлы
+[URL events]
+Ссылки (URL)
+[Other events]
+Другие события
+[Consider event opened after]
+Действовать через
+[Use custom theme]
+Исп. свою тему
+[The following events are being ignored:]
+Следующие события будут проигнорированы:
+[Ignore messages]
+Сообщения
+[Ignore URLs]
+Адреса (URL)
+[Ignore files]
+Передачи файлов
+[Ignore others]
+Остальные события
+[Ignore all]
+Игнорировать все
+[Ignore none]
+Никакие события
+[Ignore]
+Игнорировать
+[Set xStatus list]
+Список хСтатусов
+[** All contacts **]
+** Все контакты **
+[** Unknown contacts **]
+** Неизвестные контакты **
+[left->right]
+лево->право
+[right->left]
+право->лево
+[left<->right]
+лево<->право
+[Keyboard Flash]
+Мигание клавиатуры
+[Events]
+События
+[Accounts]
+Учётные записи
+[Rules]
+Правила
+[Flashing]
+Мигание
+[Themes]
+Темы
+[Protocol]
+Протокол
+[Keyboard Notify Theme]
+Тема уведомления
+[All Files]
+Все файлы
+[None]
+Нет

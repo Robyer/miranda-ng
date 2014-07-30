@@ -1,0 +1,21 @@
+﻿#muuid {692e87d0-6c71-4cdc-9e36-2b2d69fbdc4c}
+;============================================================
+;  File: Watrack_MPD.dll
+;  Plugin: Watrack MPD
+;  Version: 0.0.0.4
+;  Authors: sss
+;============================================================
+[Music Player Daemon support for Watrack.]
+Підтримка Music Player Daemon для плагіна Watrack.
+[MPD Host]
+MPD хост:
+[Port]
+Порт:
+[Password]
+Пароль:
+[Watrack MPD connection]
+З'єднання Watrack MPD
+[Winamp Track]
+Зараз грає (WATrack)
+[Plugins]
+Плагіни
