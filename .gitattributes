@@ -3832,6 +3832,7 @@ protocols/Tox/lib/x64/libtox-x64.lib svn_mime_002dtype=application%2Foctet-strea
 protocols/Tox/lib/x86/libtox.exp svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/lib/x86/libtox.lib svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/res/resource.rc svn_mime_002dtype=application%2Foctet-stream
+protocols/Tox/res/tox.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/src/resource.h svn_mime_002dtype=application%2Foctet-stream
 protocols/Twitter/proto_twitter/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Twitter/proto_twitter/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
