@@ -3924,7 +3924,6 @@ src/icons/proto_metacontacts/res/Occupied.ico svn_mime_002dtype=application%2Foc
 src/icons/proto_metacontacts/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 src/icons/proto_metacontacts/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
 src/icons/proto_metacontacts/res/Phone.ico svn_mime_002dtype=application%2Foctet-stream
-src/icons/proto_metacontacts/res/Proto_MetaContacts.rc svn_mime_002dtype=application%2Foctet-stream
 src/icons/proto_metacontacts/src/resource.h svn_mime_002dtype=application%2Foctet-stream
 src/res/Icon_exit.ico svn_mime_002dtype=application%2Foctet-stream
 src/res/Icon_show_hide.ico svn_mime_002dtype=application%2Foctet-stream
