@@ -3833,7 +3833,6 @@ protocols/WhatsApp/proto_whatsapp/res/Away.ico svn_mime_002dtype=application%2Fo
 protocols/WhatsApp/proto_whatsapp/res/Invisible.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/proto_whatsapp/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/proto_whatsapp/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
-protocols/WhatsApp/res/WART-1.7.0.0.exe svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/res/WART-1.7.1.0.exe svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/res/add-group.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/res/add-user-to-group.ico svn_mime_002dtype=application%2Foctet-stream
