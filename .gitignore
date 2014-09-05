@@ -9,10 +9,10 @@ langpacks/polish/Deprecated/Langpack_bratkrzy.txt
 langpacks/polish/Deprecated/Langpack_polish.txt
 langpacks/polish/Deprecated/old
 langpacks/polish/Langpack_polish.txt
+plugins/!Deprecated/Skype/*.user
+plugins/!Deprecated/Skype/keypacker/*.sdf
+plugins/!Deprecated/Skype/keypacker/*.suo
+plugins/!Deprecated/Skype/keypacker/*.user
+plugins/!Deprecated/Skype/res/*.aps
 plugins/SendScreenshotPlus/_services
 plugins/SendScreenshotPlus/res/icons
-protocols/Skype/*.user
-protocols/Skype/keypacker/*.sdf
-protocols/Skype/keypacker/*.suo
-protocols/Skype/keypacker/*.user
-protocols/Skype/res/*.aps
