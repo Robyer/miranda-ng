@@ -3824,7 +3824,6 @@ protocols/Tlen/res/speaker.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tlen/res/tlen.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tlen/res/tlenchats.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tlen/res/voicechat.ico svn_mime_002dtype=application%2Foctet-stream
-protocols/Tox/res/resource.aps svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/res/tox.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/src/resource.h svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/tox/deflibcreator/as.exe svn_mime_002dtype=application%2Foctet-stream
