@@ -3850,6 +3850,7 @@ protocols/VKontakte/proto_vkontakte/res/Offline.ico svn_mime_002dtype=applicatio
 protocols/VKontakte/proto_vkontakte/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/add.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/ban.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/VKontakte/res/broadcast.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/delete.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/history.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/home.ico svn_mime_002dtype=application%2Foctet-stream
