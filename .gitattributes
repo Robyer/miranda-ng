@@ -3775,6 +3775,7 @@ protocols/Omegle/proto_omegle/res/proto_online.ico svn_mime_002dtype=application
 protocols/Omegle/res/omegle.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Sametime/proto_sametime/res/Away.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Sametime/proto_sametime/res/DND.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/Sametime/proto_sametime/res/Occupied.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Sametime/proto_sametime/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Sametime/proto_sametime/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Sametime/res/announce.ico svn_mime_002dtype=application%2Foctet-stream
