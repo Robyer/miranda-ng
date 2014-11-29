@@ -934,6 +934,7 @@ plugins/Console/res/started.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/ContactsPlus/res/SendContacts.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/CountryFlags/res/flags.bmp svn_mime_002dtype=application%2Foctet-stream
 plugins/CountryFlags/res/ip-to-country.bin svn_mime_002dtype=application%2Foctet-stream
+plugins/CrashDumper/res/Vi[!!-~]link[!!-~]to[!!-~]clipboard.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/CrashDumper/res/Vi[!!-~]show.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/CrashDumper/res/Vi[!!-~]to[!!-~]clipboard.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/CrashDumper/res/Vi[!!-~]to[!!-~]file.ico svn_mime_002dtype=application%2Foctet-stream
