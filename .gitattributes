@@ -1011,7 +1011,6 @@ plugins/FingerprintNG/iconpacks/res/AIM/naim.ico svn_mime_002dtype=application%2
 plugins/FingerprintNG/iconpacks/res/Facebook/facebook.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Facebook/facebook_app.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Facebook/facebook_messenger.ico svn_mime_002dtype=application%2Foctet-stream
-plugins/FingerprintNG/iconpacks/res/Facebook/facebook_mobile.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Facebook/facebook_other.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/GG/Gadu-Gadu.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/GG/overlay_GG_v10.ico svn_mime_002dtype=application%2Foctet-stream
@@ -1466,6 +1465,7 @@ plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_flash.ico svn_mime
 plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_iMac.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_iOS.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_linux.ico svn_mime_002dtype=application%2Foctet-stream
+plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_mobile.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_website.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_x32.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/FingerprintNG/iconpacks/res/Overlays/overlay_platform_x64.ico svn_mime_002dtype=application%2Foctet-stream
