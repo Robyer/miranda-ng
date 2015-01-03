@@ -715,7 +715,6 @@ plugins/!NotAdopted/WinPopup/res/overlay/outtolunch.ico svn_mime_002dtype=applic
 plugins/!NotAdopted/WinPopup/res/winpopup_proto.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/!NotAdopted/mDynDNS/dyndns.bmp svn_mime_002dtype=application%2Foctet-stream
 plugins/!NotAdopted/mDynDNS/dyndns.ico svn_mime_002dtype=application%2Foctet-stream
-plugins/AVS/res/avatar.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/Actman/ask.res svn_mime_002dtype=application%2Foctet-stream
 plugins/Actman/dlgshare.res svn_mime_002dtype=application%2Foctet-stream
 plugins/Actman/hooks.res svn_mime_002dtype=application%2Foctet-stream
