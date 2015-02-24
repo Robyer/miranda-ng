@@ -3835,7 +3835,6 @@ protocols/Tlen/res/voicechat.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/bin/x64/libtox.dll svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/bin/x86/libtox.dll svn_mime_002dtype=application%2Foctet-stream
 protocols/Tox/res/Icons/tox.ico svn_mime_002dtype=application%2Foctet-stream
-protocols/Tox/src/resource.h svn_mime_002dtype=application%2Foctet-stream
 protocols/Twitter/proto_twitter/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Twitter/proto_twitter/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Twitter/res/twitter.ico svn_mime_002dtype=application%2Foctet-stream
