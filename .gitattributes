@@ -17,7 +17,6 @@ langpacks/tool/cs-CZ/LangpackSuite.resources.dll svn_mime_002dtype=application%2
 langpacks/tool/de-DE/LangpackSuite.resources.dll svn_mime_002dtype=application%2Foctet-stream
 langpacks/tool/ru-RU/LangpackSuite.resources.dll svn_mime_002dtype=application%2Foctet-stream
 langpacks/tool/uk-UA/LangpackSuite.resources.dll svn_mime_002dtype=application%2Foctet-stream
-/plugins svn_global_002dignores
 plugins/!Deprecated/Actman20/hooks/hooks.res svn_mime_002dtype=application%2Foctet-stream
 plugins/!Deprecated/Actman20/ico/advance.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/!Deprecated/Actman20/ico/apply.ico svn_mime_002dtype=application%2Foctet-stream

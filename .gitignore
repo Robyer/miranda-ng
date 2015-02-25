@@ -14,9 +14,5 @@ plugins/!Deprecated/Skype/keypacker/*.sdf
 plugins/!Deprecated/Skype/keypacker/*.suo
 plugins/!Deprecated/Skype/keypacker/*.user
 plugins/!Deprecated/Skype/res/*.aps
-plugins/KeyboardNotify_buildintabs
-plugins/NewXstatusNotify_mod
-plugins/PluginUpdater_mod
 plugins/SendScreenshotPlus/_services
 plugins/SendScreenshotPlus/res/icons
-plugins/YAPP_mod
