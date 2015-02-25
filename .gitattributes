@@ -3852,6 +3852,7 @@ protocols/VKontakte/res/key.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/notify.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/read.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/report.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/VKontakte/res/status.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/proto_whatsapp/res/Away.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/proto_whatsapp/res/Invisible.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/WhatsApp/proto_whatsapp/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
