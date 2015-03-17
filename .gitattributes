@@ -3812,6 +3812,7 @@ protocols/SkypeClassic/res/phone.ico svn_mime_002dtype=application%2Foctet-strea
 protocols/SkypeClassic/res/resume.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeClassic/res/skype.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeClassic/res/skypeout.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/SkypeWeb/res/Icons/skype.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/Away.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/DND.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/Lunch.ico svn_mime_002dtype=application%2Foctet-stream
