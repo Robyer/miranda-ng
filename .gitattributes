@@ -3816,7 +3816,6 @@ protocols/Steam/proto_steam/res/DND.ico svn_mime_002dtype=application%2Foctet-st
 protocols/Steam/proto_steam/res/Lunch.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
-protocols/Steam/proto_steam/res/Out2Lunch.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/res/steam.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tlen/proto_tlen/res/Away.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tlen/proto_tlen/res/DND.ico svn_mime_002dtype=application%2Foctet-stream
