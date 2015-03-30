@@ -1711,6 +1711,7 @@ plugins/HistorySweeperLight/res/act1.ico svn_mime_002dtype=application%2Foctet-s
 plugins/HistorySweeperLight/res/act2.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/HistorySweeperLight/res/actDel.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/HistorySweeperLight/res/actG.ico svn_mime_002dtype=application%2Foctet-stream
+plugins/HwHotKeys/src/HwHotKeys_resource.h svn_mime_002dtype=application%2Foctet-stream
 plugins/IEView/docs/ieview/action.gif svn_mime_002dtype=application%2Foctet-stream
 plugins/IEView/docs/ieview/addstatus.gif svn_mime_002dtype=application%2Foctet-stream
 plugins/IEView/docs/ieview/file.gif svn_mime_002dtype=application%2Foctet-stream
