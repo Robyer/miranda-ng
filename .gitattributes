@@ -10,6 +10,7 @@ bin12/lib/mir_core.lib svn_mime_002dtype=application%2Foctet-stream
 bin12/lib/mir_core64.lib svn_mime_002dtype=application%2Foctet-stream
 bin12/rebaser.exe svn_mime_002dtype=application%2Foctet-stream
 langpacks/LangPackMgr.exe svn_mime_002dtype=application%2Foctet-stream
+langpacks/bulgarian svn_global_002dignores=Untranslated%0A
 langpacks/tool/HtmlAgilityPack.dll svn_mime_002dtype=application%2Foctet-stream
 langpacks/tool/LangpackSuite.exe svn_mime_002dtype=application%2Foctet-stream
 langpacks/tool/be-BY/LangpackSuite.resources.dll svn_mime_002dtype=application%2Foctet-stream
