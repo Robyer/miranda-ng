@@ -3824,6 +3824,7 @@ protocols/SkypeWeb/proto_skype/res/Invisible.ico svn_mime_002dtype=application%2
 protocols/SkypeWeb/proto_skype/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/proto_skype/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/proto_skype/res/Phone.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/SkypeWeb/res/Icons/conference.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/res/Icons/skype.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/Away.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/DND.ico svn_mime_002dtype=application%2Foctet-stream
