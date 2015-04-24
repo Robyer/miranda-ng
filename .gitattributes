@@ -3128,6 +3128,7 @@ protocols/SkypeWeb/proto_skype/res/Online.ico svn_mime_002dtype=application%2Foc
 protocols/SkypeWeb/proto_skype/res/Phone.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/res/Icons/conference.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/res/Icons/skype.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/SkypeWeb/res/Icons/sync_history.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/Away.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/DND.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Steam/proto_steam/res/Lunch.ico svn_mime_002dtype=application%2Foctet-stream
