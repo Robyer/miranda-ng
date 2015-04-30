@@ -3126,6 +3126,7 @@ protocols/SkypeWeb/proto_skype/res/Invisible.ico svn_mime_002dtype=application%2
 protocols/SkypeWeb/proto_skype/res/Offline.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/proto_skype/res/Online.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/proto_skype/res/Phone.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/SkypeWeb/res/Icons/call.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/res/Icons/conference.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/res/Icons/skype.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/SkypeWeb/res/Icons/sync_history.ico svn_mime_002dtype=application%2Foctet-stream
