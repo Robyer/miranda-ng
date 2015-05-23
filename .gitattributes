@@ -287,6 +287,7 @@ plugins/Dropbox/proto_dropbox/res/Online.ico svn_mime_002dtype=application%2Foct
 plugins/Dropbox/proto_dropbox/res/Proto_Dropbox.rc svn_mime_002dtype=application%2Foctet-stream
 plugins/Dropbox/proto_dropbox/src/resource.h svn_mime_002dtype=application%2Foctet-stream
 plugins/Dropbox/res/dropbox.ico svn_mime_002dtype=application%2Foctet-stream
+plugins/Dropbox/res/upload.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/Dropbox/src/resource.h svn_mime_002dtype=application%2Foctet-stream
 plugins/Exchange/res/mail.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/Exchange/res/unread.ico svn_mime_002dtype=application%2Foctet-stream
