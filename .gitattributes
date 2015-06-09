@@ -1129,6 +1129,7 @@ plugins/MirFox/src/lib/v120_xp/MirFoxCommonsRelease32.lib svn_mime_002dtype=appl
 plugins/MirFox/src/lib/v120_xp/MirFoxCommonsRelease32.pdb svn_mime_002dtype=application%2Foctet-stream
 plugins/MirFox/src/lib/v120_xp/MirFoxCommonsRelease64.lib svn_mime_002dtype=application%2Foctet-stream
 plugins/MirFox/src/lib/v120_xp/MirFoxCommonsRelease64.pdb svn_mime_002dtype=application%2Foctet-stream
+plugins/MirLua/res/icon.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirOTR/Libgcrypt/doc/fips-fsm.pdf svn_mime_002dtype=application%2Foctet-stream
 plugins/MirOTR/Libgcrypt/doc/fips-fsm.png svn_mime_002dtype=application%2Foctet-stream
 plugins/MirOTR/Libgcrypt/doc/libgcrypt-modules.pdf svn_mime_002dtype=application%2Foctet-stream
