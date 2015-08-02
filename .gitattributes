@@ -1139,7 +1139,6 @@ plugins/Libs/zlib/trees.obj svn_mime_002dtype=application%2Foctet-stream
 plugins/Libs/zlib/uncompr.obj svn_mime_002dtype=application%2Foctet-stream
 plugins/ListeningTo/res/listening_off.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/ListeningTo/res/listening_to.ico svn_mime_002dtype=application%2Foctet-stream
-plugins/ListeningTo/src/players/foo_mlt/foobar2000/shared/shared.lib svn_mime_002dtype=application%2Foctet-stream
 plugins/LotusNotify/res/icon1.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/LotusNotify/res/icon2.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MenuItemEx/res/Always[!!-~]Visible.ico svn_mime_002dtype=application%2Foctet-stream
