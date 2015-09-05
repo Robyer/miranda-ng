@@ -1157,6 +1157,7 @@ plugins/MessageState/res/fail.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MessageState/res/nosent.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MessageState/res/read.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MessageState/res/unread.ico svn_mime_002dtype=application%2Foctet-stream
+plugins/MessageState/res/unread_clist.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirFox/res/option_off.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirFox/res/option_showinff.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirFox/res/popup_error.ico svn_mime_002dtype=application%2Foctet-stream
