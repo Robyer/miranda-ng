@@ -3477,3 +3477,4 @@ tools/installer_ng_stable/Common/Installer/mng_installer.ico svn_mime_002dtype=a
 tools/installer_ng_stable/Tools/wget.exe svn_mime_002dtype=application%2Foctet-stream
 tools/langpackmgr/langpackmgr.ico svn_mime_002dtype=application%2Foctet-stream
 tools/langpackmgr/strip.exe svn_mime_002dtype=application%2Foctet-stream
+tools/rebaser/rebaser.exe svn_mime_002dtype=application%2Foctet-stream
