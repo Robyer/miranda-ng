@@ -1166,7 +1166,6 @@ plugins/MirFox/res/option_showinff.ico svn_mime_002dtype=application%2Foctet-str
 plugins/MirFox/res/popup_error.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirFox/res/popup_notify.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirLua/res/open.ico svn_mime_002dtype=application%2Foctet-stream
-plugins/MirLua/res/reload.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirLua/res/script.ico svn_mime_002dtype=application%2Foctet-stream
 plugins/MirOTR/Libgcrypt/doc/fips-fsm.pdf svn_mime_002dtype=application%2Foctet-stream
 plugins/MirOTR/Libgcrypt/doc/fips-fsm.png svn_mime_002dtype=application%2Foctet-stream
