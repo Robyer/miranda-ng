@@ -30,7 +30,6 @@ langpacks/tool/cs-CZ/LangpackSuite.resources.dll svn_mime_002dtype=application%2
 langpacks/tool/de-DE/LangpackSuite.resources.dll svn_mime_002dtype=application%2Foctet-stream
 langpacks/tool/ru-RU/LangpackSuite.resources.dll svn_mime_002dtype=application%2Foctet-stream
 langpacks/tool/uk-UA/LangpackSuite.resources.dll svn_mime_002dtype=application%2Foctet-stream
-libs/hunspell/hunspell.rc svn_mime_002dtype=application%2Foctet-stream
 libs/libcurl/docs/curl-config.pdf svn_mime_002dtype=application%2Foctet-stream
 libs/libcurl/docs/curl.pdf svn_mime_002dtype=application%2Foctet-stream
 libs/libcurl/docs/mk-ca-bundle.pdf svn_mime_002dtype=application%2Foctet-stream
