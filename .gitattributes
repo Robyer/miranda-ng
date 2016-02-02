@@ -3196,6 +3196,7 @@ protocols/VKontakte/res/delete.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/history.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/home.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/key.ico svn_mime_002dtype=application%2Foctet-stream
+protocols/VKontakte/res/markread.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/notify.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/read.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/VKontakte/res/report.ico svn_mime_002dtype=application%2Foctet-stream
