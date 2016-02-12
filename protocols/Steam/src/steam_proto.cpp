@@ -172,21 +172,17 @@ int CSteamProto::AuthRequest(MCONTACT hContact, const TCHAR*)
 		param->hContact = hContact;
 		param->hAuth = (HANDLE)hAuth;
 
-		//ForkThread(&CSteamProto::AddContactThread, param);
-
 		ptrA token(getStringA("TokenSecret"));
 		ptrA sessionId(getStringA("SessionID"));
 		ptrA steamId(getStringA("SteamID"));
 		ptrA who(getStringA(hContact, "SteamID"));
 
 		/*
-		posilame: (kdyz my zadame)
-		sessionID	MjYzNDM4NDgw
-		steamid	76561198166125402
-		accept_invite	0
+			posilame pro odblokovani:
+			action=unignore
+			friends[jeho id]= 1
 
-		pri uspesnem pozadavku vrati: {"invited":["76561198166125402"],"success":1}
-		kdyz nas ignoruje: {"failed_invites":["76561198166125402"],"failed_invites_result":[41],"success":1}
+			vysledek: 302 presmerovani na http://steamcommunity.com/profiles/76561198166125402/friends/blocked/?success=unignore&c=1
 
 		*/
 

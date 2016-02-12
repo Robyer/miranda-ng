@@ -27,7 +27,7 @@ public:
 
 		char data[128];
 		mir_snprintf(data, _countof(data),
-			"sessionID=%s&steamid=%s",
+			"sessionID=%s&steamid=%s&accept_invite=0",
 			sessionId,
 			who);
 

@@ -561,6 +561,12 @@ void CSteamProto::OnFriendAdded(const HttpResponse *response, void *arg)
 {
 	SendAuthParam *param = (SendAuthParam*)arg;
 
+	/*
+	pri uspesnem pozadavku vrati: {"invited":["76561198166125402"],"success":1}
+	kdyz nas ignoruje (nebo nastala jina chyba): {"failed_invites":["76561198166125402"],"failed_invites_result":[41],"success":1}
+
+	*/
+
 	if (!response || response->resultCode != HTTP_CODE_OK || lstrcmpiA(response->pData, "true"))
 	{
 		ptrA steamId(getStringA(param->hContact, "SteamID"));
