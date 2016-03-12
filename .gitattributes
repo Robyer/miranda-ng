@@ -3242,9 +3242,7 @@ protocols/Telegram/openssl/lib/x86/Release/2010/libeay32MT.lib svn_mime_002dtype
 protocols/Telegram/openssl/lib/x86/Release/2010/ssleay32MT.lib svn_mime_002dtype=application%2Foctet-stream
 protocols/Telegram/openssl/lib/x86/Release/2013/libeay32MT.lib svn_mime_002dtype=application%2Foctet-stream
 protocols/Telegram/openssl/lib/x86/Release/2013/ssleay32MT.lib svn_mime_002dtype=application%2Foctet-stream
-protocols/Telegram/openssl/lib/x86/Release/2015/libeay32MD.lib svn_mime_002dtype=application%2Foctet-stream
 protocols/Telegram/openssl/lib/x86/Release/2015/libeay32MT.lib svn_mime_002dtype=application%2Foctet-stream
-protocols/Telegram/openssl/lib/x86/Release/2015/ssleay32MD.lib svn_mime_002dtype=application%2Foctet-stream
 protocols/Telegram/openssl/lib/x86/Release/2015/ssleay32MT.lib svn_mime_002dtype=application%2Foctet-stream
 protocols/Tlen/proto_tlen/res/Away.ico svn_mime_002dtype=application%2Foctet-stream
 protocols/Tlen/proto_tlen/res/DND.ico svn_mime_002dtype=application%2Foctet-stream
