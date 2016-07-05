@@ -207,6 +207,11 @@ protected:
 	HICON GetXStatusIcon(int status, UINT flags);
 	int GetContactXStatus(MCONTACT hContact);
 
+	// game icons
+	void GameIconRegister(int gameId);
+	void GameIconDownload(int gameId);
+	bool GameIconExists(int gameId);
+
 	HANDLE __cdecl GetAwayMsg(MCONTACT hContact);
 	void __cdecl GetAwayMsgThread(void *arg);
 

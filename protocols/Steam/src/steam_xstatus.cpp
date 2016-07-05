@@ -6,6 +6,63 @@
 static std::vector<int> xstatusIconsValid;
 static std::map<int, int> xstatusIcons;
 
+void CSteamProto::DownloadGameIcon(int gameId)
+{
+	// download icon from:  http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/%appid%/%icon%.ico
+							https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/%appid%/%icon%.ico
+
+
+	/* There are few ways how to get icon hash from:
+	1) https://github.com/DoctorMcKay/steam-pics-api via https://steampics-mckay.rhcloud.com/info?apps=%appid%&prettyprint=0
+	then parse "clienticon": "1a8d50f6078b5d023582ea1793b0e53813d57b7f",
+	and use in http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/%appid%/%icon%.ico to download icon
+
+	2) get clienticon hash from https://steamdb.info/app/%appid%/info/
+	and parse from
+	<td class="span3">clienticon</td>
+	<td><a href="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/550/1a8d50f6078b5d023582ea1793b0e53813d57b7f.ico" rel="nofollow">1a8d50f6078b5d023582ea1793b0e53813d57b7f</a></td>
+	*/
+
+
+	PushRequest(
+		new GetAvatarRequest(avatarUrl),
+		&CSteamProto::OnGotAvatar,
+		(void*)pai->hContact);
+
+
+	if ()
+}
+
+int RegisterGameIcon(int status)
+{
+	
+
+
+	// icons
+	wchar_t filePath[MAX_PATH];
+	GetModuleFileName(g_hInstance, filePath, MAX_PATH);
+
+	wchar_t sectionName[100];
+	mir_sntprintf(sectionName, _T("%s/%s"), LPGENT("Protocols"), LPGENT(MODULE));
+
+	char settingName[100];
+	mir_snprintf(settingName, "%s_%s", MODULE, "main");
+
+	SKINICONDESC sid = { 0 };
+	sid.flags = SIDF_ALL_TCHAR;
+	sid.defaultFile.t = filePath;
+	sid.pszName = settingName;
+	sid.section.t = sectionName;
+	sid.description.t = LPGENT("Protocol icon");
+	sid.iDefaultIndex = -IDI_STEAM;
+	IcoLib_AddIcon(&sid);
+
+	mir_snprintf(settingName, "%s_%s", MODULE, "gaming");
+	sid.description.t = LPGENT("Gaming icon");
+	sid.iDefaultIndex = -IDI_GAMING;
+	IcoLib_AddIcon(&sid);
+}
+
 int OnReloadIcons(WPARAM, LPARAM)
 {
 	xstatusIconsValid.clear();
@@ -14,15 +71,28 @@ int OnReloadIcons(WPARAM, LPARAM)
 
 int CSteamProto::GetContactXStatus(MCONTACT hContact)
 {
-	return getDword(hContact, "XStatusId", 0) ? 1 : 0;
+	return getDword(hContact, "XStatusId", 0);
 }
 
 void SetContactExtraIcon(MCONTACT hContact, int status)
 {
-	char iconName[100];
-	mir_snprintf(iconName, "%s_%s", MODULE, "gaming");
+	HANDLE hImage = NULL;
 
-	ExtraIcon_SetIcon(hExtraXStatus, hContact, (status > 0) ? IcoLib_GetIconHandle(iconName) : NULL);
+	if (status > 0) {
+		
+
+		char iconName[100];
+		mir_snprintf(iconName, "%s_%d", "SteamGames", status);
+		hImage = IcoLib_GetIconHandle(iconName);
+
+		if (hImage == NULL) {
+			// We don't have icon for this game, use generic icon
+			mir_snprintf(iconName, "%s_%s", MODULE, "gaming");
+			hImage = IcoLib_GetIconHandle(iconName);
+		}
+	}
+
+	ExtraIcon_SetIcon(hExtraXStatus, hContact, hImage);
 }
 
 INT_PTR CSteamProto::OnGetXStatusEx(WPARAM wParam, LPARAM lParam)
