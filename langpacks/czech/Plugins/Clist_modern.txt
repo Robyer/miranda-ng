@@ -25,7 +25,7 @@ Skrýt počet kontaktů ve skupině, jsou-li všichni offline
 [1st:]
 1)
 [2nd:]
- 2)
+2)
 [3rd:]
 3)
 [Always on top]
@@ -614,7 +614,7 @@ Na&hoře
 [&Bottom]
 Do&le
 [&Position]
-U&místění
+&Posunout
 [&Up]
 Nahor&u
 [&Down]

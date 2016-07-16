@@ -688,7 +688,7 @@ Na&hoře
 [&Bottom]
 Do&le
 [&Position]
-U&místění
+&Posunout
 [&Up]
 Nahor&u
 [&Down]
