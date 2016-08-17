@@ -195,26 +195,29 @@ STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
 EXSTYLE WS_EX_CONTROLPARENT
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    GROUPBOX        "Messages",IDC_STATIC,7,7,294,43
+    GROUPBOX        "Messages",IDC_STATIC,7,7,294,77
     CONTROL         "Keep messages as unread on server (don't send ""seen"" info)",IDC_KEEP_UNREAD,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,19,281,10
     CONTROL         "Show stickers as custom smileys (EXPERIMENTAL)",IDC_CUSTOM_SMILEYS,
                     "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,34,281,10
-    GROUPBOX        "Multi user chats",IDC_STATIC,7,56,294,57
+    CONTROL         "Automatically accept all message requests",IDC_AUTO_ACCEPT_MESSAGES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,49,281,10
+    LTEXT           "When disabled, you will need to accept (or reject) message requests from other users manually via Facebook website.",IDC_STATIC,25,62,269,18
+    GROUPBOX        "Multi user chats",IDC_STATIC,7,90,294,57
     CONTROL         "Enable multi user chats support",IDC_ENABLE_CHATS,
-                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,69,281,10
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,103,281,10
     CONTROL         "Do not open chat windows on creation",IDC_HIDE_CHATS,
-                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,83,281,10
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,117,281,10
     CONTROL         "Automatically join active chats that exist in contact list",IDC_JOIN_EXISTING_CHATS,
-                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,97,281,10
-    GROUPBOX        "History synchronization",IDC_STATIC,7,121,294,59
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,131,281,10
+    GROUPBOX        "History synchronization",IDC_STATIC,7,155,294,59
     CONTROL         "Load last messages (24 hours old) on login (EXPERIMENTAL)",IDC_LOGIN_SYNC,
-                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,135,281,10
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,169,281,10
     CONTROL         "Load last messages on opening message window (EXPERIMENTAL)",IDC_MESSAGES_ON_OPEN,
-                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,149,281,10
-    RTEXT           "Number of messages to load:",IDC_STATIC,13,163,231,8
-    EDITTEXT        IDC_MESSAGES_COUNT,249,160,34,14,ES_AUTOHSCROLL
-    CONTROL         "",IDC_MESSAGES_COUNT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,283,160,11,14
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,183,281,10
+    RTEXT           "Number of messages to load:",IDC_STATIC,13,197,231,8
+    EDITTEXT        IDC_MESSAGES_COUNT,249,194,34,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_MESSAGES_COUNT_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,283,194,11,14
 END
 
 IDD_GUARD DIALOGEX 0, 0, 285, 104
@@ -311,7 +314,7 @@ BEGIN
         LEFTMARGIN, 7
         RIGHTMARGIN, 301
         VERTGUIDE, 13
-        VERTGUIDE, 32
+        VERTGUIDE, 25
         VERTGUIDE, 152
         VERTGUIDE, 156
         VERTGUIDE, 294

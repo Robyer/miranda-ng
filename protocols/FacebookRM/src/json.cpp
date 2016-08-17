@@ -1101,6 +1101,7 @@ int facebook_json_parser::parse_thread_messages(std::string *data, std::vector< 
 		const JSONNode &author = (*it)["author"];
 		const JSONNode &other_user_fbid = (*it)["other_user_fbid"];
 		const JSONNode &body = (*it)["body"];
+		// const JSONNode &folder = (*it)["folder"]; // "inbox", "pending"
 		const JSONNode &tid = (*it)["thread_id"];
 		const JSONNode &mid = (*it)["message_id"];
 		const JSONNode &timestamp = (*it)["timestamp"];

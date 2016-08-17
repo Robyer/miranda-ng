@@ -193,6 +193,9 @@ void FacebookProto::ProcessUnreadMessages(void*)
 	facy.handle_entry("ProcessUnreadMessages");
 
 	std::string data = "folders[0]=inbox&folders[1]=other"; // TODO: I'm not sure if this is still valid/used on fb side (or it has any effect at all)
+	if (getBool(FACEBOOK_KEY_AUTO_ACCEPT_MESSAGES, 0)) {
+		data += "&folders[2]=pending";
+	}
 	data += "&client=mercury";
 	data += "&__user=" + facy.self_.user_id;
 	data += "&fb_dtsg=" + facy.dtsg_;
@@ -263,7 +266,11 @@ void FacebookProto::ProcessUnreadMessage(void *pParam)
 			data += "&messages[thread_ids][" + thread_id;
 			data += "][offset]=" + utils::conversion::to_string(&offset, UTILS_CONV_SIGNED_NUMBER);
 			data += "&messages[thread_ids][" + thread_id;
+			data += "][timestamp]="; // TODO: this is empty on website requests, but probably can be used for some better sync?
+			data += "&messages[thread_ids][" + thread_id;
 			data += "][limit]=" + utils::conversion::to_string(&limit, UTILS_CONV_SIGNED_NUMBER);
+			// alternatively we can use
+			// &messages[user_ids][<numeric userid>][<offset|timestamp|limit>]=...
 
 			// request info about thread
 			data += "&threads[thread_ids][" + utils::conversion::to_string(&i, UTILS_CONV_UNSIGNED_NUMBER);
