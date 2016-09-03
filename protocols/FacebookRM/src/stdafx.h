@@ -83,6 +83,8 @@ class FacebookProto;
 
 #include "requests/channel.h"
 #include "requests/login.h"
+#include "requests/notifications.h"
+#include "requests/profile.h"
 #include "requests/search.h"
 
 extern HINSTANCE g_hInstance;

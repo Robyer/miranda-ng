@@ -358,10 +358,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 {
 	switch (request_type)
 	{
-	case REQUEST_HOME:
-	case REQUEST_DTSG:
-		return FACEBOOK_SERVER_MOBILE;
-
 	case REQUEST_LOAD_FRIENDSHIPS:
 	case REQUEST_USER_INFO_MOBILE:
 	case REQUEST_PROFILE_PICTURE:
@@ -371,7 +367,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 		//	case REQUEST_USER_INFO_ALL:
 		//	case REQUEST_FEEDS:
 		//	case REQUEST_PAGES:
-		//	case REQUEST_NOTIFICATIONS:
 		//	case REQUEST_RECONNECT:
 		//	case REQUEST_POST_STATUS:
 		//	case REQUEST_IDENTITY_SWITCH:
@@ -383,7 +378,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 		//	case REQUEST_VISIBILITY:
 		//	case REQUEST_POKE:
 		//	case REQUEST_MARK_READ:
-		//	case REQUEST_NOTIFICATIONS_READ:
 		//	case REQUEST_TYPING_SEND:
 		//  case REQUEST_DELETE_FRIEND:
 		//	case REQUEST_ADD_FRIEND:
@@ -402,12 +396,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	switch (request_type)
 	{
-	case REQUEST_HOME:
-		return "/profile.php?v=info";
-
-	case REQUEST_DTSG:
-		return "/editprofile.php?edit=current_city&type=basic";
-
 	case REQUEST_USER_INFO: // ok, 17.8.2016
 		return "/chat/user_info/?dpr=1";
 
@@ -473,11 +461,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 		return "/bookmarks/pages?";
 	}
 
-	case REQUEST_NOTIFICATIONS: // ok, 17.8.2016
-	{
-		return "/ajax/notifications/client/get.php?dpr=1";
-	}
-
 	case REQUEST_RECONNECT: // ok, 17.8.2016
 	{
 		std::string action = "/ajax/presence/reconnect.php?__a=1&reason=%s&fb_dtsg=%s&__user=%s";
@@ -538,15 +521,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	case REQUEST_MARK_READ:
 		return "/ajax/mercury/change_read_status.php?__a=1";
-
-	case REQUEST_NOTIFICATIONS_READ:
-	{
-		std::string action = "/ajax/notifications/mark_read.php?__a=1";
-		if (get_data != NULL) {
-			action += "&" + (*get_data);
-		}
-		return action;
-	}
 
 	case REQUEST_TYPING_SEND:
 		return "/ajax/messaging/typ.php?dpr=1"; // ok, 17.8.2016
@@ -1105,7 +1079,7 @@ bool facebook_client::home()
 	handle_entry("home");
 
 	// get fb_dtsg
-	http::response resp = flap(REQUEST_DTSG);
+	http::response resp = sendRequest(new DtsgRequest());
 
 	this->dtsg_ = utils::url::encode(utils::text::source_get_value(&resp.data, 3, "name=\"fb_dtsg\"", "value=\"", "\""));
 	{
@@ -1125,7 +1099,7 @@ bool facebook_client::home()
 		parent->debugLogA("    Got self dtsg");
 	}
 
-	resp = flap(REQUEST_HOME);
+	resp = sendRequest(new HomeRequest());
 
 	switch (resp.code)
 	{
