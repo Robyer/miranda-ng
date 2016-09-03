@@ -156,8 +156,8 @@ public:
 
 		// Status with users
 		for (std::vector<facebook_user*>::size_type i = 0; i < status->users.size(); i++) {
-			CMStringA withId(CMStringDataFormat::FORMAT, "composertags_with[%i]", i);
-			CMStringA withName(CMStringDataFormat::FORMAT, "text_composertags_with[%i]", i);
+			CMStringA withId(::FORMAT, "composertags_with[%i]", i);
+			CMStringA withName(::FORMAT, "text_composertags_with[%i]", i);
 
 			Body
 				<< CHAR_VALUE(withId.c_str(), status->users[i]->user_id.c_str())

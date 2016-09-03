@@ -87,8 +87,11 @@ public:
 	}
 
 	SetupMachineRequest(const char *dtsg, const char *nh, const char *submit) :
-		SetupMachineRequest()
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/checkpoint/")
 	{
+		Url
+			<< "next";
+
 		Body
 			<< CMStringA(::FORMAT, "submit[%s]=%s", submit, submit).c_str()
 			<< CHAR_VALUE("nh", nh)

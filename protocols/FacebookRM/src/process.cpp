@@ -811,7 +811,7 @@ void FacebookProto::ProcessMemories(void*)
 
 	facy.handle_entry(__FUNCTION__);
 
-	HttpRequest *request = new MemoriesRequest(facy);
+	HttpRequest *request = new MemoriesRequest(&facy);
 	http::response resp = facy.sendRequest(request);
 
 	if (resp.code != HTTP_CODE_OK) {
@@ -1264,7 +1264,7 @@ void FacebookProto::ProcessFeeds(void*)
 	facy.handle_entry("feeds");
 
 	// Get feeds
-	HttpRequest *request = new NewsfeedRequest(facy);
+	HttpRequest *request = new NewsfeedRequest(&facy);
 	http::response resp = facy.sendRequest(request);
 
 	if (resp.code != HTTP_CODE_OK || resp.data.empty()) {
