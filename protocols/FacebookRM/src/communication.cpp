@@ -359,18 +359,13 @@ std::string facebook_client::choose_server(RequestType request_type)
 	switch (request_type)
 	{
 	case REQUEST_LOAD_FRIENDSHIPS:
-	case REQUEST_USER_INFO_MOBILE:
 		return this->mbasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE;
 
 		//	case REQUEST_USER_INFO:
 		//	case REQUEST_USER_INFO_ALL:
-		//	case REQUEST_RECONNECT:
-		//	case REQUEST_POST_STATUS:
-		//	case REQUEST_IDENTITY_SWITCH:
 		//	case REQUEST_MESSAGES_SEND:
 		//	case REQUEST_THREAD_INFO:
 		//	case REQUEST_THREAD_SYNC:
-		//	case REQUEST_VISIBILITY:
 		//	case REQUEST_POKE:
 		//	case REQUEST_MARK_READ:
 		//	case REQUEST_TYPING_SEND:
@@ -395,15 +390,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	case REQUEST_USER_INFO_ALL: // ok, 17.8.2016
 		return "/chat/user_info_all/?dpr=1&viewer=" + self_.user_id;
-
-	case REQUEST_USER_INFO_MOBILE:
-	{
-		std::string action = "/%sv=info";
-		if (get_data != NULL) {
-			utils::text::replace_all(&action, "%s", *get_data);
-		}
-		return action;
-	}
 
 	case REQUEST_LOAD_FRIENDSHIPS:
 	{
@@ -439,31 +425,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 		return "/requests/friends/ajax/?__a=1";
 	}
 
-	case REQUEST_RECONNECT: // ok, 17.8.2016
-	{
-		std::string action = "/ajax/presence/reconnect.php?__a=1&reason=%s&fb_dtsg=%s&__user=%s";
-
-		if (this->chat_reconnect_reason_.empty())
-			this->chat_reconnect_reason_ = "6";
-
-		utils::text::replace_first(&action, "%s", this->chat_reconnect_reason_);
-		utils::text::replace_first(&action, "%s", this->dtsg_);
-		utils::text::replace_first(&action, "%s", this->self_.user_id);
-
-		action += "&__dyn=" + __dyn();
-		action += "&__req=" + __req();
-		action += "&__rev=" + __rev();
-		action += "&__pc=PHASED:DEFAULT&__be=-1&__a=1";
-
-		return action;
-	}
-
-	case REQUEST_POST_STATUS:
-		return "/ajax/updatestatus.php?__a=1";
-
-	case REQUEST_IDENTITY_SWITCH:
-		return "/identity_switch.php?__a=1";
-
 	case REQUEST_MESSAGES_SEND:
 		return "/messaging/send/?dpr=1";
 
@@ -472,9 +433,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	case REQUEST_THREAD_SYNC: // TODO: This doesn't work anymore
 		return "/ajax/mercury/thread_sync.php?__a=1";
-
-	case REQUEST_VISIBILITY:
-		return "/ajax/chat/privacy/visibility.php?dpr=1"; // ok, 17.8.2016
 
 	case REQUEST_POKE:
 		return "/pokes/dialog/?__a=1";
@@ -1154,16 +1112,8 @@ bool facebook_client::chat_state(bool online)
 {
 	handle_entry("chat_state");
 
-	std::string data = (online ? "visibility=1" : "visibility=0");
-	data += "&window_id=0";
-	data += "&fb_dtsg=" + dtsg_;
-	data += "&__user=" + self_.user_id;
-	data += "&__dyn=" + __dyn();
-	data += "&__req=" + __req();
-	data += "&ttstamp=" + ttstamp_;
-	data += "&__rev=" + __rev();
-	data += "&__a=1&__pc=PHASED:DEFAULT&__be=-1";
-	http::response resp = flap(REQUEST_VISIBILITY, &data); // NOTE: Request revised 17.8.2016
+	HttpRequest *request = new SetVisibilityRequest(this, online);
+	http::response resp = sendRequest(request);
 
 	if (!resp.error_title.empty())
 		return handle_error("chat_state");
@@ -1176,7 +1126,7 @@ bool facebook_client::reconnect()
 	handle_entry("reconnect");
 
 	// Request reconnect
-	http::response resp = flap(REQUEST_RECONNECT);
+	http::response resp = sendRequest(new ReconnectRequest(this));
 
 	switch (resp.code)
 	{
@@ -1530,57 +1480,37 @@ bool facebook_client::post_status(status_data *status)
 	handle_entry("post_status");
 
 	if (status->isPage) {
-		std::string data = "fb_dtsg=" + this->dtsg_;
-		data += "&user_id=" + status->user_id;
-		data += "&url=" + std::string(FACEBOOK_URL_HOMEPAGE);
-		flap(REQUEST_IDENTITY_SWITCH, &data);
+		// Switch to page identity by which name we will share this post
+		HttpRequest *request = new SwitchIdentityRequest(this->dtsg_.c_str(), status->user_id.c_str());
+		sendRequest(request);
 	}
 
-	std::string data;
+	std::string linkData;
 	if (!status->url.empty()) {
 		HttpRequest *request = new LinkScraperRequest(this, status);
 		http::response resp = sendRequest(request);
 
-		data = "&xhpc_context=profile&xhpc_ismeta=1&xhpc_timeline=1&xhpc_composerid=u_jsonp_2_0&is_explicit_place=&composertags_place=&composer_session_id=&composertags_city=&disable_location_sharing=false&composer_predicted_city=&nctr[_mod]=pagelet_composer&__a=1&__dyn=&__req=1f&ttstamp=" + ttstamp_;
 		std::string temp = utils::text::html_entities_decode(utils::text::slashu_to_utf8(resp.data));
 		std::string form = utils::text::source_get_value(&temp, 2, "<form", "</form>");
 		utils::text::replace_all(&form, "\\\"", "\"");
-		data += "&" + utils::text::source_get_form_data(&form) + "&";
-		//data += "&no_picture=0";
+		linkData += utils::text::source_get_form_data(&form);		
+		// FIXME: Rework to some "scraped_link" structure to simplify working with it?
 	}
 
-	std::string text = utils::url::encode(status->text);
+	HttpRequest *request = new SharePostRequest(this, status, linkData.c_str());
+	http::response resp = sendRequest(request);
 
-	data += "fb_dtsg=" + this->dtsg_;
-	data += "&xhpc_targetid=" + (status->user_id.empty() ? this->self_.user_id : status->user_id);
-	data += "&__user=" + (status->isPage && !status->user_id.empty() ? status->user_id : this->self_.user_id);
-	data += "&xhpc_message=" + text;
-	data += "&xhpc_message_text=" + text;
-	if (!status->isPage)
-		data += "&audience[0][value]=" + get_privacy_type();
-	if (!status->place.empty()) {
-		data += "&composertags_place_name=";
-		data += utils::url::encode(status->place);
+	if (status->isPage) {
+		// Switch back to our identity
+		HttpRequest *request = new SwitchIdentityRequest(this->dtsg_.c_str(), this->self_.user_id.c_str());
+		sendRequest(request);
 	}
+
+	// cleanup status elements (delete users)
 	for (std::vector<facebook_user*>::size_type i = 0; i < status->users.size(); i++) {
-		data += "&composertags_with[" + utils::conversion::to_string(&i, UTILS_CONV_UNSIGNED_NUMBER);
-		data += "]=" + status->users[i]->user_id;
-		data += "&text_composertags_with[" + utils::conversion::to_string(&i, UTILS_CONV_UNSIGNED_NUMBER);
-		data += "]=" + status->users[i]->real_name;
 		delete status->users[i];
 	}
 	status->users.clear();
-
-	data += "&xhpc_context=profile&xhpc_ismeta=1&xhpc_timeline=1&xhpc_composerid=u_0_2y&is_explicit_place=&composertags_place=&composertags_city=";
-
-	http::response resp = flap(REQUEST_POST_STATUS, &data);
-
-	if (status->isPage) {
-		std::string query = "fb_dtsg=" + this->dtsg_;
-		query += "&user_id=" + this->self_.user_id;
-		query += "&url=" + std::string(FACEBOOK_URL_HOMEPAGE);
-		flap(REQUEST_IDENTITY_SWITCH, &query);
-	}
 
 	if (resp.isValid()) {
 		parent->NotifyEvent(parent->m_tszUserName, TranslateT("Status update was successful."), NULL, EVENT_OTHER);

@@ -60,4 +60,17 @@ public:
 	}
 };
 
+// request mobile page containing user profile
+class ProfileRequest : public HttpRequest
+{
+public:
+	ProfileRequest(boolean mobileBasicWorks, const char *userId) :
+		HttpRequest(REQUEST_GET, FORMAT, "%s/%s", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
+	{
+		Url
+			//<< CHAR_VALUE("profile_id", userId)
+			<< "v=info";
+	}
+};
+
 #endif //_FACEBOOK_REQUEST_PROFILE_H_
