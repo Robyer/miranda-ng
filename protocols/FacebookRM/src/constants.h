@@ -3,7 +3,7 @@
 Facebook plugin for Miranda Instant Messenger
 _____________________________________________
 
-Copyright © 2009-11 Michal Zelinka, 2011-16 Robert Pösel
+Copyright ï¿½ 2009-11 Michal Zelinka, 2011-16 Robert Pï¿½sel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -131,7 +131,6 @@ enum RequestType {
 
 	REQUEST_POST_STATUS,		// posting status to our or friends's wall
 	REQUEST_LINK_SCRAPER,		// getting data for some url link
-	REQUEST_SEARCH,				// searching
 	REQUEST_POKE,				// sending pokes
 	REQUEST_NOTIFICATIONS_READ, // marking notifications read
 

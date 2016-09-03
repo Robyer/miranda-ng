@@ -3,7 +3,7 @@
 Facebook plugin for Miranda Instant Messenger
 _____________________________________________
 
-Copyright © 2009-11 Michal Zelinka, 2011-16 Robert Pösel
+Copyright ï¿½ 2009-11 Michal Zelinka, 2011-16 Robert Pï¿½sel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -81,8 +81,9 @@ class FacebookProto;
 #include "resource.h"
 #include "version.h"
 
-#include "requests/login.h"
 #include "requests/channel.h"
+#include "requests/login.h"
+#include "requests/search.h"
 
 extern HINSTANCE g_hInstance;
 extern std::string g_strUserAgent;

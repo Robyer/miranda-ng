@@ -1373,11 +1373,8 @@ void FacebookProto::SearchAckThread(void *targ)
 
 	while (count < 50 && !isOffline())
 	{
-		std::string get_data = search + "&s=" + utils::conversion::to_string(&count, UTILS_CONV_UNSIGNED_NUMBER);
-		if (!ssid.empty())
-			get_data += "&ssid=" + ssid;
-
-		http::response resp = facy.flap(REQUEST_SEARCH, NULL, &get_data);
+		SearchRequest *request = new SearchRequest(facy.mbasicWorks, search.c_str(), count, ssid.c_str());
+		http::response resp = facy.sendRequest(request);
 
 		if (resp.code == HTTP_CODE_OK)
 		{

@@ -363,7 +363,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 		return FACEBOOK_SERVER_MOBILE;
 
 	case REQUEST_LOAD_FRIENDSHIPS:
-	case REQUEST_SEARCH:
 	case REQUEST_USER_INFO_MOBILE:
 	case REQUEST_PROFILE_PICTURE:
 		return this->mbasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE;
@@ -427,15 +426,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 	case REQUEST_LOAD_FRIENDSHIPS:
 	{
 		return "/friends/center/requests/?";
-	}
-
-	case REQUEST_SEARCH:
-	{
-		std::string action = "/search/?search=people&query=";
-		if (get_data != NULL) {
-			action += *get_data;
-		}
-		return action;
 	}
 
 	case REQUEST_UNREAD_THREADS: // ok, 17.8.2016
