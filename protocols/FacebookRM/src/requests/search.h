@@ -30,6 +30,8 @@ public:
 	SearchRequest(boolean mobileBasicWorks, const char *query, int s, const char *ssid) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/search/", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
 	{
+		flags |= NLHRF_REDIRECT;
+
 		Url
 			<< "search=people"
 			<< CHAR_VALUE("query", query)

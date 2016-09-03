@@ -201,13 +201,6 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 			<< CHAR_VALUE("Content-Type", "application/x-www-form-urlencoded; charset=utf-8");
 	}
 
-	// Set flags
-	request->flags |= NLHRF_HTTP11 | NLHRF_SSL;
-
-	if (server == FACEBOOK_SERVER_MBASIC || server == FACEBOOK_SERVER_MOBILE) {
-		request->flags |= NLHRF_REDIRECT;
-	}
-
 	// TODO: rather change http_request than doing this ifdef magic here?
 #ifdef _DEBUG 
 	request->flags &= ~NLHRF_NODUMP;

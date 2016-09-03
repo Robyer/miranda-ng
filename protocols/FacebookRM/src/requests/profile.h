@@ -30,6 +30,8 @@ public:
 	HomeRequest() :
 		HttpRequest(REQUEST_GET, FACEBOOK_SERVER_MOBILE "/profile.php")
 	{
+		flags |= NLHRF_REDIRECT;
+
 		Url
 			<< "v=info";
 	}
@@ -42,6 +44,8 @@ public:
 	DtsgRequest() :
 		HttpRequest(REQUEST_GET, FACEBOOK_SERVER_MOBILE "/editprofile.php")
 	{
+		flags |= NLHRF_REDIRECT;
+
 		Url
 			<< "edit=current_city"
 			<< "type=basic";
@@ -55,6 +59,8 @@ public:
 	ProfilePictureRequest(boolean mobileBasicWorks, const char *userId) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/profile/picture/view/", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
 	{
+		flags |= NLHRF_REDIRECT;
+
 		Url
 			<< CHAR_VALUE("profile_id", userId);
 	}
@@ -67,6 +73,8 @@ public:
 	ProfileRequest(boolean mobileBasicWorks, const char *userId) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/%s", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
 	{
+		flags |= NLHRF_REDIRECT;
+
 		Url
 			//<< CHAR_VALUE("profile_id", userId)
 			<< "v=info";

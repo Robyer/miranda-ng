@@ -30,6 +30,7 @@ public:
 	GetFriendshipsRequest(boolean mobileBasicWorks) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/friends/center/requests/", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
 	{
+		flags |= NLHRF_REDIRECT;
 	}
 };
 
