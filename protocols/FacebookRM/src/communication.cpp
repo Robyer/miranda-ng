@@ -358,9 +358,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 {
 	switch (request_type)
 	{
-	case REQUEST_LOAD_FRIENDSHIPS:
-		return this->mbasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE;
-
 		//	case REQUEST_USER_INFO:
 		//	case REQUEST_USER_INFO_ALL:
 		//	case REQUEST_MESSAGES_SEND:
@@ -390,11 +387,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	case REQUEST_USER_INFO_ALL: // ok, 17.8.2016
 		return "/chat/user_info_all/?dpr=1&viewer=" + self_.user_id;
-
-	case REQUEST_LOAD_FRIENDSHIPS:
-	{
-		return "/friends/center/requests/?";
-	}
 
 	case REQUEST_UNREAD_THREADS: // ok, 17.8.2016
 	{
