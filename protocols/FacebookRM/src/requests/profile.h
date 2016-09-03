@@ -48,4 +48,16 @@ public:
 	}
 };
 
+// request mobile page containing profile picture
+class ProfilePictureRequest : public HttpRequest
+{
+public:
+	ProfilePictureRequest(boolean mobileBasicWorks, const char *userId) :
+		HttpRequest(REQUEST_GET, FORMAT, "%s/profile/picture/view/", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
+	{
+		Url
+			<< CHAR_VALUE("profile_id", userId);
+	}
+};
+
 #endif //_FACEBOOK_REQUEST_PROFILE_H_

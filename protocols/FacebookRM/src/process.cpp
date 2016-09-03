@@ -811,13 +811,8 @@ void FacebookProto::ProcessMemories(void*)
 
 	facy.handle_entry(__FUNCTION__);
 
-	time_t timestamp = ::time(NULL);
-	
-	std::string get_data = "&start_index=0&num_stories=20&last_section_header=0";
-	get_data += "&timestamp=" + utils::conversion::to_string((void*)&timestamp, UTILS_CONV_TIME_T);
-	get_data += "&__dyn=&__req=&__rev=&__user=" + facy.self_.user_id;
-
-	http::response resp = facy.flap(REQUEST_ON_THIS_DAY, NULL, &get_data);
+	HttpRequest *request = new MemoriesRequest(facy);
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.code != HTTP_CODE_OK) {
 		facy.handle_error(__FUNCTION__);
@@ -1269,7 +1264,8 @@ void FacebookProto::ProcessFeeds(void*)
 	facy.handle_entry("feeds");
 
 	// Get feeds
-	http::response resp = facy.flap(REQUEST_FEEDS);
+	HttpRequest *request = new NewsfeedRequest(facy);
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.code != HTTP_CODE_OK || resp.data.empty()) {
 		facy.handle_error("feeds");
@@ -1311,7 +1307,7 @@ void FacebookProto::ProcessPages(void*)
 	facy.handle_entry("load_pages");
 
 	// Get feeds
-	http::response resp = facy.flap(REQUEST_PAGES);
+	http::response resp = facy.sendRequest(new GetPagesRequest());
 
 	if (resp.code != HTTP_CODE_OK) {
 		facy.handle_error("load_pages");

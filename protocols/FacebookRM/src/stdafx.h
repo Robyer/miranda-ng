@@ -81,6 +81,7 @@ class FacebookProto;
 #include "resource.h"
 #include "version.h"
 
+#include "requests/feeds.h"
 #include "requests/channel.h"
 #include "requests/login.h"
 #include "requests/notifications.h"

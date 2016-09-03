@@ -360,13 +360,10 @@ std::string facebook_client::choose_server(RequestType request_type)
 	{
 	case REQUEST_LOAD_FRIENDSHIPS:
 	case REQUEST_USER_INFO_MOBILE:
-	case REQUEST_PROFILE_PICTURE:
 		return this->mbasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE;
 
 		//	case REQUEST_USER_INFO:
 		//	case REQUEST_USER_INFO_ALL:
-		//	case REQUEST_FEEDS:
-		//	case REQUEST_PAGES:
 		//	case REQUEST_RECONNECT:
 		//	case REQUEST_POST_STATUS:
 		//	case REQUEST_IDENTITY_SWITCH:
@@ -382,7 +379,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 		//	case REQUEST_CANCEL_FRIENDSHIP:
 		//	case REQUEST_FRIENDSHIP:
 		//	case REQUEST_UNREAD_THREADS:
-		//	case REQUEST_ON_THIS_DAY:
 	default:
 		return FACEBOOK_SERVER_REGULAR;
 	}
@@ -443,22 +439,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 		return "/requests/friends/ajax/?__a=1";
 	}
 
-	case REQUEST_FEEDS:
-	{
-		std::string action = "/ajax/home/generic.php?" + get_newsfeed_type();
-		action += "&__user=" + self_.user_id + "&__a=1";
-
-		/*std::string newest = utils::conversion::to_string((void*)&this->last_feeds_update_, UTILS_CONV_TIME_T);
-		utils::text::replace_first(&action, "%s", newest);
-		utils::text::replace_first(&action, "%s", self_.user_id);*/
-		return action;
-	}
-
-	case REQUEST_PAGES:
-	{
-		return "/bookmarks/pages?";
-	}
-
 	case REQUEST_RECONNECT: // ok, 17.8.2016
 	{
 		std::string action = "/ajax/presence/reconnect.php?__a=1&reason=%s&fb_dtsg=%s&__user=%s";
@@ -504,20 +484,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	case REQUEST_TYPING_SEND:
 		return "/ajax/messaging/typ.php?dpr=1"; // ok, 17.8.2016
-
-	case REQUEST_ON_THIS_DAY:
-	{
-		std::string action = "/onthisday/story/query/?__a=1";
-		if (get_data != NULL) {
-			action += "&" + (*get_data);
-		}
-		return action;
-	}
-
-	case REQUEST_PROFILE_PICTURE:
-	{
-		return "/profile/picture/view/?profile_id=" + self_.user_id;
-	}
 
 	default:
 		return "/?_fb_noscript=1";
@@ -1141,7 +1107,8 @@ bool facebook_client::home()
 		
 		// Final attempt to get avatar as on some pages is only link to photo page and not link to image itself
 		if (this->self_.image_url.empty()) {
-			http::response resp2 = flap(REQUEST_PROFILE_PICTURE);
+			HttpRequest *request = new ProfilePictureRequest(this->mbasicWorks, self_.user_id.c_str());
+			http::response resp2 = sendRequest(request);
 				
 			// Get avatar (from mbasic version of photo page)
 			this->self_.image_url = utils::text::html_entities_decode(utils::text::source_get_value(&resp2.data, 3, "id=\"root", "<img src=\"", "\""));

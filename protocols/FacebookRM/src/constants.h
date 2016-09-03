@@ -118,13 +118,7 @@ enum RequestType {
 	REQUEST_RECONNECT,			// getting __sequence_num__ and __channel_id__
 	REQUEST_VISIBILITY,			// setting chat visibility
 	REQUEST_IDENTITY_SWITCH,	// changing identity to post status for pages
-	REQUEST_PROFILE_PICTURE,	// request mobile page containing profile picture
-	
-	REQUEST_FEEDS,				// getting feeds
 	REQUEST_LOAD_FRIENDSHIPS,	// getting friendship requests
-	REQUEST_PAGES,				// getting pages list
-	REQUEST_ON_THIS_DAY,		// getting on this day posts
-
 	REQUEST_POST_STATUS,		// posting status to our or friends's wall
 	REQUEST_POKE,				// sending pokes
 

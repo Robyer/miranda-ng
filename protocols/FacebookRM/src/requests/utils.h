@@ -87,4 +87,15 @@ public:
 	}
 };
 
+// getting owned/admined pages list
+class GetPagesRequest : public HttpRequest
+{
+public:
+	GetPagesRequest() :
+		HttpRequest(REQUEST_GET, FACEBOOK_SERVER_REGULAR "/bookmarks/pages")
+	{
+
+	}
+};
+
 #endif //_FACEBOOK_REQUEST_UTILS_H_
