@@ -241,6 +241,7 @@ public:
 		flags = NLHRF_HTTP11 | NLHRF_SSL | NLHRF_DUMPASTEXT;
 		requestType = type;
 		pData = NULL;
+		timeout = 20 * 1000;
 	}
 
 	HttpRequest(int type, HttpRequestUrlFormat, LPCSTR urlFormat, ...)
@@ -251,6 +252,7 @@ public:
 		requestType = type;
 		va_end(formatArgs);
 		pData = NULL;
+		timeout = 20 * 1000;
 	}
 
 	virtual ~HttpRequest()

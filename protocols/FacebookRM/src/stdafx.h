@@ -81,6 +81,9 @@ class FacebookProto;
 #include "resource.h"
 #include "version.h"
 
+#include "requests/login.h"
+#include "requests/channel.h"
+
 extern HINSTANCE g_hInstance;
 extern std::string g_strUserAgent;
 extern DWORD g_mirandaVersion;

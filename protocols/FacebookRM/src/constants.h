@@ -115,16 +115,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Facebook request types // TODO: Provide MS_ and release in FB plugin API?
 enum RequestType {
-	REQUEST_LOGIN,				// connecting physically
-	REQUEST_LOGOUT,				// disconnecting physically
-	REQUEST_SETUP_MACHINE,		// setting machine name
 	REQUEST_HOME,				// getting own name, avatar, ...
 	REQUEST_DTSG,				// getting __fb_dtsg__
 	REQUEST_RECONNECT,			// getting __sequence_num__ and __channel_id__
 	REQUEST_VISIBILITY,			// setting chat visibility
 	REQUEST_IDENTITY_SWITCH,	// changing identity to post status for pages
 	REQUEST_CAPTCHA_REFRESH,	// refreshing captcha dialog (changing captcha type)
-	REQUEST_LOGIN_SMS,			// request to receive login code via SMS
 	REQUEST_PROFILE_PICTURE,	// request mobile page containing profile picture
 	
 	REQUEST_FEEDS,				// getting feeds
@@ -148,8 +144,6 @@ enum RequestType {
 	REQUEST_FRIENDSHIP,			// approving or ignoring friendship requests
 
 	REQUEST_MESSAGES_SEND,		// sending messages
-	REQUEST_MESSAGES_RECEIVE,	// receiving messages and other realtime actions
-	REQUEST_ACTIVE_PING,		// sending activity ping
 	REQUEST_TYPING_SEND,		// sending typing notification
 
 	REQUEST_THREAD_INFO,		// getting thread info
