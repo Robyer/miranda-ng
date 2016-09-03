@@ -118,7 +118,6 @@ enum RequestType {
 	REQUEST_RECONNECT,			// getting __sequence_num__ and __channel_id__
 	REQUEST_VISIBILITY,			// setting chat visibility
 	REQUEST_IDENTITY_SWITCH,	// changing identity to post status for pages
-	REQUEST_CAPTCHA_REFRESH,	// refreshing captcha dialog (changing captcha type)
 	REQUEST_PROFILE_PICTURE,	// request mobile page containing profile picture
 	
 	REQUEST_FEEDS,				// getting feeds
@@ -127,7 +126,6 @@ enum RequestType {
 	REQUEST_ON_THIS_DAY,		// getting on this day posts
 
 	REQUEST_POST_STATUS,		// posting status to our or friends's wall
-	REQUEST_LINK_SCRAPER,		// getting data for some url link
 	REQUEST_POKE,				// sending pokes
 
 	REQUEST_USER_INFO,			// getting info about particular friend

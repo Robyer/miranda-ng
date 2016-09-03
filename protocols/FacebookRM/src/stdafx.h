@@ -86,6 +86,7 @@ class FacebookProto;
 #include "requests/notifications.h"
 #include "requests/profile.h"
 #include "requests/search.h"
+#include "requests/utils.h"
 
 extern HINSTANCE g_hInstance;
 extern std::string g_strUserAgent;

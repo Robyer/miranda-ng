@@ -370,8 +370,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 		//	case REQUEST_RECONNECT:
 		//	case REQUEST_POST_STATUS:
 		//	case REQUEST_IDENTITY_SWITCH:
-		//	case REQUEST_CAPTCHA_REFRESH:
-		//	case REQUEST_LINK_SCRAPER:
 		//	case REQUEST_MESSAGES_SEND:
 		//	case REQUEST_THREAD_INFO:
 		//	case REQUEST_THREAD_SYNC:
@@ -485,24 +483,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	case REQUEST_IDENTITY_SWITCH:
 		return "/identity_switch.php?__a=1";
-
-	case REQUEST_CAPTCHA_REFRESH:
-	{
-		std::string action = "/captcha/refresh_ajax.php?__a=1";
-		if (get_data != NULL) {
-			action += "&" + (*get_data);
-		}
-		return action;
-	}
-
-	case REQUEST_LINK_SCRAPER:
-	{
-		std::string action = "/ajax/composerx/attachment/link/scraper/?__a=1&composerurihash=2&scrape_url=";
-		if (get_data != NULL) {
-			action += utils::url::encode(*get_data);
-		}
-		return action;
-	}
 
 	case REQUEST_MESSAGES_SEND:
 		return "/messaging/send/?dpr=1";
@@ -1532,12 +1512,8 @@ int facebook_client::send_message(int seqid, MCONTACT hContact, const std::strin
 			parent->debugLogA("    Got imageUrl (first): %s", imageUrl.c_str());
 			parent->debugLogA("    Got captchaPersistData (first): %s", captchaPersistData.c_str());
 
-			std::string capStr = "new_captcha_type=TFBCaptcha&skipped_captcha_data=" + captchaPersistData;
-			capStr += "&__dyn=" + __dyn();
-			capStr += "&__req=" + __req();
-			capStr += "&__rev=" + __rev();
-			capStr += "&__user=" + this->self_.user_id;
-			http::response capResp = flap(REQUEST_CAPTCHA_REFRESH, NULL, &capStr);
+			HttpRequest *request = new RefreshCaptchaRequest(this, captchaPersistData.c_str());
+			http::response capResp = sendRequest(request);
 
 			if (capResp.code == HTTP_CODE_OK) {
 				imageUrl = utils::text::html_entities_decode(utils::text::slashu_to_utf8(utils::text::source_get_value(&capResp.data, 3, "img class=\\\"img\\\"", "src=\\\"", "\\\"")));
@@ -1595,16 +1571,11 @@ bool facebook_client::post_status(status_data *status)
 
 	std::string data;
 	if (!status->url.empty()) {
-		data = "fb_dtsg=" + this->dtsg_;
-		data += "&targetid=" + (status->user_id.empty() ? this->self_.user_id : status->user_id);
-		data += "&xhpc_targetid=" + (status->user_id.empty() ? this->self_.user_id : status->user_id);
-		data += "&istimeline=1&composercontext=composer&onecolumn=1&nctr[_mod]=pagelet_timeline_recent&__a=1&ttstamp=" + ttstamp_;
-		data += "&__user=" + (status->isPage && !status->user_id.empty() ? status->user_id : this->self_.user_id);
-		data += "&loaded_components[0]=maininput&loaded_components[1]=backdateicon&loaded_components[2]=withtaggericon&loaded_components[3]=cameraicon&loaded_components[4]=placetaggericon&loaded_components[5]=mainprivacywidget&loaded_components[6]=withtaggericon&loaded_components[7]=backdateicon&loaded_components[8]=placetaggericon&loaded_components[9]=cameraicon&loaded_components[10]=mainprivacywidget&loaded_components[11]=maininput&loaded_components[12]=explicitplaceinput&loaded_components[13]=hiddenplaceinput&loaded_components[14]=placenameinput&loaded_components[15]=hiddensessionid&loaded_components[16]=withtagger&loaded_components[17]=backdatepicker&loaded_components[18]=placetagger&loaded_components[19]=citysharericon";
-		http::response resp = flap(REQUEST_LINK_SCRAPER, &data, &status->url);
-		std::string temp = utils::text::html_entities_decode(utils::text::slashu_to_utf8(resp.data));
+		HttpRequest *request = new LinkScraperRequest(this, status);
+		http::response resp = sendRequest(request);
 
 		data = "&xhpc_context=profile&xhpc_ismeta=1&xhpc_timeline=1&xhpc_composerid=u_jsonp_2_0&is_explicit_place=&composertags_place=&composer_session_id=&composertags_city=&disable_location_sharing=false&composer_predicted_city=&nctr[_mod]=pagelet_composer&__a=1&__dyn=&__req=1f&ttstamp=" + ttstamp_;
+		std::string temp = utils::text::html_entities_decode(utils::text::slashu_to_utf8(resp.data));
 		std::string form = utils::text::source_get_value(&temp, 2, "<form", "</form>");
 		utils::text::replace_all(&form, "\\\"", "\"");
 		data += "&" + utils::text::source_get_form_data(&form) + "&";
