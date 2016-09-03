@@ -173,5 +173,23 @@ public:
 	}
 };
 
+// sending pokes
+class SendPokeRequest : public HttpRequest
+{
+public:
+	SendPokeRequest(facebook_client *fc, const char *userId) :
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/pokes/dialog/")
+	{
+		Url
+			<< "__a=1";
+
+		Body
+			<< "do_confirm=0"
+			<< CHAR_VALUE("poke_target", userId)			
+			<< CHAR_VALUE("fb_dtsg", fc->dtsg_.c_str())
+			<< CHAR_VALUE("__user", fc->self_.user_id.c_str())
+			<< CHAR_VALUE("ttstamp", fc->ttstamp_.c_str());
+	}
+};
 
 #endif //_FACEBOOK_REQUEST_UTILS_H_

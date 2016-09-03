@@ -351,12 +351,9 @@ std::string facebook_client::choose_server(RequestType request_type)
 {
 	switch (request_type)
 	{
-		//	case REQUEST_USER_INFO:
-		//	case REQUEST_USER_INFO_ALL:
 		//	case REQUEST_MESSAGES_SEND:
 		//	case REQUEST_THREAD_INFO:
 		//	case REQUEST_THREAD_SYNC:
-		//	case REQUEST_POKE:
 		//	case REQUEST_MARK_READ:
 		//	case REQUEST_TYPING_SEND:
 		//  case REQUEST_DELETE_FRIEND:
@@ -375,12 +372,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	switch (request_type)
 	{
-	case REQUEST_USER_INFO: // ok, 17.8.2016
-		return "/chat/user_info/?dpr=1";
-
-	case REQUEST_USER_INFO_ALL: // ok, 17.8.2016
-		return "/chat/user_info_all/?dpr=1&viewer=" + self_.user_id;
-
 	case REQUEST_UNREAD_THREADS: // ok, 17.8.2016
 	{
 		return "/ajax/mercury/unread_threads.php?dpr=1";
@@ -418,9 +409,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 
 	case REQUEST_THREAD_SYNC: // TODO: This doesn't work anymore
 		return "/ajax/mercury/thread_sync.php?__a=1";
-
-	case REQUEST_POKE:
-		return "/pokes/dialog/?__a=1";
 
 	case REQUEST_MARK_READ:
 		return "/ajax/mercury/change_read_status.php?__a=1";

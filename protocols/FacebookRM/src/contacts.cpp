@@ -222,18 +222,11 @@ void FacebookProto::LoadContactInfo(facebook_user* fbu)
 	if (isOffline())
 		return;
 
-	// TODO: support for more friends at once
-	std::string data = "ids[0]=" + utils::url::encode(fbu->user_id);
+	LIST<const char> userIds(1);
+	userIds.insert(fbu->user_id.c_str());
 
-	data += "&__user=" + facy.self_.user_id;
-	data += "&__dyn=" + facy.__dyn();
-	data += "&__req=" + facy.__req();
-	data += "&fb_dtsg=" + facy.dtsg_;
-	data += "&ttstamp=" + facy.ttstamp_;
-	data += "&__rev=" + facy.__rev();
-	data += "&__pc=PHASED:DEFAULT&__be=-1&__a=1";
-
-	http::response resp = facy.flap(REQUEST_USER_INFO, &data); // NOTE: Request revised 17.8.2016
+	HttpRequest *request = new UserInfoRequest(&facy, userIds);
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.code == HTTP_CODE_OK) {
 		try {
@@ -294,21 +287,14 @@ void FacebookProto::LoadParticipantsNames(facebook_chatroom *fbc)
 	if (!namelessIds.empty()) {
 		// we have some contacts without name, let's load them all from the server
 
-		std::string data = "&__user=" + facy.self_.user_id;
-		data += "&__dyn=" + facy.__dyn();
-		data += "&__req=" + facy.__req();
-		data += "&fb_dtsg=" + facy.dtsg_;
-		data += "&ttstamp=" + facy.ttstamp_;
-		data += "&__rev=" + facy.__rev();
-		data += "&__pc=PHASED:DEFAULT&__be=-1&__a=1";
-
+		LIST<const char> userIds(1);
 		for (std::string::size_type i = 0; i < namelessIds.size(); i++) {
-			std::string pos = utils::conversion::to_string(&i, UTILS_CONV_UNSIGNED_NUMBER);
-			std::string id = utils::url::encode(namelessIds.at(i));
-			data += "&ids[" + pos + "]=" + id;
+			userIds.insert(namelessIds.at(i).c_str());
 		}
 
-		http::response resp = facy.flap(REQUEST_USER_INFO, &data); // NOTE: Request revised 17.8.2016
+		HttpRequest *request = new UserInfoRequest(&facy, userIds);
+		http::response resp = facy.sendRequest(request);
+		// userIds.destroy(); // TODO: Is this needed?
 
 		if (resp.code == HTTP_CODE_OK) {
 			try {
@@ -704,14 +690,9 @@ void FacebookProto::SendPokeWorker(void *p)
 		return;
 	}
 
-	std::string data = "poke_target=" + *id;
-	data += "&do_confirm=0";
-	data += "&fb_dtsg=" + facy.dtsg_;
-	data += "&__user=" + facy.self_.user_id;
-	data += "&ttstamp=" + facy.ttstamp_;
-
 	// Send poke
-	http::response resp = facy.flap(REQUEST_POKE, &data);
+	HttpRequest *request = new SendPokeRequest(&facy, id->c_str());
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"payload\":null", 0) != std::string::npos) {
 		resp.data = utils::text::slashu_to_utf8(

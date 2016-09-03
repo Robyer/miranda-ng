@@ -70,13 +70,12 @@ public:
 class ProfileRequest : public HttpRequest
 {
 public:
-	ProfileRequest(boolean mobileBasicWorks, const char *userId) :
-		HttpRequest(REQUEST_GET, FORMAT, "%s/%s", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
+	ProfileRequest(boolean mobileBasicWorks, const char *data) :
+		HttpRequest(REQUEST_GET, FORMAT, "%s/%s", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE, data)
 	{
 		flags |= NLHRF_REDIRECT;
 
 		Url
-			//<< CHAR_VALUE("profile_id", userId)
 			<< "v=info";
 	}
 };

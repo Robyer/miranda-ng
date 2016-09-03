@@ -3,7 +3,7 @@
 Facebook plugin for Miranda Instant Messenger
 _____________________________________________
 
-Copyright © 2009-11 Michal Zelinka, 2011-16 Robert Pösel
+Copyright ï¿½ 2009-11 Michal Zelinka, 2011-16 Robert Pï¿½sel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -115,13 +115,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Facebook request types
 enum RequestType {
-	// events
-	REQUEST_POKE,				// sending pokes
-
 	// contacts
-	REQUEST_USER_INFO,			// getting info about particular friend
-	REQUEST_USER_INFO_ALL,		// getting info about all friends
-	
 	REQUEST_ADD_FRIEND,			// requesting friendships
 	REQUEST_DELETE_FRIEND,		// deleting friendships
 	REQUEST_CANCEL_FRIENDSHIP,	// canceling (our) friendship request

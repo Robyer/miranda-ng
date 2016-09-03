@@ -46,15 +46,8 @@ void FacebookProto::ProcessFriendList(void*)
 	facy.handle_entry("load_friends");
 
 	// Get friends list
-	std::string data = "__user=" + facy.self_.user_id;
-	data += "&__dyn=" + facy.__dyn();
-	data += "&__req=" + facy.__req();
-	data += "&fb_dtsg=" + facy.dtsg_;
-	data += "&ttstamp=" + facy.ttstamp_;
-	data += "&__rev=" + facy.__rev();
-	data += "&__pc=PHASED:DEFAULT&__be=-1&__a=1";
-
-	http::response resp = facy.flap(REQUEST_USER_INFO_ALL, &data); // NOTE: Request revised 17.8.2016
+	HttpRequest *request = new UserInfoAllRequest(&facy);
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.code != HTTP_CODE_OK) {
 		facy.handle_error("load_friends");
@@ -1432,11 +1425,14 @@ void FacebookProto::SearchIdAckThread(void *targ)
 
 	if (!isOffline())
 	{
-		http::response resp = facy.flap(REQUEST_USER_INFO_MOBILE, NULL, &search);
+		HttpRequest *request = new ProfileRequest(facy.mbasicWorks, search.c_str());
+		http::response resp = facy.sendRequest(request);
 
 		if (resp.code == HTTP_CODE_FOUND && resp.headers.find("Location") != resp.headers.end()) {
 			search = utils::text::source_get_value(&resp.headers["Location"], 2, FACEBOOK_SERVER_MBASIC"/", "_rdr", true);
-			resp = facy.flap(REQUEST_USER_INFO_MOBILE, NULL, &search);
+
+			HttpRequest *request = new ProfileRequest(facy.mbasicWorks, search.c_str());
+			http::response resp = facy.sendRequest(request);
 		}
 
 		if (resp.code == HTTP_CODE_OK)
