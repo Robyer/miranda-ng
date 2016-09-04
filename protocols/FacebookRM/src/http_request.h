@@ -235,6 +235,7 @@ public:
 	HttpRequestBody Body;
 	
 	bool NotifyErrors;
+	int PersistentConnection;
 
 	HttpRequest(int type, LPCSTR url)
 		: Url(*this, url), Headers(*this)
@@ -246,6 +247,7 @@ public:
 		timeout = 20 * 1000;
 
 		NotifyErrors = true;
+		PersistentConnection = 2;
 	}
 
 	HttpRequest(int type, HttpRequestUrlFormat, LPCSTR urlFormat, ...)
@@ -259,6 +261,7 @@ public:
 		timeout = 20 * 1000;
 
 		NotifyErrors = true;
+		PersistentConnection = 2;
 	}
 
 	virtual ~HttpRequest()

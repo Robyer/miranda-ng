@@ -59,10 +59,23 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 	request->flags |= NLHRF_NODUMP;
 #endif
 
-	// FIXME: Support persistent connection for various requests
-	/*
 	// Set persistent connection (or not)
-	switch (request_type) {
+	switch (request->PersistentConnection) {
+	case 0:
+		request->nlc = NULL;
+		break;
+	case 1:
+		request->nlc = hMsgCon;
+		request->flags |= NLHRF_PERSISTENT;
+		break;
+	case 2:
+		WaitForSingleObject(fcb_conn_lock_, INFINITE);
+		request->nlc = hMsgCon;
+		request->flags |= NLHRF_PERSISTENT;
+		break;
+	}
+
+	/*switch (request_type) {
 	case REQUEST_LOGIN:
 		request->nlc = NULL;
 		break;
@@ -77,16 +90,26 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 		request->nlc = hFcbCon;
 		request->flags |= NLHRF_PERSISTENT;
 		break;
-	}
-	*/
+	}*/
 	parent->debugLogA("@@@ Sending request to '%s'", request->szUrl);
 
 	// Send the request	
 	NETLIBHTTPREQUEST *pnlhr = request->Send(handle_);
 
-	// FIXME: Support persistent connection for various requests
-	/*
 	// Remember the persistent connection handle (or not)
+	switch (request->PersistentConnection) {
+	case 0:
+		break;
+	case 1:
+		hMsgCon = pnlhr ? pnlhr->nlc : NULL;
+		break;
+	case 2:
+		ReleaseMutex(fcb_conn_lock_);
+		hFcbCon = pnlhr ? pnlhr->nlc : NULL;
+		break;
+	}
+
+	/*
 	switch (request_type) {
 	case REQUEST_LOGIN:
 	case REQUEST_SETUP_MACHINE:
@@ -100,8 +123,7 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 		ReleaseMutex(fcb_conn_lock_);
 		hFcbCon = pnlhr ? pnlhr->nlc : NULL;
 		break;
-	}
-	*/
+	}*/
 
 	// Check and copy response data
 	if (pnlhr != NULL) {
