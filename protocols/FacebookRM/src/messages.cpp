@@ -154,22 +154,8 @@ void FacebookProto::SendTypingWorker(void *p)
 	ptrA id(getStringA(typing->hContact, value));
 	if (id != NULL) {
 		bool isChat = isChatRoom(typing->hContact);
-		std::string idEncoded = utils::url::encode(std::string(id));
-
-		std::string data = (typing->status == PROTOTYPE_SELFTYPING_ON ? "typ=1" : "typ=0");
-		data += "&to=" + (isChat ? "" : idEncoded);
-		data += "&source=mercury-chat";
-		data += "&thread=" + idEncoded;
-		data += "&__user=" + facy.self_.user_id;
-		data += "&__dyn=" + facy.__dyn();
-		data += "&__req=" + facy.__req();
-
-		data += "&fb_dtsg=" + facy.dtsg_;
-		data += "&ttstamp=" + facy.ttstamp_;
-		data += "&__rev=" + facy.__rev();
-		data += "&__pc=PHASED:DEFAULT&__be=-1&__a=1";
-
-		http::response resp = facy.flap(REQUEST_TYPING_SEND, &data); // NOTE: Request revised 17.8.2016
+		HttpRequest *request = new SendTypingRequest(&facy, id, isChat, typing->status == PROTOTYPE_SELFTYPING_ON);
+		http::response resp = facy.sendRequest(request);
 	}
 
 	delete typing;
@@ -190,10 +176,7 @@ void FacebookProto::ReadMessageWorker(void *p)
 		return;
 	}
 
-	std::string data = "fb_dtsg=" + facy.dtsg_;
-	data += "&__user=" + facy.self_.user_id;
-	data += "&__a=1&__dyn=&__req=&ttstamp=" + facy.ttstamp_;
-
+	LIST<char> ids(1);
 	for (std::set<MCONTACT>::iterator it = hContacts->begin(); it != hContacts->end(); ++it) {
 		MCONTACT hContact = *it;
 
@@ -206,12 +189,17 @@ void FacebookProto::ReadMessageWorker(void *p)
 		if (id == NULL)
 			continue;
 
-		data += "&ids[" + utils::url::encode(std::string(id)) + "]=true";
+		ids.insert(mir_strdup(id));
 	}
+	
 	hContacts->clear();
 	delete hContacts;
 
-	facy.flap(REQUEST_MARK_READ, &data);
+	HttpRequest *request = new MarkMessageReadRequest(&facy, ids);
+	facy.sendRequest(request);
+
+	FreeList(ids);
+	ids.destroy();
 }
 
 void FacebookProto::StickerAsSmiley(std::string sticker, const std::string &url, MCONTACT hContact)

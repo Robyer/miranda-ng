@@ -3,7 +3,7 @@
 Facebook plugin for Miranda Instant Messenger
 _____________________________________________
 
-Copyright © 2009-11 Michal Zelinka, 2011-16 Robert Pösel
+Copyright ï¿½ 2009-11 Michal Zelinka, 2011-16 Robert Pï¿½sel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -115,11 +115,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Facebook request types
 enum RequestType {
-	// messages	
-	REQUEST_MESSAGES_SEND,		// sending messages
-	REQUEST_TYPING_SEND,		// sending typing notification
-	REQUEST_MARK_READ,			// marking messages read
-
 	// history
 	REQUEST_THREAD_INFO,		// getting thread info
 	REQUEST_THREAD_SYNC,		// getting thread sync (changes since something)

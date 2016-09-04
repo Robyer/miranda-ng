@@ -85,6 +85,7 @@ class FacebookProto;
 #include "requests/feeds.h"
 #include "requests/channel.h"
 #include "requests/login.h"
+#include "requests/messages.h"
 #include "requests/notifications.h"
 #include "requests/profile.h"
 #include "requests/search.h"
@@ -116,3 +117,10 @@ private:
 	HANDLE handle_;
 	int timeout_;
 };
+
+template <typename T>
+__inline static void FreeList(const LIST<T> &lst)
+{
+	for (int i = 0; i < lst.getCount(); i++)
+		mir_free(lst[i]);
+}

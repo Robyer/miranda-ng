@@ -351,11 +351,8 @@ std::string facebook_client::choose_server(RequestType request_type)
 {
 	switch (request_type)
 	{
-		//	case REQUEST_MESSAGES_SEND:
 		//	case REQUEST_THREAD_INFO:
 		//	case REQUEST_THREAD_SYNC:
-		//	case REQUEST_MARK_READ:
-		//	case REQUEST_TYPING_SEND:
 		//	case REQUEST_UNREAD_THREADS:
 	default:
 		return FACEBOOK_SERVER_REGULAR;
@@ -369,24 +366,13 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 	switch (request_type)
 	{
 	case REQUEST_UNREAD_THREADS: // ok, 17.8.2016
-	{
 		return "/ajax/mercury/unread_threads.php?dpr=1";
-	}
-
-	case REQUEST_MESSAGES_SEND:
-		return "/messaging/send/?dpr=1";
 
 	case REQUEST_THREAD_INFO: // ok, 17.8.2016
 		return "/ajax/mercury/thread_info.php?dpr=1";
 
 	case REQUEST_THREAD_SYNC: // TODO: This doesn't work anymore
 		return "/ajax/mercury/thread_sync.php?__a=1";
-
-	case REQUEST_MARK_READ:
-		return "/ajax/mercury/change_read_status.php?__a=1";
-
-	case REQUEST_TYPING_SEND:
-		return "/ajax/messaging/typ.php?dpr=1"; // ok, 17.8.2016
 
 	default:
 		return "/?_fb_noscript=1";
@@ -1244,15 +1230,6 @@ int facebook_client::send_message(int seqid, MCONTACT hContact, const std::strin
 {
 	handle_entry("send_message");
 
-	http::response resp;
-	std::string data;
-
-	if (!captcha.empty()) {
-		data += "&captcha_persist_data=" + captcha_persist_data;
-		data += "&recaptcha_challenge_field=";
-		data += "&captcha_response=" + captcha;
-	}
-
 	boolean isChatRoom = parent->isChatRoom(hContact);
 
 	ptrA userId( parent->getStringA(hContact, FACEBOOK_KEY_ID));
@@ -1268,59 +1245,15 @@ int facebook_client::send_message(int seqid, MCONTACT hContact, const std::strin
 		return SEND_MESSAGE_ERROR;
 	}
 
-	data += "&client=mercury"; // or "web_messenger" (whole messages page)
-	data += "&action_type=ma-type:user-generated-message";
-	
-	// Experimental sticker sending support
-	if (message_text.substr(0, 10) == "[[sticker:" && message_text.substr(message_text.length() - 2) == "]]") {
-		data += "&body=";
-		data += "&sticker_id=" + utils::url::encode(message_text.substr(10, message_text.length() - 10 - 2));
-		data += "&has_attachment=true";
-		// TODO: For sending GIF images instead of "sticker_id=" there is "image_ids[0]=", otherwise it's same
-	}
-	else {
-		data += "&body=" + utils::url::encode(message_text);
-		data += "&has_attachment=false";
-	}
-
-	data += "&ephemeral_ttl_mode=0";
-	// data += "&force_sms=true" // TODO: This is present always when sending via "web_messenger"
-
 	// Probably we can generate any random messageID, it just have to be numeric and don't start with "0". We will receive it in response as "client_message_id".
 	std::string messageId = utils::text::rand_string(10, "123456789", &this->random_);
-	data += "&message_id=" + messageId;
-	data += "&offline_threading_id=" + messageId; // Same as message ID
-	
-	if (isChatRoom) {
-		// NOTE: Remove "id." prefix as here we need to give threadFbId and not threadId
-		std::string thread_fbid = threadId;
-		if (thread_fbid.substr(0, 3) == "id.")
-			thread_fbid = thread_fbid.substr(3);
 
-		data += "&thread_fbid=" + thread_fbid;
-	} else {
-		data += "&other_user_fbid=" + std::string(userId);
-		data += "&specific_to_list[0]=fbid:" + std::string(userId);
-		data += "&specific_to_list[1]=fbid:" + this->self_.user_id;
-	}
-
-	data += "&signature_id="; // TODO: How to generate signature ID? It is present only when sending via "mercury"
-	data += "&source=source:chat:web"; // or "source:titan:web" for web_messenger
-	data += "&timestamp=" + utils::time::mili_timestamp();
-	data += "&ui_push_phase=V3";
-	data += "&__user=" + this->self_.user_id;
-	data += "&__a=1";
-	data += "&__dyn=" + __dyn();
-	data += "&__req=" + __req();
-	data += "&__be=-1";
-	data += "&__pc=PHASED:DEFAULT";
-	data += "&fb_dtsg=" + this->dtsg_;
-	data += "&ttstamp=" + ttstamp_;
-	data += "&__rev=" + __rev();
+	http::response resp;
 
 	{
 		ScopedLock s(send_message_lock_);
-		resp = flap(REQUEST_MESSAGES_SEND, &data); // NOTE: Request revised 17.8.2016
+		HttpRequest *request = new SendMessageRequest(this, userId, threadId, messageId.c_str(), message_text.c_str(), isChatRoom, captcha.c_str(), captcha_persist_data.c_str());
+		resp = sendRequest(request);
 
 		*error_text = resp.error_text;
 
