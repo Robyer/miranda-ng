@@ -3,7 +3,7 @@
 Facebook plugin for Miranda Instant Messenger
 _____________________________________________
 
-Copyright ï¿½ 2011-16 Robert Pï¿½sel
+Copyright © 2011-16 Robert Pösel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@ class UserInfoRequest : public HttpRequest
 {
 public:
 	UserInfoRequest(facebook_client *fc, const LIST<const char> &userIds) :
-		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_CHAT "/chat/user_info/")
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/chat/user_info/")
 	{
 		Url
 			<< "dpr=1";
@@ -70,7 +70,7 @@ class UserInfoAllRequest : public HttpRequest
 {
 public:
 	UserInfoAllRequest(facebook_client *fc) :
-		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_CHAT "/chat/user_info_all/")
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/chat/user_info_all/")
 	{
 		Url
 			<< "dpr=1"
@@ -86,6 +86,105 @@ public:
 			<< "__a=1"
 			<< "__pc=PHASED:DEFAULT"
 			<< "__be=-1";
+	}
+};
+
+// requesting friendships
+class AddFriendRequest : public HttpRequest
+{
+public:
+	AddFriendRequest(facebook_client *fc, const char *userId) :
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/ajax/add_friend/action.php")
+	{
+		Url
+			<< "__a=1";
+
+		Body
+			<< CHAR_VALUE("to_friend", userId)
+			<< CHAR_VALUE("fb_dtsg", fc->dtsg_.c_str())
+			<< CHAR_VALUE("__user", fc->self_.user_id.c_str())
+			<< "action=add_friend"
+			<< "how_found=profile_button"
+			<< "ref_param=ts"
+			<< "outgoing_id="
+			<< "unwanted="
+			<< "logging_location="
+			<< "no_flyout_on_click=false"
+			<< "ego_log_data="
+			<< "lsd=";
+	}
+};
+
+// deleting friendships
+class DeleteFriendRequest : public HttpRequest
+{
+public:
+	DeleteFriendRequest(facebook_client *fc, const char *userId) :
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/ajax/profile/removefriendconfirm.php")
+	{
+		Url
+			<< "__a=1"
+			<< "norefresh=true"
+			<< "unref=button_dropdown"
+			<< CHAR_VALUE("uid", userId);
+
+		Body
+			<< CHAR_VALUE("uid", userId)
+			<< CHAR_VALUE("fb_dtsg", fc->dtsg_.c_str())
+			<< CHAR_VALUE("__user", fc->self_.user_id.c_str())
+			<< CHAR_VALUE("ttstamp", fc->ttstamp_.c_str())
+			<< "norefresh=true"
+			<< "unref=button_dropdown"
+			<< "confirmed=1"
+			<< "__a=1";
+	}
+};
+
+// canceling (our) friendship request
+class CancelFriendshipRequest : public HttpRequest
+{
+public:
+	CancelFriendshipRequest(facebook_client *fc, const char *userId) :
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/ajax/friends/requests/cancel.php")
+	{
+		Url
+			<< "__a=1";
+
+		Body
+			<< "confirmed=1"
+			<< CHAR_VALUE("friend", userId)
+			<< CHAR_VALUE("fb_dtsg", fc->dtsg_.c_str())
+			<< CHAR_VALUE("__user", fc->self_.user_id.c_str());
+	}
+};
+
+// approving or ignoring friendship requests
+class AnswerFriendshipRequest : public HttpRequest
+{
+public:
+	enum Answer { CONFIRM, REJECT };
+
+	AnswerFriendshipRequest(facebook_client *fc, const char *userId, Answer answer) :
+		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/requests/friends/ajax/")
+	{
+		Url
+			<< "__a=1";
+
+		const char *action;
+		switch (answer) {
+		case CONFIRM:
+			action = "confirm";
+			break;
+		case REJECT:
+			action = "reject";
+			break;
+		}
+
+		Body
+			<< CHAR_VALUE("action", action)
+			<< CHAR_VALUE("id", userId)
+			<< CHAR_VALUE("fb_dtsg", fc->dtsg_.c_str())
+			<< CHAR_VALUE("__user", fc->self_.user_id.c_str());
 	}
 };
 

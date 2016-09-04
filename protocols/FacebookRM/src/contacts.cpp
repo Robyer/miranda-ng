@@ -491,16 +491,9 @@ void FacebookProto::DeleteContactFromServer(void *data)
 	if (isOffline())
 		return;
 
-	std::string query = "norefresh=true&unref=button_dropdown&confirmed=1&__a=1";
-	query += "&fb_dtsg=" + facy.dtsg_;
-	query += "&uid=" + id;
-	query += "&__user=" + facy.self_.user_id;
-	query += "&ttstamp=" + facy.ttstamp_;
-
-	std::string get_query = "norefresh=true&unref=button_dropdown&uid=" + id;
-
-	// Get unread inbox threads
-	http::response resp = facy.flap(REQUEST_DELETE_FRIEND, &query, &get_query);
+	// Delete contact from server
+	HttpRequest *request = new DeleteFriendRequest(&facy, id.c_str());
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"payload\":null", 0) != std::string::npos)
 	{
@@ -541,13 +534,9 @@ void FacebookProto::AddContactToServer(void *data)
 	if (isOffline())
 		return;
 
-	std::string query = "action=add_friend&how_found=profile_button&ref_param=ts&outgoing_id=&unwanted=&logging_location=&no_flyout_on_click=false&ego_log_data=&lsd=";
-	query += "&fb_dtsg=" + facy.dtsg_;
-	query += "&to_friend=" + id;
-	query += "&__user=" + facy.self_.user_id;
-
-	// Get unread inbox threads
-	http::response resp = facy.flap(REQUEST_ADD_FRIEND, &query);
+	// Request friendship
+	HttpRequest *request = new AddFriendRequest(&facy, id.c_str());
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"success\":true", 0) != std::string::npos) {
 		MCONTACT hContact = ContactIDToHContact(id);
@@ -581,13 +570,9 @@ void FacebookProto::ApproveContactToServer(void *data)
 	if (!id)
 		return;
 
-	std::string query = "action=confirm";
-	query += "&id=" + std::string(id);
-	query += "&__user=" + facy.self_.user_id;
-	query += "&fb_dtsg=" + facy.dtsg_;
-
-	// Ignore friendship request
-	http::response resp = facy.flap(REQUEST_FRIENDSHIP, &query);
+	// Confirm friendship request
+	HttpRequest *request = new AnswerFriendshipRequest(&facy, id, AnswerFriendshipRequest::Answer::CONFIRM);
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"success\":true") != std::string::npos)
 	{
@@ -617,13 +602,9 @@ void FacebookProto::CancelFriendsRequest(void *data)
 	if (!id)
 		return;
 
-	std::string query = "confirmed=1";
-	query += "&fb_dtsg=" + facy.dtsg_;
-	query += "&__user=" + facy.self_.user_id;
-	query += "&friend=" + std::string(id);
-
 	// Cancel (our) friendship request
-	http::response resp = facy.flap(REQUEST_CANCEL_FRIENDSHIP, &query);
+	HttpRequest *request = new CancelFriendshipRequest(&facy, id);
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"payload\":null", 0) != std::string::npos)
 	{
@@ -653,13 +634,9 @@ void FacebookProto::IgnoreFriendshipRequest(void *data)
 	if (!id)
 		return;
 
-	std::string query = "action=reject";
-	query += "&id=" + std::string(id);
-	query += "&__user=" + facy.self_.user_id;
-	query += "&fb_dtsg=" + facy.dtsg_;
-
 	// Ignore friendship request
-	http::response resp = facy.flap(REQUEST_FRIENDSHIP, &query);
+	HttpRequest *request = new AnswerFriendshipRequest(&facy, id, AnswerFriendshipRequest::Answer::REJECT);
+	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"success\":true") != std::string::npos)
 	{

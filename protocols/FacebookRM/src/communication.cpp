@@ -356,10 +356,6 @@ std::string facebook_client::choose_server(RequestType request_type)
 		//	case REQUEST_THREAD_SYNC:
 		//	case REQUEST_MARK_READ:
 		//	case REQUEST_TYPING_SEND:
-		//  case REQUEST_DELETE_FRIEND:
-		//	case REQUEST_ADD_FRIEND:
-		//	case REQUEST_CANCEL_FRIENDSHIP:
-		//	case REQUEST_FRIENDSHIP:
 		//	case REQUEST_UNREAD_THREADS:
 	default:
 		return FACEBOOK_SERVER_REGULAR;
@@ -375,30 +371,6 @@ std::string facebook_client::choose_action(RequestType request_type, std::string
 	case REQUEST_UNREAD_THREADS: // ok, 17.8.2016
 	{
 		return "/ajax/mercury/unread_threads.php?dpr=1";
-	}
-
-	case REQUEST_DELETE_FRIEND:
-	{
-		std::string action = "/ajax/profile/removefriendconfirm.php?__a=1";
-		if (get_data != NULL) {
-			action += *get_data;
-		}
-		return action;
-	}
-
-	case REQUEST_ADD_FRIEND:
-	{
-		return "/ajax/add_friend/action.php?__a=1";
-	}
-
-	case REQUEST_CANCEL_FRIENDSHIP:
-	{
-		return "/ajax/friends/requests/cancel.php?__a=1";
-	}
-
-	case REQUEST_FRIENDSHIP:
-	{
-		return "/requests/friends/ajax/?__a=1";
 	}
 
 	case REQUEST_MESSAGES_SEND:
