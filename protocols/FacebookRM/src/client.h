@@ -154,7 +154,7 @@ public:
 		// Increment request number and convert it to string with radix 36 (whole numbers + whole alphabet)
 		char buffer[10];
 		itoa(InterlockedIncrement(&this->chat_req_), buffer, 36);
-		return buffer;
+		return ptrA(mir_strdup(buffer));
 	}
 
 	__inline const char *__rev() {

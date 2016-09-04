@@ -170,7 +170,7 @@ public:
 		Url
 			<< "__a=1";
 
-		const char *action;
+		const char *action = "";
 		switch (answer) {
 		case CONFIRM:
 			action = "confirm";

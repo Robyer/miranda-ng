@@ -550,7 +550,7 @@ void FacebookProto::ApproveContactToServer(void *data)
 		return;
 
 	// Confirm friendship request
-	HttpRequest *request = new AnswerFriendshipRequest(&facy, id, AnswerFriendshipRequest::Answer::CONFIRM);
+	HttpRequest *request = new AnswerFriendshipRequest(&facy, id, AnswerFriendshipRequest::CONFIRM);
 	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"success\":true") != std::string::npos)
@@ -614,7 +614,7 @@ void FacebookProto::IgnoreFriendshipRequest(void *data)
 		return;
 
 	// Ignore friendship request
-	HttpRequest *request = new AnswerFriendshipRequest(&facy, id, AnswerFriendshipRequest::Answer::REJECT);
+	HttpRequest *request = new AnswerFriendshipRequest(&facy, id, AnswerFriendshipRequest::REJECT);
 	http::response resp = facy.sendRequest(request);
 
 	if (resp.data.find("\"success\":true") != std::string::npos)

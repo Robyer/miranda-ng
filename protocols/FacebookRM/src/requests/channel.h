@@ -27,9 +27,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 class ChannelRequest : public HttpRequest
 {
 public:
-	enum ChannelRequestType { PULL, PING };
+	enum Type { PULL, PING };
 
-	ChannelRequest(facebook_client *fc, ChannelRequestType type) :
+	ChannelRequest(facebook_client *fc, Type type) :
 		HttpRequest(REQUEST_POST, FORMAT,
 			type == PULL ? FACEBOOK_SERVER_CHAT "/pull" : FACEBOOK_SERVER_CHAT "/active_ping",
 			fc->chat_conn_num_.empty() ? "0" : fc->chat_conn_num_.c_str(),

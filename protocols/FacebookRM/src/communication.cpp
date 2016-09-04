@@ -569,8 +569,8 @@ bool facebook_client::login(const char *username, const char *password)
 					resp = sendRequest(request);
 
 					// 3) Save last device
-					const char *fb_dtsg = utils::url::encode(utils::text::source_get_value(&resp.data, 3, "name=\"fb_dtsg\"", "value=\"", "\"")).c_str();
-					const char *nh = utils::text::source_get_value(&resp.data, 3, "name=\"nh\"", "value=\"", "\"").c_str();
+					fb_dtsg = utils::url::encode(utils::text::source_get_value(&resp.data, 3, "name=\"fb_dtsg\"", "value=\"", "\"")).c_str();
+					nh = utils::text::source_get_value(&resp.data, 3, "name=\"nh\"", "value=\"", "\"").c_str();
 					
 					request = new SetupMachineRequest(fb_dtsg, nh, "Continue");
 					request->Body << "&name_action_selected=save_device"; // Save device - or "dont_save"
@@ -890,7 +890,7 @@ bool facebook_client::channel()
 	handle_entry("channel");
 
 	// Get updates
-	ChannelRequest *request = new ChannelRequest(this, ChannelRequest::ChannelRequestType::PULL);
+	ChannelRequest *request = new ChannelRequest(this, ChannelRequest::PULL);
 	http::response resp = sendRequest(request);
 
 	if (resp.data.empty()) {
@@ -999,7 +999,7 @@ bool facebook_client::activity_ping()
 
 	handle_entry("activity_ping");
 
-	ChannelRequest *request = new ChannelRequest(this, ChannelRequest::ChannelRequestType::PING);
+	ChannelRequest *request = new ChannelRequest(this, ChannelRequest::PING);
 	http::response resp = sendRequest(request);
 
 	// Remember this last ping time
