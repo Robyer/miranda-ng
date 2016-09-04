@@ -51,13 +51,13 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 	}
 
 	// TODO: rather change http_request than doing this ifdef magic here?
-#ifdef _DEBUG 
+/*#ifdef _DEBUG 
 	request->flags &= ~NLHRF_NODUMP;
 	request->flags |= NLHRF_DUMPASTEXT;
 #else
 	request->flags &= ~NLHRF_DUMPASTEXT;
 	request->flags |= NLHRF_NODUMP;
-#endif
+#endif*/
 
 	// Set persistent connection (or not)
 	switch (request->PersistentConnection) {
@@ -70,7 +70,7 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 		break;
 	case 2:
 		WaitForSingleObject(fcb_conn_lock_, INFINITE);
-		request->nlc = hMsgCon;
+		request->nlc = hFcbCon;
 		request->flags |= NLHRF_PERSISTENT;
 		break;
 	}
@@ -1060,8 +1060,8 @@ int facebook_client::send_message(int seqid, MCONTACT hContact, const std::strin
 	http::response resp;
 
 	{
-		ScopedLock s(send_message_lock_);
 		HttpRequest *request = new SendMessageRequest(this, userId, threadId, messageId.c_str(), message_text.c_str(), isChatRoom, captcha.c_str(), captcha_persist_data.c_str());
+		ScopedLock s(send_message_lock_);		
 		resp = sendRequest(request);
 
 		*error_text = resp.error_text;
