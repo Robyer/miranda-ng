@@ -3,7 +3,7 @@
 Facebook plugin for Miranda Instant Messenger
 _____________________________________________
 
-Copyright ï¿½ 2009-11 Michal Zelinka, 2011-16 Robert Pï¿½sel
+Copyright © 2009-11 Michal Zelinka, 2011-16 Robert Pösel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -112,14 +112,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Event types
 #define FACEBOOK_EVENTTYPE_CALL					10010
-
-// Facebook request types
-enum RequestType {
-	// history
-	REQUEST_THREAD_INFO,		// getting thread info
-	REQUEST_THREAD_SYNC,		// getting thread sync (changes since something)
-	REQUEST_UNREAD_THREADS,		// getting unread threads
-};
 
 enum ContactType {
 	CONTACT_FRIEND	= 1,	// contact that IS on our server list
