@@ -208,16 +208,8 @@ public:
 
 	// HTTP communication
 
-	http::response flap(RequestType request_type, std::string *post_data = NULL, std::string *get_data = NULL);
-	bool save_url(const std::string &url,const std::wstring &filename, HANDLE &nlc);
-
 	http::response sendRequest(HttpRequest *request);
-
-	bool notify_errors(RequestType);
-	std::string choose_server(RequestType);
-	std::string choose_action(RequestType, std::string *get_data = NULL);
-
-	NETLIBHTTPHEADER *get_request_headers(int request_type, int *headers_count);
+	bool save_url(const std::string &url,const std::wstring &filename, HANDLE &nlc);
 
 	////////////////////////////////////////////////////////////
 

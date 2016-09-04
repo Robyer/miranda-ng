@@ -3,7 +3,7 @@
 Facebook plugin for Miranda Instant Messenger
 _____________________________________________
 
-Copyright © 2011-16 Robert Pösel
+Copyright ï¿½ 2011-16 Robert Pï¿½sel
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -31,8 +31,8 @@ public:
 	SendMessageRequest(facebook_client *fc, const char *userId, const char *threadId, const char *messageId, const char *messageText, bool isChat, const char *captcha, const char *captchaPersistData) :
 		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/messaging/send/")
 	{
-		// FIXME: Set to not notify errors for only this request (because we're getting them inline)
-		// notifyErrors = false;
+		// Don't notify errors for this request, because we're getting them inline in messaging window
+		NotifyErrors = false;
 
 		Url
 			<< "dpr=1";

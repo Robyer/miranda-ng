@@ -56,7 +56,7 @@ public:
 class ProfilePictureRequest : public HttpRequest
 {
 public:
-	ProfilePictureRequest(boolean mobileBasicWorks, const char *userId) :
+	ProfilePictureRequest(bool mobileBasicWorks, const char *userId) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/profile/picture/view/", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
 	{
 		flags |= NLHRF_REDIRECT;
@@ -70,7 +70,7 @@ public:
 class ProfileRequest : public HttpRequest
 {
 public:
-	ProfileRequest(boolean mobileBasicWorks, const char *data) :
+	ProfileRequest(bool mobileBasicWorks, const char *data) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/%s", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE, data)
 	{
 		flags |= NLHRF_REDIRECT;

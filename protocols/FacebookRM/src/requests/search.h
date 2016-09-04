@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 class SearchRequest : public HttpRequest
 {
 public:
-	SearchRequest(boolean mobileBasicWorks, const char *query, int s, const char *ssid) :
+	SearchRequest(bool mobileBasicWorks, const char *query, int s, const char *ssid) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/search/", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
 	{
 		flags |= NLHRF_REDIRECT;

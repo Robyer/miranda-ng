@@ -233,6 +233,8 @@ public:
 	HttpRequestUrl Url;
 	HttpRequestHeaders Headers;
 	HttpRequestBody Body;
+	
+	bool NotifyErrors;
 
 	HttpRequest(int type, LPCSTR url)
 		: Url(*this, url), Headers(*this)
@@ -242,6 +244,8 @@ public:
 		requestType = type;
 		pData = NULL;
 		timeout = 20 * 1000;
+
+		NotifyErrors = true;
 	}
 
 	HttpRequest(int type, HttpRequestUrlFormat, LPCSTR urlFormat, ...)
@@ -253,6 +257,8 @@ public:
 		va_end(formatArgs);
 		pData = NULL;
 		timeout = 20 * 1000;
+
+		NotifyErrors = true;
 	}
 
 	virtual ~HttpRequest()

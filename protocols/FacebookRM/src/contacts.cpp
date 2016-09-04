@@ -222,11 +222,14 @@ void FacebookProto::LoadContactInfo(facebook_user* fbu)
 	if (isOffline())
 		return;
 
-	LIST<const char> userIds(1);
-	userIds.insert(fbu->user_id.c_str());
+	LIST<char> userIds(1);
+	userIds.insert(mir_strdup(fbu->user_id.c_str()));
 
 	HttpRequest *request = new UserInfoRequest(&facy, userIds);
 	http::response resp = facy.sendRequest(request);
+
+	FreeList(userIds);
+	userIds.destroy();
 
 	if (resp.code == HTTP_CODE_OK) {
 		try {
@@ -287,14 +290,16 @@ void FacebookProto::LoadParticipantsNames(facebook_chatroom *fbc)
 	if (!namelessIds.empty()) {
 		// we have some contacts without name, let's load them all from the server
 
-		LIST<const char> userIds(1);
+		LIST<char> userIds(1);
 		for (std::string::size_type i = 0; i < namelessIds.size(); i++) {
-			userIds.insert(namelessIds.at(i).c_str());
+			userIds.insert(mir_strdup(namelessIds.at(i).c_str()));
 		}
 
 		HttpRequest *request = new UserInfoRequest(&facy, userIds);
 		http::response resp = facy.sendRequest(request);
-		// userIds.destroy(); // TODO: Is this needed?
+		
+		FreeList(userIds);
+		userIds.destroy();
 
 		if (resp.code == HTTP_CODE_OK) {
 			try {

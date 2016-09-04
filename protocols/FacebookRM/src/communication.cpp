@@ -27,157 +27,6 @@ void facebook_client::client_notify(wchar_t* message)
 	parent->NotifyEvent(parent->m_tszUserName, message, NULL, EVENT_CLIENT);
 }
 
-http::response facebook_client::flap(RequestType request_type, std::string *post_data, std::string *get_data)
-{
-	http::response resp;
-
-	if (parent->isOffline()) {
-		resp.code = HTTP_CODE_FAKE_OFFLINE;
-		return resp;
-	}
-
-	// Prepare the request
-	NETLIBHTTPREQUEST nlhr = { sizeof(NETLIBHTTPREQUEST) };
-
-	std::string server = choose_server(request_type);
-
-	// Set request URL
-	std::string url = HTTP_PROTO_SECURE + server + choose_action(request_type, get_data);
-	if (!parent->m_locale.empty())
-		url += "&locale=" + parent->m_locale;
-	
-	nlhr.szUrl = (char*)url.c_str();
-
-	// Set request type (GET/POST) and eventually also POST data
-	if (post_data != NULL) {
-		nlhr.requestType = REQUEST_POST;
-		nlhr.pData = (char*)(*post_data).c_str();
-		nlhr.dataLength = (int)post_data->length();
-	} else {
-		nlhr.requestType = REQUEST_GET;
-	}
-
-	// Set headers - it depends on requestType so it must be after setting that
-	nlhr.headers = get_request_headers(nlhr.requestType, &nlhr.headersCount);	
-
-	// Set flags
-	nlhr.flags = NLHRF_HTTP11 | NLHRF_SSL;
-
-	if (server == FACEBOOK_SERVER_MBASIC || server == FACEBOOK_SERVER_MOBILE) {
-		nlhr.flags |= NLHRF_REDIRECT;
-	}
-
-#ifdef _DEBUG 
-	nlhr.flags |= NLHRF_DUMPASTEXT;
-#else
-	nlhr.flags |= NLHRF_NODUMP;
-#endif
-
-	// Set persistent connection (or not)
-	switch (request_type) {
-	case REQUEST_LOGIN:
-		nlhr.nlc = NULL;
-		break;
-
-	case REQUEST_MESSAGES_RECEIVE:
-		nlhr.nlc = hMsgCon;
-		nlhr.flags |= NLHRF_PERSISTENT;
-		break;
-
-	default:
-		WaitForSingleObject(fcb_conn_lock_, INFINITE);
-		nlhr.nlc = hFcbCon;
-		nlhr.flags |= NLHRF_PERSISTENT;
-		break;
-	}
-
-	parent->debugLogA("@@@ Sending request to '%s'", nlhr.szUrl);
-
-	// Send the request	
-	NETLIBHTTPREQUEST *pnlhr = (NETLIBHTTPREQUEST*)CallService(MS_NETLIB_HTTPTRANSACTION, (WPARAM)handle_, (LPARAM)&nlhr);	
-
-	mir_free(nlhr.headers[3].szValue);
-	mir_free(nlhr.headers);
-
-	// Remember the persistent connection handle (or not)
-	switch (request_type) {
-	case REQUEST_LOGIN:
-	case REQUEST_SETUP_MACHINE:
-		break;
-
-	case REQUEST_MESSAGES_RECEIVE:
-		hMsgCon = pnlhr ? pnlhr->nlc : NULL;
-		break;
-
-	default:
-		ReleaseMutex(fcb_conn_lock_);
-		hFcbCon = pnlhr ? pnlhr->nlc : NULL;
-		break;
-	}
-
-	// Check and copy response data
-	if (pnlhr != NULL) {
-		parent->debugLogA("@@@ Got response with code %d", pnlhr->resultCode);
-		store_headers(&resp, pnlhr->headers, pnlhr->headersCount);
-		resp.code = pnlhr->resultCode;
-		resp.data = pnlhr->pData ? pnlhr->pData : "";
-
-		CallService(MS_NETLIB_FREEHTTPREQUESTSTRUCT, 0, (LPARAM)pnlhr);
-	} else {
-		parent->debugLogA("!!! No response from server (time-out)");
-		resp.code = HTTP_CODE_FAKE_DISCONNECTED;
-		// Better to have something set explicitely as this value is compaired in all communication requests
-	}
-
-	// Get Facebook's error message
-	if (resp.code == HTTP_CODE_OK) {
-		std::string::size_type pos = resp.data.find("\"error\":");
-		if (pos != std::string::npos) {
-			pos += 8;
-			int error_num = atoi(resp.data.substr(pos, resp.data.find(",", pos) - pos).c_str());
-			if (error_num != 0) {
-				std::string error;
-
-				pos = resp.data.find("\"errorDescription\":\"", pos);
-				if (pos != std::string::npos) {
-					pos += 20;
-
-					std::string::size_type pos2 = resp.data.find("\",\"", pos);
-					if (pos2 == std::string::npos) {
-						pos2 = resp.data.find("\"", pos);
-					}
-
-					error = resp.data.substr(pos, pos2 - pos);
-					error = utils::text::trim(utils::text::html_entities_decode(utils::text::remove_html(utils::text::slashu_to_utf8(error))));
-					error = ptrA(mir_utf8decodeA(error.c_str()));
-				}
-
-				std::string title;
-				pos = resp.data.find("\"errorSummary\":\"", pos);
-				if (pos != std::string::npos) {
-					pos += 16;
-					title = resp.data.substr(pos, resp.data.find("\"", pos) - pos);
-					title = utils::text::trim(utils::text::html_entities_decode(utils::text::remove_html(utils::text::slashu_to_utf8(title))));
-					title = ptrA(mir_utf8decodeA(title.c_str()));
-				}
-
-				bool silent = resp.data.find("\"silentError\":1") != std::string::npos;
-
-				resp.error_number = error_num;
-				resp.error_text = error;
-				resp.error_title = title;
-				resp.code = HTTP_CODE_FAKE_ERROR;
-
-				parent->debugLogA("!!! Received Facebook error: %d -- %s", error_num, error.c_str());
-				if (notify_errors(request_type) && !silent)
-					client_notify(_A2T(error.c_str()));
-			}
-		}
-	}
-
-	return resp;
-}
-
 http::response facebook_client::sendRequest(HttpRequest *request)
 {
 	http::response resp;
@@ -210,6 +59,8 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 	request->flags |= NLHRF_NODUMP;
 #endif
 
+	// FIXME: Support persistent connection for various requests
+	/*
 	// Set persistent connection (or not)
 	switch (request_type) {
 	case REQUEST_LOGIN:
@@ -227,12 +78,14 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 		request->flags |= NLHRF_PERSISTENT;
 		break;
 	}
-
+	*/
 	parent->debugLogA("@@@ Sending request to '%s'", request->szUrl);
 
 	// Send the request	
 	NETLIBHTTPREQUEST *pnlhr = request->Send(handle_);
 
+	// FIXME: Support persistent connection for various requests
+	/*
 	// Remember the persistent connection handle (or not)
 	switch (request_type) {
 	case REQUEST_LOGIN:
@@ -248,6 +101,7 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 		hFcbCon = pnlhr ? pnlhr->nlc : NULL;
 		break;
 	}
+	*/
 
 	// Check and copy response data
 	if (pnlhr != NULL) {
@@ -263,6 +117,9 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 		resp.code = HTTP_CODE_FAKE_DISCONNECTED;
 		// Better to have something set explicitely as this value is compaired in all communication requests
 	}
+
+	// Delete the request object
+	delete request;
 
 	// Get Facebook's error message
 	if (resp.code == HTTP_CODE_OK) {
@@ -304,7 +161,7 @@ http::response facebook_client::sendRequest(HttpRequest *request)
 				resp.code = HTTP_CODE_FAKE_ERROR;
 
 				parent->debugLogA("!!! Received Facebook error: %d -- %s", error_num, error.c_str());
-				if (notify_errors(request_type) && !silent)
+				if (request->NotifyErrors && !silent)
 					client_notify(_A2T(error.c_str()));
 			}
 		}
@@ -346,76 +203,6 @@ bool facebook_client::handle_error(const std::string &method, int action)
 }
 
 //////////////////////////////////////////////////////////////////////////////
-
-std::string facebook_client::choose_server(RequestType request_type)
-{
-	switch (request_type)
-	{
-		//	case REQUEST_THREAD_INFO:
-		//	case REQUEST_THREAD_SYNC:
-		//	case REQUEST_UNREAD_THREADS:
-	default:
-		return FACEBOOK_SERVER_REGULAR;
-	}
-}
-
-std::string facebook_client::choose_action(RequestType request_type, std::string *get_data)
-{
-	// NOTE: Parameter "client" used in some requests's POST data could be "jewel" (top bar?), "mercury" (chat window, source=source:chat:web) or "web_messenger" (whole chat messages page, source=source:titan:web)
-
-	switch (request_type)
-	{
-	case REQUEST_UNREAD_THREADS: // ok, 17.8.2016
-		return "/ajax/mercury/unread_threads.php?dpr=1";
-
-	case REQUEST_THREAD_INFO: // ok, 17.8.2016
-		return "/ajax/mercury/thread_info.php?dpr=1";
-
-	case REQUEST_THREAD_SYNC: // TODO: This doesn't work anymore
-		return "/ajax/mercury/thread_sync.php?__a=1";
-
-	default:
-		return "/?_fb_noscript=1";
-	}
-}
-
-bool facebook_client::notify_errors(RequestType request_type)
-{
-	switch (request_type)
-	{
-	case REQUEST_MESSAGES_SEND:
-		return false;
-
-	default:
-		return true;
-	}
-}
-
-NETLIBHTTPHEADER *facebook_client::get_request_headers(int request_type, int *headers_count)
-{
-	if (request_type == REQUEST_POST)
-		*headers_count = 5;
-	else
-		*headers_count = 4;
-
-	NETLIBHTTPHEADER *headers = (NETLIBHTTPHEADER*)mir_calloc(sizeof(NETLIBHTTPHEADER)*(*headers_count));
-
-	if (request_type == REQUEST_POST) {
-		headers[4].szName = "Content-Type";
-		headers[4].szValue = "application/x-www-form-urlencoded; charset=utf-8";
-	}
-
-	headers[3].szName = "Cookie";
-	headers[3].szValue = load_cookies();
-	headers[2].szName = "User-Agent";
-	headers[2].szValue = (char *)g_strUserAgent.c_str();
-	headers[1].szName = "Accept";
-	headers[1].szValue = "*/*";
-	headers[0].szName = "Accept-Language";
-	headers[0].szValue = "en,en-US;q=0.9";
-
-	return headers;
-}
 
 std::string facebook_client::get_newsfeed_type()
 {
@@ -1230,7 +1017,7 @@ int facebook_client::send_message(int seqid, MCONTACT hContact, const std::strin
 {
 	handle_entry("send_message");
 
-	boolean isChatRoom = parent->isChatRoom(hContact);
+	bool isChatRoom = parent->isChatRoom(hContact);
 
 	ptrA userId( parent->getStringA(hContact, FACEBOOK_KEY_ID));
 	ptrA threadId( parent->getStringA(hContact, FACEBOOK_KEY_TID));

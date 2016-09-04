@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 class GetFriendshipsRequest : public HttpRequest
 {
 public:
-	GetFriendshipsRequest(boolean mobileBasicWorks) :
+	GetFriendshipsRequest(bool mobileBasicWorks) :
 		HttpRequest(REQUEST_GET, FORMAT, "%s/friends/center/requests/", mobileBasicWorks ? FACEBOOK_SERVER_MBASIC : FACEBOOK_SERVER_MOBILE)
 	{
 		flags |= NLHRF_REDIRECT;
@@ -40,7 +40,7 @@ public:
 class UserInfoRequest : public HttpRequest
 {
 public:
-	UserInfoRequest(facebook_client *fc, const LIST<const char> &userIds) :
+	UserInfoRequest(facebook_client *fc, const LIST<char> &userIds) :
 		HttpRequest(REQUEST_POST, FACEBOOK_SERVER_REGULAR "/chat/user_info/")
 	{
 		Url
